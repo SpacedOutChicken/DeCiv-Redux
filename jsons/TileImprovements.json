@@ -222,14 +222,14 @@
 		"name": "Citadel",
 		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"]
 	},	
-	
-	{ "name": "Ancient ruins" },
+	{ "name": "City center", "uniques": ["Unpillagable"] }
+	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },
 	{ "name": "City ruins", 
 	
-		"uniques": ["Gives a defensive bonus of [10]%"]
+		"uniques": ["Gives a defensive bonus of [10]%","Unpillagable"]
 	},
 	
 	{ "name": "Barbarian encampment", 
-		"uniques": ["Gives a defensive bonus of [50]%"]
+		"uniques": ["Gives a defensive bonus of [50]%","Unpillagable"]
 	}
 ]
