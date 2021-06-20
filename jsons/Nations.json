@@ -184,7 +184,7 @@
 		"innerColor": [150,254,150],*/
 		"style": "Military",
 		"uniqueName": "Hills Have Eyes",
-		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","No Maintenance costs for improvements in Hills",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","No Maintenance costs for improvements in [Hill] tiles",
 					"[Low Tech] units gain the [Guerilla Warfare I] promotion","[Personnel] units gain the [Guerilla Warfare I] promotion",
 					"Starts with [Redomestication]"],
 		"cities": ["The Enclave","Farnham's Freehold","Minuteman Ridge","Cooper's Corner","Rattlesnake Hill","Rawles' Retreat",
@@ -209,7 +209,7 @@
 		"innerColor": [255,210,110],
 		"style": "Gang",
 		"uniqueName": "Regulators",
-		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","+1 Sight for all land military units","City-State Influence recovers at twice the normal rate",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","+[1] Sight for all [{Military} {Land}] units","City-State Influence recovers at twice the normal rate",
 			"[Personnel] units gain the [Clansman] promotion"],
 		"cities": ["Xanadu","Gomorrah","Diamond City","Chance Springs","The Den","Ransom","Joker","Fortune","Golden Toad","Beaksville",
 			"Lucky 76","Horseshoe","Diablo Peak","Malachite","Wildcard","Paradise","Genting","House Rules","Loki","Straight Flush","Five Aces"]
