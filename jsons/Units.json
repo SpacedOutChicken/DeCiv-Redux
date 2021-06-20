@@ -13,7 +13,7 @@
 		"cost": 600,
 	//	"requiredTech": "Avionics",
 		"requiredResource": "Uranium",
-        "uniques": ["Nuclear weapon","Will not be displayed in Civilopedia","Unbuildable"],
+        "uniques": ["Nuclear weapon","Will not be displayed in Civilopedia","Unbuildable","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -26,7 +26,7 @@
 		"cost": 600,
 		"requiredTech": "Gyroscopes",
 		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon","Requires [Manhattan Project]"],
+		"uniques": ["Nuclear weapon","Requires [Manhattan Project]","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -39,7 +39,7 @@
 		"cost": 1000,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon","Requires [Manhattan Project]"],
+		"uniques": ["Nuclear weapon","Requires [Manhattan Project]","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	
@@ -1292,7 +1292,7 @@
 	{
 		"name": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8-]turn golden age","Can construct [Settlement]", "Great Person - [Culture]", "Unbuildable"],
+		"uniques": ["Can start an [8]-turn golden age","Can construct [Settlement]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},		
 	{
@@ -1300,7 +1300,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Great Artist",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8-]turn golden age","Can construct [Oracle]", "Great Person - [Culture]","Uncapturable","Unbuildable"],
+		"uniques": ["Can start an [8]-turn golden age","Can construct [Oracle]", "Great Person - [Culture]","Uncapturable","Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1312,7 +1312,8 @@
 	{
 		"name": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Can start an [8]-turn golden age","Can construct [Settlement]", "Great Person - [Gold]", "Unbuildable"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Can start an [8]-turn golden age",
+			    "Can construct [Settlement]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1320,7 +1321,8 @@
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Invisible to others","Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence","Can start an [8]-turn golden age","Can construct [Narcotics farm]", "Great Person - [Gold]", "Unbuildable"],
+		"uniques": ["Invisible to others","Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+			    "Can start an [8]-turn golden age","Can construct [Narcotics farm]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1328,7 +1330,8 @@
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Can start an [8]-turn golden age","Can construct [Prison farm]", "Great Person - [Gold]", "Unbuildable"],
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence","Can start an [8]-turn golden age",
+			    "Can construct [Prison farm]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
 	{
@@ -1348,7 +1351,8 @@
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can build improvements on tiles","Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%","Can construct [Prison farm]","Great Person - [War]","Unbuildable"],
+		"uniques": ["Can build improvements on tiles","Can start an [8]-turn golden age","Bonus for units in 2 tile radius 15%","Can construct [Prison farm]",
+			    "Great Person - [War]","Unbuildable"],
 		"movement": 2
 	},		
 	{
@@ -1374,7 +1378,8 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",		
-		"uniques": ["Personnel","+[50]% Strength vs [Low Tech]","-[25]% Strength vs [City]","No defensive terrain bonus","Can move after attacking","Will not be displayed in Civilopedia","Can move after attacking","+10 HP when healing"],
+		"uniques": ["Personnel","+[50]% Strength vs [Low Tech]","-[25]% Strength vs [City]","No defensive terrain bonus","Can move after attacking",
+			    "Will not be displayed in Civilopedia","Can move after attacking","+10 HP when healing"],
 		"promotions": ["Forage","Raider","Skirmish","March"],
 		"hurryCostModifier": 20
 	},	
@@ -1558,7 +1563,8 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Helicopter",	
 		"uniques": ["Will not be displayed in Civilopedia","-[25]% Strength vs [Armor]","Can move after attacking",
-		"Amphibious","Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles","May withdraw before melee ([100]%)","Requires [Alma Air Base]"],
+		"Amphibious","Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles",
+			    "May withdraw before melee ([100]%)","Requires [Alma Air Base]"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},	
