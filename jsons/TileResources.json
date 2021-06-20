@@ -22,7 +22,7 @@
 	{
 		"name": "Tubers",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Toxic Waste","Plains","Tundra","Grassland"],
+		"terrainsCanBeFoundOn": ["Marsh","Plains","Tundra","Grassland"],
 		"food": 1,
 		"revealedBy": "Botany",
 		"improvement": "Farm",
@@ -32,7 +32,7 @@
 	{
 		"name": "Scrap",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Toxic Waste","Plains","Tundra","Grassland"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Grassland"],
 		"production": 1,
 		"improvement": "Salvage site",
 		"improvementStats": {"production": 1}
@@ -48,7 +48,7 @@
 	{
 		"name": "Insects",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Toxic Waste","Fallout"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh","Fallout"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"food": 1}
@@ -56,7 +56,7 @@
 	{
 		"name": "Plastics",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Toxic Waste","Plains","Tundra","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Hill","Grassland"],
 	//	"food": -1,
 		"production": 1,
 		"improvement": "Salvage site",
@@ -131,7 +131,7 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Writing",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Toxic Waste","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Marsh","Grassland"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"food": -1,"production": 2}
@@ -195,7 +195,7 @@
 		"name": "Water",
 		"resourceType": "Luxury",
 		"revealedBy": "Radar",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Tundra","Toxic Waste","Snow"],
+		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Tundra","Marsh","Snow"],
 		"improvement": "Water pump",
 		"improvementStats": {"gold": 1}
 	},	
@@ -256,7 +256,7 @@
 		"name": "Fungus",
 		"resourceType": "Luxury",
 	//	"revealedBy": "Botany",
-		"terrainsCanBeFoundOn": ["Hill","Toxic Waste","Jungle"],
+		"terrainsCanBeFoundOn": ["Hill","Marsh","Jungle"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"culture": 1}
@@ -264,7 +264,7 @@
 	{
 		"name": "Hostile Fauna",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
+		"terrainsCanBeFoundOn": ["Marsh", "Fallout"],
 		"food": 1,
 	//	"revealedBy": "Redomestication",
 		"improvement": "Camp",

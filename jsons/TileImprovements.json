@@ -159,7 +159,7 @@
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 15,
-		"terrainsCanBeBuiltOn": ["Toxic Waste"],
+		"terrainsCanBeBuiltOn": ["Marsh"],
 		"techRequired": "Decontamination",
 		"uniques": ["Can be built outside your borders"]
 	},
