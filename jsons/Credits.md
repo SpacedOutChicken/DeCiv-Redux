@@ -1,0 +1,1 @@
+https://thenounproject.com/term/entrepreneur/2338644/

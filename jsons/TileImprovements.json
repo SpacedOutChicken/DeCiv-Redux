@@ -1,0 +1,235 @@
+[	
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered","Can also be built on tiles adjacent to fresh water","[+1 Food] once [Land Remediation] is discovered"]
+	},
+
+	{
+		"name": "Tree plantation",
+		"terrainsCanBeBuiltOn": ["Grassland","Tundra"],
+		"production": 1,
+	//	"gold": -1,
+		"turnsToBuild": 8,
+		"techRequired": "Ecology",
+		"uniques": ["Gives a defensive bonus of [10]%","[+1 Food, -1 Gold] on [fresh water] tiles once [Ecology] is discovered","[+1 Food, +1 Production] once [Land Remediation] is discovered"]
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] once [Steam Power] is discovered","[+1 Production] once [Railroad] is discovered"]
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 7,
+		"techRequired": "Redomestication",
+		"uniques": ["[+1 Food] once [Genetics] is discovered"]
+	},
+
+	{
+		"name": "Moisture trap",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Forest","Jungle","Flood plains","Tundra","Snow"],
+		"gold": 1,
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Gold] once [Plastics] is discovered"]
+	},
+	{
+		"name": "Solar collector",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"turnsToBuild": 14,
+		"techRequired": "Electronics",
+		"uniques": ["Provides [1] [Power]"]
+	},
+	{
+		"name": "Wind farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 10,
+		"techRequired": "Steel",
+		"uniques": ["Provides [1] [Power]","Can only be built on Coastal tiles"]
+	},
+	/*{
+		"name": "Tidal generator",
+		"turnsToBuild": 10,
+		"techRequired": "Steam Power",
+		"uniques": ["Provides [1] [Power]","Can only be built on Coastal tiles"]// should be  a water improvment
+	},*/
+	// Resource-specific
+	{
+		"name": "Research site",
+		"resourceTerrainAllow": ["Forest","Jungle"],
+		"turnsToBuild": 7,
+		"techRequired": "Secrets of the Past",
+		"uniques": ["[+1 Science] once [Computers] is discovered"]
+	},	
+	{
+		"name": "Hacking site",
+		"resourceTerrainAllow": ["Forest","Jungle"],
+		"turnsToBuild": 7,
+		"techRequired": "Decryption",
+		"uniques": ["[+3 Science] once [Artificial Intelligence] is discovered"]
+	},
+	{
+		"name": "Salvage site",
+		"resourceTerrainAllow": ["Forest","Jungle"],
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Production] once [Manufacturing] is discovered"]
+	},
+	{
+		"name": "Water pump",
+		"terrainsCanBeBuiltOn": ["Spring"],
+		"gold": 3,
+		"turnsToBuild": 7,
+		"techRequired": "Iron Working",
+		"uniques": ["[+1 Gold] once [Decontamination] is discovered"]
+	},	
+	{
+		"name": "Camp",
+		"resourceTerrainAllow": ["Forest","Jungle"],
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Food] once [Genetics] is discovered"]
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Machinery",
+		"uniques": ["Provides [1] [Oil]"]
+	},
+	{
+		"name": "Energy farm",
+		"gold": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Biology",
+		"uniques": ["Can also be built on tiles adjacent to fresh water","Provides [1] [Oil]"]
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"techRequired": "Sailing"
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": ["Gives a defensive bonus of [50]%","Can be built outside your borders"]
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "Construction",
+		"uniques": ["Can be built outside your borders","Costs [1] gold per turn when in your territory"]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 10,
+		"techRequired": "Railroad",
+		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"]
+	},
+	
+	// Removals
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"techRequired": "Construction",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 12,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		"techRequired": "Decontamination",
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 15,
+		"terrainsCanBeBuiltOn": ["Toxic Waste"],
+		"techRequired": "Decontamination",
+		"uniques": ["Can be built outside your borders"]
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"]
+	},
+	
+	// Great Person improvements
+{
+		"name": "Academy",
+		"science": 4,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%", "[+2 Science] once [Electronics] is discovered", "[+2 Science] once [Decryption] is discovered"]
+	},
+	{
+		"name": "Settlement",
+		"gold": 1,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%", "[+1 Science] for each adjacent [Jungle]","[+1 Food] for each adjacent [Farm]", "[+1 Gold] once [Currency] is discovered", "[+1 Culture] once [Civil Service] is discovered"]
+	},	
+	{
+		"name": "Outpost", 
+		"uniqueTo": "Cult of Ignis",
+		"production": 2,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [50]%","Deal 30 damage to adjacent enemy units","Provides [1] [Slaves]"]
+	},
+	{
+		"name": "Narcotics farm",
+		"uniques": ["Great Improvement","Provides [1] [Narcotics]"]
+	},
+	{
+		"name": "Prison farm",
+		"uniques": ["Great Improvement","Provides [1] [Slaves]","[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered","[+1 Food] once [Land Remediation] is discovered","Cannot be built on bonus resource"]
+	},
+	{
+		"name": "Oracle",
+		"uniqueTo": "Cult of Ignis",
+		"culture": 4,
+		"happiness": 1,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","Provides [1] [Oil]"]
+	},
+	{
+		"name": "Manufactory",
+		"production": 3,
+		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","[+1 Production] once [Steam Power] is discovered","[+1 Production] once [Railroad] is discovered","[+1 Production] once [Electronics] is discovered","[+1 Production] once [Robotics] is discovered"]
+	},
+
+	{
+		"name": "Citadel",
+		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"]
+	},	
+	
+	{ "name": "Ancient ruins" },
+	{ "name": "City ruins", 
+	
+		"uniques": ["Gives a defensive bonus of [10]%"]
+	},
+	
+	{ "name": "Barbarian encampment", 
+		"uniques": ["Gives a defensive bonus of [50]%"]
+	}
+]

@@ -1,0 +1,401 @@
+[
+	//Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+//		"innerColor": [255,255,255]
+	},
+	{				
+		"name": "Children of Rust",
+		"leaderName": "Scarlett",
+		"adjective": ["Scavenger"],
+		"startBias": ["Forest","Jungle"],
+		"preferredVictoryType": "Cultural",
+		
+		"startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Long have your people lived near the great and holy lake Ontario in the land that has come to be known as the New York state in North America. In the mists of antiquity, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida united into one nation, the Haudenosaunee, the Iroquois. With no written language, the wise men of your nation created the great law of peace, the model for many contitutions including that of the United States. For many years, your people battled great enemies, such as the Huron, and the French and English invaders. Tought outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Iroquois survived and prospered, until they were finally overwhelmed by the mighty armies of the new United States.",
+		"startIntroPart2": "Oh noble Hiawatha, listen to the cries of your people! They call out to you to lead them in peace and war, to rebuild the great longhouse and unite the tribes once again. Will you accept this challenge, great leader? Will you build a civilization that will stand the test of time?",
+		"declaringWar": "Now you will reap what you have sown.",
+		"attacked": "We never expected that you could leave us to live in peace. Destruction is in your blood.",
+		"defeated": "Your legacy is nothing but death.",
+		"introduction": "So, you have returned! While the world died, what hole did you hide in? The cities you left behind are our inheritance.",
+		"neutralHello": "I speak for the Children.",
+		"hateHello": "What will it take? When the last tree has burned and the last child has starved, will you then be satisfied, great leader?",
+		"tradeRequest": "This is the property now of the Children. What price will you pay?",
+		"outerColor": [116,67,5],
+		"innerColor": [219,219,126],
+		"style": "",
+		"uniqueName": "Rubble Runners",
+		"uniques": ["[Low Tech] units gain the [Urban Warfare I] promotion","[Personnel] units gain the [Urban Warfare I] promotion",
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
+			"Starts with [Redomestication]"],
+		"cities": ["Phoenix","Rust City","The Boneyard","Old Forest","Dogtown","Soft Rains","Ashville","Condor Creek","Hazard",
+			"Radium Springs","Osprey","Vulture Bend","Dark Skies","Pistolville","Headstone","Firesteel","Broken Hills","Deadwood",
+			"Hopeville","Buzzard Vista","Dustbowl","Rakeville","Rock Falls","Kismet","Waterville"
+			]
+	},
+	{
+		"name": "Blackwarden",
+		"leaderName": "Eric Price",
+		"adjective": ["Mercenary"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "May the blessings of the gods be upon you, oh great King Alexander! You are the ruler of the mighty Greek nation. Your people lived for so many years in isolated city-states - legendary cities such as Athens, Sparta, Thebes - where they gave the world many great things, such as democracy, philosophy, ragedy, art and architecture, the very foundation of Western Civilization. Although few in number and often hostile to each other, in the 5th century BC they were able to defeat their much larger neighbor, Persia, on land and sea.",
+		"startIntroPart2": "Alexander, your people stand ready to march to war, to spread the great Greek culture to millions and to bring you everlasting glory. Are you ready to accept your destiny, King Alexander? Will you lead your people to triumph and greatness? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "It's time for you to join the Blackwarden family.",
+		"attacked": "Competitiveness? It's one of our core values.",
+		"defeated": "I'm sure we can come to an agreement. Let me send you my resume.",
+		"introduction": "You've reached the office of Eric Price, VP of mergers and acquisitions, Blackwarden, incorporated. Here at Blackwarden, the comfort and security of our shareholders is our number one priority.",
+		
+		"neutralHello": "Greetings!",
+		"hateHello": "What?",
+		
+		"tradeRequest": "This is a great opportunity for you. It would be unwise to refuse.",
+				
+		"outerColor": [100,170,210],
+		"innerColor": [42, 42, 70],
+		"style": "Corporate",
+		"uniqueName": "Limited Liability",
+		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","City-State Influence recovers at twice the normal rate",
+			"Starts with [Writing]","Starts with [Construction]","Starts with [Machinery]","Starts with [Electronics]","[-2 Science] per turn from cities before [Education]"],
+		"cities": ["Ark One","Vanguard","New Haven","Competitor View","Prosperity Plaza","Break Even","Spearhead",
+			"Profit Margin","Searchlight","Carte Blanche","Jackalsville","Horwich Green","Laissez's Fair",
+			"Hard Cash","Innovation","Conflict of Interest","Sunk Cost","Forbes","Cornucopia"]
+	},
+
+	{
+		"name": "Atlas",
+		"leaderName": "John Kruger",
+		"adjective": ["Corporate"],
+	//	"startBias": ["Avoid Desert"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "May the blessings of heaven be upon you, O great Nebuchadnezzar, father of mighty and ancient Babylon! Young was the world when Sargon built Babylon some five thousand years ago, long did it grow and prosper, gaining its first empire the eighteenth century BC, under godlike Hammurabi, the giver of law. Although conquered by the Kassites and then by the Assyrians, Babylon endured, emerging phoenix-like from its ashes of destruction and regaining its independence despite its many enemies. Truly was Babylon the center of arts and learning in the ancient world. O Nebuchadnezzar, your empire endured but a short time after your death, falling to the mighty Persians, and then to the Greeks, until the great city was destroyed by 141 BC.",
+		"startIntroPart2": "But is Babylon indeed gone forever, great Nebuchadnezzar? Your people look to you to bring the empire back to life once more. Will you accept the challenge? Will you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "All that is required for the triumph of evil is for good men to do nothing.",
+		"attacked": "You're breaking the non-aggression principle!",
+		"defeated": "It is our wealth that you use while destroying us.",
+		"introduction": "I'm John Kruger, CEO of the Atlas Corporation. I thought we were the sole outpost of civilization in a world ruled by barbarism.",
+		
+		"neutralHello": "This is John Kruger speaking.",
+		"hateHello": "I do not share your evil or sink to your concept of morality.",
+		
+		"tradeRequest": "Free trade is the only fair trade.",
+				
+		"outerColor": [0,255,255],
+		"innerColor": [45,60,120],
+		"style": "Corporate",
+		"uniqueName": "Creative Leadership",
+		"uniques": ["Receive free [Great Scientist] when you discover [Secrets of the Past]","+[33]% great person generation in all cities",
+			"Starts with [Writing]","Starts with [Construction]","Starts with [Machinery]","Starts with [Electronics]","[-2 Science] per turn from cities before [Education]"],
+		"cities": ["Atlas Canyon","Praxis","Opportunity","Enterprise Gardens","Pareto Estates","Hanlon College","The Reservation",
+			"Zakharov Campus","Curiosity","Progress Estates","New Horizon","Dunning Institute","Kruger Laboratories","Apogee",
+			"Hypothesis","Axiom","Euclid Center","Prometheus Laboratories","Zenith","Von Neumann Institute"]
+	},
+	
+	{
+		"name": "Commonwealth",
+		"leaderName": "President Hawkins",
+		"adjective": ["Commonwealth"],
+		"startBias": ["Avoid Desert"],
+		"preferredVictoryType":"Cultural",
+		
+		"startIntroPart1": "Greetings to you, Great King Ramkhamhaeng, leader of the glorious Siamese people! O mighty King, your people bow down before you in awe and fear! You are the ruler of Siam, an ancient country in the heart of Southeast Asia, a beautiful and mysterious land. Surrounded by foes, beset by bloody war and grinding poverty, the clever and loyal Siamese people have endured and trumphed. King Ramkhamhaeng, your empire was once part of the Khmer Empire, until the 13th century AD, when your ancestors revolted, forming the small Sukhothai kingdom. Through successful battle and cunning diplomacy, the tiny kingdom grew into a mighty empire, an empire which would dominate South East Asia for more than a century!",
+		"startIntroPart2": "Oh, wise and puissant King Ramkhamhaeng, your people need you to once again lead them to greatness! Cann you use your wits and strenght of arms to protect your people and defeat your foes? Can you build a civilization that will stand the test of time?",
+	
+		"declaringWar": "We must take action now, before it is too late.",
+		"attacked": "You only repeat the mistakes of the past!",
+		"defeated": "Now, the responsibility falls to you...",
+		"introduction": "Welcome to the Commonwealth. I am the elected President, Estelle Hawkins. Take heart. Together, we can rebuild our civilization.",
+		"neutralHello": "Welcome.",
+		"hateHello": "Greetings.",
+		"tradeRequest": "Greetings. I believe this is a fair proposal for both parties. What do you think?",
+		"outerColor": [255,255,255],
+		"innerColor": [200,0,70],
+		"style": "",
+		"uniqueName": "Mutual Assistance",
+		"uniques": ["Food and Culture from Friendly City-States are increased by 50%","[Great General] is earned [-33]% faster",
+			"Starts with [Redomestication]"],
+		"cities": ["Union City","Accord","Inheritance","Junction","Wellspring","Fall's End","Highpool","Constitution","Hope Commons","Clearwater",
+			"Mercywell","Sunrise","Dead Forest","Gallows Bend","Arefu","Rocket Falls","Monument","Broken Sword","Concordia","Splendid",
+			"Iron Springs","Prudence","Hawkins","Stonefields","Harmony","Fitzroy Bluff","Hangman Valley","Portville","Hamelin","High Gate"
+			]
+	},
+	{
+		"name": "The Patriots",
+		"leaderName": "General Cameron",
+		"adjective": ["Patriot"],
+		"startBias": ["Avoid Desert"],
+		"preferredVictoryType": "Domination",
+	
+		"startIntroPart1": "Greetings upon thee, Your Imperial Majesty Catherine, wondrous Empress of all the Russias. At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
+		"startIntroPart2": "Catherine, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You're either with us, or you're with the terrorists.",
+		"attacked": "Disperse immediately. Insurrection and rebellion will be met with lethal force.",
+		"defeated": "We today have concluded an agreement to end the war and bring peace with honor.",
+		"introduction": "This is General Cameron of the Army. A state of emergency is currently in effect across the nation. Military authorities are authorized to summarily enforce order, in accordance with martial law. Maintain your shelters and await further instructions.",
+		"neutralHello": "A water tax of 25% is in place for all municipalities to support disaster relief efforts and the restoration of government.",
+		"hateHello": "A special water tax rate of 33% is in place for your municipality. You are additionally required to surrender all military weapons.",
+		"tradeRequest": "The Emergency Management Agency has prepared this aid package for your district.",
+		"outerColor": [ 40, 178, 0],
+		"innerColor": [100,50,30],
+		"style": "Military",
+		"uniqueName": "Military Secrets",
+		"uniques": ["Double quantity of [Encrypted Data] produced","Double quantity of [Weapons] produced","+[300]% Production when constructing [Ground Control Center]",
+			"Starts with [Writing]","Starts with [Construction]","Starts with [Machinery]","Starts with [Electronics]","Starts with [Avionics]","[-2 Science] per turn from cities before [Education]"],
+		"cities": ["Eagle Rock","Fort Patriot","Valiant Base","Camp Fidelis","Fort Endurance","Camp Freedom","Sentinel Field",
+			"Camp Hammer","Camp Justice","Fort Victory","Fort Crockett","Sparta Base","Arclight Station","Overwatch Base",
+			"Fort Challenger","Fort Cameron","Thunder Outpost","Cobalt Base","Camp Shield","Fort Granite","Liberator Station","Camp Dawn"
+			]
+	},
+	{
+		"name": "Enclavers",
+		"leaderName": "Timothy D. West",
+		"adjective": ["Survivalist"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Scientific",
+		
+		"startIntroPart1": "Oh ye who remakes the world, your loyal subjects greet you, King Pachacuti Sapa Inca, ruler of Tawantinsuyu and the Inca people! From the beginnings in the small state of Cusco, the Incans displayed their potential for greatness, marching to war against their many enemies, crushing their armies into dust and carving for themselves a mighty empire stretching from Ecuador to Chile. Indeed, they build the greatest empire ever seen in all pre-Columbian Americas. More than mere soldiers, your people were great builders and artists as well, and the remnants of their works still awe and inspire the world today.",
+		"startIntroPart2": "Oh King Pachacuti, truly are you called 'Earth Shaker'! Will you once again call upon the ground itself to a fight at your side? Your armies await your signal. Will you restore the glory of your empire? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "Not on our watch!",
+		"attacked": "You'll have to take it from our cold, dead hands!",
+		"defeated": "You can never take my freedom!",
+		"introduction": "I'm Timothy D. West, First Citizen of the Enclave. You are welcome to trade here as long as you respect our rights. We'll be watching.",
+		
+		"neutralHello": "How's it going, neighbour?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "Don't make any sudden moves.",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Viracocha has frowned upon our war, and has agreed to our peace agreements.",
+		"tradeRequest": "Let's make a fair trade, as equals.",
+				
+		"outerColor": [252,227,0],
+		"innerColor": [54,72,72],
+		/*"outerColor": [0,87,0],
+		"innerColor": [150,254,150],*/
+		"style": "Military",
+		"uniqueName": "Hills Have Eyes",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills","No Maintenance costs for improvements in Hills",
+					"[Low Tech] units gain the [Guerilla Warfare I] promotion","[Personnel] units gain the [Guerilla Warfare I] promotion",
+					"Starts with [Redomestication]"],
+		"cities": ["The Enclave","Farnham's Freehold","Minuteman Ridge","Cooper's Corner","Rattlesnake Hill","Rawles' Retreat",
+			"Sagebrush Valley","Cobb's Ranch","Stephens' Shelter","The Alamo","Saxon Farm","Pugsley's Haven","Browne's Trail",
+			"Oathkeeper Watch","Jellison Ranch","Boyd's Retreat","Tappan Farm","Skousen Ranch","30-50 Feral Hogs"
+			]
+	},
+	{
+		"name": "Deadrock Clan",
+		"leaderName": "Boss Karl",
+		"adjective": ["Regulator"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+		"declaringWar": "You are mine!",
+		"attacked": "As you were warned, if you dare mess with any one of us, you're messing with me, and my entire Clan!",
+		"defeated": "You think this is over? You had better watch your back...",
+		"introduction": "Greetings from the Deadrock Clan, and its Great Father Karl. Just a friendly reminder: Never touch our secrets, never mess with us, or you'll be dead in no time.",
+		"neutralHello": "This is the encrypted channel of Deadrock Clan.",
+		"hateHello": "You're on our blacklist now. Think twice before you want to do anything with my Clan.",
+		"tradeRequest": "Let's talk about some business affairs.",
+		"outerColor": [92,32,92],
+		"innerColor": [255,210,110],
+		"style": "Gang",
+		"uniqueName": "Regulators",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment","+1 Sight for all land military units","City-State Influence recovers at twice the normal rate",
+			"[Personnel] units gain the [Clansman] promotion"],
+		"cities": ["Xanadu","Gomorrah","Diamond City","Chance Springs","The Den","Ransom","Joker","Fortune","Golden Toad","Beaksville",
+			"Lucky 76","Horseshoe","Diablo Peak","Malachite","Wildcard","Paradise","Genting","House Rules","Loki","Straight Flush","Five Aces"]
+	},
+	{
+		"name": "Crimson Legion",
+		"leaderName": "Caesar",
+		"adjective": ["Legion"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
+		"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Rome once again center of the world? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You have stood in the way of progress for too long.",
+		"attacked": "Do you really believe that you can stand against the tide of history?",
+		"defeated": "You have the strength to prevail. So be it.",
+		"introduction": "Hail. I am Caesar, son of Mars, Consul of the Crimson Legion. Have you come to pay tribute?",
+		"neutralHello": "Hail.",
+		"hateHello": "Your misplaced ideals make you weak.",
+		"tradeRequest": "I offer this, for your consideration.",
+		"outerColor": [153,5,3],
+		"innerColor": [244,232,54],
+		"style": "Legion",
+		"uniqueName": "One Banner",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment", "-[33]% [Land] unit maintenance costs",
+			"Starts with [Redomestication]","[-1 Science] per turn from cities before [Writing]"],
+		"cities": ["Postumus","Rubicon","Dies Irae","Tartarus","Aqua Vitae","Damocles","De Facto","Vae Victis","Golgotha",
+			"Mors Omnibus","Carthage","Lex Talionis","Kronos","Extrema Ratio","Igni Ferroque","Tycho","Memento Mori","Orcus",
+			"Ex Nihilo","Para Bellum","Styx","Manu Forte","Elysium","Alea Iacta Est","Corpus Vile","Canis Canem Edit","Ad Astra"
+		]
+	},	
+	{
+		"name": "Cult of Ignis",
+		"leaderName": "Ignitor Martina",
+		"adjective": ["Cult"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "Greetings, o great Temujin, immortal emperor of the mighty Mongol Empire! Your fists shatter walls of cities and your voice brings despair to your enemies. O Khan! You united the warring tribes of Northern Asia into a mighty people, creating the greatest cavalry force the world has ever witnessed. Your people's cunning diplomacy divided their enemies, making them weak and helpless before Mongolia's conquering armies. In a few short years, your people soldiers conquered most of China and Eastern Asia, and the empire continued to grow until it reached west into Europe and south to Korea. Indeed, it was the greatest empire ever seen, dwarfing those pathetic conquests of the Romans of the Greeks.",
+		"startIntroPart2": "Temujin, your people cann upon you once more to lead them to battle and conquest. Will the world once again trembe at the thunderous sound of your cavalry, sweeping down from the steppes? Will you build a civilization that stands the test of time?",
+
+		"declaringWar": "Rejoice! Your profane forms will soon become one with the Exhaust!",
+		"attacked": "Your offering is welcome! We shall oxidize together in blessed combustion!",
+		"defeated": "Though our worldly bodies fail, our spirits soar through the skies in oxides immortal... ",
+		"introduction": "The sybil has foreseen this meeting! I am Martina, Ignitor and High Priest. I serve the Divine Engine, and so too shall you.",
+		"neutralHello": "In the name of the trinity, I permit your words be heard.",
+		"hateHello": "You risk the wrath of the Flame.",
+		"tradeRequest": "You may yet serve the Engine...",
+		"outerColor": [255,150,0],
+		"innerColor": [0,0,0],
+		"style": "Ignis",
+		"uniqueName": "Road Warriors",
+		"uniques": ["-[33]% [Armor] unit maintenance costs","Starts with [Machinery]","[+2 Culture] from every [Strategic Resource]","+[10]% [Culture] from every [Coal Plant]","[-1 Science] per turn from cities before [Writing]"],
+		"cities": ["Gastown","Blood Farm","Trial of Sand","Prophecy","Thousand Cuts","The Harrowing","Temple of Rage","Immortal Highway",
+			"Tohuvabohu","Forbidden Palace","Hanging Gardens","Megiddo","The Cauldron","Traitors' Gate","Hell Patrol","Steel Throne","The Warren",
+			"Well of Souls","Hermitage","Ceremony","Court of Dreams","Perpetual Ascension","Death Race","God Box"
+			]
+	},
+
+
+	//City-States
+	{
+		"name": "The Archive",
+		"adjective": ["Archive"],
+		"cityStateType": "Cultured",
+		"style": "Corporate",
+		"uniques": ["Starts with [Writing]","Starts with [Electronics]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "We shall not go gentle into that good night!",
+		"defeated": "After us, the deluge...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,180,250],
+		"cities": ["The Archive"]
+	},	
+	{
+		"name": "Order of Jerome",
+		"adjective": ["Order"],
+		"cityStateType": "Cultured",
+		"style": "",
+		"uniques": ["Starts with [Writing]","Starts with [Electronics]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "May you be forgiven.",
+		"defeated": "There is still time... Brother",
+		"outerColor": [0, 0, 0],
+		"innerColor": [143,24,53],
+		"cities": ["The Abbey"]
+	},
+	{
+		"name": "Bartertown",
+		"adjective": ["Bartertown"],
+		"cityStateType": "Mercantile",
+		"style": "Gang",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Two men enter, one man leaves!",
+		"defeated": "You run Bartertown.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [194,7,255],
+		"cities": ["Bartertown"]
+	},
+	{
+		"name": "Devil's Canyon",
+		"adjective": ["Devil's Canyon"],
+		"cityStateType": "Mercantile",
+		"style": "Corporate",
+		"uniques": ["Starts with [Writing]","Starts with [Rifling]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,50],
+		"cities": ["Devil's Canyon NPP"]
+	},
+	{
+		"name": "Arroyo",
+		"adjective": ["Arroyoan"],
+		"cityStateType": "Maritime",
+		"startBias": ["Hill"],
+		"style": "Tribal",
+		"uniques": ["Units fight as though they were at full strength even when damaged"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The spirits were willing, but the flesh was weak...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [115,95,60],
+		"cities": ["Arroyo"]
+	},
+	{
+		"name": "Ghost Mountain",
+		"adjective": ["Ghost Mountain"],
+		"cityStateType": "Maritime",
+		"startBias": ["Hill"],
+		"style": "Ghost",
+		"uniques": ["Units fight as though they were at full strength even when damaged","[Personnel] units gain the [Guerilla Warfare I] promotion","[Personnel] units gain the [Guerilla Warfare II] promotion","[Low Tech] units gain the [Guerilla Warfare I] promotion","[Low Tech] units gain the [Guerilla Warfare II] promotion","Units ignore terrain costs when moving into any tile with Hills"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "The spirits will fight at our side.",
+		"defeated": "We go to join the ancestors.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100,100,255],
+		"cities": ["Ghost Mountain"]
+	},
+	{
+		"name": "Almaty",
+		"adjective": ["Almaty"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+		"style": "Military",
+		"uniques": ["Double quantity of [Weapons] produced"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "How could we fall to the likes of you?!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [40,135,20],
+		"cities": ["Alma Base"]
+	},
+	{
+		"name": "Jericho",
+		"adjective": ["Jericho"],
+		"cityStateType": "Maritime",
+		"style": "",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"cities": ["Jericho"]
+	},
+	/*
+	{
+		"name": "The Hub",
+		"adjective": ["Hub"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Have you ever danced with the devil in the pale moonlight?",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100,100,220],
+		"cities": ["The Hub"]
+	},*/
+			        
+
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [182,0,0]
+	}
+	        	
+]

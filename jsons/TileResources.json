@@ -1,0 +1,316 @@
+[	
+	// Bonus resources
+	{
+		"name": "Wheat",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+
+	{
+		"name": "Algae",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	},	
+
+		
+	{
+		"name": "Tubers",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Toxic Waste","Plains","Tundra","Grassland"],
+		"food": 1,
+		"revealedBy": "Botany",
+		"improvement": "Farm",
+		"improvementStats": {"food": 1}
+	},
+
+	{
+		"name": "Scrap",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Toxic Waste","Plains","Tundra","Grassland"],
+		"production": 1,
+		"improvement": "Salvage site",
+		"improvementStats": {"production": 1}
+	},			
+	{
+		"name": "Metal",		//it comes from HELL
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert","Snow","Plains","Tundra","Grassland","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},	
+	{
+		"name": "Insects",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Toxic Waste","Fallout"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Plastics",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Toxic Waste","Plains","Tundra","Hill","Grassland"],
+	//	"food": -1,
+		"production": 1,
+		"improvement": "Salvage site",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Marine Plastics",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+	//	"food": -1,
+		"production": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Horses",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 2}
+	},
+
+	// Strategic resources
+	
+	{
+		"name": "Power",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"improvement": "Wind farm",
+		"improvementStats": {"production": 1},
+		"terrainsCanBeFoundOn": ["Hill"]														
+	//	"unique": "+[10]% Production when constructing [buildings]",
+	},
+	
+	{
+		"name": "Oil",
+		"resourceType": "Strategic",
+	//	"revealedBy": "Secrets of the Past",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast"],
+		"production": 1,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 1},
+		"building": "Oil Refinery"
+	},		
+	{
+		"name": "Slaves",
+		"resourceType": "Strategic",
+		"production": 1
+	//	"terrainsCanBeFoundOn": ["Settlement"],
+	},
+
+	{
+		"name": "Coal",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Strategic",
+		"revealedBy": "Writing",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Toxic Waste","Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": -1,"production": 2}
+	},	
+	{	
+		"name": "Weapons",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Jungle","Plains","Hill","Forest","Grassland"],
+	//	"culture": 1,
+		"improvement": "Salvage site",
+		"improvementStats": {"culture": 1}
+	},	
+
+
+	
+	//tech mining	
+	{
+		"name": "Books",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"science": 1,
+		"improvement": "Research site",
+		"improvementStats": {"science": 1}
+	},
+	{
+		"name": "Data",
+		"resourceType": "Luxury",
+		"revealedBy": "Electronics",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"improvement": "Research site",
+		"improvementStats": {"science": 2}
+	},
+	{
+	
+		"name": "Encrypted Data",
+		"resourceType": "Strategic",
+		"revealedBy": "Electronics",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"improvement": "Hacking site",
+		"improvementStats": {"science": 4},
+		"unique": "+15% production towards Wonder construction"
+	},
+	
+//luxury	
+	
+	{
+		"name": "Machinery",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"improvement": "Salvage site",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Electronics",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
+		"improvement": "Salvage site",
+		"improvementStats": {"science": 1}
+	},
+	{
+		"name": "Water",
+		"resourceType": "Luxury",
+		"revealedBy": "Radar",
+		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Tundra","Toxic Waste","Snow"],
+		"improvement": "Water pump",
+		"improvementStats": {"gold": 1}
+	},	
+	{
+		"name": "Soft Drinks",
+		"resourceType": "Luxury"
+	},	
+	{
+		"name": "Alcohol",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Harvested Organs",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Narcotics",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Refined Narcotics",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Cattle",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Goats",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains","Hill"],
+		"food": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Deer",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Tundra"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Furs",
+		"resourceType": "Luxury",
+	//	"revealedBy": "Redomestication",
+		"terrainsCanBeFoundOn": ["Tundra","Grassland","Jungle","Forest"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1}
+	},	
+	{
+		"name": "Fungus",
+		"resourceType": "Luxury",
+	//	"revealedBy": "Botany",
+		"terrainsCanBeFoundOn": ["Hill","Toxic Waste","Jungle"],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"culture": 1}
+	},	
+	{
+		"name": "Hostile Fauna",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
+		"food": 1,
+	//	"revealedBy": "Redomestication",
+		"improvement": "Camp",
+		"improvementStats": {"food": 2, "culture": 1, "science": 1}
+	},
+	{
+		"name": "Salt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill","Plains","Desert","Tundra"],
+	//	"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Artifacts",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle"],
+		"culture": 1,
+		"improvement": "Research site",
+		"improvementStats": {"culture": 1}
+	},
+	{
+		"name": "Marine Artifacts",
+		"resourceType": "Luxury",
+		"revealedBy": "Sailing",
+		"terrainsCanBeFoundOn": ["Atoll"],
+		"culture": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"culture": 1}
+	},
+	{
+		"name": "Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill"],
+	//	"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"culture": 1}
+	},
+	{
+		"name": "Silver",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Hill"],
+	//	"culture": 1,
+		"improvement": "Mine",
+		"improvementStats": {"culture": 1}
+	}
+	
+	
+]
