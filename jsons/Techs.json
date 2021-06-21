@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient era",
+		"era": "Decivilized era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
@@ -17,7 +17,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient era",
+		"era": "Decivilized era",
 		"techCost": 60, 
 		"buildingCost": 60,
 		"wonderCost": 125,
@@ -59,7 +59,7 @@
 	{
 	// level 2 - 
 		"columnNumber": 2,
-		"era": "Ancient era",
+		"era": "Decivilized era",
 		"techCost": 120, 
 		"buildingCost": 75,
 		"wonderCost": 185,
@@ -94,7 +94,7 @@
 	},
 	{
 		"columnNumber": 3,
-		"era": "Classical era",
+		"era": "Rediscovering era",
 		"techCost": 250, 
 		"buildingCost": 100,
 		"wonderCost": 250,
@@ -133,7 +133,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Classical era",
+		"era": "Rediscovering era",
 		"techCost": 425, 
 		"buildingCost": 120,
 		"wonderCost": 300,
@@ -163,7 +163,7 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Medieval era",
+		"era": "Neofeudal era",
 		"techCost": 650,
 		"buildingCost": 160,
 		"wonderCost": 400,
@@ -201,7 +201,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Medieval era",
+		"era": "Neofeudal era",
 		"techCost": 1000, 
 		"buildingCost": 200,
 		"wonderCost": 500,
@@ -244,7 +244,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "Renaissance era",
+		"era": "Rebuilding era",
 		"techCost": 1300, 
 		"buildingCost": 250,
 		"wonderCost": 625,
@@ -292,7 +292,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Renaissance era",
+		"era": "Rebuilding era",
 		"techCost": 2000, 
 		"buildingCost": 300,
 		"wonderCost": 750,
@@ -394,7 +394,7 @@
 	},
 	{
 		"columnNumber": 11,
-		"era": "Modern era",
+		"era": "Postmodern era",
 		"techCost": 4750,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -428,7 +428,7 @@
 	},
 	{
 		"columnNumber": 12,
-		"era": "Modern era",
+		"era": "Postmodern era",
 		"techCost": 5750,
 		"buildingCost": 500,
 		"wonderCost": 1250,
@@ -537,7 +537,7 @@
 	},
 	{
 		"columnNumber": 15,
-		"era": "Future era",
+		"era": "New Future era",
 		"techCost": 17500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -574,7 +574,7 @@
 	
 	{
 		"columnNumber": 16,
-		"era": "Future era",
+		"era": "New Future era",
 		"techCost": 25000,
 		"buildingCost": 750,
 		"wonderCost": 1250,
@@ -597,7 +597,7 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "Future era",
+		"era": "New Future era",
 		"techCost": 35000,
 		"buildingCost": 750,
 		"wonderCost": 1250,

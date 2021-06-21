@@ -62,11 +62,12 @@
 		"cost": 130
 	},*/
 	{
-		"name": "Settler",
+		"name": "Civilian Convoy",
 		"unitType": "Civilian",
 		"movement": 3,
 		"cost": 106,
-		"uniques": ["Founds a new city","Heal adjacent units for an additional 15 HP per turn"],
+		"uniques": ["Founds a new city","Heal adjacent units for an additional 15 HP per turn","Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},	
 	{
@@ -750,7 +751,7 @@
 		"rangedStrength": 35,
 		"cost": 300,
 		"requiredResource": "Weapons",		
-		"uniques": ["Personnel","+[20]% combat bonus in [Friendly Land]","[50]% Bonus XP gain","Can construct [Citadel]","Great Person - [War]","Unbuildable","[Great General] is earned [-33]% faster"],
+		"uniques": ["Personnel","+[20]% Strength in [Friendly Land]","[50]% Bonus XP gain","Can construct [Citadel]","Great Person - [War]","Unbuildable","[Great General] is earned [-33]% faster"],
 		"promotions": ["Reconnaissance I","Gas Mask"],
 		"attackSound": "shot"
 	},
@@ -1290,7 +1291,7 @@
 	
 	/* Great people */
 	{
-		"name": "Great Artist",
+		"name": "Great Administrator",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age","Can construct [Settlement]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
@@ -1298,7 +1299,7 @@
 	{
 		"name": "Great Prophet",
 		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great Artist",
+		"replaces": "Great Administrator",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age","Can construct [Oracle]", "Great Person - [Culture]","Uncapturable","Unbuildable"],
 		"movement": 2

@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Adaptation",
-		"era": "Ancient era",
+		"era": "Decivilized era",
 		"uniques": ["[+3 Culture] [in capital]", "-[25]% Culture cost of acquiring tiles [in all cities]"],
 		"policies": [
 			{
@@ -45,7 +45,7 @@
 	},
 	{
 		"name": "Expansionism",
-		"era": "Ancient era",
+		"era": "Decivilized era",
 		"uniques": ["[+1 Culture] [in all cities]"],
 		"policies": [
 			{
@@ -88,8 +88,7 @@
 	},
 	{
 		"name": "Sovereignty",
-		"era": "Ancient era",
-		"effect": "",
+		"era": "Decivilized era",
 		"uniques": ["+[25]% Strength vs [Barbarians]", "Earn [75]% of killed [Barbarian] unit's [Strength] as [Culture]", "Notified of new Barbarian encampments"],
 		"policies": [
 
@@ -135,7 +134,7 @@
 	},	
 	{
 		"name": "Legacy",
-		"era": "Modern era",
+		"era": "Postmodern era",
 		"uniques": ["Immediately creates a cheapest available cultural building in each of your first [4] cities for free"],
 		"policies": [
 			{
@@ -187,7 +186,7 @@
 	{
 		"name": "Monopoly",
 		"uniques": ["[Great Merchant] is earned [20]% faster","+[33]% [Gold] from every [Council]"],
-		"era": "Medieval era",
+		"era": "Neofeudal era",
 		"policies": [
 
 			{
@@ -231,7 +230,7 @@
 	},
 	{
 		"name": "Constitution",
-		"era": "Medieval era",
+		"era": "Neofeudal era",
 		"uniques": ["+[25]% great person generation in all cities"],
 		"policies": [
 			{
@@ -275,7 +274,7 @@
 	},
 	{
 		"name": "Supremacy",
-		"era": "Medieval era",
+		"era": "Neofeudal era",
 		"uniques": ["-[25]% [All] unit maintenance costs","+[33]% Production when constructing [Barracks]","+[33]% Production when constructing [Military Academy]"],
 		"policies": [
 
@@ -328,7 +327,7 @@
 	},
 {
 		"name": "Rationalism",
-		"era": "Modern era",
+		"era": "Postmodern era",
 		"uniques": ["Science gained from research agreements +[50]%"],
 		"policies": [
 			{

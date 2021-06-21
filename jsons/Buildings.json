@@ -262,14 +262,14 @@
 		"name": "Apollo Program",
 		"cost": 1500,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Aerospace Facility] in this city","Enables construction of Spaceship parts"],
+		"uniques": ["Requires a [Aerospace Facility] in this city","Enables construction of Spaceship parts","Triggers a global alert upon completion"],
 		"requiredBuilding": "Aerospace Facility",
 		"requiredTech": "Rocketry"
 	},	
 	{
 		"name": "Manhattan Project",
 		"isNationalWonder": true,
-		"uniques": ["Enables nuclear weapon"],
+		"uniques": ["Enables nuclear weapon","Triggers a global alert upon completion"],
 		"requiredTech": "Nuclear Fission"
 	},
 		{

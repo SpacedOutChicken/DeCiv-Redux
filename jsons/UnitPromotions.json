@@ -9,7 +9,7 @@
 	{
 		"name": "Reconnaissance I",
 		"prerequisites": ["March","Blitz","Extended Range","Medic II","Guerilla Warfare II","Urban Warfare II"],
-		"uniques": ["High speed, low drag","Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","-[50]% Strength vs [City]","Penalty vs units in open terrain 25%"],
+		"uniques": ["High speed, low drag","Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","-[50]% Strength vs [City]","+[-25]% Strength in [Open terrain]"],
 		"unitTypes": ["Melee","Mounted","Ranged","Scout"]
 	},		
 	{
@@ -66,7 +66,7 @@
 	},		
 	{
 		"name": "Shock",
-		"uniques": ["Bonus vs units in open terrain 25%"],
+		"uniques": ["+[25]% Strength in [Open terrain]"],
 		"unitTypes": ["Mounted","Armor"]
 	},
 	{
@@ -148,7 +148,7 @@
 		
 	{
 		"name": "Accuracy",
-		"uniques": ["Bonus vs units in open terrain 20%"],
+		"uniques": ["+[20]% Strength in [Open terrain]"],
 		"unitTypes": ["Siege"]
 	},	
 	{
@@ -159,7 +159,7 @@
 	{
 		"name": "Barrage",
 		"prerequisites": ["Accuracy","Combat Drill"],
-		"uniques": ["Bonus vs units in rough terrain 20%"],
+		"uniques": ["+[20]% Strength in [Rough terrain]"],
 		"unitTypes": ["Siege"]
 	},		
 	{
@@ -379,7 +379,7 @@
 	
 	{
 		"name": "Guerilla Warfare I",
-		"uniques": ["Bonus vs units in rough terrain 10%","Can move after attacking"],
+		"uniques": ["+[10]% Strength in [Rough terrain]","Can move after attacking"],
 		"unitTypes": ["Melee","Ranged","Mounted"]
 	},
 	{
