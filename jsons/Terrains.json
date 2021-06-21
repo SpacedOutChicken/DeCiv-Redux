@@ -142,7 +142,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"occursOn": ["Desert","Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Provides a one-time Production bonus to the closest city when cut down", "Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation"]
 	},
@@ -154,7 +154,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Grassland"],
+		"occursOn": ["Desert","Tundra","Plains","Grassland","Hill"],
 		"uniques": ["Provides a one-time Production bonus to the closest city when cut down","Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation"]
 	},

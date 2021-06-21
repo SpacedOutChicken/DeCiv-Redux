@@ -185,7 +185,7 @@
 		]
 	},
 	{
-		"name": "Commerce",
+		"name": "Monopoly",
 		"uniques": ["[Great Merchant] is earned [20]% faster","+[33]% [Gold] from every [Council]"],
 		"era": "Medieval era",
 		"policies": [
@@ -224,8 +224,8 @@
 				"column": 3
 			},
 			{
-				"name": "Commerce Complete",
-				"uniques": ["[Great Merchant] is earned [20]% faster","-50% cost when purchasing tiles","Cost of purchasing items in cities reduced by [20]%","[+2 Gold, -1 Production, -1 Food] from every [Work Camp]","[-1 Happiness, -1 Food] from every [Factory]"]
+				"name": "Monopoly Complete",
+				"uniques": ["[Great Merchant] is earned [20]% faster","-[50]% Gold cost of acquiring tiles [in all cities]","Cost of purchasing items in cities reduced by [20]%","[+2 Gold, -1 Production, -1 Food] from every [Work Camp]","[-1 Happiness, -1 Food] from every [Factory]"]
 			}
 		]
 	},
@@ -287,7 +287,7 @@
 			},		
 			{
 				"name": "Scorched Earth",
-				"uniques": ["+15% Combat Strength for all units when attacking Cities","Melee units pay no movement cost to pillage","+[2] Movement for all [Great General] units"],
+				"uniques": ["+[15]% Strength vs [City]","Melee units pay no movement cost to pillage","+[2] Movement for all [Great General] units"],
 				"row": 1,
 				"column": 3
 			},	

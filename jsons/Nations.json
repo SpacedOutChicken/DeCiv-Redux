@@ -12,8 +12,8 @@
 		"startBias": ["Forest","Jungle"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "Greetings, noble Hiawatha, leader of the mighty Iroquois nations! Long have your people lived near the great and holy lake Ontario in the land that has come to be known as the New York state in North America. In the mists of antiquity, the five peoples of Seneca, Onondaga, Mohawks, Cayugas and Oneida united into one nation, the Haudenosaunee, the Iroquois. With no written language, the wise men of your nation created the great law of peace, the model for many contitutions including that of the United States. For many years, your people battled great enemies, such as the Huron, and the French and English invaders. Tought outnumbered and facing weapons far more advanced than the ones your warriors wielded, the Iroquois survived and prospered, until they were finally overwhelmed by the mighty armies of the new United States.",
-		"startIntroPart2": "Oh noble Hiawatha, listen to the cries of your people! They call out to you to lead them in peace and war, to rebuild the great longhouse and unite the tribes once again. Will you accept this challenge, great leader? Will you build a civilization that will stand the test of time?",
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
 		"declaringWar": "Now you will reap what you have sown.",
 		"attacked": "We never expected that you could leave us to live in peace. Destruction is in your blood.",
 		"defeated": "Your legacy is nothing but death.",
@@ -56,7 +56,7 @@
 		"innerColor": [42, 42, 70],
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
-		"uniques": ["+[20]% Strength for units fighting in [Foreign Land]","City-State Influence recovers at twice the normal rate",
+		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]","Starts with [Construction]","Starts with [Machinery]","Starts with [Electronics]","[-2 Science] per turn from cities before [Education]"],
 		"cities": ["Ark One","Vanguard","New Haven","Competitor View","Prosperity Plaza","Break Even","Spearhead",
 			"Profit Margin","Searchlight","Carte Blanche","Jackalsville","Horwich Green","Laissez's Fair",
@@ -70,8 +70,8 @@
 	//	"startBias": ["Avoid Desert"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "May the blessings of heaven be upon you, O great Nebuchadnezzar, father of mighty and ancient Babylon! Young was the world when Sargon built Babylon some five thousand years ago, long did it grow and prosper, gaining its first empire the eighteenth century BC, under godlike Hammurabi, the giver of law. Although conquered by the Kassites and then by the Assyrians, Babylon endured, emerging phoenix-like from its ashes of destruction and regaining its independence despite its many enemies. Truly was Babylon the center of arts and learning in the ancient world. O Nebuchadnezzar, your empire endured but a short time after your death, falling to the mighty Persians, and then to the Greeks, until the great city was destroyed by 141 BC.",
-		"startIntroPart2": "But is Babylon indeed gone forever, great Nebuchadnezzar? Your people look to you to bring the empire back to life once more. Will you accept the challenge? Will you build a civilization that will stand the test of time?",
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
 		
 		"declaringWar": "All that is required for the triumph of evil is for good men to do nothing.",
 		"attacked": "You're breaking the non-aggression principle!",
@@ -101,8 +101,8 @@
 		"startBias": ["Avoid Desert"],
 		"preferredVictoryType":"Cultural",
 		
-		"startIntroPart1": "Greetings to you, Great King Ramkhamhaeng, leader of the glorious Siamese people! O mighty King, your people bow down before you in awe and fear! You are the ruler of Siam, an ancient country in the heart of Southeast Asia, a beautiful and mysterious land. Surrounded by foes, beset by bloody war and grinding poverty, the clever and loyal Siamese people have endured and trumphed. King Ramkhamhaeng, your empire was once part of the Khmer Empire, until the 13th century AD, when your ancestors revolted, forming the small Sukhothai kingdom. Through successful battle and cunning diplomacy, the tiny kingdom grew into a mighty empire, an empire which would dominate South East Asia for more than a century!",
-		"startIntroPart2": "Oh, wise and puissant King Ramkhamhaeng, your people need you to once again lead them to greatness! Cann you use your wits and strenght of arms to protect your people and defeat your foes? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
 	
 		"declaringWar": "We must take action now, before it is too late.",
 		"attacked": "You only repeat the mistakes of the past!",
@@ -129,8 +129,8 @@
 		"startBias": ["Avoid Desert"],
 		"preferredVictoryType": "Domination",
 	
-		"startIntroPart1": "Greetings upon thee, Your Imperial Majesty Catherine, wondrous Empress of all the Russias. At your command lies the largest country in the world. Mighty Russia stretches from the Pacific Ocean in the east to the Baltic Sea in the west. Despite wars, droughts, and every manner of disaster the heroic Russian people survive and prosper, their artists and scientists among the best in the world. The Empire today remains one of the strongest ever seen in human history - a true superpower, with the greatest destructive force ever devised at her command.",
-		"startIntroPart2": "Catherine, your people look to you to bring forth glorious days for Russia and her people, to revitalize the land and recapture the wonder of the Enlightenment. Will you lead your people once more into greatness? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
 		
 		"declaringWar": "You're either with us, or you're with the terrorists.",
 		"attacked": "Disperse immediately. Insurrection and rebellion will be met with lethal force.",
@@ -157,8 +157,8 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Oh ye who remakes the world, your loyal subjects greet you, King Pachacuti Sapa Inca, ruler of Tawantinsuyu and the Inca people! From the beginnings in the small state of Cusco, the Incans displayed their potential for greatness, marching to war against their many enemies, crushing their armies into dust and carving for themselves a mighty empire stretching from Ecuador to Chile. Indeed, they build the greatest empire ever seen in all pre-Columbian Americas. More than mere soldiers, your people were great builders and artists as well, and the remnants of their works still awe and inspire the world today.",
-		"startIntroPart2": "Oh King Pachacuti, truly are you called 'Earth Shaker'! Will you once again call upon the ground itself to a fight at your side? Your armies await your signal. Will you restore the glory of your empire? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "TBA.",
+		"startIntroPart2": "TBA",
 		
 		"declaringWar": "Not on our watch!",
 		"attacked": "You'll have to take it from our cold, dead hands!",
@@ -220,8 +220,8 @@
 		"adjective": ["Legion"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "The blessings of the gods be upon you, Caesar Augustus, emperor of Rome and all her holdings. Your empire was the greatest and longest lived of all in Western civilization. And your people single handedly shaped its culture, law, art, and warfare like none other, before or since. Through years of glorious conquest, Rome came to dominate all the lands of the Mediterranean from Spain in the west to Syria in the east. And her dominion would eventually expand to cover much of England and northern Germany. Roman art and architecture still awe and inspire the world. And she remains the envy of all lesser civilizations who have followed.",
-		"startIntroPart2": "O mighty emperor, your people turn to you to once more reclaim the glory of Rome! Will you see to it that your empire rises again, bringing peace and order to all? Will you make Rome once again center of the world? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
 		
 		"declaringWar": "You have stood in the way of progress for too long.",
 		"attacked": "Do you really believe that you can stand against the tide of history?",
@@ -248,8 +248,8 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "Greetings, o great Temujin, immortal emperor of the mighty Mongol Empire! Your fists shatter walls of cities and your voice brings despair to your enemies. O Khan! You united the warring tribes of Northern Asia into a mighty people, creating the greatest cavalry force the world has ever witnessed. Your people's cunning diplomacy divided their enemies, making them weak and helpless before Mongolia's conquering armies. In a few short years, your people soldiers conquered most of China and Eastern Asia, and the empire continued to grow until it reached west into Europe and south to Korea. Indeed, it was the greatest empire ever seen, dwarfing those pathetic conquests of the Romans of the Greeks.",
-		"startIntroPart2": "Temujin, your people cann upon you once more to lead them to battle and conquest. Will the world once again trembe at the thunderous sound of your cavalry, sweeping down from the steppes? Will you build a civilization that stands the test of time?",
+		"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",
 
 		"declaringWar": "Rejoice! Your profane forms will soon become one with the Exhaust!",
 		"attacked": "Your offering is welcome! We shall oxidize together in blessed combustion!",

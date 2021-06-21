@@ -142,7 +142,7 @@
 		"requiredBuilding": "Search for Survivors",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "Citizens' Assembly",
-		"uniques": ["+[15]% Strength for units fighting in [Friendly Land]","+[20]% Production when constructing [Military] units [in all cities]",
+		"uniques": ["+[15]% combat bonus for units fighting in [Friendly Land]","+[20]% Production when constructing [Military] units [in all cities]",
 			"Requires a [Search for Survivors] in this city","Not displayed as an available construction without [Search for Survivors]"]
 	},	
 	{
