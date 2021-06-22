@@ -111,7 +111,7 @@
 		"requiredBuilding": "Search for Survivors",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "Council",
-		"uniques": ["[+1 Culture] per [4] population in all cities","Unhappiness from population decreased by [10]%",
+		"uniques": ["[+1 Culture] per [4] population [in all cities]","Unhappiness from population decreased by [10]%",
 			"Requires a [Search for Survivors] in this city","Not displayed as an available construction without [Search for Survivors]"]
 	},		
 	{
@@ -131,7 +131,7 @@
 		"requiredBuilding": "Search for Survivors",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "Defense Committee",
-		"uniques": ["[+1 Science, +1 Culture] per [4] population in all cities","Unhappiness from population decreased by [10]%",
+		"uniques": ["[+1 Science, +1 Culture] per [4] population [in all cities]","Unhappiness from population decreased by [10]%",
 			"Requires a [Search for Survivors] in this city","Not displayed as an available construction without [Search for Survivors]"]
 	},	
 	{
@@ -153,7 +153,7 @@
 		"requiredBuilding": "Search for Survivors",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "Board of Directors",
-		"uniques": ["[+1 Culture, +1 Gold] per [4] population in all cities","Unhappiness from population decreased by [10]%",
+		"uniques": ["[+1 Culture, +1 Gold] per [4] population [in all cities]","Unhappiness from population decreased by [10]%",
 			"Requires a [Search for Survivors] in this city","Not displayed as an available construction without [Search for Survivors]"]
 	},	
 	{
