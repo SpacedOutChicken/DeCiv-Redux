@@ -346,7 +346,7 @@
 	//	"requiredResource": "Oil",
 		"requiredTech": "Engineering",
 		"requiredNearbyImprovedResources": ["Oil"],
-		"uniques": ["Worker construction increased 25%","Free [Worker] appears"]
+		"uniques": ["-[25]% tile improvement construction time","Free [Worker] appears"]
 	},
 	{
 		"name": "Public Broadcast",
