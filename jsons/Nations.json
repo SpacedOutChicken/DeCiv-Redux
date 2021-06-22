@@ -56,7 +56,7 @@
 		"innerColor": [42, 42, 70],
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
-		"uniques": ["+[20]% combat bonus for units fighting in [Foreign Land]","City-State Influence recovers at twice the normal rate",
+		"uniques": ["+[20]% Strength for units fighting in [Foreign Land]","City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]","Starts with [Construction]","Starts with [Machinery]","Starts with [Electronics]","[-2 Science] per turn from cities before [Education]"],
 		"cities": ["Ark One","Vanguard","New Haven","Competitor View","Prosperity Plaza","Break Even","Spearhead",
 			"Profit Margin","Searchlight","Carte Blanche","Jackalsville","Horwich Green","Laissez's Fair",
