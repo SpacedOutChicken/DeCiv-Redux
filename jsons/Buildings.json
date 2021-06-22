@@ -637,7 +637,7 @@
 		"uniqueTo": "Deadrock Clan",
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 1,
-		"uniques": ["[+1 Gold] Per [3] Population in this city","[+1 Happiness, +1 Culture, +1 Gold] with [Power]","[+1 Gold] with [Slaves]","[+1 Gold] with [Alcohol]","[+1 Gold] with [Narcotics]","[+1 Gold] with [Refined Narcotics]","Will not be displayed in Civilopedia"],//							neeecd bonus
+		"uniques": ["[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Culture, +1 Gold] with [Power]","[+1 Gold] with [Slaves]","[+1 Gold] with [Alcohol]","[+1 Gold] with [Narcotics]","[+1 Gold] with [Refined Narcotics]","Will not be displayed in Civilopedia"],//							neeecd bonus
 		"requiredTech": "Currency"
 	},	
 	{
@@ -767,7 +767,7 @@
 		"name": "Library",		
 		"resourceBonusStats": {"science": 1,"culture": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] with [Power]","[+1 Science] Per [2] Population in this city","[+1 Science, +1 Culture] from [Books] tiles in this city"],
+		"uniques": ["[+1 Science] with [Power]","[+1 Science] per [2] population [in this city]","[+1 Science, +1 Culture] from [Books] tiles in this city"],
 		"requiredTech": "Writing"
 	},	
 	{
@@ -867,7 +867,7 @@
 		"hurryCostModifier": 0,
 		"requiredBuilding": "Library",
 		//"cannotBeBuiltWith": "Private School",
-		"uniques": ["[+1 Science, +1 Culture] Per [3] Population in this city","Requires a [Library] in this city","[+1 Culture] with [Power]"],
+		"uniques": ["[+1 Science, +1 Culture] per [3] population [in this city]","Requires a [Library] in this city","[+1 Culture] with [Power]"],
 		"requiredTech": "Civil Service"
 	},
 	/*{
@@ -876,7 +876,7 @@
 		"hurryCostModifier": -50,
 		"requiredBuilding": "Library",
 		"cannotBeBuiltWith": "Public School",
-		"uniques": ["[+1 Science, +1 Gold] Per [3] Population in this city","Requires [Privatization]","Requires a [Library] in this city"],
+		"uniques": ["[+1 Science, +1 Gold] per [3] population [in this city]","Requires [Privatization]","Requires a [Library] in this city"],
 		"requiredTech": "Currency"
 	},*/
 	{
@@ -885,7 +885,7 @@
 		"uniqueTo": "Deadrock Clan",
 		"food": -1,
 		"greatPersonPoints": {"war": 1},
-		"uniques": ["Can recruit Clansman infantry","[+1 Culture] Per [3] Population in this city","[+1 Gold] with [Slaves]","+[20]% Production when constructing [military units] in this city"],
+		"uniques": ["Can recruit Clansman infantry","[+1 Culture] per [3] population [in this city]","[+1 Gold] with [Slaves]","+[20]% Production when constructing [military units] in this city"],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Secrets of the Past"
