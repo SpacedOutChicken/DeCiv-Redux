@@ -50,7 +50,7 @@
 		"policies": [
 			{
 				"name": "Restorers",
-				"uniques": ["+[50]% Production when constructing [Settler] units [in capital]", "Free [Settler] appears","+[1] Movement for all [Civilian] units"],
+				"uniques": ["+[50]% Production when constructing [Civilian Convoy] units [in capital]", "Free [Civilian Convoy] appears","+[1] Movement for all [Civilian] units"],
 				"row": 1,
 				"column": 1
 			},

@@ -180,7 +180,7 @@
 				"name": "Biology",
 				"row": 5,
 				"prerequisites": ["Chemistry","Education"],
-				"uniques": ["+[10]% growth in all cities"],
+				"uniques": ["+[10]% growth [in all cities]"],
 				"quote": "If the brain were so simple we could understand it, we would be so simple we couldn't."
 			},				
 			{
@@ -342,7 +342,7 @@
 				"name": "Computers", 
 				"row": 4,
 				"prerequisites": ["Plastics"],
-				"uniques": ["+10% science and production in all cities"],
+				"uniques": ["+[10]% [Science] [in all cities]","+[10]% [Production] [in all cities]"],
 				"quote": "This has been a challenging quarter with falls in demand from states and agencies. Blackwarden Associates has recalibrated its operations across geographies, moving away from security and relief operations in Asia and divesting from the radiological remediation sector. By focusing on core domestic operations for private sector clients, we have successfully generated free cashflows despite adverse market conditions."
 			},				
 

@@ -1002,7 +1002,7 @@
 		"greatPersonPoints": {"production": 1},
 		"isNationalWonder": true,
 		"requiredBuilding": "Aerospace Facility",
-		"uniques": ["Science gained from research agreements +50%","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
+		"uniques": ["Science gained from research agreements +[50]%","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Satellites"
 	},
 	{
@@ -1012,7 +1012,7 @@
 		"greatPersonPoints": {"production": 1},
 		"isNationalWonder": true,		
 		"requiredBuilding": "Aerospace Facility",
-		"uniques": ["+1 Sight for all land military units","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
+		"uniques": ["+[1] Sight for all [Land] units","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Incentivization"
 	},
 	//wonders	
@@ -1022,7 +1022,7 @@
 		"greatPersonPoints": {"production": 2},
 		"isWonder": true,
 		"requiredBuilding": "Aerospace Facility",
-		"uniques": ["Gold from all trade routes +25%","All military naval units receive +1 movement and +1 sight","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
+		"uniques": ["Gold from all trade routes +25%","+[1] Movement for all [Water] units","+[1] Sight for all [Water] units","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Satellites",
 		"quote": ""//
 	},
