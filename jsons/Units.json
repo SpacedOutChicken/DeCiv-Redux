@@ -13,7 +13,7 @@
 		"cost": 600,
 	//	"requiredTech": "Avionics",
 		"requiredResource": "Uranium",
-        "uniques": ["Nuclear weapon","Will not be displayed in Civilopedia","Unbuildable","Self-destructs when attacking"],
+        "uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Will not be displayed in Civilopedia","Unbuildable","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -26,7 +26,7 @@
 		"cost": 600,
 		"requiredTech": "Gyroscopes",
 		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon","Requires [Manhattan Project]","Self-destructs when attacking"],
+		"uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Requires [Manhattan Project]","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -39,7 +39,7 @@
 		"cost": 1000,
 		"requiredTech": "Rocketry",
 		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon","Requires [Manhattan Project]","Self-destructs when attacking"],
+		"uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Requires [Manhattan Project]","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	

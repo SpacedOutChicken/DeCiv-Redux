@@ -303,7 +303,7 @@
 		"name": "Search for Survivors",
         "cost": 30,
 		"isNationalWonder": true,
-		"uniques": ["+1 population in each city"]
+		"uniques": ["[+1] population [in all cities]"]
 	},		
 	{
 		"name": "Shake Down Survivors",
@@ -337,7 +337,7 @@
         "cost": 75,
 		"isWonder": true,	
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["+1 population in each city"],
+		"uniques": ["[+1] population [in all cities]"],
 		"quote": "When you hear the air attack warning, you and your family must take cover..."
 	},			
 	{
@@ -354,7 +354,7 @@
 		"cost": 100,
 		"requiredBuilding": "Broadcast Tower",		
 		"requiredTech": "Radio",
-		"uniques": ["+1 population in each city","Requires a [Broadcast Tower] in this city","Not displayed as an available construction without [Broadcast Tower]"],
+		"uniques": ["[+1] population [in all cities]","Requires a [Broadcast Tower] in this city","Not displayed as an available construction without [Broadcast Tower]"],
 		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength."
 	},
 	
@@ -618,7 +618,7 @@
 		"culture": 1,
 		"maintenance": 1,	
 		"cost": 40,
-		"uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city","[+1 Happiness, +1 Culture] with [Power]","+1 population in each city"],
+		"uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city","[+1 Happiness, +1 Culture] with [Power]","[+1] population [in all cities]"],
 		"hurryCostModifier": 40
 	},
 	{
@@ -1075,7 +1075,8 @@
 		"cityHealth": 200,
 		"maintenance": 1,
 		"hurryCostModifier": 50,
-		"requiredTech": "Munitions"
+		"requiredTech": "Munitions",
+		"uniques": ["Population loss from nuclear attacks -[75]%"]
 	},		
 	{ 
 		"name": "Active Denial System", 
