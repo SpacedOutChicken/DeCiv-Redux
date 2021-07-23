@@ -190,7 +190,7 @@
 	},
 	{
 		"name": "Littoral Warfare",
-		"uniques": ["+[25]% combat bonus in [Coast]","+[25]% combat bonus in [Land]","+[25]% Strength vs [City]"],
+		"uniques": ["+[25]% Strength in [Coast]","+[25]% Strength in [Land]","+[25]% Strength vs [City]"],
 		"prerequisites": ["Evasion","Strike"],
 		"unitTypes": ["WaterMelee"]
 	},
@@ -385,18 +385,18 @@
 	{
 		"name": "Guerilla Warfare II",
 		"prerequisites": ["Guerilla Warfare I"],
-		"uniques": ["+[30]% combat bonus in [Hill]","+[10]% Strength when attacking"],
+		"uniques": ["+[30]% Strength in [Hill]","+[10]% Strength when attacking"],
 		"unitTypes": ["Melee","Ranged","Mounted","Scout"]
 	},	
 	{
 		"name": "Urban Warfare I",
-		"uniques": ["Double movement rate through Forest and Jungle","+[10]% combat bonus in [Jungle]","+[10]% combat bonus in [Forest]","+[10]% Strength vs [City]"],
+		"uniques": ["Double movement rate through Forest and Jungle","+[10]% Strength in [Jungle]","+[10]% Strength in [Forest]","+[10]% Strength vs [City]"],
 		"unitTypes": ["Melee","Ranged","Mounted"]
 	},
 	{
 		"name": "Urban Warfare II",
 		"prerequisites": ["Urban Warfare I"],
-		"uniques": ["+[30]% combat bonus in [Jungle]","+[30]% combat bonus in [Forest]","+[30]% Strength vs [City]"],
+		"uniques": ["+[30]% Strength in [Jungle]","+[30]% Strength in [Forest]","+[30]% Strength vs [City]"],
 		"unitTypes": ["Melee","Ranged","Mounted","Scout"]
 	},
 	{
@@ -478,7 +478,7 @@
 	{
 		"name": "Napalm",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["+[33]% combat bonus in [Jungle]","+[33]% combat bonus in [Forest]","+[50]% Strength vs [City]"],
+		"uniques": ["+[33]% Strength in [Jungle]","+[33]% Strength in [Forest]","+[50]% Strength vs [City]"],
 		"unitTypes": ["Fighter","Bomber"]
 	},	
 	{
