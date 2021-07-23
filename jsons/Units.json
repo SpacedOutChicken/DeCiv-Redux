@@ -13,7 +13,7 @@
 		"cost": 600,
 	//	"requiredTech": "Avionics",
 		"requiredResource": "Uranium",
-        "uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Will not be displayed in Civilopedia","Unbuildable","Self-destructs when attacking"],
+        "uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Unbuildable","Self-destructs when attacking"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -49,7 +49,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
 	},	
 	/*{
@@ -58,7 +58,7 @@
 		"movement": 4,
 		"hurryCostModifier": 20,
 		"requiredTech": "The Wheel",
-		"uniques": ["Can build improvements on tiles","Requires [Stable]","Not displayed as an available construction without [Stable]"],
+		"uniques": ["Can build [Land] improvements on tiles","Requires [Stable]","Not displayed as an available construction without [Stable]"],
 		"cost": 130
 	},*/
 	{
@@ -108,7 +108,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"requiredResource": "Slaves",
-		"uniques": ["Low Tech","+[50]% Strength vs [Mounted]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","+[50]% Strength vs [Mounted]"],
 		"promotions": ["Raider"],
 		"attackSound": "nonmetalhit"
 	},		
@@ -150,7 +150,7 @@
 		"cost": 50,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech","Requires [Clubhouse]","+[50]% Strength vs [Mounted]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","Requires [Clubhouse]","+[50]% Strength vs [Mounted]"],
 		"promotions": ["Clansman"],
 		"attackSound": "metalhit"
 	},	
@@ -163,7 +163,7 @@
 		"requiredResource": "Slaves",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"uniques": ["Low Tech","Can construct roads","+[50]% Strength vs [Mounted]","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","+[50]% Strength vs [Mounted]","Not displayed as an available construction without [Slaves]"],
 		"attackSound": "metalhit"
 	},	
 	{
@@ -192,7 +192,7 @@
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
-		"uniques": ["Low Tech","Can construct roads","+[50]% Strength when defending"],
+		"uniques": ["Low Tech","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","+[50]% Strength when defending"],
 		"promotions": ["Medic"],
 		"attackSound": "nonmetalhit"
 	},
@@ -253,7 +253,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Gunman",
-		"uniques": ["Low Tech","Can construct roads","+[33]% Strength vs [Low Tech]","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","+[33]% Strength vs [Low Tech]","Not displayed as an available construction without [Slaves]"],
 		"attackSound": "arrow"
 	},		
 	{
@@ -271,7 +271,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rubble Gunman",
-		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","Not displayed as an available construction without [Slaves]"],
 		"promotions": ["Urban Warfare I"],
 		"attackSound": "arrow"
 	},	
@@ -446,7 +446,7 @@
 		"requiredResource": "Slaves",
 		"requiredTech": "Rifling",	
 		"obsoleteTech": "Combined Arms",		
-		"uniques": ["Personnel","Can construct roads","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Personnel","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Not displayed as an available construction without [Slaves]"],
 		"attackSound": "machinegun"
 	},	
 	{
@@ -463,7 +463,7 @@
 		"requiredResource": "Slaves",
 		"requiredTech": "Rifling",	
 		"obsoleteTech": "Combined Arms",		
-		"uniques": ["Low Tech","Can construct roads","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Not displayed as an available construction without [Slaves]"],
 		"attackSound": "machinegun"
 	},	
 	{
@@ -555,7 +555,7 @@
 	//	"upgradesTo": "NBC Infantry", ??
 		"requiredResource": "Slaves",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel","Requires [Factory]","Can construct roads","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Personnel","Requires [Factory]","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Not displayed as an available construction without [Slaves]"],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
 	},
@@ -571,7 +571,7 @@
 		"requiredTech": "Plastics",
 		"requiredResource": "Slaves",
 		"hurryCostModifier": 20,
-		"uniques": ["Low Tech","Requires [Factory]","Can construct roads","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","Requires [Factory]","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Not displayed as an available construction without [Slaves]"],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
 	},
@@ -653,7 +653,7 @@
 		"upgradesTo": "Machine Gun",
 		"requiredResource": "Slaves",
 		"hurryCostModifier": 20,		
-		"uniques": ["Low Tech","Can construct roads","Not displayed as an available construction without [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Not displayed as an available construction without [Slaves]"],
 		"promotions": ["Urban Warfare I"],
 		"attackSound": "shot"
 	},	
@@ -866,8 +866,8 @@
 		"rangedStrength": 50,
 		"cost": 185,
 		"requiredTech": "Ballistics",
-		"uniques": ["[75]% chance to intercept air attacks","+[50]% Strength vs [Air]","+[100]% Strength vs [Helicopter]","-[33]% Strength vs [Armor]","-[50]% Strength vs [City]",
-		"Must set up to ranged attack","Requires [Factory]"],
+		"uniques": ["[75]% chance to intercept air attacks","+[50]% Strength vs [Air]","+[100]% Strength vs [Helicopter]",
+			"-[33]% Strength vs [Armor]","-[50]% Strength vs [City]","Must set up to ranged attack","Requires [Factory]"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -899,7 +899,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["+[20]% Strength vs [Low Tech]","-[66]% Strength vs [City]","Can move after attacking","No defensive terrain bonus","Rough terrain penalty","Will not be displayed in Civilopedia"],
+		"uniques": ["+[20]% Strength vs [Low Tech]","-[66]% Strength vs [City]","Can move after attacking","No defensive terrain bonus","Rough terrain penalty"],
 		"promotions": ["Raider"],
 		"hurryCostModifier": 20
 	},	
@@ -1050,7 +1050,7 @@
 		"requiredTech": "Lasers",
 		"requiredResource": "Oil",
 		"uniques": ["[100]% chance to intercept air attacks","+[300]% Strength vs [Air]","+[300]% Strength vs [Helicopter]",
-		"No defensive terrain bonus","Rough terrain penalty","May withdraw before melee ([50]%)","Requires [Factory]"],
+			"No defensive terrain bonus","Rough terrain penalty","May withdraw before melee ([50]%)","Requires [Factory]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1084,7 +1084,8 @@
 		"obsoleteTech": "Lasers",
 		"upgradesTo": "Attack Helicopter",	
 		"uniques": ["-[25]% Strength vs [Armor]","Can move after attacking","-[25]% Strength vs [City]",
-		"Amphibious","Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles","May withdraw before melee ([100]%","Requires [Factory]"],
+			"Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles","May withdraw before melee ([100]%","Requires [Factory]"],
+		"promotions": ["Amphibious"],
 		"requiredResource": "Oil",
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -1098,11 +1099,11 @@
 		"rangedStrength": 50,
 		"cost": 375,
 		"requiredTech": "Lasers",
-		"uniques": ["[33]% chance to intercept air attacks","+1 Visibility Range","Can move after attacking","Ranged attacks may be performed over obstacles",
-		"Amphibious","Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles","May withdraw before melee ([100]%",
-		"Requires [Aerospace Facility]","Not displayed as an available construction without [Aerospace Facility]","-[25]% Strength vs [City]"],
+		"uniques": ["[33]% chance to intercept air attacks","[+1] Visibility Range","Can move after attacking","Ranged attacks may be performed over obstacles",
+			"Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles","May withdraw before melee ([100]%)",
+			"Requires [Aerospace Facility]","Not displayed as an available construction without [Aerospace Facility]","-[25]% Strength vs [City]"],
 		"requiredResource": "Oil",
-		"promotions": ["Advanced Weapons","Antitank Missile"],
+		"promotions": ["Amphibious","Advanced Weapons","Antitank Missile"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1380,7 +1381,7 @@
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",		
 		"uniques": ["Personnel","+[50]% Strength vs [Low Tech]","-[25]% Strength vs [City]","No defensive terrain bonus","Can move after attacking",
-			    "Will not be displayed in Civilopedia","Can move after attacking","+10 HP when healing"],
+			    "Can move after attacking","[+10] HP when healing"],
 		"promotions": ["Forage","Raider","Skirmish","March"],
 		"hurryCostModifier": 20
 	},	
@@ -1395,7 +1396,7 @@
 		"cost": 20,
 		"obsoleteTech": "Engineering",
 		"upgradesTo": "Soldier",			
-		"uniques": ["Low Tech","Will not be displayed in Civilopedia","+10 HP when healing"],		
+		"uniques": ["Low Tech","[+10] HP when healing"],		
 		"promotions": ["Forage","Raider"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1411,7 +1412,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",		
-		"uniques": ["Personnel","Will not be displayed in Civilopedia","-[40]% Strength vs [City]","+10 HP when healing"],
+		"uniques": ["Personnel","-[40]% Strength vs [City]","[+10] HP when healing"],
 		"promotions": ["Forage","Raider"],
 		"attackSound": "shot"
 	},	
@@ -1428,7 +1429,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",	
-		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","Will not be displayed in Civilopedia","+10 HP when healing"],
+		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","[+10] HP when healing"],
 		"promotions": ["Skirmish","Raider"],
 		"attackSound": "arrow"
 	},		
@@ -1446,7 +1447,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","Will not be displayed in Civilopedia","-[33]% Strength vs [City]","+10 HP when healing"],
+		"uniques": ["Personnel","-[33]% Strength vs [City]","[+10] HP when healing"],
 		"promotions": ["Raider"],
 		"attackSound": "shot"
 	},		
@@ -1462,7 +1463,7 @@
 		"requiredTech":  "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Infantry",		
-		"uniques": ["Personnel","Will not be displayed in Civilopedia","+[100]% Strength vs [City]","+10 HP when healing"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing"],
 		"promotions": ["Forage","Raider","Entrench","Guerilla Warfare I","Urban Warfare I","Ambush"],
 		"attackSound": "shot"
 	},	
@@ -1480,7 +1481,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "NBC Marksman",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","Will not be displayed in Civilopedia","+[100]% Strength vs [City]","+10 HP when healing"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing"],
 		"promotions": ["Skirmish","Raider","Entrench","Guerilla Warfare I","Urban Warfare I"],
 		"attackSound": "shot"
 	},	
@@ -1495,7 +1496,7 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","Will not be displayed in Civilopedia","+[100]% Strength vs [City]","+10 HP when healing"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing"],
 		"promotions": ["Skirmish","Raider","Entrench","Forage","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Antitank Missile","Surface-to-Air Missile","March"],
 		"attackSound": "machinegun"
 	},
@@ -1511,7 +1512,7 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel","Will not be displayed in Civilopedia","+[100]% Strength vs [City]","+10 HP when healing","-[20]% Strength vs [Armor]"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing","-[20]% Strength vs [Armor]"],
 		"promotions": ["Skirmish","Raider","Entrench","Extended Range","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Precision","March"],		
 		"attackSound": "shot"
 	},			
@@ -1546,7 +1547,7 @@
 		"requiredTech": "The Wheel",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"uniques": ["Will not be displayed in Civilopedia","Can move after attacking","No defensive terrain bonus","Requires [Alma Tank Depot]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Requires [Alma Tank Depot]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1563,9 +1564,10 @@
 		"requiredResource": "Oil",
 		"requiredTech": "Steel",
 		"upgradesTo": "Helicopter",	
-		"uniques": ["Will not be displayed in Civilopedia","-[25]% Strength vs [Armor]","Can move after attacking",
-		"Amphibious","Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles",
-			    "May withdraw before melee ([100]%)","Requires [Alma Air Base]"],
+		"uniques": ["-[25]% Strength vs [Armor]","Can move after attacking",
+			"Helicopter","No defensive terrain bonus","All tiles cost 1 movement","Can pass through impassable tiles",
+			"May withdraw before melee ([100]%)","Requires [Alma Air Base]"],
+		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},	

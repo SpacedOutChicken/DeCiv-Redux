@@ -203,7 +203,8 @@
 	},
 	{
 		"name": "Prison farm",
-		"uniques": ["Great Improvement","Provides [1] [Slaves]","[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered","[+1 Food] once [Land Remediation] is discovered","Cannot be built on bonus resource"]
+		"uniques": ["Great Improvement","Provides [1] [Slaves]","[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
+			"[+1 Food] once [Land Remediation] is discovered","Cannot be built on bonus resource"]
 	},
 	{
 		"name": "Oracle",
@@ -215,14 +216,16 @@
 	{
 		"name": "Manufactory",
 		"production": 3,
-		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","[+1 Production] once [Steam Power] is discovered","[+1 Production] once [Railroad] is discovered","[+1 Production] once [Electronics] is discovered","[+1 Production] once [Robotics] is discovered"]
+		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","[+1 Production] once [Steam Power] is discovered",
+			"[+1 Production] once [Railroad] is discovered","[+1 Production] once [Electronics] is discovered","[+1 Production] once [Robotics] is discovered"]
 	},
 
 	{
 		"name": "Citadel",
 		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"]
 	},	
-	{ "name": "City center", "uniques": ["Unpillagable"] }
+	{ "name": "City center", "uniques": ["Unpillagable", "Indestructible"],
+		"civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}] },
 	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },
 	{ "name": "City ruins", 
 	

@@ -28,7 +28,7 @@
 	//type MELEE												
 	{
 		"name": "Entrench",
-		"uniques": ["+25% Defence against ranged attacks","+[5]% Strength when defending"],
+		"uniques": ["[+33]% Strength when defending vs [Ranged]","+[5]% Strength when defending"],
 		"unitTypes": ["Melee","Ranged"]
 	},	
 	{
@@ -61,7 +61,7 @@
 	//type Mounted												
 	{
 		"name": "Loose Formation",
-		"uniques": ["+25% Defence against ranged attacks"],
+		"uniques": ["[+33]% Strength when defending vs [Ranged]"],
 		"unitTypes": ["Mounted"]
 	},		
 	{
@@ -180,7 +180,7 @@
 	// Water melee																		old promotions - water, air
 	{
 		"name": "Evasion",
-		"uniques": ["+25% Defence against ranged attacks"],
+		"uniques": ["[+33]% Strength when defending vs [Ranged]"],
 		"unitTypes": ["WaterMelee"]
 	},
 	{
@@ -420,18 +420,18 @@
 	
 	{
 		"name": "Drone Recon",
-		"uniques": ["+1 Visibility Range","Can attack submarines","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"]
+		"uniques": ["[+1] Visibility Range","Can attack submarines","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"]
 	},	
 	{
 		"name": "Drone Support",
 		"prerequisites": ["Drone Recon"],
-		"uniques": ["-10% combat strength for adjacent enemy units"],
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"unitTypes": ["Melee","Ranged","Mounted","Armor"]
 	},
 	{
 		"name": "Care Package",
 		"prerequisites": ["Drone Recon"],
-		"uniques": ["+10 HP when healing"],
+		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Melee","Ranged","Mounted"]
 	},
 
@@ -526,7 +526,7 @@
 	},
 	{
 		"name": "Point Defense Laser",
-		"uniques": ["+25% Defence against ranged attacks"]
+		"uniques": ["[+33]% Strength when defending vs [Ranged]"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth- "Heals 25 damage if it kills an Unit" for ranged seems wrong
@@ -534,7 +534,7 @@
 	},		
 	{
 		"name": "Amphibious",
-		"uniques": ["Amphibious"]
+		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking from the sea"]
 	},
 	{
 		"name": "Gas Mask",

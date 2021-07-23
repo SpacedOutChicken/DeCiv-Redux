@@ -19,7 +19,7 @@
 		"providesFreeBuilding": "Deep Larder",
 		"cost": 1,
 		"requiredBuilding": "Palace",	
-		"uniques": ["[10]% of food is carried over after population increases","Provides [2] [Weapons]",
+		"uniques": ["[10]% of food is carried over [in this city] after population increases","Provides [2] [Weapons]",
 				"Requires a [Palace] in this city","Not displayed as an available construction without [Palace]"]
 	},		
 	{
@@ -64,7 +64,7 @@
 		"providesFreeBuilding": "Food Store",
 		"cost": 1,
 		"requiredBuilding": "Palace",	
-		"uniques": ["[10]% of food is carried over after population increases","Provides [1] [Power]","Provides [2] [Weapons]","Free [Spec Ops] appears",
+		"uniques": ["[10]% of food is carried over [in this city] after population increases","Provides [1] [Power]","Provides [2] [Weapons]","Free [Spec Ops] appears",
 			"Requires a [Palace] in this city"]
 	},	
 	{
@@ -363,7 +363,7 @@
 		"name": "Ally with Isolationists",
 		"cannotBeBuiltWith": "Annex Isolationists",
 		"cost": 5,
-		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Science, +2 Gold] from [Isolated Island] tiles in this city","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Science, +2 Gold] from [Isolated Island] tiles in this city"]
 	},	
 	{
 		"name": "Annex Isolationists",
@@ -371,7 +371,7 @@
 		"requiredTech": "Sailing",
 		"cannotBeBuiltWith": "Ally with Isolationists",
 		"cost": 200,
-		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles in this city","Provides [1] [Weapons]","Provides [1] [Slaves]","Will not be displayed in Civilopedia"],
+		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles in this city","Provides [1] [Weapons]","Provides [1] [Slaves]"],
 		"quote": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
 	},	
 	{
@@ -379,7 +379,7 @@
 		"isWonder": true,
 	//	"requiredBuilding": "Palace",		
 		"cost": 125,
-		"uniques": ["Must have an owned [Missile Complex] within [4] tiles","+[20]% Production when constructing [Manhattan Project]","+[20]% Production when constructing [Missile] units","Free [Divine Spear] appears","Will not be displayed in Civilopedia"],
+		"uniques": ["Must have an owned [Missile Complex] within [4] tiles","+[20]% Production when constructing [Manhattan Project]","+[20]% Production when constructing [Missile] units","Free [Divine Spear] appears"],
 	//	"requiredTech": "Secrets of the Past",
 		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
 	},	
@@ -387,7 +387,7 @@
 		"name": "Nuclear Waste Museum",
 		"cannotBeBuiltWith": "Excavate Nuclear Waste",
 		"requiredTech": "Writing",
-		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles","[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles in this city","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles","[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles in this city"]
 	},
 	{
 		"name": "Excavate Nuclear Waste",
@@ -395,7 +395,7 @@
 		"isWonder": true,
 		"percentStatBonus": {"food": -20},
 		"requiredTech": "Mining",
-		"uniques": ["DO NOT DO THIS","Must have an owned [Nuclear Waste Storage] within [3] tiles","[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles in this city","Provides [1] [Uranium]","Will not be displayed in Civilopedia"],
+		"uniques": ["DO NOT DO THIS","Must have an owned [Nuclear Waste Storage] within [3] tiles","[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles in this city","Provides [1] [Uranium]"],
 		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
 },
 	{
@@ -403,7 +403,7 @@
 		"isWonder": true,
 		"requiredTech": "Ecology",
 		"cost": 50,
-		"uniques": ["Must have an owned [Seed Vault] within [3] tiles","+[25]% growth in all cities","Will not be displayed in Civilopedia"],
+		"uniques": ["Must have an owned [Seed Vault] within [3] tiles","+[25]% growth in all cities"],
 		"quote": "What about us? What about all the plans that ended in disaster?"
 	},		
 	{
@@ -411,7 +411,7 @@
 		"isWonder": true,
 		"cannotBeBuiltWith": "Produce Soft Drinks",
 		"cost": 25,
-		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles","Empire enters golden age","[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles in this city","Will not be displayed in Civilopedia"],
+		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles","Empire enters golden age","[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles in this city"],
 		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"
 	},	
 	{
@@ -420,14 +420,14 @@
 		"isNationalWonder": true,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Power",	//power
-		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles","Provides [3] [Soft Drinks]","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles","Provides [3] [Soft Drinks]"]
 	},		
 	{
 		"name": "Salvage Army Depot",
 		"requiredTech": "Engineering",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Army Depot] within [3] tiles","[+1 Science, +1 Production] from [Army Depot] tiles in this city","Provides [2] [Weapons]","Free [Ancient Armor] appears","Will not be displayed in Civilopedia"],
+		"uniques": ["Must have an owned [Army Depot] within [3] tiles","[+1 Science, +1 Production] from [Army Depot] tiles in this city","Provides [2] [Weapons]","Free [Ancient Armor] appears"],
 		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!"// - Traditional nursery rhyme
 	},
 	{
@@ -435,13 +435,13 @@
 		"requiredTech": "Sailing",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles","[+1 Science, +1 Production] from [Ship Graveyard] tiles in this city","Free [Patrol Boat] appears","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles","[+1 Science, +1 Production] from [Ship Graveyard] tiles in this city","Free [Patrol Boat] appears"]
 	},
 	{
 		"name": "Turbine Hall",
 		"isWonder": true,
 		"requiredTech": "Steel",
-		"uniques": ["Must have an owned [Hydroelectric Dam] within [3] tiles","Provides [8] [Power]","Will not be displayed in Civilopedia"],
+		"uniques": ["Must have an owned [Hydroelectric Dam] within [3] tiles","Provides [8] [Power]"],
 		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year."// - Promotional material
 	},	
 	{
@@ -449,7 +449,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Laboratory",
 		"greatPersonPoints": {"science": 2},
-		"uniques": ["Must have an owned [Research Facility] within [5] tiles","All newly-trained [relevant] units in this city receive the [March] promotion","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Research Facility] within [5] tiles","All newly-trained [relevant] units in this city receive the [March] promotion"]
 	},
 		
 		
@@ -460,7 +460,7 @@
 		"requiredResource": "Power",	//power
 		"maintenance": 2,	
 		"greatPersonPoints": {"science": 1},
-		"uniques": ["Must have an owned [Toxic Waste] within [15] tiles","Requires [Scorched Earth]","[Artillery] units gain the [Chemical Weapons] promotion","[Air] units gain the [Chemical Weapons] promotion","[Helicopter] units gain the [Chemical Weapons] promotion","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Toxic Waste] within [15] tiles","Requires [Scorched Earth]","[Artillery] units gain the [Chemical Weapons] promotion","[Air] units gain the [Chemical Weapons] promotion","[Helicopter] units gain the [Chemical Weapons] promotion"]
 	},
 		//	FOOD
 	
@@ -468,7 +468,7 @@
 		"name": "Food Store", 
 		"cost": 10,
 		"hurryCostModifier": -25,
-		"uniques": ["[20]% of food is carried over after population increases","[+1 Food] with [Salt]","[-1 Production, +1 Gold] with [Alcohol]","[-1 Production, +1 Gold] with [Narcotics]","[-1 Production, -1 Food, +1 Gold] with [Refined Narcotics]"]
+		"uniques": ["[20]% of food is carried over [in this city] after population increases","[+1 Food] with [Salt]","[-1 Production, +1 Gold] with [Alcohol]","[-1 Production, +1 Gold] with [Narcotics]","[-1 Production, -1 Food, +1 Gold] with [Refined Narcotics]"]
 	},	
 	{
 		"name": "Deep Larder", 
@@ -476,7 +476,7 @@
 		"uniqueTo": "Enclavers",
 		"cost": 10,
 		"hurryCostModifier": -25,
-		"uniques": ["[30]% of food is carried over after population increases","[+1 Food] with [Salt]","[-1 Production, +1 Gold] with [Alcohol]","[-1 Production, +1 Gold] with [Narcotics]","[-1 Production, -1 Food, +1 Gold] with [Refined Narcotics]"]
+		"uniques": ["[30]% of food is carried over [in this city] after population increases","[+1 Food] with [Salt]","[-1 Production, +1 Gold] with [Alcohol]","[-1 Production, +1 Gold] with [Narcotics]","[-1 Production, -1 Food, +1 Gold] with [Refined Narcotics]"]
 	},	
 	{
 		"name": "Cold Store", 
@@ -541,7 +541,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"requiredResource": "Power",	//power
-		"uniques": ["[30]% of food is carried over after population increases","All newly-trained [relevant] units in this city receive the [Medic I] promotion","[+1 Food] with [Harvested Organs]"]
+		"uniques": ["[30]% of food is carried over [in this city] after population increases","All newly-trained [relevant] units in this city receive the [Medic I] promotion","[+1 Food] with [Harvested Organs]"]
 	},	
 	{
 		"name": "Organ Farm",
@@ -552,7 +552,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"requiredResource": "Slaves",
-		"uniques": ["[10]% of food is carried over after population increases","[+1 Food] with [Harvested Organs]","Provides [1] [Harvested Organs]"]
+		"uniques": ["[10]% of food is carried over [in this city] after population increases","[+1 Food] with [Harvested Organs]","Provides [1] [Harvested Organs]"]
 	},	
 	{
 		"name": "Blood Bank",
@@ -562,7 +562,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"requiredResource": "Slaves",
-		"uniques": ["[10]% of food is carried over after population increases","[+1 Food] with [Harvested Organs]","[Armor] units gain the [Resupply] promotion"]
+		"uniques": ["[10]% of food is carried over [in this city] after population increases","[+1 Food] with [Harvested Organs]","[Armor] units gain the [Resupply] promotion"]
 	},	
 
 	{
@@ -571,7 +571,7 @@
 		"science": -1,
 		"maintenance": 2,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[20]% of food is carried over after population increases"]
+		"uniques": ["[20]% of food is carried over [in this city] after population increases"]
 	},
 	//organ cloning lab
 	{
@@ -637,7 +637,7 @@
 		"uniqueTo": "Deadrock Clan",
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 1,
-		"uniques": ["[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Culture, +1 Gold] with [Power]","[+1 Gold] with [Slaves]","[+1 Gold] with [Alcohol]","[+1 Gold] with [Narcotics]","[+1 Gold] with [Refined Narcotics]","Will not be displayed in Civilopedia"],//							neeecd bonus
+		"uniques": ["[+1 Gold] per [3] population [in this city]","[+1 Happiness, +1 Culture, +1 Gold] with [Power]","[+1 Gold] with [Slaves]","[+1 Gold] with [Alcohol]","[+1 Gold] with [Narcotics]","[+1 Gold] with [Refined Narcotics]"],//							neeecd bonus
 		"requiredTech": "Currency"
 	},	
 	{
@@ -1163,7 +1163,7 @@
 		"name": "Narcotics Refinery",
 		"requiredTech": "Chemistry",
 		"requiredResource": "Power",	//power
-		"uniques": ["Must have an owned [Narcotics Farm] within [3] tiles","Provides [1] [Refined Narcotics]","Not displayed as an available construction without [Narcotics]","Will not be displayed in Civilopedia"]
+		"uniques": ["Must have an owned [Narcotics Farm] within [3] tiles","Provides [1] [Refined Narcotics]","Not displayed as an available construction without [Narcotics]"]
 	},
 	{
 		"name": "Barracks",
@@ -1543,7 +1543,7 @@
 		"culture": 5,
 		"science": 1,
 		"isNationalWonder": true,
-		"uniques": ["[10]% of food is carried over after population increases","+[25]% great person generation in this city","Empire enters golden age"],		
+		"uniques": ["[10]% of food is carried over [in this city] after population increases","+[25]% great person generation in this city","Empire enters golden age"],		
 		"percentStatBonus": {"culture": 10},
 		"requiredTech": "Future Materials"
 	},	
@@ -1585,7 +1585,7 @@
 		"culture": 10,
 		"science": 2,
 		"isWonder": true,
-		"uniques": ["[-10]% of food is carried over after population increases","Empire enters golden age"],		
+		"uniques": ["[-10]% of food is carried over [in this city] after population increases","Empire enters golden age"],		
 		"percentStatBonus": {"culture": 10},
 		"quote": "A fortified, self sustaining bunker where, with minimal staffing and maintenance, survivors can wait in suspended animation, in theory to emerge when conditions are more favourable to life."
 		"requiredTech": "Human Genome"
@@ -1596,7 +1596,7 @@
 			"maintenance": 3,
 			"culture": 5,
 			"hurryCostModifier": 100,
-			"uniques": ["[-5]% of food is carried over after population increases"],//
+			"uniques": ["[-5]% of food is carried over [in this city] after population increases"],//
 			"requiredBuilding": "Cryo Sanctum",
 			"requiredTech": "Human Genome"
 		},			
@@ -1606,7 +1606,7 @@
 			"maintenance": 3,
 			"culture": 5,
 			"hurryCostModifier": 100,
-			"uniques": ["[-5]% of food is carried over after population increases"],//
+			"uniques": ["[-5]% of food is carried over [in this city] after population increases"],//
 			"requiredBuilding": "Cryo Sanctum",
 			"requiredTech": "Human Genome"
 		},			
@@ -1616,7 +1616,7 @@
 			"maintenance": 3,
 			"culture": 5,
 			"hurryCostModifier": 100,
-			"uniques": ["[-5]% of food is carried over after population increases"],//
+			"uniques": ["[-5]% of food is carried over [in this city] after population increases"],//
 			"requiredBuilding": "Cryo Sanctum",
 			"requiredTech": "Human Genome"
 		},		
@@ -1626,7 +1626,7 @@
 			"maintenance": 3,
 			"culture": 5,
 			"hurryCostModifier": 100,
-			"uniques": ["[-5]% of food is carried over after population increases"],//
+			"uniques": ["[-5]% of food is carried over [in this city] after population increases"],//
 			"requiredBuilding": "Cryo Sanctum",
 			"requiredTech": "Human Genome"
 		},		
@@ -1738,7 +1738,8 @@
 		"culture": 5,
         "science": 3,
 		"happiness": 2,
-		"greatPersonPoints": {"science": 2}
+		"greatPersonPoints": {"science": 2},
+		"uniques": ["Will not be displayed in Civilopedia"]
 	},	
 	{
 		"name": "Divine Knowledge",
