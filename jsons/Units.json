@@ -1244,7 +1244,7 @@
 		"cost": 400,
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
-        "uniques": ["Can carry 2 aircraft","Requires [Factory]"],
+        "uniques": ["Can carry [2] [Air] units","Requires [Factory]"],
 		"hurryCostModifier": 20
 	},
 		{

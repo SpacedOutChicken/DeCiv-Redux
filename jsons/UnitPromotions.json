@@ -219,25 +219,25 @@
 	},
 	{
 		"name": "Flight Deck I",
-		"uniques": [ "Can carry 1 extra air unit"],
+		"uniques": ["Can carry [1] extra [Air] units"],
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Flight Deck II",
 		"prerequisites": ["Flight Deck I","Armor Plating"],
-		"uniques": [ "Can carry 1 extra air unit"],
+		"uniques": ["Can carry [1] extra [Air] units"],
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Flight Deck III",
 		"prerequisites": ["Flight Deck II","Damage Control","Close-In Weapons System"],
-		"uniques": [ "Can carry 1 extra air unit"],
+		"uniques": ["Can carry [1] extra [Air] units"],
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Damage Control",
 		"prerequisites": ["Bombardment","Targeting","Armor Plating","Flight Deck I"],
-		"uniques": ["This unit and all others in adjacent tiles heal 5 additional HP.","Heal adjacent units for an additional 15 HP per turn"],
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [20] HP when healing"],
 		"unitTypes": ["WaterRanged","WaterAircraftCarrier"]
 	},
 	{
@@ -287,7 +287,7 @@
 	{
 		"name": "Blitz",
 		"prerequisites": ["Smokescreen","Assault","Pursuit","Maneuver","Awe","Formation","Ambush","Sentry"],
-		"uniques": ["1 additional attack per turn"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Melee","Mounted","Armor"]
 	},
 	{
@@ -325,40 +325,40 @@
 	// Fighter
 	{
 		"name": "Interception I",
-		"uniques": ["Bonus when intercepting [33]%"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception II",
 		"prerequisites": ["Interception I","Bombardment","Targeting"],
-		"uniques": ["Bonus when intercepting [33]%"],
+		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
 		"prerequisites": ["Interception II","Operational Range"],
-		"uniques": ["Bonus when intercepting [34]%"],
+		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	
 	{
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", "Siege I", "Bombardment", "Targeting"],
-		"uniques": ["+2 Range"],
+		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	
 	{
 		"name": "Sortie",
 		"prerequisites": ["Interception II","Operational Range"],
-		"uniques": ["1 extra Interception may be made per turn"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"]
 	},
 	
 	{
 		"name": "Evasive Maneuvers",
 		"prerequisites": ["Interception II","Siege II","Operational Range"],
-		"uniques": ["Reduces damage taken from interception by 50%"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
@@ -371,7 +371,7 @@
 	{
 		"name": "Logistics",
 		"prerequisites": ["Mobility","Extended Range","March","Flank Speed","Convoy","Wolfpack III","Interception III", "Siege III","Sortie","Operational Range","Evasive Maneuvers"],
-		"uniques": ["1 additional attack per turn"],
+		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Ranged","Siege","WaterMelee","WaterRanged","WaterSubmarine","Fighter","Bomber"]
 	},
 	// type TERRAIN SPECIFIC
