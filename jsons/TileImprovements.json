@@ -50,13 +50,13 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 10,
 		"techRequired": "Steel",
-		"uniques": ["Provides [1] [Power]","Can only be built on Coastal tiles"]
+		"uniques": ["Provides [1] [Power]","Can only be built on [Coastal] tiles"]
 	},
 	/*{
 		"name": "Tidal generator",
 		"turnsToBuild": 10,
 		"techRequired": "Steam Power",
-		"uniques": ["Provides [1] [Power]","Can only be built on Coastal tiles"]// should be  a water improvment
+		"uniques": ["Provides [1] [Power]","Can only be built on [Coastal] tiles"]// should be  a water improvment
 	},*/
 	// Resource-specific
 	{
