@@ -61,23 +61,20 @@
 	// Resource-specific
 	{
 		"name": "Research site",
-		"resourceTerrainAllow": ["Forest","Jungle"],
 		"turnsToBuild": 7,
 		"techRequired": "Secrets of the Past",
-		"uniques": ["[+1 Science] once [Computers] is discovered"]
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Science] once [Computers] is discovered"]
 	},	
 	{
 		"name": "Hacking site",
-		"resourceTerrainAllow": ["Forest","Jungle"],
 		"turnsToBuild": 7,
 		"techRequired": "Decryption",
-		"uniques": ["[+3 Science] once [Artificial Intelligence] is discovered"]
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+3 Science] once [Artificial Intelligence] is discovered"]
 	},
 	{
 		"name": "Salvage site",
-		"resourceTerrainAllow": ["Forest","Jungle"],
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Production] once [Manufacturing] is discovered"]
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Production] once [Manufacturing] is discovered"]
 	},
 	{
 		"name": "Water pump",
