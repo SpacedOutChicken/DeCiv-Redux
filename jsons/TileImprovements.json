@@ -86,9 +86,8 @@
 	},	
 	{
 		"name": "Camp",
-		"resourceTerrainAllow": ["Forest","Jungle"],
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Food] once [Genetics] is discovered"]
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Food] once [Genetics] is discovered"]
 	},
 	{
 		"name": "Oil well",
