@@ -92,6 +92,7 @@
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
+		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Machinery",
 		"uniques": ["Provides [1] [Oil]"]
 	},
