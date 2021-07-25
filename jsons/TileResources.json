@@ -92,7 +92,6 @@
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-		"revealedBy": "Secrets of the Past",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast"],
 		"production": 1,
 		"improvement": "Oil well",

@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
 	},
 	//type SCOUT, special				
@@ -15,13 +15,13 @@
 	{
 		"name": "Reconnaissance II",
 		"prerequisites": ["Reconnaissance I"],
-		"uniques": ["+1 Movement","No movement cost to pillage"],
+		"uniques": ["[+1] Movement","No movement cost to pillage"],
 		"unitTypes": ["Melee","Mounted","Ranged","Scout"]
 	},		
 	{
 		"name": "Reconnaissance III",
 		"prerequisites": ["Reconnaissance II"],
-		"uniques": ["+1 Movement","+[50]% Strength vs [Siege]"],		
+		"uniques": ["[+1] Movement","+[50]% Strength vs [Siege]"],		
 		"unitTypes": ["Melee","Mounted","Ranged","Scout"]
 	},	
 	
@@ -165,14 +165,14 @@
 	{
 		"name": "Resupply",
 		"prerequisites": ["Accuracy","Combat Drill","Awe","Maneuver"],
-		"uniques": ["+10 HP when healing"],
+		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Armor","Siege"]
 	},
 	//extended range
 	{
 		"name": "Mobility",
 		"prerequisites": ["Barrage","Resupply"],
-		"uniques": ["+1 Movement","+1 Movement"],
+		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Siege"]
 	},	
 	//logistics
@@ -269,19 +269,19 @@
 	{
 		"name": "Flank Speed",
 		"prerequisites": ["Littoral Warfare","Exploit Weakness","Damage Control","Close-In Weapons System","Sentry","Flight Deck II","Wolfpack I"],
-		"uniques": ["+1 Movement"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["WaterMelee","WaterRanged","WaterAircraftCarrier","WaterSubmarine"]
 	},
 	{
 		"name": "Convoy",
 		"prerequisites": ["Littoral Warfare","Exploit Weakness","Damage Control","Close-In Weapons System","Sentry","Flight Deck II"],
-		"uniques": ["+10 HP when healing"],
+		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["WaterMelee","WaterRanged","WaterAircraftCarrier","WaterSubmarine","Wolfpack II"]
 	},	
 	{
 		"name": "Sentry",
 		"prerequisites": ["Skirmish","Entrench","Forage","Loose Formation","Shock","Guerilla Warfare I","Urban Warfare I","Reconnaissance I","Bombardment","Targeting","Evasion","Strike"],
-		"uniques": ["+1 Visibility Range"],
+		"uniques": ["[+1] Visibility Range"],
 		"unitTypes": ["Melee","Ranged","Mounted","Scout","WaterRanged","WaterMelee"]
 	},	
 	{
@@ -299,7 +299,7 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Precision","Suppression","Sentry","Barrage","Resupply","Flank Speed","Convoy"],
-		"uniques": ["+1 Range"],
+		"uniques": ["[+1] Range"],
 		"unitTypes": ["Ranged","Siege","WaterRanged"]
 	},	
 	
