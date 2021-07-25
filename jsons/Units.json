@@ -1283,7 +1283,7 @@
 		"requiredTech": "Particle Physics",
 		"uniques": ["+[75]% Strength when attacking", "Invisible to others", 
 			"Can only attack [Water] tiles", "Can attack submarines", "Can enter ice tiles", 
-			"[+1] Visibility Range", "Can carry [2] [Missile] units"],
+			"[+1] Visibility Range", "Can carry [2] [Missile] units","Requires [Factory]"],
 		"attackSound": "torpedo"
 	},
 
