@@ -491,15 +491,15 @@
 		"requiredNearbyImprovedResources": ["Cattle","Goats","Furs"],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Cattle] tiles in this city","[+1 Food] from [Insects] tiles in this city","[+1 Food] from [Goats] tiles in this city","[+1 Food] from [Furs] tiles in this city"],
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]","[+1 Food] from [Insects] tiles [in this city]","[+1 Food] from [Goats] tiles [in this city]","[+1 Food] from [Furs] [tiles in this city]"],
 		"requiredTech": "Redomestication"
 	},		
 	{
 		"name": "Greenhouse", 
 		"food": 2,
 		"specialistSlots": {"Farmer": 1},
-		"uniques": ["[+1 Food] from [Tubers] tiles in this city",
-			"[+1 Food] from [Wheat] tiles in this city"],
+		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
@@ -723,7 +723,9 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
-		"uniques": ["[+1 Gold] from [Luxury resource] tiles in this city"]
+		"uniques": ["[+1 Gold] from [Electronics] tiles [in this city]","[+1 Gold] from [Furs] tiles [in this city]","[+1 Gold] from [Fungus] tiles [in this city]",
+			"[+1 Gold] from [Hostile Fauna] tiles [in this city]","[+1 Gold] from [Salt] tiles [in this city]","[+1 Gold] from [Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Marine Artifacts] tiles [in this city]","[+1 Gold] from [Gems] tiles [in this city]","[+1 Gold] from [Silver] tiles [in this city]",]
 	},
 	{
 		"name": "Caravan Office", 
@@ -1254,8 +1256,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap","Metal"],
-		"uniques": ["[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles in this city",
-			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles in this city"],		
+		"uniques": ["[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
+			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]"],		
 		"requiredResource": "Coal",
 		"requiredTech": "Steel"
 	},	
@@ -1264,10 +1266,9 @@
 		"maintenance": 1,
 		"cost": 150,
 		"requiredNearbyImprovedResources": ["Oil"],
-		"requiredResource": "Power",	//power
-		"resourceBonusStats": {"food": -1, "production": 3, "gold": -1},
+		"requiredResource": "Power",
 		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Oil]","[+1 Production] with [Machinery]"],
+		"uniques": ["Provides [1] [Oil]","[+1 Production] with [Machinery]","[-1 Food, +3 Production, -1 Gold] from [Oil] tiles [in this city]"],
 		"requiredTech": "Chemistry"
 	},
 	{
@@ -1277,7 +1278,7 @@
 		"maintenance": 1,
 		"cost": 100,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production, +2 Culture,-1 Gold] from [Oil] tiles in this city","Provides [1] [Oil]","[+2 Production, -1 Food] with [Power]","[+1 Production] with [Machinery]"]
+		"uniques": ["[+1 Production, +2 Culture,-1 Gold] from [Oil] tiles [in this city]","Provides [1] [Oil]","[+2 Production, -1 Food] with [Power]","[+1 Production] with [Machinery]"]
 	},		
 	{
 		"name": "Biofuel Refinery", 
