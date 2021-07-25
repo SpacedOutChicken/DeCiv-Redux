@@ -57,7 +57,6 @@
 		"name": "Plastics",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Hill","Grassland"],
-	//	"food": -1,
 		"production": 1,
 		"improvement": "Salvage site",
 		"improvementStats": {"production": 1}
@@ -66,7 +65,6 @@
 		"name": "Marine Plastics",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
-	//	"food": -1,
 		"production": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"production": 1}
@@ -88,25 +86,22 @@
 		"revealedBy": "Writing",
 		"improvement": "Wind farm",
 		"improvementStats": {"production": 1},
-		"terrainsCanBeFoundOn": ["Hill"]														
-	//	"unique": "+[10]% Production when constructing [buildings]",
+		"terrainsCanBeFoundOn": ["Hill","Coast"]
 	},
 	
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-	//	"revealedBy": "Secrets of the Past",
+		"revealedBy": "Secrets of the Past",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast"],
 		"production": 1,
 		"improvement": "Oil well",
-		"improvementStats": {"production": 1},
-		"building": "Oil Refinery"
+		"improvementStats": {"production": 1}
 	},		
 	{
 		"name": "Slaves",
 		"resourceType": "Strategic",
 		"production": 1
-	//	"terrainsCanBeFoundOn": ["Settlement"],
 	},
 
 	{
@@ -140,7 +135,6 @@
 		"name": "Weapons",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Jungle","Plains","Hill","Forest","Grassland"],
-	//	"culture": 1,
 		"improvement": "Salvage site",
 		"improvementStats": {"culture": 1}
 	},	
@@ -246,7 +240,6 @@
 	{
 		"name": "Furs",
 		"resourceType": "Luxury",
-	//	"revealedBy": "Redomestication",
 		"terrainsCanBeFoundOn": ["Tundra","Grassland","Jungle","Forest"],
 		"food": 1,
 		"improvement": "Camp",
@@ -255,7 +248,6 @@
 	{
 		"name": "Fungus",
 		"resourceType": "Luxury",
-	//	"revealedBy": "Botany",
 		"terrainsCanBeFoundOn": ["Hill","Marsh","Jungle"],
 		"food": 1,
 		"improvement": "Camp",
@@ -266,7 +258,6 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Marsh", "Fallout"],
 		"food": 1,
-	//	"revealedBy": "Redomestication",
 		"improvement": "Camp",
 		"improvementStats": {"food": 2, "culture": 1, "science": 1}
 	},
@@ -274,7 +265,6 @@
 		"name": "Salt",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Plains","Desert","Tundra"],
-	//	"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"food": 1}
 	},
@@ -299,7 +289,6 @@
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-	//	"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"culture": 1}
 	},
@@ -307,7 +296,6 @@
 		"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-	//	"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"culture": 1}
 	}

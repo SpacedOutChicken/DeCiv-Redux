@@ -5,12 +5,13 @@
 		"isNationalWonder": true,
 		"food": 2,
 		"production": 3,
+		"cityStrength": 2,
 		"cityHealth": 50,
 		"science": 3,
 		"gold": 1,
 		"culture": 1,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","[-2 Happiness] with [Data]","[-2 Happiness] with [Electronics]","[-2 Happiness] with [Machinery]"]
+		"uniques": ["Indicates the capital city"]
 	},		
 	{
 		"name": "Stockpile",
@@ -25,7 +26,6 @@
 	{
 		"name": "Ark One",
 		"isWonder": true,
-	//	"replaces": "Stockpile",
 		"uniqueTo": "Blackwarden",
 		"culture": 1,
 		"happiness": 1,
@@ -41,9 +41,8 @@
 	{
 		"name": "Atlas Refuge",
 		"isWonder": true,
-	//	"replaces": "Stockpile",
 		"uniqueTo": "Atlas",
-	//	"specialistSlots": {"Scientist": 1},
+		"specialistSlots": {"Scientist": 1},
 		"gold": 1,
 		"cityHealth": 40,
 		"providesFreeBuilding": "Food Store",
@@ -55,9 +54,8 @@
 	{
 		"name": "Eagle Rock Complex",
 		"isWonder": true,
-	//	"replaces": "Stockpile",
 		"uniqueTo": "The Patriots",
-	//	"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Engineer": 1},
 		"gold": 1,
 		"cityStrength": 20,
 		"cityHealth": 80,
@@ -70,7 +68,6 @@
 	{
 		"name": "Forum",
 		"isNationalWonder": true,
-	//	"replaces": "Stockpile",
 		"uniqueTo": "Crimson Legion",
 		"cityHealth": 20,
 		"cost": 1,
@@ -81,7 +78,6 @@
 	{
 		"name": "Temple",
 		"isWonder": true,
-	//	"replaces": "Stockpile",
 		"uniqueTo": "Cult of Ignis",
 		"providesFreeBuilding": "Fuel Depot",
 		"specialistSlots": {"Administrator": 1},
@@ -320,7 +316,7 @@
 		"requiredBuilding": "Palace",		
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Crimson Legion",
-		"uniques": ["+1 happiness for every city connected to capital","Provides [3] [Slaves]","+[50]% Production when constructing [Worker]","Free [Auxiliary] appears","Requires [Sovereignty]",
+		"uniques": ["[+1 Happiness] [in all cities connected to capital]","Provides [3] [Slaves]","+[50]% Production when constructing [Worker]","Free [Auxiliary] appears","Requires [Sovereignty]",
 			"Not displayed as an available construction without [Palace]"]
 	},		
 	{
@@ -343,7 +339,6 @@
 	{
 		"name": "Heavy Equipment",
 		"isNationalWonder": true,
-	//	"requiredResource": "Oil",
 		"requiredTech": "Engineering",
 		"requiredNearbyImprovedResources": ["Oil"],
 		"uniques": ["-[25]% tile improvement construction time","Free [Worker] appears"]
@@ -1212,7 +1207,7 @@
 		"resourceBonusStats": {"production": 2, "food": -1},
 		"cost": 50,
 		"hurryCostModifier": -25,
-		"uniques": ["Allows production of Mounted troops"],//,"Not displayed as an available construction without [Horses]"
+		"uniques": ["Allows production of Mounted troops"],
 		"requiredTech": "Redomestication"
 	},
 
@@ -1223,17 +1218,16 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap","Metal"],
 		"requiredTech": "Iron Working",
-		"uniques": ["+[15]% production when building [land units] in this city","[+1 Production] with [Power]","[+1 Production] with [Machinery]"]
+		"uniques": ["+[15]% Production when constructing [Land] units [in this city]","[+1 Production] with [Power]","[+1 Production] with [Machinery]"]
 	},
 	{
 		"name": "Salvage Yard", 
 		"replaces": "Forge",
 		"uniqueTo": "Children of Rust",
 		"hurryCostModifier": 25,
-	//	"requiredNearbyImprovedResources": ["Scrap","Metal"],
 		"requiredTech": "Iron Working",
-		"uniques": ["[+1 Production] from [Scrap] tiles in this city","[+1 Production] from [Forest] tiles in this city","[+1 Production] from [Jungle] tiles in this city","[+1 Production] from [Atoll] tiles in this city",
-			"[+1 Production] with [Machinery]"]
+		"uniques": ["[+1 Production] from [Scrap] tiles [in this city]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]",
+			"[+1 Production] from [Atoll] tiles [in this city]","[+1 Production] with [Machinery]"]
 	},
 	{
 		"name": "Salvage Exchange", 
@@ -1241,10 +1235,9 @@
 		"uniqueTo": "Deadrock Clan",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-	//	"requiredNearbyImprovedResources": ["Scrap","Metal"],
 		"requiredTech": "Iron Working",
-		"uniques": ["[+1 Production] from [Scrap] tiles in this city","[+1 Production] from [Forest] tiles in this city","[+1 Production] from [Jungle] tiles in this city","[+1 Production] from [Atoll] tiles in this city",
-			"[+1 Production] with [Machinery]"]
+		"uniques": ["[+1 Production] from [Scrap] tiles [in this city]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]",
+			"[+1 Production] from [Atoll] tiles [in this city]","[+1 Production] with [Machinery]"]
 	},
 	{
 		"name": "Chop Shop", 
@@ -1254,13 +1247,11 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap"],
 		"requiredTech": "Iron Working",
-		"uniques": ["[+3 Production] from [Scrap] tiles in this city","+[25]% production when constructing [Armor] units","[+1 Production] with [Machinery]"]
+		"uniques": ["[+3 Production] from [Scrap] tiles [in this city]","+[25]% production when constructing [Armor] units [in this city]","[+1 Production] with [Machinery]"]
 	},
 	{
 		"name": "Blast Furnace", 
-	//	"food": -1, can be turned on or off by moving workers
 		"maintenance": 1,
-	//	"production": 1,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap","Metal"],
 		"uniques": ["[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles in this city",
@@ -1270,8 +1261,6 @@
 	},	
 	{
 		"name": "Oil Refinery", 
-	//	"food": -1,
-	//	"production": 1,
 		"maintenance": 1,
 		"cost": 150,
 		"requiredNearbyImprovedResources": ["Oil"],
@@ -1661,7 +1650,7 @@
 		"name": "Harbor",
 	//	"maintenance": 2,
 	//	"hurryCostModifier": 25,
-		"uniques": ["+[10]% production when building [naval units] in this city","Connects trade routes over water","Must be next to [Coast]"],
+		"uniques": ["+[10]% Production when constructing [Water] units [in this city]","Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Astronomy"
 	},
 	{
@@ -1669,7 +1658,7 @@
 		"hurryCostModifier": 25,
 	//	"maintenance": 2,"+1 production and gold from all sea resources worked by the city",
 		"requiredBuilding": "Harbor",
-		"uniques": ["[+1 Production] from [Water resource] tiles in this city","Must be next to [Coast]", "+[15]% production when building [naval units] in this city",
+		"uniques": ["[+1 Production] from [Water resource] tiles in this city","Must be next to [Coast]", "+[15]% Production when constructing [Water] units [in this city]",
 			"Requires a [Harbor] in this city","Not displayed as an available construction without [Harbor]"],
 		"requiredTech": "Manufacturing"
 	},
@@ -1695,7 +1684,7 @@
         "science": 1,
 		"happiness": 1,
 		"greatPersonPoints": {"culture": 2},
-		"uniques": ["Golden Age length increases +50%","Provides [1] [Power]"]
+		"uniques": ["Will not be displayed in Civilopedia","Golden Age length increased by [50]%","Provides [1] [Power]"]
 	},	
 	{
 		"name": "Encylopedia",

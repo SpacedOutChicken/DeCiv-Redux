@@ -39,8 +39,8 @@
 		"adjective": ["Mercenary"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		"startIntroPart1": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool.",
+		"startIntroPart2": "The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack.",
 		
 		"declaringWar": "It's time for you to join the Blackwarden family.",
 		"attacked": "Competitiveness? It's one of our core values.",
@@ -70,8 +70,8 @@
 	//	"startBias": ["Avoid Desert"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		"startIntroPart1": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back.",
+		"startIntroPart2": "Choose something different. Choose Atlas.",
 		
 		"declaringWar": "All that is required for the triumph of evil is for good men to do nothing.",
 		"attacked": "You're breaking the non-aggression principle!",
@@ -248,8 +248,8 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		"startIntroPart1": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.",
+		"startIntroPart2": "And as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed.",
 
 		"declaringWar": "Rejoice! Your profane forms will soon become one with the Exhaust!",
 		"attacked": "Your offering is welcome! We shall oxidize together in blessed combustion!",
@@ -395,7 +395,8 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0]
+		"innerColor": [182,0,0],
+		"uniques": ["Can only heal by pillaging"]
 	}
 	        	
 ]

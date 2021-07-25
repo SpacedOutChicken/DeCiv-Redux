@@ -11,7 +11,6 @@
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Grassland","Tundra"],
 		"production": 1,
-	//	"gold": -1,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": ["Gives a defensive bonus of [10]%","[+1 Food, -1 Gold] on [fresh water] tiles once [Ecology] is discovered","[+1 Food, +1 Production] once [Land Remediation] is discovered"]
@@ -47,17 +46,12 @@
 	},
 	{
 		"name": "Wind farm",
-		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 10,
 		"techRequired": "Steel",
-		"uniques": ["Provides [1] [Power]","Can only be built on [Coastal] tiles"]
+		"uniques": ["Provides [1] [Power]"]
 	},
-	/*{
-		"name": "Tidal generator",
-		"turnsToBuild": 10,
-		"techRequired": "Steam Power",
-		"uniques": ["Provides [1] [Power]","Can only be built on [Coastal] tiles"]// should be  a water improvment
-	},*/
+	
+
 	// Resource-specific
 	{
 		"name": "Research site",
@@ -92,7 +86,6 @@
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
-		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Machinery",
 		"uniques": ["Provides [1] [Oil]"]
 	},
@@ -105,7 +98,6 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
 		"techRequired": "Sailing"
 	},
 
@@ -219,7 +211,7 @@
 
 	{
 		"name": "Citadel",
-		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement"]
+		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement", "Can be built just outside your borders"]
 	},	
 	{ "name": "City center", "uniques": ["Unpillagable", "Indestructible"],
 		"civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}] },

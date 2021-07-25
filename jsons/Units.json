@@ -1,7 +1,5 @@
 [
 
-// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/
-
 
 	{
 		"name": "Divine Spear",
@@ -11,7 +9,6 @@
 		"rangedStrength": 300,
 		"range": 8,
 		"cost": 600,
-	//	"requiredTech": "Avionics",
 		"requiredResource": "Uranium",
         "uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Unbuildable","Self-destructs when attacking"],
 		"hurryCostModifier": 20
@@ -52,15 +49,15 @@
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
 	},	
-	/*{
-		"name": "Fast Worker",
+	{
+		"name": "Mounted Worker",
 		"unitType": "Civilian",
 		"movement": 4,
 		"hurryCostModifier": 20,
 		"requiredTech": "The Wheel",
 		"uniques": ["Can build [Land] improvements on tiles","Requires [Stable]","Not displayed as an available construction without [Stable]"],
 		"cost": 130
-	},*/
+	},
 	{
 		"name": "Civilian Convoy",
 		"unitType": "Civilian",
@@ -1268,24 +1265,27 @@
 		"strength": 30,
 		"rangedStrength": 60,
 		"cost": 300,
+		"upgradesTo": "Nuclear Submarine",
 		"requiredResource": "Oil",
 		"requiredTech": "Gyroscopes",
-		"uniques": ["Bonus as Attacker [66]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles","Requires [Factory]"],
+		"uniques": ["Bonus as Attacker [66]%", "Invisible to others", "Can only attack [Water] tiles", "Can attack submarines", "Can enter ice tiles","Requires [Factory]"],
 		"hurryCostModifier": 20
 	},
-	/*{
+	{
 		"name": "Nuclear Submarine",
 		"unitType": "WaterSubmarine",
 		"movement": 6,
-		"strength": 30,
+		"strength": 50,
 		"range": 3,
-		"rangedStrength": 70,
+		"rangedStrength": 85,
 		"cost": 425,
-		"requiredTech": "Computers",
-		"uniques": ["Bonus as Attacker [75]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles","+1 Visibility Range"]
-		// Can carry 2 Missiles
-		// 50 strength, 85 rangedStrength, requiredTech "Telecommunications" in expansions
-	},*/
+		"requiredResource": "Uranium",
+		"requiredTech": "Particle Physics",
+		"uniques": ["+[75]% Strength when attacking", "Invisible to others", 
+			"Can only attack [Water] tiles", "Can attack submarines", "Can enter ice tiles", 
+			"[+1] Visibility Range", "Can carry [2] [Missile] units"],
+		"attackSound": "torpedo"
+	},
 
 	
 
