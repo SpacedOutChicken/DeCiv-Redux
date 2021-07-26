@@ -138,7 +138,7 @@
 		"requiredBuilding": "Search for Survivors",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "Citizens' Assembly",
-		"uniques": ["+[15]% combat bonus for units fighting in [Friendly Land]","+[20]% Production when constructing [Military] units [in all cities]",
+		"uniques": ["+[15]% Strength for units fighting in [Friendly Land]","+[20]% Production when constructing [Military] units [in all cities]",
 			"Requires a [Search for Survivors] in this city","Not displayed as an available construction without [Search for Survivors]"]
 	},	
 	{
@@ -272,25 +272,25 @@
 		"name": "SS Booster", //solar shade
 		"requiredResource": "Aluminum",
 		"requiredTech": "Future Materials",
-		"uniques": ["Spaceship part", "Cannot be purchased"]
+		"uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
 	},
 	{
 		"name": "SS Cockpit", //command center
 		"requiredResource": "Aluminum",
 		"requiredTech": "Artificial Intelligence",
-		"uniques": ["Spaceship part", "Cannot be purchased"]
+		"uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
 	},
 	{
 		"name": "SS Engine", //ocean processor
 		"requiredResource": "Uranium",
 		"requiredTech": "Future Power",
-		"uniques": ["Spaceship part", "Requires a [Harbor] in this city", "Cannot be purchased"]
+		"uniques": ["Spaceship part", "Requires a [Harbor] in this city", "Cannot be purchased","Triggers a global alert upon completion"]
 	},
 	{
 		"name": "SS Stasis Chamber", //atmosphere processor
 		"requiredResource": "Uranium",
 		"requiredTech": "Geo Engineering",
-		"uniques": ["Spaceship part", "Cannot be purchased"]
+		"uniques": ["Spaceship part", "Cannot be purchased","Triggers a global alert upon completion"]
 	},
 		
 	// projects
@@ -443,7 +443,7 @@
 		"name": "Secret Laboratory",
 		"isNationalWonder": true,
 		"requiredTech": "Laboratory",
-		"greatPersonPoints": {"science": 2},
+		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": ["Must have an owned [Research Facility] within [5] tiles","All newly-trained [relevant] units [in this city] receive the [March] promotion"]
 	},
 		
@@ -454,7 +454,7 @@
 		"requiredTech": "Laboratory",
 		"requiredResource": "Power",	//power
 		"maintenance": 2,	
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["Must have an owned [Toxic Waste] within [15] tiles","Requires [Scorched Earth]","[Artillery] units gain the [Chemical Weapons] promotion","[Air] units gain the [Chemical Weapons] promotion","[Helicopter] units gain the [Chemical Weapons] promotion"]
 	},
 		//	FOOD
@@ -734,7 +734,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
-		"greatPersonPoints": {"gold": 1},
+		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["5% Production for every Trade Route with a City-State in the empire",
 			"[+1 Gold] from [Electronics] tiles [in this city]","[+1 Gold] from [Furs] tiles [in this city]","[+1 Gold] from [Fungus] tiles [in this city]",
 			"[+1 Gold] from [Hostile Fauna] tiles [in this city]","[+1 Gold] from [Salt] tiles [in this city]","[+1 Gold] from [Artifacts] tiles [in this city]",
@@ -775,7 +775,7 @@
 		"uniqueTo": "Deadrock Clan",	
 		"gold": 1,
 		"science": 1,
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[+1 Science] with [Power]"],
 		"requiredTech": "Writing"
 	},	
@@ -784,7 +784,7 @@
 		"replaces": "Library",
 		"uniqueTo": "Crimson Legion",
 		"science": 1,
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[+1 Science] with [Power]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -795,7 +795,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"culture": 1,
 		"science": 2,
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"requiredNearbyImprovedResources": ["Books","Data","Encrypted Data"],
 		"uniques": ["[+1 Science] with [Power]"],
 		"hurryCostModifier": 25,
@@ -827,7 +827,7 @@
 		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 33,
-		"greatPersonPoints": {"culture": 1, "war": 1},
+		"greatPersonPoints": {"Great Administrator": 1, "Great General": 1},
 		"specialistSlots": {"science": 1,"merchant":1},
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
 			"[+1 Science] with [Power]","Requires a [Library] in this city","Not displayed as an available construction without [Library]"],
@@ -840,7 +840,7 @@
 		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"greatPersonPoints": {"science": 1, "culture": 1},
+		"greatPersonPoints": {"Great Scientist": 1, "Great Administrator": 1},
 		"specialistSlots": {"Administrator": 1},
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
 			"Requires a [Library] in this city","Not displayed as an available construction without [Library]","[+1 Culture] with [Power]"],
@@ -853,7 +853,7 @@
 		"culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"specialistSlots": {"Scientist": 1},
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
 			"[+1 Science] with [Power]","Requires a [Sanctum] in this city",
@@ -883,7 +883,7 @@
 		"replaces": "Public School",
 		"uniqueTo": "Deadrock Clan",
 		"food": -1,
-		"greatPersonPoints": {"war": 1},
+		"greatPersonPoints": {"Great General": 1},
 		"uniques": ["Can recruit Clansman infantry","[+1 Culture] per [3] population [in this city]","[+1 Gold] with [Slaves]","+[20]% Production when constructing [military units] in this city"],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -896,8 +896,8 @@
 		"food": -1,
 		"xpForNewUnits": 15,
 		"requiredBuilding": "Barracks",
-		"uniques": ["+[15]% Production when constructing [military units] in this city","Requires a [Barracks] in this city","Not displayed as an available construction without [Barracks]"],
-		"greatPersonPoints": {"war": 1},
+		"uniques": ["+[15]% Production when constructing [Military] units [in this city]","Requires a [Barracks] in this city","Not displayed as an available construction without [Barracks]"],
+		"greatPersonPoints": {"Great General": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
@@ -956,14 +956,14 @@
 		"isNationalWonder": true,
 		"requiredNearbyImprovedResources": ["Data"],
 		"requiredResource": "Power",	//power
-		"greatPersonPoints": {"culture": 2},
+		"greatPersonPoints": {"Great Administrator": 2},
 	//	"uniques": ["Culture in all cities increased by 25%"],
 		"requiredTech": "Networking"
 	},	
 	{
 		"name": "Decryption Center",
 		"culture": 1,
-		"greatPersonPoints": {"science": 1},
+		"greatPersonPoints": {"Great Scientist": 1},
 		"requiredResource": "Encrypted Data",
 		"requiredBuilding": "Data Center",
 		"uniques": ["[+2 Science] with [Power]","Requires a [Data Center] in this city","Not displayed as an available construction without [Data Center]"],
@@ -973,7 +973,7 @@
 	{
 		"name": "Skunkworks",
 		"culture": 1,
-		"greatPersonPoints": {"science": 2},
+		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"requiredResource": "Encrypted Data",
 		"requiredBuilding": "Data Center",
@@ -985,7 +985,7 @@
 		"name": "Supercollider",
 		"science": 5,
 		"culture": 1,
-		"greatPersonPoints": {"science": 2},
+		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"requiredResource": "Power",	//power
 		"uniques": ["[2] free [Great Scientist] units appear"],
@@ -998,7 +998,7 @@
 		"happiness": 2,
 		"science": 2,		
 		"culture": 5,
-		"greatPersonPoints": {"production": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"requiredBuilding": "Aerospace Facility",
 		"uniques": ["Science gained from research agreements +[50]%","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
@@ -1008,7 +1008,7 @@
 		"name": "Surveillance Satellite",
 		"happiness": 5,	
 		"culture": 2,
-		"greatPersonPoints": {"production": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,		
 		"requiredBuilding": "Aerospace Facility",
 		"uniques": ["+[1] Sight for all [Land] units","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
@@ -1018,7 +1018,7 @@
 	{
 		"name": "Satnav Network",
 		"science": 1,	
-		"greatPersonPoints": {"production": 2},
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"requiredBuilding": "Aerospace Facility",
 		"uniques": ["Gold from all trade routes +25%","+[1] Movement for all [Water] units","+[1] Sight for all [Water] units","Requires a [Aerospace Facility] in this city","Not displayed as an available construction without [Aerospace Facility]"],
@@ -1185,7 +1185,7 @@
 
 	{
 		"name": "Military Academy",
-		"greatPersonPoints": {"war": 1},
+		"greatPersonPoints": {"Great General": 1},
 		"isNationalWonder": true,
 		"xpForNewUnits": 30,
 		"hurryCostModifier": 25,
@@ -1686,7 +1686,7 @@
 		"culture": 5,
         "science": 1,
 		"happiness": 1,
-		"greatPersonPoints": {"culture": 2},
+		"greatPersonPoints": {"Great Administrator": 2},
 		"uniques": ["Will not be displayed in Civilopedia","Golden Age length increased by [50]%","Provides [1] [Power]"]
 	},	
 	{
@@ -1730,7 +1730,7 @@
 		"culture": 5,
         "science": 3,
 		"happiness": 2,
-		"greatPersonPoints": {"science": 2},
+		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},	
 	{
