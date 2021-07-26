@@ -358,7 +358,7 @@
 		"name": "Ally with Isolationists",
 		"cannotBeBuiltWith": "Annex Isolationists",
 		"cost": 5,
-		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Science, +2 Gold] from [Isolated Island] tiles in this city"]
+		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]"]
 	},	
 	{
 		"name": "Annex Isolationists",
@@ -366,7 +366,7 @@
 		"requiredTech": "Sailing",
 		"cannotBeBuiltWith": "Ally with Isolationists",
 		"cost": 200,
-		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles in this city","Provides [1] [Weapons]","Provides [1] [Slaves]"],
+		"uniques": ["Must have an owned [Isolated Island] within [3] tiles","[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles [in this city]","Provides [1] [Weapons]","Provides [1] [Slaves]"],
 		"quote": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
 	},	
 	{
@@ -382,7 +382,7 @@
 		"name": "Nuclear Waste Museum",
 		"cannotBeBuiltWith": "Excavate Nuclear Waste",
 		"requiredTech": "Writing",
-		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles","[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles in this city"]
+		"uniques": ["Must have an owned [Nuclear Waste Storage] within [3] tiles","[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles [in this city]"]
 	},
 	{
 		"name": "Excavate Nuclear Waste",
@@ -390,7 +390,7 @@
 		"isWonder": true,
 		"percentStatBonus": {"food": -20},
 		"requiredTech": "Mining",
-		"uniques": ["DO NOT DO THIS","Must have an owned [Nuclear Waste Storage] within [3] tiles","[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles in this city","Provides [1] [Uranium]"],
+		"uniques": ["DO NOT DO THIS","Must have an owned [Nuclear Waste Storage] within [3] tiles","[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles [in this city]","Provides [1] [Uranium]"],
 		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
 },
 	{
@@ -406,7 +406,7 @@
 		"isWonder": true,
 		"cannotBeBuiltWith": "Produce Soft Drinks",
 		"cost": 25,
-		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles","Empire enters golden age","[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles in this city"],
+		"uniques": ["Must have an owned [Soft Drinks Factory] within [3] tiles","Empire enters golden age","[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles [in this city]"],
 		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"
 	},	
 	{
@@ -422,7 +422,7 @@
 		"requiredTech": "Engineering",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Army Depot] within [3] tiles","[+1 Science, +1 Production] from [Army Depot] tiles in this city","Provides [2] [Weapons]","Free [Ancient Armor] appears"],
+		"uniques": ["Must have an owned [Army Depot] within [3] tiles","[+1 Science, +1 Production] from [Army Depot] tiles [in this city]","Provides [2] [Weapons]","Free [Ancient Armor] appears"],
 		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!"// - Traditional nursery rhyme
 	},
 	{
@@ -430,7 +430,7 @@
 		"requiredTech": "Sailing",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles","[+1 Science, +1 Production] from [Ship Graveyard] tiles in this city","Free [Patrol Boat] appears"]
+		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles","[+1 Science, +1 Production] from [Ship Graveyard] tiles [in this city]","Free [Patrol Boat] appears"]
 	},
 	{
 		"name": "Turbine Hall",
@@ -477,10 +477,10 @@
 		"name": "Cold Store", 
 		"percentStatBonus": {"food": 10},
 		"maintenance": 1,
-		"uniques": ["[+1 Food] from [Goats] tiles in this city",
-			"[+1 Food] from [Cattle] tiles in this city",
-			"[+1 Food] from [Deer] tiles in this city",
-			"[+1 Food] from [Algae] tiles in this city"],
+		"uniques": ["[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Algae] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Power",	//power
 		"requiredTech": "Refrigeration"
@@ -725,7 +725,7 @@
 		"requiredTech": "Trade",
 		"uniques": ["[+1 Gold] from [Electronics] tiles [in this city]","[+1 Gold] from [Furs] tiles [in this city]","[+1 Gold] from [Fungus] tiles [in this city]",
 			"[+1 Gold] from [Hostile Fauna] tiles [in this city]","[+1 Gold] from [Salt] tiles [in this city]","[+1 Gold] from [Artifacts] tiles [in this city]",
-			"[+1 Gold] from [Marine Artifacts] tiles [in this city]","[+1 Gold] from [Gems] tiles [in this city]","[+1 Gold] from [Silver] tiles [in this city]",]
+			"[+1 Gold] from [Marine Artifacts] tiles [in this city]","[+1 Gold] from [Gems] tiles [in this city]","[+1 Gold] from [Silver] tiles [in this city]"]
 	},
 	{
 		"name": "Caravan Office", 
@@ -735,14 +735,17 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"greatPersonPoints": {"gold": 1},
-		"uniques": ["5% Production for every Trade Route with a City-State in the empire"],
+		"uniques": ["5% Production for every Trade Route with a City-State in the empire",
+			"[+1 Gold] from [Electronics] tiles [in this city]","[+1 Gold] from [Furs] tiles [in this city]","[+1 Gold] from [Fungus] tiles [in this city]",
+			"[+1 Gold] from [Hostile Fauna] tiles [in this city]","[+1 Gold] from [Salt] tiles [in this city]","[+1 Gold] from [Artifacts] tiles [in this city]",
+			"[+1 Gold] from [Marine Artifacts] tiles [in this city]","[+1 Gold] from [Gems] tiles [in this city]","[+1 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Trade"
 	},
 	{
 		"name": "Water Plant",
 		"percentStatBonus": {"gold": 20},
 		"maintenance": 0,
-		"uniques": ["[+1 Gold] from [Water] tiles in this city"],
+		"uniques": ["[+1 Gold] from [Water] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Power",	//power
 		"requiredTech": "Decontamination"
@@ -764,7 +767,7 @@
 		"name": "Library",		
 		"resourceBonusStats": {"science": 1,"culture": 1},
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Science] with [Power]","[+1 Science] per [2] population [in this city]","[+1 Science, +1 Culture] from [Books] tiles in this city"],
+		"uniques": ["[+1 Science] with [Power]","[+1 Science] per [2] population [in this city]","[+1 Science, +1 Culture] from [Books] tiles [in this city]"],
 		"requiredTech": "Writing"
 	},	
 	{
@@ -794,6 +797,7 @@
 		"culture": 1,
 		"science": 2,
 		"greatPersonPoints": {"science": 1},
+		"requiredNearbyImprovedResources": ["Books","Data","Encrypted Data"],
 		"uniques": ["[+1 Science] with [Power]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -813,9 +817,8 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "Library",
-		"uniques": ["[+1 Science] from [Jungle] tiles in this city","[+1 Science] from [Forest] tiles in this city","[+1 Science] from [Atoll] tiles in this city","[+1 Science] with [Power]",
-					"Requires a [Library] in this city","Not displayed as an available construction without [Library]"],
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
+			"[+1 Science] with [Power]","Requires a [Library] in this city","Not displayed as an available construction without [Library]"],
 		"requiredTech": "Education"
 	},	
 	{
@@ -827,7 +830,8 @@
 		"hurryCostModifier": 33,
 		"greatPersonPoints": {"culture": 1, "war": 1},
 		"specialistSlots": {"science": 1,"merchant":1},
-		"uniques": ["[+1 Science] with [Power]"],
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
+			"[+1 Science] with [Power]","Requires a [Library] in this city","Not displayed as an available construction without [Library]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -839,8 +843,8 @@
 		"hurryCostModifier": 15,
 		"greatPersonPoints": {"science": 1, "culture": 1},
 		"specialistSlots": {"Administrator": 1},
-		"requiredBuilding": "Library",
-		"uniques": ["Not displayed as an available construction without [Library]","[+1 Culture] with [Power]"],
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
+			"Requires a [Library] in this city","Not displayed as an available construction without [Library]","[+1 Culture] with [Power]"],
 		"requiredTech": "Education"
 	},	
 	{
@@ -852,8 +856,9 @@
 		"hurryCostModifier": 15,
 		"greatPersonPoints": {"science": 1},
 		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "Sanctum",
-		"uniques": ["Not displayed as an available construction without [Sanctum]","[+1 Culture, +1 Science] with [Power]"],
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]",
+			"[+1 Science] with [Power]","Requires a [Sanctum] in this city",
+			"Not displayed as an available construction without [Sanctum]","[+1 Culture, +1 Science] with [Power]"],
 		"requiredTech": "Education"
 	},	
 	{
@@ -907,7 +912,7 @@
 		"maintenance": 1,
 		"xpForNewUnits": 15,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] from [Jungle] tiles in this city","[+1 Science] from [Forest] tiles in this city","[+1 Science] from [Atoll] tiles in this city","Requires a [Sanctum] in this city","Not displayed as an available construction without [Sanctum]"],
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]","[+1 Science] from [Forest] tiles [in this city]","[+1 Science] from [Atoll] tiles [in this city]","Requires a [Sanctum] in this city","Not displayed as an available construction without [Sanctum]"],
 		"requiredTech": "Civil Service"
 	},
 	
@@ -930,7 +935,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredResource": "Power",	//power
 		"requiredTech": "Networking",
-		"uniques": ["[+1 Science, +1 Culture] from [Data] tiles in this city","[+1 Science, +1 Culture] from [Encrypted Data] tiles in this city"]
+		"uniques": ["[+1 Science, +1 Culture] from [Data] tiles [in this city]","[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]"]
 	},
 	/*{
 		"name": "Content Mill",
@@ -1176,7 +1181,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction",
 		"requiredNearbyImprovedResources": ["Weapons"],
-		"uniques": ["[+1 Production] from [Weapons] tiles in this city"]
+		"uniques": ["[+1 Production] from [Weapons] tiles [in this city]"]
 	},		
 
 	{
@@ -1355,7 +1360,7 @@
 		"uniques": ["Allows production of advanced troops and vehicles",
 			"[+3 Production] with [Power]",
 			"[+1 Production] with [Machinery]",
-			"[+1 Production] from [Machinery] tiles in this city"],
+			"[+1 Production] from [Machinery] tiles [in this city]"],
 	//	"requiredResource": "Power",	//power
 		"requiredTech": "Manufacturing"
 	},	
@@ -1490,7 +1495,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Plastics","Marine Plastics"],
-		"uniques": ["[+2 Production] from [Plastics] tiles in this city"],
+		"uniques": ["[+2 Production] from [Plastics] tiles [in this city]"],
 		"requiredResource": "Power",	//power
 		"requiredTech": "Plastics Recycling"
 	},		
@@ -1659,7 +1664,7 @@
 		"hurryCostModifier": 25,
 	//	"maintenance": 2,"+1 production and gold from all sea resources worked by the city",
 		"requiredBuilding": "Harbor",
-		"uniques": ["[+1 Production] from [Water resource] tiles in this city","Must be next to [Coast]", "+[15]% Production when constructing [Water] units [in this city]",
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]","Must be next to [Coast]", "+[15]% Production when constructing [Water] units [in this city]",
 			"Requires a [Harbor] in this city","Not displayed as an available construction without [Harbor]"],
 		"requiredTech": "Manufacturing"
 	},
@@ -1669,7 +1674,7 @@
 		"maintenance": 2,
 		"requiredResource": "Power",	//power
 		"resourceBonusStats": {"food": 1},
-		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles in this city"],
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"],
 		"requiredTech": "Ocean Remediation"
 	},
 	
