@@ -1584,7 +1584,7 @@
 		"requiredResource": "Oil",
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Bomber",
-		"uniques": ["Requires [Alma Air Base]","Will not be displayed in Civilopedia"],
+		"uniques": ["Requires [Alma Air Base]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -1599,7 +1599,7 @@
 		"cost": 50,
 		"requiredTech": "Steel",
 		"upgradesTo": "Infantry",				
-		"uniques": ["Low Tech","+[50]% Strength vs [Low Tech]","+[50]% Strength vs [Mounted]","Will not be displayed in Civilopedia"],		
+		"uniques": ["Low Tech","+[50]% Strength vs [Low Tech]","+[50]% Strength vs [Mounted]"],		
 		"promotions": ["Ambush"],
 		"attackSound": "nonmetalhit"
 	},	
@@ -1616,7 +1616,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Steel",
 		"upgradesTo": "Marksman", 		
-		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]"],
 		"promotions": ["Skirmish"],
 		"attackSound": "arrow"
 	},		
@@ -1634,7 +1634,7 @@
 		"hurryCostModifier": 20,
 		"requiredResource": "Weapons",
 		"uniques": ["Must set up to ranged attack","-[33]% Strength vs [Armor]","-[33]% Strength vs [City]",
-		"Personnel","Will not be displayed in Civilopedia"],
+		"Personnel"],
 		"attackSound": "machinegun"
 	},	
 	
@@ -1651,7 +1651,7 @@
 		"cost": 50,
 		"requiredTech": "Steel",
 		"upgradesTo": "Infantry",				
-		"uniques": ["Low Tech","+[50]% Strength vs [Low Tech]","+[50]% Strength vs [Mounted]","Will not be displayed in Civilopedia"],		
+		"uniques": ["Low Tech","+[50]% Strength vs [Low Tech]","+[50]% Strength vs [Mounted]"],		
 		"promotions": ["Ambush"],
 		"attackSound": "nonmetalhit"
 	},	
@@ -1668,7 +1668,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Steel",
 		"upgradesTo": "Marksman", 			
-		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","Will not be displayed in Civilopedia"],
+		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]"],
 		"promotions": ["Skirmish"],
 		"attackSound": "arrow"
 	},		
@@ -1687,7 +1687,7 @@
 		"hurryCostModifier": 20,
 		"requiredResource": "Weapons",
 		"uniques": ["Must set up to ranged attack","-[33]% Strength vs [Armor]","-[33]% Strength vs [City]",
-		"Personnel","Will not be displayed in Civilopedia"],
+		"Personnel"],
 		"attackSound": "machinegun"
 	},	
 	

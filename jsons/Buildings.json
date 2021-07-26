@@ -17,11 +17,10 @@
 		"name": "Stockpile",
 		"isNationalWonder": true,
 		"uniqueTo": "Enclavers",
-		"providesFreeBuilding": "Deep Larder",
 		"cost": 1,
 		"requiredBuilding": "Palace",	
-		"uniques": ["[10]% of food is carried over [in this city] after population increases","Provides [2] [Weapons]",
-				"Requires a [Palace] in this city","Not displayed as an available construction without [Palace]"]
+		"uniques": ["[10]% of food is carried over [in this city] after population increases","Provides [2] [Weapons]","Free [Spearman] appears",
+				"Requires a [Palace] in this city","Not displayed as an available construction without [Palace]","Provides a free [Deep Larder] [in this city]"]
 	},		
 	{
 		"name": "Ark One",
@@ -32,10 +31,9 @@
 		"gold": 1,
 		"cityStrength": 10,
 		"cityHealth": 60,
-		"providesFreeBuilding": "Food Store",
 		"cost": -1,
 		"requiredBuilding": "Palace",	
-		"uniques": ["Provides [1] [Power]","Free [Security] appears","Requires a [Palace] in this city"],
+		"uniques": ["Provides [1] [Power]","Free [Security] appears","Requires a [Palace] in this city","Provides a free [Food Store] [in this city]"],
 		"quote":"While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack."
 	},
 	{
@@ -45,10 +43,9 @@
 		"specialistSlots": {"Scientist": 1},
 		"gold": 1,
 		"cityHealth": 40,
-		"providesFreeBuilding": "Food Store",
 		"cost": 1,
 		"requiredBuilding": "Palace",	
-		"uniques": ["Provides [1] [Power]","Free [Surveyor] appears","Requires a [Palace] in this city"],
+		"uniques": ["Provides [1] [Power]","Free [Surveyor] appears","Requires a [Palace] in this city","Provides a free [Food Store] [in this city]"],
 		"quote":"At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas."
 	},
 	{
@@ -59,11 +56,10 @@
 		"gold": 1,
 		"cityStrength": 20,
 		"cityHealth": 80,
-		"providesFreeBuilding": "Food Store",
 		"cost": 1,
 		"requiredBuilding": "Palace",	
 		"uniques": ["[10]% of food is carried over [in this city] after population increases","Provides [1] [Power]","Provides [2] [Weapons]","Free [Spec Ops] appears",
-			"Requires a [Palace] in this city"]
+			"Requires a [Palace] in this city","Provides a free [Food Store] [in this city]"]
 	},	
 	{
 		"name": "Forum",
@@ -79,15 +75,32 @@
 		"name": "Temple",
 		"isWonder": true,
 		"uniqueTo": "Cult of Ignis",
-		"providesFreeBuilding": "Fuel Depot",
 		"specialistSlots": {"Administrator": 1},
 		"happiness": 1,
 		"cost": 1,
 		"requiredBuilding": "Palace",	
 		"uniques": ["[+2 Culture] once [Iron Working] is discovered", "Provides [2] [Oil]","Free [War Buggy] appears",
-			"Requires a [Palace] in this city"],
+			"Requires a [Palace] in this city","Provides a free [Fuel Depot] [in this city]"],
 		"quote":"Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed."
 			
+	},
+	{
+		"name": "Monument to Hope",
+		"isNationalWonder": true,
+		"uniqueTo": "Commonwealth",
+		"cost": 1,
+		"requiredBuilding": "Palace",	
+		"uniques": ["[+25]% great person generation [in this city]","Free [Spearman] appears",
+			"Requires a [Palace] in this city","Provides a free [Monument] [in this city]"]
+	},
+	{
+		"name": "Legacy of Rust",
+		"isNationalWonder": true,
+		"uniqueTo": "Children of Rust",
+		"cost": 1,
+		"requiredBuilding": "Palace",	
+		"uniques": ["[+1 Culture] from [Forest] tiles [in this city]","[+1 Culture] from [Jungle] tiles [in this city]",
+			"[+1 Culture] from [Atoll] tiles [in this city]","Free [Scavenger] appears","Requires a [Palace] in this city"]
 	},
 
 	//Cultural victory
@@ -613,7 +626,8 @@
 		"culture": 1,
 		"maintenance": 1,	
 		"cost": 40,
-		"uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city","[+1 Happiness, +1 Culture] with [Power]","[+1] population [in all cities]"],
+		"uniques": ["-[25]% Culture cost of acquiring tiles [in this city]","-[25]% Gold cost of acquiring tiles [in this city]"
+			,"[+1 Happiness, +1 Culture] with [Power]","[+1] population [in all cities]"],
 		"hurryCostModifier": 40
 	},
 	{
@@ -1394,10 +1408,9 @@
 		"percentStatBonus": {"production": -10},
 		"cityStrength": 5,
 		"production": -3,
-		"providesFreeBuilding":  "Armory",
 		"requiredResource": "Power",	//power
 		"uniques": ["Provides [2] [Weapons]","[Personnel] units gain the [Infantry Weapons] promotion","+[10]% Production when constructing [military units]",
-				"Requires a [Factory] in this city","Not displayed as an available construction without [Factory]"],
+				"Requires a [Factory] in this city","Not displayed as an available construction without [Factory]","Provides a free [Armory] [in this city]"],
 		"requiredBuilding": "Factory",
 		"requiredTech": "Munitions"
 	},
@@ -1710,10 +1723,9 @@
 		"name": "Nuclear Storage",
 		"uniqueTo": "Devil's Canyon",
 		"replaces": "Monument",
-		"providesFreeBuilding":  "Nuclear Plant",
 		"gold": 5,
 		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia","Reveals the entire map","Provides [1] [Uranium]"]
+		"uniques": ["Will not be displayed in Civilopedia","Reveals the entire map","Provides [1] [Uranium]","Provides a free [Nuclear Plant] [in this city]"]
 	},
 	{
 		"name": "Silk Road",
