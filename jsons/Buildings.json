@@ -248,7 +248,7 @@
 		"requiredBuilding": "Palace",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "War Council",
-		"uniques": ["+[25% Science] from every [College of Mystics]","+[20]% Production when constructing [Science] buildings",
+		"uniques": ["+[25]% [Science] from every [College of Mystics]","+[20]% Production when constructing [Science] buildings",
 			"Requires a [Palace] in this city","Not displayed as an available construction without [Palace]"]
 	},
 	
