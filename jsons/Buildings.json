@@ -491,7 +491,7 @@
 		"requiredNearbyImprovedResources": ["Cattle","Goats","Furs"],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]","[+1 Food] from [Insects] tiles [in this city]","[+1 Food] from [Goats] tiles [in this city]","[+1 Food] from [Furs] [tiles in this city]"],
+		"uniques": ["[+1 Food] from [Cattle] tiles [in this city]","[+1 Food] from [Insects] tiles [in this city]","[+1 Food] from [Goats] tiles [in this city]","[+1 Food] from [Furs] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},		
 	{
