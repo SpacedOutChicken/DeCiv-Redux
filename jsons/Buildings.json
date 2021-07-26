@@ -444,7 +444,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Laboratory",
 		"greatPersonPoints": {"science": 2},
-		"uniques": ["Must have an owned [Research Facility] within [5] tiles","All newly-trained [relevant] units in this city receive the [March] promotion"]
+		"uniques": ["Must have an owned [Research Facility] within [5] tiles","All newly-trained [relevant] units [in this city] receive the [March] promotion"]
 	},
 		
 		
@@ -536,7 +536,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"requiredResource": "Power",	//power
-		"uniques": ["[30]% of food is carried over [in this city] after population increases","All newly-trained [relevant] units in this city receive the [Medic I] promotion","[+1 Food] with [Harvested Organs]"]
+		"uniques": ["[30]% of food is carried over [in this city] after population increases","All newly-trained [relevant] units [in this city] receive the [Medic I] promotion","[+1 Food] with [Harvested Organs]"]
 	},	
 	{
 		"name": "Organ Farm",
@@ -765,7 +765,6 @@
 	//SCI
 	{
 		"name": "Library",		
-		"resourceBonusStats": {"science": 1,"culture": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] with [Power]","[+1 Science] per [2] population [in this city]","[+1 Science, +1 Culture] from [Books] tiles [in this city]"],
 		"requiredTech": "Writing"
@@ -1200,7 +1199,7 @@
 		"uniqueTo": "Enclavers",
 		"cityStrength": 10,
 		"xpForNewUnits": 15,
-		"uniques": ["All newly-trained [relevant] units in this city receive the [Guerilla Warfare II] promotion"],
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Guerilla Warfare II] promotion"],
 		"requiredTech": "Combined Arms"
 	},
 
@@ -1211,10 +1210,9 @@
 	{
 		"name": "Stable", 
 		"requiredNearbyImprovedResources": ["Horses"],
-		"resourceBonusStats": {"production": 2, "food": -1},
 		"cost": 50,
 		"hurryCostModifier": -25,
-		"uniques": ["Allows production of Mounted troops"],
+		"uniques": ["Allows production of Mounted troops","[+2 Production, -1 Food] from [Horses] tiles [in this city]"],
 		"requiredTech": "Redomestication"
 	},
 
@@ -1673,7 +1671,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredResource": "Power",	//power
-		"resourceBonusStats": {"food": 1},
 		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"],
 		"requiredTech": "Ocean Remediation"
 	},
