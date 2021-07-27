@@ -21,7 +21,7 @@
 		"production": 1,
 		"turnsToBuild": 9,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Steam Power] is discovered","[+1 Production] once [Railroad] is discovered"]
+		"uniques": ["[+1 Production] once [Steam Power] is discovered","[+1 Production] once [Railroads] is discovered"]
 	},
 	{
 		"name": "Pasture",
@@ -120,7 +120,7 @@
 	{
 		"name": "Railroad",
 		"turnsToBuild": 10,
-		"techRequired": "Railroad",
+		"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"]
 	},
 	
@@ -206,7 +206,7 @@
 		"name": "Manufactory",
 		"production": 3,
 		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","[+1 Production] once [Steam Power] is discovered",
-			"[+1 Production] once [Railroad] is discovered","[+1 Production] once [Electronics] is discovered","[+1 Production] once [Robotics] is discovered"]
+			"[+1 Production] once [Railroads] is discovered","[+1 Production] once [Electronics] is discovered","[+1 Production] once [Robotics] is discovered"]
 	},
 
 	{

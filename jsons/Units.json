@@ -932,7 +932,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Requires [Chop Shop]","+[50]% Strength vs [City]","+25% Defence against ranged attacks","Can move after attacking","No defensive terrain bonus","Rough terrain penalty"],
+		"uniques": ["Requires [Chop Shop]","+[50]% Strength vs [City]","[+33]% Strength when defending vs [Ranged] units","Can move after attacking","No defensive terrain bonus","Rough terrain penalty"],
 		"hurryCostModifier": 20
 	},	
 	{
