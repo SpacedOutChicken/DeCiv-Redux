@@ -9,7 +9,7 @@
 		"name": "Children of Rust",
 		"leaderName": "Scarlett",
 		"adjective": ["Scavenger"],
-		"startBias": ["Forest","Jungle"],
+		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		
 		"startIntroPart1": "TBA",
@@ -20,6 +20,7 @@
 		"introduction": "So, you have returned! While the world died, what hole did you hide in? The cities you left behind are our inheritance.",
 		"neutralHello": "I speak for the Children.",
 		"hateHello": "What will it take? When the last tree has burned and the last child has starved, will you then be satisfied, great leader?",
+		"afterPeace": "Viracocha has frowned upon our war, and has agreed to our peace agreements.",
 		"tradeRequest": "This is the property now of the Children. What price will you pay?",
 		"outerColor": [116,67,5],
 		"innerColor": [219,219,126],
@@ -157,8 +158,8 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "TBA.",
-		"startIntroPart2": "TBA",
+		"startIntroPart1": "Take a look out there, kid. There used to be green trees everywhere, and bright blue water, and white snow on the mountain tops. I know it's hard for you to believe, but there was a time when everything wasn't covered in ash. But those dumb sons of bitches had to go and ruin it all. They didn't know how good they had it, and they killed themselves. But they didn't kill us. Know why? Because we knew how to survive, that's why. We knew how to make do with less, how to hide when they came hunting, and how to hit them where it hurt. That's why we're still here. And that's why we're going to keep living.",
+		"startIntroPart2": "The world looks like shit right now, but it's our land and we love it, and we're going to till that soil and grow things from it, and make this place livable again. Now get out there and make us proud, kid.",
 		
 		"declaringWar": "Not on our watch!",
 		"attacked": "You'll have to take it from our cold, dead hands!",
@@ -175,7 +176,7 @@
 		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
 		"hateYes": ["That is fine.","That is good enough.","Very well..."],
 		
-		"afterPeace": "Viracocha has frowned upon our war, and has agreed to our peace agreements.",
+		"afterPeace": "Alright, let's settle down and try to get along.",
 		"tradeRequest": "Let's make a fair trade, as equals.",
 				
 		"outerColor": [252,227,0],
@@ -220,8 +221,8 @@
 		"adjective": ["Legion"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		"startIntroPart1": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!",
+		"startIntroPart2": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!",
 		
 		"declaringWar": "You have stood in the way of progress for too long.",
 		"attacked": "Do you really believe that you can stand against the tide of history?",
@@ -248,8 +249,8 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.",
-		"startIntroPart2": "And as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed.",
+		"startIntroPart1": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory.",
+		"startIntroPart2": "Now the people of the earth have begun to forgot the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail.",
 
 		"declaringWar": "Rejoice! Your profane forms will soon become one with the Exhaust!",
 		"attacked": "Your offering is welcome! We shall oxidize together in blessed combustion!",
