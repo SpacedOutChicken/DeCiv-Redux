@@ -185,7 +185,7 @@
 		"improvementStats": {"science": 1}
 	},
 	{
-		"name": "Water",
+		"name": "Groundwater",
 		"resourceType": "Luxury",
 		"revealedBy": "Radar",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Tundra","Marsh","Snow"],

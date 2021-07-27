@@ -759,7 +759,7 @@
 		"name": "Water Plant",
 		"percentStatBonus": {"gold": 20},
 		"maintenance": 0,
-		"uniques": ["[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["[+1 Gold] from [Groundwater] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredResource": "Power",	//power
 		"requiredTech": "Decontamination"
