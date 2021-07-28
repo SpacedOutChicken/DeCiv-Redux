@@ -231,7 +231,7 @@
 	{
 		"name": "Constitution",
 		"era": "Neofeudal era",
-		"uniques": ["+[25]% great person generation in all cities"],
+		"uniques": ["+[25]% great person generation [in all cities]"],
 		"policies": [
 			{
 				"name": "Civil Society",

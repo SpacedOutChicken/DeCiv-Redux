@@ -28,7 +28,7 @@
 	//type MELEE												
 	{
 		"name": "Entrench",
-		"uniques": ["[+33]% Strength when defending vs [Ranged]","+[5]% Strength when defending"],
+		"uniques": ["[+33]% Strength when defending vs [Ranged] units","+[5]% Strength when defending"],
 		"unitTypes": ["Melee","Ranged"]
 	},	
 	{
@@ -41,7 +41,7 @@
 	{
 		"name": "Smokescreen",
 		"prerequisites": ["Entrench","Forage"],
-		"uniques": ["+[33]% Strength vs [Ranged]","+[10]% Strength vs [Low Tech]","+[10]% Strength vs [City]"],
+		"uniques": ["+[33]% Strength vs [Ranged] units","+[10]% Strength vs [Low Tech]","+[10]% Strength vs [City]"],
 		"unitTypes": ["Melee"]
 	},
 	//assault
@@ -61,7 +61,7 @@
 	//type Mounted												
 	{
 		"name": "Loose Formation",
-		"uniques": ["[+33]% Strength when defending vs [Ranged]"],
+		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
 		"unitTypes": ["Mounted"]
 	},		
 	{
@@ -180,7 +180,7 @@
 	// Water melee																		old promotions - water, air
 	{
 		"name": "Evasion",
-		"uniques": ["[+33]% Strength when defending vs [Ranged]"],
+		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
 		"unitTypes": ["WaterMelee"]
 	},
 	{
@@ -527,7 +527,7 @@
 	},
 	{
 		"name": "Point Defense Laser",
-		"uniques": ["[+33]% Strength when defending vs [Ranged]"]
+		"uniques": ["[+33]% Strength when defending vs [Ranged] units"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth- "Heals 25 damage if it kills an Unit" for ranged seems wrong
