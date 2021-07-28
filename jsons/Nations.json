@@ -377,7 +377,7 @@
 		"innerColor": [224,224,224],
 		"cities": ["Jericho"]
 	},
-	/*
+	
 	{
 		"name": "The Hub",
 		"adjective": ["Hub"],
@@ -389,7 +389,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100,100,220],
 		"cities": ["The Hub"]
-	},*/
+	},
 			        
 
 	//Barbarian

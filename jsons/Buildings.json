@@ -1924,5 +1924,13 @@
         "production": -3,
 		"uniques": ["Free [Salvaged Helicopter] appears","Requires a [Alma Air Base] in this city","Not displayed as an available construction without [Alma Air Base]","Will not be displayed in Civilopedia"],
 		"quote": ""//
-	}	
+	},
+	{
+		"name": "Trader's Hub",
+		"uniqueTo": "The Hub",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Reveals the entire map","Provides [2] [Oil]","Provides [2] [Weapons]","Provides [2] [Slaves]"]
+	}
 ]
