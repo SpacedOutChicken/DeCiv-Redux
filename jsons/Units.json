@@ -1380,8 +1380,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",		
-		"uniques": ["Personnel","+[50]% Strength vs [Low Tech]","-[25]% Strength vs [City]","No defensive terrain bonus","Can move after attacking",
-			    "Can move after attacking","[+10] HP when healing"],
+		"uniques": ["Personnel","+[50]% Strength vs [Low Tech]","-[25]% Strength vs [City]","No defensive terrain bonus","Can move after attacking"],
 		"promotions": ["Forage","Raider","Skirmish","March"],
 		"hurryCostModifier": 20
 	},	
@@ -1396,7 +1395,7 @@
 		"cost": 20,
 		"obsoleteTech": "Engineering",
 		"upgradesTo": "Soldier",			
-		"uniques": ["Low Tech","[+10] HP when healing"],		
+		"uniques": ["Low Tech"],		
 		"promotions": ["Forage","Raider"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1412,7 +1411,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Soldier",		
-		"uniques": ["Personnel","-[40]% Strength vs [City]","[+10] HP when healing"],
+		"uniques": ["Personnel","-[40]% Strength vs [City]"],
 		"promotions": ["Forage","Raider"],
 		"attackSound": "shot"
 	},	
@@ -1429,7 +1428,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",	
-		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]","[+10] HP when healing"],
+		"uniques": ["Low Tech","+[33]% Strength vs [Low Tech]"],
 		"promotions": ["Skirmish","Raider"],
 		"attackSound": "arrow"
 	},		
@@ -1447,7 +1446,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","-[33]% Strength vs [City]","[+10] HP when healing"],
+		"uniques": ["Personnel","-[33]% Strength vs [City]"],
 		"promotions": ["Raider"],
 		"attackSound": "shot"
 	},		
@@ -1463,7 +1462,7 @@
 		"requiredTech":  "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Infantry",		
-		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]"],
 		"promotions": ["Forage","Raider","Entrench","Guerilla Warfare I","Urban Warfare I","Ambush"],
 		"attackSound": "shot"
 	},	
@@ -1481,7 +1480,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "NBC Marksman",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]"],
 		"promotions": ["Skirmish","Raider","Entrench","Guerilla Warfare I","Urban Warfare I"],
 		"attackSound": "shot"
 	},	
@@ -1496,7 +1495,7 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing"],
+		"uniques": ["Personnel","+[100]% Strength vs [City]"],
 		"promotions": ["Skirmish","Raider","Entrench","Forage","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Antitank Missile","Surface-to-Air Missile","March"],
 		"attackSound": "machinegun"
 	},
@@ -1512,8 +1511,8 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel","+[100]% Strength vs [City]","[+10] HP when healing","-[20]% Strength vs [Armor]"],
-		"promotions": ["Skirmish","Raider","Entrench","Extended Range","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Precision","March"],		
+		"uniques": ["Personnel","+[100]% Strength vs [City]","-[20]% Strength vs [Armor]"],
+		"promotions": ["Skirmish","Raider","Entrench","Extended Range","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Precision"],		
 		"attackSound": "shot"
 	},			
 
