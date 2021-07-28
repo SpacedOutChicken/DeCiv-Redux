@@ -213,6 +213,18 @@
 		"resourceType": "Luxury"
 	},
 	{
+		"name": "Medicine",
+		"resourceType": "Luxury",
+		"food": 2,
+		"unique": "Can only be created by Mercantile City-States"
+	},
+	{
+		"name": "Fabrics",
+		"resourceType": "Luxury",
+		"production": 1,
+		"unique": "Can only be created by Mercantile City-States"
+	},
+	{
 		"name": "Cattle",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
