@@ -11,20 +11,22 @@
 		"cost": 600,
 		"requiredResource": "Uranium",
         "uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Unbuildable","Self-destructs when attacking"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Tactical Nuke",
 		"unitType": "Missile",
 		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
+		"strength": 150,
+		"rangedStrength": 150,
 		"range": 8,
 		"cost": 600,
 		"requiredTech": "Gyroscopes",
 		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Requires [Manhattan Project]","Self-destructs when attacking"],
-		"hurryCostModifier": 20
+		"uniques": ["Nuclear weapon of strength [1]","Blast radius [2]","Requires [Manhattan Project]","Self-destructs when attacking"],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Nuclear Missile",
@@ -37,7 +39,8 @@
 		"requiredTech": "Rocketry",
 		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon of strength [2]","Blast radius [2]","Requires [Manhattan Project]","Self-destructs when attacking"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
 	},
 	
 	/* Ancient Era */
