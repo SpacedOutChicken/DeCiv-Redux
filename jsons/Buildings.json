@@ -1700,7 +1700,7 @@
         "science": 1,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Administrator": 2},
-		"uniques": ["Will not be displayed in Civilopedia","Golden Age length increased by [50]%","Provides [1] [Power]"]
+		"uniques": ["Golden Age length increased by [50]%","Provides [1] [Power]"]
 	},	
 	{
 		"name": "Encylopedia",
@@ -1742,8 +1742,7 @@
 		"culture": 5,
         "science": 3,
 		"happiness": 2,
-		"greatPersonPoints": {"Great Scientist": 2},
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"greatPersonPoints": {"Great Scientist": 2}
 	},	
 	{
 		"name": "Divine Knowledge",
@@ -1856,7 +1855,7 @@
 		"cost": 1,
         "science": 1,
         "production": 3,
-		"uniques": ["Will not be displayed in Civilopedia","Provides [2] [Weapons]","Must not be on [Hill]"]
+		"uniques": ["Provides [2] [Weapons]","Must not be on [Hill]"]
 	},
 	{
 		"name": "Alma Tank Depot",
@@ -1867,7 +1866,7 @@
 		"cost": 1,
         "science": 1,
         "production": 3,
-		"uniques": ["Will not be displayed in Civilopedia","Provides [2] [Weapons]"]
+		"uniques": ["Provides [2] [Weapons]"]
 	},
 	{
 		"name": "Alma Base",
@@ -1884,7 +1883,7 @@
 		"happiness": 5,
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 1,	
-		"uniques": ["Will not be displayed in Civilopedia","Provides [1] [Oil]","Provides [1] [Power]"],
+		"uniques": ["Provides [1] [Oil]","Provides [1] [Power]"],
 		"cost": 40,		
 		"replaces": "Town Hall",
 		"uniqueTo": "Almaty",
@@ -1898,7 +1897,7 @@
 		"cost": 75,
         "science": 1,
         "production": -3,
-		"uniques": ["Free [Ancient Armor] appears","Requires a [Alma Tank Depot] in this city","Not displayed as an available construction without [Alma Tank Depot]","Will not be displayed in Civilopedia"],
+		"uniques": ["Free [Ancient Armor] appears","Requires a [Alma Tank Depot] in this city","Not displayed as an available construction without [Alma Tank Depot]"],
 		"quote": "To a man with a hammer, everything looks like a nail."
 	},
 	{
@@ -1910,7 +1909,7 @@
 		"cost": 60,
         "science": 1,
         "production": -3,
-		"uniques": ["Free [Salvaged Bomber] appears","Requires a [Alma Air Base] in this city","Not displayed as an available construction without [Alma Air Base]","Will not be displayed in Civilopedia"],
+		"uniques": ["Free [Salvaged Bomber] appears","Requires a [Alma Air Base] in this city","Not displayed as an available construction without [Alma Air Base]"],
 		"quote": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return."
 	},
 	{
@@ -1922,7 +1921,7 @@
 		"cost": 75,
         "science": 1,
         "production": -3,
-		"uniques": ["Free [Salvaged Helicopter] appears","Requires a [Alma Air Base] in this city","Not displayed as an available construction without [Alma Air Base]","Will not be displayed in Civilopedia"],
+		"uniques": ["Free [Salvaged Helicopter] appears","Requires a [Alma Air Base] in this city","Not displayed as an available construction without [Alma Air Base]"],
 		"quote": ""//
 	},
 	{
