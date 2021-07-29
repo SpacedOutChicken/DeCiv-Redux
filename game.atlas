@@ -2076,7 +2076,7 @@ TileSets/FantasyHex/Tiles/City center-Industrial era
   orig: 32, 35
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Information Era
+TileSets/FantasyHex/Tiles/City center-Information era
   rotate: false
   xy: 1730, 1146
   size: 32, 35
@@ -2090,7 +2090,7 @@ TileSets/FantasyHex/Tiles/City center-Neofeudal era
   orig: 32, 35
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-New Future Era
+TileSets/FantasyHex/Tiles/City center-New Future era
   rotate: false
   xy: 1810, 1148
   size: 32, 37
