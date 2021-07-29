@@ -129,7 +129,7 @@
 		"requiredBuilding": "Search for Survivors",		
 		"requiredTech": "Civil Service",
 		"cannotBeBuiltWith": "Congress",
-		"uniques": ["+[10]% growth in all cities","+[5]% Production when constructing [Buildings]",
+		"uniques": ["+[10]% growth [in all cities]","+[5]% Production when constructing [Buildings]",
 			"Requires a [Search for Survivors] in this city","Not displayed as an available construction without [Search for Survivors]"]
 	},	
 	{
@@ -411,7 +411,7 @@
 		"isWonder": true,
 		"requiredTech": "Ecology",
 		"cost": 50,
-		"uniques": ["Must have an owned [Seed Vault] within [3] tiles","+[25]% growth in all cities"],
+		"uniques": ["Must have an owned [Seed Vault] within [3] tiles","+[25]% growth [in all cities]"],
 		"quote": "What about us? What about all the plans that ended in disaster?"
 	},		
 	{
@@ -435,7 +435,7 @@
 		"requiredTech": "Engineering",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Army Depot] within [3] tiles","[+1 Science, +1 Production] from [Army Depot] tiles [in this city]","Provides [2] [Weapons]","Free [Ancient Armor] appears"],
+		"uniques": ["Must have an owned [Army Depot] within [3] tiles","[+1 Science, +1 Production] from [Army Depot] tiles [in this city]","Provides [2] [Weapons]","Provides [1] [Oil]","Free [Modern Armor] appears"],
 		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!"// - Traditional nursery rhyme
 	},
 	{
@@ -443,7 +443,7 @@
 		"requiredTech": "Sailing",
 		"isWonder": true,
 		"cost": 50,
-		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles","[+1 Science, +1 Production] from [Ship Graveyard] tiles [in this city]","Free [Patrol Boat] appears"]
+		"uniques": ["Must have an owned [Ship Graveyard] within [3] tiles","[+1 Science, +1 Production] from [Ship Graveyard] tiles [in this city]","Provides [1] [Oil]","Free [Patrol Boat] appears"]
 	},
 	{
 		"name": "Turbine Hall",
@@ -1158,7 +1158,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"percentStatBonus": {"food": -50},
 		"cost": 15,		
-		"uniques": ["Remove extra unhappiness from annexed cities","Can only be built in annexed cities","+[33]% growth in all cities","[+2 Food] [in all cities]","Provides [4] [Slaves]"],
+		"uniques": ["Remove extra unhappiness from annexed cities","Can only be built in annexed cities","+[33]% growth [in all cities]","[+2 Food] [in all cities]","Provides [4] [Slaves]"],
 		"requiredTech": "Construction",
 		"cannotBeBuiltWith": "Arena"
 	},
@@ -1170,7 +1170,7 @@
 		"cost": 15,		
 		"cityStrength": 10,
 		"cityHealth": 50,
-		"uniques": ["+[15]% Production when constructing [melee units] in this city","Remove extra unhappiness from annexed cities","Can only be built in annexed cities","+[25]% growth in all cities","Provides [3] [Slaves]","Free [Auxiliary] appears"],
+		"uniques": ["+[15]% Production when constructing [melee units] in this city","Remove extra unhappiness from annexed cities","Can only be built in annexed cities","+[25]% growth [in all cities]","Provides [3] [Slaves]","Free [Auxiliary] appears"],
 		"requiredTech": "Construction",
 		"cannotBeBuiltWith": "Colosseum"
 	},	
