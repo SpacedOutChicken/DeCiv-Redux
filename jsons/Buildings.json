@@ -1185,6 +1185,7 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,		
 		"uniques": ["+[1] Sight for all [Land] units",
+			"Reveals the entire map",
 			"Requires a [Aerospace Facility] in this city",
 			"Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Incentivization"
@@ -1201,7 +1202,7 @@
 			"Requires a [Aerospace Facility] in this city",
 			"Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Satellites",
-		"quote": ""//
+		"quote": "I must down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by"
 	},
 	
 	//military
