@@ -137,8 +137,8 @@
 		"attacked": "Disperse immediately. Insurrection and rebellion will be met with lethal force.",
 		"defeated": "We today have concluded an agreement to end the war and bring peace with honor.",
 		"introduction": "This is General Cameron of the Army. A state of emergency is currently in effect across the nation. Military authorities are authorized to summarily enforce order, in accordance with martial law. Maintain your shelters and await further instructions.",
-		"neutralHello": "A water tax of 25% is in place for all municipalities to support\n disaster relief efforts and the restoration of government.",
-		"hateHello": "A special water tax rate of 33% is in place for your municipality.\n You are additionally required to surrender all military weapons.",
+		"neutralHello": "A water tax of 25% is in place for all municipalities to support disaster relief efforts and the restoration of government.",
+		"hateHello": "A special water tax rate of 33% is in place for your municipality. You are additionally required to surrender all military weapons.",
 		"tradeRequest": "The Emergency Management Agency has prepared this aid package for your district.",
 		"outerColor": [ 40, 178, 0],
 		"innerColor": [100,50,30],
@@ -396,8 +396,7 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
-		"innerColor": [182,0,0],
-		"uniques": ["Can only heal by pillaging"]
+		"innerColor": [182,0,0]
 	}
 	        	
 ]

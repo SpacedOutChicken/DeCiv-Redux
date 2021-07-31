@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Decivilized era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 0, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Rediscovering era",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Neofeudal era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "Rebuilding era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [104, 58, 183]
+    },
+    {
+        "name": "Industrial era",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [63, 81, 182]
+    },
+    {
+        "name": "Postmodern era",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [33, 150, 243]
+    },
+    {
+        "name": "Information era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "settlerPopulation": 1,
+        "iconRGB": [0, 150, 136]
+    },
+    {
+        "name": "New Future era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 0,
+        "startingCulture": 0,
+        "iconRGB": [76, 176, 81]
+    }
+]

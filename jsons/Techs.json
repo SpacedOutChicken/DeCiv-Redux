@@ -285,7 +285,7 @@
 				"name": "Railroads",
 				"row": 9,
 				"prerequisites": ["Manufacturing"],
-				"quote": ""//
+				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
 			}
 			
 		]	
@@ -356,7 +356,7 @@
 			{
 				"name": "Combined Arms",
 				"row": 8,
-				"prerequisites": ["Ballistics"],
+				"prerequisites": ["Ballistics","Railroads"],
 				"quote": "The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest."
 			},
 			{
@@ -402,7 +402,7 @@
 			{
 				"name": "Ocean Remediation",
 				"row": 1,
-				"prerequisites": ["Desalination","Hydroponics"],
+				"prerequisites": ["Desalination","Land Remediation"],
 				"uniques": ["[+1 Food] from every [Algae]"],
 				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
 			},
@@ -480,7 +480,7 @@
 				"name": "Human Genome",
 				"row": 2,
 				"prerequisites": ["Genetics","Pharmaceuticals"],
-				"quote": ""//
+				"quote": "Humanity should study the foundations of heredity. But this will be possible only when science is liberated from superstition and limitation."
 			},	
 			{
 				"name": "Plastics Recycling",
@@ -540,7 +540,7 @@
 		"era": "New Future era",
 		"techCost": 17500,
 		"buildingCost": 750,
-		"wonderCost": 1250,
+		"wonderCost": 2000,
 		"techs": [
 	
 			{
@@ -577,7 +577,7 @@
 		"era": "New Future era",
 		"techCost": 25000,
 		"buildingCost": 750,
-		"wonderCost": 1250,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Geo Engineering",
@@ -588,7 +588,7 @@
 			{
 				"name": "Future Power",
 				"row": 4,
-				"prerequisites": ["Particle Physics"],
+				"prerequisites": ["Particle Physics","Energy Weapons"],
 				"quote": "All the towers of ivory are crumbling, and the swallows have sharpened their beaks..."
 			}
 
@@ -600,12 +600,12 @@
 		"era": "New Future era",
 		"techCost": 35000,
 		"buildingCost": 750,
-		"wonderCost": 1250,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Geo Engineering","Future Power","Artificial Intelligence","Future Materials"],
+				"prerequisites": ["Geo Engineering","Future Power","Artificial Intelligence","Future Materials","Human Genome","Incentivization"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "I think we agree, the past is over."
 			}

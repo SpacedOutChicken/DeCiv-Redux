@@ -4,7 +4,9 @@
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered","Can also be built on tiles adjacent to fresh water","[+1 Food] once [Land Remediation] is discovered"]
+		"uniques": ["[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] once [Land Remediation] is discovered"]
 	},
 
 	{
@@ -13,7 +15,9 @@
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
-		"uniques": ["Gives a defensive bonus of [10]%","[+1 Food, -1 Gold] on [fresh water] tiles once [Ecology] is discovered","[+1 Food, +1 Production] once [Land Remediation] is discovered"]
+		"uniques": ["Gives a defensive bonus of [10]%",
+			"[+1 Food, -1 Gold] on [fresh water] tiles once [Ecology] is discovered",
+			"[+1 Food, +1 Production] once [Land Remediation] is discovered"]
 	},
 	{
 		"name": "Mine",
@@ -21,7 +25,8 @@
 		"production": 1,
 		"turnsToBuild": 9,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Steam Power] is discovered","[+1 Production] once [Railroads] is discovered"]
+		"uniques": ["[+1 Production] once [Steam Power] is discovered",
+			"[+1 Production] once [Railroads] is discovered"]
 	},
 	{
 		"name": "Pasture",
@@ -57,18 +62,24 @@
 		"name": "Research site",
 		"turnsToBuild": 7,
 		"techRequired": "Secrets of the Past",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Science] once [Computers] is discovered"]
+		"uniques": ["Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Science] once [Computers] is discovered"]
 	},	
 	{
 		"name": "Hacking site",
 		"turnsToBuild": 7,
 		"techRequired": "Decryption",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+3 Science] once [Artificial Intelligence] is discovered"]
+		"uniques": ["Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+3 Science] once [Artificial Intelligence] is discovered"]
 	},
 	{
 		"name": "Salvage site",
 		"turnsToBuild": 5,
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Production] once [Manufacturing] is discovered"]
+		"uniques": ["Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Production] once [Manufacturing] is discovered"]
 	},
 	{
 		"name": "Water pump",
@@ -81,7 +92,9 @@
 	{
 		"name": "Camp",
 		"turnsToBuild": 5,
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Food] once [Genetics] is discovered"]
+		"uniques": ["Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Food] once [Genetics] is discovered"]
 	},
 	{
 		"name": "Oil well",
@@ -94,7 +107,8 @@
 		"gold": -1,
 		"turnsToBuild": 7,
 		"techRequired": "Biology",
-		"uniques": ["Can also be built on tiles adjacent to fresh water","Provides [1] [Oil]"]
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"Provides [1] [Oil]"]
 	},
 	{
 		"name": "Fishing Boats",
@@ -107,7 +121,8 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow"],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
-		"uniques": ["Gives a defensive bonus of [50]%","Can be built outside your borders"]
+		"uniques": ["Gives a defensive bonus of [50]%",
+			"Can be built outside your borders"]
 	},
 
 	// Transportation
@@ -115,13 +130,15 @@
 		"name": "Road",
 		"turnsToBuild": 4,
 		"techRequired": "Construction",
-		"uniques": ["Can be built outside your borders","Costs [1] gold per turn when in your territory"]
+		"uniques": ["Can be built outside your borders",
+			"Costs [1] gold per turn when in your territory"]
 	},
 	{
 		"name": "Railroad",
 		"turnsToBuild": 10,
 		"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders","Costs [2] gold per turn when in your territory"]
+		"uniques": ["Can be built outside your borders",
+			"Costs [2] gold per turn when in your territory"]
 	},
 	
 	// Removals
@@ -173,55 +190,86 @@
 {
 		"name": "Academy",
 		"science": 4,
-		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%", "[+2 Science] once [Electronics] is discovered", "[+2 Science] once [Decryption] is discovered"]
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+2 Science] once [Electronics] is discovered",
+			"[+2 Science] once [Decryption] is discovered"]
 	},
 	{
 		"name": "Settlement",
 		"gold": 1,
-		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%", "[+1 Science] for each adjacent [Jungle]","[+1 Food] for each adjacent [Farm]", "[+1 Gold] once [Currency] is discovered", "[+1 Culture] once [Civil Service] is discovered"]
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Science] for each adjacent [Jungle]",
+			"[+1 Food] for each adjacent [Farm]",
+			"[+1 Gold] once [Currency] is discovered",
+			"[+1 Culture] once [Civil Service] is discovered"]
 	},	
 	{
 		"name": "Outpost", 
 		"uniqueTo": "Cult of Ignis",
 		"production": 2,
-		"uniques": ["Great Improvement","Gives a defensive bonus of [50]%","Deal 30 damage to adjacent enemy units","Provides [1] [Slaves]"]
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [50]%",
+			"Deal 30 damage to adjacent enemy units",
+			"Provides [1] [Slaves]"]
 	},
 	{
 		"name": "Narcotics farm",
-		"uniques": ["Great Improvement","Provides [1] [Narcotics]"]
+		"uniques": ["Great Improvement",
+			"Provides [1] [Narcotics]"]
 	},
 	{
 		"name": "Prison farm",
-		"uniques": ["Great Improvement","Provides [1] [Slaves]","[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
-			"[+1 Food] once [Land Remediation] is discovered","Cannot be built on bonus resource"]
+		"uniques": ["Great Improvement",
+			"Provides [1] [Slaves]",
+			"[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
+			"[+1 Food] once [Land Remediation] is discovered",
+			"Cannot be built on [Bonus resource] tiles"]
 	},
 	{
 		"name": "Oracle",
 		"uniqueTo": "Cult of Ignis",
 		"culture": 4,
 		"happiness": 1,
-		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","Provides [1] [Oil]"]
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Provides [1] [Oil]"]
 	},
 	{
 		"name": "Manufactory",
 		"production": 3,
-		"uniques": ["Great Improvement","Gives a defensive bonus of [10]%","[+1 Production] once [Steam Power] is discovered",
-			"[+1 Production] once [Railroads] is discovered","[+1 Production] once [Electronics] is discovered","[+1 Production] once [Robotics] is discovered"]
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Production] once [Steam Power] is discovered",
+			"[+1 Production] once [Railroads] is discovered",
+			"[+1 Production] once [Electronics] is discovered",
+			"[+1 Production] once [Robotics] is discovered"]
 	},
 
 	{
 		"name": "Citadel",
-		"uniques": ["Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Great Improvement", "Can be built just outside your borders"]
+		"uniques": ["Gives a defensive bonus of [100]%",
+			"Deal 30 damage to adjacent enemy units",
+			"Great Improvement",
+			"Can be built just outside your borders"]
 	},	
-	{ "name": "City center", "uniques": ["Unpillagable", "Indestructible"],
-		"civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}] },
-	{ "name": "Ancient ruins", "uniques": ["Unpillagable"] },
-	{ "name": "City ruins", 
-	
+	{
+		"name": "City center",
+		"uniques": ["Unpillagable", "Indestructible"],
+		"civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}]
+	},
+	{ 
+		"name": "Ancient ruins",
+		"uniques": ["Unpillagable"]
+	},
+	{
+		"name": "City ruins", 
 		"uniques": ["Gives a defensive bonus of [10]%","Unpillagable"]
 	},
 	
-	{ "name": "Barbarian encampment", 
+	{
+		"name": "Barbarian encampment", 
 		"uniques": ["Gives a defensive bonus of [50]%","Unpillagable"]
 	}
 ]
