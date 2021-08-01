@@ -1779,7 +1779,6 @@
 
 	{
 		"name": "Arcology Project",
-		"cost": 3750,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Arcologies",
 			"Empire enters golden age",
@@ -1806,35 +1805,22 @@
 
 	{
 		"name": "Cryo Project",
-		"cost": 3750,
 		"isWonder": true,
 		"requiredTech": "Human Genome",
-		"uniques": ["Enables construction of Cryo Vaults",
-			"+[-10]% growth [in all cities]",
-			"Triggers a global alert upon build start"],
-		"quote": "A fortified, self sustaining bunker where, with minimal staffing and maintenance, survivors can wait in suspended animation, in theory to emerge when conditions are more favourable to life."
+		"uniques": ["Enables construction of Cryo Vaults"],
+		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us."
 	},
 	{
 		"name": "Cryo Vault",
 		"cost": 1000,
-		"food": -2,
 		"requiredTech": "Future Materials",
-		"uniques": ["[-5]% of food is carried over [in this city] after population increases",
-			"Excess Food converted to Production when under construction",
-			"Requires [Cryo Project]",
+		"uniques": ["Requires [Cryo Project]",
 			"Cannot be purchased",
 			"Requires a [Medical Lab] in this city",
-			"Consumes [1] [Power]"]
-	},
-	{
-		"name": "Cryo Sanctum",
-		"cost": 2000,
-		"isNationalWonder": true,
-		"requiredTech": "Future Power",
-		"uniques": ["Requires a [Cryo Vault] in all cities",
-			"Cost increases by [50] per owned city",
-			"Triggers a global alert upon build start",
-			"Triggers victory"]
+			"Requires at least [5] population",
+			"Unsellable",
+			"Free Great Person",
+			"[+1] population [in this city]"]
 	},
 
 
