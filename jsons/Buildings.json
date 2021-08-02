@@ -2109,7 +2109,7 @@
 		"cost": 75,
         "science": 1,
         "production": -3,
-		"uniques": ["Free [Ancient Armor] appears",
+		"uniques": ["Free [Modern Armor] appears",
 			"Requires a [Alma Tank Depot] in this city",
 			"Not displayed as an available construction without [Alma Tank Depot]"],
 		"quote": "To a man with a hammer, everything looks like a nail."
@@ -2122,7 +2122,7 @@
 		"cost": 60,
         "science": 1,
         "production": -3,
-		"uniques": ["Free [Salvaged Bomber] appears",
+		"uniques": ["Free [Bomber] appears",
 			"Requires a [Alma Air Base] in this city",
 			"Not displayed as an available construction without [Alma Air Base]"],
 		"quote": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return."
@@ -2135,10 +2135,10 @@
 		"cost": 75,
         "science": 1,
         "production": -3,
-		"uniques": ["Free [Salvaged Helicopter] appears",
+		"uniques": ["Free [Helicopter] appears",
 			"Requires a [Alma Air Base] in this city",
 			"Not displayed as an available construction without [Alma Air Base]"],
-		"quote": ""//
+		"quote": "Helicopters don't fly, they vibrate so badly the ground rejects them."
 	},
 	{
 		"name": "Hub Monument",
