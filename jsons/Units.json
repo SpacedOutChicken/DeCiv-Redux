@@ -1254,7 +1254,7 @@
 			"No defensive terrain bonus",
 			"All tiles cost 1 movement",
 			"Can pass through impassable tiles",
-			"May withdraw before melee ([100]%",
+			"May withdraw before melee ([100]%)",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Amphibious"],
