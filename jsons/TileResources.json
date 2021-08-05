@@ -56,19 +56,19 @@
 	{
 		"name": "Plastics",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Hill","Grassland"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Hill","Grassland","Coast"],
 		"production": 1,
 		"improvement": "Salvage site",
 		"improvementStats": {"production": 1}
 	},
-	{
+	/*{
 		"name": "Marine Plastics",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"production": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"production": 1}
-	},
+	},*/
 	{
 		"name": "Horses",
 		"resourceType": "Bonus",
@@ -225,6 +225,12 @@
 		"unique": "Can only be created by Mercantile City-States"
 	},
 	{
+		"name": "Candy",
+		"resourceType": "Luxury",
+		"culture": 1,
+		"unique": "Can only be created by Mercantile City-States"
+	},
+	{
 		"name": "Cattle",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
@@ -282,12 +288,20 @@
 	{
 		"name": "Artifacts",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle"],
+		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
 		"improvement": "Research site",
 		"improvementStats": {"culture": 1}
 	},
 	{
+		"name": "Jellyfish",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1}
+	}
+	/*{
 		"name": "Marine Artifacts",
 		"resourceType": "Luxury",
 		"revealedBy": "Sailing",
@@ -295,7 +309,7 @@
 		"culture": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"culture": 1}
-	},
+	},*/
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",

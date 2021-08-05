@@ -13,33 +13,33 @@
 		"RGB": [107,167,193]
 	},
 	{
-		"name": "Grassland",
+		"name": "Grassland", // Wasteland
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [97,171,58],
-		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0.5] and [1]", "Open terrain"]
+		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0.5] and [1]"]
 	},
 	{
-		"name": "Plains",
+		"name": "Plains", // Badlands
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [168,185,102],
 		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0] and [0.5]",
-			"Occurs at temperature between [0.8] and [1] and humidity between [0.7] and [1]", "Open terrain"]
+			"Occurs at temperature between [0.8] and [1] and humidity between [0.7] and [1]"]
 	},
 	{
 		"name": "Tundra",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [189,204,191],
-		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0.5] and [1]", "Open terrain"]
+		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0.5] and [1]"]
 	},
 	{
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [ 230, 230, 113],
-		"uniques": ["Occurs at temperature between [0.8] and [1] and humidity between [0] and [0.7]", "Open terrain"]
+		"uniques": ["Occurs at temperature between [0.8] and [1] and humidity between [0] and [0.7]"]
 	},
 	{
 		"name": "Lakes",
@@ -58,11 +58,11 @@
 		"uniques":["Has an elevation of [4] for visibility calculations","Occurs in chains at high elevations"]
 	},
 	{
-		"name": "Snow",
+		"name": "Snow", //Permafrost
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
-		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0] and [0.5]", "Open terrain"]
+		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0] and [0.5]"]
 	},
 	// Natural Wonders redefined
 	{
@@ -194,10 +194,10 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"uniques":["Open terrain"]
+		"occursOn": ["Desert"]
 	},
 	{
-		"name": "Atoll",
+		"name": "Sunken Ruins",
 		"type": "TerrainFeature",
 		"movementCost": 2,
 		"production": 1,

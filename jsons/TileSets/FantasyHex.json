@@ -15,11 +15,15 @@
         "Tundra+Forest": ["Tundra","TundraForest"],
         "Tundra+Jungle": ["Tundra","TundraJungle"],
         "Tundra+Hill+Forest": ["Tundra","Hill","TundraHillForest"],
-        "Tundra+Hill+Forest": ["Tundra","Hill","TundraJungle"],
+        "Tundra+Hill+Jungle": ["Tundra","Hill","TundraJungle"],
         "Desert+Hill+Jungle": ["Desert","Hill","DesertJungle"],
         "Desert+Hill+Forest": ["Desert","Hill","DesertHillForest"],
         "Desert+Forest": ["Desert","DesertForest"],
         "Desert+Jungle": ["Desert","DesertJungle"],
+        "Snow+Forest": ["Snow","SnowForest"],
+        "Snow+Jungle": ["Snow","SnowJungle"],
+        "Snow+Hill+Forest": ["Snow","Hill","SnowForest"],
+        "Snow+Hill+Jungle": ["Snow","Hill","SnowJungle"],
 
         //Snow improvements for Tundra and Snow
             //TODO hill and forest variants + new images for Landmark, etc.
@@ -258,6 +262,8 @@
         "Desert+Hill+Salvage site+Weapons": ["Desert","Hill","Salvage site+Weapons"],
         "Desert+Hill+Forest+Salvage site+Weapons": ["Desert","Hill","DesertHillForest","Salvage site+Weapons"],
         "Desert+Hill+Jungle+Salvage site+Weapons": ["Desert","Hill","DesertJungle","Salvage site+Weapons"],
+        "Coast+Salvage site+Plastics": ["Coast","Salvage site"],
+        "Coast+Sunken Ruins+Research site+Artifacts": ["Coast+Sunken Ruins","Research site+Artifacts"],
 
         //Research site
         "Grassland+Jungle+Research site+Artifacts": ["Grassland","Jungle","Research site+Artifacts"],
@@ -293,7 +299,7 @@
         "Tundra+Jungle+Hacking site+Encrypted Data": ["Tundra","TundraJungle","Hacking site+Encrypted Data"],
         "Tundra+Hill+Jungle+Hacking site+Encrypted Data": ["Tundra","Hill","TundraJungle","Hacking site+Encrypted Data"],
         "Desert+Jungle+Hacking site+Encrypted Data": ["Desert","DesertJungle","Hacking site+Encrypted Data"],
-        "Desert+Hill+Jungle+Hacking site+Encrypted Data": ["Desert","Hill","DesertJungle","Hacking site+Encrypted Data"],
+        "Desert+Hill+Jungle+Hacking site+Encrypted Data": ["Desert","Hill","DesertJungle","Hacking site+Encrypted Data"]
 
     }
 }

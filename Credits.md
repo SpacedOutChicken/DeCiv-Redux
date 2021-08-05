@@ -2,7 +2,7 @@ This list is incomplete
 Several images taken from base game - see [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md)
 Credit given whenever I know the source of an image - if you spot one you recognize, let me know the source!
 
-Lots and lots of pixel art by GeneralWadaling, AKA The Bucketeer
+Lots and lots of pixel art by GeneralWadaling, AKA The Bucketeer, with some by AdityaMH and some by me
 
 Other images:
 * Entrepreneurship: [Entrepreneur](https://thenounproject.com/term/entrepreneur/2338644/) by Kiran Shastry, IN
@@ -12,4 +12,8 @@ Other images:
 * Arcology Project: [City](https://thenounproject.com/term/city/2488561/) by iconcheese
 * Cryo Project: [Brain In a Jar](https://thenounproject.com/term/brain-in-a-jar/467672/) by Luis Prado, US 
 * Cryo Vault: [Cell Preservation](https://thenounproject.com/term/cell-preservation/10707/) by Luis Prado, US
-* Cryo Sanctum: [Cryogenic Vault](https://thenounproject.com/term/cryogenic-vault/115036/) by Brandon Gamm, US 
+* Candy: [Chocolate](https://thenounproject.com/term/chocolate/2384336/) by miranda
+* Jellyfish: [Jellyfish](https://thenounproject.com/term/jellyfish/53744/) by Eliricon, FI
+* Geo Engineering: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH
+* Great Missionary: [bible](https://thenounproject.com/term/bible/1189567/) by Alvaro Cabrera, Spain
+* Urine Recycler: [urine](https://thenounproject.com/term/urine/3650621/) by Llisole 

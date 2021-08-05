@@ -1,10 +1,1 @@
-{
-    isBaseRuleset:true,
-    maxXPfromBarbarians:50,
-    lastUpdated:2021-07-31T23:49:56Z,
-    modUrl:"https://github.com/SpacedOutChicken/DeCiv-Redux",
-    author:SpacedOutChicken,
-    modSize:14660,
-    "uniques": ["Allow City States to spawn with additional units",
-        "Can convert gold to science with sliders"]
-}
+{isBaseRuleset:true,lastUpdated:2021-08-01T20:47:35Z,modUrl:"https://github.com/SpacedOutChicken/DeCiv-Redux",author:SpacedOutChicken,modSize:14660,maxXPfromBarbarians:50,uniques:["Can convert gold to science with sliders","Allow City States to spawn with additional units"]}

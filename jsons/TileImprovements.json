@@ -246,14 +246,19 @@
 			"[+1 Production] once [Electronics] is discovered",
 			"[+1 Production] once [Robotics] is discovered"]
 	},
-
 	{
 		"name": "Citadel",
 		"uniques": ["Gives a defensive bonus of [100]%",
 			"Deal 30 damage to adjacent enemy units",
 			"Great Improvement",
 			"Can be built just outside your borders"]
-	},	
+	},
+	{
+		"name": "Holy site",
+		"faith": 6,
+		"uniques": ["Great Improvement"]
+	},
+	
 	{
 		"name": "City center",
 		"uniques": ["Unpillagable", "Indestructible"],

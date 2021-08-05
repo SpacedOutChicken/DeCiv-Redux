@@ -68,7 +68,7 @@
 				"name": "Writing",
 				"row": 5,
 				"prerequisites": ["Secrets of the Past"],
-				"quote": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone.\n \nBlackwarden. \nSecuring Your Future."
+				"quote": "And the things which shall be written out of the book shall be of great worth unto the children of men..."
 			},
 			{
 				"name": "Machinery",
@@ -403,7 +403,7 @@
 				"name": "Ocean Remediation",
 				"row": 1,
 				"prerequisites": ["Desalination","Land Remediation"],
-				"uniques": ["[+1 Food] from every [Algae]"],
+				"uniques": ["[+1 Food] from every [Algae]","[+1 Food] from every [Jellyfish]"],
 				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
 			},
 			{

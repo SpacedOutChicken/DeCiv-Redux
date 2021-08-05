@@ -9,7 +9,6 @@
         "uniques": ["Nuclear weapon of strength [2]",
 			"Blast radius [2]",
 			"Unbuildable",
-			"Self-destructs when attacking",
 			"Consumes [1] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -26,7 +25,6 @@
 		"uniques": ["Nuclear weapon of strength [1]",
 			"Blast radius [2]",
 			"Requires [Manhattan Project]",
-			"Self-destructs when attacking",
 			"Consumes [1] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -43,7 +41,6 @@
 		"uniques": ["Nuclear weapon of strength [2]",
 			"Blast radius [2]",
 			"Requires [Manhattan Project]",
-			"Self-destructs when attacking",
 			"Consumes [1] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -83,7 +80,7 @@
 	},	
 	{
 		"name": "Work Boats",
-		"unitType": "WaterCivilian",
+		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
@@ -110,7 +107,7 @@
 	
 	{
 		"name": "Warrior",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Auxiliary",
 		"movement": 2,
@@ -129,7 +126,7 @@
 
 	{
 		"name": "Spearman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
@@ -142,7 +139,7 @@
 	},	
 	{
 		"name": "Scavenger",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Children of Rust",
 		"replaces": "Spearman",
 		"movement": 2,
@@ -156,7 +153,7 @@
 	},
 	{
 		"name": "Clansman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Spearman",
 		"movement": 2,
@@ -171,8 +168,21 @@
 		"attackSound": "metalhit"
 	},	
 	{
+		"name": "Trimaran",
+		"unitType": "Melee Water",
+		"uniqueTo": "The Mariners",
+		"replaces": "Spearman",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Steam Power",
+		"upgradesTo": "Patrol Boat",
+		"uniques": ["May withdraw before melee ([66]%)"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Auxiliary",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 18,
 		"cost": 20,
@@ -188,7 +198,7 @@
 	},	
 	{
 		"name": "Rubble Gang",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Auxiliary",
 		"movement": 2,
@@ -204,7 +214,7 @@
 	},
 	{
 		"name": "Surveyor",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Atlas",
 		"replaces": "Spearman",
 		"movement": 2,
@@ -221,7 +231,7 @@
 	},
 	{
 		"name": "Swordsman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Spearman",
 		"movement": 2,
@@ -238,7 +248,7 @@
 	},		
 	{
 		"name": "Legion",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Militia",
 		"movement": 2,
@@ -255,7 +265,7 @@
 	},	
 	{
 		"name": "Archer",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 15,
@@ -271,7 +281,7 @@
 	},		
 	{
 		"name": "Crossbowman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 12,
@@ -291,7 +301,7 @@
 	},		
 	{
 		"name": "Rubble Archer",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Crossbowman",
 		"range": 1,
@@ -370,7 +380,7 @@
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 4,
 		"strength": 15,
@@ -390,7 +400,7 @@
 	},	
 	{
 		"name": "Dragoon",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 4,
 		"strength": 30,
@@ -410,7 +420,7 @@
 	},
 	{
 		"name": "Light Cavalry",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 4,
 		"strength": 30,
@@ -428,7 +438,7 @@
 	},	
 	{
 		"name": "Security",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 36,
@@ -442,7 +452,7 @@
 	},		
 	{
 		"name": "Militia",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 36,
@@ -457,7 +467,7 @@
 	},	
 	{
 		"name": "Guerilla",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Enclavers",
 		"replaces": "Militia",
 		"interceptRange": 1,
@@ -479,7 +489,7 @@
 		
 	{
 		"name": "Soldier",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 40,
@@ -493,7 +503,7 @@
 	},		
 	{
 		"name": "Conscript",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 36,
@@ -511,7 +521,7 @@
 	},	
 	{
 		"name": "Rubble Militia",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Conscript",
 		"interceptRange": 1,
@@ -531,7 +541,7 @@
 	},	
 	{
 		"name": "Infantry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 45,
@@ -545,7 +555,7 @@
 	},	
 	{
 		"name": "Contractor",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Blackwarden",
 		"replaces": "Infantry",
 		"interceptRange": 1,
@@ -564,7 +574,7 @@
 		"name": "Marine",
 		"uniqueTo": "The Patriots",
 		"replaces": "Infantry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 45,
@@ -580,7 +590,7 @@
 	},	
 	{
 		"name": "Black Hand",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Infantry",
 		"interceptRange": 1,
@@ -597,7 +607,7 @@
 	},	
 	{
 		"name": "NBC Infantry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 45,
@@ -612,7 +622,7 @@
 	},	
 	{
 		"name": "NBC Conscript",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 36,
@@ -631,7 +641,7 @@
 	},
 	{
 		"name": "Henchman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "NBC Conscript",
 		"interceptRange": 1,
@@ -664,7 +674,7 @@
 	},*/
 	/*{
 		"name": "Combat Suit",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 45,
@@ -679,7 +689,7 @@
 	
 	{
 		"name": "Gunman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -695,7 +705,7 @@
 	},		
 	{
 		"name": "Hitman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Gunman",
 		"range": 1,
@@ -714,7 +724,7 @@
 	},		
 	{
 		"name": "Rubble Gunman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Archer",
 		"range": 1,
@@ -736,7 +746,7 @@
 	},	
 	{
 		"name": "Rifleman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 35,
@@ -751,7 +761,7 @@
 	},	
 	{
 		"name": "Marksman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -765,9 +775,9 @@
 		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},	
-	{
+	/*{
 		"name": "Sniper",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "The Patriots",
 		"replaces": "Marksman",
 		"range": 1,
@@ -782,10 +792,10 @@
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Reconnaissance I","Extended Range"],
 		"attackSound": "shot"
-	},			
+	},	*/	
 	{
 		"name": "Spec Ops",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "The Patriots",
 		"replaces": "Marksman",
 		"range": 1,
@@ -803,7 +813,7 @@
 	},	
 	{
 		"name": "Assassin",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Marksman",
 		"range": 1,
@@ -820,7 +830,7 @@
 	},		
 	{
 		"name": "Ranger",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Commonwealth",
 		"replaces": "Great General",
 		"range": 1,
@@ -841,7 +851,7 @@
 	},
 	{
 		"name": "NBC Marksman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -857,7 +867,7 @@
 	},			
 	/*{
 		"name": "Stealth Suit",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -1238,7 +1248,7 @@
 	//helicopters
 	{
 		"name": "Helicopter",
-		"unitType": "Siege",
+		"unitType": "Helicopter",
 		"range": 1,
 		"movement": 7,
 		"strength": 20,
@@ -1250,10 +1260,6 @@
 		"uniques": ["-[25]% Strength vs [Armor]",
 			"Can move after attacking",
 			"-[25]% Strength vs [City]",
-			"Helicopter",
-			"No defensive terrain bonus",
-			"All tiles cost 1 movement",
-			"Can pass through impassable tiles",
 			"May withdraw before melee ([100]%)",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
@@ -1274,10 +1280,6 @@
 			"[+1] Visibility Range",
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
-			"Helicopter",
-			"No defensive terrain bonus",
-			"All tiles cost 1 movement",
-			"Can pass through impassable tiles",
 			"May withdraw before melee ([100]%)",
 			"Requires [Aerospace Facility]",
 			"Not displayed as an available construction without [Aerospace Facility]",
@@ -1304,7 +1306,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"+[100]% Strength vs [Bomber]",
-			"6 tiles in every direction always visible",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"attackSound": "machinegun"
@@ -1355,7 +1356,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"+[100]% Strength vs [Bomber]",
-			"6 tiles in every direction always visible",
 			"Requires [Aerospace Facility]",
 			"Not displayed as an available construction without [Aerospace Facility]",
 			"Consumes [1] [Oil]"],	
@@ -1373,7 +1373,6 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"+[100]% Strength vs [Bomber]",
-			"6 tiles in every direction always visible",
 			"Requires [Aerospace Facility]",
 			"Not displayed as an available construction without [Aerospace Facility]",
 			"Consumes [1] [Aluminum]"],
@@ -1386,7 +1385,7 @@
 	
 	{
 		"name": "Patrol Boat",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
@@ -1395,29 +1394,25 @@
 		"obsoleteTech": "Steam Power",
 		"uniques": ["Double movement in coast",
 			"May withdraw before melee ([66]%)",
-			"Can move after attacking",
-			"Unable to capture cities",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},		
 	{
 		"name": "Attack Boat",
-		"unitType": "WaterMelee",
+		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 30,
 		"cost": 100,
 		"requiredTech": "Steam Power",
 		"uniques": ["Double movement in coast",
-			"May withdraw before melee ([66]%)",
-			"Can move after attacking",
-			"Unable to capture cities"],
+			"May withdraw before melee ([66]%)"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},		
 	{
 		"name": "Destroyer",
-		"unitType": "WaterRanged",
+		"unitType": "Ranged Water",
 		"movement": 6,
 		"strength": 30,
 		"rangedStrength": 50,
@@ -1436,14 +1431,14 @@
 	},
 		{
 		"name": "Carrier",
-		"unitType": "WaterAircraftCarrier",
+		"unitType": "Aircraft Carrier",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 40,
 		"interceptRange": 2,
 		"cost": 400,
 		"requiredTech": "Radar",
-        "uniques": ["Can carry [2] [Air] units",
+        "uniques": ["Can carry [2] [Aircraft] units",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
@@ -1451,7 +1446,7 @@
 	},
 	{
 		"name": "Battleship",
-		"unitType": "WaterRanged",
+		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 40,
 		"rangedStrength": 60,
@@ -1467,7 +1462,7 @@
 	},
 	{
 		"name": "Submarine",
-		"unitType": "WaterSubmarine",
+		"unitType": "Submarine",
 		"movement": 5,
 		"strength": 30,
 		"rangedStrength": 60,
@@ -1475,10 +1470,8 @@
 		"upgradesTo": "Nuclear Submarine",
 		"requiredTech": "Gyroscopes",
 		"uniques": ["+[66]% Strength when attacking",
-			"Invisible to others",
 			"Can only attack [Water] tiles",
 			"Can attack submarines",
-			"Can enter ice tiles",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
@@ -1486,7 +1479,7 @@
 	},
 	{
 		"name": "Nuclear Submarine",
-		"unitType": "WaterSubmarine",
+		"unitType": "Submarine",
 		"movement": 6,
 		"strength": 50,
 		"range": 3,
@@ -1494,10 +1487,8 @@
 		"cost": 425,
 		"requiredTech": "Particle Physics",
 		"uniques": ["+[75]% Strength when attacking",
-			"Invisible to others", 
 			"Can only attack [Water] tiles",
 			"Can attack submarines",
-			"Can enter ice tiles", 
 			"[+1] Visibility Range",
 			"Can carry [2] [Missile] units",
 			"Requires [Factory]",
@@ -1619,7 +1610,19 @@
 			"Uncapturable",
 			"Unbuildable"],
 		"movement": 5
-	},	
+	},
+	{
+		"name": "Great Missionary",
+		"unitType": "Civilian",
+		"uniques": ["Can construct [Holy site] if it hasn't spread religion yet",
+			"Can spread religion [4] times",
+			"May found a religion",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Hidden when religion is disabled"],
+		"movement": 2
+	},
 	
 	//non player UNIQUES
 	{
@@ -1645,7 +1648,7 @@
 	},	
 	{
 		"name": "Bandit",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
 		"replaces": "Spearman",
 		"interceptRange": 1,
@@ -1660,7 +1663,7 @@
 	},
 	{
 		"name": "Raider",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
 		"replaces": "Militia",
 		"interceptRange": 1,
@@ -1677,7 +1680,7 @@
 	},	
 	{
 		"name": "Looter",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Barbarians",
 		"replaces": "Archer",
 		"range": 1,
@@ -1695,7 +1698,7 @@
 	},		
 	{
 		"name": "Marauder",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Barbarians",
 		"replaces": "Gunman",
 		"range": 1,
@@ -1714,7 +1717,7 @@
 	},		
 	{
 		"name": "Rebel",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
 		"replaces": "Soldier",
 		"interceptRange": 1,
@@ -1731,7 +1734,7 @@
 	},	
 	{
 		"name": "Irregular",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Barbarians",
 		"replaces": "Rifleman",
 		"range": 1,
@@ -1750,7 +1753,7 @@
 	},	
 	{
 		"name": "Insurgent",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
 		"replaces": "NBC Infantry",
 		"interceptRange": 1,
@@ -1766,7 +1769,7 @@
 	},
 	{
 		"name": "Partisan",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Barbarians",
 		"replaces": "NBC Marksman",
 		"range": 1,
@@ -1825,7 +1828,7 @@
 	},
 	{
 		"name": "Salvaged Helicopter",
-		"unitType": "Siege",
+		"unitType": "Helicopter",
 		"uniqueTo": "Almaty",
 		"replaces": "Skirmisher",
 		"range": 1,
@@ -1837,10 +1840,6 @@
 		"upgradesTo": "Helicopter",	
 		"uniques": ["-[25]% Strength vs [Armor]",
 			"Can move after attacking",
-			"Helicopter",
-			"No defensive terrain bonus",
-			"All tiles cost 1 movement",
-			"Can pass through impassable tiles",
 			"May withdraw before melee ([100]%)",
 			"Requires [Alma Air Base]",
 			"Consumes [1] [Oil]"],
@@ -1868,7 +1867,7 @@
 	
 	{
 		"name": "Arroyo Defender",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Arroyo",
 		"replaces": "Soldier",
 		"movement": 2,
@@ -1884,7 +1883,7 @@
 	},	
 	{
 		"name": "Arroyo Greatbow",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Arroyo",
 		"replaces": "Rifleman",
 		"range": 1,
@@ -1925,7 +1924,7 @@
 	
 	{
 		"name": "Ghost Defender",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Soldier",
 		"movement": 2,
@@ -1941,7 +1940,7 @@
 	},	
 	{
 		"name": "Ghost Greatbow",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Rifleman",
 		"range": 1,
@@ -1981,7 +1980,7 @@
 		"name": "Hub Auxiliary",
 		"uniqueTo": "The Hub",
 		"replaces": "Auxiliary",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 18,
 		"cost": 20,
@@ -1997,7 +1996,7 @@
 		"name": "Hub Militia",
 		"uniqueTo":"The Hub",
 		"replaces": "Militia",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 36,
@@ -2013,7 +2012,7 @@
 		"name": "Hub Gunman",
 		"uniqueTo": "The Hub",
 		"replaces": "Gunman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -2030,7 +2029,7 @@
 		"name": "Hub Crossbowman",
 		"uniqueTo":"The Hub",
 		"replaces": "Crossbowman",
-		"unitType": "Ranged",
+		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
 		"strength": 12,
@@ -2051,7 +2050,7 @@
 	
 	{
 		"name": "Ignis Can't Build Spearman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Spearman",
 		"strength": 1,
@@ -2061,7 +2060,7 @@
 	},	
 	{
 		"name": "Ignis Can't Build Archer",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Archer",
 		"strength": 1,
@@ -2071,7 +2070,7 @@
 	},	
 	{
 		"name": "Clan Can't Build Horseman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Horseman",
 		"strength": 1,
@@ -2081,7 +2080,7 @@
 	},	
 	{
 		"name": "Clan Can't Build Skirmisher",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Skirmisher",
 		"strength": 1,
@@ -2091,7 +2090,7 @@
 	},	
 	{
 		"name": "Patriots Can't Build Spearman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "The Patriots",
 		"replaces": "Spearman",
 		"strength": 1,
@@ -2101,7 +2100,7 @@
 	},	
 	{
 		"name": "Patriots Can't Build Archer",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "The Patriots",
 		"replaces": "Archer",
 		"strength": 1,
@@ -2111,7 +2110,7 @@
 	},		
 	{
 		"name": "Patriots Can't Build Horseman",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "The Patriots",
 		"replaces": "Horseman",
 		"strength": 1,
@@ -2121,7 +2120,7 @@
 	},	
 	{
 		"name": "Patriots Can't Build Skirmisher",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "The Patriots",
 		"replaces": "Skirmisher",
 		"strength": 1,
@@ -2133,7 +2132,7 @@
 
 	{
 		"name": "Arroyo Can't Build Cavalry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Arroyo",
 		"replaces": "Cavalry",
 		"requiredTech": "The Wheel",
@@ -2143,7 +2142,7 @@
 	},	
 	{
 		"name": "Arroyo Can't Build Car",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Arroyo",
 		"replaces": "Attack Vehicle",
 		"requiredTech": "The Wheel",
@@ -2153,7 +2152,7 @@
 	},	
 	{
 		"name": "Arroyo Can't Build Light Cavalry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Arroyo",
 		"replaces": "Light Cavalry",
 		"requiredTech": "The Wheel",
@@ -2164,7 +2163,7 @@
 
 	{
 		"name": "Ghost Can't Build Cavalry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Cavalry",
 		"requiredTech": "The Wheel",
@@ -2175,7 +2174,7 @@
 	
 	{
 		"name": "Ghost Can't Build Light Cavalry",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Light Cavalry",
 		"requiredTech": "The Wheel",
@@ -2185,7 +2184,7 @@
 	},		
 	{
 		"name": "Ghost Can't Build Car",
-		"unitType": "Melee",
+		"unitType": "Scrapper",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Attack Vehicle",
 		"requiredTech": "The Wheel",
