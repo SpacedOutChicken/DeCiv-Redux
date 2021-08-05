@@ -111,8 +111,7 @@
 
 			{
 				"name": "Discipline",
-				"effect": "",
-				"uniques": ["+[15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile"],
+				"uniques": ["[+15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile"],
 				"row": 1,
 				"column": 1
 			},	
