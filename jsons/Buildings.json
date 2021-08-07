@@ -103,7 +103,7 @@
 		"uniqueTo": "Commonwealth",
 		"cost": 1,
 		"uniques": ["[+25]% great person generation [in this city]",
-			"Free [Spearman] appears",
+			"Free [Ranger] appears",
 			"Requires a [Bomb Shelter] in this city",
 			"Provides a free [Monument] [in this city]"]
 	},
@@ -733,7 +733,7 @@
 		"replaces": "Monument",
 		"uniqueTo": "The Mariners",
 		"culture": 1,
-		"uniques": ["[+1 Culture, +1 Food] from [Water resource] tiles [in this city]"],
+		"uniques": ["[+1 Culture, +1 Food] from [Fishing Boats] tiles [in this city]"],
 		"cost": 40,
 		"hurryCostModifier": 40
 	},
