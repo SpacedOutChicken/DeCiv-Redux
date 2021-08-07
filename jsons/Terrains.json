@@ -17,29 +17,53 @@
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [97,171,58],
-		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0.5] and [1]"]
+		"uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]"]
 	},
 	{
 		"name": "Plains", // Badlands
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [168,185,102],
-		"uniques": ["Occurs at temperature between [-0.4] and [0.8] and humidity between [0] and [0.5]",
-			"Occurs at temperature between [0.8] and [1] and humidity between [0.7] and [1]"]
+		"uniques": ["Occurs at temperature between [-0.3] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]"]
 	},
 	{
 		"name": "Tundra",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [189,204,191],
-		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0.5] and [1]"]
+		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]"]
 	},
 	{
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [ 230, 230, 113],
-		"uniques": ["Occurs at temperature between [0.8] and [1] and humidity between [0] and [0.7]"]
+		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]"]
 	},
 	{
 		"name": "Lakes",
@@ -55,14 +79,20 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [120, 120, 120],
-		"uniques":["Has an elevation of [4] for visibility calculations","Occurs in chains at high elevations"]
+		"uniques":["Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations"]
 	},
 	{
 		"name": "Snow", //Permafrost
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
-		"uniques": ["Occurs at temperature between [-1] and [-0.4] and humidity between [0] and [0.5]"]
+		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]"]
 	},
 	// Natural Wonders redefined
 	{
@@ -131,8 +161,10 @@
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["Rough terrain", "[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units", "Has an elevation of [2] for visibility calculations",
+		"uniques": ["Rough terrain",
+			"[+5] Strength for cities built on this terrain",
+			"[+1] Sight for [Land] units",
+			"Has an elevation of [2] for visibility calculations",
 			"Occurs in groups around high elevations"]
 	},
 	{
@@ -144,8 +176,11 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert","Tundra","Plains","Grassland","Hill","Snow"],
-		"uniques": ["Provides a one-time Production bonus to the closest city when cut down", "Rough terrain",
-			"Blocks line-of-sight from tiles at same elevation","Resistant to nukes", "Can be destroyed by nukes"]
+		"uniques": ["Provides a one-time Production bonus to the closest city when cut down",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Resistant to nukes",
+			"Can be destroyed by nukes"]
 	},
 	{
 		"name": "Jungle",
@@ -156,8 +191,11 @@
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert","Tundra","Plains","Grassland","Hill","Snow"],
-		"uniques": ["Provides a one-time Production bonus to the closest city when cut down","Rough terrain",
-			"Blocks line-of-sight from tiles at same elevation","Resistant to nukes", "Can be destroyed by nukes"]
+		"uniques": ["Provides a one-time Production bonus to the closest city when cut down",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Resistant to nukes",
+			"Can be destroyed by nukes"]
 	},
 	{
 		"name": "Marsh",
@@ -175,7 +213,8 @@
 		"type": "TerrainFeature",
 		"gold": 1,
 		"occursOn": ["Tundra","Plains","Grassland"],
-		"uniques": ["Rare feature","Fresh water"]
+		"uniques": ["Rare feature",
+			"Fresh water"]
 	},	
 	{
 		"name": "Fallout",

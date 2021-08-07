@@ -61,14 +61,6 @@
 		"improvement": "Salvage site",
 		"improvementStats": {"production": 1}
 	},
-	/*{
-		"name": "Marine Plastics",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"production": 1,
-		"improvement": "Fishing Boats",
-		"improvementStats": {"production": 1}
-	},*/
 	{
 		"name": "Horses",
 		"resourceType": "Bonus",
@@ -300,16 +292,7 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
-	}
-	/*{
-		"name": "Marine Artifacts",
-		"resourceType": "Luxury",
-		"revealedBy": "Sailing",
-		"terrainsCanBeFoundOn": ["Atoll"],
-		"culture": 1,
-		"improvement": "Fishing Boats",
-		"improvementStats": {"culture": 1}
-	},*/
+	},
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",

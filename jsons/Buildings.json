@@ -772,7 +772,7 @@
 		"uniques": ["-[25]% Culture cost of acquiring tiles [in this city]",
 			"-[25]% Gold cost of acquiring tiles [in this city]"
 			,"[+1 Happiness, +1 Culture] with [Power]",
-			"[+1] population [in all cities]"],
+			"[+1] population [in this city]"],
 		"hurryCostModifier": 40
 	},
 	{
