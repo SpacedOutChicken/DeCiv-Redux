@@ -290,7 +290,7 @@
 		"uniqueName": "Road Warriors",
 		"uniques": ["-[33]% [Armor] unit maintenance costs",
 			"Starts with [Machinery]",
-			"[+2 Culture] from every [Strategic Resource]",
+			"[+2 Culture] from every [Strategic resource]",
 			"+[10]% [Culture] from every [Coal Plant]",
 			"[-1 Science] per turn from cities before [Writing]"],
 		"cities": ["Gastown","Blood Farm","Trial of Sand","Prophecy","Thousand Cuts","The Harrowing","Temple of Rage","Immortal Highway",

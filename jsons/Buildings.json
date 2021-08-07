@@ -892,15 +892,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
-		"uniques": ["[+1 Gold] from [Electronics] tiles [in this city]",
-			"[+1 Gold] from [Furs] tiles [in this city]",
-			"[+1 Gold] from [Fungus] tiles [in this city]",
-			"[+1 Gold] from [Hostile Fauna] tiles [in this city]",
-			"[+1 Gold] from [Salt] tiles [in this city]",
-			"[+1 Gold] from [Artifacts] tiles [in this city]",
-			"[+1 Gold] from [Gems] tiles [in this city]",
-			"[+1 Gold] from [Silver] tiles [in this city]",
-			"[+1 Gold] from [Jellyfish] tiles [in this city]"]
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"]
 	},
 	{
 		"name": "Caravan Office", 
@@ -911,15 +903,7 @@
 		"hurryCostModifier": 25,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["5% Production for every Trade Route with a City-State in the empire",
-			"[+1 Gold] from [Electronics] tiles [in this city]",
-			"[+1 Gold] from [Furs] tiles [in this city]",
-			"[+1 Gold] from [Fungus] tiles [in this city]",
-			"[+1 Gold] from [Hostile Fauna] tiles [in this city]",
-			"[+1 Gold] from [Salt] tiles [in this city]",
-			"[+1 Gold] from [Artifacts] tiles [in this city]",
-			"[+1 Gold] from [Gems] tiles [in this city]",
-			"[+1 Gold] from [Silver] tiles [in this city]",
-			"[+1 Gold] from [Jellyfish] tiles [in this city]"],
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"],
 		"requiredTech": "Trade"
 	},
 	{
