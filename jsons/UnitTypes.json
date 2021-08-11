@@ -34,7 +34,7 @@
     {
         "name": "Melee Water",
         "movementType": "Water",
-        "uniques": ["Can move after attacking", "Unable to capture cities"]
+        "uniques": ["Can move after attacking"]
     },
     {
         "name": "Ranged Water",

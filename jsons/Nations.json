@@ -322,12 +322,39 @@
 		"uniques": ["Can embark and move over Coasts and Oceans immediately",
 			"Units pay only 1 movement point to disembark",
 			"Embarked units can defend themselves",
-			"[Low Tech] units gain the [Amphibious] promotion",
-			"[Personnel] units gain the [Amphibious] promotion",
+			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
+			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
 			"Starts with [Sailing]"],
 		"cities": ["Dryplace","Everest Peak","Tripplehorn Harbor","Majorino Bay","Coates Beach","LaSardo Coast","Mokae Pier","Kazann Port",
 			"Shimono Harbor","Aviles Beach","Kehler Coast","Douridas Pier","Silverman Port","Giuntoli Bay","Whalen Cove","Arenberg Fjord"]
 	},
+	/*{
+		"name": "New Afrika",
+		"leaderName": "Mutulu Makonnen",
+		"adjective": ["Afrikan"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "We've had enough of you messing with us.",
+		"attacked": "You think you can defeat us? Fool!",
+		"defeated": "This is the end. Freedom will never be more than a dream.",
+		"introduction": "I am Mutulu, and we are New Afrika. We are here to rebuild this broken world.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What the hell do you want?",
+		"tradeRequest": "Let's make a fair trade, as equals.",
+		"outerColor": [120,120,50],
+		"innerColor": [40,9,0],
+		"style": "",
+		"uniqueName": "Community Watch",
+		"uniques": ["+[10]% Strength if within [2] tiles of a [City center]",
+			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
+		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
+			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
+			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
+	},*/
 
 
 	//City-States

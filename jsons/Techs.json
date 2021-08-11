@@ -403,7 +403,6 @@
 				"name": "Ocean Remediation",
 				"row": 1,
 				"prerequisites": ["Desalination","Land Remediation"],
-				"uniques": ["[+1 Food] from every [Algae]","[+1 Food] from every [Jellyfish]"],
 				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
 			},
 			{
@@ -590,8 +589,13 @@
 				"row": 4,
 				"prerequisites": ["Particle Physics","Energy Weapons"],
 				"quote": "All the towers of ivory are crumbling, and the swallows have sharpened their beaks..."
+			},
+			{
+				"name": "Globalization",
+				"row": 10,
+				"prerequisites": ["Incentivization"],
+				"quote": "The new electronic interdependence recreates the world in the image of a global village."
 			}
-
 
 		]
 	},
@@ -605,7 +609,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Geo Engineering","Future Power","Artificial Intelligence","Future Materials","Human Genome","Incentivization"],
+				"prerequisites": ["Geo Engineering","Future Power","Artificial Intelligence","Future Materials","Human Genome","Globalization"],
 				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
 				"quote": "I think we agree, the past is over."
 			}

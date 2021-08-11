@@ -168,19 +168,6 @@
 		"attackSound": "metalhit"
 	},	
 	{
-		"name": "Trimaran",
-		"unitType": "Melee Water",
-		"uniqueTo": "The Mariners",
-		"replaces": "Spearman",
-		"movement": 4,
-		"strength": 20,
-		"cost": 50,
-		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Patrol Boat",
-		"uniques": ["May withdraw before melee ([66]%)"],
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Auxiliary",
 		"unitType": "Scrapper",
 		"movement": 2,
@@ -1269,7 +1256,7 @@
 	},
 	{
 		"name": "Attack Helicopter",
-		"unitType": "Siege",
+		"unitType": "Helicopter",
 		"range": 2,
 		"movement": 7,
 		"strength": 25,
@@ -1384,7 +1371,39 @@
 	//naval
 	
 	{
+		"name": "Trimaran",
+		"unitType": "Melee Water",
+		"uniqueTo": "The Mariners",
+		"replaces": "Spearman",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Jet Boat",
+		"uniques": ["Low Tech",
+			"May withdraw before melee ([66]%)"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Patrol Boat",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 30,
+		"cost": 90,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Attack Boat",
+		"obsoleteTech": "Steam Power",
+		"uniques": ["Double movement in coast",
+			"May withdraw before melee ([66]%)",
+			"Unable to capture cities",
+			"Consumes [1] [Oil]"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Privateer",
+		"uniqueTo": "The Mariners",
+		"replaces": "Patrol Boat",
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 30,
@@ -1397,9 +1416,24 @@
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
-	},		
+	},
 	{
 		"name": "Attack Boat",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 30,
+		"cost": 100,
+		"requiredTech": "Steam Power",
+		"uniques": ["Double movement in coast",
+			"May withdraw before melee ([66]%)",
+			"Unable to capture cities"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},		
+	{
+		"name": "Corvette",
+		"uniqueTo": "The Mariners",
+		"replaces": "Attack Boat",
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 30,
@@ -1409,7 +1443,22 @@
 			"May withdraw before melee ([66]%)"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
-	},		
+	},	
+	{
+		"name": "Jet Boat",
+		"uniqueTo": "The Mariners",
+		"replaces": "Soldier",
+		"unitType":"Melee Water",
+		"strength": 40,
+		"movement": 6,
+		"cost": 120,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["Personnel",
+			"Double movement in coast",
+			"May withdraw before melee ([66]%)"],
+		"hurryCostModifier": 25,
+		"attackSound": "shot"
+	},
 	{
 		"name": "Destroyer",
 		"unitType": "Ranged Water",

@@ -70,8 +70,8 @@
         "Grassland+Hill+Jungle+Gems": ["Grassland","Hill","Gems","Jungle"],
         "Grassland+Hill+Forest+Silver": ["Grassland","Hill","Silver","GrasslandForest"],
         "Grassland+Hill+Forest+Gems": ["Grassland","Hill","Gems","GrasslandForest"],
-        "Grassland+Hill+Forest+Furs": ["Grassland","Hill","Furs","Forest"],
-        "Grassland+Hill+Forest+Deer": ["Grassland","Hill","Deer","Forest"],
+        "Grassland+Hill+Forest+Furs": ["Grassland","Hill","Furs","GrasslandForest"],
+        "Grassland+Hill+Forest+Deer": ["Grassland","Hill","Deer","GrasslandForest"],
         //Plains
         "Plains+Jungle+Oil": ["Plains","Oil","PlainsJungle"],
         "Plains+Forest+Horses": ["Plains","Horses","PlainsForest"],
@@ -217,6 +217,7 @@
         "Grassland+Salvage site+Plastics": ["Grassland","Plastics","Salvage site"],
         "Grassland+Forest+Salvage site+Plastics": ["Grassland","Plastics","GrasslandForest","Salvage site"],
         "Grassland+Jungle+Salvage site+Plastics": ["Grassland","Plastics","Jungle","Salvage site"],
+        "Grassland+Forest+Camp+Furs": ["Grassland","Furs","Forest","Camp"],
         "Grassland+Hill+Salvage site+Plastics": ["Grassland","Hill","Plastics","Salvage site"],
         "Grassland+Hill+Forest+Salvage site+Plastics": ["Grassland","Hill","Plastics","Forest","Salvage site"],
         "Grassland+Hill+Jungle+Salvage site+Plastics": ["Grassland","Hill","Plastics","Jungle","Salvage site"],
@@ -299,7 +300,10 @@
         "Tundra+Jungle+Hacking site+Encrypted Data": ["Tundra","TundraJungle","Hacking site+Encrypted Data"],
         "Tundra+Hill+Jungle+Hacking site+Encrypted Data": ["Tundra","Hill","TundraJungle","Hacking site+Encrypted Data"],
         "Desert+Jungle+Hacking site+Encrypted Data": ["Desert","DesertJungle","Hacking site+Encrypted Data"],
-        "Desert+Hill+Jungle+Hacking site+Encrypted Data": ["Desert","Hill","DesertJungle","Hacking site+Encrypted Data"]
+        "Desert+Hill+Jungle+Hacking site+Encrypted Data": ["Desert","Hill","DesertJungle","Hacking site+Encrypted Data"],
+
+        //Furs
+        "Grassland+Forest+Furs+Camp": ["Grassland","GrasslandForest","Camp+Furs"]
 
     }
 }

@@ -4,7 +4,7 @@ Credit given whenever I know the source of an image - if you spot one you recogn
 
 Lots and lots of pixel art by GeneralWadaling, AKA The Bucketeer, with some by AdityaMH and some by me
 
-Other images:
+From the Noun Project:
 * Entrepreneurship: [Entrepreneur](https://thenounproject.com/term/entrepreneur/2338644/) by Kiran Shastry, IN
 * Auxiliary: [Hard Hat](https://thenounproject.com/term/hard-hat/3060083/) by Vectors Point, PK
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
@@ -17,3 +17,9 @@ Other images:
 * Geo Engineering: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH
 * Great Missionary: [bible](https://thenounproject.com/term/bible/1189567/) by Alvaro Cabrera, Spain
 * Urine Recycler: [urine](https://thenounproject.com/term/urine/3650621/) by Llisole 
+* Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
+* Corvette: [warship](https://thenounproject.com/term/warship/1806952/) by Abdul Wahhab 
+* Seastead: [Oil Platform](https://thenounproject.com/term/oil-platform/175820/) by Creative Stall, PK 
+
+From Wikimedia Commons:
+* New Afrika: [Fist](https://commons.wikimedia.org/wiki/File:Fist.png)

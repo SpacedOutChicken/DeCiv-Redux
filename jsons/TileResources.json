@@ -78,7 +78,7 @@
 		"revealedBy": "Writing",
 		"improvement": "Wind farm",
 		"improvementStats": {"production": 1},
-		"terrainsCanBeFoundOn": ["Hill","Coast"]
+		"terrainsCanBeFoundOn": ["Hill","Plains","Coast"]
 	},
 	
 	{

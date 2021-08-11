@@ -129,8 +129,9 @@
 			"Provides a free [Lighthouse] [in this city]",
 			"+[1] Sight for all [Embarked] units",
 			"+[1] Sight for all [Water] units"],
-		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf  the lights along the shore."
+		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."
 	},
+
 
 	//Cultural victory
 	{
@@ -149,7 +150,7 @@
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
-		"requiredTech": "Incentivization",
+		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory",
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon build start"],
@@ -423,7 +424,8 @@
         "cost": 75,
 		"isWonder": true,	
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["[+1] population [in all cities]"],
+		"uniques": ["[+1] population [in all cities]",
+			"[+2 Food] [in all cities]"],
 		"quote": "When you hear the air attack warning, you and your family must take cover..."
 	},			
 	{
@@ -503,6 +505,7 @@
 		"requiredTech": "Ecology",
 		"cost": 50,
 		"uniques": ["Must have an owned [Seed Vault] within [3] tiles",
+			"[+2 Food] [in all cities]",
 			"+[25]% growth [in all cities]"],
 		"quote": "What about us? What about all the plans that ended in disaster?"
 	},		
@@ -1501,9 +1504,11 @@
 		"cost": 150,
 		"requiredNearbyImprovedResources": ["Oil"],
 		"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [Oil]","[+1 Production] with [Machinery]",
+		"uniques": ["Provides [1] [Oil]",
+			"[+1 Production] with [Machinery]",
 			"[-1 Food, +3 Production, -1 Gold] from [Oil] tiles [in this city]",
-			"Consumes [1] [Power]"],
+			"Consumes [1] [Power]",
+			"Cannot be built with [Oil Plant]"],
 		"requiredTech": "Chemistry"
 	},
 	{
@@ -1513,11 +1518,25 @@
 		"maintenance": 1,
 		"cost": 100,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production, +2 Culture,-1 Gold] from [Oil] tiles [in this city]",
+		"uniques": ["[+1 Production, +2 Culture, -1 Gold] from [Oil] tiles [in this city]",
 			"Provides [1] [Oil]",
 			"[+2 Production, -1 Food] with [Power]",
-			"[+1 Production] with [Machinery]"]
-	},		
+			"[+1 Production] with [Machinery]",
+			"Cannot be built with [Oil Plant]"]
+	},
+	{
+		"name": "Oil Plant",
+		"maintenance": 1,
+		"cost": 150,
+		"food": -1,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Power]",
+			"[+1 Production] with [Machinery]",
+			"[-1 Food, +3 Production, -1 Gold] from [Oil] tiles [in this city]",
+			"Consumes [1] [Oil]",
+			"Cannot be built with [Oil Refinery]"],
+		"requiredTech": "Chemistry"
+	}
 	{
 		"name": "Biofuel Refinery", 
 		"requiredNearbyImprovedResources": ["Cattle","Goats","Horses"],
@@ -1879,6 +1898,17 @@
 	//	"maintenance": 2,
 	//	"hurryCostModifier": 25,
 		"uniques": ["+[10]% Production when constructing [Water] units [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Seastead",
+		"uniqueTo": "The Mariners",
+		"replaces": "Harbor",
+		"gold": 1,
+		"uniques": ["+[10]% Production when constructing [Water] units [in this city]",
+			"New [Water] units start with [15] Experience [in this city]",
 			"Connects trade routes over water",
 			"Must be next to [Coast]"],
 		"requiredTech": "Astronomy"

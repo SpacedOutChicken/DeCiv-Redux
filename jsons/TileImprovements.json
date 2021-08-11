@@ -112,7 +112,9 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"techRequired": "Sailing"
+		"turnsToBuild": 7,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Food] once [Ocean Remediation] is discovered"]
 	},
 
 	// Military improvement
