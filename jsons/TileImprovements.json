@@ -218,11 +218,13 @@
 	},
 	{
 		"name": "Narcotics farm",
+		"culture": 1,
 		"uniques": ["Great Improvement",
 			"Provides [1] [Narcotics]"]
 	},
 	{
 		"name": "Prison farm",
+		"production": 1,
 		"uniques": ["Great Improvement",
 			"Provides [1] [Slaves]",
 			"[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",

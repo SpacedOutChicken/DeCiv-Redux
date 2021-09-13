@@ -23,7 +23,7 @@
 		"cost": 600,
 		"requiredTech": "Gyroscopes",
 		"uniques": ["Nuclear weapon of Strength [1]",
-			"Blast radius [2]",
+			"Blast radius [1]",
 			"Requires [Manhattan Project]",
 			"Consumes [1] [Uranium]"],
 		"hurryCostModifier": 20,
