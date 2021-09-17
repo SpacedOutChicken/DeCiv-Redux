@@ -270,7 +270,7 @@
 	},
 	{ 
 		"name": "Ancient ruins",
-		"uniques": ["Unpillagable"]
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
 	},
 	{
 		"name": "City ruins", 
