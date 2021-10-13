@@ -34,7 +34,7 @@
     {
         "name": "freeAncientTech",
         "notification": "We have discovered the lost technology of [techName] in the camp!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"]
+        "uniques": ["[1] free random researchable Tech(s) from the [Decivilized era]"]
     },
     {
         "name": "unitUpgrade",

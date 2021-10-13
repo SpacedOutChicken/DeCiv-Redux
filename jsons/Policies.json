@@ -104,7 +104,7 @@
 	{
 		"name": "Sovereignty",
 		"era": "Decivilized era",
-		"uniques": ["+[25]% Strength vs [Barbarians]",
+		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
 			"Earn [75]% of killed [Barbarian] unit's [Strength] as [Culture]",
 			"Notified of new Barbarian encampments"],
 		"policies": [
@@ -251,7 +251,7 @@
 			},	
 			{
 				"name": "Corporate Personhood",
-				"uniques": ["-[33]% unit upkeep costs",
+				"uniques": ["[-33]% maintenance costs for [All] units",
 					"[+1 Gold] from every [Strategic Resource]",
 					"[+2 Gold, -1 Food] from every [Factory]"],
 				"requires": ["Venture Capital","Privatization"],
@@ -262,7 +262,7 @@
 				"name": "Monopoly Complete",
 				"uniques": ["[Great Merchant] is earned [20]% faster",
 					"-[50]% Gold cost of acquiring tiles [in all cities]",
-					"Cost of purchasing items in cities reduced by [20]%",
+					"[Gold] cost of purchasing items in cities [-20]%",
 					"[+2 Gold, -1 Production, -1 Food] from every [Work Camp]",
 					"[-1 Happiness, -1 Food] from every [Factory]"]
 			}
@@ -308,7 +308,7 @@
 			},			
 			{
 				"name": "Voting Rights",
-				"uniques": ["50% of excess happiness added to culture towards policies",
+				"uniques": ["[50]% of excess happiness converted to [Culture]",
 					"[-1 Happiness] from every [Work Camp]"],
 				"requires": ["Protected Speech"],
 				"row": 2,
@@ -338,16 +338,16 @@
 			},		
 			{
 				"name": "Scorched Earth",
-				"uniques": ["+[15]% Strength vs [City]",
+				"uniques": ["[+33]% Strength <vs cities>",
 					"Melee units pay no movement cost to pillage",
-					"+[2] Movement for all [Great General] units"],
+					"[+2] Movement <for [Great General] units>"],
 				"row": 1,
 				"column": 3
 			},	
 			{
 				"name": "Populism",
-				"uniques": ["[Wounded] units deal +[25]% damage",
-					"+10% Strength for all units during Golden Age"],
+				"uniques": ["[+25]% Strength <for [Wounded] units>",
+					"[+10]% Strength <for [All] units> <during a Golden Age>"],
 				"requires": ["Militarism"],
 				"row": 2,
 				"column": 1
