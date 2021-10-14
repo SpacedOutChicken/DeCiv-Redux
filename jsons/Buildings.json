@@ -506,7 +506,7 @@
 		"cost": 50,
 		"uniques": ["Must have an owned [Seed Vault] within [3] tiles",
 			"[+2 Food] [in all cities]",
-			"+[25]% growth [in all cities]"],
+			"[+25]% growth [in all cities]"],
 		"quote": "What about us? What about all the plans that ended in disaster?"
 	},		
 	{
