@@ -9,7 +9,7 @@
 	{
 		"name": "Reconnaissance I",
 		"prerequisites": ["March","Blitz","Extended Range","Medic II","Guerilla Warfare II","Urban Warfare II"],
-		"uniques": ["High speed, low drag","Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","-[50]% Strength vs [City]","+[-25]% Strength in [Open terrain]"],
+		"uniques": ["High speed, low drag","Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","[-50]% Strength <vs cities>]","[-25]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},		
 	{
@@ -21,27 +21,25 @@
 	{
 		"name": "Reconnaissance III",
 		"prerequisites": ["Reconnaissance II"],
-		"uniques": ["[+1] Movement","+[50]% Strength vs [Siege]"],		
+		"uniques": ["[+1] Movement","[+50]% Strength <vs [Siege] units>"],		
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},	
 	
 	//type MELEE												
 	{
 		"name": "Entrench",
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units","+[5]% Strength when defending"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>","[+5]% Strength <when defending>"],
 		"unitTypes": ["Scrapper","Shooter"]
 	},	
 	{
 		"name": "Forage",
-		"uniques": ["Heals [25] damage if it kills a unit","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"
-		/*,"Earn [100]% of [military] opponent's [Strength] as [Science] for kills"*/
-		],
+		"uniques": ["Heals [25] damage if it kills a unit","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","Earn [100]% of [military] opponent's [Strength] as [Science] for kills"],
 		"unitTypes": ["Scrapper"]
 	},	
 	{
 		"name": "Smokescreen",
 		"prerequisites": ["Entrench","Forage"],
-		"uniques": ["+[33]% Strength vs [Ranged] units","+[10]% Strength vs [Low Tech]","+[10]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>","[+10]% Strength <vs [Low Tech] units>","[+10]% Strength <vs cities>"],
 		"unitTypes": ["Scrapper"]
 	},
 	//assault
@@ -61,24 +59,24 @@
 	//type Mounted												
 	{
 		"name": "Loose Formation",
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Mounted"]
 	},		
 	{
 		"name": "Shock",
-		"uniques": ["+[25]% Strength in [Open terrain]"],
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Mounted","Armor"]
 	},
 	{
 		"name": "Assault",
 		"prerequisites": ["Entrench","Forage","Loose Formation","Shock"],
-		"uniques": ["+[10]% Strength when attacking"],
+		"uniques": ["[+10]% Strength <when attacking>"],
 		"unitTypes": ["Scrapper","Mounted"]
 	},	
 	{
 		"name": "Pursuit",
 		"prerequisites": ["Loose Formation","Shock"],
-		"uniques": ["+[25]% Strength vs [wounded units]","Heals [25] damage if it kills a unit"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","Heals [25] damage if it kills a unit"],
 		"unitTypes": ["Mounted"]
 	},
 
@@ -87,33 +85,33 @@
 	//type Armor												
 	{
 		"name": "Hull Down",
-		"uniques": ["+[15]% Strength when defending"],
+		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Armor"]
 	},	
 	//shock [mtd]
 	{
 		"name": "Awe",
 		"prerequisites": ["Hull Down","Shock"],
-		"uniques": ["+[25]% Strength vs [wounded units]","+[10]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>","[+10]% Strength <when attacking>"],
 		"unitTypes": ["Armor"]
 	},
 	{
 		"name": "Maneuver",
 		"prerequisites": ["Hull Down","Shock"],
-		"uniques": ["+1 Movement"],
+		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Armor"]
 	},
 	{
 		"name": "Formation",
 		"prerequisites": ["Entrench","Forage","Loose Formation","Shock","Guerilla Warfare I","Urban Warfare I"],
-		"uniques": ["+[33]% Strength vs [Mounted]"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Scrapper","Mounted"]
 	},	
 	
 	{
 		"name": "Ambush",
 		"prerequisites": ["Entrench","Forage","Loose Formation","Shock","Hull Down","Guerilla Warfare I","Urban Warfare I"],
-		"uniques": ["+[33]% Strength vs [Armor]"],
+		"uniques": ["[+33]% Strength <vs [Armor] units>"],
 		"unitTypes": ["Scrapper","Mounted","Armor"]
 	},		
 	
@@ -132,13 +130,13 @@
 	{
 		"name": "Precision",
 		"prerequisites": ["Entrench","Skirmish"],
-		"uniques": ["+[25]% Strength vs [wounded units]"],
+		"uniques": ["[+25]% Strength <vs [wounded] units>"],
 		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "Suppression",
 		"prerequisites": ["Entrench","Skirmish"],
-		"uniques": ["+[33]% Strength vs [Melee]"],
+		"uniques": ["[+33]% Strength <vs [Melee] units>"],
 		"unitTypes": ["Shooter"]
 	},		
 	//logistics
@@ -148,18 +146,18 @@
 		
 	{
 		"name": "Accuracy",
-		"uniques": ["+[20]% Strength in [Open terrain]"],
+		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Helicopter"]
 	},	
 	{
 		"name": "Combat Drill",
-		"uniques": ["+[20]% Strength when defending"],
+		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Siege","Helicopter"]
 	},
 	{
 		"name": "Barrage",
 		"prerequisites": ["Accuracy","Combat Drill"],
-		"uniques": ["+[20]% Strength in [Rough terrain]"],
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Helicopter"]
 	},		
 	{
@@ -180,41 +178,41 @@
 	// Water melee																		old promotions - water, air
 	{
 		"name": "Evasion",
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Strike",
-		"uniques": ["+[33]% Strength when attacking"],
+		"uniques": ["[+33]% Strength <when attacking>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Littoral Warfare",
-		"uniques": ["+[25]% Strength in [Coast]","+[25]% Strength in [Land]","+[25]% Strength vs [City]"],
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [Land] tiles>","[+25]% Strength <vs cities>"],
 		"prerequisites": ["Evasion","Strike"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Exploit Weakness",
-		"uniques": ["+[25]% Strength vs [wounded units]"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 		"prerequisites": ["Evasion","Strike"],
 		"unitTypes": ["Melee Water"]
 	},
 	//water ranged
 	{
 		"name": "Bombardment",
-		"uniques": ["+[33]% Strength vs [land units]"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	{
 		"name": "Targeting",
-		"uniques": ["+[25]% Strength vs [water units]"],
+		"uniques": ["[+25]% Strength <vs [Water] units>"],
 		"unitTypes": ["Ranged Water","Fighter","Bomber"]
 	},
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating",
-		"uniques": ["+[20]% Strength when defending"],
+		"uniques": ["[+20]% Strength <when defending>"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
@@ -237,51 +235,51 @@
 	{
 		"name": "Damage Control",
 		"prerequisites": ["Bombardment","Targeting","Armor Plating","Flight Deck I"],
-		"uniques": ["[+5] HP when healing", "All adjacent units heal [20] HP when healing"],
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [+20] HP when healing"],
 		"unitTypes": ["Ranged Water","Aircraft Carrier"]
 	},
 	{
 		"name": "Close-In Weapons System",
 		"prerequisites": ["Bombardment","Targeting","Armor Plating","Flight Deck I"],
-		"uniques": ["+[10]% Strength when defending","+[25]% Strength vs [air units]"],
+		"uniques": ["[+10]% Strength <when defending>","[+25]% Strength <vs [Air] units>"],
 		"unitTypes": ["Ranged Water","Aircraft Carrier"]
 	},
 	
 	// Submarine
 	{
 		"name": "Wolfpack I",
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"uniques": ["+[25]% Strength when attacking"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 
 	{
 		"name": "Flank Speed",
 		"prerequisites": ["Littoral Warfare","Exploit Weakness","Damage Control","Close-In Weapons System","Sentry","Flight Deck II","Wolfpack I"],
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+1] Movement","[+25]% to Flank Attack bonuses"],
 		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine"]
 	},
 	{
 		"name": "Convoy",
-		"prerequisites": ["Littoral Warfare","Exploit Weakness","Damage Control","Close-In Weapons System","Sentry","Flight Deck II"],
+		"prerequisites": ["Littoral Warfare","Exploit Weakness","Damage Control","Close-In Weapons System","Sentry","Flight Deck II","Wolfpack II"],
 		"uniques": ["[+10] HP when healing"],
-		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine","Wolfpack II"]
+		"unitTypes": ["Melee Water","Ranged Water","Aircraft Carrier","Submarine"]
 	},	
 	{
 		"name": "Sentry",
 		"prerequisites": ["Skirmish","Entrench","Forage","Loose Formation","Shock","Guerilla Warfare I","Urban Warfare I","Reconnaissance I","Bombardment","Targeting","Evasion","Strike"],
-		"uniques": ["[+1] Visibility Range"],
+		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Scrapper","Shooter","Mounted","Scout","Ranged Water","Melee Water"]
 	},	
 	{
@@ -306,19 +304,19 @@
 	// Bomber
 	{
 		"name": "Siege I",
-		"uniques": ["+[33]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I","Bombardment","Targeting"],
-		"uniques": ["+[33]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II","Operational Range"],
-		"uniques": ["+[34]% Strength vs [City]"],
+		"uniques": ["[+34]% Strength <vs cities>"],
 		"unitTypes": ["Bomber"]
 	},
 	
@@ -379,36 +377,36 @@
 	
 	{
 		"name": "Guerilla Warfare I",
-		"uniques": ["+[10]% Strength in [Rough terrain]","Can move after attacking"],
+		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>","Can move after attacking"],
 		"unitTypes": ["Scrapper","Shooter","Mounted"]
 	},
 	{
 		"name": "Guerilla Warfare II",
 		"prerequisites": ["Guerilla Warfare I"],
-		"uniques": ["+[30]% Strength in [Hill]","+[10]% Strength when attacking"],
+		"uniques": ["[+30]% Strength <when fighting in [Hill] tiles>","[+10]% Strength <when attacking>"],
 		"unitTypes": ["Scrapper","Shooter","Mounted","Scout"]
 	},	
 	{
 		"name": "Urban Warfare I",
-		"uniques": ["Double movement rate through Forest and Jungle","+[10]% Strength in [Jungle]","+[10]% Strength in [Forest]","+[10]% Strength vs [City]"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+10]% Strength <when fighting in [Forest] tiles>", "[+10]% Strength <when fighting in [Jungle] tiles>","[+10]% Strength <vs cities>"],
 		"unitTypes": ["Scrapper","Shooter","Mounted"]
 	},
 	{
 		"name": "Urban Warfare II",
 		"prerequisites": ["Urban Warfare I"],
-		"uniques": ["+[30]% Strength in [Jungle]","+[30]% Strength in [Forest]","+[30]% Strength vs [City]"],
+		"uniques": ["[+30]% Strength <when fighting in [Forest] tiles>", "[+30]% Strength <when fighting in [Jungle] tiles>","[+30]% Strength <vs cities>"],
 		"unitTypes": ["Scrapper","Shooter","Mounted","Scout"]
 	},
 	{
 		"name": "Medic I",
 		"prerequisites": ["Smokescreen","Assault","Pursuit","Formation","Ambush","Precision","Suppression","Sentry","Guerilla Warfare II","Urban Warfare II","Reconnaissance I"],
-		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing"],
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic I"],
-		"uniques": ["[+5] HP when healing", "All adjacent units heal [5] HP when healing",
+		"uniques": ["[+5] HP when healing", "All adjacent units heal [+5] HP when healing",
 			"[+5] HP when healing in [Foreign Land] tiles"],
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},
@@ -421,7 +419,7 @@
 	
 	{
 		"name": "Drone Recon",
-		"uniques": ["[+1] Visibility Range","Can attack submarines","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"]
+		"uniques": ["[+1] Sight","Can see invisible [Land] units","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"]
 	},	
 	{
 		"name": "Drone Support",
@@ -442,60 +440,60 @@
 	{
 		"name": "Infantry Mortar",
 		"prerequisites": ["Infantry Weapons"],
-		"uniques": ["+[10]% Strength when attacking"],
+		"uniques": ["[+10]% Strength <when attacking>"],
 		"unitTypes": ["Scrapper","Shooter"]
 	},	
 	{
 		"name": "White Phosphorus Munitions",
 		"prerequisites": ["Infantry Mortar","Artillery"],
-		"uniques": ["+[50]% Strength vs [Low Tech]","+[25]% Strength vs [Personnel]","+[50]% Strength vs [City]"],
+		"uniques": ["[+50]% Strength <vs [Low Tech] units>","[+25]% Strength <vs [Personnel] units>","[+50]% Strength <vs cities>"],
 		"unitTypes": ["Scrapper","Shooter","Siege","Helicopter","Ranged Water"]
 	},
 	{
 		"name": "Antipersonnel Mines",
 		"prerequisites": ["Infantry Weapons"],
-		"uniques": ["+[10]% Strength when defending"],
+		"uniques": ["[+10]% Strength <when defending>"],
 		"unitTypes": ["Scrapper","Shooter"]
 	},
 	{
 		"name": "Antitank Missile",
 		"prerequisites": ["Advanced Weapons","Infantry Weapons"],
-		"uniques": ["+[66]% Strength vs [Armor]"],
+		"uniques": ["[+66]% Strength <vs [Armor] units>"],
 		"unitTypes": ["Scrapper","Shooter","Mounted","Fighter","Bomber"]
 	},
 	{
 		"name": "Surface-to-Air Missile",
 		"prerequisites": ["Infantry Weapons"],
-		"uniques": ["[33]% chance to intercept air attacks","+[50]% Strength vs [Air]","+[100]% Strength vs [Helicopter]"],
+		"uniques": ["[33]% chance to intercept air attacks","[+50]% Strength <vs [Air] units>","[+100]% Strength <vs [Helicopter] units>"],
 		"unitTypes": ["Scrapper","Shooter","Mounted"]
 	},
 	{
 		"name": "Cluster Munitions",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["+[50]% Strength vs [Low Tech]","+[50]% Strength vs [Personnel]","+[50]% Strength vs [City]"],
+		"uniques": ["[+50]% Strength <vs [Low Tech] units>","[+50]% Strength <vs [Personnel] units>","[+50]% Strength <vs cities>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},		
 	{
 		"name": "Napalm",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["+[33]% Strength in [Jungle]","+[33]% Strength in [Forest]","+[50]% Strength vs [City]"],
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>","[+33]% Strength <when fighting in [Jungle] tiles>","[+50]% Strength <vs cities>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},	
 	{
 		"name": "Antiship Missile",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["+[33]% Strength vs [Water]"],
+		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air-to-Air Missile",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["+[33]% Strength vs [Air]"],
+		"uniques": ["[+33]% Strength <vs [Air] units>"],
 		"unitTypes": ["Fighter","Bomber","Siege","Helicopter"]
 	},
 	{
 		"name": "Infantry Weapons",
-		"uniques": ["+[25]% Strength vs [Low Tech]","+[50]% Strength vs [City]"]
+		"uniques": ["[+25]% Strength <vs [Low Tech] units>","[+50]% Strength <vs cities>"]
 	},
 	{
 		"name": "Artillery",
@@ -503,11 +501,11 @@
 	},
 	{
 		"name": "Advanced Weapons",
-		"uniques": ["+[5]% Strength when attacking"]
+		"uniques": ["[+5]% Strength <when attacking>"]
 	},	
 	{
 		"name": "Automated",
-		"uniques": ["Automated","+[20]% Strength vs [wounded units]","+[20]% Strength vs [City]"]
+		"uniques": ["Automated","[+20]% Strength <vs [Wounded] units>","[+20]% Strength <vs cities>"]
 	},	
 	/*{	
 		"name": "Thermoptic Camouflage"
@@ -519,15 +517,15 @@
 	
 	{
 		"name": "Tear Gas",
-		"uniques": ["+[33]% Strength vs [Low Tech]","+[10]% Strength vs [City]"]
+		"uniques": ["[+33]% Strength <vs [Low Tech] units>","[+10]% Strength <vs cities>"]
 	},
 	{
 		"name": "Chemical Weapons",
-		"uniques": ["Chemical Weapons","+[100]% Strength vs [Low Tech]","+[100]% Strength vs [Personnel]","-[50]% Strength vs [Gas Mask]","+[50]% Strength vs [City]"]
+		"uniques": ["Chemical Weapons","[+100]% Strength <vs [Low Tech] units>","[+100]% Strength <vs [Personnel] units>","[-50]% Strength <vs [Gas Mask] units>","[+50]% Strength <vs cities>"]
 	},
 	{
 		"name": "Point Defense Laser",
-		"uniques": ["[+33]% Strength when defending vs [Ranged] units"]
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth- "Heals 25 damage if it kills an Unit" for ranged seems wrong
@@ -543,7 +541,7 @@
 	},
 	{
 		"name": "Headhunter",
-		"uniques": ["Earn [-10]% of [military] opponent's [Cost] as [Gold] for kills","+[25]% Strength vs [wounded units]"]
+		"uniques": ["Earn [-10]% of [military] opponent's [Cost] as [Gold] for kills","[+25]% Strength <vs [Wounded] units>"]
 	},
 	{
 		"name": "Raider",

@@ -121,7 +121,7 @@
     {
         "name": "Obey the Elders",
         "type": "Follower",
-        "uniques": ["[+2 Production] if this city has at least [1] specialists"]
+        "uniques": ["[+2 Production] <if this city has at least [1] specialists>"]
     },
     {
         "name": "Feast of Flesh",
