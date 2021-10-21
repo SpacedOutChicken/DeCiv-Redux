@@ -209,7 +209,6 @@
 		"cost": 50,
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
-		"obsoleteTech": "Rifling",
 		"uniques": ["Low Tech",
 			"Can build [Land] improvements on tiles",
 			"[+50]% Strength <when defending>"],
@@ -470,6 +469,24 @@
 		"promotions": ["Forage"],
 		"attackSound": "shot"
 	},	
+	{
+		"name": "Panther",
+		"unitType": "Scrapper",
+		"uniqueTo": "New Afrika",
+		"replaces": "Militia",
+		"interceptRange": 1,
+		"movement": 2,
+		"strength": 36,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",		
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]"],
+		"hurryCostModifier": 20,
+		"promotions": ["Raider"],
+		"attackSound": "machinegun"
+	},
 
 
 	//t1
@@ -1544,7 +1561,27 @@
 		"attackSound": "torpedo"
 	},
 
-	
+	// religious
+
+	{
+		"name": "Missionary",
+		"unitType": "Civilian",
+		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
+	},
 
 	
 	/* Great people */
@@ -1559,15 +1596,21 @@
 	},		
 	{
 		"name": "Great Prophet",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great Administrator",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age",
-			"Can construct [Oracle]",
-			"Great Person - [Culture]",
-			"Uncapturable",
-			"Unbuildable"],
-		"movement": 2
+		"uniques": ["Can construct [Oracle] if it hasn't used other actions yet", 
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion", 
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]", 
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled", 
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
 	},
 	{
 		"name": "Great Scientist",
@@ -1658,18 +1701,6 @@
 			"Uncapturable",
 			"Unbuildable"],
 		"movement": 5
-	},
-	{
-		"name": "Great Missionary",
-		"unitType": "Civilian",
-		"uniques": ["Can construct [Holy site] if it hasn't spread religion yet",
-			"Can spread religion [4] times",
-			"May found a religion",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence",
-			"Great Person - [Faith]",
-			"Unbuildable",
-			"Hidden when religion is disabled"],
-		"movement": 2
 	},
 	
 	//non player UNIQUES

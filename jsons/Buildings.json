@@ -127,10 +127,19 @@
 		"uniques": ["Must be next to [Coast]",
 			"Free [Trimaran] appears",
 			"Provides a free [Lighthouse] [in this city]",
-			"+[1] Sight for all [Embarked] units",
-			"+[1] Sight for all [Water] units"],
+			"Normal vision when embarked <for [All] units>",
+			"[+1] Sight <for [Water] units>"],
 		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."
 	},
+	{
+		"name": "Mosque",
+		"isNationalWonder": true,
+		"uniqueTo": "New Afrika",
+		"cost": 1,
+		"culture": 1,
+		"uniques": ["Free [Panther] appears",
+			"Provides a free [Monument] [in this city]"]
+	}
 
 
 	//Cultural victory
@@ -201,7 +210,7 @@
 			"+[20]% Production when constructing [Military] units [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
-			"Cannot be built with [Citizen' Assembly]"]
+			"Cannot be built with [Citizens' Assembly]"]
 	},	
 	{
 		"name": "Shareholders' Fund",
@@ -1209,7 +1218,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,		
-		"uniques": ["+[1] Sight for all [Land] units",
+		"uniques": ["[+1] Sight <for [Land] units>",
 			"Reveals the entire map",
 			"Requires a [Aerospace Facility] in this city",
 			"Not displayed as an available construction without [Aerospace Facility]"],
@@ -1222,8 +1231,8 @@
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["Gold from all trade routes +25%",
-			"+[1] Movement for all [Water] units",
-			"+[1] Sight for all [Water] units",
+			"[+1] Movement <for [Water] units>",
+			"[+1] Sight <for [Water] units>",
 			"Requires a [Aerospace Facility] in this city",
 			"Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Satellites",
@@ -1280,7 +1289,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 50,
 		"requiredTech": "Munitions",
-		"uniques": ["Population loss from nuclear attacks -[75]%"]
+		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]"]
 	},		
 	{ 
 		"name": "Active Denial System", 
@@ -1848,7 +1857,7 @@
 		"percentStatBonus": {"culture": 50},
 		"cityStrength": 5,
 		"cityHealth": 400,
-		"requiredTech": "Atmosphere Remediation",
+		"requiredTech": "Future Materials",
 		"uniques": ["[10]% of food is carried over [in this city] after population increases",
 			"+[25]% great person generation [in this city]",
 			"[+1 Food, +1 Culture] per [2] population [in this city]",
@@ -1867,7 +1876,7 @@
 	{
 		"name": "Cryo Vault",
 		"cost": 1000,
-		"requiredTech": "Future Materials",
+		"requiredTech": "Human Genome",
 		"uniques": ["Requires [Cryo Project]",
 			"Cannot be purchased",
 			"Requires a [Medical Lab] in this city",
@@ -1962,6 +1971,14 @@
 		"requiredTech": "Education",
 		"uniques": ["Hidden when religion is disabled"]
 	},
+	{
+		"name": "Pagoda",
+		"cost": 0,
+		"culture": 2,
+		"faith": 2,
+		"happiness": 2,
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+	},
 //																																	unbuildable uniques																..
 
 
@@ -2008,7 +2025,7 @@
 		"uniques": ["Will not be displayed in Civilopedia",
 			"Reveals the entire map",
 			"Provides [1] [Uranium]",
-			"Provides a free [Nuclear Plant] [in this city]"]
+			"Gain a free [Nuclear Plant] [in this city]"]
 	},
 	{
 		"name": "Silk Road",
@@ -2026,7 +2043,8 @@
 		"name": "The Abbey",
 		"uniqueTo": "Order of Jerome",
 		"cost": 1,
-		"culture": 5,
+		"faith": 5,
+		"culture": 1,
         "science": 3,
 		"happiness": 2,
 		"greatPersonPoints": {"Great Scientist": 2}
@@ -2270,5 +2288,51 @@
 		"uniques": ["Will not be displayed in Civilopedia",
 			"Provides [1] [Slaves]"],
 		"requiredTech": "Construction"
+	},
+	{
+		"name": "Mormon Monument",
+		"uniqueTo": "Deseret Nation",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": ["Will not be displayed in Civilopedia",
+			"Reveals the entire map"]
+	},
+	{
+		"name": "Grand Temple",
+		"uniqueTo": "Deseret Nation",
+		"cost": 1,
+		"faith": 5,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": ["Provides [1] [Weapons]"]
+	},
+	{
+		"name": "Iron Rod Monument",
+		"uniqueTo": "Church of the Iron Rod",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"uniques": ["Will not be displayed in Civilopedia",
+			"Reveals the entire map"]
+	},
+	{
+		"name": "Iron Rod Stockpile",
+		"uniqueTo": "Church of the Iron Rod",
+		"production": 1,
+		"cost": 1,
+		"uniques": ["Provides [4] [Weapons]"]
+	},
+	{
+		"name": "Arden Monument",
+		"uniqueTo": "Arden Club",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": ["Will not be displayed in Civilopedia",
+			"Reveals the entire map"]
 	}
+
 ]

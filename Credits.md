@@ -20,6 +20,9 @@ From the Noun Project:
 * Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
 * Corvette: [warship](https://thenounproject.com/term/warship/1806952/) by Abdul Wahhab 
 * Seastead: [Oil Platform](https://thenounproject.com/term/oil-platform/175820/) by Creative Stall, PK 
+* Communism: [Communism](https://thenounproject.com/term/communism/350/) by Public Domain Nouns
+* Pantheism: [god](https://thenounproject.com/term/god/1751340/) by corpus delicti, GR
+* Avarice: [euro](https://thenounproject.com/term/euro/954672/) by jackie, CN
 
 From Wikimedia Commons:
 * New Afrika: [Fist](https://commons.wikimedia.org/wiki/File:Fist.png)

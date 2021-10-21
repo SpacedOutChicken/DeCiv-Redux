@@ -233,12 +233,10 @@
 	},
 	{
 		"name": "Oracle",
-		"uniqueTo": "Cult of Ignis",
-		"culture": 4,
+		"faith": 6,
 		"happiness": 1,
 		"uniques": ["Great Improvement",
-			"Gives a defensive bonus of [10]%",
-			"Provides [1] [Oil]"]
+			"Gives a defensive bonus of [10]%"]
 	},
 	{
 		"name": "Manufactory",
@@ -256,11 +254,6 @@
 			"Deal 30 damage to adjacent enemy units",
 			"Great Improvement",
 			"Can be built just outside your borders"]
-	},
-	{
-		"name": "Holy site",
-		"faith": 6,
-		"uniques": ["Great Improvement"]
 	},
 	
 	{

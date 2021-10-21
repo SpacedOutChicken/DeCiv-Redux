@@ -24,6 +24,7 @@
 		"tradeRequest": "This is the property now of the Children. What price will you pay?",
 		"outerColor": [116,67,5],
 		"innerColor": [219,219,126],
+		"favoredReligion": "Ghost Dance",
 		"style": "",
 		"uniqueName": "Rubble Runners",
 		"uniques": ["[Low Tech] units gain the [Urban Warfare I] promotion",
@@ -56,9 +57,10 @@
 				
 		"outerColor": [100,170,210],
 		"innerColor": [42, 42, 70],
+		"favoredReligion": "Mammon",
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
-		"uniques": ["+[10]% Strength for units fighting in [Foreign Land]",
+		"uniques": ["[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
@@ -92,6 +94,7 @@
 				
 		"outerColor": [0,255,255],
 		"innerColor": [45,60,120],
+		"favoredReligion": "Objectivism",
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": ["Receive free [Great Scientist] when you discover [Secrets of the Past]",
@@ -125,9 +128,13 @@
 		"tradeRequest": "Greetings. I believe this is a fair proposal for both parties. What do you think?",
 		"outerColor": [255,255,255],
 		"innerColor": [200,0,70],
+		"favoredReligion": "Humanism",
 		"style": "",
 		"uniqueName": "Mutual Assistance",
-		"uniques": ["Food and Culture from Friendly City-States are increased by 50%",
+		"uniques": ["[+50]% [Food] from City-States",
+			"[+50]% [Culture] from City-States",
+			"[+50]% [Faith] from City-States",
+			"Military Units gifted from City-States start with [+10] XP",
 			"[Great General] is earned [-33]% faster",
 			"Starts with [Redomestication]"],
 		"cities": ["Union City","Accord","Inheritance","Junction","Wellspring","Fall's End","Highpool","Constitution","Hope Commons","Clearwater",
@@ -154,6 +161,7 @@
 		"tradeRequest": "The Emergency Management Agency has prepared this aid package for your district.",
 		"outerColor": [ 40, 178, 0],
 		"innerColor": [100,50,30],
+		"favoredReligion": "Liberty",
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": ["Double quantity of [Encrypted Data] produced",
@@ -200,6 +208,7 @@
 				
 		"outerColor": [252,227,0],
 		"innerColor": [54,72,72],
+		"favoredReligion": "Liberty",
 		/*"outerColor": [0,87,0],
 		"innerColor": [150,254,150],*/
 		"style": "Military",
@@ -229,10 +238,11 @@
 		"tradeRequest": "Let's talk about some business affairs.",
 		"outerColor": [92,32,92],
 		"innerColor": [255,210,110],
+		"favoredReligion": "Mammon",
 		"style": "Gang",
 		"uniqueName": "Regulators",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
-			"+[1] Sight for all [{Military} {Land}] units",
+			"[+1] Sight <for [{Military} {Land}] units>",
 			"City-State Influence recovers at twice the normal rate",
 			"[Personnel] units gain the [Clansman] promotion"],
 		"cities": ["Xanadu","Gomorrah","Diamond City","Chance Springs","The Den","Ransom","Joker","Fortune","Golden Toad","Beaksville",
@@ -256,10 +266,11 @@
 		"tradeRequest": "I offer this, for your consideration.",
 		"outerColor": [153,5,3],
 		"innerColor": [244,232,54],
+		"favoredReligion": "Polytheism",
 		"style": "Legion",
 		"uniqueName": "One Banner",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
-			"-[33]% [Land] unit maintenance costs",
+			"[-33]% maintenance costs for [Land] units",
 			"Starts with [Redomestication]",
 			"[-1 Science] per turn from cities before [Writing]"],
 		"cities": ["Postumus","Rubicon","Dies Irae","Tartarus","Aqua Vitae","Damocles","De Facto","Vae Victis","Golgotha",
@@ -286,9 +297,10 @@
 		"tradeRequest": "You may yet serve the Engine...",
 		"outerColor": [255,150,0],
 		"innerColor": [0,0,0],
+		"favoredReligion": "Divine Engine",
 		"style": "Ignis",
 		"uniqueName": "Road Warriors",
-		"uniques": ["-[33]% [Armor] unit maintenance costs",
+		"uniques": ["[-33]% maintenance costs for [Armor] units",
 			"Starts with [Machinery]",
 			"[+2 Culture] from every [Strategic resource]",
 			"+[10]% [Culture] from every [Coal Plant]",
@@ -317,6 +329,7 @@
 		"tradeRequest": "We've got the finest goods that the sea can offer! What do you say?",
 		"outerColor": [51,25,0],
 		"innerColor": [255,255,102],
+		"favoredReligion": "Humanism",
 		"style": "Tribal",
 		"uniqueName": "People of the Sea",
 		"uniques": ["Can embark and move over Coasts and Oceans immediately",
@@ -328,7 +341,7 @@
 		"cities": ["Dryplace","Everest Peak","Tripplehorn Harbor","Majorino Bay","Coates Beach","LaSardo Coast","Mokae Pier","Kazann Port",
 			"Shimono Harbor","Aviles Beach","Kehler Coast","Douridas Pier","Silverman Port","Giuntoli Bay","Whalen Cove","Arenberg Fjord"]
 	},
-	/*{
+	{
 		"name": "New Afrika",
 		"leaderName": "Mutulu Makonnen",
 		"adjective": ["Afrikan"],
@@ -347,14 +360,15 @@
 		"tradeRequest": "Let's make a fair trade, as equals.",
 		"outerColor": [120,120,50],
 		"innerColor": [40,9,0],
+		"favoredReligion": "Rastafari",
 		"style": "",
 		"uniqueName": "Community Watch",
 		"uniques": ["+[10]% Strength if within [2] tiles of a [City center]",
 			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
-		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Walata","Tegdaoust","Argungu","Gwandu",
-			"Kebbi","Boussa","Motpi","Bamako","Wa","Kayes","Awdaghost","Ouadane","Dakar","Tadmekket","Tekedda","Kano",
-			"Agadez","Niamey","Torodi","Ouatagouna","Dori","Bamba","Segou"]
-	},*/
+		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Addis Ababa","Harar","Adwa","Lalibela","Gondar",
+			"Walata","Tegdaoust","Argungu","Gwandu","Kebbi","Boussa","Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Axum",
+			"Dire Dawa","Bahir Dar","Adama","Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Pi-Ramesses","Giza","Byblos"]
+	},
 
 
 	//City-States
@@ -375,7 +389,7 @@
 	{
 		"name": "Order of Jerome",
 		"adjective": ["Order"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Religious",
 		"style": "",
 		"uniques": ["Starts with [Writing]",
 			"Starts with [Electronics]"],
@@ -483,6 +497,42 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100,100,220],
 		"cities": ["The Hub"]
+	},
+	{
+		"name": "Deseret Nation",
+		"adjective": ["Deseret"],
+		"cityStateType": "Religious",
+		"style": "Corporate",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Do you think that your unhallowed hands can stop us?",
+		"defeated": "Our blood will cry out for vengeance against you.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151,125,0],
+		"cities": ["Deseret"]
+	},
+	{
+		"name": "Church of the Iron Rod",
+		"adjective": ["Iron Rod"],
+		"cityStateType": "Militaristic",
+		"style": "Military",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "The rod of iron will strike you down!",
+		"defeated": "How is it that we have failed?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,255],
+		"cities": ["Iron Rod Sanctuary"]
+	},
+	{
+		"name": "Arden Club",
+		"adjective": ["Arden"],
+		"cityStateType": "Cultured",
+		"style": "",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Why can't we find a mutually beneficial relationship?",
+		"defeated": "So this is how it ends for us.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211,180,113],
+		"cities": ["Ardentown"]
 	},
 			        
 

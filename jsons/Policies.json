@@ -15,14 +15,14 @@
 			},
 			{
 				"name": "Centralization",
-				"uniques": ["+[10]% growth [in capital]",
+				"uniques": ["[+10]% growth [in capital]",
 					"[+2 Food] [in capital]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Differential Rationing",
-				"uniques": ["-[50]% food consumption by specialists"],
+				"uniques": ["[-50]% food consumption by specialists [in all cities]"],
 				"row": 1,
 				"column": 5
 			},			
@@ -44,7 +44,7 @@
 
 			{
 				"name": "Adaptation Complete",
-				"uniques": ["+[10]% growth [in all cities]",
+				"uniques": ["[+10]% growth [in all cities]",
 					"[+2 Food] [in all cities]"]
 			}
 		]
@@ -58,7 +58,7 @@
 				"name": "Restorers",
 				"uniques": ["+[50]% Production when constructing [Civilian Convoy] units [in capital]",
 					"Free [Civilian Convoy] appears",
-					"+[1] Movement for all [Civilian] units"],
+					"[+1] Movement <for [Civilian] units>"],
 				"row": 1,
 				"column": 1
 			},
@@ -72,7 +72,7 @@
 			{
 				"name": "Courier Service",
 				"uniques": ["[+1 Happiness] [in all cities connected to capital]",
-					"Unhappiness from population decreased by [10]%",
+					"[-10]% unhappiness from population [in all cities]",
 					"City-State Influence degrades [50]% slower"],
 				"row": 1,
 				"column": 5
@@ -90,7 +90,7 @@
 				"name": "Citizen Militia",
 				"uniques": ["Units in cities cost no Maintenance",
 					"[+2 Production] [in all cities with a garrison]",
-					"-[33]% [Civilian] unit maintenance costs"],
+					"[-33]% maintenance costs for [Civilian] units"],
 				"requires": ["Representation","Courier Service"],
 				"row": 2,
 				"column": 3
@@ -148,18 +148,18 @@
 			{
 				"name": "Sovereignty Complete",
 				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%",
-					"-[25]% [All] unit maintenance costs"]
+					"[-25]% maintenance costs for [All] units"]
 			}
 		]
 	},	
 	{
 		"name": "Legacy",
 		"era": "Postmodern era",
-		"uniques": ["Immediately creates a cheapest available cultural building in each of your first [4] cities for free"],
+		"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"],
 		"policies": [
 			{
 				"name": "Special Projects",
-				"uniques": ["+[20]% Production when constructing [Wonders]"],
+				"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -178,8 +178,8 @@
 			},
 			{
 				"name": "Endurance Programme",
-				"uniques": ["Cost of purchasing [Culture] buildings reduced by [50]%",
-					"+[15]% Production when constructing [Culture] buildings"],
+				"uniques": ["[Gold] cost of purchasing [Culture] buildings [-50]%",
+					"[+15]% Production when constructing [Culture] buildings [in all cities]"],
 				"requires": ["Special Projects"],
 				"row": 2,
 				"column": 1
@@ -193,7 +193,7 @@
 			},
 			{
 				"name": "Vision",
-				"uniques": ["+[33]% [Culture] [in all cities with a world wonder]",
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]",
 					"Empire enters golden age"],
 				"requires": ["Inheritance"],
 				"row": 2,
@@ -224,7 +224,7 @@
 			{
 				"name": "Venture Capital",
 				"uniques": ["[Great Merchant] is earned [20]% faster",
-					"Cost of purchasing items in cities reduced by [20]%",
+					"[Gold] cost of purchasing items in cities [-20]%",
 					"Double gold from Great Merchant trade missions"],
 				"row": 1,
 				"column": 3
@@ -271,7 +271,7 @@
 	{
 		"name": "Constitution",
 		"era": "Neofeudal era",
-		"uniques": ["+[25]% great person generation [in all cities]"],
+		"uniques": ["[+25]% great person generation [in all cities]"],
 		"policies": [
 			{
 				"name": "Civil Society",
@@ -284,7 +284,7 @@
 				"name": "Protected Speech",
 				"uniques": ["[+1 Culture] per [3] population [in all cities]",
 					"[+1 Culture] from every [Town Hall]",
-					"+[10]% growth [in all cities]"],
+					"[+10]% growth [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
@@ -292,7 +292,7 @@
 				"name": "Public Good",
 				"uniques": ["[+2 Gold] from every [Hospital]",
 					"Maintenance on roads & railroads reduced by [33]%",
-					"+[20]% growth [in all cities]"],
+					"[+20]% growth [in all cities]"],
 				"requires": ["Civil Society"],
 				"row": 2,
 				"column": 1
@@ -324,14 +324,14 @@
 	{
 		"name": "Supremacy",
 		"era": "Neofeudal era",
-		"uniques": ["-[25]% [Military] unit maintenance costs",
+		"uniques": ["[-25]% maintenance costs for [Military] units",
 			"+[33]% Production when constructing [Barracks]",
 			"+[33]% Production when constructing [Military Academy]"],
 		"policies": [
 
 			{
 				"name": "Militarism",
-				"uniques": ["Gold cost of purchasing [All] units -[33]%",
+				"uniques": ["[Gold] cost of purchasing [All] units [-33]%",
 					"Gold cost of upgrading [Military] units reduced by [33]%"],
 				"row": 1,
 				"column": 2
@@ -363,7 +363,7 @@
 			},		
 			{
 				"name": "Total War",
-				"uniques": ["+[15]% Production when constructing [Military] units [in all cities]",
+				"uniques": ["[+15]% Production when constructing [Military] units [in all cities]",
 					"New [Military] units start with [15] Experience [in all cities]"],
 				"requires": ["Populism"],
 				"row": 3,
@@ -388,11 +388,11 @@
 {
 		"name": "Rationalism",
 		"era": "Postmodern era",
-		"uniques": ["Science gained from research agreements +[50]%"],
+		"uniques": ["Science gained from research agreements [+50]%"],
 		"policies": [
 			{
 				"name": "Secularism",
-				"uniques": ["[+1 Science] from every specialist"],
+				"uniques": ["[+1 Science] from every specialist [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -430,7 +430,7 @@
 			},
 			{
 				"name": "Rationalism Complete",
-				"uniques": ["+[15]% [Science] while the empire is happy"]
+				"uniques": ["[+15]% [Science] <while the empire is happy>"]
 			}
 		]
 	}
