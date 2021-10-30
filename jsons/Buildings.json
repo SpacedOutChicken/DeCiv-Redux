@@ -78,7 +78,7 @@
 		"uniqueTo": "Crimson Legion",
 		"cityHealth": 20,
 		"cost": 1,
-		"uniques": ["Unhappiness from population decreased by [10]%",
+		"uniques": ["[-10]% unhappiness from population [in all cities]",
 			"Free [Swordsman] appears",
 			"Requires a [Bomb Shelter] in this city"]
 	},
@@ -173,7 +173,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture] per [4] population [in all cities]",
-			"Unhappiness from population decreased by [10]%",
+			"[-10]% unhappiness from population [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Council]"]
@@ -182,8 +182,8 @@
 		"name": "Council",
 		"cost": 50,
 		"requiredTech": "Civil Service",
-		"uniques": ["+[10]% growth [in all cities]",
-			"+[5]% Production when constructing [Buildings]",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Congress]"]
@@ -195,7 +195,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Science, +1 Culture] per [4] population [in all cities]",
-			"Unhappiness from population decreased by [10]%",
+			"[-10]% unhappiness from population [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Defense Committee]"]
@@ -206,8 +206,8 @@
 		"uniqueTo": "Children of Rust",
 		"cost": 50,
 		"requiredTech": "Civil Service",
-		"uniques": ["+[15]% Strength for units fighting in [Friendly Land]",
-			"+[20]% Production when constructing [Military] units [in all cities]",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"[+20]% Production when constructing [Military] units [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Citizens' Assembly]"]
@@ -219,7 +219,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Gold] per [4] population [in all cities]",
-			"Unhappiness from population decreased by [10]%",
+			"[-10]% unhappiness from population [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Board of Directors]"]
@@ -243,7 +243,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Science, +1 Gold] per [4] population [in all cities]",
-			"Unhappiness from population decreased by [10]%",
+			"[-10]% unhappiness from population [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Think Tank]"]
@@ -255,7 +255,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": ["Production to science conversion in cities increased by 33%",
-			"+[10]% Production when constructing [Science] buildings",
+			"[+10]% Production when constructing [Science] buildings [in all cities]",
 			"Requires a [Search for Survivors] in this city",
 			"Not displayed as an available construction without [Search for Survivors]",
 			"Cannot be built with [Freedom Foundation]"]
@@ -292,7 +292,7 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+1 Culture, +1 Gold] per [4] population [in all cities]",
-			"Unhappiness from population decreased by [10]%",
+			"[-10]% unhappiness from population [in all cities]",
 			"Requires a [Bomb Shelter] in this city",
 			"Not displayed as an available construction without [Bomb Shelter]",
 			"Cannot be built with [Consulate]"]
@@ -1207,7 +1207,7 @@
 		"culture": 5,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
-		"uniques": ["Science gained from research agreements +[50]%",
+		"uniques": ["Science gained from research agreements [+50]%",
 			"Requires a [Aerospace Facility] in this city",
 			"Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Satellites"
@@ -1367,8 +1367,8 @@
 		"cost": 15,		
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built in annexed cities",
-			"+[33]% growth [in all cities]",
-			"[+2 Food] [in all cities]",
+			"[+33]% growth [in this city]",
+			"[+2 Food] [in this city]",
 			"Provides [4] [Slaves]",
 			"Cannot be built with [Arena]"],
 		"requiredTech": "Construction"
@@ -1381,10 +1381,10 @@
 		"cost": 15,		
 		"cityStrength": 10,
 		"cityHealth": 50,
-		"uniques": ["+[15]% Production when constructing [Melee] units [in this city]",
+		"uniques": ["[+15]% Production when constructing [Melee] units [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built in annexed cities",
-			"+[25]% growth [in all cities]",
+			"[+25]% growth [in this city]",
 			"Provides [3] [Slaves]",
 			"Free [Auxiliary] appears",
 			"Cannot be built with [Colosseum]"],

@@ -74,8 +74,7 @@
     {
         "name": "Monument Makers",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]",
-            "[+5]% Production when constructing [All] buildings [in cities following this religion]" ]
+        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
     },
     {
         "name": "Sacred Sites",

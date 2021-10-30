@@ -103,7 +103,7 @@
 				"name": "Astronomy",
 				"row": 1,
 				"prerequisites": ["Writing","Sailing"],
-				"uniques": ["Increases embarked movement +1","Enables embarked units to enter ocean tiles"],
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables embarked units to enter ocean tiles"],
 				"quote": "He made an instrument to know if the moon shine at full or no."
 			},
 			{
@@ -187,7 +187,7 @@
 				"name": "Steam Power",//steam power
 				"row": 7,
 				"prerequisites": ["Steel"],
-				"uniques": ["Increases embarked movement +1"],
+				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?"
 			},			
 			{
