@@ -180,7 +180,7 @@
 				"name": "Biology",
 				"row": 5,
 				"prerequisites": ["Chemistry","Education"],
-				"uniques": ["+[10]% growth [in all cities]"],
+				"uniques": ["[+10]% growth [in all cities]"],
 				"quote": "If the brain were so simple we could understand it, we would be so simple we couldn't."
 			},				
 			{

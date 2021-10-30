@@ -28,7 +28,7 @@
 			},			
 			{
 				"name": "Planned Economy",
-				"uniques": ["+[25]% growth [in all cities]",
+				"uniques": ["[+25]% growth [in all cities]",
 					"+[33]% [Production] from every [Council]"],
 				"requires": ["Castle Doctrine","Centralization"],
 				"row": 2,
@@ -276,7 +276,7 @@
 			{
 				"name": "Civil Society",
 				"uniques": ["Specialists only produce [50]% of normal unhappiness",
-					"[+1 Happiness] from every [Town Hall]","+[10]% growth [in all cities]"],
+					"[+1 Happiness] from every [Town Hall]","[+10]% growth [in all cities]"],
 				"row": 1,
 				"column": 1
 			},			
