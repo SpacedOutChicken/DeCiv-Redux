@@ -72,12 +72,7 @@
         "uniques": ["[+2 Science] from each Trade Route"]
     },
     {
-        "name": "Monument Makers",
-        "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
-    },
-    {
-        "name": "Sacred Sites",
+        "name": "Ancient Wonders",
         "type": "Pantheon",
         "uniques": ["[+4 Faith] from every [Natural Wonder]"]
     },
@@ -109,7 +104,7 @@
     {
         "name": "Strength of the Earth",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Mine]"]
+        "uniques": ["[+1 Faith] from every [Mine]"]
     },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     
@@ -136,18 +131,28 @@
     {
         "name": "Blessing of Peace",
         "type": "Follower",
-        "uniques": ["[+15]% growth [in this city] when not at war"]
+        "uniques": ["[+15]% growth [in this city] <when not at war>"]
     },
     {
-        "name": "Holy Warriors",
+        "name": "Art of War",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost"]
+        "uniques": ["May buy [Military] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"]
     },
     {
-        "name": "Pagodas",
+        "name": "Pyramids",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings for [200] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Pyramid] buildings for [200] [Faith] [in cities following this religion]"]
     },
+    {
+        "name": "Gardens",
+        "type": "Follower",
+        "uniques": ["May buy [Garden] buildings for [200] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Holy Fortresses",
+        "type": "Follower",
+        "uniques": ["May buy [Holy Fortress] buildings for [200] [Faith] [in cities following this religion]"]
+    }
     {
         "name": "Happiness in Faith",
         "type": "Follower",
@@ -216,9 +221,9 @@
         // ToDo: Should only be friendly territory of cities that follow this religion
     },
     {
-        "name": "Holy Order",
+        "name": "Illuminated Order",
         "type": "Enhancer",
-        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+        "uniques": ["[Faith] cost of purchasing [Philosopher] units [-30]%", "[Faith] cost of purchasing [Censor] units [-30]%"]
     },
     {
         "name": "Itinerant Preachers",
@@ -232,14 +237,14 @@
         // ToDo: Should only be enemy territory of cities that follow this religion
     },
     {
-        "name": "Messiah",
+        "name": "Path of the Sage",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents", "[Faith] cost for [Great Prophet] units [-25]%"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Sage] units>", "[-25]% Faith cost of generating Great Prophet equivalents", "[Faith] cost for [Great Sage] units [-25]%"]
     },
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+25]% Spread Religion Strength <for [Philosopher] units>"]
     },
     {
         "name": "Religious Texts",

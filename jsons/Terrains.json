@@ -10,7 +10,9 @@
 		"name": "Coast",
 		"type": "Water",
 		"movementCost": 1,
-		"RGB": [107,167,193]
+		"RGB": [107,167,193],
+		"uniques": ["[+2] to Fertility for Map Generation",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Grassland", // Wasteland
@@ -24,7 +26,11 @@
 			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]"]
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
+			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Plains", // Badlands
@@ -41,7 +47,11 @@
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
-			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]"]
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"[+4] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
+			"A Region can not contain more [Grassland] tiles than [Plains] tiles",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Tundra",
@@ -52,7 +62,10 @@
 			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
 			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
 			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]"]
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Desert",
@@ -63,7 +76,10 @@
 			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
 			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]"]
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Lakes",
@@ -71,7 +87,9 @@
 		"food": 1,
 		"gold": 1,
 		"RGB": [ 123, 202, 226],
-		"uniques": ["Fresh water"]
+		"uniques": ["Fresh water",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"]
 	},
 	{
 		"name": "Mountain",
@@ -81,7 +99,10 @@
 		"RGB": [120, 120, 120],
 		"uniques":["Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in chains at high elevations"]
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [50] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"]
 	},
 	{
 		"name": "Snow", //Permafrost
@@ -92,7 +113,9 @@
 			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
 			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
 			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]"]
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+			"Considered [Undesirable] when determining start locations",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	
 	// Terrain features
@@ -107,9 +130,14 @@
 		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
 		"uniques": ["Rough terrain",
 			"[+5] Strength for cities built on this terrain",
-			"[+1] Sight for [Land] units",
 			"Has an elevation of [2] for visibility calculations",
-			"Occurs in groups around high elevations"]
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Forest",
@@ -124,7 +152,11 @@
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			"Resistant to nukes",
-			"Can be destroyed by nukes"]
+			"Can be destroyed by nukes",
+			"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
+			"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+			"A Region can not contain more [Jungle] tiles than [Forest] tiles",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Jungle",
@@ -139,18 +171,24 @@
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			"Resistant to nukes",
-			"Can be destroyed by nukes"]
+			"Can be destroyed by nukes",
+			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
+			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
+			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "Marsh",
+		"name": "Marsh", // Toxic Waste
 		"type": "TerrainFeature",
-		"food": -3,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
 		"occursOn": ["Snow","Tundra","Plains","Grassland","Desert"],
-		"uniques": ["Rare feature"],
-		"rough": true
+		"uniques": ["Nullifies all other stats this tile provides",
+			"Rare feature",
+			"Rough terrain",
+			"[-2] to Fertility for Map Generation",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},	
 	{
 		"name": "Spring",
@@ -158,26 +196,29 @@
 		"gold": 1,
 		"occursOn": ["Tundra","Plains","Grassland"],
 		"uniques": ["Rare feature",
-			"Fresh water"]
+			"Fresh water",
+			"Always Fertility [4] for Map Generation"]
 	},	
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
-		"food": -3,
-		"production": -3,
-		"gold": -3,
 		"movementCost": 2,
 		"unbuildable": true,
-		"defenceBonus": -0.3,
-		"occursOn": ["Snow","Desert","Tundra","Plains","Grassland","Hill","Flood plains"],
-		"uniques": ["Rare feature"]
+		"uniques": ["Nullifies all other stats this tile provides",
+			"Rare feature",
+			"[-2] to Fertility for Map Generation",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh"],
+		"defenceBonus": -0.3
 	},
 	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
+		"food": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert"]
+		"occursOn": ["Desert","Plains","Grassland"],
+		"uniques": ["Always Fertility [5] for Map Generation"]
 	},
 	{
 		"name": "Sunken Ruins",
@@ -193,7 +234,8 @@
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
-		"occursOn": ["Ocean", "Coast"]
+		"occursOn": ["Ocean", "Coast"],
+		"uniques": ["[-1] to Fertility for Map Generation"]
 	},
  
 	// Natural Wonders
@@ -252,8 +294,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {Land}] units for the rest of the game",
-			"Tile provides yield without assigned population"],
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [Land] units for the rest of the game"],
 		"weight": 1
 	},
 	{
@@ -324,8 +365,7 @@
 		"gold": 2,
 		"science": 1,
 		"occursOn": ["Plains","Mountain"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [1] to [6] [Hill] tiles",
+		"uniques": ["Must be adjacent to [1] to [6] [Lakes] tiles",
 			"Fresh water"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -340,10 +380,27 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Must be adjacent to [0] to [4] [Elevated] tiles"],
+			"Must be adjacent to [0] to [4] [Elevated] tiles",
+			"Must be adjacent to [1] to [6] [Mountain] tiles",],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
+	},
+	{
+		"name": "Vault of Records",
+		"type": "NaturalWonder",
+		"faith": 1,
+		"culture": 1,
+		"occursOn": ["Desert","Plains"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [3] to [6] [Desert] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
 ]	

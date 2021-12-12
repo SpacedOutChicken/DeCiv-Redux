@@ -45,6 +45,7 @@
 	{
 		"name": "Solar collector",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"production": 1,
 		"turnsToBuild": 14,
 		"techRequired": "Electronics",
 		"uniques": ["Provides [1] [Power]"]
@@ -94,6 +95,7 @@
 		"turnsToBuild": 5,
 		"uniques": ["Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"[+1 Food] once [Ecology] is discovered",
 			"[+1 Food] once [Genetics] is discovered"]
 	},
 	{
@@ -200,6 +202,7 @@
 	{
 		"name": "Settlement",
 		"gold": 1,
+		"culture": 1,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Science] for each adjacent [Jungle]",
@@ -213,18 +216,18 @@
 		"production": 2,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [50]%",
-			"Deal 30 damage to adjacent enemy units",
+			"Adjacent enemy units ending their turn take [30] damage",
 			"Provides [1] [Slaves]"]
 	},
 	{
 		"name": "Narcotics farm",
-		"culture": 1,
+		"culture": 2,
 		"uniques": ["Great Improvement",
 			"Provides [1] [Narcotics]"]
 	},
 	{
 		"name": "Prison farm",
-		"production": 1,
+		"production": 2,
 		"uniques": ["Great Improvement",
 			"Provides [1] [Slaves]",
 			"[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
@@ -233,10 +236,12 @@
 	},
 	{
 		"name": "Oracle",
-		"faith": 6,
+		"uniqueTo": "Cult of Ignis",
+		"culture": 4,
 		"happiness": 1,
 		"uniques": ["Great Improvement",
-			"Gives a defensive bonus of [10]%"]
+			"Gives a defensive bonus of [10]%",
+			"Provides [1] [Oil]"],
 	},
 	{
 		"name": "Manufactory",
@@ -251,9 +256,17 @@
 	{
 		"name": "Citadel",
 		"uniques": ["Gives a defensive bonus of [100]%",
-			"Deal 30 damage to adjacent enemy units",
+			"Adjacent enemy units ending their turn take [30] damage",
 			"Great Improvement",
-			"Can be built just outside your borders"]
+			"Can be built just outside your borders"],
+		"civilopediaText": [{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}]
+	},
+	{
+		"name": "Seminary",
+		"faith": 3,
+		"uniques": ["Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"[+1 Culture, +1 Faith] once [Education] is discovered"]
 	},
 	
 	{
@@ -272,6 +285,6 @@
 	
 	{
 		"name": "Barbarian encampment", 
-		"uniques": ["Gives a defensive bonus of [50]%","Unpillagable"]
+		"uniques": ["Gives a defensive bonus of [25]%","Unpillagable"]
 	}
 ]

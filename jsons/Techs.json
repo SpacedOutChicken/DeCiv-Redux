@@ -173,7 +173,6 @@
 				"name": "Ecology",
 				"row": 3,
 				"prerequisites": ["Education","Botany"],
-				"uniques": ["[+1 Food] from every [Deer]"],
 				"quote": "Modern industrial farming is largely a strategy for turning fossil fuels into food."
 			},		
 			{

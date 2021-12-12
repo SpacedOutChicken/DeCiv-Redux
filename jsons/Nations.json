@@ -11,9 +11,10 @@
 		"adjective": ["Scavenger"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Ghost Dance",
 		
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		/*"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",*/
 		"declaringWar": "Now you will reap what you have sown.",
 		"attacked": "We never expected that you could leave us to live in peace. Destruction is in your blood.",
 		"defeated": "Your legacy is nothing but death.",
@@ -24,10 +25,10 @@
 		"tradeRequest": "This is the property now of the Children. What price will you pay?",
 		"outerColor": [116,67,5],
 		"innerColor": [219,219,126],
-		"favoredReligion": "Ghost Dance",
 		"style": "",
 		"uniqueName": "Rubble Runners",
-		"uniques": ["[Low Tech] units gain the [Urban Warfare I] promotion",
+		"uniques": ["[Civilian] units gain the [Urban Warfare I] promotion",
+			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			"Starts with [Redomestication]"],
@@ -41,6 +42,7 @@
 		"leaderName": "Eric Price",
 		"adjective": ["Mercenary"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Capitalism",
 		
 		"startIntroPart1": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone.",
 		"startIntroPart2": "Blackwarden. Securing Your Future.",
@@ -57,7 +59,7 @@
 				
 		"outerColor": [100,170,210],
 		"innerColor": [42, 42, 70],
-		"favoredReligion": "Mammon",
+
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
 		"uniques": ["[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
@@ -78,6 +80,7 @@
 		"adjective": ["Corporate"],
 	//	"startBias": ["Avoid Desert"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Objectivism",
 		
 		"startIntroPart1": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back.",
 		"startIntroPart2": "Choose something different. Choose Atlas.",
@@ -94,11 +97,10 @@
 				
 		"outerColor": [0,255,255],
 		"innerColor": [45,60,120],
-		"favoredReligion": "Objectivism",
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": ["Receive free [Great Scientist] when you discover [Secrets of the Past]",
-			"+[33]% great person generation [in all cities]",
+			"[+33]% great person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
@@ -114,10 +116,11 @@
 		"leaderName": "President Hawkins",
 		"adjective": ["Commonwealth"],
 		"startBias": ["Avoid [Desert]"],
-		"preferredVictoryType":"Cultural",
+		"preferredVictoryType":"Diplomatic",
+		"favoredReligion": "Humanism",
 		
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		/*"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",*/
 	
 		"declaringWar": "We must take action now, before it is too late.",
 		"attacked": "You only repeat the mistakes of the past!",
@@ -128,7 +131,6 @@
 		"tradeRequest": "Greetings. I believe this is a fair proposal for both parties. What do you think?",
 		"outerColor": [255,255,255],
 		"innerColor": [200,0,70],
-		"favoredReligion": "Humanism",
 		"style": "",
 		"uniqueName": "Mutual Assistance",
 		"uniques": ["[+50]% [Food] from City-States",
@@ -148,9 +150,10 @@
 		"adjective": ["Patriot"],
 		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Liberty",
 	
-		"startIntroPart1": "TBA",
-		"startIntroPart2": "TBA",
+		/*"startIntroPart1": "TBA",
+		"startIntroPart2": "TBA",*/
 		
 		"declaringWar": "You're either with us, or you're with the terrorists.",
 		"attacked": "Disperse immediately. Insurrection and rebellion will be met with lethal force.",
@@ -161,12 +164,11 @@
 		"tradeRequest": "The Emergency Management Agency has prepared this aid package for your district.",
 		"outerColor": [ 40, 178, 0],
 		"innerColor": [100,50,30],
-		"favoredReligion": "Liberty",
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": ["Double quantity of [Encrypted Data] produced",
 			"Double quantity of [Weapons] produced",
-			"+[300]% Production when constructing [Ground Control Center]",
+			"[+300]% Production when constructing [Ground Control Center] wonders [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
@@ -184,6 +186,7 @@
 		"adjective": ["Survivalist"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Liberty",
 		
 		"startIntroPart1": "Take a look out there, kid. There used to be green trees everywhere, and bright blue water, and white snow on the mountain tops. I know it's hard for you to believe, but there was a time when everything wasn't covered in ash. But those dumb sons of bitches had to go and ruin it all. They didn't know how good they had it, and they killed themselves. But they didn't kill us. Know why? Because we knew how to survive, that's why. We knew how to make do with less, how to hide when they came hunting, and how to hit them where it hurt. That's why we're still here. And that's why we're going to keep living.",
 		"startIntroPart2": "The world looks like shit right now, but it's our land and we love it, and we're going to till that soil and grow things from it, and make this place livable again. Now get out there and make us proud, kid.",
@@ -208,7 +211,6 @@
 				
 		"outerColor": [252,227,0],
 		"innerColor": [54,72,72],
-		"favoredReligion": "Liberty",
 		/*"outerColor": [0,87,0],
 		"innerColor": [150,254,150],*/
 		"style": "Military",
@@ -229,6 +231,8 @@
 		"adjective": ["Regulator"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Capitalism",
+
 		"declaringWar": "You are mine!",
 		"attacked": "As you were warned, if you dare mess with any one of us, you're messing with me, and my entire Clan!",
 		"defeated": "You think this is over? You had better watch your back...",
@@ -238,21 +242,23 @@
 		"tradeRequest": "Let's talk about some business affairs.",
 		"outerColor": [92,32,92],
 		"innerColor": [255,210,110],
-		"favoredReligion": "Mammon",
 		"style": "Gang",
 		"uniqueName": "Regulators",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
 			"[+1] Sight <for [{Military} {Land}] units>",
 			"City-State Influence recovers at twice the normal rate",
-			"[Personnel] units gain the [Clansman] promotion"],
+			"[Personnel] units gain the [Clansman] promotion",
+			"[Scout] units gain the [Clansman] promotion"],
 		"cities": ["Xanadu","Gomorrah","Diamond City","Chance Springs","The Den","Ransom","Joker","Fortune","Golden Toad","Beaksville",
-			"Lucky 76","Horseshoe","Diablo Peak","Malachite","Wildcard","Paradise","Genting","House Rules","Loki","Straight Flush","Five Aces"]
+			"Lucky 76","Horseshoe","Diablo Peak","Malachite","Wildcard","Paradise","Genting","House Rules","Loki","Straight Flush","Five Aces",
+			"Show Low"]
 	},
 	{
 		"name": "Crimson Legion",
 		"leaderName": "Caesar",
 		"adjective": ["Legion"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Polytheism",
 		
 		"startIntroPart1": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!",
 		"startIntroPart2": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!",
@@ -266,7 +272,6 @@
 		"tradeRequest": "I offer this, for your consideration.",
 		"outerColor": [153,5,3],
 		"innerColor": [244,232,54],
-		"favoredReligion": "Polytheism",
 		"style": "Legion",
 		"uniqueName": "One Banner",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
@@ -284,6 +289,7 @@
 		"adjective": ["Cult"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Divine Engine",
 
 		"startIntroPart1": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory.",
 		"startIntroPart2": "Now the people of the earth have begun to forgot the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail.",
@@ -297,7 +303,6 @@
 		"tradeRequest": "You may yet serve the Engine...",
 		"outerColor": [255,150,0],
 		"innerColor": [0,0,0],
-		"favoredReligion": "Divine Engine",
 		"style": "Ignis",
 		"uniqueName": "Road Warriors",
 		"uniques": ["[-33]% maintenance costs for [Armor] units",
@@ -316,9 +321,10 @@
 		"adjective": ["Marine"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Humanism",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		/*"startIntroPart1": "",
+		"startIntroPart2": "",*/
 
 		"declaringWar": "The sea is ours, and all the dry lands shall soon be as well!",
 		"attacked": "Ha! You think to challenge us? I hope you can swim well.",
@@ -329,7 +335,6 @@
 		"tradeRequest": "We've got the finest goods that the sea can offer! What do you say?",
 		"outerColor": [51,25,0],
 		"innerColor": [255,255,102],
-		"favoredReligion": "Humanism",
 		"style": "Tribal",
 		"uniqueName": "People of the Sea",
 		"uniques": ["Can embark and move over Coasts and Oceans immediately",
@@ -347,9 +352,10 @@
 		"adjective": ["Afrikan"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Rastafari",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		/*"startIntroPart1": "",
+		"startIntroPart2": "",*/
 
 		"declaringWar": "We've had enough of you messing with us.",
 		"attacked": "You think you can defeat us? Fool!",
@@ -359,12 +365,12 @@
 		"hateHello": "What the hell do you want?",
 		"tradeRequest": "Let's make a fair trade, as equals.",
 		"outerColor": [120,120,50],
-		"innerColor": [40,9,0],
-		"favoredReligion": "Rastafari",
+		"innerColor": [30,9,0],
 		"style": "",
 		"uniqueName": "Community Watch",
 		"uniques": ["+[10]% Strength if within [2] tiles of a [City center]",
-			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)"],
+			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
+			"Starts with [Secrets of the Past]"],
 		"cities": ["Gao","Tombouctu","Jenne","Taghaza","Tondibi","Kumbi Saleh","Kukia","Addis Ababa","Harar","Adwa","Lalibela","Gondar",
 			"Walata","Tegdaoust","Argungu","Gwandu","Kebbi","Boussa","Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Axum",
 			"Dire Dawa","Bahir Dar","Adama","Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Pi-Ramesses","Giza","Byblos"]

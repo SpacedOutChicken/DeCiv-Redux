@@ -63,6 +63,7 @@
 		"requiredTech": "Redomestication",
 		"uniques": ["Mounted",
 			"Can build [Land] improvements on tiles",
+			"May withdraw before melee ([50]%)",
 			"Requires [Stable]",
 			"Not displayed as an available construction without [Stable]"],
 		"cost": 130
@@ -73,6 +74,7 @@
 		"movement": 3,
 		"cost": 106,
 		"uniques": ["Founds a new city",
+			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
@@ -98,7 +100,8 @@
 		"upgradesTo": "Gunman",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
-		"uniques": ["Low Tech"],
+		"uniques": ["Low Tech",
+			"[-50]% Strength <vs cities>]"],
 		"promotions": ["Reconnaissance I","Skirmish"],
 		"attackSound": "nonmetalhit"
 	},		
@@ -180,7 +183,8 @@
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]",
-			"Not displayed as an available construction without [Slaves]"],
+			"Not displayed as an available construction without [Slaves]",
+			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},	
 	{
@@ -425,6 +429,7 @@
 	{
 		"name": "Security",
 		"unitType": "Scrapper",
+		"uniqueTo": "Blackwarden",
 		"interceptRange": 1,
 		"movement": 2,
 		"strength": 36,
@@ -848,6 +853,7 @@
 			"Can construct [Citadel]",
 			"Great Person - [War]",
 			"Unbuildable",
+			"Uncapturable",
 			"[Great General] is earned [-33]% faster",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Reconnaissance I","Gas Mask"],
@@ -1000,7 +1006,7 @@
 	{
 		"name": "Attack Vehicle",
 		"unitType": "Armor",
-		"movement": 5,
+		"movement": 4,
 		"strength": 30,
 		"cost": 70,
 		"requiredTech": "Machinery",
@@ -1010,7 +1016,6 @@
 			"[-66]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1020,7 +1025,7 @@
 		"unitType": "Armor",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Attack Vehicle",
-		"movement": 5,
+		"movement": 4,
 		"strength": 30,
 		"cost": 60,
 		"requiredTech": "Machinery",
@@ -1030,7 +1035,6 @@
 			"[-66]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Raider"],
 		"hurryCostModifier": 20,
@@ -1044,7 +1048,7 @@
 
 		"name": "Armored Car",
 		"unitType": "Armor",
-		"movement": 5,
+		"movement": 4,
 		"strength": 45,
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
@@ -1054,7 +1058,6 @@
 			"[-33]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
@@ -1077,7 +1080,6 @@
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1097,7 +1099,6 @@
 		"uniques": ["Requires [Chop Shop]",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1140,7 +1141,6 @@
 		"uniques": ["Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
@@ -1162,7 +1162,6 @@
 		"uniques": ["Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
@@ -1179,7 +1178,6 @@
 		"requiredTech": "Rocketry",
 		"uniques": ["[+100]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
 			"May withdraw before melee ([50]%)",
@@ -1221,7 +1219,6 @@
 			"[+300]% Strength <vs [Air] units>",
 			"[+300]% Strength <vs [Helicopter] units>",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"May withdraw before melee ([50]%)",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],
@@ -1242,7 +1239,6 @@
 		"uniques": ["Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Rough terrain penalty",
 			"Requires [Factory]",
 			"Consumes [1] [Oil]"],		
 		"promotions": ["Point Defense Laser","Drone Recon"],
@@ -1564,23 +1560,29 @@
 	// religious
 
 	{
-		"name": "Missionary",
+		"name": "Philosopher",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [2] times", "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+		"uniques": ["Can [Spread Religion] [2] times",
+			"May enter foreign tiles without open borders",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]", 
-			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"],
 		"movement": 4,
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Inquisitor",
+		"name": "Censor",
 		"unitType": "Civilian",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [1] times",
+			"Can [Remove Foreign religions from your own cities] [2] times",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
-		],
-		"movement": 3
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"],
+		"movement": 3,
 	},
 
 	
@@ -1590,14 +1592,28 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age",
 			"Can construct [Settlement]",
+			"Can construct [Citadel]",
 			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": ["Can start an [8]-turn golden age",
+			"Can construct [Oracle]",
+			"Great Person - [Culture]",
+			"Uncapturable",
 			"Unbuildable"],
 		"movement": 2
 	},		
 	{
-		"name": "Great Prophet",
+		"name": "Great Sage",
 		"unitType": "Civilian",
-		"uniques": ["Can construct [Oracle] if it hasn't used other actions yet", 
+		"uniques": ["Can construct [Seminary] if it hasn't used other actions yet", 
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -1606,6 +1622,7 @@
 			"[-1] Sight",
 			"Great Person - [Faith]", 
 			"Unbuildable",
+			"Uncapturable",
 			"Religious Unit",
 			"Hidden when religion is disabled", 
 			"Takes your religion over the one in their birth city"],
@@ -1618,7 +1635,8 @@
 		"uniques": ["Can hurry technology research",
 			"Can construct [Academy]",
 			"Great Person - [Science]",
-			"Unbuildable"],
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -1627,7 +1645,9 @@
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can start an [8]-turn golden age",
 			"Can construct [Settlement]",
-			"Great Person - [Gold]", "Unbuildable"],
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -1635,12 +1655,13 @@
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
-		"uniques": ["Invisible to others",
+		"uniques": ["Invisible to non-adjacent units",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
 			"Can start an [8]-turn golden age",
 			"Can construct [Narcotics farm]",
 			"Great Person - [Gold]",
-			"Unbuildable"],
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},
 	{
@@ -1652,16 +1673,18 @@
 			"Can start an [8]-turn golden age",
 			"Can construct [Prison farm]",
 			"Great Person - [Gold]",
-			"Unbuildable"],
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},
 	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a wonder",
+		"uniques": ["Can speed up construction of a building",
 			"Can construct [Manufactory]",
 			"Great Person - [Production]",
-			"Unbuildable"],
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},	
 	{
@@ -1671,7 +1694,8 @@
 			"Bonus for units in 2 tile radius 15%",
 			"Can construct [Citadel]",
 			"Great Person - [War]",
-			"Unbuildable"],
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},		
 	{
@@ -1684,7 +1708,8 @@
 			"Bonus for units in 2 tile radius 15%",
 			"Can construct [Prison farm]",
 			"Great Person - [War]",
-			"Unbuildable"],
+			"Unbuildable",
+			"Uncapturable"],
 		"movement": 2
 	},		
 	{
@@ -1694,8 +1719,8 @@
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age",
 			"Bonus for units in 2 tile radius 15%",
-			"All adjacent units heal [15] HP when healing",
-			"Rough terrain penalty",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
 			"Can construct [Outpost]",
 			"Great Person - [War]",
 			"Uncapturable",
@@ -1843,7 +1868,7 @@
 		"hurryCostModifier": 20,		
 		"uniques": ["Personnel",
 			"[+100]% Strength <vs cities>"],
-		"promotions": ["Skirmish","Raider","Entrench","Forage","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Antitank Missile","Surface-to-Air Missile","March"],
+		"promotions": ["Skirmish","Raider","Entrench","Forage","Guerilla Warfare I","Urban Warfare I","March"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1861,7 +1886,7 @@
 		"uniques": ["Personnel",
 			"[+100]% Strength <vs cities>",
 			"[-20]% Strength <vs [Armor] units>"],
-		"promotions": ["Skirmish","Raider","Entrench","Extended Range","Guerilla Warfare I","Guerilla Warfare II","Urban Warfare I","Urban Warfare II","Precision"],		
+		"promotions": ["Skirmish","Raider","Entrench","Extended Range","Guerilla Warfare I","Urban Warfare I","Precision"],		
 		"attackSound": "shot"
 	},			
 
@@ -2134,6 +2159,7 @@
 		"replaces": "Spearman",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2144,6 +2170,7 @@
 		"replaces": "Archer",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2154,6 +2181,7 @@
 		"replaces": "Horseman",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2164,6 +2192,7 @@
 		"replaces": "Skirmisher",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2174,6 +2203,7 @@
 		"replaces": "Spearman",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2184,6 +2214,7 @@
 		"replaces": "Archer",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},		
@@ -2194,6 +2225,7 @@
 		"replaces": "Horseman",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2204,6 +2236,7 @@
 		"replaces": "Skirmisher",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},	
@@ -2217,6 +2250,7 @@
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 	},	
 	{
@@ -2227,6 +2261,7 @@
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 	},	
 	{
@@ -2237,6 +2272,7 @@
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 	},
 
@@ -2248,6 +2284,7 @@
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 	},	
 	
@@ -2259,6 +2296,7 @@
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 	},		
 	{
@@ -2269,6 +2307,7 @@
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
+		"obsoleteTech": "The Wheel",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 	}
 ]

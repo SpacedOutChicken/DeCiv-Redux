@@ -9,7 +9,7 @@
 	{
 		"name": "Reconnaissance I",
 		"prerequisites": ["March","Blitz","Extended Range","Medic II","Guerilla Warfare II","Urban Warfare II"],
-		"uniques": ["High speed, low drag","Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","[-50]% Strength <vs cities>]","[-25]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"],
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},		
 	{
@@ -130,7 +130,7 @@
 	{
 		"name": "Precision",
 		"prerequisites": ["Entrench","Skirmish"],
-		"uniques": ["[+25]% Strength <vs [wounded] units>"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Shooter"]
 	},
 	{
