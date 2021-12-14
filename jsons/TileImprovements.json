@@ -212,7 +212,6 @@
 	},	
 	{
 		"name": "Outpost", 
-		"uniqueTo": "Cult of Ignis",
 		"production": 2,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [50]%",
@@ -236,7 +235,6 @@
 	},
 	{
 		"name": "Oracle",
-		"uniqueTo": "Cult of Ignis",
 		"culture": 4,
 		"happiness": 1,
 		"uniques": ["Great Improvement",
