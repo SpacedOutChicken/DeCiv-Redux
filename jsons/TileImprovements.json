@@ -16,7 +16,7 @@
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": ["Gives a defensive bonus of [10]%",
-			"[+1 Food, -1 Gold] from [fresh water] tiles <after discovering [Ecology]>",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles <after discovering [Ecology]>",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>"]
 	},
 	{
@@ -231,7 +231,7 @@
 		"production": 2,
 		"uniques": ["Great Improvement",
 			"Provides [1] [Slaves]",
-			"[+1 Food, -1 Gold] on [fresh water] tiles",
+			"[+1 Food, -1 Gold] on [Fresh water] tiles",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Cannot be built on [Bonus resource] tiles"]
 	},
