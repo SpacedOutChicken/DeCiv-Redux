@@ -26,7 +26,15 @@
         "Snow+Hill+Jungle": ["Snow","Hill","SnowJungle"],
 
         //Snow improvements for Tundra and Snow
-            //TODO hill and forest variants + new images for Landmark, etc.
+            //TODO hill and forest variants + new images for Landmark, etc
+            "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],
+            "Tundra+Academy": ["Tundra","Academy"],
+            "Tundra+Citadel": ["Tundra","Citadel"],
+            "Tundra+Ancient ruins": ["Tundra","Ancient ruins-Snow"],
+            "Snow+Barbarian encampment": ["Snow","Barbarian encampment-Snow"],
+            "Snow+Academy": ["Snow","Academy"],
+            "Snow+Citadel": ["Snow","Citadel"],
+            "Snow+Ancient ruins": ["Snow","Ancient ruins-Snow"],
 
         //Sand improvements for Desert
 
