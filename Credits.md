@@ -11,6 +11,7 @@ Buildings:
 * Arcology Project: [City](https://thenounproject.com/term/city/2488561/) by iconcheese
 * Black Site: [jail](https://thenounproject.com/term/jail/2585095/) by Zach Bogart, US
 * Biosphere Project: [biosphere](https://thenounproject.com/icon/biosphere-4146798/) by Cuputo, ID
+* Bunker: [Bunker](https://thenounproject.com/icon/bunker-1189654/) by Salaidinovich, TR
 * Clan Hideout: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 * Cryo Project: [Brain In a Jar](https://thenounproject.com/term/brain-in-a-jar/467672/) by Luis Prado, US 
 * Cryo Vault: [Cell Preservation](https://thenounproject.com/term/cell-preservation/10707/) by Luis Prado, US
