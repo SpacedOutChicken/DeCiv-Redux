@@ -4,9 +4,9 @@
 		"terrainsCanBeBuiltOn": ["Plains","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
-			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] once [Land Remediation] is discovered"]
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+1 Food] <after discovering [Land Remediation]>"]
 	},
 
 	{
@@ -16,8 +16,8 @@
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": ["Gives a defensive bonus of [10]%",
-			"[+1 Food, -1 Gold] on [fresh water] tiles once [Ecology] is discovered",
-			"[+1 Food, +1 Production] once [Land Remediation] is discovered"]
+			"[+1 Food, -1 Gold] from [fresh water] tiles <after discovering [Ecology]>",
+			"[+1 Food, +1 Production] <after discovering [Land Remediation]>"]
 	},
 	{
 		"name": "Mine",
@@ -25,14 +25,14 @@
 		"production": 1,
 		"turnsToBuild": 9,
 		"techRequired": "Mining",
-		"uniques": ["[+1 Production] once [Steam Power] is discovered",
-			"[+1 Production] once [Railroads] is discovered"]
+		"uniques": ["[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Production] <after discovering [Railroads]>"]
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 7,
 		"techRequired": "Redomestication",
-		"uniques": ["[+1 Food] once [Genetics] is discovered"]
+		"uniques": ["[+1 Food] <after discovering [Genetics]>"]
 	},
 
 	{
@@ -40,7 +40,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Forest","Jungle","Flood plains","Tundra","Snow"],
 		"gold": 1,
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Gold] once [Plastics] is discovered"]
+		"uniques": ["[+1 Gold] <after discovering [Plastics]>"]
 	},
 	{
 		"name": "Solar collector",
@@ -65,7 +65,7 @@
 		"techRequired": "Secrets of the Past",
 		"uniques": ["Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Science] once [Computers] is discovered"]
+			"[+1 Science] <after discovering [Computers]>"]
 	},	
 	{
 		"name": "Hacking site",
@@ -73,14 +73,14 @@
 		"techRequired": "Decryption",
 		"uniques": ["Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+3 Science] once [Artificial Intelligence] is discovered"]
+			"[+3 Science] <after discovering [Artificial Intelligence]>"]
 	},
 	{
 		"name": "Salvage site",
 		"turnsToBuild": 5,
 		"uniques": ["Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Production] once [Manufacturing] is discovered"]
+			"[+1 Production] <after discovering [Manufacturing]>"]
 	},
 	{
 		"name": "Water pump",
@@ -88,15 +88,15 @@
 		"gold": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Iron Working",
-		"uniques": ["[+1 Gold] once [Decontamination] is discovered"]
+		"uniques": ["[+1 Gold] <after discovering [Decontamination]>"]
 	},	
 	{
 		"name": "Camp",
 		"turnsToBuild": 5,
 		"uniques": ["Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Food] once [Ecology] is discovered",
-			"[+1 Food] once [Genetics] is discovered"]
+			"[+1 Food] <after discovering [Ecology]>",
+			"[+1 Food] <after discovering [Genetics]>"]
 	},
 	{
 		"name": "Oil well",
@@ -106,6 +106,8 @@
 	},
 	{
 		"name": "Energy farm",
+		"terrainsCanBeBuiltOn": ["Flood plains"],
+		"production": 1,
 		"gold": -1,
 		"turnsToBuild": 7,
 		"techRequired": "Biology",
@@ -116,7 +118,7 @@
 		"name": "Fishing Boats",
 		"turnsToBuild": 7,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Food] once [Ocean Remediation] is discovered"]
+		"uniques": ["[+1 Food] <after discovering [Ocean Remediation]>"]
 	},
 
 	// Military improvement
@@ -196,8 +198,8 @@
 		"science": 4,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"[+2 Science] once [Electronics] is discovered",
-			"[+2 Science] once [Decryption] is discovered"]
+			"[+2 Science] <after discovering [Electronics]>",
+			"[+2 Science] <after discovering [Decryption]>"]
 	},
 	{
 		"name": "Settlement",
@@ -207,8 +209,8 @@
 			"Gives a defensive bonus of [10]%",
 			"[+1 Science] for each adjacent [Jungle]",
 			"[+1 Food] for each adjacent [Farm]",
-			"[+1 Gold] once [Currency] is discovered",
-			"[+1 Culture] once [Civil Service] is discovered"]
+			"[+1 Gold] <after discovering [Currency]>",
+			"[+1 Culture] <after discovering [Civil Service]>"]
 	},	
 	{
 		"name": "Outpost", 
@@ -229,8 +231,8 @@
 		"production": 2,
 		"uniques": ["Great Improvement",
 			"Provides [1] [Slaves]",
-			"[+1 Food, -1 Gold] on [fresh water] tiles once [The Wheel] is discovered",
-			"[+1 Food] once [Land Remediation] is discovered",
+			"[+1 Food, -1 Gold] on [fresh water] tiles",
+			"[+1 Food] <after discovering [Land Remediation]>",
 			"Cannot be built on [Bonus resource] tiles"]
 	},
 	{
@@ -239,17 +241,17 @@
 		"happiness": 1,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"Provides [1] [Oil]"],
+			"Provides [1] [Oil]"]
 	},
 	{
 		"name": "Manufactory",
 		"production": 3,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"[+1 Production] once [Steam Power] is discovered",
-			"[+1 Production] once [Railroads] is discovered",
-			"[+1 Production] once [Electronics] is discovered",
-			"[+1 Production] once [Robotics] is discovered"]
+			"[+1 Production] <after discovering [Steam Power]>",
+			"[+1 Production] <after discovering [Railroads]>",
+			"[+1 Production] <after discovering [Electronics]>",
+			"[+1 Production] <after discovering [Robotics]>"]
 	},
 	{
 		"name": "Citadel",
@@ -264,13 +266,13 @@
 		"faith": 3,
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"[+1 Culture, +1 Faith] once [Education] is discovered"]
+			"[+1 Culture, +1 Faith] <after discovering [Education]>"]
 	},
 	
 	{
 		"name": "City center",
 		"uniques": ["Unpillagable", "Indestructible"],
-		"civilopediaText": [{text:"Marks the center of a city"},{text:"Appearance changes with the technological era of the owning civilization"}]
+		"civilopediaText": [{"text":"Marks the center of a city"},{"text":"Appearance changes with the technological era of the owning civilization"}]
 	},
 	{ 
 		"name": "Ancient ruins",
