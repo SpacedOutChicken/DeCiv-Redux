@@ -23,7 +23,7 @@
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
-        "uniques": ["[+10]% Growth [in this city]"] 
+        "uniques": ["[+10]% growth [in this city]"] 
         // Preferably I would not have a cityFilter here, but doing so requires no additional implementation 
     },
     {
@@ -254,7 +254,7 @@
     {
         "name": "Religious Unity",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread to [in City-State cities]"]
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
     },
     {
         "name": "Funeral Rites",

@@ -22,7 +22,7 @@
 			},
 			{
 				"name": "Differential Rationing",
-				"uniques": ["[-50]% food consumption by specialists [in all cities]"],
+				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 				"row": 1,
 				"column": 5
 			},			

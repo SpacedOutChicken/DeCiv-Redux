@@ -91,7 +91,7 @@
 		"specialistSlots": {"Administrator": 1},
 		"happiness": 1,
 		"cost": 1,
-		"uniques": ["[+2 Culture] once [Iron Working] is discovered",
+		"uniques": ["[+2 Culture] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
 			"Free [War Buggy] appears",
 			"Requires a [Bomb Shelter] in this city",
@@ -313,7 +313,7 @@
 		"requiredTech": "Currency",
 		"uniques": ["Can produce Black Hand infantry",
 			"[Great General] is earned [50]% faster",
-			"New [Clansman] units start with [30] Experience",
+			"New [Clansman] units start with [30] Experience [in all cities]",
 			"Requires a [Bomb Shelter] in this city",
 			"Not displayed as an available construction without [Bomb Shelter]",
 			"Cannot be built with [Smugglers' Guild]",
@@ -480,7 +480,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Engineering",
 		"requiredNearbyImprovedResources": ["Oil","Coal","Aluminum"],
-		"uniques": ["-[25]% tile improvement construction time",
+		"uniques": ["[-25]% tile improvement construction time",
 			"Free [Worker] appears"]
 	},
 	{
@@ -1288,7 +1288,7 @@
 		"culture": 5,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
-		"uniques": ["Science gained from research agreements +[50]%",
+		"uniques": ["Science gained from research agreements [+50]%",
 			"Requires a [Aerospace Facility] in this city",
 			"Not displayed as an available construction without [Aerospace Facility]"],
 		"requiredTech": "Satellites"
@@ -1591,7 +1591,7 @@
 		"requiredNearbyImprovedResources": ["Scrap"],
 		"requiredTech": "Iron Working",
 		"uniques": ["[+3 Production] from [Scrap] tiles [in this city]",
-			"[+25]% production when constructing [Armor] units [in this city]",
+			"[+25]% Production when constructing [Armor] units [in this city]",
 			"[+1 Production] with [Machine Parts]"]
 	},
 	{
