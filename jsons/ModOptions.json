@@ -1,5 +1,5 @@
 {
-   " isBaseRuleset": true,
+    "isBaseRuleset": true,
     "uniques": ["Can convert gold to science with sliders","Allow City States to spawn with additional units"],
     "constants": {
         "maxXPfromBarbarians": 100
