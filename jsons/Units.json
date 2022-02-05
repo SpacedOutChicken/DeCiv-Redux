@@ -101,7 +101,6 @@
 		"cost": 25,		
 		"upgradesTo": "Gunman",
 		"hurryCostModifier": 20,
-		"obsoleteTech": "Rifling",
 		"uniques": ["Low Tech",
 			"[-50]% Strength <vs cities>"],
 		"promotions": ["Reconnaissance I","Skirmish"],
