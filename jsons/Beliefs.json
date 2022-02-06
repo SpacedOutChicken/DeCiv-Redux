@@ -89,7 +89,7 @@
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
-        "uniques": ["[-15]% cost of natural border growth"]
+        "uniques": ["[-15]% Culture cost of natural border growth [in all cities]"]
     },
     {
         "name": "Sacred Ruins",
@@ -111,7 +111,7 @@
     {
         "name": "Hymns of Praise",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Shrine] in cities where this religion has at least [3] followers"]
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities where this religion has at least [3] followers>"]
     },
     {
         "name": "Feed the Faithful",
@@ -156,7 +156,7 @@
     {
         "name": "Happiness in Faith",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Monastery] in cities where this religion has at least [5] followers"]
+        "uniques": ["[+2 Happiness] from every [Monastery] <in cities where this religion has at least [5] followers>"]
     },
     {
         "name": "Labor of Love",
@@ -249,7 +249,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] with [Education]"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [tech]> OR [+34]% natural religion spread [in all cities] <after adopting [policy]>"]
     },
     {
         "name": "Religious Unity",

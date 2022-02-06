@@ -3,12 +3,12 @@
 		"name": "Adaptation",
 		"era": "Decivilized era",
 		"uniques": ["[+3 Culture] [in capital]",
-			"-[25]% Culture cost of acquiring tiles [in all cities]"],
+			"[-25]% Culture cost of natural border growth [in all cities]"],
 		"policies": [
 			{
 				"name": "Castle Doctrine",
-				"uniques": ["Defensive buildings in all cities are 25% more effective",
-					"+[50]% attacking strength for cities with garrisoned units",
+				"uniques": ["[+25]% City Strength from defensive buildings",
+					"[+50]% Strength for cities <with a garrison> <when attacking>",
 					"[+1 Happiness] [in all cities with a garrison]"],
 				"row": 1,
 				"column": 1
@@ -29,7 +29,7 @@
 			{
 				"name": "Planned Economy",
 				"uniques": ["[+25]% growth [in all cities]",
-					"+[33]% [Production] from every [Council]"],
+					"[+33]% [Production] from every [Council]"],
 				"requires": ["Castle Doctrine","Centralization"],
 				"row": 2,
 				"column": 2
@@ -74,7 +74,7 @@
 				"name": "Courier Service",
 				"uniques": ["[+1 Happiness] [in all cities connected to capital]",
 					"[-10]% unhappiness from population [in all cities]",
-					"City-State Influence degrades [50]% slower"],
+					"[-50]% City-State Influence degradation"],
 				"row": 1,
 				"column": 5
 			},
@@ -91,7 +91,7 @@
 				"name": "Citizen Militia",
 				"uniques": ["Units in cities cost no Maintenance",
 					"[+2 Production] [in all cities with a garrison]",
-					"[-33]% maintenance costs for [Civilian] units"],
+					"[-33]% maintenance costs <for [Civilian] units>"],
 				"requires": ["Representation","Courier Service"],
 				"row": 2,
 				"column": 3
@@ -113,7 +113,7 @@
 
 			{
 				"name": "Discipline",
-				"uniques": ["[+15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile"],
+				"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
 				"row": 1,
 				"column": 1
 			},	
@@ -133,7 +133,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques":["[Military] units gain [50]% more Experience from combat",
+				"uniques":["[50]% XP gained from combat <for [Military] units>",
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"],
 				"requires": ["Doctrine","Discipline"],
 				"row": 2,
@@ -150,8 +150,8 @@
 
 			{
 				"name": "Sovereignty Complete",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%",
-					"[-25]% maintenance costs for [All] units"]
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>",
+					"[-25]% maintenance costs <for [All] units>"]
 			}
 		]
 	},
@@ -176,7 +176,7 @@
 			},
 			{
 				"name": "Indulgences",
-				"uniques": ["+[10]% [Gold] from every [Monastery]"],
+				"uniques": ["[+10]% [Gold] from every [Monastery]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 1
@@ -190,7 +190,7 @@
 			},
 			{
 				"name": "Holy Scriptures",
-				"uniques": ["Culture cost of adopting new Policies reduced by [10]%",
+				"uniques": ["[-10]% Culture cost of adopting new Policies",
 					"[+1 Faith, -1 Science] from every [University]"],
 				"requires": ["Mandate Of Heaven", "God Emperor"],
 				"row": 3,
@@ -205,15 +205,15 @@
 	{
 		"name": "Monopoly",
 		"uniques": ["[Great Merchant] is earned [20]% faster",
-			"+[33]% [Gold] from every [Council]",
+			"[+33]% [Gold] from every [Council]",
 			"Incompatible with [Collectivism]"],
 		"era": "Neofeudal era",
 		"policies": [
 
 			{
 				"name": "Mass Consumption",
-				"uniques": ["Happiness from Luxury Resources gifted by City-States increased by [50]%",
-					"+[1] happiness from each type of luxury resource",
+				"uniques": ["[+50]% Happiness from luxury resources gifted by City-States",
+					"[+1] Happiness from each type of luxury resource",
 					"[+3 Gold, -1 Production, -1 Food] from every [Factory]"],
 				"row": 1,
 				"column": 1
@@ -222,13 +222,13 @@
 				"name": "Venture Capital",
 				"uniques": ["[Great Merchant] is earned [20]% faster",
 					"[Gold] cost of purchasing items in cities [-20]%",
-					"Double gold from Great Merchant trade missions"],
+					"[+100]% Gold from Great Merchant trade missions"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Privatization",
-				"uniques": ["Maintenance on roads & railroads reduced by [50]%",
+				"uniques": ["[-50]% maintenance on road & railroads",
 					"[Personnel] units gain the [Hazard Pay] promotion",
 					"[+2 Gold] from every [Hospital]",
 					"[+2 Gold, -1 Production] from every [Factory]",
@@ -248,7 +248,7 @@
 			},	
 			{
 				"name": "Corporate Personhood",
-				"uniques": ["[-33]% maintenance costs for [All] units",
+				"uniques": ["[-33]% maintenance costs <for [All] units>",
 					"[+1 Gold] from every [Strategic Resource]",
 					"[+2 Gold, -1 Food] from every [Factory]"],
 				"requires": ["Venture Capital","Privatization"],
@@ -257,8 +257,8 @@
 			},
 			{
 				"name": "Monopoly Complete",
-				"uniques": ["-[50]% Gold cost of acquiring tiles [in all cities]",
-					"-[15]% maintenance cost for buildings [in all cities]",
+				"uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]",
+					"[-15]% maintenance cost for buildings [in all cities]",
 					"[+2 Gold, -1 Production, -1 Food] from every [Work Camp]",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
@@ -290,7 +290,7 @@
 			{
 				"name": "Public Good",
 				"uniques": ["[+2 Gold] from every [Hospital]",
-					"Maintenance on roads & railroads reduced by [33]%",
+					"[-33]% maintenance on road & railroads",
 					"[+20]% growth [in all cities]"],
 				"requires": ["Civil Society"],
 				"row": 2,
@@ -298,7 +298,7 @@
 			},
 			{
 				"name": "Legislative Process",
-				"uniques": ["+[25]% [Culture] from every [Congress]",
+				"uniques": ["[+25]% [Culture] from every [Congress]",
 					"[+1 Happiness] per [5] population [in all cities]",
 					"[Great Administrator] is earned [25]% faster"],
 				"requires": ["Civil Society","Protected Speech"],
@@ -315,7 +315,7 @@
 			},
 			{
 				"name": "Constitution Complete",
-				"uniques": ["+[100]% yield from every [Great Improvement]",
+				"uniques": ["[+100]% Yield from every [Great Improvement]",
 					"Free Social Policy",
 					"May buy [Great Administrator] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
@@ -342,7 +342,7 @@
 				"name": "Scorched Earth",
 				"uniques": ["[+15]% Strength <vs cities>",
 					"Cities are razed [2] times as fast",
-					"Melee units pay no movement cost to pillage",
+					"No movement cost to pillage <for [Melee] units>",
 					"[+2] Movement <for [Great General] units>"],
 				"row": 1,
 				"column": 5
@@ -399,21 +399,21 @@
 			},
 			{
 				"name": "Nationalization",
-				"uniques": ["+[25]% [Science] from every [Factory]", "[+100]% Production when constructing [Factory] buildings [in all cities]"],
+				"uniques": ["[+25]% [Science] from every [Factory]", "[+100]% Production when constructing [Factory] buildings [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Political Officers",
 				"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-					"+[33]% Defensive Strength for cities"],
+					"[+33]% Strength for cities <when defending>"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Shared Vision",
 				"requires": ["Nationalization"],
-				"uniques": ["-[15]% maintenance cost for buildings [in all cities]",
+				"uniques": ["[-15]% maintenance cost for buildings [in all cities]",
 					"[+1 Production] from every specialist [in all cities]"],
 				"row": 2,
 				"column": 3
@@ -458,7 +458,7 @@
 			},			
 			{
 				"name": "Equipment Upgrades",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%",
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>",
 					"[+1 Science] from every [Barracks]"],
 				"row": 1,
 				"column": 3
@@ -466,14 +466,14 @@
 			{
 				"name": "Sample Analysis",
 				"uniques": ["[+1 Science] from every [Moisture trap]",
-					"+[17]% [Science] from every [University]"],
+					"[+17]% [Science] from every [University]"],
 				"requires": ["Educated Elite"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Technocracy",
-				"uniques": ["+[25]% [Science] from every [Council]",
+				"uniques": ["[+25]% [Science] from every [Council]",
 					"[+1 Gold] from all [Science] buildings"],
 				"requires": ["Skepticism"],
 				"row": 2,

@@ -18,7 +18,7 @@
 		"isWonder": true,
 		"uniqueTo": "Enclavers",
 		"cost": 1,
-		"uniques": ["[10]% of food is carried over [in this city] after population increases",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 			"Provides [2] [Weapons]",
 			"Free [Guerilla] appears",
 			"Requires a [Bomb Shelter] in this city",
@@ -65,7 +65,7 @@
 		"cityStrength": 20,
 		"cityHealth": 80,
 		"cost": 1,
-		"uniques": ["[10]% of food is carried over [in this city] after population increases",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
 			"Free [Spec Ops] appears",
@@ -364,7 +364,7 @@
 		"uniqueTo": "Cult of Ignis",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["+[25]% [Science] from every [College of Mystics]",
+		"uniques": ["[+25]% [Science] from every [College of Mystics]",
 			"[+20]% Production when constructing [Science] buildings [in this city]",
 			"Requires a [Bomb Shelter] in this city",
 			"Not displayed as an available construction without [Bomb Shelter]",
@@ -646,7 +646,7 @@
 		"name": "Food Store", 
 		"cost": 10,
 		"hurryCostModifier": -25,
-		"uniques": ["[20]% of food is carried over [in this city] after population increases",
+		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] with [Salt]",
 			"[-1 Production, +1 Gold] with [Alcohol]",
 			"[-1 Production, +1 Gold] with [Narcotics]",
@@ -658,7 +658,7 @@
 		"uniqueTo": "Enclavers",
 		"cost": 10,
 		"hurryCostModifier": -25,
-		"uniques": ["[30]% of food is carried over [in this city] after population increases",
+		"uniques": ["[30]% Food is carried over after population increases [in this city]",
 			"[+1 Food] with [Salt]",
 			"[-1 Production, +1 Gold] with [Alcohol]",
 			"[-1 Production, +1 Gold] with [Narcotics]",
@@ -732,7 +732,7 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
-		"uniques": ["[30]% of food is carried over [in this city] after population increases",
+		"uniques": ["[30]% Food is carried over after population increases [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] with [Harvested Organs]",
 			"Consumes [1] [Power]"]
@@ -745,7 +745,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
-		"uniques": ["[10]% of food is carried over [in this city] after population increases",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 			"[+1 Food] with [Harvested Organs]",
 			"Provides [1] [Harvested Organs]",
 			"Consumes [1] [Slaves]"]
@@ -757,7 +757,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
-		"uniques": ["[10]% of food is carried over [in this city] after population increases",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 			"[+1 Food] with [Harvested Organs]",
 			"[Armor] units gain the [Resupply] promotion",
 			"Consumes [1] [Slaves]"]
@@ -768,7 +768,7 @@
 		"science": -1,
 		"maintenance": 2,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[20]% of food is carried over [in this city] after population increases",
+		"uniques": ["[20]% Food is carried over after population increases [in this city]",
 			"Requires a [Hospital] in this city"]
 	},
 	//organ cloning lab
@@ -827,8 +827,8 @@
 		"name": "Town Hall",
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,	
-		"uniques": ["-[25]% Culture cost of acquiring tiles [in this city]",
-			"-[25]% Gold cost of acquiring tiles [in this city]",
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Happiness, +1 Culture] with [Power]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
@@ -841,8 +841,8 @@
 		"culture": 1,
 		"maintenance": 1,	
 		"cost": 40,
-		"uniques": ["-[25]% Culture cost of acquiring tiles [in this city]",
-			"-[25]% Gold cost of acquiring tiles [in this city]"
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]"
 			,"[+1 Happiness, +1 Culture] with [Power]",
 			"[+1] population [in this city]"],
 		"hurryCostModifier": 40
@@ -1968,7 +1968,7 @@
 		"cityStrength": 5,
 		"cityHealth": 25,
 		"requiredTech": "Future Materials",
-		"uniques": ["[10]% of food is carried over [in this city] after population increases",
+		"uniques": ["[10]% Food is carried over after population increases [in this city]",
 			"[+25]% great person generation [in this city]",
 			"[-10]% unhappiness from population [in this city]",
 			"Requires [Arcology Project]",
@@ -2122,7 +2122,7 @@
         "science": 1,
 		"happiness": 1,
 		"greatPersonPoints": {"Great Administrator": 2},
-		"uniques": ["Golden Age length increased by [50]%",
+		"uniques": ["[+50]% Golden Age length",
 			"Provides [1] [Power]"]
 	},	
 	{

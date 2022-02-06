@@ -9,7 +9,7 @@
 	{
 		"name": "Reconnaissance I",
 		"prerequisites": ["March","Blitz","Extended Range","Medic II","Guerilla Warfare II","Urban Warfare II"],
-		"uniques": ["Ignores terrain cost","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"],
+		"uniques": ["Ignores terrain cost","[25]% XP gained from combat","[Great General] is earned [-20]% faster"],
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},		
 	{
@@ -33,7 +33,7 @@
 	},	
 	{
 		"name": "Forage",
-		"uniques": ["Heals [25] damage if it kills a unit","[25]% Bonus XP gain","[Great General] is earned [-20]% faster","Earn [100]% of [military] opponent's [Strength] as [Science] for kills"],
+		"uniques": ["Heals [25] damage if it kills a unit","[25]% XP gained from combat","[Great General] is earned [-20]% faster","Earn [100]% of [military] opponent's [Strength] as [Science] for kills"],
 		"unitTypes": ["Scrapper"]
 	},	
 	{
@@ -124,7 +124,7 @@
 		//entrench - melee
 	{
 		"name": "Skirmish",
-		"uniques": ["May withdraw before melee ([75]%)","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"],
+		"uniques": ["May withdraw before melee ([75]%)","[25]% XP gained from combat","[Great General] is earned [-20]% faster"],
 		"unitTypes": ["Shooter"]
 	},	
 	{
@@ -407,7 +407,7 @@
 		"name": "Medic II",
 		"prerequisites": ["Medic I"],
 		"uniques": ["[+5] HP when healing", "All adjacent units heal [+5] HP when healing",
-			"[+5] HP when healing in [Foreign Land] tiles"],
+			"[+5] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Scrapper","Mounted","Shooter","Scout"]
 	},
 
@@ -419,7 +419,7 @@
 	
 	{
 		"name": "Drone Recon",
-		"uniques": ["[+1] Sight","Can see invisible [Land] units","[25]% Bonus XP gain","[Great General] is earned [-20]% faster"]
+		"uniques": ["[+1] Sight","Can see invisible [Land] units","[25]% XP gained from combat","[Great General] is earned [-20]% faster"]
 	},	
 	{
 		"name": "Drone Support",
@@ -545,11 +545,11 @@
 	},
 	{
 		"name": "Raider",
-		"uniques": ["[-50]% Bonus XP gain","[Great General] is earned [250]% faster"]
+		"uniques": ["[-50]% XP gained from combat","[Great General] is earned [250]% faster"]
 	},
 	{
 		"name": "Clansman",
-		"uniques": ["Clansman","Earn [10]% of [military] opponent's [Cost] as [Gold] for kills","[-50]% Bonus XP gain","[Great General] is earned [250]% faster"]
+		"uniques": ["Clansman","Earn [10]% of [military] opponent's [Cost] as [Gold] for kills","[-50]% XP gained from combat","[Great General] is earned [250]% faster"]
 	},
 	{
 		"name": "Hazard Pay",

@@ -68,7 +68,7 @@
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
-			"[-2 Science] per turn from cities before [Education]"],
+			"[-2 Science] [in all cities] <before discovering [tech]> OR [-2 Science] [in all cities] <before adopting [policy]>"],
 		"cities": ["Ark One","Vanguard","New Haven","Competitor View","Prosperity Plaza","Break Even","Spearhead",
 			"Profit Margin","Searchlight","Carte Blanche","Jackalsville","Horwich Green","Laissez's Fair",
 			"Hard Cash","Innovation","Conflict of Interest","Sunk Cost","Forbes","Cornucopia"]
@@ -105,7 +105,7 @@
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
-			"[-2 Science] per turn from cities before [Education]"],
+			"[-2 Science] [in all cities] <before discovering [tech]> OR [-2 Science] [in all cities] <before adopting [policy]>"],
 		"cities": ["Atlas Canyon","Praxis","Opportunity","Enterprise Gardens","Pareto Estates","Hanlon College","The Reservation",
 			"Zakharov Campus","Curiosity","Progress Estates","New Horizon","Dunning Institute","Kruger Laboratories","Apogee",
 			"Hypothesis","Axiom","Euclid Center","Prometheus Laboratories","Zenith","Von Neumann Institute"]
@@ -174,7 +174,7 @@
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
 			"Starts with [Avionics]",
-			"[-2 Science] per turn from cities before [Education]"],
+			"[-2 Science] [in all cities] <before discovering [tech]> OR [-2 Science] [in all cities] <before adopting [policy]>"],
 		"cities": ["Eagle Rock","Fort Patriot","Valiant Base","Camp Fidelis","Fort Endurance","Camp Freedom","Sentinel Field",
 			"Camp Hammer","Camp Justice","Fort Victory","Fort Crockett","Sparta Base","Arclight Station","Overwatch Base",
 			"Fort Challenger","Fort Cameron","Thunder Outpost","Cobalt Base","Camp Shield","Fort Granite","Liberator Station","Camp Dawn"
@@ -275,9 +275,9 @@
 		"style": "Legion",
 		"uniqueName": "One Banner",
 		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
-			"[-33]% maintenance costs for [Land] units",
+			"[-33]% maintenance costs <for [Land] units>",
 			"Starts with [Redomestication]",
-			"[-1 Science] per turn from cities before [Writing]"],
+			"[-1 Science] [in all cities] <before discovering [tech]> OR [-1 Science] [in all cities] <before adopting [policy]>"],
 		"cities": ["Postumus","Rubicon","Dies Irae","Tartarus","Aqua Vitae","Damocles","De Facto","Vae Victis","Golgotha",
 			"Mors Omnibus","Carthage","Lex Talionis","Kronos","Extrema Ratio","Igni Ferroque","Tycho","Memento Mori","Orcus",
 			"Ex Nihilo","Para Bellum","Styx","Manu Forte","Elysium","Alea Iacta Est","Corpus Vile","Canis Canem Edit","Ad Astra"
@@ -305,11 +305,11 @@
 		"innerColor": [0,0,0],
 		"style": "Ignis",
 		"uniqueName": "Road Warriors",
-		"uniques": ["[-33]% maintenance costs for [Armor] units",
+		"uniques": ["[-33]% maintenance costs <for [Armor] units>",
 			"Starts with [Machinery]",
 			"[+2 Culture] from every [Strategic resource]",
-			"+[10]% [Culture] from every [Coal Plant]",
-			"[-1 Science] per turn from cities before [Writing]"],
+			"[+10]% [Culture] from every [Coal Plant]",
+			"[-1 Science] [in all cities] <before discovering [tech]> OR [-1 Science] [in all cities] <before adopting [policy]>"],
 		"cities": ["Gastown","Blood Farm","Trial of Sand","Prophecy","Thousand Cuts","The Harrowing","Temple of Rage","Immortal Highway",
 			"Tohuvabohu","Forbidden Palace","Hanging Gardens","Megiddo","The Cauldron","Traitors' Gate","Hell Patrol","Steel Throne","The Warren",
 			"Well of Souls","Hermitage","Ceremony","Court of Dreams","Perpetual Ascension","Death Race","God Box"
