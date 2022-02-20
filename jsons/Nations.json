@@ -337,7 +337,7 @@
 		"innerColor": [255,255,102],
 		"style": "Tribal",
 		"uniqueName": "People of the Sea",
-		"uniques": ["Can embark and move over Coasts and Oceans immediately",
+		"uniques": ["Enables embarkation for land units <starting from the [Decivilized era]>", "Enables embarked units to enter ocean tiles <starting from the [Decivilized era]>",
 			"Units pay only 1 movement point to disembark",
 			"Embarked units can defend themselves",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",

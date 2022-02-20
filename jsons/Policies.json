@@ -159,7 +159,7 @@
 		"name": "Theocracy",
 		"era": "Rediscovering era",
 		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]", "[+100]% Production when constructing [Monastery] buildings [in all cities]", 
-			"Incompatible with [Rationalism]"],
+			"Only available <before adopting [Rationalism]>"],
 		"policies": [
 			{
 				"name": "Organized Religion",
@@ -206,7 +206,7 @@
 		"name": "Monopoly",
 		"uniques": ["[Great Merchant] is earned [20]% faster",
 			"[+33]% [Gold] from every [Council]",
-			"Incompatible with [Collectivism]"],
+			"Only available <before adopting [Collectivism]>"],
 		"era": "Neofeudal era",
 		"policies": [
 
@@ -269,7 +269,7 @@
 		"name": "Constitution",
 		"era": "Neofeudal era",
 		"uniques": ["[+25]% great person generation [in all cities]",
-			"Incompatible with [Supremacy]"],
+			"Only available <before adopting [Supremacy]>"],
 		"policies": [
 			{
 				"name": "Civil Society",
@@ -329,7 +329,7 @@
 			"[+33]% Production when constructing [Barracks] buildings [in all cities]",
 			"[+33]% Production when constructing [Military Academy] wonders [in all cities]",
 			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-			"Incompatible with [Constitution]"],
+			"Only available <before adopting [Constitution]>"],
 		"policies": [
 
 			{
@@ -376,7 +376,7 @@
 			},		
 			{
 				"name": "Supremacy Complete",
-				"uniques": ["+[25]% attack strength to all [Military] units for [50] turns",
+				"uniques": ["[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
 					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
@@ -386,7 +386,7 @@
 		"name": "Collectivism",
    		"era": "Neofeudal era",
 		"uniques": ["[Great Engineer] is earned [25]% faster",
-			"Incompatible with [Monopoly]"],
+			"Only available <before adopting [Monopoly]>"],
     	"policies": [
 			{
 				"name": "Re-Education",
@@ -438,7 +438,7 @@
 		"era": "Industrial era",
 		"uniques": ["[Great Scientist] is earned [20]% faster",
 			"Science gained from research agreements [+50]%",
-			"Incompatible with [Theocracy]"],
+			"Only available <before adopting [Theocracy]>"],
 		"policies": [
 			{
 				"name": "Educated Elite",

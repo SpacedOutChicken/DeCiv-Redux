@@ -66,8 +66,7 @@
 		"uniques": ["Mounted",
 			"Can build [Land] improvements on tiles",
 			"May withdraw before melee ([50]%)",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]"],
+			"Only available <in cities with a [Stable]>"],
 		"cost": 130
 	},
 	{
@@ -185,7 +184,7 @@
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]",
-			"Not displayed as an available construction without [Slaves]",
+			"Only available <with [Slaves]>",
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},	
@@ -201,7 +200,7 @@
 		"upgradesTo": "Rubble Militia",
 		"uniques": ["Low Tech",
 			"Consumes [1] [Slaves]",
-			"Not displayed as an available construction without [Slaves]"],
+			"Only available <with [Slaves]>"],
 		"promotions": ["Forage","Urban Warfare I"],
 		"attackSound": "nonmetalhit"
 	},
@@ -288,7 +287,7 @@
 			"Can build [Fort] improvements on tiles",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]",
-			"Not displayed as an available construction without [Slaves]"],
+			"Only available <with [Slaves]>"],
 		"attackSound": "arrow"
 	},		
 	{
@@ -308,7 +307,7 @@
 		"uniques": ["Low Tech",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]",
-			"Not displayed as an available construction without [Slaves]"],
+			"Only available <with [Slaves]>"],
 		"promotions": ["Urban Warfare I"],
 		"attackSound": "arrow"
 	},	
@@ -327,8 +326,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities>",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]"],
+			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},	
@@ -346,8 +344,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities>",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]",
+			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -365,8 +362,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities>",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]"],
+			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
@@ -385,8 +381,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]"],
+			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},	
@@ -404,8 +399,7 @@
 		"uniques": ["Personnel",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]",
+			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -423,8 +417,7 @@
 		"uniques": ["Personnel",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
-			"Requires [Stable]",
-			"Not displayed as an available construction without [Stable]"],
+			"Only available <in cities with a [Stable]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},	
@@ -526,7 +519,7 @@
 		"uniques": ["Personnel",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
-			"Not displayed as an available construction without [Slaves]",
+			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"],
 		"attackSound": "machinegun"
 	},	
@@ -546,7 +539,7 @@
 		"uniques": ["Low Tech",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
-			"Not displayed as an available construction without [Slaves]",
+			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"],
 		"attackSound": "machinegun"
 	},	
@@ -645,7 +638,7 @@
 			"Requires [Factory]",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
-			"Not displayed as an available construction without [Slaves]",
+			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
@@ -665,7 +658,7 @@
 			"Requires [Factory]",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
-			"Not displayed as an available construction without [Slaves]",
+			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
@@ -750,7 +743,7 @@
 		"uniques": ["Low Tech",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
-			"Not displayed as an available construction without [Slaves]",
+			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"],
 		"promotions": ["Urban Warfare I"],
 		"attackSound": "shot"
@@ -1283,8 +1276,7 @@
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
 			"May withdraw before melee ([100]%)",
-			"Requires [Aerospace Facility]",
-			"Not displayed as an available construction without [Aerospace Facility]",
+			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities>",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Amphibious","Advanced Weapons","Antitank Missile"],
@@ -1341,7 +1333,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["6 tiles in every direction always visible",
 			"Requires [Factory]",
-			"Not displayed as an available construction without [Factory]",
+			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"],
 		"promotions": ["Automated"],
 		"attackSound": "jetgun"
@@ -1359,7 +1351,7 @@
 		"uniques": ["[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Requires [Aerospace Facility]",
-			"Not displayed as an available construction without [Aerospace Facility]",
+			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"],	
 		"attackSound": "jetgun"
 	},
@@ -1376,7 +1368,7 @@
 		"uniques": ["[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Requires [Aerospace Facility]",
-			"Not displayed as an available construction without [Aerospace Facility]",
+			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]"],
 		"promotions": ["Automated"],
 		"attackSound": "jetgun"
@@ -1584,7 +1576,7 @@
 			"Hidden when religion is disabled",
 			"Unbuildable",
 			"Religious Unit"],
-		"movement": 3,
+		"movement": 3
 	},
 
 	
