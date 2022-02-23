@@ -319,7 +319,7 @@
 	{
 		"name": "Exotic Seeds",
 		"resourceType": "Luxury"
-	}
+	},
 	{
 		"name": "Medicine",
 		"resourceType": "Luxury",
@@ -423,7 +423,7 @@
 			"Generated with weight [5] <in [Hill] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"]
-	}
+	},
 	{
 		"name": "Salt",
 		"resourceType": "Luxury",

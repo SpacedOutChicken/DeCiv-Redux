@@ -152,7 +152,7 @@
         "name": "Holy Fortresses",
         "type": "Follower",
         "uniques": ["May buy [Holy Fortress] buildings for [200] [Faith] [in cities following this religion]"]
-    }
+    },
     {
         "name": "Happiness in Faith",
         "type": "Follower",
@@ -185,7 +185,7 @@
         "name": "Interfaith Dialogue",
         "type": "Founder",
         "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
-    }
+    },
     {
         "name": "Primacy",
         "type": "Founder",

@@ -398,7 +398,7 @@
 			"Must be adjacent to [0] [Grassland] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] to [4] [Elevated] tiles",
-			"Must be adjacent to [1] to [6] [Mountain] tiles",],
+			"Must be adjacent to [1] to [6] [Mountain] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -419,5 +419,5 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	},
+	}
 ]	
