@@ -113,6 +113,10 @@
 			"Sunk Cost",
 			"Forbes",
 			"Cornucopia"
+		],
+		"civilopediaText": [
+			{ "text": "With over 250,000 employees across 40 nations, Blackwarden Associates is the first choice for any situation requiring a professional and discreet security solution. Our friendly, highly trained personnel are always ready to help  - from your local bank or supermarket, to immigration processing centers and border defense at home, to fallout remediation and nuclear site security in the Indus Exclusion Zone." },
+			{ "test": "Blackwarden. Securing Your Future." }
 		]
 	},
 
@@ -168,6 +172,10 @@
 			"Prometheus Laboratories",
 			"Zenith",
 			"Von Neumann Institute"
+		],
+		"civilopediaText": [
+			{ "text": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back." },
+			{ "text": "Choose something different. Choose Atlas." }
 		]
 	},
 
@@ -350,6 +358,10 @@
 			"Tappan Farm",
 			"Skousen Ranch",
 			"30-50 Feral Hogs"
+		],
+		"civilopediaText": [
+			{ "text": "Take a look out there, kid. There used to be green trees everywhere, and bright blue water, and white snow on the mountain tops. I know it's hard for you to believe, but there was a time when everything wasn't covered in ash. But those dumb sons of bitches had to go and ruin it all. They didn't know how good they had it, and they killed themselves. But they didn't kill us. Know why? Because we knew how to survive, that's why. We knew how to make do with less, how to hide when they came hunting, and how to hit them where it hurt. That's why we're still here. And that's why we're going to keep living." },
+			{ "text": "The world looks like shit right now, but it's our land and we love it, and we're going to till that soil and grow things from it, and make this place livable again. Now get out there and make us proud, kid." }
 		]
 	},
 	{
@@ -459,6 +471,10 @@
 			"Corpus Vile",
 			"Canis Canem Edit",
 			"Ad Astra"
+		],
+		"civilopediaText": [
+			{ "text": "Behold! The nations of the past have fallen, their once marvelous cities crumbled into dust. And why? Because they were weak! In their hour of necessity, they could not stand together! They turned on themselves and devoured themselves, and now they are dead. But we are alive, because we are strong! And what is the source of our strength? Our unity! Like the fasces, we are bound together, and with the strength of our bond, we shall rebuild civilization!"},
+			{ "text": "Our enemies are many, but like the nations of old, they are weak and divided. They shall fall before us, and the world shall at last be united under one great banner! Hail victory! Hail Caesar!" }
 		]
 	},
 	{
@@ -515,6 +531,10 @@
 			"Perpetual Ascension",
 			"Death Race",
 			"God Box"
+		],
+		"civilopediaText": [
+			{ "startIntroPart1": "In the beginning, the earth was without form, cold and void. And the Divine Engine moved upon the face of the earth, and brought forth humans, to serve her. And she blessed the people upon the earth with steel and holy oil, to make engines of their own. But the people of the earth forgot the Divine Engine who had blessed them. So the Engine sent forth the Flame to destroy the people who had sinned, and the earth was cleansed. But the Flame had mercy upon the people, and spared the people who repented and swore to serve the Engine. And it came to pass that Divine Engine blessed the people once more, and gave them steel and holy oil, and commanded them to multiply and replenish the earth, for the engine's glory." },
+			{ "startIntroPart2": "Now the people of the earth have begun to forgot the Engine once more. We are called to spread the word of our god, and compel the nations of the earth to repent and serve the Engine. The wrath of the Flame goes before us, and the strength of the Engine is behind us. We are Ignis, and we cannot fail." }
 		]
 	},
 	{
