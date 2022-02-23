@@ -3,7 +3,7 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255, 255, 255]
-		// "innerColor": [255,255,255]
+		// "innerColor": [255, 255, 255]
 	},
 	{
 		"name": "Children of Rust",
@@ -120,7 +120,7 @@
 		"name": "Atlas",
 		"leaderName": "John Kruger",
 		"adjective": ["Corporate"],
-		// "startBias": ["Avoid Desert"],
+		// "startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Objectivism",
 
@@ -319,8 +319,8 @@
 
 		"outerColor": [252, 227, 0],
 		"innerColor": [54, 72, 72],
-		// "outerColor": [0,87,0],
-		// "innerColor": [150,254,150],
+		// "outerColor": [0, 87, 0],
+		// "innerColor": [150, 254, 150],
 		"style": "Military",
 		"uniqueName": "Hills Have Eyes",
 		"uniques": [
@@ -751,7 +751,7 @@
 		"name": "The Hub",
 		"adjective": ["Hub"],
 		"cityStateType": "Mercantile",
-
+		"style": "",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Have you ever danced with the devil in the pale moonlight?",
 		"defeated": "We never fully trusted you from the start.",
