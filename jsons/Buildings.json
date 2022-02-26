@@ -25,7 +25,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Deep Larder] [in this city]"
 		],
-		"quote": "An armed society is a polite society."
+		"quote": "An armed society is a polite society.",
+		"civilopediaText": [{ "text": "An armed society is a polite society."}]
 	},
 	{
 		"name": "Ark One",
@@ -43,7 +44,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack."
+		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack.",
+		"civilopediaText": [{ "text": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack."}]
 	},
 	{
 		"name": "Atlas Refuge",
@@ -59,7 +61,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas."
+		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas.",
+		"civilopediaText": [{ "text": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas."}]
 	},
 	{
 		"name": "Eagle Rock Complex",
@@ -78,7 +81,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath."
+		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
+		"civilopediaText": [{ "text": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath."}]
 	},
 	{
 		"name": "Forum",
@@ -91,7 +95,8 @@
 			"Free [Swordsman] appears",
 			"Can only be built [in capital]"
 		],
-		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour."
+		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
+		"civilopediaText": [{ "text": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour."}]
 	},
 	{
 		"name": "Temple",
@@ -107,7 +112,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
-		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed."
+		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed.",
+		"civilopediaText": [{ "text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed."}]
 	},
 	{
 		"name": "Peace Memorial",
@@ -121,7 +127,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]"
 		],
-		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour."
+		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.",
+		"civilopediaText": [{ "text": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour."}]
 	},
 	{
 		"name": "Longhouse",
@@ -138,7 +145,8 @@
 			"Can only be built [in capital]",
 			"Gain a free [Salvage Yard] [in this city]"
 		],
-		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces."
+		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces.",
+		"civilopediaText": [{ "text": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces."}]
 	},
 	{
 		"name": "The Great Lighthouse",
@@ -152,7 +160,8 @@
 			"Normal vision when embarked <for [All] units>",
 			"[+1] Sight <for [Water] units>"
 		],
-		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."
+		"quote": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore.",
+		"civilopediaText": [{ "text": "Brightly beams our father's mercy\nFrom his lighthouse evermore\nBut to us he gives the keeping\nOf the lights along the shore."}]
 	},
 	{
 		"name": "Great Mosque",
@@ -169,7 +178,8 @@
 			"Free [Panther] appears",
 			"Gain a free [Mosque] [in this city]"
 		],
-		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."
+		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
+		"civilopediaText": [{ "text": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary."}]
 	},
 	{
 		"name": "Clan Hideout",
@@ -183,7 +193,8 @@
 			"[2] free [Clansman] units appear",
 			"Gain a free [Food Store] [in this city]"
 		],
-		"quote": "If you would keep your secret from an enemy, tell it not to a friend."
+		"quote": "If you would keep your secret from an enemy, tell it not to a friend.",
+		"civilopediaText": [{ "text": "If you would keep your secret from an enemy, tell it not to a friend."}]
 	},
 
 	// Cultural victory
@@ -211,10 +222,11 @@
 			"Hidden when [Diplomatic] Victory is disabled",
 			"Triggers a global alert upon build start"
 		],
-		"quote": "United we stand. Divided we fall."
+		"quote": "United we stand. Divided we fall.",
+		"civilopediaText": [{ "text": "United we stand. Divided we fall."}]
 	},
 
-	// Gov buildings
+	// Government buildings
 	{
 		"name": "Congress",
 		"cost": 100,
@@ -223,6 +235,7 @@
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-10]% unhappiness from population [in all cities]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -235,6 +248,7 @@
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"
 		]
@@ -249,6 +263,7 @@
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
 			"[-10]% unhappiness from population [in all cities]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Defense Committee]>",
 			"Destroyed when the city is captured"
 		]
@@ -263,6 +278,7 @@
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"[+20]% Production when constructing [Military] units [in all cities]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Citizens' Assembly]>",
 			"Destroyed when the city is captured"
 		]
@@ -277,6 +293,7 @@
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 			"[-10]% unhappiness from population [in all cities]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Board of Directors]>",
 			"Destroyed when the city is captured"
 		]
@@ -291,6 +308,7 @@
 			"[+1 Gold] from every [Town Hall]",
 			"Cost of purchasing items in cities reduced by [20]%",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Shareholders' Fund]>",
 			"Destroyed when the city is captured"
 		]
@@ -305,6 +323,7 @@
 			"[+1 Science, +1 Gold] per [4] population [in all cities]",
 			"[-10]% unhappiness from population [in all cities]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Think Tank]>",
 			"Destroyed when the city is captured"
 		]
@@ -319,6 +338,7 @@
 			"Production to science conversion in cities increased by 33%",
 			"[+10]% Production when constructing [Science] buildings [in all cities]",
 			"Requires [Search for Survivors]",
+			"Can only be built [in capital]",
 			"Only available <in cities without a [Freedom Foundation]>",
 			"Destroyed when the city is captured"
 		]
@@ -539,14 +559,16 @@
 			"Only available <in cities with a [Aerospace Facility]>"
 		],
 		"requiredTech": "Satellites",
-		"quote": "I must down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by"
+		"quote": "I must down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by.",
+		"civilopediaText": [{ "text": "I must down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by."}]
 	},
 	{
 		"name": "Cryo Project",
 		"isWonder": true,
 		"requiredTech": "Human Genome",
 		"uniques": ["Enables construction of Cryo Vaults"],
-		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us."
+		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us.",
+		"civilopediaText": [{ "text": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us."}]
 	},
 
 	// Normal wonders
@@ -559,7 +581,8 @@
 			"[+1] population [in all cities]",
 			"[+2 Food] [in all cities]"
 		],
-		"quote": "When you hear the air attack warning, you and your family must take cover..."
+		"quote": "When you hear the air attack warning, you and your family must take cover...",
+		"civilopediaText": [{ "text": "When you hear the air attack warning, you and your family must take cover..."}]
 	},
 	{
 		"name": "Public Broadcast",
@@ -570,7 +593,8 @@
 			"[+1] population [in all cities]",
 			"Only available <in cities with a [Broadcast Tower]>"
 		],
-		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength."
+		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.",
+		"civilopediaText": [{ "text": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength."}]
 	},
 	{
 		"name": "Skunkworks",
@@ -584,7 +608,8 @@
 			"Free Technology"
 		],
 		"requiredTech": "Decryption",
-		"quote": "Many times a customer would come to the Skunk Works with a request and on a handshake the project would begin, no contracts in place, no official submittal process."
+		"quote": "Many times a customer would come to the Skunk Works with a request and on a handshake the project would begin, no contracts in place, no official submittal process.",
+		"civilopediaText": [{ "text": "Many times a customer would come to the Skunk Works with a request and on a handshake the project would begin, no contracts in place, no official submittal process."}]
 	},
 	{
 		"name": "Supercollider",
@@ -598,7 +623,8 @@
 		],
 		"percentStatBonus": { "science": 50 },
 		"requiredTech": "Particle Physics",
-		"quote": "God does not play dice."
+		"quote": "God does not play dice.",
+		"civilopediaText": [{ "text": "God does not play dice."}]
 	},
 	{
 		"name": "AI Project",
@@ -614,7 +640,54 @@
 		],
 		"percentStatBonus": { "science": 50 },
 		"requiredTech": "Artificial Intelligence",
-		"quote": "Let there be light."
+		"quote": "Let there be light.",
+		"civilopediaText": [{ "text": "Let there be light."}]
+	},
+
+	// Domination wonders
+	{
+		"name": "Salvage Tank Depot",
+		"requiredTech": "Engineering",
+		"isWonder": true,
+		"cost": 75,
+		"science": 1,
+		"production": -3,
+		"uniques": [
+			"Free [Modern Armor] appears",
+			"Only available <in cities with a [Alma Tank Depot]>"
+		],
+		"quote": "To a man with a hammer, everything looks like a nail.",
+		"civilopediaText": [{ "text": "To a man with a hammer, everything looks like a nail."}]
+	},
+	{
+		"name": "Salvage Bomber",
+		"requiredTech": "Manufacturing",
+		"isWonder": true,
+		"cost": 60,
+		"science": 1,
+		"production": -3,
+		"uniques": [
+			"Free [Bomber] appears",
+			"Only available <in cities with a [Alma Air Base]>",
+			"Only available <in cities without a [Salvage Helicopter]>"
+		],
+		"quote": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return.",
+		"civilopediaText": [{ "text": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return."}]
+	},
+	{
+		"name": "Salvage Helicopter",
+		"requiredTech": "Engineering",
+		"isWonder": true,
+		"cost": 75,
+		"science": 1,
+		"production": -3,
+		"uniques": [
+			"Free [Helicopter] appears",
+			"Only available <in cities with a [Alma Air Base]>",
+			"Only available <in cities without a [Salvage Bomber]>"
+		],
+		"quote": "Helicopters don't fly, they vibrate so badly the ground rejects them.",
+		"civilopediaText": [{ "text": "Helicopters don't fly, they vibrate so badly the ground rejects them."}]
 	},
 
 	// Natural Wonder uniques
@@ -653,7 +726,8 @@
 			"Provides [1] [Uranium]"
 		],
 		// "requiredTech": "Secrets of the Past",
-		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
+		"civilopediaText": [{ "text": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."}]
 	},
 	{
 		"name": "Nuclear Waste Museum",
@@ -670,13 +744,16 @@
 		"percentStatBonus": { "food": -20 },
 		"requiredTech": "Mining",
 		"uniques": [
-			"DO NOT DO THIS",
 			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
 			"[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles [in this city]",
 			"Provides [1] [Uranium]",
 			"Only available <in cities without a [Nuclear Waste Museum]>"
 		],
-		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
+		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours.",
+		"civilopediaText": [
+			{ "text": "DO NOT DO THIS", "color": "#FF0000" },
+			{ "text": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."}
+		]
 	},
 	{
 		"name": "Propagate Seeds", // could give seeds resource? so other nations benefit?
@@ -689,7 +766,8 @@
 			"[+2 Food] [in all cities]",
 			"[+25]% growth [in all cities]"
 		],
-		"quote": "What about us? What about all the plans that ended in disaster?"
+		"quote": "What about us? What about all the plans that ended in disaster?",
+		"civilopediaText": [{ "text": "What about us? What about all the plans that ended in disaster?"}]
 	},
 	{
 		"name": "Distribute Soft Drinks",
@@ -701,7 +779,8 @@
 			"[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles [in this city]",
 			"Only available <in cities without a [Produce Soft Drinks]>"
 		],
-		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"
+		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!",
+		"civilopediaText": [{ "text": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"}]
 	},
 	{
 		"name": "Produce Soft Drinks",
@@ -726,7 +805,8 @@
 			"Provides [1] [Oil]",
 			"Free [Modern Armor] appears"
 		],
-		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!" // - Traditional nursery rhyme
+		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!", // - Traditional nursery rhyme
+		"civilopediaText": [{ "text": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!"}]
 	},
 	{
 		"name": "Salvage Graveyard",
@@ -739,7 +819,8 @@
 			"Provides [1] [Oil]",
 			"Free [Patrol Boat] appears"
 		],
-		"quote": "He who commands the sea has command of everything."
+		"quote": "He who commands the sea has command of everything.",
+		"civilopediaText": [{ "text": "He who commands the sea has command of everything."}]
 	},
 	{
 		"name": "Turbine Hall",
@@ -749,7 +830,8 @@
 			"Must have an owned [Hydroelectric Dam] within [3] tiles",
 			"Provides [8] [Power]"
 		],
-		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year." // - Promotional material
+		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year.", // - Promotional material
+		"civilopediaText": [{ "text": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year."}]
 	},
 	{
 		"name": "Secret Laboratory",
@@ -771,7 +853,8 @@
 			"Must have an owned [Vault of Records] within [3] tiles",
 			"Hidden when religion is disabled"
 		],
-		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
+		"civilopediaText": [{ "text": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."}]
 	},
 	{
 		"name": "Chemical Weapons Laboratory",
@@ -2595,47 +2678,6 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "Almaty",
 		"requiredTech": "Manufacturing"
-	},
-	{
-		"name": "Salvage Tank Depot",
-		"requiredTech": "Engineering",
-		"isWonder": true,
-		"cost": 75,
-		"science": 1,
-		"production": -3,
-		"uniques": [
-			"Free [Modern Armor] appears",
-			"Only available <in cities with a [Alma Tank Depot]>"
-		],
-		"quote": "To a man with a hammer, everything looks like a nail."
-	},
-	{
-		"name": "Salvage Bomber",
-		"requiredTech": "Manufacturing",
-		"isWonder": true,
-		"cost": 60,
-		"science": 1,
-		"production": -3,
-		"uniques": [
-			"Free [Bomber] appears",
-			"Only available <in cities with a [Alma Air Base]>",
-			"Only available <in cities without a [Salvage Helicopter]>"
-		],
-		"quote": "For once you have tasted flight, you will forever walk the earth with your eyes turned skyward. For there you have been, and there you will always long to return."
-	},
-	{
-		"name": "Salvage Helicopter",
-		"requiredTech": "Engineering",
-		"isWonder": true,
-		"cost": 75,
-		"science": 1,
-		"production": -3,
-		"uniques": [
-			"Free [Helicopter] appears",
-			"Only available <in cities with a [Alma Air Base]>",
-			"Only available <in cities without a [Salvage Bomber]>"
-		],
-		"quote": "Helicopters don't fly, they vibrate so badly the ground rejects them."
 	},
 	{
 		"name": "Hub Monument",
