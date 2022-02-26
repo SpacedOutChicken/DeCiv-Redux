@@ -7,7 +7,7 @@
 		"rangedStrength": 300,
 		"range": 8,
 		"cost": 1600,
-        "uniques": ["Requires [Faust Project]",
+        "uniques": ["Only available <if [Faust Project] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
 			"Unbuildable",
@@ -26,7 +26,7 @@
 		"requiredTech": "Gyroscopes",
 		"uniques": ["Nuclear weapon of Strength [1]",
 			"Blast radius [1]",
-			"Requires [Manhattan Project]",
+			"Only available <if [Manhattan Project] is constructed>",
 			"Consumes [1] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -42,7 +42,7 @@
 		"requiredTech": "Rocketry",
 		"uniques": ["Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"Requires [Manhattan Project]",
+			"Only available <if [Manhattan Project] is constructed>",
 			"Consumes [1] [Uranium]"],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -166,7 +166,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"uniques": ["Low Tech",
-			"Requires [Clubhouse]",
+			"Only available <if [Clubhouse] is constructed>",
 			"[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Clansman"],
 		"attackSound": "metalhit"
@@ -251,7 +251,7 @@
 		"uniques": ["Low Tech",
 			"[+50]% Strength <vs cities>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"Requires [Forge]"],
+			"Only available <if [Forge] is constructed>"],
 		"attackSound": "metalhit"
 	},	
 	{
@@ -587,7 +587,7 @@
 		"upgradesTo": "NBC Infantry",
 		"hurryCostModifier": 20,		
 		"uniques": ["Personnel",
-			"Requires [Armory]",
+			"Only available <if [Armory] is constructed>",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Amphibious","Gas Mask"],
 		"attackSound": "machinegun"
@@ -603,7 +603,7 @@
 		"cost": 225,
 		"requiredTech": "Currency",	
 		"uniques": ["Personnel",
-			"Requires [Grand Clan Manor]",
+			"Only available <if [Grand Clan Manor] is constructed>",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Gas Mask","Reconnaissance I"],
 		"hurryCostModifier": 25,
@@ -619,7 +619,7 @@
 		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
@@ -635,7 +635,7 @@
 	//	"upgradesTo": "NBC Infantry", ??
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -655,7 +655,7 @@
 		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
 		"uniques": ["Low Tech",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -673,7 +673,7 @@
 		"requiredTech": "Future Materials",
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 50,
-		"uniques": ["Requires [Factory]"],
+		"uniques": ["Only available <if [Factory] is constructed>"],
 		"attackSound": "machinegun"
 	},*/
 	/*{
@@ -810,7 +810,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "The Wheel",	
 		"uniques": ["Personnel",
-			"Requires [Armory]",
+			"Only available <if [Armory] is constructed>",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Reconnaissance I","Amphibious","Ambush","Gas Mask"],
 		"attackSound": "machinegun"
@@ -865,7 +865,7 @@
 		"requiredTech": "Plastics",		
 		"hurryCostModifier": 20,		
 		"uniques": ["Personnel",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Weapons]"],
 		"promotions": ["Reconnaissance I","Gas Mask"],
 		"attackSound": "shot"
@@ -880,7 +880,7 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","Requires [Factory]"],
+		"uniques": ["Personnel","Only available <if [Factory] is constructed>"],
 		"promotions": ["Reconnaissance I","Gas Mask","Extended Range"],
 		"attackSound": "shot"
 	},*/
@@ -902,7 +902,7 @@
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Requires [Blast Furnace]"],
+			"Only available <if [Blast Furnace] is constructed>"],
 		"attackSound": "cannon"
 	},
 	{
@@ -935,7 +935,7 @@
 		"requiredTech": "Munitions",
 		"upgradesTo": "Missile Vehicle",
 		"uniques": ["[+200]% Strength <vs [Armor] units>",
-			"Requires [Factory]"],
+			"Only available <if [Factory] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -954,7 +954,7 @@
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Requires [Factory]"],
+			"Only available <if [Factory] is constructed>"],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
 		"attackSound": "artillery"
@@ -971,7 +971,7 @@
 		"uniques": ["Must set up to ranged attack",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities>",
-			"Requires [Factory]"],
+			"Only available <if [Factory] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -991,7 +991,7 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities>",
 			"Must set up to ranged attack",
-			"Requires [Factory]"],
+			"Only available <if [Factory] is constructed>"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1053,7 +1053,7 @@
 			"[-33]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1070,7 +1070,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Requires [Chop Shop]",
+		"uniques": ["Only available <if [Chop Shop] is constructed>",
 			"[+50]% Strength <vs cities>",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"Can move after attacking",
@@ -1091,7 +1091,7 @@
 		"requiredTech": "Engineering",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Requires [Chop Shop]",
+		"uniques": ["Only available <if [Chop Shop] is constructed>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"],
@@ -1136,7 +1136,7 @@
 		"uniques": ["Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1157,7 +1157,7 @@
 		"uniques": ["Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1176,7 +1176,7 @@
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
 			"May withdraw before melee ([50]%)",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -1195,7 +1195,7 @@
 			"No defensive terrain bonus",
 			"[+150]% Strength <vs [Armor] units>",
 			"May withdraw before melee ([75]%)",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "missile"
@@ -1215,7 +1215,7 @@
 			"[+300]% Strength <vs [Helicopter] units>",
 			"No defensive terrain bonus",
 			"May withdraw before melee ([50]%)",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "missile"
@@ -1234,7 +1234,7 @@
 		"uniques": ["Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],		
 		"promotions": ["Point Defense Laser","Drone Recon"],
 		"hurryCostModifier": 20,
@@ -1256,7 +1256,7 @@
 			"Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"May withdraw before melee ([100]%)",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
@@ -1300,7 +1300,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"attackSound": "machinegun"
 	},
@@ -1314,7 +1314,7 @@
 		"cost": 185,
 		"requiredTech": "Flight",
 		"upgradesTo": "Strike Drone",
-		"uniques": ["Requires [Factory]",
+		"uniques": ["Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"obsoleteTech": "Lasers",
 		"hurryCostModifier": 20,
@@ -1332,7 +1332,7 @@
 		"requiredTech": "Avionics",
 		"hurryCostModifier": 20,
 		"uniques": ["6 tiles in every direction always visible",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"],
 		"promotions": ["Automated"],
@@ -1350,7 +1350,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
-			"Requires [Aerospace Facility]",
+			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"],	
 		"attackSound": "jetgun"
@@ -1367,7 +1367,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
-			"Requires [Aerospace Facility]",
+			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]"],
 		"promotions": ["Automated"],
@@ -1481,7 +1481,7 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
 			"May withdraw before melee ([66]%)",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -1496,7 +1496,7 @@
 		"cost": 400,
 		"requiredTech": "Radar",
         "uniques": ["Can carry [2] [Aircraft] units",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -1511,7 +1511,7 @@
 		"cost": 400,
 		"requiredTech": "Ballistics",
 		"uniques": ["[+25]% Strength <vs cities>",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -1528,7 +1528,7 @@
 		"requiredTech": "Gyroscopes",
 		"uniques": ["[+66]% Strength <when attacking>",
 			"Can only attack [Water] tiles",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "torpedo"
@@ -1546,7 +1546,7 @@
 			"Can only attack [Water] tiles",
 			"[+1] Sight",
 			"Can carry [2] [Missile] units",
-			"Requires [Factory]",
+			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Uranium]"],
 		"attackSound": "torpedo"
 	},
@@ -1902,7 +1902,7 @@
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Requires [Factory]"],
+			"Only available <if [Factory] is constructed>"],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
 		"attackSound": "artillery"
@@ -1919,7 +1919,7 @@
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking",
 			"No defensive terrain bonus",
-			"Requires [Alma Tank Depot]",
+			"Only available <if [Alma Tank Depot] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -1939,7 +1939,7 @@
 		"uniques": ["[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"May withdraw before melee ([100]%)",
-			"Requires [Alma Air Base]",
+			"Only available <if [Alma Air Base] is constructed>",
 			"Consumes [1] [Oil]"],
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
@@ -1957,7 +1957,7 @@
 		"cost": 185,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Bomber",
-		"uniques": ["Requires [Alma Air Base]",
+		"uniques": ["Only available <if [Alma Air Base] is constructed>",
 			"Consumes [1] [Oil]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
