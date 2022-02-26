@@ -5,6 +5,8 @@
 		"outerColor": [255, 255, 255]
 		// "innerColor": [255, 255, 255]
 	},
+
+	// Nations
 	{
 		"name": "Children of Rust",
 		"leaderName": "Scarlett",
