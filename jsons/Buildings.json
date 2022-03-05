@@ -659,7 +659,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Consumes [1] [Encrypted Data]",
-			"[+3 Science] <with [Power]>",
+			"[+3 Science] [in this city] <with [Power]>",
 			"Only available <in cities with a [Data Center]>",
 			"Free Technology"
 		],
@@ -2247,7 +2247,7 @@
 		"production": 5,
 		"maintenance": 3,
 		"uniques": [
-			"[+1 Production] <with [Power]>",
+			"[+1 Production] [in this city] <with [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]",
 			"Consumes [1] [Aluminum]"
@@ -2262,8 +2262,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[+1 Production] <with [Power]>",
-			"[+2 Production] <with [Slaves]>",
+			"[+1 Production] [in this city] <with [Power]>",
+			"[+2 Production] [in this city] <with [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
 		],
