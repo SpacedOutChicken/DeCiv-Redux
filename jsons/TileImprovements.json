@@ -8,9 +8,9 @@
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Land Remediation]>"
-		]
+		],
+		"shortcutKey": "F"
 	},
-
 	{
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Grassland", "Tundra"],
@@ -21,7 +21,8 @@
 			"Gives a defensive bonus of [10]%",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles <after discovering [Ecology]>",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>"
-		]
+		],
+		"shortcutKey": "T"
 	},
 	{
 		"name": "Mine",
@@ -32,15 +33,16 @@
 		"uniques": [
 			"[+1 Production] <after discovering [Steam Power]>",
 			"[+1 Production] <after discovering [Railroads]>"
-		]
+		],
+		"shortcutKey": "M"
 	},
 	{
 		"name": "Pasture",
 		"turnsToBuild": 7,
 		"techRequired": "Redomestication",
-		"uniques": ["[+1 Food] <after discovering [Genetics]>"]
+		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
+		"shortcutKey": "P"
 	},
-
 	{
 		"name": "Moisture trap",
 		"terrainsCanBeBuiltOn": [
@@ -56,7 +58,8 @@
 		],
 		"gold": 1,
 		"turnsToBuild": 5,
-		"uniques": ["[+1 Gold] <after discovering [Plastics]>"]
+		"uniques": ["[+1 Gold] <after discovering [Plastics]>"],
+		"shortcutKey": "E"
 	},
 	{
 		"name": "Solar collector",
@@ -64,13 +67,15 @@
 		"production": 1,
 		"turnsToBuild": 14,
 		"techRequired": "Electronics",
-		"uniques": ["Provides [1] [Power]"]
+		"uniques": ["Provides [1] [Power]"],
+		"shortcutKey": "L"
 	},
 	{
 		"name": "Wind farm",
 		"turnsToBuild": 10,
 		"techRequired": "Steel",
-		"uniques": ["Provides [1] [Power]"]
+		"uniques": ["Provides [1] [Power]"],
+		"shortcutKey": "W"
 	},
 
 	// Resource-specific
@@ -82,7 +87,8 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Science] <after discovering [Computers]>"
-		]
+		],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Hacking site",
@@ -92,7 +98,8 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+3 Science] <after discovering [Artificial Intelligence]>"
-		]
+		],
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Salvage site",
@@ -101,7 +108,8 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Production] <after discovering [Manufacturing]>"
-		]
+		],
+		"shortcutKey": "S"
 	},
 	{
 		"name": "Water pump",
@@ -109,7 +117,8 @@
 		"gold": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Iron Working",
-		"uniques": ["[+1 Gold] <after discovering [Decontamination]>"]
+		"uniques": ["[+1 Gold] <after discovering [Decontamination]>"],
+		"shortcutKey": "W"
 	},
 	{
 		"name": "Camp",
@@ -119,13 +128,15 @@
 			"Does not need removal of [Jungle]",
 			"[+1 Food] <after discovering [Ecology]>",
 			"[+1 Food] <after discovering [Genetics]>"
-		]
+		],
+		"shortcutKey": "C"
 	},
 	{
 		"name": "Oil well",
 		"turnsToBuild": 9,
 		"techRequired": "Machinery",
-		"uniques": ["Provides [1] [Oil]"]
+		"uniques": ["Provides [1] [Oil]"],
+		"shortcutKey": "W"
 	},
 	{
 		"name": "Energy farm",
@@ -137,7 +148,8 @@
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
 			"Provides [1] [Oil]"
-		]
+		],
+		"shortcutKey": "Y"
 	},
 	{
 		"name": "Fishing Boats",
@@ -162,7 +174,8 @@
 		"uniques": [
 			"Gives a defensive bonus of [50]%",
 			"Can be built outside your borders"
-		]
+		],
+		"shortcutKey": "O"
 	},
 
 	// Transportation
@@ -173,7 +186,8 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Costs [1] gold per turn when in your territory"
-		]
+		],
+		"shortcutKey": "R"
 	},
 	{
 		"name": "Railroad",
@@ -182,38 +196,41 @@
 		"uniques": [
 			"Can be built outside your borders",
 			"Costs [2] gold per turn when in your territory"
-		]
+		],
+		"shortcutKey": "R"
 	},
-
 	// Removals
 	{
 		"name": "Remove Forest",
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Forest"],
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Construction",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 12,
 		"terrainsCanBeBuiltOn": ["Fallout"],
 		"techRequired": "Decontamination",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 15,
 		"terrainsCanBeBuiltOn": ["Marsh"],
 		"techRequired": "Decontamination",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
 	},
-
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
@@ -227,9 +244,9 @@
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
 	},
-
 	// Great Person improvements
 	{
 		"name": "Academy",
@@ -325,12 +342,13 @@
 			"[+1 Culture, +1 Faith] <after discovering [Education]>"
 		]
 	},
-
 	{
 		"name": "City center",
 		"uniques": ["Unpillagable", "Indestructible"],
 		"civilopediaText": [
-			{ "text": "Marks the center of a city" },
+			{
+				"text": "Marks the center of a city"
+			},
 			{
 				"text": "Appearance changes with the technological era of the owning civilization"
 			}
@@ -344,7 +362,6 @@
 		"name": "City ruins",
 		"uniques": ["Gives a defensive bonus of [10]%", "Unpillagable"]
 	},
-
 	{
 		"name": "Barbarian encampment",
 		"uniques": ["Gives a defensive bonus of [25]%", "Unpillagable"]
