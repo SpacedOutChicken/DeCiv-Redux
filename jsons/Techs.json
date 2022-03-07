@@ -105,7 +105,7 @@
 				"prerequisites": ["Writing", "Sailing"],
 				"uniques": [
 					"[+1] Movement <for [Embarked] units>",
-					"Enables embarked units to enter ocean tiles"
+					"Enables [Embarked] units to enter ocean tiles"
 				],
 				"quote": "He made an instrument to know if the moon shine at full or no."
 			},
