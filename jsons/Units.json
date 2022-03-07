@@ -1381,7 +1381,6 @@
 		"name": "Trimaran",
 		"unitType": "Melee Water",
 		"uniqueTo": "The Mariners",
-		"replaces": "Spearman",
 		"movement": 4,
 		"strength": 20,
 		"cost": 50,
