@@ -249,7 +249,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [tech]> OR [+34]% natural religion spread [in all cities] <after adopting [policy]>"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Education]>"]
     },
     {
         "name": "Religious Unity",

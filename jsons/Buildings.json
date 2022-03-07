@@ -182,8 +182,8 @@
 		"uniqueTo": "The Mariners",
 		"cost": 1,
 		"uniques": [
-			"Must be next to [Coast]",
-			"[2] free [Trimaran] units appear",
+			"Can only be built [in capital]",
+			"[2] free [Spearman] units appear",
 			"Gain a free [Lighthouse] [in this city]",
 			"Normal vision when embarked <for [All] units>",
 			"[+1] Sight <for [Water] units>"

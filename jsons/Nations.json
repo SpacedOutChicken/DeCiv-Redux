@@ -561,9 +561,9 @@
 		"uniqueName": "People of the Sea",
 		"uniques": [
 			"Enables embarkation for land units <starting from the [Decivilized era]>",
-			"Enables embarked units to enter ocean tiles <starting from the [Decivilized era]>",
+			"Enables [All] units to enter ocean tiles <starting from the [Decivilized era]>",
 			"Units pay only 1 movement point to disembark",
-			"Embarked units can defend themselves",
+			"Defense bonus when embarked <for [All] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
 			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
 			"Starts with [Sailing]"
