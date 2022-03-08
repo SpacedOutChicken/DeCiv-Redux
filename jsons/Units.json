@@ -1660,7 +1660,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can [Spread Religion] [2] times",
-			"May enter foreign tiles without open borders",
+			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"[-1] Sight",
 			"Unbuildable",
