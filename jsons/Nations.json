@@ -560,8 +560,8 @@
 		"style": "Tribal",
 		"uniqueName": "People of the Sea",
 		"uniques": [
-			"Enables embarkation for land units <starting from the [Decivilized era]>",
-			"Enables [All] units to enter ocean tiles <starting from the [Decivilized era]>",
+			"Enables embarkation for land units",
+			"Enables [All] units to enter ocean tiles",
 			"Units pay only 1 movement point to disembark",
 			"Defense bonus when embarked <for [All] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
