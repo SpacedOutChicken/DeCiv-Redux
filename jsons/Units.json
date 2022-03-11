@@ -135,7 +135,7 @@
 		"name": "Warrior",
 		"unitType": "Scrapper",
 		"uniqueTo": "Cult of Ignis",
-		"replaces": "Auxiliary",
+		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 20,
 		"cost": 20,
@@ -144,8 +144,7 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <vs [Mounted] units>",
-			"Consumes [1] [Slaves]"
+			"[+50]% Strength <vs [Mounted] units>"
 		],
 		"promotions": ["Raider"],
 		"attackSound": "nonmetalhit"
@@ -159,7 +158,10 @@
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>"],
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -204,6 +206,7 @@
 		"upgradesTo": "Militia",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
@@ -225,6 +228,7 @@
 		"upgradesTo": "Rubble Militia",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
 		],
@@ -316,6 +320,7 @@
 		"upgradesTo": "Gunman",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+33]% Strength <vs [Low Tech] units>",
@@ -340,6 +345,7 @@
 		"upgradesTo": "Rubble Gunman",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
@@ -561,6 +567,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
 			"Personnel",
+			"Enslaved",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -583,6 +590,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -687,6 +695,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
+			"Enslaved",
 			"Only available <if [Factory] is constructed>",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
@@ -709,6 +718,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Only available <if [Factory] is constructed>",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
@@ -796,6 +806,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -2278,6 +2289,7 @@
 		"upgradesTo": "Militia",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Consumes [1] [Slaves]",
 			"Unbuildable",
 			"Can build [Road] improvements on tiles",
@@ -2339,6 +2351,7 @@
 		"upgradesTo": "Gunman",
 		"uniques": [
 			"Low Tech",
+			"Enslaved",
 			"Consumes [1] [Slaves]",
 			"Unbuildable",
 			"Can build [Road] improvements on tiles",
@@ -2349,28 +2362,7 @@
 	},
 
 	// Fake restriction units
-	{
-		"name": "Ignis Can't Build Spearman",
-		"unitType": "Scrapper",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Spearman",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Ignis Can't Build Archer",
-		"unitType": "Scrapper",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Archer",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
+	
 	{
 		"name": "Clan Can't Build Horseman",
 		"unitType": "Scrapper",
@@ -2393,67 +2385,12 @@
 		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Patriots Can't Build Spearman",
-		"unitType": "Scrapper",
-		"uniqueTo": "The Patriots",
-		"replaces": "Spearman",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Patriots Can't Build Archer",
-		"unitType": "Scrapper",
-		"uniqueTo": "The Patriots",
-		"replaces": "Archer",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Patriots Can't Build Horseman",
-		"unitType": "Scrapper",
-		"uniqueTo": "The Patriots",
-		"replaces": "Horseman",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Patriots Can't Build Skirmisher",
-		"unitType": "Scrapper",
-		"uniqueTo": "The Patriots",
-		"replaces": "Skirmisher",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
-
+	
 	{
 		"name": "Arroyo Can't Build Cavalry",
 		"unitType": "Scrapper",
 		"uniqueTo": "Arroyo",
 		"replaces": "Cavalry",
-		"requiredTech": "The Wheel",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Arroyo Can't Build Car",
-		"unitType": "Scrapper",
-		"uniqueTo": "Arroyo",
-		"replaces": "Attack Vehicle",
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
@@ -2489,17 +2426,6 @@
 		"unitType": "Scrapper",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Light Cavalry",
-		"requiredTech": "The Wheel",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Ghost Can't Build Car",
-		"unitType": "Scrapper",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Attack Vehicle",
 		"requiredTech": "The Wheel",
 		"strength": 1,
 		"cost": 1,
