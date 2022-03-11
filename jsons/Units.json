@@ -120,6 +120,18 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Private",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 10,
+		"cost": 25,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": ["Personnel", "[-50]% Strength <vs cities>"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Scrapper",
 		"uniqueTo": "Cult of Ignis",
@@ -1463,16 +1475,31 @@
 
 	// Naval
 	{
-		"name": "Trimaran",
+		"name": "Dinghy",
 		"unitType": "Melee Water",
-		"uniqueTo": "The Mariners",
+		"requiredTech": "Sailing",
 		"movement": 4,
 		"strength": 20,
 		"cost": 50,
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Jet Boat",
-		"uniques": ["Low Tech", "May withdraw before melee ([66]%)"],
+		"upgradesTo": "Patrol Boat",
+		"uniques": ["May withdraw before melee ([66]%)"],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Trimaran",
+		"unitType": "Melee Water",
+		"uniqueTo": "The Mariners",
+		"replaces": "Dinghy",
+		"requiredTech": "Sailing",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Patrol Boat",
+		"uniques": ["May withdraw before melee ([66]%)"],
+		"attackSound": "nonmetalhit",
+		"promotions": ["Littoral Warfare"]
 	},
 	{
 		"name": "Patrol Boat",
@@ -2251,6 +2278,8 @@
 		"upgradesTo": "Militia",
 		"uniques": [
 			"Low Tech",
+			"Consumes [1] [Slaves]",
+			"Unbuildable",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>"
@@ -2269,7 +2298,9 @@
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
-		"uniques": ["Personnel"],
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"Unbuildable"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -2287,7 +2318,9 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel"],
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
@@ -2306,6 +2339,8 @@
 		"upgradesTo": "Gunman",
 		"uniques": [
 			"Low Tech",
+			"Consumes [1] [Slaves]",
+			"Unbuildable",
 			"Can build [Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+33]% Strength <vs [Low Tech] units>"
