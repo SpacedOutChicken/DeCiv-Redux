@@ -188,7 +188,12 @@
 	},
 	{
 		"name": "Littoral Warfare",
-		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [Land] tiles>","[+25]% Strength <vs cities>"],
+		"uniques": [
+			"[+25]% Strength <when fighting in [Coast] tiles>",
+			"[+25]% Strength <when fighting in [Land] tiles>",
+			"[+25]% Strength <vs cities>",
+			"Eliminates combat penalty for attacking across a coast"
+		],
 		"prerequisites": ["Evasion","Strike"],
 		"unitTypes": ["Melee Water"]
 	},
@@ -521,7 +526,13 @@
 	},
 	{
 		"name": "Chemical Weapons",
-		"uniques": ["Chemical Weapons","[+100]% Strength <vs [Low Tech] units>","[+100]% Strength <vs [Personnel] units>","[-50]% Strength <vs [Gas Mask] units>","[+50]% Strength <vs cities>"]
+		"uniques": [
+			"Chemical Weapons",
+			"[+100]% Strength <vs [Low Tech] units>",
+			"[+100]% Strength <vs [Personnel] units>",
+			"[-50]% Strength <vs [Gas Mask] units>",
+			"[+50]% Strength <vs cities>"
+		]
 	},
 	{
 		"name": "Point Defense Laser",
@@ -533,7 +544,11 @@
 	},		
 	{
 		"name": "Amphibious",
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked"
+		]
 	},
 	{
 		"name": "Gas Mask",
