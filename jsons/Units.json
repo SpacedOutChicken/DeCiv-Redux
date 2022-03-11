@@ -122,6 +122,8 @@
 	{
 		"name": "Private",
 		"unitType": "Scout",
+		"uniqueTo": "The Patriots",
+		"replaces": "Scout",
 		"movement": 2,
 		"strength": 10,
 		"cost": 25,
