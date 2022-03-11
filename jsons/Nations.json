@@ -268,6 +268,7 @@
 			"Double quantity of [Encrypted Data] produced",
 			"Double quantity of [Weapons] produced",
 			"[+300]% Production when constructing [Ground Control Center] wonders [in all cities]",
+			"Cannot build [Low Tech] units",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
@@ -712,7 +713,12 @@
 		"cityStateType": "Maritime",
 		"startBias": ["Hill"],
 		"style": "Tribal",
-		"uniques": ["Units fight as though they were at full strength even when damaged"],
+		"uniques": [
+			"Units fight as though they were at full strength even when damaged",
+			"Gain a free [Atavism] [in all cities]",
+			"Cannot build [Armor] units",
+			"Cannot build [Siege] units"
+		],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "The spirits were willing, but the flesh was weak...",
@@ -728,6 +734,9 @@
 		"style": "Ghost",
 		"uniques": [
 			"Units fight as though they were at full strength even when damaged",
+			"Cannot build [Armor] units",
+			"Cannot build [Siege] units",
+			"Gain a free [Atavism] [in all cities]",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare II] promotion",
 			"[Low Tech] units gain the [Guerilla Warfare I] promotion",

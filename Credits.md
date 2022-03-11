@@ -41,7 +41,6 @@ Technologies:
 Units:
 * Censor: [Blind](https://thenounproject.com/icon/blind-2139794/) by Nubaia Karim Barsha
 * Corvette: [warship](https://thenounproject.com/term/warship/1806952/) by Abdul Wahhab 
-* Great Administrator: [Paper](https://thenounproject.com/icon/paper-889690/) by zidney
 * Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
 
 Icons:

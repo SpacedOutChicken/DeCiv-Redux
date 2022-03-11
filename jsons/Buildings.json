@@ -2516,7 +2516,21 @@
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 
-	// Unbuildable uniques
+	// City-state uniques
+	{
+		"name": "Atavism",
+		"uniques": ["Only available <in cities without a [Library]>",
+			"Only available <in cities without a [Factory]>",
+			"Only available <in cities without a [Oil Plant]>",
+			"Only available <in cities without a [Tidal Plant]>",
+			"Only available <in cities without a [Hydro Plant]>",
+			"Only available <in cities without a [Coal Plant]>",
+			"Only available <in cities without a [Nuclear Plant]>",
+			"Will not be displayed in Civilopedia",
+			"Destroyed when the city is captured",
+			"Unsellable",
+			"Unbuildable"]
+	}
 	{
 		"name": "Archive of the Arts",
 		"uniqueTo": "The Archive",
@@ -2619,41 +2633,6 @@
 		]
 	},
 	{
-		"name": "Arroyo Notlibrary",
-		"uniqueTo": "Arroyo",
-		"replaces": "Library",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Arroyo Notfactory",
-		"uniqueTo": "Arroyo",
-		"replaces": "Factory",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Arroyo Notcoalplant",
-		"uniqueTo": "Arroyo",
-		"replaces": "Coal Plant",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Arroyo Nothydroplant",
-		"uniqueTo": "Arroyo",
-		"replaces": "Hydro Plant",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Arroyo Nottidalplant",
-		"uniqueTo": "Arroyo",
-		"replaces": "Tidal Plant",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
 		"name": "Arroyo",
 		"uniqueTo": "Arroyo",
 		"replaces": "Monument",
@@ -2666,41 +2645,6 @@
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map"
 		]
-	},
-	{
-		"name": "Ghost Notlibrary",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Library",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Ghost Notfactory",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Factory",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Ghost Notcoalplant",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Coal Plant",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Ghost Nothydroplant",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Hydro Plant",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
-		"name": "Ghost Nottidalplant",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Tidal Plant",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
 	},
 	{
 		"name": "Ghost Mountain",
