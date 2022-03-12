@@ -1,6 +1,6 @@
 # DeCiv-Redux
 DeCiv Redux 4.1.0<br>
-3 March 2012
+3 March 2021
 
 DeCiv, made by [9kgsofrice](https://github.com/9kgsofrice/DeCiv/), brought back from the dead by SpacedOutChicken
 
