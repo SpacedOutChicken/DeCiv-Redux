@@ -5,7 +5,7 @@
 		"isNationalWonder": true,
 		"food": 2,
 		"production": 3,
-		"cityStrength": 2,
+		"cityStrength": 5,
 		"cityHealth": 50,
 		"science": 3,
 		"gold": 1,
@@ -2516,7 +2516,7 @@
 		"uniques": ["[+50]% Golden Age length", "Provides [1] [Power]"]
 	},
 	{
-		"name": "Encylopedia",
+		"name": "Encyclopedia",
 		"uniqueTo": "The Archive",
 		"replaces": "Monument",
 		"cost": 1,
