@@ -235,7 +235,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105, 125, 72],
-		"occursOn": ["Tundra", "Plains", "Grassland", "Desert", "Snow", "Badlands", "Wasteland", "Permafrost"],
+		"occursOn": ["Tundra", "Plains", "Grassland", "Desert", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
 		"uniques": [
 			"Rough terrain",
 			"[+5] Strength for cities built on this terrain",
@@ -257,7 +257,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow", "Badlands", "Wasteland", "Permafrost"],
+		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
@@ -280,7 +280,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow", "Badlands", "Wasteland", "Permafrost"],
+		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
@@ -301,7 +301,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Snow", "Badlands", "Wasteland", "Permafrost"],
+		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
 		"uniques": [
 			"Nullifies all other stats this tile provides",
 			"Rare feature",
@@ -314,7 +314,7 @@
 		"name": "Spring",
 		"type": "TerrainFeature",
 		"gold": 1,
-		"occursOn": ["Tundra", "Plains", "Grassland", "Badlands", "Wasteland"],
+		"occursOn": ["Tundra", "Plains", "Grassland"/*, "Badlands", "Wasteland"*/],
 		"uniques": [
 			"Rare feature",
 			"Fresh water",
@@ -345,10 +345,10 @@
 			"Hill",
 			"Flood plains",
 			"Marsh",
-			"Swamp",
+			"Swamp"/*,
 			"Badlands",
 			"Wasteland",
-			"Permafrost"
+			"Permafrost"*/
 		],
 		"defenceBonus": -0.3
 	},
@@ -373,7 +373,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert", "Plains", "Grassland", "Badlands", "Wasteland"],
+		"occursOn": ["Desert", "Plains", "Grassland" /*, "Badlands", "Wasteland"*/],
 		"uniques": ["Always Fertility [5] for Map Generation"]
 	},
 	{
@@ -420,7 +420,7 @@
 		"name": "Army Depot",
 		"type": "NaturalWonder",
 		"culture": 1,
-		"occursOn": ["Grassland", "Plains", "Tundra", "Mountain", "Badlands", "Wasteland"],
+		"occursOn": ["Grassland", "Plains", "Tundra", "Mountain" /*, "Badlands", "Wasteland"*/],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
@@ -488,7 +488,7 @@
 		"gold": 1,
 		"culture": 1,
 		"happiness": 1,
-		"occursOn": ["Grassland", "Plains"],
+		"occursOn": ["Grassland", "Plains"], // Wasteland, Badlands
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
@@ -523,7 +523,7 @@
 		"food": 1,
 		"science": 3,
 		"culture": 1,
-		"occursOn": ["Tundra", "Snow", "Permafrost"],
+		"occursOn": ["Tundra", "Snow"], // add Permafrost
 		"uniques": [
 			"Must be adjacent to [1] to [5] [Coast] tiles",
 			"Must be adjacent to [1] [Mountain] tiles",
@@ -539,12 +539,12 @@
 		"type": "NaturalWonder",
 		"gold": 2,
 		"science": 1,
-		"occursOn": ["Plains", "Mountain", "Badlands"],
+		"occursOn": ["Plains", "Mountain"], // add Badlands
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Lakes] tiles",
 			"Fresh water"
 		],
-		"turnsInto": "Mountain",
+		"turnsInto": "Mountain", // change to Lakes
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 5
