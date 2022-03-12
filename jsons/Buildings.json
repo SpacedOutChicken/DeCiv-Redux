@@ -607,14 +607,35 @@
 		]
 	},
 	{
-		"name": "Cryo Project",
+		"name": "Cryo Project", // deprecated - remove on April 12
 		"isWonder": true,
 		"requiredTech": "Human Genome",
-		"uniques": ["Enables construction of Cryo Vaults"],
+		"uniques": ["Enables construction of Cryo Vaults","Unbuildable","Will not be displayed in Civilopedia"],
 		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us.",
 		"civilopediaText": [
 			{
 				"text": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us."
+			}
+		]
+	},
+	{
+		"name": "Cryo Sanctum",
+		"isWonder": true,
+		"Cost": 3750,
+		"culture": 10,
+		"science": 2,
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"percentStatBonus": {"culture": 10},
+		"requiredTech": "Human Genome",
+		"uniques": ["Empire enters golden age",
+			"Free Social Policy",
+			"Free Technology",
+			"[-1] population [in all cities]"],
+		"quote": "A fortified, self sustaining bunker where, with minimal staffing and maintenance, survivors can wait in suspended animation, in theory to emerge when conditions are more favourable to life.",
+		"civilopediaText": [
+			{
+				"text": "A fortified, self sustaining bunker where, with minimal staffing and maintenance, survivors can wait in suspended animation, in theory to emerge when conditions are more favourable to life."
 			}
 		]
 	},
@@ -643,6 +664,7 @@
 		"requiredTech": "Radio",
 		"uniques": [
 			"[+1] population [in all cities]",
+			"Free Great Person",
 			"Only available <in cities with a [Broadcast Tower]>"
 		],
 		"quote": "When the immediate danger has passed the sirens will sound a steady note. The all clear message will also be given on this wavelength.",
@@ -2353,7 +2375,7 @@
 		]
 	},
 	{
-		"name": "Cryo Vault",
+		"name": "Cryo Vault", // deprecated - remove on April 12
 		"cost": 1000,
 		"requiredTech": "Human Genome",
 		"uniques": [
@@ -2363,7 +2385,9 @@
 			"Requires at least [5] population",
 			"Unsellable",
 			"Free Great Person",
-			"[+1] population [in this city]"
+			"[+1] population [in this city]",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	// water purifier
@@ -2492,7 +2516,7 @@
 
 	// City-state uniques
 	{
-		"name": "Atavism",
+		"name": "Atavism", // deprecated - remove on April 12
 		"uniques": ["Only available <in cities without a [Library]>",
 			"Only available <in cities without a [Factory]>",
 			"Only available <in cities without a [Oil Plant]>",
