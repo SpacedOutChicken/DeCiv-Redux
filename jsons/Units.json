@@ -1732,7 +1732,6 @@
 		"uniques": [
 			"Can start an [8]-turn golden age",
 			"Can construct [Settlement]",
-			"Can construct [Citadel]",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -1791,7 +1790,6 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can start an [8]-turn golden age",
 			"Can construct [Settlement]",
 			"Great Person - [Gold]",
 			"Unbuildable",
@@ -1807,7 +1805,6 @@
 		"uniques": [
 			"Invisible to non-adjacent units",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
-			"Can start an [8]-turn golden age",
 			"Can construct [Narcotics farm]",
 			"Great Person - [Gold]",
 			"Unbuildable",
@@ -1822,7 +1819,6 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can start an [8]-turn golden age",
 			"Can construct [Prison farm]",
 			"Great Person - [Gold]",
 			"Unbuildable",

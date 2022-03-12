@@ -565,7 +565,7 @@
 		"type": "NaturalWonder",
 		"faith": 1,
 		"culture": 1,
-		"occursOn": ["Desert", "Plains", "Badlands"],
+		"occursOn": ["Desert", "Plains"/*, "Badlands"*/],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
