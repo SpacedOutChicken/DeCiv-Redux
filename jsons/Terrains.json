@@ -268,12 +268,8 @@
 		"defenceBonus": -0.3
 	},
 	{
-		/*
-		TODO:
-		- Legacy code for compatibility
-		- Should be replaced with Swamp
-		- See also: https://github.com/SpacedOutChicken/DeCiv-Redux/issues/21
-		*/
+		// Replaced with swamp; This is a legacy code for compatibility.
+		// See also: https://github.com/SpacedOutChicken/DeCiv-Redux/issues/21
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"food": 1,
@@ -293,9 +289,7 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert", "Plains", "Grassland"],
-		"uniques": [
-			"Always Fertility [5] for Map Generation"
-		]
+		"uniques": ["Always Fertility [5] for Map Generation"]
 	},
 	{
 		"name": "Sunken Ruins",
