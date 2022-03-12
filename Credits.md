@@ -4,7 +4,7 @@ Credit given whenever I know the source of an image - if you spot one you recogn
 
 Lots and lots of pixel art by GeneralWadaling, AKA The Bucketeer, with some by AdityaMH and some by me
 
-From the Noun Project:
+**From the Noun Project:**
 
 Buildings:
 * Arcology Dome: [dome](https://thenounproject.com/term/dome/945836/) by Lluisa Iborra, ES
@@ -47,7 +47,9 @@ Units:
 Icons:
 * Faith icon: [Thought](https://thenounproject.com/term/thought/608383/) by Hea Poh Lin, MY 
 
-From Wikimedia Commons:
+**From Wikimedia Commons:**
 
 Nations:
 * New Afrika: [Fist](https://commons.wikimedia.org/wiki/File:Fist.png)
+
+Preview image: [Wasteland Main Gate](https://commons.wikimedia.org/wiki/File:Wasteland_Main_Gate.jpg) by Toglenn/Glenn Franciss
