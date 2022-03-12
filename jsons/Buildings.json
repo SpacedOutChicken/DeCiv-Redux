@@ -2375,7 +2375,9 @@
 			"[-10]% unhappiness from population [in this city]",
 			"Only available <if [Arcology Project] is constructed>",
 			"Requires at least [2] population",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Aluminum]"
 		]
 	},
 	{
