@@ -268,16 +268,19 @@
 		"defenceBonus": -0.3
 	},
 	{
+		// Replaced with swamp; This is a legacy code for compatibility.
+		// See also: https://github.com/SpacedOutChicken/DeCiv-Redux/issues/21
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"food": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert", "Plains", "Grassland"],
+		// "occursOn": ["Desert", "Plains", "Grassland"],
 		"uniques": [
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
-			"Always Fertility [5] for Map Generation"
+			"Always Fertility [5] for Map Generation",
+			"Will not be displayed in Civilopedia"
 		]
 	},
 	{
@@ -286,9 +289,7 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert", "Plains", "Grassland"],
-		"uniques": [
-			"Always Fertility [5] for Map Generation"
-		]
+		"uniques": ["Always Fertility [5] for Map Generation"]
 	},
 	{
 		"name": "Sunken Ruins",
