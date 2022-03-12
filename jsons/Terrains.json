@@ -40,6 +40,31 @@
 		]
 	},
 	{
+		"name": "Wasteland" // will replace Grassland
+		/*
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [97, 171, 58],
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Wasteland] tiles, with priority [7]",
+			"A Region can not contain more [Badlands] tiles than [Wasteland] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Becomes [Swamp] when adjacent to [River]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+		*/
+	},
+	{
 		"name": "Plains", // Badlands
 		"type": "Land",
 		"movementCost": 1,
@@ -65,6 +90,33 @@
 		]
 	},
 	{
+		"name": "Badlands" // will replace Plains
+		/*
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [168, 185, 102],
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"[+4] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Badlands] tiles, with priority [6]",
+			"A Region can not contain more [Wasteland] tiles than [Badlands] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Becomes [Swamp] when adjacent to [River]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+		*/
+	}
+	{
 		"name": "Tundra",
 		"type": "Land",
 		"movementCost": 1,
@@ -81,6 +133,19 @@
 			"Considered [Food] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
+		/*
+		"uniques": [
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]*/
 	},
 	{
 		"name": "Desert",
@@ -143,6 +208,23 @@
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
+	{
+		"name": "Permafrost" // will replace Snow
+		/*
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [231, 242, 249],
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+			"Considered [Undesirable] when determining start locations",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+		*/
+	}
 
 	// Terrain features
 	{
@@ -153,7 +235,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105, 125, 72],
-		"occursOn": ["Tundra", "Plains", "Grassland", "Desert", "Snow"],
+		"occursOn": ["Tundra", "Plains", "Grassland", "Desert", "Snow", "Badlands", "Wasteland", "Permafrost"],
 		"uniques": [
 			"Rough terrain",
 			"[+5] Strength for cities built on this terrain",
@@ -175,7 +257,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow"],
+		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow", "Badlands", "Wasteland", "Permafrost"],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
@@ -198,7 +280,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow"],
+		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow", "Badlands", "Wasteland", "Permafrost"],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
@@ -219,7 +301,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
-		"occursOn": ["Snow", "Tundra", "Plains", "Grassland", "Desert"],
+		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Snow", "Badlands", "Wasteland", "Permafrost"],
 		"uniques": [
 			"Nullifies all other stats this tile provides",
 			"Rare feature",
@@ -232,7 +314,7 @@
 		"name": "Spring",
 		"type": "TerrainFeature",
 		"gold": 1,
-		"occursOn": ["Tundra", "Plains", "Grassland"],
+		"occursOn": ["Tundra", "Plains", "Grassland", "Badlands", "Wasteland"],
 		"uniques": [
 			"Rare feature",
 			"Fresh water",
@@ -263,7 +345,10 @@
 			"Hill",
 			"Flood plains",
 			"Marsh",
-			"Swamp"
+			"Swamp",
+			"Badlands",
+			"Wasteland",
+			"Permafrost"
 		],
 		"defenceBonus": -0.3
 	},
@@ -288,7 +373,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert", "Plains", "Grassland"],
+		"occursOn": ["Desert", "Plains", "Grassland", "Badlands", "Wasteland"],
 		"uniques": ["Always Fertility [5] for Map Generation"]
 	},
 	{
@@ -314,7 +399,7 @@
 
 	// Natural Wonders
 	{
-		"name": "Ship Graveyard", // was Great Barrier Reef
+		"name": "Ship Graveyard",
 		"type": "NaturalWonder",
 		"production": 2,
 		"science": 1,
@@ -332,10 +417,10 @@
 		"weight": 10
 	},
 	{
-		"name": "Army Depot", // was Old Faithful
+		"name": "Army Depot",
 		"type": "NaturalWonder",
 		"culture": 1,
-		"occursOn": ["Grassland", "Plains", "Tundra", "Mountain"],
+		"occursOn": ["Grassland", "Plains", "Tundra", "Mountain", "Badlands", "Wasteland"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
@@ -349,11 +434,11 @@
 		"weight": 10
 	},
 	{
-		"name": "Missile Complex", // was El Dorado
+		"name": "Missile Complex",
 		"type": "NaturalWonder",
 		"science": 1,
 		"overrideStats": true,
-		"occursOn": ["Plains"],
+		"occursOn": ["Plains"], // change to Badlands
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
@@ -364,12 +449,12 @@
 		"weight": 2
 	},
 	{
-		"name": "Research Facility", // was Fountain of Youth
+		"name": "Research Facility",
 		"type": "NaturalWonder",
 		"science": 4,
 		"gold": 1,
 		"overrideStats": true,
-		"occursOn": ["Plains"],
+		"occursOn": ["Plains"], // change to Badlands
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
@@ -380,7 +465,7 @@
 		"weight": 1
 	},
 	{
-		"name": "Oasis", // was Grand Mesa
+		"name": "Oasis",
 		"type": "NaturalWonder",
 		"occursOn": ["Desert"],
 		"turnsInto": "Desert",
@@ -388,7 +473,7 @@
 		"gold": 3,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
 			"Must be adjacent to [2] to [6] [Hill] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Fresh water"
@@ -398,7 +483,7 @@
 		"weight": 10
 	},
 	{
-		"name": "Soft Drinks Factory", // was Mount Fuji
+		"name": "Soft Drinks Factory",
 		"type": "NaturalWonder",
 		"gold": 1,
 		"culture": 1,
@@ -418,7 +503,7 @@
 		"weight": 10
 	},
 	{
-		"name": "Isolated Island", // was Krakatoa
+		"name": "Isolated Island",
 		"type": "NaturalWonder",
 		"occursOn": ["Ocean"],
 		"uniques": [
@@ -433,12 +518,12 @@
 		"weight": 10
 	},
 	{
-		"name": "Seed Vault", // was Rock of Gibraltar
+		"name": "Seed Vault",
 		"type": "NaturalWonder",
 		"food": 1,
 		"science": 3,
 		"culture": 1,
-		"occursOn": ["Tundra", "Snow"],
+		"occursOn": ["Tundra", "Snow", "Permafrost"],
 		"uniques": [
 			"Must be adjacent to [1] to [5] [Coast] tiles",
 			"Must be adjacent to [1] [Mountain] tiles",
@@ -450,11 +535,11 @@
 		"weight": 10
 	},
 	{
-		"name": "Hydroelectric Dam", // was Cerro de Potosi
+		"name": "Hydroelectric Dam",
 		"type": "NaturalWonder",
 		"gold": 2,
 		"science": 1,
-		"occursOn": ["Plains", "Mountain"],
+		"occursOn": ["Plains", "Mountain", "Badlands"],
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Lakes] tiles",
 			"Fresh water"
@@ -465,13 +550,13 @@
 		"weight": 5
 	},
 	{
-		"name": "Nuclear Waste Storage", // was Barringer Crater
+		"name": "Nuclear Waste Storage",
 		"type": "NaturalWonder",
 		"culture": 1,
 		"occursOn": ["Desert"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] to [4] [Elevated] tiles",
 			"Must be adjacent to [1] to [6] [Mountain] tiles"
@@ -486,10 +571,10 @@
 		"type": "NaturalWonder",
 		"faith": 1,
 		"culture": 1,
-		"occursOn": ["Desert", "Plains"],
+		"occursOn": ["Desert", "Plains", "Badlands"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [3] to [6] [Desert] tiles"
