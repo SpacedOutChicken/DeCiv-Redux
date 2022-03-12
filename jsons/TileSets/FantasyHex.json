@@ -1,11 +1,12 @@
 {
     "useColorAsBaseTerrain": "false",
     "ruleVariants": {
-        //Legacy hill support
-        /*"Hill": ["Grassland","Hill"],
-        "Hill+Forest+Uranium": ["Grassland","Hill","Uranium","Forest"],
-        "Hill+Forest+Furs": ["Grassland","Hill","Furs","HillForest"],
-        "Hill+Forest+Deer": ["Grassland","Hill","Deer","HillForest"],*/
+        // Hill farm
+        "Grassland+Hill+Farm": ["Grassland","Farm","Hill"],
+        "Plains+Hill+Farm": ["Plains","Farm","Hill"],
+        "Desert+Hill+Farm": ["Desert","Farm","Hill"],
+        "Tundra+Hill+Farm": ["Tundra","Farm","Hill"],
+        "Snow+Hill+Farm": ["Snow","Farm","Hill"],
 		
         //Special forest and jungle
         "Grassland+Forest": ["Grassland","GrasslandForest"],
