@@ -87,7 +87,7 @@
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
 		"uniques": [
-			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
+			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
 			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
