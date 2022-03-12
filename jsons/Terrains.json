@@ -259,7 +259,8 @@
 			"Jungle",
 			"Hill",
 			"Flood plains",
-			"Marsh"
+			"Marsh",
+			"Swamp"
 		],
 		"defenceBonus": -0.3
 	},
@@ -273,6 +274,16 @@
 		"uniques": [
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
+			"Always Fertility [5] for Map Generation"
+		]
+	},
+	{
+		"name": "Swamp",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert", "Plains", "Grassland"],
+		"uniques": [
 			"Always Fertility [5] for Map Generation"
 		]
 	},
