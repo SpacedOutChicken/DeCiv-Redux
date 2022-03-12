@@ -2341,7 +2341,11 @@
 		"name": "Fusion Reactor",
 		"cost": 3750,
 		"isNationalWonder": true,
-		"uniques": ["Provides [8] [Power]", "[+1 Production] [in all cities]"],
+		"uniques": [
+			"Provides [8] [Power]",
+			"Can only be built [in capital]",
+			"[+1 Production] [in all cities connected to the capital]"
+		],
 		"requiredTech": "Future Power"
 	},
 	{

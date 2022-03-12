@@ -610,7 +610,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "NBC Infantry",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"uniques": ["Personnel"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -624,7 +624,7 @@
 		"cost": 225,
 		"upgradesTo": "NBC Infantry",
 		"requiredTech": "Currency",
-		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"uniques": ["Personnel"],
 		"promotions": ["Hazard Pay", "Drone Recon"],
 		"hurryCostModifier": -25,
 		"attackSound": "machinegun"
@@ -679,8 +679,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Weapons]"
+			"Only available <if [Factory] is constructed>"
 		],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
