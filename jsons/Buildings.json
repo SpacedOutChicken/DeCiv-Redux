@@ -40,6 +40,7 @@
 		"cost": 1,
 		"uniques": [
 			"Provides [1] [Power]",
+			"Provides [1] [Weapons]",
 			"Free [Security] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
@@ -105,7 +106,8 @@
 		"uniques": [
 			"[-10]% unhappiness from population [in all cities]",
 			"Free [Swordsman] appears",
-			"Can only be built [in capital]"
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
 		"civilopediaText": [
@@ -128,10 +130,10 @@
 			"Can only be built [in capital]",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
-		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed.",
+		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
 		"civilopediaText": [
 			{
-				"text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be you anointed."
+				"text": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed."
 			}
 		]
 	},
@@ -2344,7 +2346,7 @@
 		"uniques": [
 			"Provides [8] [Power]",
 			"Can only be built [in capital]",
-			"[+1 Production] [in all cities connected to the capital]"
+			"[+1 Production] [in all cities connected to capital]"
 		],
 		"requiredTech": "Future Power"
 	},

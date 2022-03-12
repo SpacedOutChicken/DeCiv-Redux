@@ -378,6 +378,27 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Clan Horseman",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 70,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Hussar",
+		"uniques": ["Low Tech",
+			"Clansman",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-25]% Strength <vs cities>",
+			"Only available <if [Clubhouse] is constructed>",
+			"Only available <in cities with a [Stable]>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"promotions": ["Clansman"]
+	},
+	{
 		"name": "Hussar",
 		"unitType": "Mounted",
 		"interceptRange": 1,
@@ -430,6 +451,8 @@
 		"upgradesTo": "Dragoon",
 		"uniques": [
 			"Low Tech",
+			"Mounted",
+			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
@@ -438,6 +461,32 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
+	{
+		"name": "Rubble Rider",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Skirmisher",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Dragoon",
+		"uniques": ["Low Tech",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities>",
+			"Requires [Stable]",
+			"Only available <in cities with a [Stable]>",
+			"Consumes [1] [Slaves]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"promotions": ["Urban Warfare I"]
+	},	
 	{
 		"name": "Dragoon",
 		"unitType": "Shooter",
@@ -451,6 +500,8 @@
 		"upgradesTo": "Light Cavalry",
 		"uniques": [
 			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Stable]>",
@@ -471,25 +522,13 @@
 		"upgradesTo": "Helicopter",
 		"uniques": [
 			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
 			"Only available <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
-	},
-	{
-		"name": "Security",
-		"unitType": "Scrapper",
-		"uniqueTo": "Blackwarden",
-		"interceptRange": 1,
-		"movement": 2,
-		"strength": 36,
-		"cost": 190,
-		"upgradesTo": "Infantry",
-		"uniques": ["Personnel", "Unbuildable"],
-		"promotions": ["Hazard Pay", "Tear Gas"],
-		"hurryCostModifier": -33,
 		"attackSound": "shot"
 	},
 	{
@@ -521,6 +560,21 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"promotions": ["Forage"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Security",
+		"unitType": "Scrapper",
+		"replaces": "Militia",
+		"uniqueTo": "Blackwarden",
+		"interceptRange": 1,
+		"movement": 2,
+		"strength": 36,
+		"cost": 55,
+		"upgradesTo": "Soldier",
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Hazard Pay", "Tear Gas"],
+		"hurryCostModifier": -33,
 		"attackSound": "shot"
 	},
 	{
@@ -2360,28 +2414,6 @@
 
 	// Fake restriction units
 	
-	{
-		"name": "Clan Can't Build Horseman",
-		"unitType": "Scrapper",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Horseman",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Clan Can't Build Skirmisher",
-		"unitType": "Scrapper",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Skirmisher",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
-		"attackSound": "metalhit"
-	},
 	
 	{
 		"name": "Arroyo Can't Build Cavalry",
