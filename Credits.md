@@ -13,8 +13,9 @@ Buildings:
 * Biosphere Project: [biosphere](https://thenounproject.com/icon/biosphere-4146798/) by Cuputo, ID
 * Bunker: [Bunker](https://thenounproject.com/icon/bunker-1189654/) by Salaidinovich, TR
 * Clan Hideout: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
-* Cryo Project: [Brain In a Jar](https://thenounproject.com/term/brain-in-a-jar/467672/) by Luis Prado, US 
-* Cryo Vault: [Cell Preservation](https://thenounproject.com/term/cell-preservation/10707/) by Luis Prado, US
+* Cryo Sanctum: [Cryogenic Vault](https://thenounproject.com/icon/cryogenic-vault-115036/) by Brandon Gamm, US
+* Cryo Project (deprecated): [Brain In a Jar](https://thenounproject.com/term/brain-in-a-jar/467672/) by Luis Prado, US 
+* Cryo Vault (deprecated): [Cell Preservation](https://thenounproject.com/term/cell-preservation/10707/) by Luis Prado, US
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
 * Greywater Treatment Plant: [Water Filter](https://thenounproject.com/icon/water-filter-1929073/) by Vectors Market
 * Listening Post: [peeping tom](https://thenounproject.com/term/peeping-tom/38344/) by Luis Prado, US

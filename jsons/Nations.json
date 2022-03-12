@@ -87,7 +87,7 @@
 		"style": "Corporate",
 		"uniqueName": "Limited Liability",
 		"uniques": [
-			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
+			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
 			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
@@ -715,7 +715,7 @@
 		"style": "Tribal",
 		"uniques": [
 			"Units fight as though they were at full strength even when damaged",
-			"Gain a free [Atavism] [in all cities]",
+			/*"Gain a free [Atavism] [in all cities]",*/
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units"
 		],
@@ -736,7 +736,7 @@
 			"Units fight as though they were at full strength even when damaged",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
-			"Gain a free [Atavism] [in all cities]",
+			/*"Gain a free [Atavism] [in all cities]",*/
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare II] promotion",
 			"[Low Tech] units gain the [Guerilla Warfare I] promotion",
