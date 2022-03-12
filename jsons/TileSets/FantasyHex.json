@@ -1,13 +1,14 @@
 {
     "useColorAsBaseTerrain": "false",
     "ruleVariants": {
-        // Hill farm
+        // Farm
+        "Snow+Farm": ["Snow","Farm"],
         "Grassland+Hill+Farm": ["Grassland","Farm","Hill"],
         "Plains+Hill+Farm": ["Plains","Farm","Hill"],
         "Desert+Hill+Farm": ["Desert","Farm","Hill"],
         "Tundra+Hill+Farm": ["Tundra","Farm","Hill"],
         "Snow+Hill+Farm": ["Snow","Farm","Hill"],
-		
+
         //Special forest and jungle
         "Grassland+Forest": ["Grassland","GrasslandForest"],
         "Grassland+Jungle": ["Grassland","Jungle"],
@@ -27,22 +28,22 @@
         "Snow+Hill+Jungle": ["Snow","Hill","SnowJungle"],
 
         //Snow improvements for Tundra and Snow
-            //TODO hill and forest variants + new images for Landmark, etc
-            "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],
-            "Tundra+Academy": ["Tundra","Academy"],
-            "Tundra+Citadel": ["Tundra","Citadel"],
-            "Tundra+Ancient ruins": ["Tundra","Ancient ruins-Snow"],
-            "Snow+Barbarian encampment": ["Snow","Barbarian encampment-Snow"],
-            "Snow+Academy": ["Snow","Academy"],
-            "Snow+Citadel": ["Snow","Citadel"],
-            "Snow+Ancient ruins": ["Snow","Ancient ruins-Snow"],
+        //TODO hill and forest variants + new images for Landmark, etc
+        "Tundra+Barbarian encampment": ["Tundra","Barbarian encampment-Snow"],
+        "Tundra+Academy": ["Tundra","Academy"],
+        "Tundra+Citadel": ["Tundra","Citadel"],
+        "Tundra+Ancient ruins": ["Tundra","Ancient ruins-Snow"],
+        "Snow+Barbarian encampment": ["Snow","Barbarian encampment-Snow"],
+        "Snow+Academy": ["Snow","Academy"],
+        "Snow+Citadel": ["Snow","Citadel"],
+        "Snow+Ancient ruins": ["Snow","Ancient ruins-Snow"],
 
         //Sand improvements for Desert
 
         //Jungle improvements for Jungle
 
         //resources behind forest and jungle
-            //TODO all the resources...
+        //TODO all the resources...
         //Grassland
         "Grassland+Jungle+Oil": ["Grassland","Oil","Jungle"],
         "Grassland+Forest+Horses": ["Grassland","Horses","GrasslandForest"],
@@ -158,7 +159,7 @@
         "Tundra+Hill+Jungle+Gems": ["Tundra","Hill","Gems","TundraJungle"],
         "Tundra+Hill+Forest+Silver": ["Tundra","Hill","Silver","TundraHillForest"],
         "Tundra+Hill+Forest+Gems": ["Tundra","Hill","Gems","TundraHillForest"],
-		
+
         "Desert+Wheat+Farm": ["Desert","Farm","Wheat"],
         "Desert+Farm": ["Desert","Farm"],
         "Desert+Flood plains+Wheat+Farm": ["Desert","Flood plains","Farm","Wheat"],
@@ -191,13 +192,12 @@
         "Desert+Hill+Forest+Silver": ["Desert","Hill","Silver","DesertHillForest"],
         "Desert+Hill+Forest+Gems": ["Desert","Hill","Gems","DesertHillForest"],
 
-		
         "Grassland+Forest+Ancient ruins": ["Grassland", "GrasslandForest","Ancient ruins"],
         "Grassland+Cattle+Ancient ruins": ["Grassland","Ancient ruins","Cattle"],
         "Grassland+Sheep+Ancient ruins": ["Grassland","Ancient ruins","Sheep"],
         "Coast+Oil+Oil well": ["Coast","Offshore Platform"],
 
-//Deciv Tile Improvements
+        //Deciv Tile Improvements
         //Salvage site
         "Grassland+Salvage site+Scrap": ["Grassland","Scrap","Salvage site"],
         "Grassland+Forest+Salvage site+Scrap": ["Grassland","Scrap","GrasslandForest","Salvage site"],
@@ -313,6 +313,5 @@
 
         //Furs
         "Grassland+Forest+Furs+Camp": ["Grassland","GrasslandForest","Camp+Furs"]
-
     }
 }
