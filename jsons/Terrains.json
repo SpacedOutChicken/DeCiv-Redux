@@ -39,9 +39,8 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-	{
+	/*{
 		"name": "Wasteland" // will replace Grassland
-		/*
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [97, 171, 58],
@@ -62,8 +61,7 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-		*/
-	},
+	},*/
 	{
 		"name": "Plains", // Badlands
 		"type": "Land",
@@ -89,9 +87,8 @@
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-	{
+	/*{
 		"name": "Badlands" // will replace Plains
-		/*
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [168, 185, 102],
@@ -114,8 +111,7 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-		*/
-	}
+	},*/
 	{
 		"name": "Tundra",
 		"type": "Land",
@@ -208,9 +204,8 @@
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-	{
+	/*{
 		"name": "Permafrost" // will replace Snow
-		/*
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
@@ -223,8 +218,7 @@
 			"Considered [Undesirable] when determining start locations",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-		*/
-	}
+	}*/
 
 	// Terrain features
 	{
