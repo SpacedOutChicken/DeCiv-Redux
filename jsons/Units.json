@@ -627,7 +627,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities>",
-			"Requires [Stable]",
+			"Only available <if [Stable] is constructed>",
 			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Slaves]"
 		],
