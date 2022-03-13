@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains", "Desert", "Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains", "Desert", "Swamp"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
@@ -52,7 +52,8 @@
 			"Hill",
 			"Forest",
 			"Jungle",
-			"Flood plains",
+			"Flood plains", // TODO: Legacy code for compatibility; Remove this
+			"Swamp",
 			"Tundra",
 			"Snow"
 		],
@@ -140,7 +141,7 @@
 	},
 	{
 		"name": "Energy farm",
-		"terrainsCanBeBuiltOn": ["Flood plains"],
+		"terrainsCanBeBuiltOn": ["Swamp"],
 		"production": 1,
 		"gold": -1,
 		"turnsToBuild": 7,
