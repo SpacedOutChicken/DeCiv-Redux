@@ -3,7 +3,7 @@
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
+		"terrainsCanBeFoundOn": ["Plains","Swamp","Desert"],
 		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"food": 1},
@@ -38,7 +38,7 @@
 	{
 		"name": "Scrap",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Grassland"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Grassland", "Swamp"],
 		"production": 1,
 		"improvement": "Salvage site",
 		"improvementStats": {"production": 1},
@@ -51,7 +51,7 @@
 	{
 		"name": "Metal",		//it comes from HELL
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Desert","Snow","Plains","Tundra","Grassland","Hill"],
+		"terrainsCanBeFoundOn": ["Desert","Snow","Plains","Tundra","Grassland","Hill", "Swamp"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -66,7 +66,7 @@
 	{
 		"name": "Insects",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh","Fallout"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh","Fallout", "Swamp"],
 		"food": 1,
 		"improvement": "Camp",
 		"improvementStats": {"food": 1},
@@ -80,7 +80,7 @@
 	{
 		"name": "Plastics",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Hill","Grassland","Coast"],
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Desert","Snow","Marsh","Plains","Tundra","Hill","Grassland","Coast", "Swamp"],
 		"production": 1,
 		"improvement": "Salvage site",
 		"improvementStats": {"production": 1},
@@ -122,7 +122,7 @@
 	{
 		"name": "Oil",
 		"resourceType": "Strategic",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast"],
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Coast", "Swamp"],
 		"production": 1,
 		"improvement": "Oil well",
 		"improvementStats": {"production": 1},
@@ -149,7 +149,7 @@
 		"name": "Coal",
 		"resourceType": "Strategic",
 		"revealedBy": "Writing",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill", "Swamp"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
@@ -183,7 +183,7 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Writing",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Marsh","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Marsh","Grassland", "Swamp"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"food": -1,"production": 2},
@@ -283,18 +283,18 @@
 			"Generated near City States with weight [10]"]
 	},
 	{
-		"name": "Groundwater",
+		"name": "Groundwater", // to be converted to bonus resource
 		"resourceType": "Luxury",
-		"revealedBy": "Radar",
-		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Tundra","Marsh","Snow"],
+		/*"revealedBy": "Radar",
+		"terrainsCanBeFoundOn": ["Desert","Plains","Grassland","Tundra","Marsh","Snow"],*/
 		"improvement": "Water pump",
-		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
+		"improvementStats": {"gold": 1}
+		/*"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Desert] Regions>",
 			"Generated with weight [5] <in [Plains] Regions>",
 			"Generated with weight [10] <in [Grassland] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
-			"Generated near City States with weight [10]"]
+			"Generated near City States with weight [10]"]*/
 	},	
 	{
 		"name": "Soft Drinks",
