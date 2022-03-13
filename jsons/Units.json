@@ -2410,55 +2410,5 @@
 			"[+33]% Strength <vs [Low Tech] units>"
 		],
 		"attackSound": "arrow"
-	},
-
-	// Fake restriction units
-	
-	
-	{
-		"name": "Arroyo Can't Build Cavalry",
-		"unitType": "Scrapper",
-		"uniqueTo": "Arroyo",
-		"replaces": "Cavalry",
-		"requiredTech": "The Wheel",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Arroyo Can't Build Light Cavalry",
-		"unitType": "Scrapper",
-		"uniqueTo": "Arroyo",
-		"replaces": "Light Cavalry",
-		"requiredTech": "The Wheel",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
-	},
-
-	{
-		"name": "Ghost Can't Build Cavalry",
-		"unitType": "Scrapper",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Cavalry",
-		"requiredTech": "The Wheel",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
-	},
-
-	{
-		"name": "Ghost Can't Build Light Cavalry",
-		"unitType": "Scrapper",
-		"uniqueTo": "Ghost Mountain",
-		"replaces": "Light Cavalry",
-		"requiredTech": "The Wheel",
-		"strength": 1,
-		"cost": 1,
-		"obsoleteTech": "The Wheel",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
 	}
 ]
