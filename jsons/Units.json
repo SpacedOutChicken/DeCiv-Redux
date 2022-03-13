@@ -445,7 +445,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]",
@@ -490,7 +490,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]",
@@ -751,7 +751,7 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
@@ -774,7 +774,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
@@ -879,7 +879,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
@@ -899,11 +899,10 @@
 		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
 		"uniques": [
-			// TODO: Confirm whether Henchman is a "Personnel" unit or not
-			"Low Tech",
+			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
@@ -999,7 +998,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
@@ -2386,7 +2385,7 @@
 			"Enslaved",
 			"Consumes [1] [Slaves]",
 			"Unbuildable",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>"
 		],
@@ -2444,7 +2443,7 @@
 			"Enslaved",
 			"Consumes [1] [Slaves]",
 			"Unbuildable",
-			"Can build [Road] improvements on tiles",
+			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"[+33]% Strength <vs [Low Tech] units>"
 		],
