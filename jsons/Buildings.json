@@ -2744,13 +2744,6 @@
 		]
 	},
 	{
-		"name": "Hub Notfactory",
-		"uniqueTo": "The Hub",
-		"replaces": "Factory",
-		"cost": 1,
-		"uniques": ["Will not be displayed in Civilopedia", "Unbuildable"]
-	},
-	{
 		"name": "Hub Work Camp",
 		"uniqueTo": "The Hub",
 		"replaces": "Work Camp",
