@@ -1,5 +1,9 @@
 [
-	// Missiles
+	////////////////////
+	// Base units and player uniques
+	////////////////////
+
+	// Missile
 	{
 		"name": "Divine Spear",
 		"unitType": "Missile",
@@ -55,7 +59,25 @@
 		"attackSound": "nuke"
 	},
 
-	// Decivilized Era
+	// Civilian
+
+	//// Civilian Convoy
+	{
+		"name": "Civilian Convoy",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
+
+	//// Worker
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -79,20 +101,6 @@
 		"cost": 130
 	},
 	{
-		"name": "Civilian Convoy",
-		"unitType": "Civilian",
-		"movement": 3,
-		"cost": 106,
-		"uniques": [
-			"Founds a new city",
-			"[+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing",
-			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
-		],
-		"hurryCostModifier": 20
-	},
-	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
@@ -105,7 +113,200 @@
 		"hurryCostModifier": 20
 	},
 
+	//// Religious
+	{
+		"name": "Philosopher",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [2] times",
+			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Censor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
+		],
+		"movement": 3
+	},
+
+	//// Great People
+	{
+		"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Can construct [Settlement]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Can construct [Oracle]",
+			"Great Person - [Culture]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can construct [Seminary] if it hasn't used other actions yet",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can construct [Academy]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Settlement]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Smuggler",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+			"Can construct [Narcotics farm]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Slave Trader",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Prison farm]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can speed up construction of a building",
+			"Can construct [Manufactory]",
+			"Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"Can construct [Citadel]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Gangboss",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"Can construct [Prison farm]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Bugler",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
+			"Can construct [Outpost]",
+			"Great Person - [War]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 5
+	},
+
 	// Low Tech
+
+	//// Scout
 	{
 		"name": "Scout",
 		"unitType": "Scout",
@@ -133,6 +334,20 @@
 		"uniques": ["Personnel", "[-50]% Strength <vs cities>"],
 		"attackSound": "nonmetalhit"
 	},
+
+	//// Spearman
+	{
+		"name": "Spearman",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "nonmetalhit"
+	},
 	{
 		"name": "Warrior",
 		"unitType": "Scrapper",
@@ -144,26 +359,8 @@
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Rifling",
-		"uniques": [
-			"Low Tech",
-			"[+50]% Strength <vs [Mounted] units>"
-		],
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Raider"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Spearman",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 20,
-		"cost": 50,
-		"upgradesTo": "Militia",
-		"hurryCostModifier": 20,
-		"obsoleteTech": "Rifling",
-		"uniques": [
-			"Low Tech",
-			"[+50]% Strength <vs [Mounted] units>"
-		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -198,6 +395,45 @@
 		"promotions": ["Clansman"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Surveyor",
+		"unitType": "Scrapper",
+		"uniqueTo": "Atlas",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"Can build [Land] improvements on tiles",
+			"[+50]% Strength <when defending>"
+		],
+		"promotions": ["Medic I"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Swordsman",
+		"unitType": "Scrapper",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 20,
+		"cost": 45,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Legion",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <vs cities>",
+			"[+25]% Strength <vs [Low Tech] units>"
+		],
+		"attackSound": "metalhit"
+	},
+
+	//// Auxiliary
 	{
 		"name": "Auxiliary",
 		"unitType": "Scrapper",
@@ -237,77 +473,8 @@
 		"promotions": ["Forage", "Urban Warfare I"],
 		"attackSound": "nonmetalhit"
 	},
-	{
-		"name": "Surveyor",
-		"unitType": "Scrapper",
-		"uniqueTo": "Atlas",
-		"replaces": "Spearman",
-		"movement": 2,
-		"strength": 20,
-		"cost": 50,
-		"upgradesTo": "Militia",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Low Tech",
-			"Can build [Land] improvements on tiles",
-			"[+50]% Strength <when defending>"
-		],
-		"promotions": ["Medic I"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Swordsman",
-		"unitType": "Scrapper",
-		"uniqueTo": "Crimson Legion",
-		"replaces": "Spearman",
-		"movement": 2,
-		"strength": 20,
-		"cost": 45,
-		"requiredTech": "The Wheel",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Legion",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Low Tech",
-			"[+25]% Strength <vs cities>",
-			"[+25]% Strength <vs [Low Tech] units>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Legion",
-		"unitType": "Scrapper",
-		"uniqueTo": "Crimson Legion",
-		"replaces": "Militia",
-		"movement": 2,
-		"strength": 24,
-		"cost": 50,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Soldier",
-		"uniques": [
-			"Low Tech",
-			"[+50]% Strength <vs cities>",
-			"[+50]% Strength <vs [Low Tech] units>",
-			"Only available <if [Forge] is constructed>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Archer",
-		"unitType": "Shooter",
-		"range": 1,
-		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 15,
-		"cost": 55,
-		"hurryCostModifier": 20,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Gunman",
-		"uniques": ["Low Tech", "[+33]% Strength <vs [Low Tech] units>"],
-		"attackSound": "arrow"
-	},
+
+	//// Crossbowman
 	{
 		"name": "Crossbowman",
 		"unitType": "Shooter",
@@ -356,7 +523,24 @@
 		"attackSound": "arrow"
 	},
 
-	// Cavalry
+	//// Archer
+	{
+		"name": "Archer",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": ["Low Tech", "[+33]% Strength <vs [Low Tech] units>"],
+		"attackSound": "arrow"
+	},
+
+	//// Mounted
 	{
 		"name": "Horseman",
 		"unitType": "Mounted",
@@ -388,55 +572,17 @@
 		"requiredTech": "Redomestication",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Hussar",
-		"uniques": ["Low Tech",
+		"uniques": [
+			"Low Tech",
 			"Clansman",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities>",
 			"Only available <if [Clubhouse] is constructed>",
-			"Only available <in cities with a [Stable]>"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse",
-		"promotions": ["Clansman"]
-	},
-	{
-		"name": "Hussar",
-		"unitType": "Mounted",
-		"interceptRange": 1,
-		"movement": 4,
-		"strength": 36,
-		"cost": 75,
-		"requiredTech": "Redomestication",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Cavalry",
-		"uniques": [
-			"Personnel",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-50]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>",
-			"Consumes [1] [Weapons]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
-	},
-	{
-		"name": "Cavalry",
-		"unitType": "Mounted",
-		"interceptRange": 1,
-		"movement": 4,
-		"strength": 36,
-		"cost": 120,
-		"requiredTech": "Rifling",
-		"upgradesTo": "Tank",
-		"uniques": [
-			"Personnel",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-50]% Strength <vs cities>",
 			"Only available <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "horse",
+		"promotions": ["Clansman"]
 	},
 	{
 		"name": "Skirmisher",
@@ -474,7 +620,8 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Dragoon",
-		"uniques": ["Low Tech",
+		"uniques": [
+			"Low Tech",
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -482,55 +629,37 @@
 			"[-33]% Strength <vs cities>",
 			"Requires [Stable]",
 			"Only available <in cities with a [Stable]>",
-			"Consumes [1] [Slaves]"],
+			"Consumes [1] [Slaves]"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
 		"promotions": ["Urban Warfare I"]
-	},	
-	{
-		"name": "Dragoon",
-		"unitType": "Shooter",
-		"range": 1,
-		"movement": 4,
-		"strength": 30,
-		"rangedStrength": 24,
-		"cost": 80,
-		"requiredTech": "Redomestication",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Light Cavalry",
-		"uniques": [
-			"Personnel",
-			"Mounted",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>",
-			"Consumes [1] [Weapons]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
 	},
+
+	//// Unique
 	{
-		"name": "Light Cavalry",
-		"unitType": "Shooter",
-		"range": 1,
-		"movement": 4,
-		"strength": 30,
-		"rangedStrength": 24,
-		"cost": 115,
-		"requiredTech": "Rifling",
-		"upgradesTo": "Helicopter",
+		"name": "Legion",
+		"unitType": "Scrapper",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Soldier",
 		"uniques": [
-			"Personnel",
-			"Mounted",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>"
+			"Low Tech",
+			"[+50]% Strength <vs cities>",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Only available <if [Forge] is constructed>"
 		],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "metalhit"
 	},
+
+	// Personnel
+
+	//// Melee (Scrapper)
 	{
 		"name": "Militia",
 		"unitType": "Scrapper",
@@ -594,8 +723,6 @@
 		"promotions": ["Raider"],
 		"attackSound": "machinegun"
 	},
-
-	// T1
 	{
 		"name": "Soldier",
 		"unitType": "Scrapper",
@@ -772,6 +899,7 @@
 		"requiredTech": "Plastics",
 		"hurryCostModifier": 20,
 		"uniques": [
+			// TODO: Confirm whether Henchman is a "Personnel" unit or not
 			"Low Tech",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
@@ -794,9 +922,14 @@
 		"requiredTech": "Future Materials",
 		"requiredResource": "Aluminum",
 		"hurryCostModifier": 50,
-		"uniques": ["Only available <if [Factory] is constructed>"],
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>"
+		],
 		"attackSound": "machinegun"
 	},
+	*/
+	/*
 	{
 		"name": "Combat Suit",
 		"unitType": "Scrapper",
@@ -806,12 +939,16 @@
 		"cost": 230,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,
-		"uniques": ["Requires [Suit Factory]","No defensive terrain bonus"],
+		"uniques": [
+			"Personnel",
+			"Requires [Suit Factory]",
+			"No defensive terrain bonus"
+		],
 		"attackSound": "machinegun"
 	},
 	*/
 
-	// Range
+	//// Ranged (Shooter)
 	{
 		"name": "Gunman",
 		"unitType": "Shooter",
@@ -914,9 +1051,11 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "NBC Marksman",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel",
-			"Consumes [1] [Weapons]"],
-		"promotions": ["Reconnaissance I","Extended Range"],
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Reconnaissance I", "Extended Range"],
 		"attackSound": "shot"
 	},
 	*/
@@ -1009,11 +1148,100 @@
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,		
-		"uniques": ["Personnel","Only available <if [Factory] is constructed>"],
-		"promotions": ["Reconnaissance I","Gas Mask","Extended Range"],
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>"
+		],
+		"promotions": ["Reconnaissance I", "Gas Mask", "Extended Range"],
 		"attackSound": "shot"
 	},
 	*/
+
+	//// Mounted
+	{
+		"name": "Hussar",
+		"unitType": "Mounted",
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 36,
+		"cost": 75,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>",
+			"Consumes [1] [Weapons]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 36,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Dragoon",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"cost": 80,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>",
+			"Consumes [1] [Weapons]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Light Cavalry",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"cost": 115,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
 
 	// Siege
 	{
@@ -1179,8 +1407,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
-
-	// T1
 	{
 		"name": "Armored Car",
 		"unitType": "Armor",
@@ -1244,30 +1470,6 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Technical",
-		"unitType": "Siege",
-		"range": 1,
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 50,
-		"cost": 150,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Missile Vehicle",
-		"obsoleteTech": "Lasers",
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs [Armor] units>",
-			"[-50]% Strength <vs cities>",
-			"May withdraw before melee ([75]%)",
-			"Consumes [1] [Oil]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "tankshot"
-	},
-
-	// T2
-	{
 		"name": "Tank",
 		"unitType": "Armor",
 		"movement": 4,
@@ -1286,8 +1488,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	},
-
-	// T3
 	{
 		"name": "Modern Armor",
 		"unitType": "Armor",
@@ -1302,6 +1502,50 @@
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Advanced Armor",
+		"unitType": "Armor",
+		"movement": 5,
+		"strength": 90,
+		"cost": 425,
+		"requiredTech": "Energy Weapons",
+		// "upgradesTo": "Giant Death Robot",
+		// "obsoleteTech": "Nuclear Fusion",
+		"uniques": [
+			"Can move after attacking",
+			"[-25]% Strength <vs cities>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"promotions": ["Point Defense Laser", "Drone Recon"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+
+	// Self-propelled artillery
+	{
+		"name": "Technical",
+		"unitType": "Siege",
+		"range": 1,
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 50,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Missile Vehicle",
+		"obsoleteTech": "Lasers",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs [Armor] units>",
+			"[-50]% Strength <vs cities>",
+			"May withdraw before melee ([75]%)",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -1371,28 +1615,8 @@
 		"hurryCostModifier": 20,
 		"attackSound": "missile"
 	},
-	{
-		"name": "Advanced Armor",
-		"unitType": "Armor",
-		"movement": 5,
-		"strength": 90,
-		"cost": 425,
-		"requiredTech": "Energy Weapons",
-		// "upgradesTo": "Giant Death Robot",
-		// "obsoleteTech": "Nuclear Fusion",
-		"uniques": [
-			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
-			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
-		],
-		"promotions": ["Point Defense Laser", "Drone Recon"],
-		"hurryCostModifier": 20,
-		"attackSound": "tankshot"
-	},
 
-	// Helicopters
+	// Helicopter
 	{
 		"name": "Helicopter",
 		"unitType": "Helicopter",
@@ -1441,6 +1665,8 @@
 	},
 
 	// Air
+
+	//// Fighter
 	{
 		"name": "Fighter",
 		"unitType": "Fighter",
@@ -1460,44 +1686,6 @@
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "machinegun"
-	},
-	{
-		"name": "Bomber",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 30,
-		"rangedStrength": 50,
-		"range": 10,
-		"cost": 185,
-		"requiredTech": "Flight",
-		"upgradesTo": "Strike Drone",
-		"uniques": [
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
-		],
-		"obsoleteTech": "Lasers",
-		"hurryCostModifier": 20,
-		"attackSound": "bombing"
-	},
-
-	{
-		"name": "Strike Drone",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 50,
-		"range": 10,
-		"cost": 300,
-		"requiredTech": "Avionics",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"6 tiles in every direction always visible",
-			"Only available <if [Factory] is constructed>",
-			"Only available <in cities with a [Factory]>",
-			"Consumes [1] [Aluminum]"
-		],
-		"promotions": ["Automated"],
-		"attackSound": "jetgun"
 	},
 	{
 		"name": "Jet Fighter",
@@ -1539,7 +1727,48 @@
 		"attackSound": "jetgun"
 	},
 
-	// Naval
+	//// Bomber
+	{
+		"name": "Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 50,
+		"range": 10,
+		"cost": 185,
+		"requiredTech": "Flight",
+		"upgradesTo": "Strike Drone",
+		"uniques": [
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"obsoleteTech": "Lasers",
+		"hurryCostModifier": 20,
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Strike Drone",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 50,
+		"range": 10,
+		"cost": 300,
+		"requiredTech": "Avionics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"6 tiles in every direction always visible",
+			"Only available <if [Factory] is constructed>",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Aluminum]"
+		],
+		"promotions": ["Automated"],
+		"attackSound": "jetgun"
+	},
+
+	// Water
+
+	//// Melee Water
 	{
 		"name": "Dinghy",
 		"unitType": "Melee Water",
@@ -1652,6 +1881,8 @@
 		"hurryCostModifier": 25,
 		"attackSound": "shot"
 	},
+
+	//// Ranged Water
 	{
 		"name": "Destroyer",
 		"unitType": "Ranged Water",
@@ -1675,23 +1906,6 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Carrier",
-		"unitType": "Aircraft Carrier",
-		"movement": 5,
-		"strength": 35,
-		"rangedStrength": 40,
-		"interceptRange": 2,
-		"cost": 400,
-		"requiredTech": "Radar",
-		"uniques": [
-			"Can carry [2] [Aircraft] units",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "shipguns"
-	},
-	{
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -1706,6 +1920,25 @@
 			"Consumes [1] [Oil]"
 		],
 		"promotions": ["Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+
+	//// Others (Carrier, Submarine)
+	{
+		"name": "Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 40,
+		"interceptRange": 2,
+		"cost": 400,
+		"requiredTech": "Radar",
+		"uniques": [
+			"Can carry [2] [Aircraft] units",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
@@ -1747,198 +1980,11 @@
 		"attackSound": "torpedo"
 	},
 
-	// Religious
-	{
-		"name": "Philosopher",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can [Spread Religion] [2] times",
-			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight",
-			"Unbuildable",
-			"Religious Unit",
-			"Hidden when religion is disabled"
-		],
-		"movement": 4,
-		"religiousStrength": 1000
-	},
-	{
-		"name": "Censor",
-		"unitType": "Civilian",
-		"uniques": [
-			"Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [2] times",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Sight",
-			"Hidden when religion is disabled",
-			"Unbuildable",
-			"Religious Unit"
-		],
-		"movement": 3
-	},
-
-	// Great people
-	{
-		"name": "Great Administrator",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Can construct [Settlement]",
-			"Great Person - [Culture]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Prophet",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great Administrator",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Can construct [Oracle]",
-			"Great Person - [Culture]",
-			"Uncapturable",
-			"Unbuildable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Sage",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can construct [Seminary] if it hasn't used other actions yet",
-			"Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion",
-			"May found a religion",
-			"May enhance a religion",
-			"May enter foreign tiles without open borders",
-			"[-1] Sight",
-			"Great Person - [Faith]",
-			"Unbuildable",
-			"Uncapturable",
-			"Religious Unit",
-			"Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"
-		],
-		"movement": 2,
-		"religiousStrength": 1000
-	},
-	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can hurry technology research",
-			"Can construct [Academy]",
-			"Great Person - [Science]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Settlement]",
-			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Smuggler",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-			"Invisible to non-adjacent units",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
-			"Can construct [Narcotics farm]",
-			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Slave Trader",
-		"uniqueTo": "Crimson Legion",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Prison farm]",
-			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can speed up construction of a building",
-			"Can construct [Manufactory]",
-			"Great Person - [Production]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
-			"Can construct [Citadel]",
-			"Great Person - [War]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Gangboss",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can build [Land] improvements on tiles",
-			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
-			"Can construct [Prison farm]",
-			"Great Person - [War]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Bugler",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
-			"All adjacent units heal [+15] HP when healing",
-			"[+15] HP when healing",
-			"Can construct [Outpost]",
-			"Great Person - [War]",
-			"Uncapturable",
-			"Unbuildable"
-		],
-		"movement": 5
-	},
-
+	////////////////////
 	// Non-player uniques
+	////////////////////
+
+	// Barbarians
 	{
 		"name": "Biker",
 		"unitType": "Mounted",
@@ -2127,7 +2173,7 @@
 		"attackSound": "shot"
 	},
 
-	// City-state uniques
+	// City-states
 	{
 		"name": "Howitzer",
 		"unitType": "Siege",
@@ -2213,7 +2259,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
-
 	{
 		"name": "Arroyo Defender",
 		"unitType": "Scrapper",
@@ -2270,7 +2315,6 @@
 		],
 		"attackSound": "machinegun"
 	},
-
 	{
 		"name": "Ghost Defender",
 		"unitType": "Scrapper",
@@ -2306,7 +2350,6 @@
 		"promotions": ["Skirmish"],
 		"attackSound": "arrow"
 	},
-
 	{
 		"name": "Ghost Machine Gun",
 		"unitType": "Siege",
@@ -2361,9 +2404,7 @@
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
-		"uniques": ["Personnel",
-			"Consumes [1] [Weapons]",
-			"Unbuildable"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Unbuildable"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -2381,9 +2422,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Rifleman",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel",
-			"Consumes [1] [Weapons]",
-			"Unbuildable"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
