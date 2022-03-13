@@ -162,8 +162,11 @@
 
         "Desert+Wheat+Farm": ["Desert","Farm","Wheat"],
         "Desert+Farm": ["Desert","Farm"],
+        // TODO: Remove legacy Flood plains entries
         "Desert+Flood plains+Wheat+Farm": ["Desert","Flood plains","Farm","Wheat"],
         "Desert+Flood plains+Farm": ["Desert","Flood plains","Farm"],
+        "Desert+Swamp+Wheat+Farm": ["Desert","Swamp","Farm","Wheat"],
+        "Desert+Swamp+Farm": ["Desert","Swamp","Farm"],
         "Desert+Forest+Iron": ["Tundra","Iron","DesertForest"],
         "Desert+Forest+Coal": ["Tundra","Coal","DesertForest"],
         "Desert+Forest+Aluminum": ["Tundra","Aluminum","DesertForest"],

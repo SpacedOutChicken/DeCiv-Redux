@@ -1,72 +1,80 @@
 [
-    {
-        "name": "Civilian",
-        "movementType": "Land"
-    },
-    {
-        "name": "Scrapper", //melee
-        "movementType": "Land"
-    },
-    {
-        "name": "Shooter", //ranged
-        "movementType": "Land"
-    },
-    {
-        "name": "Scout",
-        "movementType": "Land"
-    },
-    {
-        "name": "Mounted",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armor",
-        "movementType": "Land"
-    },
-    {
-        "name": "Siege",
-        "movementType": "Land"
-    },
-    {
-        "name": "Civilian Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Melee Water",
-        "movementType": "Water",
-        "uniques": ["Can move after attacking"]
-    },
-    {
-        "name": "Ranged Water",
-        "movementType": "Water"
-    },
-    {
-        "name": "Submarine",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
-    },
-    {
-        "name": "Aircraft Carrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "Fighter",
-        "movementType": "Air",
-        "uniques": ["Aircraft", "6 tiles in every direction always visible"]
-    },
-    {
-        "name": "Bomber",
-        "movementType": "Air",
-        "uniques": ["Aircraft"]
-    },
-    {
-        "name": "Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
-        "name": "Helicopter",
-        "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "No defensive terrain bonus"]
-    }
+	{
+		"name": "Civilian",
+		"movementType": "Land"
+	},
+	{
+		"name": "Scrapper", // Melee
+		"movementType": "Land"
+	},
+	{
+		"name": "Shooter", // Ranged
+		"movementType": "Land"
+	},
+	{
+		"name": "Scout",
+		"movementType": "Land"
+	},
+	{
+		"name": "Mounted",
+		"movementType": "Land"
+	},
+	{
+		"name": "Armor",
+		"movementType": "Land"
+	},
+	{
+		"name": "Siege",
+		"movementType": "Land"
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Melee Water",
+		"movementType": "Water",
+		"uniques": ["Can move after attacking"]
+	},
+	{
+		"name": "Ranged Water",
+		"movementType": "Water"
+	},
+	{
+		"name": "Submarine",
+		"movementType": "Water",
+		"uniques": [
+			"Can enter ice tiles",
+			"Invisible to non-adjacent units",
+			"Can see invisible [Submarine] units"
+		]
+	},
+	{
+		"name": "Aircraft Carrier",
+		"movementType": "Water"
+	},
+	{
+		"name": "Fighter",
+		"movementType": "Air",
+		"uniques": ["Aircraft", "6 tiles in every direction always visible"]
+	},
+	{
+		"name": "Bomber",
+		"movementType": "Air",
+		"uniques": ["Aircraft"]
+	},
+	{
+		"name": "Missile",
+		"movementType": "Air",
+		"uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+	},
+	{
+		"name": "Helicopter",
+		"movementType": "Land",
+		"uniques": [
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"No defensive terrain bonus"
+		]
+	}
 ]
