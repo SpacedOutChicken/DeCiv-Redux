@@ -168,7 +168,7 @@
 		]
 	},
 	{
-		"name": "Forest", // Rubble
+		"name": "Forest", // TODO: Rename this to Rubble?
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 2,
@@ -191,7 +191,7 @@
 		]
 	},
 	{
-		"name": "Jungle", // Ruins
+		"name": "Jungle", // TODO: Rename this to Ruins?
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 2,
@@ -214,7 +214,7 @@
 		]
 	},
 	{
-		"name": "Marsh", // Toxic Waste
+		"name": "Marsh", // TODO: Rename this to Toxic Waste?
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"unbuildable": true,
