@@ -16,6 +16,7 @@ Units
 * power armor: infantry and armor units to add
 * mechanized worker
 * naval units
+* hover drone
 
 Translation files
 * update template
