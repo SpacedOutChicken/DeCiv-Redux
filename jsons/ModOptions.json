@@ -6,8 +6,8 @@
         "Can trade civilization introductions for [100] Gold"
     ],
     "constants": {
-        "cityStrengthBase": 20.0, // Default was 8.0
-        "cityStrengthPerPop": 0.5, // Default was 0.4
-        "maxXPfromBarbarians": 100 // Default was 30
+        "cityStrengthBase": 20.0,
+        "cityStrengthPerPop": 0.5,
+        "maxXPfromBarbarians": 100
     }
 }

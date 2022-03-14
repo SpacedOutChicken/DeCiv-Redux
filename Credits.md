@@ -1,10 +1,12 @@
-This list is incomplete    
-Several images taken from base game - see [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md)    
+# Credits
+
+This list is incomplete<br>
+Several images taken from base game - see [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md)<br>
 Credit given whenever I know the source of an image - if you spot one you recognize, let me know the source!
 
 Lots and lots of pixel art by GeneralWadaling, AKA The Bucketeer, with some by AdityaMH and some by me
 
-**From the Noun Project:**
+## From the Noun Project
 
 Buildings:
 * Arcology Dome: [dome](https://thenounproject.com/term/dome/945836/) by Lluisa Iborra, ES
@@ -47,7 +49,7 @@ Units:
 Icons:
 * Faith icon: [Thought](https://thenounproject.com/term/thought/608383/) by Hea Poh Lin, MY 
 
-**From Wikimedia Commons:**
+## From Wikimedia Commons
 
 Nations:
 * New Afrika: [Fist](https://commons.wikimedia.org/wiki/File:Fist.png)
