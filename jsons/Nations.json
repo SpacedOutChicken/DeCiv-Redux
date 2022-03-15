@@ -32,7 +32,7 @@
 		"uniqueName": "Rubble Runners",
 		"uniques": [
 			"[Civilian] units gain the [Urban Warfare I] promotion",
-			"[Low Tech] units gain the [Urban Warfare I] promotion",
+			"[{Land} {Low Tech}] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			"Starts with [Redomestication]"
@@ -335,7 +335,7 @@
 		"uniques": [
 			"Units ignore terrain costs when moving into any tile with Hills",
 			"No Maintenance costs for improvements in [Hill] tiles",
-			"[Low Tech] units gain the [Guerilla Warfare I] promotion",
+			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"Starts with [Redomestication]"
 		],
@@ -743,8 +743,8 @@
 			/*"Gain a free [Atavism] [in all cities]",*/
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare II] promotion",
-			"[Low Tech] units gain the [Guerilla Warfare I] promotion",
-			"[Low Tech] units gain the [Guerilla Warfare II] promotion",
+			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
+			"[{Land} {Low Tech}] units gain the [Guerilla Warfare II] promotion",
 			"Units ignore terrain costs when moving into any tile with Hills"
 		],
 		"declaringWar": "You leave us no choice. War it must be.",
