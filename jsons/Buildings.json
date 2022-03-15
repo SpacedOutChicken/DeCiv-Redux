@@ -612,7 +612,11 @@
 		"name": "Cryo Project", // deprecated - remove on April 12
 		"isWonder": true,
 		"requiredTech": "Human Genome",
-		"uniques": ["Enables construction of Cryo Vaults","Unbuildable","Will not be displayed in Civilopedia"],
+		"uniques": [
+			"Enables construction of Cryo Vaults",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia"
+		],
 		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us.",
 		"civilopediaText": [
 			{
@@ -628,12 +632,14 @@
 		"science": 2,
 		"cityStrength": 10,
 		"cityHealth": 50,
-		"percentStatBonus": {"culture": 10},
+		"percentStatBonus": { "culture": 10 },
 		"requiredTech": "Human Genome",
-		"uniques": ["Empire enters golden age",
+		"uniques": [
+			"Empire enters golden age",
 			"Free Social Policy",
 			"Free Technology",
-			"[-1] population [in all cities]"],
+			"[-1] population [in all cities]"
+		],
 		"quote": "A fortified, self sustaining bunker where, with minimal staffing and maintenance, survivors can wait in suspended animation, in theory to emerge when conditions are more favourable to life.",
 		"civilopediaText": [
 			{
@@ -2525,7 +2531,8 @@
 	// City-state uniques
 	{
 		"name": "Atavism", // deprecated - remove on April 12
-		"uniques": ["Only available <in cities without a [Library]>",
+		"uniques": [
+			"Only available <in cities without a [Library]>",
 			"Only available <in cities without a [Factory]>",
 			"Only available <in cities without a [Oil Plant]>",
 			"Only available <in cities without a [Tidal Plant]>",
@@ -2535,8 +2542,9 @@
 			"Will not be displayed in Civilopedia",
 			"Destroyed when the city is captured",
 			"Unsellable",
-			"Unbuildable"]
-	}
+			"Unbuildable"
+		]
+	},
 	{
 		"name": "Archive of the Arts",
 		"uniqueTo": "The Archive",
