@@ -613,19 +613,10 @@
 	},
 
 	////////////////////
-	// Special promotions
+	// Special and unique promotions
 	////////////////////
 
-	// Drone
-	{
-		"name": "Drone Recon",
-		"uniques": [
-			"[+1] Sight",
-			"Can see invisible [Land] units",
-			"[25]% XP gained from combat",
-			"[Great General] is earned [-20]% faster"
-		]
-	},
+	// Land-ish
 	{
 		"name": "Drone Support",
 		"prerequisites": ["Drone Recon"],
@@ -640,8 +631,6 @@
 		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
 	},
-
-	//// Land-ish
 	{
 		"name": "Infantry Mortar",
 		"prerequisites": ["Infantry Weapons"],
@@ -687,7 +676,7 @@
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
 	},
 
-	//// Air-ish
+	// Air-ish
 	{
 		"name": "Cluster Munitions",
 		"prerequisites": ["Advanced Weapons"],
@@ -721,7 +710,16 @@
 		"unitTypes": ["Fighter", "Bomber", "Siege", "Helicopter"]
 	},
 
-	// Unique promotions
+	// 'Given' promotions
+	{
+		"name": "Drone Recon",
+		"uniques": [
+			"[+1] Sight",
+			"Can see invisible [Land] units",
+			"[25]% XP gained from combat",
+			"[Great General] is earned [-20]% faster"
+		]
+	},
 	{
 		"name": "Infantry Weapons",
 		"uniques": [
