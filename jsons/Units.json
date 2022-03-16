@@ -1800,7 +1800,11 @@
 		"cost": 50,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Patrol Boat",
-		"uniques": ["May withdraw before melee ([66]%)"],
+		"uniques": [
+			"Low Tech",
+			"Cannot enter ocean tiles",
+			"May withdraw before melee ([66]%)"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1814,7 +1818,10 @@
 		"cost": 50,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Patrol Boat",
-		"uniques": ["May withdraw before melee ([66]%)"],
+		"uniques": [
+			"Low Tech",
+			"May withdraw before melee ([66]%)"
+		],
 		"attackSound": "nonmetalhit",
 		"promotions": ["Littoral Warfare"]
 	},
