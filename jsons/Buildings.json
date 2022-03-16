@@ -2212,7 +2212,7 @@
 		"isNationalWonder": true,
 		"happiness": 1,
 		"uniques": [
-			"[Low Tech] units gain the [Drone Recon] promotion",
+			"[{Land} {Low Tech}] units gain the [Drone Recon] promotion",
 			"[Personnel] units gain the [Drone Recon] promotion",
 			"Consumes [1] [Power]"
 		],
