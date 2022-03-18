@@ -327,7 +327,7 @@
 	},
 	{
 		"name": "Private",
-		"unitType": "Scout",
+		"unitType": "Scrapper",
 		"uniqueTo": "The Patriots",
 		"replaces": "Scout",
 		"movement": 2,
@@ -707,9 +707,11 @@
 		"interceptRange": 1,
 		"cost": 55,
 		"upgradesTo": "Soldier",
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"promotions": ["Hazard Pay", "Tear Gas"],
-		"hurryCostModifier": -33,
+		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
 	{
