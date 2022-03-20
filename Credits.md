@@ -4,7 +4,11 @@ This list is incomplete<br>
 Several images taken from base game - see [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md)<br>
 Credit given whenever I know the source of an image - if you spot one you recognize, let me know the source!
 
-Lots and lots of pixel art by GeneralWadaling, AKA The Bucketeer, with some by AdityaMH and some by me
+Lots of art, including unit icons and Natural (Ancient) Wonder pixel art, believed to be by [9kgsofrice](https://github.com/9kgsofrice)<br>
+Lots and lots of pixel art, including Rubble, Ruins, tile improvements, and unit sprites, by [GeneralWadaling](https://github.com/GeneralWadaling), AKA The Bucketeer<br>
+Base terrains by [AdityaMH](https://github.com/AdityaMH)<br>
+May contain art by [LynxRo](https://github.com/lynxro)<br>
+Some minor edits made by me
 
 ## From the Noun Project
 
@@ -32,7 +36,11 @@ Buildings:
 Policies:
 * Entrepreneurship: [Entrepreneur](https://thenounproject.com/term/entrepreneur/2338644/) by Kiran Shastry, IN
 
+Religions:
+* Objectivism: based on [Spray](https://thenounproject.com/icon/spray-2975166/) by Grafix Point, PK
+
 Resources:
+* Furs: [Rat](https://thenounproject.com/icon/rat-2193355/) by designer468, ID
 * Honey: [Beehive](https://thenounproject.com/icon/beehive-727898/) by Juraj Sedlak, SK
 * Hogs: [Boar](https://thenounproject.com/icon/boar-931007/) by parkjisun
 * Jellyfish: [Jellyfish](https://thenounproject.com/term/jellyfish/53744/) by Eliricon, FI
@@ -44,6 +52,7 @@ Technologies:
 Units:
 * Censor: [Blind](https://thenounproject.com/icon/blind-2139794/) by Nubaia Karim Barsha
 * Corvette: [warship](https://thenounproject.com/term/warship/1806952/) by Abdul Wahhab 
+* Forward Observer: [Road Bike](https://thenounproject.com/icon/road-bike-1155041/) by Liv Iko
 * Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
 
 Icons:

@@ -553,7 +553,7 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 70,
-		// "requiredTech": "Redomestication",
+		"requiredTech": "Redomestication",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Hussar",
 		"uniques": [
@@ -765,6 +765,21 @@
 			"Consumes [1] [Slaves]"
 		],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Forward Observer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"interceptRange": 1,
+		"cost": 55,
+		"hurryCostModifier": 20,
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
+			"Personnel",
+			"[+1] Sight"
+		],
+		"promotions": ["Reconnaissance I", "Skirmish"]
 	},
 	{
 		"name": "Rubble Militia",
