@@ -420,7 +420,10 @@
 			"Flight Deck II",
 			"Wolfpack I"
 		],
-		"uniques": ["[+1] Movement", "[+25]% to Flank Attack bonuses"],
+		"uniques": [
+			"[+1] Movement",
+			"[+25]% to Flank Attack bonuses"
+		],
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water",
@@ -520,6 +523,20 @@
 		"unitTypes": ["Shooter", "Siege", "Helicopter", "Ranged Water"]
 	},
 	{
+		"name": "Amphibious",
+		"prerequisites": [
+			"Blitz",
+			"March",
+			"Extended Range"
+		],
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Scout"]
+	},
+	{
 		"name": "Operational Range",
 		"prerequisites": [
 			"Interception I",
@@ -548,10 +565,11 @@
 			"Interception III",
 			"Siege III",
 			"Sortie",
-			"Evasive Maneuvers"
+			"Evasive Maneuvers",
+			"Logistics"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Fighter", "Bomber"]
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Logistics",
@@ -616,6 +634,39 @@
 	// Special and unique promotions
 	////////////////////
 
+	// Prerequisite promotions
+
+	{
+		"name": "Drone Recon",
+		"uniques": [
+			"[+1] Sight",
+			"[25]% XP gained from combat",
+			"Only available <if [Ground Control Center] is constructed>"
+		],
+		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout", "Armor"]
+	},
+	{
+		"name": "Infantry Weapons",
+		"uniques": [
+			"[+25]% Strength <vs [Low Tech] units>",
+			"[+50]% Strength <vs cities>",
+			"Only available <if [Armaments Production Line] is constructed>"
+		],
+		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout"]
+	},
+	{
+		"name": "Artillery",
+		"uniques": ["Ranged attacks may be performed over obstacles"]
+	},
+	{
+		"name": "Advanced Weapons",
+		"uniques": [
+			"[+5]% Strength <when attacking>",
+			"Only available <if [Aerospace Facility] is constructed>"
+		],
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
+	},
+
 	// Land-ish
 	{
 		"name": "Drone Support",
@@ -649,7 +700,6 @@
 			"Scrapper",
 			"Shooter",
 			"Siege",
-			"Helicopter",
 			"Ranged Water"
 		]
 	},
@@ -663,7 +713,7 @@
 		"name": "Antitank Missile",
 		"prerequisites": ["Advanced Weapons", "Infantry Weapons"],
 		"uniques": ["[+66]% Strength <vs [Armor] units>"],
-		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Fighter", "Bomber"]
+		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Surface-to-Air Missile",
@@ -685,7 +735,7 @@
 			"[+50]% Strength <vs [Personnel] units>",
 			"[+50]% Strength <vs cities>"
 		],
-		"unitTypes": ["Fighter", "Bomber"]
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Napalm",
@@ -695,46 +745,23 @@
 			"[+33]% Strength <when fighting in [Jungle] tiles>",
 			"[+50]% Strength <vs cities>"
 		],
-		"unitTypes": ["Fighter", "Bomber"]
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Antiship Missile",
 		"prerequisites": ["Advanced Weapons"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Fighter", "Bomber"]
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Air-to-Air Missile",
 		"prerequisites": ["Advanced Weapons"],
 		"uniques": ["[+33]% Strength <vs [Air] units>"],
-		"unitTypes": ["Fighter", "Bomber", "Siege", "Helicopter"]
+		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
 	// 'Given' promotions
-	{
-		"name": "Drone Recon",
-		"uniques": [
-			"[+1] Sight",
-			"Can see invisible [Land] units",
-			"[25]% XP gained from combat",
-			"[Great General] is earned [-20]% faster"
-		]
-	},
-	{
-		"name": "Infantry Weapons",
-		"uniques": [
-			"[+25]% Strength <vs [Low Tech] units>",
-			"[+50]% Strength <vs cities>"
-		]
-	},
-	{
-		"name": "Artillery",
-		"uniques": ["Ranged attacks may be performed over obstacles"]
-	},
-	{
-		"name": "Advanced Weapons",
-		"uniques": ["[+5]% Strength <when attacking>"]
-	},
+	
 	{
 		"name": "Automated",
 		"uniques": [
@@ -743,12 +770,10 @@
 			"[+20]% Strength <vs cities>"
 		]
 	},
-	/*
 	{	
-		"name": "Thermoptic Camouflage"
-		"uniques": ["Invisible to others"]
+		"name": "Thermoptic Camouflage",
+		"uniques": ["Invisible to non-adjacent units"]
 	},
-	*/
 	{
 		"name": "Tear Gas",
 		"uniques": [
@@ -763,8 +788,10 @@
 			"[+100]% Strength <vs [Low Tech] units>",
 			"[+100]% Strength <vs [Personnel] units>",
 			"[-50]% Strength <vs [Gas Mask] units>",
-			"[+50]% Strength <vs cities>"
-		]
+			"[+50]% Strength <vs cities>",
+			"Only available <if [Chemical Weapons Laboratory] is constructed>"
+		],
+		"unitTypes": ["Siege", "Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Point Defense Laser",
@@ -775,14 +802,6 @@
 		// to Natural Wonder Fountain of Youth
 		"name": "Rejuvenation",
 		"uniques": ["All healing effects doubled"]
-	},
-	{
-		"name": "Amphibious",
-		"uniques": [
-			"Eliminates combat penalty for attacking over a river",
-			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked"
-		]
 	},
 	{
 		"name": "Gas Mask",
