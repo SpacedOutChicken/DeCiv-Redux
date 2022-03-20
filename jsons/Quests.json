@@ -37,12 +37,12 @@
   },
   {
     "name": "Find Natural Wonder",
-    "description": "Send your best explorers on a quest to discover Natural Wonders. Nobody knows the location of [naturalWonder] yet."
+    "description": "Send your best explorers on a quest to discover the Wonders of the past. Nobody knows the location of [naturalWonder] yet."
   },
   /* G&K */
   {
     "name": "Give Gold",
-    "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
+    "description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Water, it's only a matter of time before we collapse.",
     "influence": 20,
     "duration": 30
   },
@@ -75,7 +75,7 @@
   },
   {
     "name": "Invest",
-    "description": "Our people are rejoicing thanks to a tourism boom. For a certain amount of time, any Gold donation will yield [50]% extra Influence.",
+    "description": "Our people are prospering. For a certain amount of time, any Water donation will yield [50]% extra Influence.",
     "type": "Global",
     "influence": 0,
     "duration": 30,
