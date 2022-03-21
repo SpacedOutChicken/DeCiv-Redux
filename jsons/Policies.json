@@ -196,7 +196,7 @@
 	},
 	{
 		"name": "Theocracy",
-		"era": "Rediscovering era",
+		"era": "Neofeudal era",
 		"uniques": [
 			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+100]% Production when constructing [Monastery] buildings [in all cities]",
@@ -258,76 +258,69 @@
 		]
 	},
 	{
-		"name": "Monopoly",
-		"uniques": [
-			"[Great Merchant] is earned [20]% faster",
-			"[+33]% [Gold] from every [Council]",
-			"Only available <before adopting [Collectivism]>"
-		],
+		"name": "Rationalism",
 		"era": "Neofeudal era",
+		"uniques": [
+			"[Great Scientist] is earned [20]% faster",
+			"Science gained from research agreements [+50]%",
+			"Only available <before adopting [Theocracy]>"
+		],
 		"policies": [
 			{
-				"name": "Mass Consumption",
+				"name": "Educated Elite",
 				"uniques": [
-					"[+50]% Happiness from luxury resources gifted by City-States",
-					"[+1] Happiness from each type of luxury resource",
-					"[+3 Gold, -1 Production, -1 Food] from every [Factory]"
+					"[+1 Science] from every specialist [in all cities]",
+					"Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
 				],
 				"row": 1,
 				"column": 1
 			},
+
 			{
-				"name": "Venture Capital",
+				"name": "Skepticism",
 				"uniques": [
-					"[Great Merchant] is earned [20]% faster",
-					"[Gold] cost of purchasing items in cities [-20]%",
-					"[+100]% Gold from Great Merchant trade missions"
+					"[+1 Happiness, -1 Faith] from every [University]",
+					"[+1 Happiness, -1 Faith] from every [Data Center]",
+					"[+1 Happiness, -1 Faith] from every [Public School]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Equipment Upgrades",
+				"uniques": [
+					"[-33]% Gold cost of upgrading <for [Military] units>",
+					"[+1 Science] from every [Barracks]"
 				],
 				"row": 1,
 				"column": 3
 			},
 			{
-				"name": "Privatization",
+				"name": "Sample Analysis",
 				"uniques": [
-					"[-50]% maintenance on road & railroads",
-					"[Personnel] units gain the [Hazard Pay] promotion",
-					"[+2 Gold] from every [Hospital]",
-					"[+2 Gold, -1 Production] from every [Factory]",
-					"[+2 Gold, -1 Science] from every [Public School]"
+					"[+1 Science] from every [Moisture trap]",
+					"[+17]% [Science] from every [University]"
 				],
-				"requires": ["Venture Capital"],
+				"requires": ["Educated Elite"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Technocracy",
+				"uniques": [
+					"[+25]% [Science] from every [Council]",
+					"[+1 Gold] from all [Science] buildings"
+				],
+				"requires": ["Skepticism"],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "Entrepreneurship",
+				"name": "Rationalism Complete",
 				"uniques": [
-					"[Great Merchant] is earned [20]% faster",
-					"[+1 Science] from every [Market]",
-					"[+1 Science] from every [Factory]"
-				],
-				"requires": ["Venture Capital"],
-				"row": 2,
-				"column": 3
-			},
-			{
-				"name": "Corporate Personhood",
-				"uniques": [
-					"[-33]% maintenance costs <for [All] units>",
-					"[+1 Gold] from every [Strategic Resource]",
-					"[+2 Gold, -1 Food] from every [Factory]"
-				],
-				"requires": ["Venture Capital", "Privatization"],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Monopoly Complete",
-				"uniques": [
-					"[-50]% Gold cost of acquiring tiles [in all cities]",
-					"[-15]% maintenance cost for buildings [in all cities]",
-					"[+2 Gold, -1 Production, -1 Food] from every [Work Camp]",
-					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"[+15]% [Science] <while the empire is happy>",
+					"[2] Free Technologies",
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
 		]
@@ -473,6 +466,81 @@
 		]
 	},
 	{
+		"name": "Monopoly",
+		"uniques": [
+			"[Great Merchant] is earned [20]% faster",
+			"[+33]% [Gold] from every [Council]",
+			"Only available <before adopting [Collectivism]>"
+		],
+		"era": "Neofeudal era",
+		"policies": [
+			{
+				"name": "Mass Consumption",
+				"uniques": [
+					"[+50]% Happiness from luxury resources gifted by City-States",
+					"[+1] Happiness from each type of luxury resource",
+					"[+3 Gold, -1 Production, -1 Food] from every [Factory]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Venture Capital",
+				"uniques": [
+					"[Great Merchant] is earned [20]% faster",
+					"[Gold] cost of purchasing items in cities [-20]%",
+					"[+100]% Gold from Great Merchant trade missions"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Privatization",
+				"uniques": [
+					"[-50]% maintenance on road & railroads",
+					"[Personnel] units gain the [Hazard Pay] promotion",
+					"[+2 Gold] from every [Hospital]",
+					"[+2 Gold, -1 Production] from every [Factory]",
+					"[+2 Gold, -1 Science] from every [Public School]"
+				],
+				"requires": ["Venture Capital"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Entrepreneurship",
+				"uniques": [
+					"[Great Merchant] is earned [20]% faster",
+					"[+1 Science] from every [Market]",
+					"[+1 Science] from every [Factory]"
+				],
+				"requires": ["Venture Capital"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Corporate Personhood",
+				"uniques": [
+					"[-33]% maintenance costs <for [All] units>",
+					"[+1 Gold] from every [Strategic Resource]",
+					"[+2 Gold, -1 Food] from every [Factory]"
+				],
+				"requires": ["Venture Capital", "Privatization"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Monopoly Complete",
+				"uniques": [
+					"[-50]% Gold cost of acquiring tiles [in all cities]",
+					"[-15]% maintenance cost for buildings [in all cities]",
+					"[+2 Gold, -1 Production, -1 Food] from every [Work Camp]",
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+				]
+			}
+		]
+	},
+	{
 		"name": "Collectivism",
 		"era": "Neofeudal era",
 		"uniques": [
@@ -535,74 +603,6 @@
 				"uniques": [
 					"[+2 Food, +2 Production, +1 Gold] [in all cities]",
 					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
-				]
-			}
-		]
-	},
-	{
-		"name": "Rationalism",
-		"era": "Industrial era",
-		"uniques": [
-			"[Great Scientist] is earned [20]% faster",
-			"Science gained from research agreements [+50]%",
-			"Only available <before adopting [Theocracy]>"
-		],
-		"policies": [
-			{
-				"name": "Educated Elite",
-				"uniques": [
-					"[+1 Science] from every specialist [in all cities]",
-					"Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
-				],
-				"row": 1,
-				"column": 1
-			},
-
-			{
-				"name": "Skepticism",
-				"uniques": [
-					"[+1 Happiness, -1 Faith] from every [University]",
-					"[+1 Happiness, -1 Faith] from every [Data Center]",
-					"[+1 Happiness, -1 Faith] from every [Public School]"
-				],
-				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Equipment Upgrades",
-				"uniques": [
-					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"[+1 Science] from every [Barracks]"
-				],
-				"row": 1,
-				"column": 3
-			},
-			{
-				"name": "Sample Analysis",
-				"uniques": [
-					"[+1 Science] from every [Moisture trap]",
-					"[+17]% [Science] from every [University]"
-				],
-				"requires": ["Educated Elite"],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Technocracy",
-				"uniques": [
-					"[+25]% [Science] from every [Council]",
-					"[+1 Gold] from all [Science] buildings"
-				],
-				"requires": ["Skepticism"],
-				"row": 2,
-				"column": 2
-			},
-			{
-				"name": "Rationalism Complete",
-				"uniques": [
-					"[+15]% [Science] <while the empire is happy>",
-					"[2] Free Technologies",
-					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
 		]
