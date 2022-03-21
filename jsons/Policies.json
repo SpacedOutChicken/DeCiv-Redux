@@ -2,6 +2,13 @@
 	{
 		"name": "Adaptation",
 		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 30,
+			"Diplomatic": 0,
+			"Domination": 0,
+			"Scientific": 30
+		},
 		"uniques": [
 			"[+3 Culture] [in capital]",
 			"[-25]% Culture cost of natural border growth [in all cities]"
@@ -67,6 +74,13 @@
 	{
 		"name": "Expansionism",
 		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 0,
+			"Diplomatic": 30,
+			"Domination": 30,
+			"Scientific": 0
+		},
 		"uniques": ["[+1 Culture] [in all cities]"],
 		"policies": [
 			{
@@ -132,6 +146,13 @@
 	{
 		"name": "Sovereignty",
 		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 10,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+		},
 		"uniques": [
 			"[+33]% Strength <vs [Barbarian] units>",
 			"Earn [75]% of killed [Barbarian] unit's [Strength] as [Culture]",
@@ -197,6 +218,13 @@
 	{
 		"name": "Theocracy",
 		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 0
+		},
 		"uniques": [
 			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+100]% Production when constructing [Monastery] buildings [in all cities]",
@@ -260,6 +288,13 @@
 	{
 		"name": "Rationalism",
 		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 20
+		},
 		"uniques": [
 			"[Great Scientist] is earned [20]% faster",
 			"Science gained from research agreements [+50]%",
@@ -328,6 +363,13 @@
 	{
 		"name": "Constitution",
 		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 0,
+			"Scientific": 20
+		},
 		"uniques": [
 			"[+25]% great person generation [in all cities]",
 			"Only available <before adopting [Supremacy]>"
@@ -398,6 +440,13 @@
 	{
 		"name": "Supremacy",
 		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 0
+		},
 		"uniques": [
 			"[8] units cost no maintenance",
 			"[+33]% Production when constructing [Barracks] buildings [in all cities]",
@@ -467,12 +516,19 @@
 	},
 	{
 		"name": "Monopoly",
+		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 20
+		},
 		"uniques": [
 			"[Great Merchant] is earned [20]% faster",
 			"[+33]% [Gold] from every [Council]",
 			"Only available <before adopting [Collectivism]>"
 		],
-		"era": "Neofeudal era",
 		"policies": [
 			{
 				"name": "Mass Consumption",
@@ -543,6 +599,13 @@
 	{
 		"name": "Collectivism",
 		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 0,
+			"Domination": 20,
+			"Scientific": 20
+		},
 		"uniques": [
 			"[Great Engineer] is earned [25]% faster",
 			"Only available <before adopting [Monopoly]>"
