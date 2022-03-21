@@ -13,7 +13,7 @@
 		"barbarianBonus": 0.75,
 		"barbarianSpawnDelay": 8,
 		"playerBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityGrowthModifier": 1.6, 
+		"aiCityGrowthModifier": 1.6,
 		"aiUnitCostModifier": 1.75,
 		"aiBuildingCostModifier": 1.6,
 		"aiWonderCostModifier": 1.6,
@@ -22,7 +22,11 @@
 		"aiUnitSupplyModifier": 0,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": false,
 		"turnBarbariansCanEnterPlayerTiles": 10000,
@@ -47,7 +51,11 @@
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 60,
@@ -72,7 +80,11 @@
 		"aiUnitMaintenanceModifier": 0.5,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 40,
@@ -97,7 +109,11 @@
 		"aiUnitMaintenanceModifier": 0.35,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 1,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
@@ -122,7 +138,11 @@
 		"aiUnitMaintenanceModifier": 0.25,
 		"aiFreeTechs": ["Redomestication", "Iron Working"],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
@@ -143,11 +163,15 @@
 		"aiUnitCostModifier": 0.4,
 		"aiBuildingCostModifier": 1,
 		"aiWonderCostModifier": 1,
-		"aiBuildingMaintenanceModifier": 0.20,
-		"aiUnitMaintenanceModifier": 0.20,
+		"aiBuildingMaintenanceModifier": 0.2,
+		"aiUnitMaintenanceModifier": 0.2,
 		"aiFreeTechs": ["Redomestication", "Iron Working"],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 0.7,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
@@ -170,9 +194,18 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.15,
 		"aiUnitMaintenanceModifier": 0.15,
-		"aiFreeTechs": ["Secrets of the Past", "Construction", "Redomestication", "Iron Working"],
+		"aiFreeTechs": [
+			"Secrets of the Past",
+			"Construction",
+			"Redomestication",
+			"Iron Working"
+		],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 0.6,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
@@ -195,9 +228,24 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.15,
 		"aiUnitMaintenanceModifier": 0.15,
-		"aiFreeTechs": ["Secrets of the Past", "Construction", "Redomestication", "Iron Working"],
-		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Civilian Convoy", "Scout", "Scout", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiFreeTechs": [
+			"Secrets of the Past",
+			"Construction",
+			"Redomestication",
+			"Iron Working"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Civilian Convoy",
+			"Civilian Convoy",
+			"Scout",
+			"Scout",
+			"Scout"
+		],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 0.55,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
@@ -220,9 +268,25 @@
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.1,
 		"aiUnitMaintenanceModifier": 0.1,
-		"aiFreeTechs": ["Secrets of the Past", "Construction", "Redomestication", "Iron Working"],
-		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Civilian Convoy", "Worker", "Scout", "Scout", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiFreeTechs": [
+			"Secrets of the Past",
+			"Construction",
+			"Redomestication",
+			"Iron Working"
+		],
+		"aiMajorCivBonusStartingUnits": [
+			"Civilian Convoy",
+			"Civilian Convoy",
+			"Worker",
+			"Scout",
+			"Scout",
+			"Scout"
+		],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 0.5,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
@@ -247,7 +311,11 @@
 		"aiUnitMaintenanceModifier": 0.25,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
-		"aiCityStateBonusStartingUnits": ["Civilian Convoy", "Scout", "Spearman"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
 		"aiUnhappinessModifier": 0.75,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
