@@ -8,62 +8,6 @@
 	// Base units and player uniques
 	////////////////////
 
-	// Missile
-	{
-		"name": "Divine Spear",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
-		"range": 8,
-		"cost": 1600,
-		"uniques": [
-			"Only available <if [Faust Project] is constructed>",
-			"Nuclear weapon of Strength [2]",
-			"Blast radius [2]",
-			"Unbuildable",
-			"Consumes [1] [Uranium]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "nuke"
-	},
-	{
-		"name": "Tactical Nuke",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 8,
-		"cost": 600,
-		"requiredTech": "Gyroscopes",
-		"uniques": [
-			"Nuclear weapon of Strength [1]",
-			"Blast radius [1]",
-			"Only available <if [Manhattan Project] is constructed>",
-			"Consumes [1] [Uranium]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "nuke"
-	},
-	{
-		"name": "Nuclear Missile",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 300,
-		"rangedStrength": 300,
-		"range": 16,
-		"cost": 1000,
-		"requiredTech": "Rocketry",
-		"uniques": [
-			"Nuclear weapon of Strength [2]",
-			"Blast radius [2]",
-			"Only available <if [Manhattan Project] is constructed>",
-			"Consumes [1] [Uranium]"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "nuke"
-	},
-
 	// Civilian
 
 	//// Civilian Convoy
@@ -118,195 +62,60 @@
 		"hurryCostModifier": 20
 	},
 
-	//// Religious
+	// Missile
 	{
-		"name": "Philosopher",
-		"unitType": "Civilian",
+		"name": "Divine Spear",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 8,
+		"cost": 1600,
 		"uniques": [
-			"Can [Spread Religion] [2] times",
-			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[-1] Sight",
+			"Only available <if [Faust Project] is constructed>",
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
 			"Unbuildable",
-			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Consumes [1] [Uranium]"
 		],
-		"movement": 4,
-		"religiousStrength": 1000
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
 	},
 	{
-		"name": "Censor",
-		"unitType": "Civilian",
+		"name": "Tactical Nuke",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 8,
+		"cost": 600,
+		"requiredTech": "Gyroscopes",
 		"uniques": [
-			"Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [2] times",
-			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
-			"[+1] Sight",
-			"Hidden when religion is disabled",
-			"Unbuildable",
-			"Religious Unit"
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [1]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Consumes [1] [Uranium]"
 		],
-		"movement": 3
-	},
-
-	//// Great People
-	{
-		"name": "Great Administrator",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Can construct [Settlement]",
-			"Great Person - [Culture]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
 	},
 	{
-		"name": "Great Prophet",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great Administrator",
-		"unitType": "Civilian",
+		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 16,
+		"cost": 1000,
+		"requiredTech": "Rocketry",
 		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Can construct [Oracle]",
-			"Great Person - [Culture]",
-			"Uncapturable",
-			"Unbuildable"
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [2]",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Consumes [1] [Uranium]"
 		],
-		"movement": 2
-	},
-	{
-		"name": "Great Sage",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can construct [Seminary] if it hasn't used other actions yet",
-			"Can [Spread Religion] [4] times",
-			"Removes other religions when spreading religion",
-			"May found a religion",
-			"May enhance a religion",
-			"May enter foreign tiles without open borders",
-			"[-1] Sight",
-			"Great Person - [Faith]",
-			"Unbuildable",
-			"Uncapturable",
-			"Religious Unit",
-			"Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"
-		],
-		"movement": 2,
-		"religiousStrength": 1000
-	},
-	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can hurry technology research",
-			"Can construct [Academy]",
-			"Great Person - [Science]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Settlement]",
-			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Smuggler",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-			"Invisible to non-adjacent units",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
-			"Can construct [Narcotics farm]",
-			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Slave Trader",
-		"uniqueTo": "Crimson Legion",
-		"replaces": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Prison farm]",
-			"Great Person - [Gold]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can speed up construction of a building",
-			"Can construct [Manufactory]",
-			"Great Person - [Production]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
-			"Can construct [Citadel]",
-			"Great Person - [War]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Gangboss",
-		"uniqueTo": "Deadrock Clan",
-		"replaces": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can build [Land] improvements on tiles",
-			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
-			"Can construct [Prison farm]",
-			"Great Person - [War]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
-	},
-	{
-		"name": "Bugler",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Bonus for units in 2 tile radius 15%",
-			"All adjacent units heal [+15] HP when healing",
-			"[+15] HP when healing",
-			"Can construct [Outpost]",
-			"Great Person - [War]",
-			"Uncapturable",
-			"Unbuildable"
-		],
-		"movement": 5
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
 	},
 
 	// Low Tech
@@ -642,27 +451,6 @@
 		"promotions": ["Urban Warfare I"]
 	},
 
-	//// Unique
-	{
-		"name": "Legion",
-		"unitType": "Scrapper",
-		"uniqueTo": "Crimson Legion",
-		"replaces": "Militia",
-		"movement": 2,
-		"strength": 24,
-		"cost": 50,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Soldier",
-		"uniques": [
-			"Low Tech",
-			"[+50]% Strength <vs cities>",
-			"[+50]% Strength <vs [Low Tech] units>",
-			"Only available <if [Forge] is constructed>"
-		],
-		"attackSound": "metalhit"
-	},
-
 	// Personnel
 
 	//// Melee (Scrapper)
@@ -932,6 +720,25 @@
 		],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Legion",
+		"unitType": "Scrapper",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Militia",
+		"movement": 2,
+		"strength": 24,
+		"cost": 50,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs cities>",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Only available <if [Forge] is constructed>"
+		],
+		"attackSound": "metalhit"
 	},
 	/*
 	{
@@ -2026,6 +1833,199 @@
 			"Consumes [1] [Uranium]"
 		],
 		"attackSound": "torpedo"
+	},
+
+	// Faith-purchasable civilian
+
+	//// Religious
+	{
+		"name": "Philosopher",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [2] times",
+			"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Censor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Prevents spreading of religion to the city it is next to",
+			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
+			"[+1] Sight",
+			"Hidden when religion is disabled",
+			"Unbuildable",
+			"Religious Unit"
+		],
+		"movement": 3
+	},
+
+	//// Great People
+	{
+		"name": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Can construct [Settlement]",
+			"Great Person - [Culture]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Prophet",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Can construct [Oracle]",
+			"Great Person - [Culture]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can construct [Seminary] if it hasn't used other actions yet",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can hurry technology research",
+			"Can construct [Academy]",
+			"Great Person - [Science]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Settlement]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Smuggler",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Invisible to non-adjacent units",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+			"Can construct [Narcotics farm]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Slave Trader",
+		"uniqueTo": "Crimson Legion",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can construct [Prison farm]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can speed up construction of a building",
+			"Can construct [Manufactory]",
+			"Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"Can construct [Citadel]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Gangboss",
+		"uniqueTo": "Deadrock Clan",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"Can construct [Prison farm]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Bugler",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"Bonus for units in 2 tile radius 15%",
+			"All adjacent units heal [+15] HP when healing",
+			"[+15] HP when healing",
+			"Can construct [Outpost]",
+			"Great Person - [War]",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 5
 	},
 
 	////////////////////
