@@ -609,22 +609,6 @@
 		]
 	},
 	{
-		"name": "Cryo Project", // deprecated - remove on April 12
-		"isWonder": true,
-		"requiredTech": "Human Genome",
-		"uniques": [
-			"Enables construction of Cryo Vaults",
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us.",
-		"civilopediaText": [
-			{
-				"text": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us."
-			}
-		]
-	},
-	{
 		"name": "Cryo Sanctum",
 		"isWonder": true,
 		"Cost": 3750,
@@ -2388,22 +2372,6 @@
 			"Consumes [1] [Aluminum]"
 		]
 	},
-	{
-		"name": "Cryo Vault", // deprecated - remove on April 12
-		"cost": 1000,
-		"requiredTech": "Human Genome",
-		"uniques": [
-			"Only available <if [Cryo Project] is constructed>",
-			"Cannot be purchased",
-			"Only available <in cities with a [Medical Lab]>",
-			"Requires at least [5] population",
-			"Unsellable",
-			"Free Great Person",
-			"[+1] population [in this city]",
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		]
-	},
 	// water purifier
 	// desalination plants -coal or nuke
 	// computer centre
@@ -2530,22 +2498,6 @@
 
 	// City-state uniques
 	{
-		"name": "Atavism", // deprecated - remove on April 12
-		"uniques": [
-			"Only available <in cities without a [Library]>",
-			"Only available <in cities without a [Factory]>",
-			"Only available <in cities without a [Oil Plant]>",
-			"Only available <in cities without a [Tidal Plant]>",
-			"Only available <in cities without a [Hydro Plant]>",
-			"Only available <in cities without a [Coal Plant]>",
-			"Only available <in cities without a [Nuclear Plant]>",
-			"Will not be displayed in Civilopedia",
-			"Destroyed when the city is captured",
-			"Unsellable",
-			"Unbuildable"
-		]
-	},
-	{
 		"name": "Archive of the Arts",
 		"uniqueTo": "The Archive",
 		"cost": 1,
@@ -2581,14 +2533,22 @@
 		]
 	},
 	{
-		"name": "Nuclear Storage",
+		"name": "Devil's Monument",
 		"uniqueTo": "Devil's Canyon",
 		"replaces": "Monument",
 		"gold": 5,
-		"cost": 1,
+		"culture": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map"
+		]
+	},
+	{
+		"name": "Nuclear Storage",
+		"uniqueTo": "Devil's Canyon",
+		"cost": 1,
+		"uniques": [
+			"Provides [2] [Uranium]"
 		]
 	},
 	{
@@ -2805,7 +2765,7 @@
 		"uniques": ["Provides [4] [Weapons]"]
 	},
 	{
-		"name": "Arden Monument",
+		"name": "Land Value Tax",
 		"uniqueTo": "Arden Club",
 		"replaces": "Monument",
 		"cost": 1,
@@ -2814,13 +2774,8 @@
 		"food": 2,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1 Gold] from [Land] tiles [in this city]"
 		]
-	},
-	{
-		"name": "Land Value Tax",
-		"uniqueTo": "Arden Club",
-		"cost": 1,
-		"uniques": ["[+1 Gold] from [Land] tiles [in this city]"]
 	}
 ]
