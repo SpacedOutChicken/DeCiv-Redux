@@ -420,10 +420,7 @@
 			"Flight Deck II",
 			"Wolfpack I"
 		],
-		"uniques": [
-			"[+1] Movement",
-			"[+25]% to Flank Attack bonuses"
-		],
+		"uniques": ["[+1] Movement", "[+25]% to Flank Attack bonuses"],
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water",
@@ -524,11 +521,7 @@
 	},
 	{
 		"name": "Amphibious",
-		"prerequisites": [
-			"Blitz",
-			"March",
-			"Extended Range"
-		],
+		"prerequisites": ["Blitz", "March", "Extended Range"],
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
@@ -635,7 +628,6 @@
 	////////////////////
 
 	// Prerequisite promotions
-
 	{
 		"name": "Drone Recon",
 		"uniques": [
@@ -696,12 +688,7 @@
 			"[+25]% Strength <vs [Personnel] units>",
 			"[+50]% Strength <vs cities>"
 		],
-		"unitTypes": [
-			"Scrapper",
-			"Shooter",
-			"Siege",
-			"Ranged Water"
-		]
+		"unitTypes": ["Scrapper", "Shooter", "Siege", "Ranged Water"]
 	},
 	{
 		"name": "Antipersonnel Mines",
@@ -713,7 +700,14 @@
 		"name": "Antitank Missile",
 		"prerequisites": ["Advanced Weapons", "Infantry Weapons"],
 		"uniques": ["[+66]% Strength <vs [Armor] units>"],
-		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Fighter", "Bomber", "Helicopter"]
+		"unitTypes": [
+			"Scrapper",
+			"Shooter",
+			"Mounted",
+			"Fighter",
+			"Bomber",
+			"Helicopter"
+		]
 	},
 	{
 		"name": "Surface-to-Air Missile",
@@ -761,7 +755,6 @@
 	},
 
 	// 'Given' promotions
-	
 	{
 		"name": "Automated",
 		"uniques": [
@@ -770,7 +763,7 @@
 			"[+20]% Strength <vs cities>"
 		]
 	},
-	{	
+	{
 		"name": "Thermoptic Camouflage",
 		"uniques": ["Invisible to non-adjacent units"]
 	},

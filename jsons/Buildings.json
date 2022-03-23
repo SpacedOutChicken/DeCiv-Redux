@@ -2099,11 +2099,12 @@
 	},
 	{
 		"name": "Desalination Plant",
-		"gold": 8,
+		"gold": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Gold] [in this city] <with [Power]>",
+			"[+1 Gold] from [Coast] tiles [in this city]",
 			"Provides [1] [Salt]",
 			"Consumes [1] [Power]"
 		],
@@ -2113,10 +2114,11 @@
 		"name": "Urine Recycler",
 		"replaces": "Desalination Plant",
 		"uniqueTo": "The Mariners",
-		"gold": 8,
+		"gold": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Coast]",
+			"[+1 Gold] from [Coast] tiles [in this city]",
 			"[+1 Gold] per [5] population [in this city]",
 			"[+1 Gold] [in this city] <with [Power]>",
 			"Provides [1] [Salt]",
@@ -2411,12 +2413,15 @@
 	// Coastal buildings
 	{
 		"name": "Fish Farm",
-		"food": 4,
+		"food": 2,
 		// "maintenance": 1,
 		"hurryCostModifier": 25,
 		// "requiredNearbyImprovedResources": ["Fish"],
 		"requiredTech": "Ecology",
-		"uniques": ["Must be next to [Coast]"]
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Coast] tiles [in this city]"
+		]
 	},
 	{
 		"name": "Harbor",
