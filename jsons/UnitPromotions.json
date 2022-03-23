@@ -49,7 +49,7 @@
 			"Heals [25] damage if it kills a unit",
 			"[25]% XP gained from combat",
 			"[Great General] is earned [-20]% faster",
-			"Earn [100]% of [military] opponent's [Strength] as [Science] for kills"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
 		],
 		"unitTypes": ["Scrapper"]
 	},
