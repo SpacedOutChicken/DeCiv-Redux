@@ -48,7 +48,6 @@
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
 			"[25]% XP gained from combat",
-			"[Great General] is earned [-20]% faster",
 			"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
 		],
 		"unitTypes": ["Scrapper"]
@@ -57,8 +56,7 @@
 		"name": "Skirmish",
 		"uniques": [
 			"May withdraw before melee ([75]%)",
-			"[25]% XP gained from combat",
-			"[Great General] is earned [-20]% faster"
+			"[25]% XP gained from combat"
 		],
 		"unitTypes": ["Shooter"]
 	},
@@ -248,8 +246,7 @@
 		],
 		"uniques": [
 			"Ignores terrain cost",
-			"[25]% XP gained from combat",
-			"[Great General] is earned [-20]% faster"
+			"[25]% XP gained from combat"
 		],
 		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout"]
 	},
@@ -835,6 +832,19 @@
 		"uniques": [
 			"Earn [-10]% of [military] opponent's [Strength] as [Gold] for kills",
 			"Can move immediately once bought"
+		]
+	},
+
+	// 'ability' promotions
+
+	{
+		"name": "[Ranger] ability",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
+			"Bonus for units in 2 tile radius 15%",
+			"[50]% XP gained from combat",
+			"Can construct [Citadel]",
+			"Uncapturable"
 		]
 	}
 ]

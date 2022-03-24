@@ -944,17 +944,11 @@
 		"interceptRange": 1,
 		"uniques": [
 			"Personnel",
-			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
-			"Bonus for units in 2 tile radius 15%",
-			"[50]% XP gained from combat",
-			"Can construct [Citadel]",
 			"Great Person - [War]",
 			"Unbuildable",
-			"Uncapturable",
-			"[Great General] is earned [-33]% faster",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Reconnaissance I", "Gas Mask"],
+		"promotions": ["Reconnaissance I", "Gas Mask", "[Ranger] ability"],
 		"attackSound": "shot"
 	},
 	{

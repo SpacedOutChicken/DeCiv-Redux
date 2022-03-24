@@ -206,7 +206,7 @@
 			"[+50]% [Culture] from City-States",
 			"[+50]% [Faith] from City-States",
 			"Military Units gifted from City-States start with [+10] XP",
-			"[Great General] is earned [-33]% faster",
+			"[Great General] is earned [33]% faster",
 			"Starts with [Redomestication]"
 		],
 		"cities": [
