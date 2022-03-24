@@ -1,7 +1,23 @@
-## Version 4.2.0
+## 4.2.1 - 03/23/2022
 
-Added new difficulty levels
+removed all negative modifiers to earning Great General
 
-Made special promotions more accessible
+fixed bugs in Forage promotion and Prison farm improvement
 
-Added Forward Observer unit
+made Ranger's abilities inheritable
+
+by HaneulCheong:<br>
+* reconfigure policy tree
+* change coastal buildings to work coast
+* fix Polytheism's image
+
+by Archduque-Pancake:<br>
+* update Spanish translation
+
+## 4.2.0 - 03/20/2022
+
+added new difficulty levels
+
+made special promotions more accessible
+
+added Forward Observer unit
