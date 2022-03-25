@@ -2156,7 +2156,7 @@
 		"percentStatBonus": { "production": -10 },
 		"production": -3,
 		"uniques": [
-			"[2] free [Tank] units appear",
+			"Free [Tank] appears",
 			"[+66]% Production when constructing [Armor] units [in this city]",
 			"Only available <after adopting [Collectivism]>",
 			"Only available <in cities with a [Factory]>",
