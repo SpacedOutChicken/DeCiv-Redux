@@ -563,10 +563,7 @@
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
-		"uniques": [
-			"Personnel",
-			"[+1] Sight"
-		],
+		"uniques": ["Personnel", "[+1] Sight"],
 		"promotions": ["Reconnaissance I", "Skirmish"]
 	},
 	{
@@ -1597,7 +1594,8 @@
 		"requiredTech": "Avionics",
 		"hurryCostModifier": 20,
 		"uniques": [
-			"[+4] Sight", "Can see over obstacles",
+			"[+4] Sight",
+			"Can see over obstacles",
 			"Only available <if [Factory] is constructed>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"
@@ -1636,10 +1634,7 @@
 		"cost": 50,
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Patrol Boat",
-		"uniques": [
-			"Low Tech",
-			"May withdraw before melee ([66]%)"
-		],
+		"uniques": ["Low Tech", "May withdraw before melee ([66]%)"],
 		"attackSound": "nonmetalhit",
 		"promotions": ["Littoral Warfare"]
 	},

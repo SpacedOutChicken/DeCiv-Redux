@@ -244,10 +244,7 @@
 			"Guerilla Warfare II",
 			"Urban Warfare II"
 		],
-		"uniques": [
-			"Ignores terrain cost",
-			"[25]% XP gained from combat"
-		],
+		"uniques": ["Ignores terrain cost", "[25]% XP gained from combat"],
 		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout"]
 	},
 	{
@@ -790,7 +787,13 @@
 			"[+50]% Strength <vs cities>",
 			"Only available <if [Chemical Weapons Laboratory] is constructed>"
 		],
-		"unitTypes": ["Siege", "Fighter", "Bomber", "Helicopter", "Ranged Water"]
+		"unitTypes": [
+			"Siege",
+			"Fighter",
+			"Bomber",
+			"Helicopter",
+			"Ranged Water"
+		]
 	},
 	{
 		"name": "Point Defense Laser",

@@ -38,7 +38,9 @@
 	{
 		"name": "God of Labor",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
+		"uniques": [
+			"[+1 Production] <in cities with at least [3] [Population]>"
+		]
 	},
 	{
 		"name": "God of Beasts",
