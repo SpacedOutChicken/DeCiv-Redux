@@ -781,8 +781,7 @@
 		"uniques": [
 			"Must have an owned [Isolated Island] within [3] tiles",
 			"[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]",
-			"Only available <in cities without a [Annex Isolationists]>",
-			"Will not be displayed in Civilopedia"
+			"Only available <in cities without a [Annex Isolationists]>"
 		]
 	},
 	{
@@ -795,10 +794,13 @@
 			"[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles [in all cities]",
 			"Provides [1] [Weapons]",
 			"Provides [1] [Slaves]",
-			"Only available <in cities without a [Ally with Isolationists]>",
-			"Will not be displayed in Civilopedia"
+			"Only available <in cities without a [Ally with Isolationists]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
+			}
 		]
-		// "quote": "Ephialtes the son of Eurydemos, a Malian, came to speech with him, supposing that he would win a very great reward from the king; and this man told him of the path which leads over the mountain to Thermopylae, and brought about the destruction of those Greeks who remained in that place."
 	},
 	{
 		"name": "Faust Project",
@@ -809,11 +811,15 @@
 			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
 			"[+20]% Production when constructing [Missile] units [in all cities]",
 			"Free [Divine Spear] appears",
-			"Provides [1] [Uranium]",
-			"Will not be displayed in Civilopedia"
+			"Provides [1] [Uranium]"
 		],
-		// "requiredTech": "Secrets of the Past",
-		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+		"requiredTech": "Secrets of the Past",
+		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
+		"civilopediaText": [
+			{
+				"text": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+			}
+		]
 	},
 	{
 		"name": "Nuclear Waste Museum",
@@ -821,23 +827,27 @@
 		"uniques": [
 			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
 			"[+1 Culture, +1 Science] from [Nuclear Waste Storage] tiles [in this city]",
-			"Only available <in cities without a [Excavate Nuclear Waste]>",
-			"Will not be displayed in Civilopedia"
+			"Only available <in cities without a [Excavate Nuclear Waste]>"
 		]
 	},
 	{
 		"name": "Excavate Nuclear Waste",
 		"isWonder": true,
+		"happiness": -1,
 		"percentStatBonus": { "food": -20 },
 		"requiredTech": "Mining",
 		"uniques": [
 			"Must have an owned [Nuclear Waste Storage] within [3] tiles",
 			"[-3 Food, +4 Science] from [Nuclear Waste Storage] tiles [in all cities]",
 			"Provides [1] [Uranium]",
-			"Only available <in cities without a [Nuclear Waste Museum]>",
-			"Will not be displayed in Civilopedia"
+			"Only available <in cities without a [Nuclear Waste Museum]>"
 		],
-		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
+		"quote": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours.",
+		"civilopediaText": [
+			{
+				"text": "Sending this message was important to us.\nWe considered ourselves to be a powerful culture.\nThis place is not a place of honor... no highly esteemed deed is commemorated here... nothing valued is here.\nWhat is here was dangerous and repulsive to us.\nThis message is a warning about danger.\nThe danger is still present, in your time, as it was in ours."
+			}
+		]
 	},
 	{
 		"name": "Propagate Seeds", // could give seeds resource? so other nations benefit?
@@ -851,7 +861,12 @@
 			"[+25]% growth [in all cities]",
 			"Will not be displayed in Civilopedia"
 		],
-		"quote": "What about us? What about all the plans that ended in disaster?"
+		"quote": "What about us? What about all the plans that ended in disaster?",
+		"civilopediaText": [
+			{
+				"text": "What about us? What about all the plans that ended in disaster?"
+			}
+		]
 	},
 	{
 		"name": "Distribute Soft Drinks",
@@ -864,7 +879,12 @@
 			"Only available <in cities without a [Produce Soft Drinks]>",
 			"Will not be displayed in Civilopedia"
 		],
-		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"
+		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!",
+		"civilopediaText": [
+			{
+				"text": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!"
+			}
+		]
 	},
 	{
 		"name": "Produce Soft Drinks",
@@ -874,8 +894,7 @@
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Provides [3] [Soft Drinks]",
 			"Consumes [1] [Power]",
-			"Only available <in cities without a [Distribute Soft Drinks]>",
-			"Will not be displayed in Civilopedia"
+			"Only available <in cities without a [Distribute Soft Drinks]>"
 		]
 	},
 	{
@@ -885,13 +904,17 @@
 		"cost": 50,
 		"uniques": [
 			"Must have an owned [Army Depot] within [3] tiles",
-			"[+1 Science, +1 Production] from [Army Depot] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Army Depot] tiles [in all cities]",
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
-			"Free [Modern Armor] appears",
-			"Will not be displayed in Civilopedia"
+			"Free [Modern Armor] appears"
 		],
-		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way.. War, children! It's just a shot away!" // - Traditional nursery rhyme
+		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!",
+		"civilopediaText": [
+			{
+				"text": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!"
+			}
+		]
 	},
 	{
 		"name": "Salvage Graveyard",
@@ -900,12 +923,16 @@
 		"cost": 50,
 		"uniques": [
 			"Must have an owned [Ship Graveyard] within [3] tiles",
-			"[+1 Science, +1 Production] from [Ship Graveyard] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Ship Graveyard] tiles [in all cities]",
 			"Provides [1] [Oil]",
-			"Free [Patrol Boat] appears",
-			"Will not be displayed in Civilopedia"
+			"Free [Patrol Boat] appears"
 		],
-		"quote": "He who commands the sea has command of everything."
+		"quote": "He who commands the sea has command of everything.",
+		"civilopediaText": [
+			{
+				"text": "He who commands the sea has command of everything."
+			}
+		]
 	},
 	{
 		"name": "Turbine Hall",
@@ -913,10 +940,14 @@
 		"requiredTech": "Steel",
 		"uniques": [
 			"Must have an owned [Hydroelectric Dam] within [3] tiles",
-			"Provides [8] [Power]",
-			"Will not be displayed in Civilopedia"
+			"Provides [8] [Power]"
 		],
-		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year." // - Promotional material
+		"quote": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year.",
+		"civilopediaText": [
+			{
+				"text": "At full capacity, these turbines were able to provide clean electricity for 31,052 homes, offsetting up to 51,997 tons of CO2 each year."
+			}
+		]
 	},
 	{
 		"name": "Secret Laboratory",
@@ -925,8 +956,7 @@
 		"greatPersonPoints": { "Great Scientist": 2 },
 		"uniques": [
 			"Must have an owned [Research Facility] within [5] tiles",
-			"All newly-trained [relevant] units [in this city] receive the [March] promotion",
-			"Will not be displayed in Civilopedia"
+			"All newly-trained [relevant] units [in this city] receive the [March] promotion"
 		]
 	},
 	{
@@ -937,10 +967,14 @@
 			"Free [Great Sage] appears",
 			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in this city]",
 			"Must have an owned [Vault of Records] within [3] tiles",
-			"Hidden when religion is disabled",
-			"Will not be displayed in Civilopedia"
+			"Hidden when religion is disabled"
 		],
-		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
+		"civilopediaText": [
+			{
+				"text": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+			}
+		]
 	},
 	{
 		"name": "Chemical Weapons Laboratory",

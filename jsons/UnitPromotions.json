@@ -436,7 +436,10 @@
 			"Flight Deck II",
 			"Wolfpack II"
 		],
-		"uniques": ["[+10] HP when healing"],
+		"uniques": [
+			"[+10] HP when healing",
+			"May heal outside of friendly territory"
+		],
 		"unitTypes": [
 			"Melee Water",
 			"Ranged Water",
@@ -628,7 +631,8 @@
 	{
 		"name": "Drone Recon",
 		"uniques": [
-			"[+1] Sight",
+			"Can see over obstacles",
+			"Normal vision when embarked",
 			"[25]% XP gained from combat",
 			"Only available <if [Ground Control Center] is constructed>"
 		],
@@ -645,7 +649,12 @@
 	},
 	{
 		"name": "Artillery",
-		"uniques": ["Ranged attacks may be performed over obstacles"]
+		"prerequisites": ["Logistics"],
+		"uniques": [
+			"Ranged attacks may be performed over obstacles",
+			"Only available <for units with [Extended Range]>"
+		],
+		"unitTypes": ["Siege", "Helicopter", "Ranged Water"]
 	},
 	{
 		"name": "Advanced Weapons",
@@ -781,7 +790,7 @@
 			"[+50]% Strength <vs cities>",
 			"Only available <if [Chemical Weapons Laboratory] is constructed>"
 		],
-		"unitTypes": ["Siege", "Fighter", "Bomber", "Helicopter"]
+		"unitTypes": ["Siege", "Fighter", "Bomber", "Helicopter", "Ranged Water"]
 	},
 	{
 		"name": "Point Defense Laser",
