@@ -10,7 +10,6 @@
 ## Resources
 * reduce resources to restore game balance
 * convert groundwater to bonus resource
-* rename "wheat" to "grain", because why not
 
 ## Units
 * power armor: infantry and armor units to add

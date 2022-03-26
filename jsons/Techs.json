@@ -172,7 +172,7 @@
 			{
 				"name": "Oceanography",
 				"row": 1,
-				"prerequisites": ["Astronomy","Education"],
+				"prerequisites": ["Astronomy", "Education"],
 				"quote": "Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning."
 			},
 			{

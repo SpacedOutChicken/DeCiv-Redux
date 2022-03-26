@@ -174,7 +174,16 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105, 125, 72],
-		"occursOn": ["Tundra", "Badlands", "Wasteland", "Desert", "Permafrost", "Plains", "Grassland", "Snow"],
+		"occursOn": [
+			"Tundra",
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Permafrost",
+			"Plains",
+			"Grassland",
+			"Snow"
+		],
 		"uniques": [
 			"Rough terrain",
 			"[+5] Strength for cities built on this terrain",
@@ -196,7 +205,17 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Badlands", "Wasteland", "Hill", "Permafrost", "Plains", "Grassland", "Snow"],
+		"occursOn": [
+			"Desert",
+			"Tundra",
+			"Badlands",
+			"Wasteland",
+			"Hill",
+			"Permafrost",
+			"Plains",
+			"Grassland",
+			"Snow"
+		],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
@@ -218,7 +237,17 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Badlands", "Wasteland", "Hill", "Permafrost", "Plains", "Grassland", "Snow"],
+		"occursOn": [
+			"Desert",
+			"Tundra",
+			"Badlands",
+			"Wasteland",
+			"Hill",
+			"Permafrost",
+			"Plains",
+			"Grassland",
+			"Snow"
+		],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
@@ -238,7 +267,16 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
-		"occursOn": ["Desert", "Tundra", "Badlands", "Wasteland", "Permafrost", "Plains", "Grassland", "Snow"],
+		"occursOn": [
+			"Desert",
+			"Tundra",
+			"Badlands",
+			"Wasteland",
+			"Permafrost",
+			"Plains",
+			"Grassland",
+			"Snow"
+		],
 		"uniques": [
 			"Nullifies all other stats this tile provides",
 			"Rare feature",
@@ -413,7 +451,7 @@
 		"gold": 1,
 		"culture": 1,
 		"happiness": 1,
-		"occursOn": ["Wasteland", "Badlands"], 
+		"occursOn": ["Wasteland", "Badlands"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
@@ -481,7 +519,7 @@
 		"occursOn": ["Desert"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Wasteland] tiles", 
+			"Must be adjacent to [0] [Wasteland] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] to [4] [Elevated] tiles",
 			"Must be adjacent to [1] to [6] [Mountain] tiles"
