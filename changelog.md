@@ -13,6 +13,8 @@ edit: turned down to 150 xp
 
 began process of adding more naval units
 
+added Oceanography tech (almost forgot this one!)
+
 ## 4.2.1 - 03/23/2022
 
 removed all negative modifiers to earning Great General
