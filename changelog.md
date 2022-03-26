@@ -8,7 +8,8 @@ replaced Wheat with Grain, added Groundwater back in
 
 nerfed Armor Production Line
 
-Barbarians can now give up to 1000 xp
+Barbarians can now give up to 1000 xp<br>
+edit: turned down to 150 xp
 
 began process of adding more naval units
 
