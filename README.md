@@ -1,7 +1,9 @@
 # DeCiv-Redux
 
-DeCiv Redux 4.2.1<br>
-23 March 2022
+Join our Discord server!: https://discord.gg/SsWZ3w8UFJ
+
+DeCiv Redux 5.0.0<br>
+26 March 2022
 
 DeCiv, made by [9kgsofrice](https://github.com/9kgsofrice/DeCiv/), brought back from the dead by SpacedOutChicken
 
