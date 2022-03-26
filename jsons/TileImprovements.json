@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains", "Desert", "Swamp"],
+		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp", "Plains"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Tree plantation",
-		"terrainsCanBeBuiltOn": ["Grassland", "Tundra"],
+		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Grassland"],
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
@@ -46,15 +46,17 @@
 	{
 		"name": "Moisture trap",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
+			"Badlands",
+			"Wasteland",
 			"Desert",
 			"Hill",
 			"Forest",
 			"Jungle",
-			"Flood plains", // TODO: Legacy code for compatibility; Remove this
 			"Swamp",
 			"Tundra",
+			"Permafrost",
+			"Plains",
+			"Grassland",
 			"Snow"
 		],
 		"gold": 1,
@@ -64,7 +66,7 @@
 	},
 	{
 		"name": "Solar collector",
-		"terrainsCanBeBuiltOn": ["Plains", "Grassland", "Desert"],
+		"terrainsCanBeBuiltOn": ["Badlands", "Wasteland", "Desert", "Plains", "Grassland"],
 		"production": 1,
 		"turnsToBuild": 14,
 		"techRequired": "Electronics",
@@ -75,7 +77,10 @@
 		"name": "Wind farm",
 		"turnsToBuild": 10,
 		"techRequired": "Steel",
-		"uniques": ["Provides [1] [Power]"],
+		"uniques": [
+			"Provides [1] [Power]",
+			"Cannot be built on [Coast] tiles <before discovering [Oceanography]>"
+		],
 		"shortcutKey": "W"
 	},
 
@@ -136,7 +141,10 @@
 		"name": "Oil well",
 		"turnsToBuild": 9,
 		"techRequired": "Machinery",
-		"uniques": ["Provides [1] [Oil]"],
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Cannot be built on [Coast] tiles <before discovering [Oceanography]>"
+		],
 		"shortcutKey": "W"
 	},
 	{
@@ -163,11 +171,14 @@
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
-			"Plains",
-			"Grassland",
+			"Badlands",
+			"Wasteland",
 			"Desert",
 			"Hill",
 			"Tundra",
+			"Permafrost",
+			"Plains",
+			"Grassland",
 			"Snow"
 		],
 		"turnsToBuild": 6,
@@ -358,6 +369,10 @@
 	},
 	{
 		"name": "Ancient ruins",
+		"uniques": ["Unpillagable"]
+	},
+	{
+		"name": "Survivor camp",
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
 	},
 	{

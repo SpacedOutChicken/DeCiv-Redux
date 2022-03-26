@@ -1597,7 +1597,7 @@
 		"requiredTech": "Avionics",
 		"hurryCostModifier": 20,
 		"uniques": [
-			"6 tiles in every direction always visible",
+			"[+4] Sight", "Can see over obstacles",
 			"Only available <if [Factory] is constructed>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"
@@ -1655,7 +1655,6 @@
 		"uniques": [
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
-			"Unable to capture cities",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -1684,13 +1683,13 @@
 		"name": "Attack Boat",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 30,
+		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
 		"uniques": [
+			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
-			"Unable to capture cities"
+			"May withdraw before melee ([66]%)"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -1701,10 +1700,11 @@
 		"replaces": "Attack Boat",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 30,
+		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
 		"uniques": [
+			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)"
 		],
@@ -1712,17 +1712,29 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Jet Boat",
-		"uniqueTo": "The Mariners",
-		"replaces": "Soldier",
+		"name": "Torpedo Boat",
 		"unitType": "Melee Water",
 		"strength": 40,
-		"interceptRange": 1,
 		"movement": 6,
 		"cost": 120,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
-			"Personnel",
+			"Double movement in [Coast]",
+			"May withdraw before melee ([66]%)"
+		],
+		"hurryCostModifier": 25,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Jet Boat",
+		"uniqueTo": "The Mariners",
+		"replaces": "Torpedo Boat",
+		"unitType": "Melee Water",
+		"strength": 40,
+		"movement": 6,
+		"cost": 120,
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)"
 		],

@@ -170,6 +170,12 @@
 		"wonderCost": 400,
 		"techs": [
 			{
+				"name": "Oceanography",
+				"row": 1,
+				"prerequisites": ["Astronomy","Education"],
+				"quote": "Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning."
+			},
+			{
 				"name": "Ecology",
 				"row": 3,
 				"prerequisites": ["Education", "Botany"],
@@ -247,7 +253,7 @@
 			{
 				"name": "Desalination",
 				"row": 1,
-				"prerequisites": ["Decontamination", "Astronomy"],
+				"prerequisites": ["Decontamination", "Oceanography"],
 				"quote": "Record the start and finish times of the lights and appliances when you are finished in your logbook. If your role involves access to running water, you must record the meter readings before and after use. Failure to do so will lead to disciplinary action.\n\nRemember -\nEVERY DROP COSTS"
 			},
 			{

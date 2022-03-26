@@ -106,7 +106,7 @@
 				"name": "Courier Service",
 				"uniques": [
 					"[+1 Happiness] [in all cities connected to capital]",
-					"[-10]% unhappiness from population [in all cities]",
+					"[-10]% Unhappiness from [Population] [in all cities]",
 					"[-50]% City-State Influence degradation"
 				],
 				"row": 1,
@@ -371,7 +371,7 @@
 			"Scientific": 20
 		},
 		"uniques": [
-			"[+25]% great person generation [in all cities]",
+			"[+25]% Great Person generation [in all cities]",
 			"Only available <before adopting [Supremacy]>"
 		],
 		"policies": [

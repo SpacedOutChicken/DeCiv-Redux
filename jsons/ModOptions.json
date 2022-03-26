@@ -8,6 +8,6 @@
     "constants": {
         "cityStrengthBase": 20.0,
         "cityStrengthPerPop": 0.5,
-        "maxXPfromBarbarians": 100
+        "maxXPfromBarbarians": 1000
     }
 }

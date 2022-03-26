@@ -104,7 +104,7 @@
 		"cityHealth": 20,
 		"cost": 1,
 		"uniques": [
-			"[-10]% unhappiness from population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Swordsman] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Food Store] [in this city]"
@@ -143,7 +143,7 @@
 		"uniqueTo": "Commonwealth",
 		"cost": 1,
 		"uniques": [
-			"[+25]% great person generation [in this city]",
+			"[25]% Great Person generation [in this city]",
 			"City-State territory always counts as friendly territory",
 			"Free [Ranger] appears",
 			"Can only be built [in capital]",
@@ -275,7 +275,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
-			"[-10]% unhappiness from population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Council]>",
@@ -303,7 +303,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
-			"[-10]% unhappiness from population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Defense Committee]>",
@@ -333,7 +333,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
-			"[-10]% unhappiness from population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Board of Directors]>",
@@ -363,7 +363,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Science, +1 Gold] per [4] population [in all cities]",
-			"[-10]% unhappiness from population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Think Tank]>",
@@ -422,7 +422,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
-			"[-10]% unhappiness from population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Consulate]>",
 			"Destroyed when the city is captured"
@@ -594,7 +594,7 @@
 		"greatPersonPoints": { "Great Engineer": 2 },
 		"isWonder": true,
 		"uniques": [
-			"Gold from all trade routes +25%",
+			"[+25]% [Gold] from Trade Routes",
 			"[+1] Movement <for [All] units>",
 			"[+1] Sight <for [All] units>",
 			"Reveals the entire map",
@@ -605,22 +605,6 @@
 		"civilopediaText": [
 			{
 				"text": "I must down to the seas again, to the lonely sea and the sky,\nAnd all I ask is a tall ship and a star to steer her by."
-			}
-		]
-	},
-	{
-		"name": "Cryo Project", // deprecated - remove on April 12
-		"isWonder": true,
-		"requiredTech": "Human Genome",
-		"uniques": [
-			"Enables construction of Cryo Vaults",
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
-		],
-		"quote": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us.",
-		"civilopediaText": [
-			{
-				"text": "The fact is, these people want to come back to life, and we need them back alive. We can't wait for a better world to come for them. We've got to let them make that better world for all of us."
 			}
 		]
 	},
@@ -1037,7 +1021,7 @@
 		"specialistSlots": { "Farmer": 1 },
 		"uniques": [
 			"[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"
+			"[+1 Food] from [Grain] tiles [in this city]"
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -1316,7 +1300,7 @@
 		"happiness": 2,
 		"maintenance": 1,
 		"uniques": ["Provides [1] [Alcohol]"],
-		"requiredNearbyImprovedResources": ["Wheat", "Tubers"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
 	},
@@ -2103,8 +2087,8 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Must be next to [Coast]",
-			"[+1 Gold] [in this city] <with [Power]>",
 			"[+1 Gold] from [Coast] tiles [in this city]",
+			"[+1 Gold] [in this city] <with [Power]>",
 			"Provides [1] [Salt]",
 			"Consumes [1] [Power]"
 		],
@@ -2381,29 +2365,13 @@
 		"requiredTech": "Future Materials",
 		"uniques": [
 			"[10]% Food is carried over after population increases [in this city]",
-			"[+25]% great person generation [in this city]",
-			"[-10]% unhappiness from population [in this city]",
+			"[25]% Great Person generation [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
 			"Only available <if [Arcology Project] is constructed>",
 			"Requires at least [2] population",
 			"Destroyed when the city is captured",
 			"Consumes [1] [Power]",
 			"Consumes [1] [Aluminum]"
-		]
-	},
-	{
-		"name": "Cryo Vault", // deprecated - remove on April 12
-		"cost": 1000,
-		"requiredTech": "Human Genome",
-		"uniques": [
-			"Only available <if [Cryo Project] is constructed>",
-			"Cannot be purchased",
-			"Only available <in cities with a [Medical Lab]>",
-			"Requires at least [5] population",
-			"Unsellable",
-			"Free Great Person",
-			"[+1] population [in this city]",
-			"Unbuildable",
-			"Will not be displayed in Civilopedia"
 		]
 	},
 	// water purifier
@@ -2535,22 +2503,6 @@
 
 	// City-state uniques
 	{
-		"name": "Atavism", // deprecated - remove on April 12
-		"uniques": [
-			"Only available <in cities without a [Library]>",
-			"Only available <in cities without a [Factory]>",
-			"Only available <in cities without a [Oil Plant]>",
-			"Only available <in cities without a [Tidal Plant]>",
-			"Only available <in cities without a [Hydro Plant]>",
-			"Only available <in cities without a [Coal Plant]>",
-			"Only available <in cities without a [Nuclear Plant]>",
-			"Will not be displayed in Civilopedia",
-			"Destroyed when the city is captured",
-			"Unsellable",
-			"Unbuildable"
-		]
-	},
-	{
 		"name": "Archive of the Arts",
 		"uniqueTo": "The Archive",
 		"cost": 1,
@@ -2586,15 +2538,22 @@
 		]
 	},
 	{
-		"name": "Nuclear Storage",
+		"name": "Devil's Monument",
 		"uniqueTo": "Devil's Canyon",
 		"replaces": "Monument",
 		"gold": 5,
+		"culture": 1,
 		"cost": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map"
 		]
+	},
+	{
+		"name": "Nuclear Storage",
+		"uniqueTo": "Devil's Canyon",
+		"cost": 1,
+		"uniques": ["Provides [2] [Uranium]"]
 	},
 	{
 		"name": "Devil's Nuclear Plant",
@@ -2810,7 +2769,7 @@
 		"uniques": ["Provides [4] [Weapons]"]
 	},
 	{
-		"name": "Arden Monument",
+		"name": "Land Value Tax",
 		"uniqueTo": "Arden Club",
 		"replaces": "Monument",
 		"cost": 1,
@@ -2819,13 +2778,8 @@
 		"food": 2,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1 Gold] from [Land] tiles [in this city]"
 		]
-	},
-	{
-		"name": "Land Value Tax",
-		"uniqueTo": "Arden Club",
-		"cost": 1,
-		"uniques": ["[+1 Gold] from [Land] tiles [in this city]"]
 	}
 ]

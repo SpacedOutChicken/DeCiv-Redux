@@ -17,30 +17,7 @@
 		]
 	},
 	{
-		"name": "Grassland", // Wasteland
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [97, 171, 58],
-		"uniques": [
-			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
-			"[+3] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
-			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
-			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	},
-	/*{
-		"name": "Wasteland" // will replace Grassland
+		"name": "Wasteland",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [97, 171, 58],
@@ -61,34 +38,9 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-	},*/
-	{
-		"name": "Plains", // Badlands
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [168, 185, 102],
-		"uniques": [
-			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
-			"[+4] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
-			"A Region can not contain more [Grassland] tiles than [Plains] tiles",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
-			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
 	},
-	/*{
-		"name": "Badlands" // will replace Plains
+	{
+		"name": "Badlands",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [168, 185, 102],
@@ -111,7 +63,7 @@
 			"Becomes [Swamp] when adjacent to [River]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
-	},*/
+	},
 	{
 		"name": "Tundra",
 		"type": "Land",
@@ -124,24 +76,11 @@
 			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
 			"[+2] to Fertility for Map Generation",
-			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-		/*
-		"uniques": [
-			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
-			"[+2] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
-		]*/
+		]
 	},
 	{
 		"name": "Desert",
@@ -190,7 +129,7 @@
 		]
 	},
 	{
-		"name": "Snow", //Permafrost
+		"name": "Permafrost",
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
@@ -204,21 +143,27 @@
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
-	/*{
-		"name": "Permafrost" // will replace Snow
+
+	// to be deprecated
+
+	{
+		"name": "Plains",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [231, 242, 249],
-		"uniques": [
-			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
-			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
-			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
-			"Considered [Undesirable] when determining start locations",
-			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
-		]
-	}*/
+		"RGB": [168, 185, 102]
+	},
+	{
+		"name": "Grassland",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [97, 171, 58]
+	},
+	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [231, 242, 249]
+	},
 
 	// Terrain features
 	{
@@ -229,7 +174,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105, 125, 72],
-		"occursOn": ["Tundra", "Plains", "Grassland", "Desert", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
+		"occursOn": ["Tundra", "Badlands", "Wasteland", "Desert", "Permafrost", "Plains", "Grassland", "Snow"],
 		"uniques": [
 			"Rough terrain",
 			"[+5] Strength for cities built on this terrain",
@@ -244,20 +189,19 @@
 		]
 	},
 	{
-		"name": "Forest", // Rubble
+		"name": "Forest", // TODO: Rename this to Rubble?
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
+		"occursOn": ["Desert", "Tundra", "Badlands", "Wasteland", "Hill", "Permafrost", "Plains", "Grassland", "Snow"],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
-			"Resistant to nukes",
-			"Can be destroyed by nukes",
+			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
 			"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
 			"A Region can not contain more [Jungle] tiles than [Forest] tiles",
@@ -267,20 +211,19 @@
 		]
 	},
 	{
-		"name": "Jungle", // Ruins
+		"name": "Jungle", // TODO: Rename this to Ruins?
 		"type": "TerrainFeature",
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Hill", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
+		"occursOn": ["Desert", "Tundra", "Badlands", "Wasteland", "Hill", "Permafrost", "Plains", "Grassland", "Snow"],
 		"uniques": [
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
-			"Resistant to nukes",
-			"Can be destroyed by nukes",
+			"[25]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
 			"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
 			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
@@ -290,12 +233,12 @@
 		]
 	},
 	{
-		"name": "Marsh", // Toxic Waste
+		"name": "Marsh", // TODO: Rename this to Toxic Waste?
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
-		"occursOn": ["Desert", "Tundra", "Plains", "Grassland", "Snow"/*, "Badlands", "Wasteland", "Permafrost"*/],
+		"occursOn": ["Desert", "Tundra", "Badlands", "Wasteland", "Permafrost", "Plains", "Grassland", "Snow"],
 		"uniques": [
 			"Nullifies all other stats this tile provides",
 			"Rare feature",
@@ -308,7 +251,7 @@
 		"name": "Spring",
 		"type": "TerrainFeature",
 		"gold": 1,
-		"occursOn": ["Tundra", "Plains", "Grassland"/*, "Badlands", "Wasteland"*/],
+		"occursOn": ["Tundra", "Badlands", "Wasteland", "Plains", "Grassland"],
 		"uniques": [
 			"Rare feature",
 			"Fresh water",
@@ -329,47 +272,28 @@
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"occursOn": [
-			"Grassland",
-			"Plains",
+			"Wasteland",
+			"Badlands",
 			"Desert",
 			"Tundra",
-			"Snow",
+			"Permafrost",
 			"Forest",
 			"Jungle",
 			"Hill",
 			"Swamp",
-			"Marsh"/*,
-			"Badlands",
-			"Wasteland",
-			"Permafrost"*/
+			"Marsh",
+			"Plains",
+			"Grassland",
+			"Snow"
 		],
 		"defenceBonus": -0.3
-	},
-	{
-		/*
-		TODO: Remove this since it is replaced with Swamp
-		This is a legacy code for compatibility
-		See also: https://github.com/SpacedOutChicken/DeCiv-Redux/issues/21
-		*/
-		"name": "Flood plains",
-		"type": "TerrainFeature",
-		"food": 1,
-		"movementCost": 1,
-		"defenceBonus": -0.1,
-		// "occursOn": ["Desert", "Plains", "Grassland"],
-		"uniques": [
-			"Considered [Desirable] when determining start locations",
-			"Considered [Food] when determining start locations",
-			"Always Fertility [5] for Map Generation",
-			"Will not be displayed in Civilopedia"
-		]
 	},
 	{
 		"name": "Swamp",
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert", "Plains", "Grassland" /*, "Badlands", "Wasteland"*/],
+		"occursOn": ["Desert", "Badlands", "Wasteland", "Plains", "Grassland"],
 		"uniques": [
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
@@ -392,6 +316,7 @@
 		"overrideStats": true,
 		"occursOn": ["Ocean", "Coast"],
 		"uniques": [
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
 			"[-1] to Fertility for Map Generation",
 			"Considered [Undesirable] when determining start locations"
 		]
@@ -420,7 +345,7 @@
 		"name": "Army Depot",
 		"type": "NaturalWonder",
 		"culture": 1,
-		"occursOn": ["Grassland", "Plains", "Tundra", "Mountain" /*, "Badlands", "Wasteland"*/],
+		"occursOn": ["Wasteland", "Badlands", "Tundra", "Mountain"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] to [4] [Mountain] tiles",
@@ -438,8 +363,8 @@
 		"type": "NaturalWonder",
 		"science": 1,
 		"overrideStats": true,
-		"occursOn": ["Plains"], // change to Badlands
-		"turnsInto": "Plains",
+		"occursOn": ["Badlands"],
+		"turnsInto": "Badlands",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
@@ -454,8 +379,8 @@
 		"science": 4,
 		"gold": 1,
 		"overrideStats": true,
-		"occursOn": ["Plains"], // change to Badlands
-		"turnsInto": "Plains",
+		"occursOn": ["Badlands"],
+		"turnsInto": "Badlands",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
@@ -473,7 +398,7 @@
 		"gold": 3,
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
+			"Must be adjacent to [0] [Wasteland] tiles",
 			"Must be adjacent to [2] to [6] [Hill] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Fresh water"
@@ -488,7 +413,7 @@
 		"gold": 1,
 		"culture": 1,
 		"happiness": 1,
-		"occursOn": ["Grassland", "Plains"], // Wasteland, Badlands
+		"occursOn": ["Wasteland", "Badlands"], 
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
@@ -523,7 +448,7 @@
 		"food": 1,
 		"science": 3,
 		"culture": 1,
-		"occursOn": ["Tundra", "Snow"], // add Permafrost
+		"occursOn": ["Tundra", "Permafrost"],
 		"uniques": [
 			"Must be adjacent to [1] to [5] [Coast] tiles",
 			"Must be adjacent to [1] [Mountain] tiles",
@@ -539,12 +464,12 @@
 		"type": "NaturalWonder",
 		"gold": 2,
 		"science": 1,
-		"occursOn": ["Plains", "Mountain"], // add Badlands
+		"occursOn": ["Badlands", "Mountain"],
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Lakes] tiles",
 			"Fresh water"
 		],
-		"turnsInto": "Mountain", // change to Lakes
+		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 5
@@ -556,7 +481,7 @@
 		"occursOn": ["Desert"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
+			"Must be adjacent to [0] [Wasteland] tiles", 
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Must be adjacent to [0] to [4] [Elevated] tiles",
 			"Must be adjacent to [1] to [6] [Mountain] tiles"
@@ -571,10 +496,10 @@
 		"type": "NaturalWonder",
 		"faith": 1,
 		"culture": 1,
-		"occursOn": ["Desert", "Plains"/*, "Badlands"*/],
+		"occursOn": ["Desert", "Badlands"],
 		"uniques": [
 			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles", // change to Wasteland
+			"Must be adjacent to [0] [Wasteland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must be adjacent to [3] to [6] [Desert] tiles"

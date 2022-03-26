@@ -38,7 +38,7 @@
 	{
 		"name": "God of Labor",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production] in cities with [3] or more population"]
+		"uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
 	},
 	{
 		"name": "God of Beasts",
@@ -68,7 +68,7 @@
 	{
 		"name": "God of Love",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness] in cities with [6] or more population"]
+		"uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
 	},
 	{
 		"name": "God of Walls",
