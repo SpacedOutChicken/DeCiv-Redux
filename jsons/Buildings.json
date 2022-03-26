@@ -858,8 +858,7 @@
 			"Must have an owned [Seed Vault] within [3] tiles",
 			"Provides [3] [Exotic Seeds]",
 			"[+2 Food] [in all cities]",
-			"[+25]% growth [in all cities]",
-			"Will not be displayed in Civilopedia"
+			"[+25]% growth [in all cities]"
 		],
 		"quote": "What about us? What about all the plans that ended in disaster?",
 		"civilopediaText": [
@@ -876,8 +875,7 @@
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Empire enters golden age",
 			"[-1 Culture, -1 Happiness] from [Soft Drinks Factory] tiles [in all cities]",
-			"Only available <in cities without a [Produce Soft Drinks]>",
-			"Will not be displayed in Civilopedia"
+			"Only available <in cities without a [Produce Soft Drinks]>"
 		],
 		"quote": "E-NERGY ULTRA BRIGHT ZERO EMISSION STEALTH\n(Per 500ml Energy 11kCal(1%**)\nNiacin 43mg(266%**)\nPANTHOTENIC ACID 21mg (350%**)\nCaffeine-B 150mg (600%**)**%RDA)\nZERO SUGAR - JUST AS PUMPED!\nIn collaboration with Gearheads, Musicians, Coders, CEOs, Anarchists, Bikers, Historical Reenactors, Hipsters, and YOU!",
 		"civilopediaText": [
