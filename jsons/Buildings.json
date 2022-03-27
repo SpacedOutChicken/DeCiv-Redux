@@ -850,7 +850,7 @@
 		]
 	},
 	{
-		"name": "Propagate Seeds", // could give seeds resource? so other nations benefit?
+		"name": "Propagate Seeds",
 		"isWonder": true,
 		"requiredTech": "Ecology",
 		"cost": 50,
@@ -963,7 +963,7 @@
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Free [Great Sage] appears",
-			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in this city]",
+			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in all cities]",
 			"Must have an owned [Vault of Records] within [3] tiles",
 			"Hidden when religion is disabled"
 		],
@@ -974,6 +974,22 @@
 			}
 		]
 	},
+	{
+		"name": "Salvage Space Station",
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": [
+			"Must have an owned [Space Station Wreckage] within [3] tiles",
+			"Free Technology",
+			"[+1 Science, +1 Production] from [Space Station Wreckage] tiles [in all cities]"
+		],
+		"quote": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there.",
+		"civilopediaText": [
+			{
+				"text": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there."
+			}
+		]
+	}
 	{
 		"name": "Chemical Weapons Laboratory",
 		"isNationalWonder": true,

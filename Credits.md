@@ -10,6 +10,9 @@ Base terrains by [AdityaMH](https://github.com/AdityaMH)<br>
 May contain art by [LynxRo](https://github.com/lynxro)<br>
 Some minor edits made by me
 
+Space Station Wreckage pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
+
+
 ## From the Noun Project
 
 Buildings:
@@ -20,14 +23,13 @@ Buildings:
 * Bunker: [Bunker](https://thenounproject.com/icon/bunker-1189654/) by Salaidinovich, TR
 * Clan Hideout: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 * Cryo Sanctum: [Cryogenic Vault](https://thenounproject.com/icon/cryogenic-vault-115036/) by Brandon Gamm, US
-* Cryo Project (deprecated): [Brain In a Jar](https://thenounproject.com/term/brain-in-a-jar/467672/) by Luis Prado, US 
-* Cryo Vault (deprecated): [Cell Preservation](https://thenounproject.com/term/cell-preservation/10707/) by Luis Prado, US
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
 * Greywater Treatment Plant: [Water Filter](https://thenounproject.com/icon/water-filter-1929073/) by Vectors Market
 * Listening Post: [peeping tom](https://thenounproject.com/term/peeping-tom/38344/) by Luis Prado, US
 * Open the Vault: [Cave](https://thenounproject.com/icon/cave-1842205/) by Bakunetsu Kaito
 * Rainwater Purifier [Filter Water](https://thenounproject.com/icon/filter-water-3923269/) by denimao, ID
 * Reclamation Vats: [compostable](https://thenounproject.com/icon/compostable-107010/) by Luca Reghellin, IT
+* Salvage Space Station: [space station](https://thenounproject.com/icon/space-station-3572432/) by Hey Rabbit, TH
 * Search Shelters: [Shelter](https://thenounproject.com/icon/shelter-934966/) by Manuel Dixken, DE
 * Seastead: [Oil Platform](https://thenounproject.com/term/oil-platform/175820/) by Creative Stall, PK 
 * Uranium Centrifuge: [centrifuge](https://thenounproject.com/icon/centrifuge-3771162/) by Carl Holderness, GB
@@ -48,12 +50,14 @@ Resources:
 
 Technologies:
 * Geo Engineering: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH
+* Hydroponics: [Hydroponics](https://thenounproject.com/icon/hydroponics-83408/) by Krisada, TH
 
 Units:
 * Censor: [Blind](https://thenounproject.com/icon/blind-2139794/) by Nubaia Karim Barsha
 * Corvette: [warship](https://thenounproject.com/term/warship/1806952/) by Abdul Wahhab 
 * Forward Observer: [Road Bike](https://thenounproject.com/icon/road-bike-1155041/) by Liv Iko
 * Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
+* Torpedo Boat: [speedboat](https://thenounproject.com/icon/speedboat-2713601/) by Silviu Ojog, RO
 
 Icons:
 * Faith icon: [Thought](https://thenounproject.com/term/thought/608383/) by Hea Poh Lin, MY 
@@ -62,5 +66,9 @@ Icons:
 
 Nations:
 * New Afrika: [Fist](https://commons.wikimedia.org/wiki/File:Fist.png)
+
+Technologies:
+* Decontamination: [Biohazard symbol](https://commons.wikimedia.org/wiki/File:Biohazard_symbol.svg)
+* Energy Weapons: [Laser-symbol](https://commons.wikimedia.org/wiki/File:Laser-symbol.svg)
 
 Preview image: [Wasteland Main Gate](https://commons.wikimedia.org/wiki/File:Wasteland_Main_Gate.jpg) by Toglenn/Glenn Franciss

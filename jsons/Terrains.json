@@ -546,5 +546,18 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+	},
+	{
+		"name": "Space Station Wreckage",
+		"type": "NaturalWonder",
+		"science": 1,
+		"production": 1,
+		"occursOn": ["Badlands", "Wasteland"],
+		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Desert] tiles"],
+		"turnsInto": "Wasteland",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
 	}
 ]
