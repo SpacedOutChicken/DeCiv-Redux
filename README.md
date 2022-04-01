@@ -1,6 +1,6 @@
 # DeCiv-Redux
 
-DeCiv Redux 5.0.0<br>
+DeCiv Redux 5.0.1<br>
 26 March 2022
 
 [Join our Discord server!](https://discord.gg/SsWZ3w8UFJ)<br>

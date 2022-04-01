@@ -584,7 +584,7 @@
 		"uniques": [
 			"Enables embarkation for land units",
 			"Enables [All] units to enter ocean tiles",
-			"Units pay only 1 movement point to disembark",
+			"[1] Movement point cost to disembark <for [All] units>",
 			"Defense bonus when embarked <for [All] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
 			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
