@@ -1454,6 +1454,7 @@
 		"name": "Helicopter",
 		"unitType": "Helicopter",
 		"range": 1,
+		"interceptRange": 1,
 		"movement": 7,
 		"strength": 20,
 		"rangedStrength": 50,
@@ -1469,7 +1470,6 @@
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
-		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -1480,7 +1480,7 @@
 		"strength": 25,
 		"rangedStrength": 50,
 		"range": 2,
-		"interceptRange": 1,
+		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Lasers",
 		"uniques": [
@@ -1493,7 +1493,7 @@
 			"[-25]% Strength <vs cities>",
 			"Consumes [1] [Oil]"
 		],
-		"promotions": ["Amphibious", "Advanced Weapons", "Antitank Missile"],
+		"promotions": ["Advanced Weapons", "Antitank Missile"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
