@@ -1,3 +1,7 @@
+## 5.0.2 - 04/02/2022
+
+Helicopter units can now move and attack on water just like on land
+
 ## 5.0.1 - 03/27/2022
 
 added Space Station Wreckage (art by Indonesian Gentleman) and Salvage Space Station

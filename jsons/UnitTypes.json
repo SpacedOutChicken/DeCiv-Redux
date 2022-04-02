@@ -81,7 +81,9 @@
 			"Normal vision when embarked",
 			"Eliminates combat penalty for attacking across a coast",
 			"Eliminates combat penalty for attacking over a river",
-			"May attack when embarked"
+			"May attack when embarked",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark"
 		]
 	}
 ]
