@@ -454,6 +454,8 @@
 		"Grassland+Hill+Jungle+Hacking site+Encrypted Data": ["Grassland", "Hill", "Jungle", "Hacking site+Encrypted Data"],
 		"Plains+Jungle+Hacking site+Encrypted Data": ["Plains", "PlainsJungle", "Hacking site+Encrypted Data"],
 		"Plains+Hill+Jungle+Hacking site+Encrypted Data": ["Plains", "Hill", "PlainsJungle", "Hacking site+Encrypted Data"],
-		"Grassland+Forest+Furs+Camp": ["Grassland", "GrasslandForest", "Camp+Furs"]
+		"Grassland+Forest+Furs+Camp": ["Grassland", "GrasslandForest", "Camp+Furs"],
+		"Desert+Wheat+Farm": ["Desert", "Farm", "Wheat"],
+		"Tundra+Wheat+Farm": ["Tundra", "Farm", "Wheat"]
 	}
 }
