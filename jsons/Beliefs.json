@@ -75,7 +75,7 @@
 	{
 		"name": "God of Walls",
 		"type": "Pantheon",
-		"uniques": ["[+30]% attacking Strength for cities"]
+		"uniques": ["[+30]% Strength for cities <when attacking>"]
 	},
 	{
 		"name": "Lord of the Hunt",

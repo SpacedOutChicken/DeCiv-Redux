@@ -399,7 +399,7 @@
 		"style": "Gang",
 		"uniqueName": "Regulators",
 		"uniques": [
-			"67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[+1] Sight <for [{Military} {Land}] units>",
 			"City-State Influence recovers at twice the normal rate",
 			"[Personnel] units gain the [Clansman] promotion",
@@ -452,7 +452,7 @@
 		"style": "Legion",
 		"uniqueName": "One Banner",
 		"uniques": [
-			"67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment",
+			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
 			"Starts with [Redomestication]",
 			"[-1 Science] [in all cities] <before discovering [Writing]>"
@@ -632,7 +632,7 @@
 		"style": "",
 		"uniqueName": "Community Watch",
 		"uniques": [
-			"+[10]% Strength if within [2] tiles of a [City center]",
+			"[+10]% Strength <within [2] tiles of a [City center]>",
 			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
 			"Starts with [Secrets of the Past]"
 		],
@@ -735,7 +735,7 @@
 		"startBias": ["Hill"],
 		"style": "Tribal",
 		"uniques": [
-			"Units fight as though they were at full strength even when damaged",
+			"Damage is ignored when determining unit Strength <for [All] units>",
 			/*"Gain a free [Atavism] [in all cities]",*/
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
@@ -756,7 +756,7 @@
 		"startBias": ["Hill"],
 		"style": "Ghost",
 		"uniques": [
-			"Units fight as though they were at full strength even when damaged",
+			"Damage is ignored when determining unit Strength <for [All] units>",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Cavalry] units",
