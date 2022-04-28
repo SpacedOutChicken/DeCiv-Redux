@@ -144,27 +144,6 @@
 		]
 	},
 
-	// to be deprecated
-
-	{
-		"name": "Plains",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [168, 185, 102]
-	},
-	{
-		"name": "Grassland",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [97, 171, 58]
-	},
-	{
-		"name": "Snow",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [231, 242, 249]
-	},
-
 	// Terrain features
 	{
 		"name": "Hill",
@@ -179,10 +158,7 @@
 			"Badlands",
 			"Wasteland",
 			"Desert",
-			"Permafrost",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Permafrost"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -211,12 +187,10 @@
 			"Badlands",
 			"Wasteland",
 			"Hill",
-			"Permafrost",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Permafrost"
 		],
 		"uniques": [
+			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -243,12 +217,10 @@
 			"Badlands",
 			"Wasteland",
 			"Hill",
-			"Permafrost",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Permafrost"
 		],
 		"uniques": [
+			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -272,10 +244,7 @@
 			"Tundra",
 			"Badlands",
 			"Wasteland",
-			"Permafrost",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Permafrost"
 		],
 		"uniques": [
 			"Nullifies all other stats this tile provides",
@@ -289,7 +258,7 @@
 		"name": "Spring",
 		"type": "TerrainFeature",
 		"gold": 1,
-		"occursOn": ["Tundra", "Badlands", "Wasteland", "Plains", "Grassland"],
+		"occursOn": ["Tundra", "Badlands", "Wasteland"],
 		"uniques": [
 			"Rare feature",
 			"Fresh water",
@@ -319,10 +288,7 @@
 			"Jungle",
 			"Hill",
 			"Swamp",
-			"Marsh",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Marsh"
 		],
 		"defenceBonus": -0.3
 	},
@@ -331,7 +297,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"occursOn": ["Desert", "Badlands", "Wasteland", "Plains", "Grassland"],
+		"occursOn": ["Desert", "Badlands", "Wasteland"],
 		"uniques": [
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",

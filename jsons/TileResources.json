@@ -15,13 +15,6 @@
 		]
 	},
 	{
-		"name": "Wheat", // to be deprecated
-		"resourceType": "Bonus",
-		"food": 1,
-		"improvement": "Farm",
-		"improvementStats": { "food": 1 }
-	},
-	{
 		"name": "Algae",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
