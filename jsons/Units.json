@@ -218,6 +218,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 50,
+		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"uniques": [
@@ -1669,7 +1670,9 @@
 		"uniques": [
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"May capture killed [Water] units",
+			"Earn [33]% of the damage done to [City] units as [Gold]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -1694,28 +1697,35 @@
 		"uniqueTo": "The Mariners",
 		"replaces": "Attack Boat",
 		"unitType": "Melee Water",
-		"movement": 4,
+		"movement": 5,
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)"
+			"May withdraw before melee ([66]%)",
+			"[+25]% Strength <when defending>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
 	},
+
+	//// Ranged Water
 	{
 		"name": "Torpedo Boat",
-		"unitType": "Melee Water",
-		"strength": 40,
+		"unitType": "Ranged Water",
+		"strength": 20,
+		"rangedStrength": 30,
+		"range": 1,
 		"movement": 6,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)"
+			"May withdraw before melee ([66]%)",
+			"Can only attack [Water] tiles",
+			"Can move after attacking"
 		],
 		"hurryCostModifier": 25,
 		"attackSound": "shot"
@@ -1724,20 +1734,21 @@
 		"name": "Jet Boat",
 		"uniqueTo": "The Mariners",
 		"replaces": "Torpedo Boat",
-		"unitType": "Melee Water",
-		"strength": 40,
+		"unitType": "Ranged Water",
+		"strength": 20,
+		"rangedStrength": 30,
+		"range": 1,
 		"movement": 6,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)"
+			"May withdraw before melee ([66]%)",
+			"Can move after attacking"
 		],
 		"hurryCostModifier": 25,
 		"attackSound": "shot"
 	},
-
-	//// Ranged Water
 	{
 		"name": "Destroyer",
 		"unitType": "Ranged Water",
@@ -2503,5 +2514,74 @@
 			"[+33]% Strength <vs [Low Tech] units>"
 		],
 		"attackSound": "arrow"
+	},
+
+	//Terraformer parts
+
+	{
+		"name": "Solar Shade", 
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Future Materials",
+		"uniques": [
+			"Consumes [1] [Aluminum]",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
+	},
+	{
+		"name": "Terraforming Lab",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Consumes [1] [Aluminum]",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
+	},
+	{
+		"name": "Ocean Scrubber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Future Power",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Only available <in cities with a [Harbor]>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
+	},
+	{
+		"name": "Atmosphere Processor",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Geo Engineering",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Only available <if [Biosphere Project] is constructed>",
+			"Can be added to [The Terraformer] in the Capital",
+			"Limited to [1] per Civilization",
+			"Cannot be purchased",
+			"Triggers a global alert upon completion",
+			"Hidden when [Scientific] Victory is disabled"
+		]
 	}
 ]

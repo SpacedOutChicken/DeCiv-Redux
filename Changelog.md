@@ -1,3 +1,11 @@
+## 5.1.0 - 04/27/2022
+
+Moddable victory now implemented
+
+New traits for water units
+
+Removed traces of deprecated terrains
+
 ## 5.0.2 - 04/02/2022
 
 Helicopter units can now move and attack on water just like on land

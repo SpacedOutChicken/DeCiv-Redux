@@ -477,56 +477,11 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of Spaceship parts",
+			"Enables construction of Terraformer parts",
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
 		],
 		"requiredTech": "Plastics Recycling"
-	},
-	{
-		"name": "SS Booster", // Solar Shade
-		"requiredTech": "Future Materials",
-		"uniques": [
-			"Consumes [1] [Aluminum]",
-			"Spaceship part",
-			"Cannot be purchased",
-			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
-		]
-	},
-	{
-		"name": "SS Cockpit", // Command Center
-		"requiredTech": "Artificial Intelligence",
-		"uniques": [
-			"Consumes [1] [Aluminum]",
-			"Spaceship part",
-			"Cannot be purchased",
-			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
-		]
-	},
-	{
-		"name": "SS Engine", // Ocean Processor
-		"requiredTech": "Future Power",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Spaceship part",
-			"Only available <in cities with a [Harbor]>",
-			"Cannot be purchased",
-			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
-		]
-	},
-	{
-		"name": "SS Stasis Chamber", // Atmosphere Processor
-		"requiredTech": "Geo Engineering",
-		"uniques": [
-			"Consumes [1] [Uranium]",
-			"Spaceship part",
-			"Cannot be purchased",
-			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
-		]
 	},
 
 	// Projects
@@ -989,7 +944,7 @@
 				"text": "Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly. And don't tell me that man doesn't belong out there. Man belongs wherever he wants to go - and he'll do plenty well when he gets there."
 			}
 		]
-	}
+	},
 	{
 		"name": "Chemical Weapons Laboratory",
 		"isNationalWonder": true,
@@ -2340,7 +2295,8 @@
 		"requiredNearbyImprovedResources": ["Plastics"],
 		"uniques": [
 			"[+2 Production] from [Plastics] tiles [in this city]",
-			"Consumes [1] [Power]"
+			"Consumes [1] [Power]",
+			"Provides [1] [Oil]"
 		],
 		"requiredTech": "Plastics Recycling"
 	},
@@ -2349,7 +2305,8 @@
 		"maintenance": 3,
 		"requiredTech": "Advanced Materials",
 		"uniques": [
-			"Provides [2] [Aluminum]",
+			"Provides [1] [Aluminum]",
+			"Consumes [1] [Power]",
 			"Limited to [5] per Civilization"
 		]
 	},
@@ -2357,7 +2314,11 @@
 		"name": "Uranium Centrifuge",
 		"maintenance": 3,
 		"requiredTech": "Particle Physics",
-		"uniques": ["Provides [2] [Uranium]", "Limited to [5] per Civilization"]
+		"uniques": [
+			"Provides [1] [Uranium]",
+			"Consumes [1] [Power]",
+			"Limited to [5] per Civilization"
+		]
 	},
 	{
 		"name": "Carbon Capture",

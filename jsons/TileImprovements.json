@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp", "Plains"],
+		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": [
@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Tree plantation",
-		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Grassland"],
+		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra"],
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
@@ -54,10 +54,7 @@
 			"Jungle",
 			"Swamp",
 			"Tundra",
-			"Permafrost",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Permafrost"
 		],
 		"gold": 1,
 		"turnsToBuild": 5,
@@ -69,9 +66,7 @@
 		"terrainsCanBeBuiltOn": [
 			"Badlands",
 			"Wasteland",
-			"Desert",
-			"Plains",
-			"Grassland"
+			"Desert"
 		],
 		"production": 1,
 		"turnsToBuild": 14,
@@ -182,10 +177,7 @@
 			"Desert",
 			"Hill",
 			"Tundra",
-			"Permafrost",
-			"Plains",
-			"Grassland",
-			"Snow"
+			"Permafrost"
 		],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",

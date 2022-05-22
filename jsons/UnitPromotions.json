@@ -361,9 +361,9 @@
 	{
 		"name": "Littoral Warfare",
 		"uniques": [
-			"[+25]% Strength <when fighting in [Coast] tiles>",
-			"[+25]% Strength <when fighting in [Land] tiles>",
-			"[+25]% Strength <vs cities>",
+			"[+10]% Strength <when fighting in [Coast] tiles>",
+			"[+10]% Strength <when fighting in [Land] tiles>",
+			"[+10]% Strength <vs cities>",
 			"Eliminates combat penalty for attacking across a coast"
 		],
 		"prerequisites": ["Evasion", "Strike"],
@@ -385,7 +385,8 @@
 		],
 		"uniques": [
 			"[+5] HP when healing",
-			"All adjacent units heal [+20] HP when healing"
+			"All adjacent units heal [+20] HP when healing",
+			"May heal outside of friendly territory"
 		],
 		"unitTypes": ["Ranged Water", "Aircraft Carrier"]
 	},
