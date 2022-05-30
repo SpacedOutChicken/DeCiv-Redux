@@ -1,1 +1,13 @@
-{isBaseRuleset:true,lastUpdated:2022-05-29T13:50:21Z,modUrl:"https://github.com/GeneralWadaling/Deciv-Reignited",author:GeneralWadaling,modSize:3486,uniques:[Can convert gold to science with sliders,Allow City States to spawn with additional units,"Can trade civilization introductions for [100] Gold"],constants:{maxXPfromBarbarians:150,cityStrengthBase:20,cityStrengthPerPop:0.5,unitUpgradeCost:{}}}
+{
+	"isBaseRuleset": true,
+	"uniques": [
+		"Can convert gold to science with sliders",
+		"Allow City States to spawn with additional units",
+		"Can trade civilization introductions for [100] Gold"
+	],
+	"constants": {
+		"cityStrengthBase": 20.0,
+		"cityStrengthPerPop": 0.5,
+		"maxXPfromBarbarians": 150
+	}
+}
