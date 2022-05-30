@@ -533,7 +533,7 @@
 				"name": "Atmosphere Remediation",
 				"row": 1,
 				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
-				"quote": "All analysed pathways limiting warming to 1.5Â°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
+				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
 			},
 
 			/*{
