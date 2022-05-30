@@ -385,7 +385,7 @@
 				"name": "Avionics",
 				"row": 6,
 				"prerequisites": ["Radar", "Gyroscopes", "Computers"],
-				"quote": "In the end, that?™s what this election is about. Do we participate in a politics of cynicism, or do we participate in a politics of hope?"
+				"quote": "In the end, that's what this election is about. Do we participate in a politics of cynicism, or do we participate in a politics of hope?"
 			}
 		]
 	},
@@ -479,7 +479,7 @@
 				"name": "Plastics Recycling",
 				"row": 3,
 				"prerequisites": ["Lasers"],
-				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn?™t know how to make it. Needed us."
+				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
 			},
 			{
 				"name": "Advanced Materials",
@@ -533,7 +533,7 @@
 				"name": "Atmosphere Remediation",
 				"row": 1,
 				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
-				"quote": "All analysed pathways limiting warming to 1.5Â°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
+				"quote": "All analysed pathways limiting warming to 1.5Ã‚Â°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
 			},
 
 			/*{
