@@ -40,7 +40,7 @@
 		"name": "Pasture",
 		"turnsToBuild": 7,
 		"techRequired": "Redomestication",
-		"uniques": ["[+1 Food] <after discovering [Genetics]>"],
+		"uniques": ["[+1 Food] <after discovering [Genetics]>", "Can only be built to improve a resource"],
 		"shortcutKey": "P"
 	},
 	{
@@ -80,7 +80,8 @@
 		"techRequired": "Steel",
 		"uniques": [
 			"Provides [1] [Power]",
-			"Cannot be built on [Coast] tiles <before discovering [Oceanography]>"
+			"Cannot be built on [Coast] tiles <before discovering [Oceanography]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "W"
 	},
@@ -93,7 +94,8 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Science] <after discovering [Computers]>"
+			"[+1 Science] <after discovering [Computers]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "H"
 	},
@@ -104,7 +106,8 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+3 Science] <after discovering [Artificial Intelligence]>"
+			"[+3 Science] <after discovering [Artificial Intelligence]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "H"
 	},
@@ -114,7 +117,8 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Production] <after discovering [Manufacturing]>"
+			"[+1 Production] <after discovering [Manufacturing]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "S"
 	},
@@ -134,7 +138,8 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Food] <after discovering [Ecology]>",
-			"[+1 Food] <after discovering [Genetics]>"
+			"[+1 Food] <after discovering [Genetics]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "C"
 	},
@@ -144,7 +149,8 @@
 		"techRequired": "Machinery",
 		"uniques": [
 			"Provides [1] [Oil]",
-			"Cannot be built on [Coast] tiles <before discovering [Oceanography]>"
+			"Cannot be built on [Coast] tiles <before discovering [Oceanography]>",
+			"Can only be built to improve a resource"
 		],
 		"shortcutKey": "W"
 	},
@@ -165,7 +171,7 @@
 		"name": "Fishing Boats",
 		"turnsToBuild": 7,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Food] <after discovering [Ocean Remediation]>"]
+		"uniques": ["[+1 Food] <after discovering [Ocean Remediation]>","Can only be built to improve a resource"]
 	},
 
 	// Military improvement
@@ -192,6 +198,7 @@
 	{
 		"name": "Road",
 		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Construction",
 		"uniques": [
 			"Can be built outside your borders",
@@ -202,6 +209,7 @@
 	{
 		"name": "Railroad",
 		"turnsToBuild": 10,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Railroads",
 		"uniques": [
 			"Can be built outside your borders",
@@ -261,6 +269,7 @@
 	{
 		"name": "Academy",
 		"science": 4,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
@@ -272,6 +281,7 @@
 		"name": "Settlement",
 		"gold": 1,
 		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
@@ -285,6 +295,7 @@
 	{
 		"name": "Outpost",
 		"production": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [50]%",
@@ -295,11 +306,13 @@
 	{
 		"name": "Narcotics farm",
 		"culture": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", "Provides [1] [Narcotics]"]
 	},
 	{
 		"name": "Prison farm",
 		"production": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Provides [1] [Slaves]",
@@ -312,6 +325,7 @@
 		"name": "Oracle",
 		"culture": 4,
 		"happiness": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
@@ -321,6 +335,7 @@
 	{
 		"name": "Manufactory",
 		"production": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
@@ -332,6 +347,7 @@
 	},
 	{
 		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
@@ -347,6 +363,7 @@
 	{
 		"name": "Seminary",
 		"faith": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
@@ -355,7 +372,8 @@
 	},
 	{
 		"name": "City center",
-		"uniques": ["Unpillagable", "Indestructible"],
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable"],
 		"civilopediaText": [
 			{
 				"text": "Marks the center of a city"
@@ -367,18 +385,22 @@
 	},
 	{
 		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable"]
 	},
 	{
 		"name": "Survivor camp",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
 	},
 	{
 		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Gives a defensive bonus of [10]%", "Unpillagable"]
 	},
 	{
 		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Gives a defensive bonus of [25]%", "Unpillagable"]
 	}
 ]
