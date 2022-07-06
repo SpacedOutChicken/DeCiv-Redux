@@ -1505,6 +1505,7 @@
 		"unitType": "Armor",
 		"movement": 3,
 		"strength": 62,
+		"cost": 450,
 		"upgradesTo": "Purge Robot",
 		"uniques": [
 			"Promotion Nullifier",
@@ -1512,7 +1513,8 @@
 			"[+25]% Strength <vs [Air] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Unbuildable"
+			"Unbuildable",
+			"Only available <if [Reactivate AI] is constructed>"
 		],
 		"promotions": ["Amphibious"],
 		"attackSound": "tankshot",
