@@ -20,6 +20,7 @@
 		"name": "Wasteland",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.1,
 		"RGB": [97, 171, 58],
 		"uniques": [
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
@@ -36,16 +37,18 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>"
 		]
 	},
 	{
 		"name": "Badlands",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.1,
 		"RGB": [168, 185, 102],
 		"uniques": [
-			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.4] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
 			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
 			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
@@ -61,13 +64,15 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>"
 		]
 	},
 	{
 		"name": "Tundra",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.2,
 		"RGB": [189, 204, 191],
 		"uniques": [
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
@@ -86,11 +91,11 @@
 		"name": "Desert",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.2,
 		"RGB": [230, 230, 113],
 		"uniques": [
-			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
-			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.2] and [0.8] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 			"[+1] to Fertility for Map Generation",
@@ -98,7 +103,26 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>"
+		]
+	},
+	{
+		"name": "Molten",
+		"type": "Land",
+		"movementCost": 1,
+		"production": 1,
+		"defenceBonus": -0.3,
+		"RGB": [250, 60, 40],
+		"uniques": [
+			"Occurs at temperature between [-0.9] and [0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.5] and [0.9] and humidity between [0] and [0.2]"
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Molten] tiles, with priority [2]",
+			"Considered [Desirable] when determining start locations <in [Molten] Regions>",
+			"Considered [Food] when determining start locations <in [Molten] Regions>",
+			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [5] damage"
 		]
 	},
 	{
@@ -108,9 +132,8 @@
 		"gold": 1,
 		"RGB": [123, 202, 226],
 		"uniques": [
-			"Fresh water",
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
+			"Considered [Desirable] when determining start locations",
 		]
 	},
 	{
@@ -138,7 +161,6 @@
 			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
 			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
 			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 			"Considered [Undesirable] when determining start locations",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -151,7 +173,7 @@
 		"production": 1,
 		"movementCost": 2,
 		"overrideStats": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.1,
 		"RGB": [105, 125, 72],
 		"occursOn": [
 			"Tundra",
@@ -180,7 +202,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.15,
 		"occursOn": [
 			"Desert",
 			"Tundra",
@@ -210,7 +232,7 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 0.15,
 		"occursOn": [
 			"Desert",
 			"Tundra",
@@ -238,7 +260,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"unbuildable": true,
-		"defenceBonus": -0.2,
+		"defenceBonus": -0.4,
 		"occursOn": [
 			"Desert",
 			"Tundra",
@@ -271,6 +293,7 @@
 		"name": "Fallout",
 		"type": "TerrainFeature",
 		"movementCost": 2,
+		"defenceBonus": -0.4,
 		"unbuildable": true,
 		"uniques": [
 			"Nullifies all other stats this tile provides",
@@ -462,6 +485,27 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+	},
+	{
+		"name": "Mainframe AI Ruins",
+		"type": "NaturalWonder",
+		"science": 2,
+		"production": 2,
+		"occursOn": ["Wasteland", "Badlands", "Desert"],
+		"uniques": [
+			"Must be adjacent to [1] to [2] [Mountain] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Marsh] tiles"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"civilopediaText": [
+			{
+				"text": "This Mainframe was estimated to have controlled hundreds of drones back when it was still operational during the Old World."
+			}
+		]
+		"weight": 5
 	},
 	{
 		"name": "Hydroelectric Dam",

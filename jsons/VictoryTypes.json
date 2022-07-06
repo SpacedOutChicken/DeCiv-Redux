@@ -28,8 +28,9 @@
     {
         "name": "Diplomatic",
         "hiddenInVictoryScreen": false,
-        "milestones": ["Anyone should build [United Nations]", "Win diplomatic vote"],
-        "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+		"victoryScreenHeader": "\nBuild the Transmissions Center and Recover the transmissions to win!",
+        "milestones": ["Build [Transmissions Center]","Build [Recover Transmission #1]","Build [Recover Transmission #2]","Build [Recover Transmission #3]","Build [Recover Transmission #4]","Build [Recover Transmission #5]","Build [Recover Transmission #6]","Build [Great Arc]"],
+        "victoryString": "You have triumphed over your foes through the art of diplomacy! By recovering pieces of the ancient past, you have brought together the many armies of this new world! May the people remember you as the great leader who brought peace to this weary world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {

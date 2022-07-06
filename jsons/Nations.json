@@ -8,6 +8,106 @@
 
 	// Nations
 	{
+		"name": "New Star",
+		"leaderName": "Willand Keiji",
+		"adjective": ["Star"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Humanism",
+
+		"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
+		"declaringWar": "Let's go!",
+		"attacked": "Everyone! Defense Positions!",
+		"defeated": "This is... not the end.",
+		"introduction": "A dream. That's all it takes to keep going.",
+		"neutralHello": "Hello.",
+		"hateHello": "What do you want?",
+		"tradeRequest": "We both stand to gain from this.",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 165, 0],
+		"style": "",
+		"uniqueName": "Determination",
+		"uniques": [
+			"[+50]% Great Person generation [in all cities]",
+			"[+15]% Strength <for [Ranged] units> <when attacking> <when adjacent to a [Great General] unit>",
+			"[+15]% Strength <for [Melee] units> <when defending> <when adjacent to a [Great General] unit>",
+			"[+1] Sight <for [Military] units> <when adjacent to a [Great General] unit>",
+			"Cannot build [Enslaved] units"
+		],
+		"cities": [
+			"Hope",
+			"Eastcity",
+			"Newbay",
+			"Ballenderg",
+			"San Lourn",
+			"Drimere",
+			"Highnimon",
+			"Inford",
+			"Melderk",
+			"Thallas",
+			"Nedaleck",
+			"Douridas Pier",
+			"Silverman Port",
+			"Dalbete",
+			"Light Otis",
+			"Meckenberg"
+		]
+	},
+	{
+		"name": "Hexlock",
+		"leaderName": "Aura",
+		"adjective": ["Hexlock"],
+		"startBias": ["Molten"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Objectivism",
+
+		"startIntroPart1": "'I will admit. There were times were even I felt stumped. Science is supposed to be free. To let you discover things to your heart's content without a single care. But for every step forward, there are some who wish to take two steps backwards. With their arbitrary regulations and limits. They had a system meant to hinder your progress. They... are gone now.'",
+		"startIntroPart2": "'For Hexlock, this new world is a paradise. Free to research whatever you want, however you want. No limits. Tell me. What will you bring this world next?'",
+		"declaringWar": "Congratulations. You will help me test my new advancements.",
+		"attacked": "Now isn't that interesting?",
+		"defeated": "Will this be the end? I wonder",
+		"introduction": "Hello-o. Anyone to spare for a science experiment?",
+		"neutralHello": "Yeah?",
+		"hateHello": "Quite an interesting person...",
+		"tradeRequest": "This Shipment was brought to you by Hexlock Technologies.",
+
+		"outerColor": [64, 8, 114],
+		"innerColor": [255, 40, 255],
+		"style": "Hexlock",
+		"uniqueName": "Adaptive Systems",
+		"uniques": [
+		    "Can Mix Unique Strategic Resources to Generate a Great Person",
+			"[-99]% Great Person generation [in all cities]"
+		    "[Purge Robot] units gain the [Promotion Nullifier] promotion",
+			"Starts with [Writing]",
+			"Starts with [Construction]",
+			"Starts with [Machinery]",
+			"Starts with [Engineering]",
+			"Starts with [Electronics]",
+			"[-2 Happiness] [in all cities]"
+		],
+		"cities": [
+			"Halimax",
+			"Darkfield",
+			"Nightcity",
+			"Aella",
+			"Cybellia Complex",
+			"Vannell",
+			"L-T",
+			"Hemfield",
+			"Chaoslance",
+			"Nicord",
+			"Slyphis",
+			"Stradival",
+			"Eblaizal",
+			"Qrephel",
+			"Mabelcut",
+			"Prawrie"
+		]
+	},
+	{
 		"name": "Children of Rust",
 		"leaderName": "Scarlett",
 		"adjective": ["Scavenger"],
@@ -32,8 +132,9 @@
 		"uniqueName": "Rubble Runners",
 		"uniques": [
 			"[Civilian] units gain the [Urban Warfare I] promotion",
-			"[{Land} {Low Tech}] units gain the [Urban Warfare I] promotion",
+			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
+			"[-15]% [Science] [in all cities] <before discovering [Education]>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			"Starts with [Redomestication]"
 		],
@@ -279,6 +380,7 @@
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
 			"Starts with [Avionics]",
+			"[-25]% Strength <for [Spec Ops] units> <before discovering [Replaceable Parts]>",
 			"[-2 Science] [in all cities] <before discovering [Education]>"
 		],
 		"cities": [

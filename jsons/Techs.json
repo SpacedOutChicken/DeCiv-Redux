@@ -458,7 +458,7 @@
 				"name": "Satellites",
 				"row": 7,
 				"prerequisites": ["Rocketry"],
-				"quote": ""
+				"quote": "And for the first time, I opened my eyes. And saw the entire world before me."
 			}
 		]
 	},
@@ -574,13 +574,14 @@
 			{
 				"name": "Future Power",
 				"row": 4,
-				"prerequisites": ["Particle Physics", "Energy Weapons"],
+				"prerequisites": ["Particle Physics","Artificial Intelligence","Energy Weapons"],
 				"quote": "All the towers of ivory are crumbling, and the swallows have sharpened their beaks..."
 			},
 			{
 				"name": "Globalization",
 				"row": 10,
 				"prerequisites": ["Incentivization"],
+				"uniques": ["Unlocks the final Diplomatic wonder if you have constructed all Diplomatic Transmissions"]
 				"quote": "The new electronic interdependence recreates the world in the image of a global village."
 			}
 		]
@@ -598,7 +599,6 @@
 				"prerequisites": [
 					"Geo Engineering",
 					"Future Power",
-					"Artificial Intelligence",
 					"Future Materials",
 					"Human Genome",
 					"Globalization"

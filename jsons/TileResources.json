@@ -167,7 +167,7 @@
 			"Swamp"
 		],
 		"improvement": "Water pump",
-		"improvementStats": { "gold": 1 },
+		"improvementStats": { "gold": 3 },
 		"uniques": [
 			"Generated on every [40] tiles <in [Wasteland] tiles>",
 			"Generated on every [40] tiles <in [Badlands] tiles>",
@@ -635,5 +635,36 @@
 			"Generated with weight [10] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]"
 		]
+	}
+	//Hexlock Unique
+	{
+		"name": "C1F3",
+		"production": 1,
+		"resourceType": "Luxury",
+		"improvementStats": { "production": 1 },
+	}
+	{
+		"name": "C2N14",
+		"gold": 2,
+		"resourceType": "Luxury",
+		"improvementStats": { "gold": 2 },
+	}
+	{
+		"name": "C8H17",
+		"culture": 1,
+		"resourceType": "Luxury",
+		"improvementStats": { "culture": 1 },
+	}
+	{
+		"name": "SbF5",
+		"science": 1,
+		"resourceType": "Luxury",
+		"improvementStats": { "science": 1 },
+	}
+	{
+		"name": "VX",
+		"faith": 1,
+		"resourceType": "Luxury",
+		"improvementStats": { "faith": 1 },
 	}
 ]

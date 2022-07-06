@@ -20,7 +20,8 @@
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles <after discovering [Ecology]>",
-			"[+1 Food, +1 Production] <after discovering [Land Remediation]>"
+			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
+			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>"
 		],
 		"shortcutKey": "T"
 	},
@@ -347,6 +348,8 @@
 	},
 	{
 		"name": "Citadel",
+		"science": 3,
+		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Gives a defensive bonus of [100]%",
@@ -370,6 +373,87 @@
 			"[+1 Culture, +1 Faith] <after discovering [Education]>"
 		]
 	},
+	{
+		"name": "Crystal Refinery",
+		"science": 2,
+		"gold": 1,
+		"uniqueTo": "Hexlock",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"[+2 Science, +1 Gold] for each adjacent [C1F3 Refinery]",
+			"[+2 Science, +1 Gold] for each adjacent [C2N14 Refinery]",
+			"[+2 Science, +1 Gold] for each adjacent [C8H17 Refinery]",
+			"[+2 Science, +1 Gold] for each adjacent [SbF5 Refinery]",
+			"[+2 Science, +1 Gold] for each adjacent [VX Refinery]",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Great Improvement",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city"
+		],
+		"civilopediaText": [
+			{
+				"text": "Constructing it will take over the tiles around it and assign them to your closest city"
+			}
+		]
+	},
+	//Civ-Exclusive
+	{
+		"name": "C1F3 Refinery",
+		"production": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+		"Refinery",
+		"Provides [1] [C1F3]",
+		"Gives a defensive bonus of [10]%"
+		]
+    },
+	{
+		"name": "C2N14 Refinery",
+		"gold": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+		"Refinery",
+		"Provides [1] [C2N14]",
+		"Gives a defensive bonus of [10]%"
+		]
+    },
+	{
+		"name": "C8H17 Refinery",
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+		"Refinery",
+		"Provides [1] [C8H17]",
+		"Gives a defensive bonus of [10]%"
+		]
+    },
+	{
+		"name": "SbF5 Refinery",
+		"science": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+		"Refinery",
+		"Provides [1] [SbF5]",
+		"Gives a defensive bonus of [10]%"
+		]
+    },
+	{
+		"name": "VX Refinery",
+		"faith": 1,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Hexlock",
+		"uniques": [
+		"Refinery",
+		"Provides [1] [VX]",
+		"Gives a defensive bonus of [10]%"
+		]
+    },
+	//General
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],

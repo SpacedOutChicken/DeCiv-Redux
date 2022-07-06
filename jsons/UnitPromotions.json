@@ -39,7 +39,9 @@
 		"name": "Entrench",
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+5]% Strength <when defending>"
+			"[+5]% Strength <when defending>",
+			"[-33]% Strength <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>",
+			"[-5]% Strength <when defending> <vs [Promotion Nullifier] units>"
 		],
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
@@ -64,17 +66,22 @@
 	//// Mounted, Armor
 	{
 		"name": "Shock",
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": [
+		"[+25]% Strength <when fighting in [Open terrain] tiles>"
+		"[-25]% Strength <when fighting in [Open terrain] tiles> <vs [Promotion Nullifier] units>"
+		],
 		"unitTypes": ["Mounted", "Armor"]
 	},
 	{
 		"name": "Loose Formation",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>",
+		"[-33]% Strength <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Mounted"]
 	},
 	{
 		"name": "Hull Down",
-		"uniques": ["[+15]% Strength <when defending>"],
+		"uniques": ["[+15]% Strength <when defending>",
+		"[-15]% Strength <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Armor"]
 	},
 
@@ -86,6 +93,8 @@
 			"Double movement in [Jungle]",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
+			"[-10]% Strength <when fighting in [Forest] tiles> <vs [Promotion Nullifier] units>",
+			"[-10]% Strength <when fighting in [Jungle] tiles> <vs [Promotion Nullifier] units>",
 			"[+10]% Strength <vs cities>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
@@ -96,6 +105,8 @@
 		"uniques": [
 			"[+30]% Strength <when fighting in [Forest] tiles>",
 			"[+30]% Strength <when fighting in [Jungle] tiles>",
+			"[-30]% Strength <when fighting in [Forest] tiles> <vs [Promotion Nullifier] units>",
+			"[-30]% Strength <when fighting in [Jungle] tiles> <vs [Promotion Nullifier] units>",
 			"[+30]% Strength <vs cities>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Scout"]
@@ -104,6 +115,7 @@
 		"name": "Guerilla Warfare I",
 		"uniques": [
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
+			"[-10]% Strength <when fighting in [Rough terrain] tiles> <vs [Promotion Nullifier] units>",
 			"Can move after attacking"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
@@ -113,7 +125,9 @@
 		"prerequisites": ["Guerilla Warfare I"],
 		"uniques": [
 			"[+30]% Strength <when fighting in [Hill] tiles>",
-			"[+10]% Strength <when attacking>"
+			"[+10]% Strength <when attacking>",
+			"[-30]% Strength <when fighting in [Hill] tiles> <vs [Promotion Nullifier] units>",
+			"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Scout"]
 	},
@@ -122,40 +136,48 @@
 	{
 		"name": "Accuracy",
 		"uniques": [
-			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+			"[-20]% Strength <when fighting in [Open terrain] tiles> <when attacking> <vs [Promotion Nullifier] units>"
 		],
 		"unitTypes": ["Siege", "Helicopter"]
 	},
 	{
 		"name": "Combat Drill",
-		"uniques": ["[+20]% Strength <when defending>"],
+		"uniques": [
+		"[+20]% Strength <when defending>",
+		"[-20]% Strength <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Siege", "Helicopter"]
 	},
 
 	//// Water (+ Air)
 	{
 		"name": "Evasion",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"
+		"[-33]% Strength <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Strike",
-		"uniques": ["[+33]% Strength <when attacking>"],
+		"uniques": ["[+33]% Strength <when attacking>",
+		"[-33]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Melee Water"]
 	},
 	{
 		"name": "Bombardment",
-		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"uniques": ["[+33]% Strength <vs [Land] units>",
+		"[-33]% Strength <vs [{Land} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Ranged Water", "Fighter", "Bomber"]
 	},
 	{
 		"name": "Targeting",
-		"uniques": ["[+25]% Strength <vs [Water] units>"],
+		"uniques": ["[+25]% Strength <vs [Water] units>",
+		"[-25]% Strength <vs [{Water} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Ranged Water", "Fighter", "Bomber"]
 	},
 	{
 		"name": "Armor Plating",
-		"uniques": ["[+20]% Strength <when defending>"],
+		"uniques": ["[+20]% Strength <when defending>",
+		"[-20]% Strength <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
@@ -181,19 +203,22 @@
 	},
 	{
 		"name": "Wolfpack I",
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <when attacking>",
+		"[-25]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <when attacking>",
+		"[-25]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+25]% Strength <when attacking>",
+		"[-25]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Submarine"]
 	},
 
@@ -256,7 +281,8 @@
 	{
 		"name": "Reconnaissance III",
 		"prerequisites": ["Reconnaissance II"],
-		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>"],
+		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>",
+		"[-50]% Strength <vs [{Siege} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout"]
 	},
 	{
@@ -265,14 +291,17 @@
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+10]% Strength <vs [Low Tech] units>",
-			"[+10]% Strength <vs cities>"
+			"[+10]% Strength <vs cities>",
+			"[-33]% Strength <vs [{Ranged} {Promotion Nullifier}] units> <when defending>",
+			"[-10]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>"
 		],
 		"unitTypes": ["Scrapper"]
 	},
 	{
 		"name": "Assault",
 		"prerequisites": ["Entrench", "Forage", "Loose Formation", "Shock"],
-		"uniques": ["[+10]% Strength <when attacking>"],
+		"uniques": ["[+10]% Strength <when attacking>",
+		"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Scrapper", "Mounted"]
 	},
 	{
@@ -280,6 +309,7 @@
 		"prerequisites": ["Loose Formation", "Shock"],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
+	        "[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"
 			"Heals [25] damage if it kills a unit"
 		],
 		"unitTypes": ["Mounted"]
@@ -289,7 +319,9 @@
 		"prerequisites": ["Hull Down", "Shock"],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-			"[+10]% Strength <when attacking>"
+			"[+10]% Strength <when attacking>",
+			"[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>",
+			"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>"
 		],
 		"unitTypes": ["Armor"]
 	},
@@ -309,7 +341,8 @@
 			"Guerilla Warfare I",
 			"Urban Warfare I"
 		],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+33]% Strength <vs [Mounted] units>",
+	    "[-33]% Strength <vs [{Mounted} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Scrapper", "Mounted"]
 	},
 	{
@@ -323,26 +356,30 @@
 			"Guerilla Warfare I",
 			"Urban Warfare I"
 		],
-		"uniques": ["[+33]% Strength <vs [Armor] units>"],
+		"uniques": ["[+33]% Strength <vs [Armor] units>",
+		"[-33]% Strength <vs [{Armor} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Scrapper", "Mounted", "Armor"]
 	},
 	{
 		"name": "Precision",
 		"prerequisites": ["Entrench", "Skirmish"],
-		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>",
+		"[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "Suppression",
 		"prerequisites": ["Entrench", "Skirmish"],
-		"uniques": ["[+33]% Strength <vs [Melee] units>"],
+		"uniques": ["[+33]% Strength <vs [Melee] units>",
+		"[-33]% Strength <vs [{Melee} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Shooter"]
 	},
 	{
 		"name": "Barrage",
 		"prerequisites": ["Accuracy", "Combat Drill"],
 		"uniques": [
-			"[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"
+			"[+20]% Strength <when fighting in [Rough terrain] tiles> <when attacking>",
+			"[-20]% Strength <when fighting in [Rough terrain] tiles> <when attacking> <vs [Promotion Nullifier] units>"
 		],
 		"unitTypes": ["Siege", "Helicopter"]
 	},
@@ -363,6 +400,8 @@
 		"uniques": [
 			"[+10]% Strength <when fighting in [Coast] tiles>",
 			"[+10]% Strength <when fighting in [Land] tiles>",
+			"[-10]% Strength <when fighting in [Coast] tiles> <vs [Promotion Nullifier] units>",
+			"[-10]% Strength <when fighting in [Land] tiles> <vs [Promotion Nullifier] units>",
 			"[+10]% Strength <vs cities>",
 			"Eliminates combat penalty for attacking across a coast"
 		],
@@ -371,7 +410,8 @@
 	},
 	{
 		"name": "Exploit Weakness",
-		"uniques": ["[+25]% Strength <vs [Wounded] units>"],
+		"uniques": ["[+25]% Strength <vs [Wounded] units>",
+		"[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"],
 		"prerequisites": ["Evasion", "Strike"],
 		"unitTypes": ["Melee Water"]
 	},
@@ -400,7 +440,9 @@
 		],
 		"uniques": [
 			"[+10]% Strength <when defending>",
-			"[+25]% Strength <vs [Air] units>"
+			"[+25]% Strength <vs [Air] units>",
+			"[-10]% Strength <when defending> <vs [Promotion Nullifier] units>",
+			"[-25]% Strength <vs [{Air} {Promotion Nullifier}] units>"
 		],
 		"unitTypes": ["Ranged Water", "Aircraft Carrier"]
 	},
@@ -641,6 +683,7 @@
 		"uniques": [
 			"[+25]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs cities>",
+	        "[-25]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>"
 			"Only available <if [Armaments Production Line] is constructed>"
 		],
 		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout"]
@@ -658,6 +701,7 @@
 		"name": "Advanced Weapons",
 		"uniques": [
 			"[+5]% Strength <when attacking>",
+			"[-5]% Strength <when attacking> <vs [Promotion Nullifier] units>",
 			"Only available <if [Aerospace Facility] is constructed>"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
@@ -669,6 +713,7 @@
 		"prerequisites": ["Drone Recon"],
 		"uniques": [
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[+10]% Strength for enemy [Promotion Nullifier] units in adjacent [All] tiles"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Armor"]
 	},
@@ -681,7 +726,8 @@
 	{
 		"name": "Infantry Mortar",
 		"prerequisites": ["Infantry Weapons"],
-		"uniques": ["[+10]% Strength <when attacking>"],
+		"uniques": ["[+10]% Strength <when attacking>",
+		"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
 	{
@@ -690,6 +736,8 @@
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Personnel] units>",
+			"[-50]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>",
+			"[-25]% Strength <vs [{Personnel} {Promotion Nullifier}] units>",
 			"[+50]% Strength <vs cities>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Siege", "Ranged Water"]
@@ -697,13 +745,15 @@
 	{
 		"name": "Antipersonnel Mines",
 		"prerequisites": ["Infantry Weapons"],
-		"uniques": ["[+10]% Strength <when defending>"],
+		"uniques": ["[+10]% Strength <when defending>",
+		"[-10]% Strength <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
 	{
 		"name": "Antitank Missile",
 		"prerequisites": ["Advanced Weapons", "Infantry Weapons"],
-		"uniques": ["[+66]% Strength <vs [Armor] units>"],
+		"uniques": ["[+66]% Strength <vs [Armor] units>",
+	    "[-66]% Strength <vs [{Armor} {Promotion Nullifier}] units>"],
 		"unitTypes": [
 			"Scrapper",
 			"Shooter",
@@ -720,6 +770,8 @@
 			"[33]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>"
+			"[-50]% Strength <vs [{Air} {Promotion Nullifier}] units>",
+			"[-100]% Strength <vs [{Helicopter} {Promotion Nullifier}] units>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
 	},
@@ -731,6 +783,8 @@
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Personnel] units>",
+			"[-50]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>",
+			"[-50]% Strength <vs [{Personnel} {Promotion Nullifier}] units>",
 			"[+50]% Strength <vs cities>"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
@@ -741,6 +795,8 @@
 		"uniques": [
 			"[+33]% Strength <when fighting in [Forest] tiles>",
 			"[+33]% Strength <when fighting in [Jungle] tiles>",
+			"[-33]% Strength <when fighting in [Forest] tiles> <vs [Promotion Nullifier] units>",
+			"[-33]% Strength <when fighting in [Jungle] tiles> <vs [Promotion Nullifier] units>",
 			"[+50]% Strength <vs cities>"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
@@ -748,13 +804,15 @@
 	{
 		"name": "Antiship Missile",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["[+33]% Strength <vs [Water] units>"],
+		"uniques": ["[+33]% Strength <vs [Water] units>",
+		"[-33]% Strength <vs [{Water} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 	{
 		"name": "Air-to-Air Missile",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["[+33]% Strength <vs [Air] units>"],
+		"uniques": ["[+33]% Strength <vs [Air] units>",
+		"[-33]% Strength <vs [{Air} {Promotion Nullifier}] units>"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
@@ -764,6 +822,7 @@
 		"uniques": [
 			"Automated",
 			"[+20]% Strength <vs [Wounded] units>",
+			"[-20]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"
 			"[+20]% Strength <vs cities>"
 		]
 	},
@@ -775,6 +834,7 @@
 		"name": "Tear Gas",
 		"uniques": [
 			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>"
 			"[+10]% Strength <vs cities>"
 		]
 	},
@@ -784,6 +844,8 @@
 			"Chemical Weapons",
 			"[+100]% Strength <vs [Low Tech] units>",
 			"[+100]% Strength <vs [Personnel] units>",
+			"[-100]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>",
+			"[-100]% Strength <vs [{Personnel} {Promotion Nullifier}] units>"
 			"[-50]% Strength <vs [Gas Mask] units>",
 			"[+50]% Strength <vs cities>",
 			"Only available <if [Chemical Weapons Laboratory] is constructed>"
@@ -797,8 +859,9 @@
 		]
 	},
 	{
-		"name": "Point Defense Laser",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"]
+		"name": "Powered Armor",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>",
+		"[-33]% Strength <vs [{Ranged} {Promotion Nullifier}] units> <when defending>"]
 	},
 	{
 		// Only for Units that have been close
@@ -814,7 +877,8 @@
 		"name": "Headhunter",
 		"uniques": [
 			"Earn [-10]% of [military] opponent's [Cost] as [Gold] for kills",
-			"[+25]% Strength <vs [Wounded] units>"
+			"[+25]% Strength <vs [Wounded] units>",
+			"[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"
 		]
 	},
 	{
@@ -840,6 +904,26 @@
 			"Can move immediately once bought"
 		]
 	},
+	{
+		"name": "Stormfront",
+		"uniques": [
+			"No defensive terrain penalty",
+			"Ignores terrain cost"
+		],
+	},
+	{
+		"name": "Promotion Nullifier",
+		"uniques": [
+			"Negates the combat bonus effect of Enemy Promotions",
+			 "[-100]% XP gained from combat",
+			 "[-25]% XP gained from combat <for units with [Drone Recon]>",
+			 "[-25]% XP gained from combat <for units with [Skirmish]>",
+			 "[-25]% XP gained from combat <for units with [Forage]>",
+			 "[-25]% XP gained from combat <for units with [Reconnaissance I]>",
+			 "[-50]% XP gained from combat <after adopting [Military Tradition]>"
+			 
+		],
+	},
 
 	// 'ability' promotions
 
@@ -848,6 +932,7 @@
 		"uniques": [
 			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[-20]% Strength <when fighting in [Friendly Land] tiles> <vs [Promotion Nullifier] units>"
 			"[50]% XP gained from combat",
 			"Can construct [Citadel]",
 			"Uncapturable"
