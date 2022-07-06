@@ -1624,10 +1624,14 @@
 		"name": "Chemical Extractor",
 		"replaces": "Distillery",
 		"uniqueTo": "Hexlock"
-		// "culture": 1,
-		"happiness": 2,
+		"culture": -1,
 		"maintenance": 1,
-		"uniques": ["Provides [1] [C2N14]"],
+		"uniques": ["[+1 Production] from [C1F3 Refinery] tiles [in this city]",
+		"[+1 Production] from [C2N14 Refinery] tiles [in this city]",
+		"[+1 Production] from [C8H17 Refinery] tiles [in this city]",
+		"[+1 Production] from [SbF5 Refinery] tiles [in this city]",
+		"[+1 Production] from [VX Refinery] tiles [in this city]",
+		"[+1 Production] from [Crystal Refinery] tiles [in this city]"],
 		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
