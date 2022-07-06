@@ -1219,8 +1219,8 @@
 		"uniqueTo": "New Star"
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 42,
-		"cost": 165,
+		"strength": 44,
+		"cost": 200,
 		"requiredTech": "Flight",
 		"uniques": [
 		    "Personnel",
@@ -1229,7 +1229,7 @@
 			"Consumes [1] [Weapons]",
 			"Never appears as a Barbarian unit"
 			],
-		"promotions": ["Smokescreen","Gas Mask"],
+		"promotions": ["Smokescreen","Gas Mask","Reconnaissance I","Reconnaissance II"],
 		"attackSound": "shot"
 	}
 
