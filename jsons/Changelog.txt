@@ -1,0 +1,61 @@
+Deciv Redux Changelog
+//
+New Content
+//
+
+-Heavily Reworked Diplomatic Victory(Now Requires building Lore-providing Transmissions)                                                                                                                    
+-Added Mainframe AI Ruins(Natural Wonder that can provide single-time unique units)
+-Added New Star(Diplomatic-based Civ)
+-Added Hexlock(Diplomatic-based Civ)
+-Added Promotion Nullifier Promotion
+-Added Bio Plants(Information era Power-providing building)
+-Added Protected Area(Rebuilding era Cultural Building that requires trees)
+-Added Purge Robot(New Future era Armor unit)
+-Added Exo-Trooper(Information era Melee unit)
+-Added Paratrooper(Decivilized era Paradrop Melee unit)
+-Added Jetsuit (Rebuilding era Paradrop Melee unit)
+-Added Guided Missiles(Postmodern era Ranged single-use unit)
+-Added Assault Ship(Rebuilding era Melee Water unit)
+-Added Missile Cruiser(Information era Ranged Water unit)
+-Added Communications Network(Neofeudal era National Wonder that provides production bonuses on connected cities)
+-Added Bio Synthetizer(New Future era building that provides resources)
+-Added Cooling Station(Neofeudal era Science building that requires Molten terrain)
+-Added Molten Terrain
+//
+Balance Changes
+//
+
+-Jet Fighter can now upgrade to Fighter Drone
+-The Patrios now suffer a strength penalty on their Spec Ops before discovering Replaceable Parts
+-Children of Rust now have -15% Science in all cities before researching Education
+-Children of Rust's passive now applies to all Low Tech units
+-Listening Posts now grant +75% Great Person Generation, increased by an additional 25% with Constitution
+-Slightly increased the bonuses granted by Arcology Domes
+-Drastically lowered the cost of AI Project
+-Medical Labs gives +2 Food
+-Plastics reprocessor gives +15% Production
+-Collectivism now grants 5% more production in all cities
+-Geo Engineering now increases yields from Tree Plantations
+-Temporarily removed Carbon Capture
+-Future Power now requires Artificial Intelligence
+-Advanced Armor now consumes 2 Oil, requires Automated Factory, and has the Point Defense Laser Promotion replaced with Powered Armor
+-Lakes are no longer fresh water, but provide +1 Food to Badlands, Deserts and Wastelands after researching Ecology
+-Added Embark Defense to all units across all eras
+-Most Terrains now have much harsher combat penalties
+-Destroyers have a combat bonus against Submarines
+-Increased bonus yields from working Groundwater
+-Both Submarine and Nuclear Submarine have a Defense bonus against Ranged Water units(Submarines are not counted)
+-Nuclear Submarine can now move after attacking
+-Researching Satellites increases the Range of Missiles, Nuclear Missiles and Tactical Nukes
+-Air units(Fighter and Bombers) are now slightly stronger(+5 Strength each)
+-Researching Energy Weapons increases the strength of Guided Missiles
+//
+MISC Changes
+//
+
+-Added a quote for Satellites
+-Increased Start Percent(Game Starts a bit later in terms of years)
+
+//
+-Credits from Icons to The Noun Project, 
+Robert Bjurshagen, Manglyang Studio, Mangsaabguru, Kamin Ginkae and Royal Icons

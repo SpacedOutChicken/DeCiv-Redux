@@ -66,7 +66,7 @@
 	{
 		"name": "Missile",
 		"movementType": "Air",
-		"uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+		"uniques": ["Self-destructs when attacking","[+4] Range <after discovering [Satellites]>","Cannot be intercepted"]
 	},
 	{
 		"name": "Helicopter",

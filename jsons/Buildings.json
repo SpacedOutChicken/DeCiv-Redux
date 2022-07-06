@@ -29,6 +29,49 @@
 		"civilopediaText": [{ "text": "An armed society is a polite society." }]
 	},
 	{
+		"name": "On the run",
+		"isWonder": true,
+		"uniqueTo": "New Star",
+		"production": 1,
+		"culture": 1,
+		"specialistSlots": { "Administrator": 1 },
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"Free [Militia] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Listening Post] [in this city]"
+		],
+		"quote": "I look around and see that others have begun to build bases. Operation centers made of steel. But not us. Because the true home is not some building made of lead, but rather the people around you. Surround yourself with them. And you'l be home forever.",
+		"civilopediaText": [
+			{
+				"text": "The New Star Operations Center consists of large and mobile encampments. Since they are set up according to their missions. They do not have a fixed location and are constantly moving."
+			}
+		]
+	},
+	{
+		"name": "Hex Corporation",
+		"isWonder": true,
+		"uniqueTo": "Hexlock",
+		"science": 2,
+		"production": 1,
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": [
+			"Provides [1] [Power]",
+			"Provides [2] [Encrypted Data]",
+			"[2] free [Purge Robot Proto] units appear",
+			"Can only be built [in capital]",
+			"Gain a free [Compound Mixer] [in this city]"
+		],
+		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
+		"civilopediaText": [
+			{
+				"text": "Even before the Cataclysm, Hexlock was already well on its way to becoming the world's first Corporate Republic. Mainly comprised of unhinged and ethic-less advanced scientists. Hexlock were the firsts to develop many of the Old world's final advancements. Which it sold at a high price. Strangely enough, none of their old leaders seem to be around anymore."
+			}
+		]
+	},
+	{
 		"name": "Ark One",
 		"isWonder": true,
 		"uniqueTo": "Blackwarden",
@@ -254,18 +297,112 @@
 
 	// Diplomatic victory
 	{
-		"name": "United Nations",
+		"name": "Transmissions Center",
+		"isNationalWonder": true,
+		"cost": 65,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"Enables construction of Diplomatic Victory Transmission",
+			"Hidden when [Diplomatic] Victory is disabled",
+		],
+		"quote": "If the past ruined our world. The past will be the one to save it.",
+	},
+	{
+		"name": "Recover Transmission #1",
+		"isNationalWonder": true,
+		"cost": 45,
+		"requiredTech": "Trade",
+		"uniques": [
+			"Diplomatic Victory Transmission",
+			"Only available <if [Transmissions Center] is constructed>",
+			"Only available <before discovering [Education]>"
+		],
+		"quote": "'By 2040, the world was tense but still bright. There were lows, but we all had hope. That's why we never imagined it... That first strike.'",
+	},
+	{
+		"name": "Recover Transmission #2",
+		"isNationalWonder": true,
+		"cost": 210,
+		"requiredTech": "Oceanography",
+		"uniques": [
+			"Diplomatic Victory Transmission",
+			"Only available <if [Transmissions Center] is constructed>",
+			"Only available <before discovering [Replaceable Parts]>"
+		],
+		"quote": "'We never knew who it was that launched the first bombs... Or perhaps we did. It didn't matter. The gates to hell were open... And we all walked the front door.'",
+	},
+	{
+		"name": "Recover Transmission #3",
+		"isNationalWonder": true,
+		"cost": 560,
+		"requiredTech": "Hydroponics",
+		"uniques": [
+			"Diplomatic Victory Transmission",
+			"Only available <if [Transmissions Center] is constructed>",
+			"Only available <during the [Rebuilding era]>"
+		],
+		"quote": "'After the bombs came the robots, bathed in metal. They did more damage to the great nations of old than the bombs ever did. They were ruthless. Killed anything that lived, it didn't matter who, or where. Not even the bunkers were safe.'",
+	},
+	{
+		"name": "Recover Transmission #4",
+		"isNationalWonder": true,
+		"cost": 880,
+		"requiredTech": "Networking",
+		"uniques": [
+			"Diplomatic Victory Transmission",
+			"Only available <if [Transmissions Center] is constructed>",
+			"Triggers a global alert upon completion",
+			"Only available <during the [Industrial era]>"
+		],
+		"quote": "'In a time where perhaps we all had lost hope. A silver of hope appeared. We never knew where the robots came from. But there were rumors of a guy that went around fearlessly destroying them. And just as they came, one day they were all gone. Some of us didn't believe it. But we knew. The Hero was real. We've seen him.'",
+	},
+	{
+		"name": "Recover Transmission #5",
+		"isNationalWonder": true,
+		"cost": 1024,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": [
+			"Diplomatic Victory Transmission",
+			"Only available <if [Transmissions Center] is constructed>",
+			"Only available <during the [Postmodern era]>"
+			"Triggers a global alert upon completion"
+		],
+		"quote": "'Just as if he existed solely for his mission. The Hero vanished. But some of us will remember him forever. Down 2/3 of our people. Supplies had run out. The atmosphere, toxic but survivable. It was time to head out.'",
+	},
+	{
+		"name": "Recover Transmission #6",
+		"isNationalWonder": true,
+		"cost": 1200,
+		"requiredTech": "Incentivization",
+		"uniques": [
+			"Diplomatic Victory Transmission",
+			"Only available <if [Transmissions Center] is constructed>",
+			"Only available <during the [Information era]>",
+			"Triggers a global alert upon completion"
+		],
+		"quote": "'When we came out, we saw many trying to remake their own societies, making the same mistakes of old. This might be my last entry. But we found it. The last wonder of the old world, Blueprints of the Arc. Meant to turn back the clock, bring us together once more. My life might be too short, but don't let this go to waste. Do better.'",
+	},
+	{
+		"name": "Great Arc",
 		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": { "Great Merchant": 2 },
+		"cost": 1500,
 		"requiredTech": "Globalization",
 		"uniques": [
-			"Triggers voting for the Diplomatic Victory",
+			"Triggers the Diplomatic Victory",
 			"Hidden when [Diplomatic] Victory is disabled",
-			"Triggers a global alert upon build start"
+			"Only available <if [Recover Transmission #1] is constructed>",
+			"Only available <if [Recover Transmission #2] is constructed>",
+			"Only available <if [Recover Transmission #3] is constructed>",
+			"Only available <if [Recover Transmission #4] is constructed>",
+			"Only available <if [Recover Transmission #5] is constructed>",
+			"Only available <if [Recover Transmission #6] is constructed>"
 		],
-		"quote": "United we stand. Divided we fall.",
-		"civilopediaText": [{ "text": "United we stand. Divided we fall." }]
+		"quote": "This is it. Our second chance.",
+		"civilopediaText": [
+			{
+				"text": "This mysteryous Arc brings an end to the nuclear fallout. Permanently making humans inmmune to radiation. It is the final mark of an united world."
+			}
+		]
 	},
 
 	// Government buildings
@@ -292,6 +429,80 @@
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Gideon Scanner",
+		"replaces": "Congress",
+		"uniqueTo": "New Star",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		    "[+1] Movement <for [All] units>",
+			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>"
+		    "[+1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Rally Station]>",
+			"Destroyed when the city is captured"
+		   
+		]
+	},
+	{
+		"name": "Rally Station",
+		"cost": 50,
+		"replaces": "Council",
+		"uniqueTo": "New Star",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		    "[-50]% Unhappiness from [Specialists] [in all cities]",
+			"[+15]% Production when constructing [Military] units [in all cities]",
+		    "[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Gideon Scanner]>",
+			"Destroyed when the city is captured"
+			
+		]
+	},
+	{
+		"name": "Stormfront Center",
+		"replaces": "Congress",
+		"uniqueTo": "Hexlock",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		    "[Land] units gain the [Stormfront] promotion",
+			"[+100]% City Strength from defensive buildings",
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Overcouncil]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Overcouncil",
+		"replaces": "Council",
+		"uniqueTo": "Hexlock",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		    "Provides [1] [C1F3]",
+			"Provides [1] [C2N14]",
+			"Provides [1] [C8H17]",
+			"Provides [1] [SbF5]",
+			"Provides [1] [VX]",
+			"[+100]% Yield from every [Crystal Refinery]",
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Stormfront Center]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -495,6 +706,28 @@
 		]
 	},
 	{
+		"name": "Electing Leaders",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "New Star",
+		"cost": 20,
+		"isNationalWonder": true,
+		"uniques": [
+			"Free [Great General] appears",
+			"Free [Civilian Convoy] appears"
+		]
+	},
+	{
+		"name": "Experiment on Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Hexlock",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]",
+			"Free [Great Scientist] appears"
+		]
+	},
+	{
 		"name": "Shake Down Survivors",
 		"cost": 5,
 		"isNationalWonder": true,
@@ -657,7 +890,7 @@
 	},
 	{
 		"name": "AI Project",
-		"cost": 3750,
+		"cost": 2000,
 		"science": 5,
 		"isWonder": true,
 		"uniques": [
@@ -946,6 +1179,40 @@
 		]
 	},
 	{
+		"name": "Open the Vault",
+		"isWonder": true,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"Free [Great Sage] appears",
+			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in all cities]",
+			"Must have an owned [Vault of Records] within [3] tiles",
+			"Hidden when religion is disabled"
+		],
+		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
+		"civilopediaText": [
+			{
+				"text": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+			}
+		]
+	},
+	{
+		"name": "Reactivate AI",
+		"isWonder": true,
+		"requiredTech": "Laboratory",
+		"uniques": [
+			"Free [Salvaged Purge Robot] appears",
+			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"
+			"[+2 Science, +2 Production] from [Mainframe AI Ruins] tiles [in all cities]",
+			"Must have an owned [Mainframe AI Ruins] within [3] tiles"
+		],
+		"quote": "LOADING... MACHINE DEFENSE SYSTEM OPERATIONAL. OPERATING AT APPROXIMATELY 16.38% CAPACITY. WHAT ARE YOUR ORDERS?",
+		"civilopediaText": [
+			{
+				"text": "Altough no longer powerful enough to truly automate robots. By being operational, this AI provides notable combat Intel that can help across all fronts."
+			}
+		]
+	},
+	{
 		"name": "Chemical Weapons Laboratory",
 		"isNationalWonder": true,
 		"requiredTech": "Laboratory",
@@ -1068,6 +1335,22 @@
 		]
 	},
 	{
+		"name": "Pre-Med Lab",
+		"replaces": "Hospital",
+		"uniqueTo": "Hexlock",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[15]% Food is carried over after population increases [in this city]",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
+			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion"
+			"[+5]% [Food] [in this city] <with [Harvested Organs]>",
+			"[+5]% [Science] [in this city] <with [Machine Parts]>"
+			"Consumes [1] [Power]"
+		]
+	},
+	{
 		"name": "Organ Farm",
 		"replaces": "Hospital",
 		"uniqueTo": "Deadrock Clan",
@@ -1099,6 +1382,7 @@
 	{
 		"name": "Medical Lab",
 		"science": -1,
+		"food": 2,
 		"maintenance": 2,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
@@ -1292,6 +1576,35 @@
 		"requiredTech": "Social Engineering"
 	},
 	{
+		"name": "Communications Network",
+		"isNationalWonder": true,
+		"requiredTech": "Radio",
+		"cost": 600,
+		"uniques": [
+			"[+3 Production, +3 Culture] [in all cities connected to capital]",
+			"[+15]% [Production] [in all cities connected to capital]",
+			"[+15]% [Culture] [in all cities connected to capital]"],
+	},
+	{
+		"name": "Protected Area",
+		"food": 1,
+		"culture": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Culture, +1 Food, -1 Gold] from [Tree plantation] tiles [in this city]"],
+		"requiredTech": "Hydroponics"
+	},
+	{
+		"name": "Gas Field",
+		"replaces": "Protected Area",
+		"uniqueTo": "Hexlock"
+		"science": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+4 Science, -1 Food, -1 Gold] from [Tree plantation] tiles [in this city]"],
+		"requiredTech": "Hydroponics"
+	},
+	{
 		"name": "Stadium",
 		"happiness": 3,
 		"maintenance": 1,
@@ -1307,6 +1620,18 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
 	},
+	{
+		"name": "Chemical Extractor",
+		"replaces": "Distillery",
+		"uniqueTo": "Hexlock"
+		// "culture": 1,
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [C2N14]"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
 
 	// Water buildings
 	{
@@ -1315,6 +1640,23 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"]
+	},
+	{
+		"name": "Private Label",
+		"replaces": "Market",
+		"uniqueTo": "Hexlock"
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniqueText": "+1 Water, +1 Science from Refinery tiles in this city",
+		"uniques": [
+		"[+1 Gold, +1 Science] from [C1F3 Refinery] tiles [in this city]",
+		"[+1 Gold, +1 Science] from [C2N14 Refinery] tiles [in this city]",
+		"[+1 Gold, +1 Science] from [C8H17 Refinery] tiles [in this city]",
+		"[+1 Gold, +1 Science] from [SbF5 Refinery] tiles [in this city]",
+		"[+1 Gold, +1 Science] from [VX Refinery] tiles [in this city]",
+		"[+1 Gold, +1 Science] from [Crystal Refinery] tiles [in this city]"
+		]
 	},
 	{
 		"name": "Caravan Office",
@@ -1375,6 +1717,19 @@
 			"[+1 Science] [in this city] <with [Power]>",
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Record Grid",
+		"replaces": "Library",
+		"uniqueTo": "Hexlock"
+		"hurryCostModifier": 25,
+		"cost": 110,
+		"uniques": [
+			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] per [3] population [in this city]",
+			"Free [Field Scientist] appears"
 		],
 		"requiredTech": "Writing"
 	},
@@ -1579,6 +1934,32 @@
 		"requiredTech": "Laboratory"
 	},
 	{
+		"name": "Experimental Lab"
+		"replaces": "Research Lab",
+		"uniqueTo": "Hexlock",
+		"culture": -2,
+		"percentStatBonus": { "science": 65 },
+		"specialistSlots": { "Scientist": 1 },
+		"maintenance": 1,
+		"uniques": [
+			"Only available <in cities with a [University]>",
+			"[+25]% Production when constructing [Promotion Nullifier] units [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+	{
+		"name": "Cooling Station",
+		"maintenance": 1,
+		"uniques": [
+			"[+4 Science, +1 Production] from [Molten] tiles [in this city]",
+			"Must have an owned [Molten] within [3] tiles",
+			"Consumes [1] [Power]"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Refrigeration"
+	},
+	{
 		"name": "Data Center",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1588,6 +1969,23 @@
 		"uniques": [
 			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
 			"[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Encoding Center",
+		"replaces": "Data Center",
+		"uniqueTo": "Hexlock"
+		"maintenance": 2,
+		"cost": 550,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "science": 65 },
+		"specialistSlots": { "Scientist": 2 },
+		"requiredTech": "Networking",
+		"uniques": [
+			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
+			"[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]",
+			"Provides [1] [Encrypted Data]",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -1732,12 +2130,28 @@
 		"requiredTech": "Energy Weapons"
 	},
 	{
+		"name": "Field Turret",
+		"replaces": "Active Denial System",
+		"uniqueTo": "Hexlock"
+		"maintenance": 1,
+		"cityStrength": 25,
+		"cityHealth": 35,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Energy Weapons"
+	},
+	{
 		"name": "Listening Post",
 		"maintenance": 1,
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
+			"[+75]% Great Person generation [in this city]",
+			"[+25]% Great Person generation [in this city] <after adopting [Constitution]>"
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
@@ -1856,6 +2270,19 @@
 		"maintenance": 1,
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Training Range",
+		"replaces": "Barracks",
+		"uniqueTo": "New Star"
+		"hurryCostModifier": 25,
+		"cost": 60,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [15] Experience [in this city]",
+			"All newly-trained [Military] units [in this city] receive the [Sentry] promotion"
 			"Destroyed when the city is captured"
 		]
 	},
@@ -2038,6 +2465,15 @@
 		"requiredTech": "Steam Power"
 	},
 	{
+		"name": "Heat Plant"
+		"replaces": "Hydro Plant",
+		"uniqueTo": "Hexlock",
+		"cost": 160,
+		"hurryCostModifier": 25,
+		"uniques": ["Provides [2] [Power]","[+2 Production] from [Molten] tiles [in this city]"],
+		"requiredTech": "Steam Power"
+	},
+	{
 		"name": "Tidal Plant",
 		// "cost": 320,
 		"hurryCostModifier": 25,
@@ -2053,7 +2489,7 @@
 		"uniques": [
 			"Provides [8] [Power]",
 			"Consumes [1] [Coal]",
-			"Only available <in cities without a [Nuclear Plant]>"
+			"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Recycling Plant]>"
 		],
 		"requiredTech": "Steam Power"
 	},
@@ -2067,9 +2503,21 @@
 			"Provides [8] [Power]",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>"
+			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>"
 		],
 		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Recycling Plant",
+		"maintenance": 5,
+		"cost": 750,
+		"hurryCostModifier": 33,
+		"uniques": [
+			"Provides [6] [Power]",
+			"[-15]% [Production] [in this city]"
+			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>",
+		],
+		"requiredTech": "Plastics Recycling"
 	},
 	{
 		"name": "Aluminum Smelter",
@@ -2126,6 +2574,25 @@
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Hex Assembly",
+		"replaces": "Factory",
+		"uniqueTo": "Hexlock",
+		"percentStatBonus": { "production": 25 },
+		"specialistSlots": { "Engineer": 1 },
+		"cost": 225,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Allows production of advanced troops and vehicles",
+			"[+3 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Provides [1] [Encrypted Data]"
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Manufacturing"
@@ -2240,6 +2707,7 @@
 		"production": 5,
 		"maintenance": 3,
 		"uniques": [
+			"Allows production of more advanced energy units"
 			"[+1 Production] [in this city] <with [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]",
@@ -2288,7 +2756,7 @@
 	{
 		"name": "Plastics Reprocessor",
 		// "production": 4,
-		// "percentStatBonus": {"production": 10},
+		"percentStatBonus": {"production": 15},
 		"specialistSlots": { "Engineer": 1 },
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -2320,6 +2788,7 @@
 			"Limited to [5] per Civilization"
 		]
 	},
+	/*
 	{
 		"name": "Carbon Capture",
 		"food": 2,
@@ -2328,7 +2797,8 @@
 		// "cannotBeBuiltWith": "Carbon Recapture",
 		"requiredTech": "Atmosphere Remediation"
 	},
-	// CUTURE ENDGAME THINGs
+	*/
+	// FUTURE ENDGAME THINGS
 	/*
 	{
 		"name": "Carbon Recapture",
@@ -2340,6 +2810,19 @@
 		"requiredTech": "Atmosphere Remediation"
 	},
 	*/
+	{
+		"name": "Bio Synthetizer",
+		"food": 2,
+		"maintenance": 3,
+		"requiredTech": "Atmosphere Remediation"
+		"uniques": [
+		    "Provides [1] [Oil]",
+			"Provides [1] [Aluminum]"
+			"Provides [1] [Uranium]",
+			"Consumes [1] [Power]",
+			"Limited to [3] per Civilization"
+		]
+	},
 	{
 		"name": "Fusion Reactor",
 		"cost": 3750,
@@ -2368,7 +2851,7 @@
 		"culture": 1,
 		"happiness": 1,
 		"gold": 1,
-		"percentStatBonus": { "culture": 33, "food": 10, "gold": 10 },
+		"percentStatBonus": { "culture": 33, "food": 20, "gold": 20 },
 		"cityStrength": 5,
 		"cityHealth": 25,
 		"requiredTech": "Future Materials",
@@ -2509,7 +2992,59 @@
 		"cityHealth": 25,
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
-
+    // Civilization Unique
+	{
+		"name": "Compound Mixer",
+		"uniqueTo": "Hexlock",
+		"specialistSlots": { "Engineer": 1 },
+		"cost": 120,
+		"hurryCostModifier": 25,
+		"happiness": 2,
+		"uniques": ["Enables Production of Compound Mixes"]
+	},
+	{
+		"name": "Compound Mix GA",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Great Administrator] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C8H17]","Consumes [1] [SbF5]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Compound Mix GP",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Great Sage] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [VX]","Consumes [1] [C2N14]","Will not be displayed in Civilopedia","Hidden when religion is disabled","Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Compound Mix GS",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Great Scientist] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [SbF5]","Consumes [1] [C1F3]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Compound Mix GM",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Great Merchant] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C2N14]","Consumes [1] [C8H17]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Compound Mix GE",
+		"uniqueTo": "Hexlock",
+		"cost": 70,
+		"hurryCostModifier": 25,
+		"uniques": ["Free [Great Engineer] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C1F3]","Consumes [1] [C2N14]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Compound Mix Meltdown",
+		"uniqueTo": "Hexlock",
+		"cost": 140,
+		"hurryCostModifier": 25,
+		"uniques": ["Free Great Person","Must have an owned [Crystal Refinery] within [3] tiles","Will not be displayed in Civilopedia","Only available <in cities with a [Compound Mixer]>","Limited to [2] per Civilization"]
+	},
+	
 	// City-state uniques
 	{
 		"name": "Archive of the Arts",
