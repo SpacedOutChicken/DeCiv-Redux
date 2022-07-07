@@ -31,9 +31,9 @@
 		"uniqueName": "Determination",
 		"uniques": [
 			"[+50]% Great Person generation [in all cities]",
-			"[+15]% Strength <for [Ranged] units> <when attacking> <when adjacent to a [Great General] unit>",
-			"[+15]% Strength <for [Melee] units> <when defending> <when adjacent to a [Great General] unit>",
-			"[+1] Sight <for [Military] units> <when adjacent to a [Great General] unit>",
+			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
+			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
+			"[+1] Sight <for [{Wounded} {Scout}] units> ",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": [
