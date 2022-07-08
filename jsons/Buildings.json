@@ -3046,7 +3046,7 @@
 		"uniqueTo": "Hexlock",
 		"cost": 140,
 		"hurryCostModifier": 25,
-		"uniques": ["Free Great Person","Must have an owned [Crystal Refinery] within [3] tiles","Will not be displayed in Civilopedia",,"Unsellable","Only available <in cities with a [Compound Mixer]>","Limited to [2] per Civilization"]
+		"uniques": ["Free Great Person","Must have an owned [Crystal Refinery] within [3] tiles","Will not be displayed in Civilopedia","Unsellable","Only available <in cities with a [Compound Mixer]>","Limited to [2] per Civilization"]
 	},
 	
 	// City-state uniques
