@@ -3011,42 +3011,42 @@
 		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Great Administrator] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C8H17]","Consumes [1] [SbF5]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+		"uniques": ["Free [Great Administrator] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C8H17]","Consumes [1] [SbF5]","Unsellable","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Compound Mix GP",
 		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Great Sage] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [VX]","Consumes [1] [C2N14]","Will not be displayed in Civilopedia","Hidden when religion is disabled","Limited to [3] per Civilization"]
+		"uniques": ["Free [Great Sage] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [VX]","Consumes [1] [C2N14]","Unsellable","Will not be displayed in Civilopedia","Hidden when religion is disabled","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Compound Mix GS",
 		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Great Scientist] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [SbF5]","Consumes [1] [C1F3]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+		"uniques": ["Free [Great Scientist] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [SbF5]","Consumes [1] [C1F3]","Unsellable","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Compound Mix GM",
 		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Great Merchant] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C2N14]","Consumes [1] [C8H17]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+		"uniques": ["Free [Great Merchant] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C2N14]","Consumes [1] [C8H17]","Unsellable","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Compound Mix GE",
 		"uniqueTo": "Hexlock",
 		"cost": 70,
 		"hurryCostModifier": 25,
-		"uniques": ["Free [Great Engineer] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C1F3]","Consumes [1] [C2N14]","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
+		"uniques": ["Free [Great Engineer] appears","Only available <in cities with a [Compound Mixer]>","Consumes [1] [C1F3]","Consumes [1] [C2N14]","Unsellable","Will not be displayed in Civilopedia","Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Compound Mix Meltdown",
 		"uniqueTo": "Hexlock",
 		"cost": 140,
 		"hurryCostModifier": 25,
-		"uniques": ["Free Great Person","Must have an owned [Crystal Refinery] within [3] tiles","Will not be displayed in Civilopedia","Only available <in cities with a [Compound Mixer]>","Limited to [2] per Civilization"]
+		"uniques": ["Free Great Person","Must have an owned [Crystal Refinery] within [3] tiles","Will not be displayed in Civilopedia",,"Unsellable","Only available <in cities with a [Compound Mixer]>","Limited to [2] per Civilization"]
 	},
 	
 	// City-state uniques
