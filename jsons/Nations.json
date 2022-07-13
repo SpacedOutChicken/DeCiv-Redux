@@ -955,6 +955,7 @@
 	// Barbarian
 	{
 		"name": "Barbarians",
+		"style": "Barbarians",
 		"outerColor": [0, 0, 0],
 		"innerColor": [182, 0, 0]
 	}
