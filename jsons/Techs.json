@@ -121,7 +121,7 @@
 				"row": 6,
 				"prerequisites": ["Writing"],
 				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire.",
-				"uniques": ["Enables conversion of city production to gold"]
+				"uniques": ["Enables conversion of city production to [Gold]"]
 			},
 
 			{
@@ -259,7 +259,7 @@
 			{
 				"name": "Laboratory",
 				"row": 3,
-				"uniques": ["Enables conversion of city production to science"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 				"prerequisites": ["Decontamination", "Refrigeration"],
 				"quote": "There is a plague on Man: his opinion that he knows something."
 			},
