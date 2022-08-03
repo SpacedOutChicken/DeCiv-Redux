@@ -2380,7 +2380,7 @@
 		"name": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Seminary] if it hasn't used other actions yet",
+			"Can construct [Seminary] <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
