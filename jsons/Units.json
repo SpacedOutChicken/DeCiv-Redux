@@ -53,12 +53,12 @@
 		"name": "Field Scientist",
 		"unitType": "Civilian",
 		"replaces": "Mounted Worker",
-		"uniqueTo": "Hexlock"
-		"requiredTech": "Writing"
+		"uniqueTo": "Hexlock",
+		"requiredTech": "Writing",
 		"cost": 70,
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can construct [C1F3 Refinery]","Can construct [C2N14 Refinery]","Can construct [C8H17 Refinery]","Can construct [SbF5 Refinery]","Can construct [VX Refinery]"],
+		"uniques": ["Can construct [C1F3 Refinery]","Can construct [C2N14 Refinery]","Can construct [C8H17 Refinery]","Can construct [SbF5 Refinery]","Can construct [VX Refinery]"]
 	},
 	{
 		"name": "Work Boats",
@@ -121,7 +121,7 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 		    "[-100]% maintenance costs",
-			"[+4] Range <after discovering [Satellites]>"
+			"[+4] Range <after discovering [Satellites]>",
 		    "[+40]% Strength <after discovering [Energy Weapons]>"
 		],
 		"attackSound": "missile"
@@ -165,8 +165,8 @@
 	{
 		"name": "First Aid",
 		"unitType": "Scout",
-		"uniqueTo": "New Star"
-		"replaces": "Scout"
+		"uniqueTo": "New Star",
+		"replaces": "Scout",
 		"movement": 2,
 		"strength": 12,
 		"cost": 25,
@@ -275,15 +275,15 @@
 	{
 		"name": "Purge Robot Proto",
 		"unitType": "Scrapper",
-		"replaces": "Spearman"
-		"uniqueTo": "Hexlock"
+		"replaces": "Spearman",
+		"uniqueTo": "Hexlock",
 		"movement": 2,
 		"strength": 25,
 		"cost": 50,
 		"requiredTech": "Machinery",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot"
+			"Purge Robot",
 			"Low Tech",
 			"Can move after attacking",
 			"No defensive terrain penalty",
@@ -668,16 +668,16 @@
 	{
 		"name": "Purge Robot MKI",
 		"unitType": "Scrapper",
-		"replaces": "Infantry"
-		"uniqueTo": "Hexlock"
+		"replaces": "Infantry",
+		"uniqueTo": "Hexlock",
 		"movement": 2,
 		"strength": 50,
 		"cost": 150,
 		"requiredTech": "Machinery",
 		"uniques": [
-		    "Personnel"
+		    "Personnel",
 			"Promotion Nullifier",
-			"Purge Robot"
+			"Purge Robot",
 			"Can move after attacking",
 			"No defensive terrain penalty",
 			"Consumes [1] [Weapons]",
@@ -1212,11 +1212,11 @@
 			],
 		"promotions": ["Reconnaissance I","Reconnaissance II"],
 		"attackSound": "shot"
-	}
+	},
 	{
 		"name": "Special Forces",
 		"replaces": "Jetsuit",
-		"uniqueTo": "New Star"
+		"uniqueTo": "New Star",
 		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 44,
@@ -1231,7 +1231,7 @@
 			],
 		"promotions": ["Smokescreen","Gas Mask","Reconnaissance I","Reconnaissance II"],
 		"attackSound": "shot"
-	}
+	},
 
 	// Siege
 	{
@@ -1379,7 +1379,7 @@
 		"name": "Recon Squad",
 		"unitType": "Armor",
 		"replaces": "Attack Vehicle",
-		"uniqueTo": "New Star"
+		"uniqueTo": "New Star",
 		"movement": 5,
 		"strength": 30,
 		"cost": 90,
@@ -1509,7 +1509,7 @@
 		"upgradesTo": "Purge Robot",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot"
+			"Purge Robot",
 			"[+25]% Strength <vs [Air] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -1528,20 +1528,20 @@
 		"name": "Jet Rover",
 		"unitType": "Armor",
 		"replaces": "Missile Vehicle",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"movement": 4,
 		"strength": 65,
 		"cost": 265,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Modern Armor",
-		"obsoleteTech": "Advanced Materials"
+		"obsoleteTech": "Advanced Materials",
 		"uniques": [
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Factory] is constructed>",
 			"[+25]% Strength <vs [Air] units>",
 			"[-25]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain penalty",
-			"Consumes [1] [Oil]",
+			"Consumes [1] [Oil]"
 		],
 		"promotions": ["Amphibious"],
 		"attackSound": "tankshot"
@@ -1550,7 +1550,7 @@
 		"name": "Campaign Tank",
 		"unitType": "Armor",
 		"replaces": "Tank",
-		"uniqueTo": "New Star"
+		"uniqueTo": "New Star",
 		"movement": 4,
 		"strength": 60,
 		"cost": 245,
@@ -1559,7 +1559,7 @@
 		"obsoleteTech": "Advanced Materials",
 		"uniques": [
 		    "[+15]% Strength <when attacking>",
-			"[-15]% Strength <when defending>"
+			"[-15]% Strength <when defending>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
@@ -1592,7 +1592,7 @@
 		"name": "Purge Robot MKII",
 		"unitType": "Armor",
 		"replaces": "Modern Armor",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"movement": 5,
 		"strength": 90,
 		"interceptRange": 2,
@@ -1600,8 +1600,8 @@
 		"requiredTech": "Combined Arms",
 		"uniques": [
 			"Promotion Nullifier",
-			"Purge Robot"
-			"Only available <if [Factory] is constructed>"
+			"Purge Robot",
+			"Only available <if [Factory] is constructed>",
 			"[95]% chance to intercept air attacks",
 			"[+25]% Strength <vs [Air] units>",
 			"Can move after attacking",
@@ -1679,7 +1679,7 @@
 		"name": "Armed Ambulance",
 		"unitType": "Siege",
 		"replaces": "Technical",
-		"uniqueTo": "New Star"
+		"uniqueTo": "New Star",
 		"range": 1,
 		"movement": 5,
 		"strength": 25,
@@ -1734,7 +1734,7 @@
 		"cost": 350,
 		"requiredTech": "Rocketry",
 		"uniques": [
-		    "Promotion Nullifier"
+		    "Promotion Nullifier",
 			"[+100]% Strength <vs cities>",
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
@@ -1790,7 +1790,7 @@
 		"attackSound": "missile"
 	},
 	{
-		"name": "Crystal Carrier"
+		"name": "Crystal Carrier",
 		"unitType": "Siege",
 		"replaces": "Mobile SAM",
 		"uniqueTo": "Hexlock",
@@ -1802,19 +1802,19 @@
 		"cost": 410,
 		"requiredTech": "Lasers",
 		"uniques": [
-		    "Promotion Nullifier"
+		    "Promotion Nullifier",
 			"[100]% chance to intercept air attacks",
 			"[+300]% Strength <vs [Air] units>",
 			"[+25]% Strength <when defending>",
-			"All adjacent units heal [+15] HP when healing"
+			"All adjacent units heal [+15] HP when healing",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
-		"promotions": ["Promotion Nullifier"]
+		"promotions": ["Promotion Nullifier"],
 		"attackSound": "missile"
-	}
+	},
 
 	// Helicopter
 	{
@@ -1899,7 +1899,7 @@
 		"interceptRange": 10,
 		"cost": 400,
 		"requiredTech": "Avionics",
-		"upgradesTo": "Fighter Drone"
+		"upgradesTo": "Fighter Drone",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -2221,10 +2221,10 @@
 			"May withdraw before melee ([66]%)",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
 			"Consumes [1] [Oil]"
 		],
-		"promotions": ["Artillery"]
+		"promotions": ["Artillery"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -2240,7 +2240,7 @@
 		"cost": 450,
 		"requiredTech": "Advanced Materials",
 		"uniques": [
-		    "Promotion Nullifier"
+		    "Promotion Nullifier",
 			"Can see invisible [Submarine] units",
 			"[75]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
@@ -2249,7 +2249,7 @@
 			"May withdraw before melee ([66]%)",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
 			"Consumes [1] [Oil]"
 		],
 		"promotions": ["Artillery","Promotion Nullifier"],
@@ -2306,7 +2306,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"[+75]% Strength <when attacking>",
-			"[+40]% Strength <vs [Ranged Water] units> <when defending>"
+			"[+40]% Strength <vs [Ranged Water] units> <when defending>",
 			"Can only attack [Water] tiles",
 			"[+1] Sight",
 			"Can carry [2] [Missile] units",

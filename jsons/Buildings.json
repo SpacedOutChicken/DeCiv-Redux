@@ -303,9 +303,9 @@
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Enables construction of Diplomatic Victory Transmission",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Hidden when [Diplomatic] Victory is disabled"
 		],
-		"quote": "If the past ruined our world. The past will be the one to save it.",
+		"quote": "If the past ruined our world. The past will be the one to save it."
 	},
 	{
 		"name": "Recover Transmission #1",
@@ -317,7 +317,7 @@
 			"Only available <if [Transmissions Center] is constructed>",
 			"Only available <before discovering [Education]>"
 		],
-		"quote": "'By 2040, the world was tense but still bright. There were lows, but we all had hope. That's why we never imagined it... That first strike.'",
+		"quote": "'By 2040, the world was tense but still bright. There were lows, but we all had hope. That's why we never imagined it... That first strike.'"
 	},
 	{
 		"name": "Recover Transmission #2",
@@ -329,7 +329,7 @@
 			"Only available <if [Transmissions Center] is constructed>",
 			"Only available <before discovering [Replaceable Parts]>"
 		],
-		"quote": "'We never knew who it was that launched the first bombs... Or perhaps we did. It didn't matter. The gates to hell were open... And we all walked the front door.'",
+		"quote": "'We never knew who it was that launched the first bombs... Or perhaps we did. It didn't matter. The gates to hell were open... And we all walked through the front door.'"
 	},
 	{
 		"name": "Recover Transmission #3",
@@ -341,7 +341,7 @@
 			"Only available <if [Transmissions Center] is constructed>",
 			"Only available <during the [Rebuilding era]>"
 		],
-		"quote": "'After the bombs came the robots, bathed in metal. They did more damage to the great nations of old than the bombs ever did. They were ruthless. Killed anything that lived, it didn't matter who, or where. Not even the bunkers were safe.'",
+		"quote": "'After the bombs came the robots, bathed in metal. They did more damage to the great nations of old than the bombs ever did. They were ruthless. Killed anything that lived, it didn't matter who, or where. Not even the bunkers were safe.'"
 	},
 	{
 		"name": "Recover Transmission #4",
@@ -354,7 +354,7 @@
 			"Triggers a global alert upon completion",
 			"Only available <during the [Industrial era]>"
 		],
-		"quote": "'In a time where perhaps we all had lost hope. A silver of hope appeared. We never knew where the robots came from. But there were rumors of a guy that went around fearlessly destroying them. And just as they came, one day they were all gone. Some of us didn't believe it. But we knew. The Hero was real. We've seen him.'",
+		"quote": "'In a time where perhaps we all had lost hope. A silver of hope appeared. We never knew where the robots came from. But there were rumors of a guy that went around fearlessly destroying them. And just as they came, one day they were all gone. Some of us didn't believe it. But we knew. The Hero was real. We've seen him.'"
 	},
 	{
 		"name": "Recover Transmission #5",
@@ -364,10 +364,10 @@
 		"uniques": [
 			"Diplomatic Victory Transmission",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Only available <during the [Postmodern era]>"
+			"Only available <during the [Postmodern era]>",
 			"Triggers a global alert upon completion"
 		],
-		"quote": "'Just as if he existed solely for his mission. The Hero vanished. But some of us will remember him forever. Down 2/3 of our people. Supplies had run out. The atmosphere, toxic but survivable. It was time to head out.'",
+		"quote": "'Just as if he existed solely for his mission. The Hero vanished. But some of us will remember him forever. Down 2/3 of our people. Supplies had run out. The atmosphere, toxic but survivable. It was time to head out.'"
 	},
 	{
 		"name": "Recover Transmission #6",
@@ -380,7 +380,7 @@
 			"Only available <during the [Information era]>",
 			"Triggers a global alert upon completion"
 		],
-		"quote": "'When we came out, we saw many trying to remake their own societies, making the same mistakes of old. This might be my last entry. But we found it. The last wonder of the old world, Blueprints of the Arc. Meant to turn back the clock, bring us together once more. My life might be too short, but don't let this go to waste. Do better.'",
+		"quote": "'When we came out, we saw many trying to remake their own societies, making the same mistakes of old. This might be my last entry. But we found it. The last wonder of the old world, Blueprints of the Arc. Meant to turn back the clock, bring us together once more. My life might be too short, but don't let this go to waste. Do better.'"
 	},
 	{
 		"name": "Great Arc",
@@ -440,7 +440,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 		    "[+1] Movement <for [All] units>",
-			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>"
+			"[+15]% Strength <for [All] units> <when fighting in [Foreign Land] tiles>",
 		    "[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -1201,14 +1201,14 @@
 		"requiredTech": "Laboratory",
 		"uniques": [
 			"Free [Salvaged Purge Robot] appears",
-			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"
+			"[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
 			"[+2 Science, +2 Production] from [Mainframe AI Ruins] tiles [in all cities]",
 			"Must have an owned [Mainframe AI Ruins] within [3] tiles"
 		],
 		"quote": "LOADING... MACHINE DEFENSE SYSTEM OPERATIONAL. OPERATING AT APPROXIMATELY 16.38% CAPACITY. WHAT ARE YOUR ORDERS?",
 		"civilopediaText": [
 			{
-				"text": "Altough no longer powerful enough to truly automate robots. By being operational, this AI provides notable combat Intel that can help across all fronts."
+				"text": "Although no longer powerful enough to truly automate robots, by being operational, this AI provides notable combat Intel that can help across all fronts."
 			}
 		]
 	},
@@ -1344,9 +1344,9 @@
 		"uniques": [
 			"[15]% Food is carried over after population increases [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
-			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion"
+			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+5]% [Food] [in this city] <with [Harvested Organs]>",
-			"[+5]% [Science] [in this city] <with [Machine Parts]>"
+			"[+5]% [Science] [in this city] <with [Machine Parts]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -1583,7 +1583,7 @@
 		"uniques": [
 			"[+3 Production, +3 Culture] [in all cities connected to capital]",
 			"[+15]% [Production] [in all cities connected to capital]",
-			"[+15]% [Culture] [in all cities connected to capital]"],
+			"[+15]% [Culture] [in all cities connected to capital]"]
 	},
 	{
 		"name": "Protected Area",
@@ -1597,7 +1597,7 @@
 	{
 		"name": "Gas Field",
 		"replaces": "Protected Area",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"science": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
@@ -1648,7 +1648,7 @@
 	{
 		"name": "Private Label",
 		"replaces": "Market",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"specialistSlots": { "Merchant": 2 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
@@ -1727,7 +1727,7 @@
 	{
 		"name": "Record Grid",
 		"replaces": "Library",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"hurryCostModifier": 25,
 		"cost": 110,
 		"uniques": [
@@ -1938,7 +1938,7 @@
 		"requiredTech": "Laboratory"
 	},
 	{
-		"name": "Experimental Lab"
+		"name": "Experimental Lab",
 		"replaces": "Research Lab",
 		"uniqueTo": "Hexlock",
 		"culture": -2,
@@ -1979,7 +1979,7 @@
 	{
 		"name": "Encoding Center",
 		"replaces": "Data Center",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"maintenance": 2,
 		"cost": 550,
 		"hurryCostModifier": 25,
@@ -2136,7 +2136,7 @@
 	{
 		"name": "Field Turret",
 		"replaces": "Active Denial System",
-		"uniqueTo": "Hexlock"
+		"uniqueTo": "Hexlock",
 		"maintenance": 1,
 		"cityStrength": 25,
 		"cityHealth": 35,
@@ -2155,7 +2155,7 @@
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
 			"[+75]% Great Person generation [in this city]",
-			"[+25]% Great Person generation [in this city] <after adopting [Constitution]>"
+			"[+25]% Great Person generation [in this city] <after adopting [Constitution]>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
@@ -2280,13 +2280,13 @@
 	{
 		"name": "Training Range",
 		"replaces": "Barracks",
-		"uniqueTo": "New Star"
+		"uniqueTo": "New Star",
 		"hurryCostModifier": 25,
 		"cost": 60,
 		"maintenance": 1,
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
-			"All newly-trained [Military] units [in this city] receive the [Sentry] promotion"
+			"All newly-trained [Military] units [in this city] receive the [Sentry] promotion",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -2469,7 +2469,7 @@
 		"requiredTech": "Steam Power"
 	},
 	{
-		"name": "Heat Plant"
+		"name": "Heat Plant",
 		"replaces": "Hydro Plant",
 		"uniqueTo": "Hexlock",
 		"cost": 160,
@@ -2518,8 +2518,8 @@
 		"hurryCostModifier": 33,
 		"uniques": [
 			"Provides [6] [Power]",
-			"[-15]% [Production] [in this city]"
-			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>",
+			"[-15]% [Production] [in this city]",
+			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Nuclear Plant]>"
 		],
 		"requiredTech": "Plastics Recycling"
 	},
@@ -2596,7 +2596,7 @@
 			"[+3 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
-			"Provides [1] [Encrypted Data]"
+			"Provides [1] [Encrypted Data]",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Manufacturing"
@@ -2711,7 +2711,7 @@
 		"production": 5,
 		"maintenance": 3,
 		"uniques": [
-			"Allows production of more advanced energy units"
+			"Allows production of more advanced energy units",
 			"[+1 Production] [in this city] <with [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]",
@@ -2818,10 +2818,10 @@
 		"name": "Bio Synthetizer",
 		"food": 2,
 		"maintenance": 3,
-		"requiredTech": "Atmosphere Remediation"
+		"requiredTech": "Atmosphere Remediation",
 		"uniques": [
 		    "Provides [1] [Oil]",
-			"Provides [1] [Aluminum]"
+			"Provides [1] [Aluminum]",
 			"Provides [1] [Uranium]",
 			"Consumes [1] [Power]",
 			"Limited to [3] per Civilization"
