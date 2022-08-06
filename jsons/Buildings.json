@@ -588,7 +588,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Production to [Science] conversion in cities changed by [+33%]",
+			"Production to [Science] conversion in cities changed by [33]%",
 			"[+10]% Production when constructing [Science] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
