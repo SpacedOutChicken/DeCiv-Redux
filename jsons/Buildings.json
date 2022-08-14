@@ -1179,19 +1179,35 @@
 		]
 	},
 	{
-		"name": "Open the Vault",
+		"name": "Mining Operation",
+		"isWonder": true,
+		"requiredTech": "Mining",
+		"uniques": [
+			"[+1 Science, +4 Production] from [Mining Pit] tiles [in all cities]",
+			"Must have an owned [Mining Pit] within [3] tiles",
+			"Only available <in cities without a [Pit of Sacrifice]>"
+		],
+		"quote": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable.",
+		"civilopediaText": [
+			{
+				"text": "There is, of course, a gold mine or a buried treasure on every mortgaged homestead. Whether the farmer ever digs for it or not, it is there, haunting his daydreams when the burden of debt is most unbearable."
+			}
+		]
+	},
+	{
+		"name": "Pit of Sacrifice",
 		"isWonder": true,
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Free [Great Sage] appears",
-			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in all cities]",
-			"Must have an owned [Vault of Records] within [3] tiles",
-			"Hidden when religion is disabled"
+			"Gain a free [Pantheon] belief",
+			"[+1 Food, +3 Faith] from [Mining Pit] tiles [in all cities]",
+			"Must have an owned [Mining Pit] within [3] tiles",
+			"Only available <in cities without a [Mining Operation]>"
 		],
-		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
+		"quote": "'The earth itself is hungry! See, its mouth wide open before us! It must be fed!'",
 		"civilopediaText": [
 			{
-				"text": "And I seal up these records, after I have spoken a few words by way of exhortation unto you."
+				"text": "'The earth itself is hungry! See, its mouth wide open before us! It must be fed!'"
 			}
 		]
 	},

@@ -116,7 +116,7 @@
 		"RGB": [250, 60, 40],
 		"uniques": [
 			"Occurs at temperature between [-0.9] and [0.1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.5] and [0.9] and humidity between [0] and [0.2]"
+			"Occurs at temperature between [0.5] and [0.9] and humidity between [0] and [0.2]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Molten] tiles, with priority [2]",
 			"Considered [Desirable] when determining start locations <in [Molten] Regions>",
@@ -133,7 +133,7 @@
 		"RGB": [123, 202, 226],
 		"uniques": [
 			"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations",
+			"Considered [Desirable] when determining start locations"
 		]
 	},
 	{
@@ -312,8 +312,7 @@
 			"Hill",
 			"Swamp",
 			"Marsh"
-		],
-		"defenceBonus": -0.3
+		]
 	},
 	{
 		"name": "Swamp",
@@ -504,7 +503,7 @@
 			{
 				"text": "This Mainframe was estimated to have controlled hundreds of drones back when it was still operational during the Old World."
 			}
-		]
+		],
 		"weight": 5
 	},
 	{
@@ -566,6 +565,18 @@
 		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Desert] tiles"],
 		"turnsInto": "Wasteland",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Mining Pit",
+		"type": "NaturalWonder",
+		"science": 1,
+		"production": 1,
+		"occursOn": ["Badlands", "Wasteland","Tundra","Permafrost"],
+		"uniques": ["Must be adjacent to [1] to [6] [Mountain] tiles"],
+		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
