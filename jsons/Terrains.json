@@ -108,7 +108,7 @@
 		]
 	},
 	{
-		"name": "Molten",
+		"name": "Fissure",
 		"type": "Land",
 		"movementCost": 1,
 		"production": 1,
@@ -118,9 +118,9 @@
 			"Occurs at temperature between [-0.9] and [0.1] and humidity between [0] and [0.2]",
 			"Occurs at temperature between [0.5] and [0.9] and humidity between [0] and [0.2]",
 			"[+1] to Fertility for Map Generation",
-			"A Region is formed with at least [25]% [Molten] tiles, with priority [2]",
-			"Considered [Desirable] when determining start locations <in [Molten] Regions>",
-			"Considered [Food] when determining start locations <in [Molten] Regions>",
+			"A Region is formed with at least [25]% [Fissure] tiles, with priority [2]",
+			"Considered [Desirable] when determining start locations <in [Fissure] Regions>",
+			"Considered [Food] when determining start locations <in [Fissure] Regions>",
 			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Units ending their turn on this terrain take [5] damage"
 		]
@@ -256,7 +256,7 @@
 		]
 	},
 	{
-		"name": "Marsh", // TODO: Rename this to Toxic Waste?
+		"name": "Toxic Waste",
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"unbuildable": true,
@@ -311,7 +311,7 @@
 			"Jungle",
 			"Hill",
 			"Swamp",
-			"Marsh"
+			"Toxic Waste"
 		]
 	},
 	{
@@ -429,7 +429,6 @@
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
 			"Fresh water"
 		],
-		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	},
@@ -445,7 +444,7 @@
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
 			"Must be adjacent to [0] [Mountain] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Toxic Waste] tiles",
 			"Must be adjacent to [0] to [2] [Hill] tiles"
 		],
 		"turnsInto": "Mountain",
@@ -493,8 +492,7 @@
 		"occursOn": ["Wasteland", "Badlands", "Desert"],
 		"uniques": [
 			"Must be adjacent to [1] to [2] [Mountain] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
-			"Must be adjacent to [0] [Marsh] tiles"
+			"Must be adjacent to [0] [Toxic Waste] tiles"
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -548,7 +546,7 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Wasteland] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] [Toxic Waste] tiles",
 			"Must be adjacent to [3] to [6] [Desert] tiles"
 		],
 		"turnsInto": "Mountain",

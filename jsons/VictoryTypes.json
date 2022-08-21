@@ -26,11 +26,36 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
+        "name": "Transmission",
+        "hiddenInVictoryScreen": false,
+		"victoryScreenHeader": "Build the Transmissions Center and\nrecover the transmissions to win!",
+        "milestones": [
+            "Build [Transmissions Center]",
+            "Anyone should build [Recover Transmission #1]",
+            "Anyone should build [Recover Transmission #2]",
+            "Anyone should build [Recover Transmission #3]",
+            "Anyone should build [Recover Transmission #4]",
+            "Anyone should build [Recover Transmission #5]",
+            "Anyone should build [Recover Transmission #6]",
+            "Build [Great Arc]"
+        ],
+        "victoryString": "You have decoded the transmissions and recovered the Great Arc! Within it lies the secret to immunity to radiation. With your help, humanity will at last be able to adapt to the harsh landscape, and prosper once more! You will long be remembered as the leader who saved this world!",
+         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
         "name": "Diplomatic",
         "hiddenInVictoryScreen": false,
-		"victoryScreenHeader": "\nBuild the Transmissions Center and Recover the transmissions to win!",
-        "milestones": ["Build [Transmissions Center]","Build [Recover Transmission #1]","Build [Recover Transmission #2]","Build [Recover Transmission #3]","Build [Recover Transmission #4]","Build [Recover Transmission #5]","Build [Recover Transmission #6]","Build [Great Arc]"],
+		"victoryScreenHeader": "Found the Global Alliance and be voted\nworld leader to win!",
+        "milestones": ["Anyone should build [Global Alliance]", "Win diplomatic vote"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy! By recovering pieces of the ancient past, you have brought together the many armies of this new world! May the people remember you as the great leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Religious",
+        "hiddenInVictoryScreen": false,
+		"victoryScreenHeader": "Become the dominant religion\nin every city of the world to win!",
+        "milestones": ["Become the world religion"],
+        "victoryString": "You have achieved victory through the power of faith and conviction. All the nations have submitted to your teachings, for better or worse. Rejoice! For your faith has converted the world.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {

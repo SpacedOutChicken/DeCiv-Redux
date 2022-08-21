@@ -7,7 +7,7 @@
 		"startingMilitaryUnitCount": 0,
 		"startingMilitaryUnit": "Scout",
 		"settlerPopulation": 1,
-		"startPercent": 103,
+		"startPercent": 0,
 		"embarkDefense": 6,
 		"friendBonus": {
 			"Cultured": ["Provides [+3 Culture] per turn"],
@@ -41,7 +41,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 115,
+		"startPercent": 10,
 		"embarkDefense": 10,
 		"friendBonus": {
 			"Cultured": ["Provides [+3 Culture] per turn"],
@@ -75,7 +75,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 123,
+		"startPercent": 25,
 		"embarkDefense": 13,
 		"friendBonus": {
 			"Cultured": ["Provides [+6 Culture] per turn"],
@@ -109,7 +109,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 133,
+		"startPercent": 37,
 		"embarkDefense": 16,
 		"friendBonus": {
 			"Cultured": ["Provides [+6 Culture] per turn"],
@@ -143,7 +143,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 145,
+		"startPercent": 50,
 		"embarkDefense": 20,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
@@ -182,7 +182,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 160,
+		"startPercent": 65,
 		"embarkDefense": 24,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
@@ -221,7 +221,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 160,
+		"startPercent": 75,
 		"embarkDefense": 29,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],
@@ -260,7 +260,7 @@
 		"startingGold": 0,
 		"startingCulture": 0,
 		"settlerPopulation": 1,
-		"startPercent": 170,
+		"startPercent": 80,
 		"embarkDefense": 33,
 		"friendBonus": {
 			"Cultured": ["Provides [+13 Culture] per turn"],

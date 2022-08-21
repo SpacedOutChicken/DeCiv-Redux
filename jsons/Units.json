@@ -67,10 +67,23 @@
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Cannot enter ocean tiles <before discovering [Astronomy]>",
+			"Cannot enter ocean tiles <before discovering [Navigation]>",
 			"May create improvements on water resources"
 		],
 		"hurryCostModifier": 20
+	},
+	{
+		"name": "Mechanized Worker",
+		"unitType": "Civilian",
+		"requiredTech": "Replaceable Parts",
+		"movement": 4,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Consumes [1] [Oil]",
+			"Only available <if [Factory] is constructed>",
+			"[25]% tile improvement construction time"
+		]
 	},
 
 	// Missile
@@ -580,7 +593,7 @@
 		"upgradesTo": "Soldier",
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"hurryCostModifier": 20,
-		"promotions": ["Raider"],
+		"promotions": ["Pride"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -593,8 +606,23 @@
 		"upgradesTo": "Infantry",
 		"hurryCostModifier": 20,
 		"requiredTech": "Rifling",
-		// "obsoleteTech": "Combined Arms",
 		"uniques": ["Personnel"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Black Beret",
+		"uniqueTo": "New Afrika",
+		"replaces": "Soldier",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 120,
+		"upgradesTo": "Infantry",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"uniques": ["Personnel"],
+		"promotions": ["Pride"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1009,6 +1037,7 @@
 		"uniques": [
 			"Personnel",
 			"Only available <if [Armory] is constructed>",
+			"[-25]% Strength <before discovering [Replaceable Parts]>",
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Reconnaissance I", "Amphibious", "Ambush", "Gas Mask"],
@@ -1208,7 +1237,8 @@
 			"No movement cost to pillage",
 			"May Paradrop up to [10] tiles from inside friendly territory",
 			"Consumes [1] [Weapons]",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+			"Only available <if [Factory] is constructed>"
 			],
 		"promotions": ["Reconnaissance I","Reconnaissance II"],
 		"attackSound": "shot"
@@ -1227,6 +1257,7 @@
 			"No movement cost to pillage",
 			"May Paradrop up to [8] tiles from inside friendly territory",
 			"Consumes [1] [Weapons]",
+			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 			],
 		"promotions": ["Smokescreen","Gas Mask","Reconnaissance I","Reconnaissance II"],
@@ -1516,7 +1547,7 @@
 			"Unbuildable",
 			"Only available <if [Reactivate AI] is constructed>"
 		],
-		"promotions": ["Amphibious"],
+		"promotions": ["Amphibious","Promotion Nullifier"],
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
@@ -1716,6 +1747,7 @@
 			"[-1] Sight",
 			"May withdraw before melee ([50]%)",
 			"Only available <if [Factory] is constructed>",
+			"Can carry [1] [Missile] units",
 			"Consumes [1] [Oil]"
 		],
 		"promotions": ["Artillery"],
@@ -1818,12 +1850,33 @@
 
 	// Helicopter
 	{
+		"name": "Blimp",
+		"unitType": "Helicopter",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 110,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"[-25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities>",
+			"May withdraw before melee ([75]%)"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
 		"name": "Helicopter",
 		"unitType": "Helicopter",
 		"range": 1,
 		"interceptRange": 1,
 		"movement": 7,
-		"strength": 20,
+		"strength": 40,
 		"rangedStrength": 50,
 		"cost": 225,
 		"requiredTech": "Gyroscopes",
@@ -1844,7 +1897,7 @@
 		"name": "Attack Helicopter",
 		"unitType": "Helicopter",
 		"movement": 7,
-		"strength": 25,
+		"strength": 45,
 		"rangedStrength": 50,
 		"range": 2,
 		"interceptRange": 2,
@@ -2035,7 +2088,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"requiredTech": "Astronomy",
+		"requiredTech": "Navigation",
 		"upgradesTo": "Attack Boat",
 		"obsoleteTech": "Steam Power",
 		"uniques": [
@@ -2054,7 +2107,7 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 90,
-		"requiredTech": "Astronomy",
+		"requiredTech": "Navigation",
 		"upgradesTo": "Attack Boat",
 		"obsoleteTech": "Steam Power",
 		"uniques": [
@@ -2363,24 +2416,33 @@
 		"movement": 2
 	},
 	{
-		"name": "Great Prophet",
-		"uniqueTo": "Cult of Ignis",
-		"replaces": "Great Administrator",
-		"unitType": "Civilian",
-		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Can construct [Oracle]",
-			"Great Person - [Culture]",
-			"Uncapturable",
-			"Unbuildable"
-		],
-		"movement": 2
-	},
-	{
 		"name": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can construct [Seminary] <if it hasn't used other actions yet>",
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Prophet",
+		"uniqueTo": "Cult of Ignis",
+		"replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can construct [Oracle] <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -2840,26 +2902,47 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Arroyo Machine Gun",
-		"unitType": "Siege",
+		"name": "Arroyo Cavalry",
 		"uniqueTo": "Arroyo",
-		"replaces": "Machine Gun",
-		"range": 1,
-		"movement": 2,
-		"strength": 50,
-		"rangedStrength": 50,
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 36,
 		"interceptRange": 1,
-		"cost": 150,
+		"cost": 120,
 		"requiredTech": "Rifling",
-		"hurryCostModifier": 20,
-		"requiredResource": "Weapons",
 		"uniques": [
 			"Personnel",
-			"Must set up to ranged attack",
-			"[-33]% Strength <vs [Armor] units>",
-			"[-33]% Strength <vs cities>"
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"
 		],
-		"attackSound": "machinegun"
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Arroyo Light Cavalry",
+		"uniqueTo": "Arroyo",
+		"replaces": "Light Cavalry",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 115,
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
 	{
 		"name": "Ghost Defender",
@@ -2897,107 +2980,49 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Ghost Machine Gun",
-		"unitType": "Siege",
+		"name": "Ghost Cavalry",
 		"uniqueTo": "Ghost Mountain",
-		"replaces": "Machine Gun",
-		"range": 1,
-		"movement": 2,
-		"strength": 50,
-		"rangedStrength": 50,
-		"interceptRange": 1,
-		"cost": 150,
-		"requiredTech": "Rifling",
-		"hurryCostModifier": 20,
-		"requiredResource": "Weapons",
-		"uniques": [
-			"Personnel",
-			"Must set up to ranged attack",
-			"[-33]% Strength <vs [Armor] units>",
-			"[-33]% Strength <vs cities>"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Hub Auxiliary",
-		"uniqueTo": "The Hub",
-		"replaces": "Auxiliary",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 18,
-		"cost": 20,
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Militia",
-		"uniques": [
-			"Low Tech",
-			"Enslaved",
-			"Consumes [1] [Slaves]",
-			"Unbuildable",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"[+50]% Strength <vs [Mounted] units>"
-		],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Hub Militia",
-		"uniqueTo": "The Hub",
-		"replaces": "Militia",
-		"unitType": "Scrapper",
-		"movement": 2,
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
-		"cost": 55,
-		"requiredTech": "The Wheel",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Soldier",
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Unbuildable"],
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"
+		],
 		"hurryCostModifier": 20,
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Hub Gunman",
-		"uniqueTo": "The Hub",
-		"replaces": "Gunman",
-		"unitType": "Shooter",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 24,
-		"interceptRange": 1,
-		"cost": 60,
-		"requiredTech": "The Wheel",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Rifleman",
-		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
-		"name": "Hub Crossbowman",
-		"uniqueTo": "The Hub",
-		"replaces": "Crossbowman",
+		"name": "Ghost Light Cavalry",
+		"uniqueTo": "Ghost Mountain",
+		"replaces": "Light Cavalry",
 		"unitType": "Shooter",
 		"range": 1,
-		"movement": 2,
-		"strength": 12,
-		"rangedStrength": 15,
-		"cost": 35,
-		"hurryCostModifier": 20,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Gunman",
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 115,
+		"requiredTech": "Rifling",
 		"uniques": [
-			"Low Tech",
-			"Enslaved",
-			"Consumes [1] [Slaves]",
-			"Unbuildable",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"[+33]% Strength <vs [Low Tech] units>"
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"Only available <in cities with a [Stable]>"
 		],
-		"attackSound": "arrow"
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	},
+	
 
 	//Terraformer parts
 

@@ -922,6 +922,13 @@
 		]
 	},
 	{
+		"name": "Pride",
+		"uniques": [
+			"[Great General] is earned [25]% faster",
+			"[+15]% Strength decreasing with distance from the capital"
+		]
+	},
+	{
 		"name": "Stormfront",
 		"uniques": [
 			"No defensive terrain penalty",
