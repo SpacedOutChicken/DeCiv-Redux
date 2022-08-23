@@ -82,6 +82,7 @@
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Only available <if [Factory] is constructed>",
+			"Can build [Land] improvements on tiles",
 			"[25]% tile improvement construction time"
 		]
 	},
@@ -639,6 +640,7 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
+			"[25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -673,6 +675,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
+			"[25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -800,6 +803,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
+			"[25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
@@ -840,6 +844,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
+			"[25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Only available <with [Slaves]>",
