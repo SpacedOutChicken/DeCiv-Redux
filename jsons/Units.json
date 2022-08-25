@@ -2137,7 +2137,8 @@
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)"
+			"May withdraw before melee ([66]%)",
+			"Only available <if [Factory] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -2157,7 +2158,8 @@
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
-			"[+25]% Strength <when defending>"
+			"[+25]% Strength <when defending>",
+			"Only available <if [Factory] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -2173,7 +2175,8 @@
 		    "Can move after attacking",
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)"
+			"May withdraw before melee ([66]%)",
+			"Only available <if [Factory] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
