@@ -247,13 +247,13 @@
 	},
 	{
 		"name": "Interception II",
-		"prerequisites": ["Interception I", "Bombardment", "Targeting"],
+		"prerequisites": ["Interception I"],
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
-		"prerequisites": ["Interception II", "Operational Range"],
+		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
@@ -636,7 +636,7 @@
 			"Operational Range",
 			"Evasive Maneuvers"
 		],
-		"uniques": ["[1] additional attacks per turn"],
+		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
 		"unitTypes": [
 			"Shooter",
 			"Siege",
