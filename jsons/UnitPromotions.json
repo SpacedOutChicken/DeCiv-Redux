@@ -24,7 +24,10 @@
 			"Armor",
 			"Melee Water",
 			"Ranged Water",
-			"Submarine"
+			"Submarine",
+			"Aircraft Carrier",
+			"Fighter",
+			"Bomber"
 		]
 	},
 
@@ -247,13 +250,13 @@
 	},
 	{
 		"name": "Interception II",
-		"prerequisites": ["Interception I"],
+		"prerequisites": ["Interception I", "Bombardment", "Targeting"],
 		"uniques": ["[+33]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
 	{
 		"name": "Interception III",
-		"prerequisites": ["Interception II"],
+		"prerequisites": ["Interception II", "Operational Range"],
 		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
@@ -636,7 +639,10 @@
 			"Operational Range",
 			"Evasive Maneuvers"
 		],
-		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		],
 		"unitTypes": [
 			"Shooter",
 			"Siege",
@@ -741,6 +747,12 @@
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
 	},
 	{
+		"name": "Advanced Sensors",
+		"prerequisites": ["Drone Recon"],
+		"uniques": ["Can see invisible [Land] units"],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
+	}
+	{
 		"name": "Infantry Mortar",
 		"prerequisites": ["Infantry Weapons"],
 		"uniques": ["[+10]% Strength <when attacking>",
@@ -828,8 +840,12 @@
 	{
 		"name": "Air-to-Air Missile",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["[+33]% Strength <vs [Air] units>",
-		"[-33]% Strength <vs [{Air} {Promotion Nullifier}] units>"],
+		"uniques": [
+			"[+33]% Strength <vs [Air] units>",
+			"[-33]% Strength <vs [{Air} {Promotion Nullifier}] units>",
+			"[+33]% Strength <vs [Helicopter] units>",
+			"[-33]% Strength <vs [{Helicopter} {Promotion Nullifier}] units>"
+		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
@@ -938,6 +954,7 @@
 	{
 		"name": "Promotion Nullifier",
 		"uniques": [
+			"Promotion Nullifier",
 			"Negates the combat bonus effect of Enemy Promotions",
 			 "[-100]% XP gained from combat",
 			 "[-25]% XP gained from combat <for units with [Drone Recon]>",

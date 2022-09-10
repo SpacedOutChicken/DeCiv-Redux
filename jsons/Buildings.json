@@ -648,7 +648,7 @@
 		"uniques": [
 			"Can produce Black Hand infantry",
 			"[Great General] is earned [50]% faster",
-			"New [Clansman] units start with [30] Experience [in all cities]",
+			"New [Personnel] units start with [30] Experience [in all cities]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Smugglers' Guild]>",
 			"Destroyed when the city is captured"
@@ -776,7 +776,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[+2 Food, +1 Culture] [in all cities]",
+			"[+2 Food, +2 Culture] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Revolutionary Council]>",
@@ -1383,6 +1383,53 @@
 	},
 
 	{
+		"name": "Content Farm",
+		"percentStatBonus": { "production": -5 },
+		"production": -1,
+		"culture": 1,
+		"uniques": [
+			"Provides [1] [Data]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Broadcast Tower]>"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Software Lab",
+		"uniqueTo": "Hexlock",
+		"replaces": "Content Farm",
+		"percentStatBonus": { "production": -5 },
+		"production": -1,
+		"culture": 1,
+		"uniques": [
+			"Provides [1] [Data]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Broadcast Tower]>",
+			"[+10]% [Science] [in this city]"
+		],
+		"requiredTech": "Computers"
+	},
+	{
+		"name": "Resource Management Server",
+		"uniqueTo": "Blackwarden",
+		"replaces": "Content Farm",
+		"percentStatBonus": { "production": -5 },
+		"production": -1,
+		"culture": 1,
+		"uniques": [
+			"Provides [1] [Data]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Broadcast Tower]>",
+			"[+10]% growth [in this city]",
+			"Provides [1] [Slaves]",
+			"Limited to [5] per Civilization"
+		],
+		"requiredTech": "Computers"
+	},
+	{
 		"name": "Electronics Production Line",
 		"percentStatBonus": { "production": -5 },
 		"production": -1,
@@ -1405,20 +1452,6 @@
 			"Only available <in cities with a [Factory]>"
 		],
 		"requiredTech": "Replaceable Parts"
-	},
-
-	{
-		"name": "Armor Production Line",
-		"percentStatBonus": { "production": -10 },
-		"production": -3,
-		"uniques": [
-			"Free [Tank] appears",
-			"[+66]% Production when constructing [Armor] units [in this city]",
-			"Only available <after adopting [Collectivism]>",
-			"Only available <in cities with a [Factory]>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Combined Arms"
 	},
 	
 	{
@@ -1513,7 +1546,10 @@
 		"specialistSlots": { "Farmer": 3 },
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [1] [Power]"],
+		"uniques": [
+			"Consumes [1] [Power]",
+			"[+1 Food] from [Lakes] tiles [in this city]"
+		],
 		"requiredTech": "Hydroponics"
 	},
 	{
@@ -2838,6 +2874,7 @@
 		"production": -3,
 		"uniques": [
 			"Provides [2] [Weapons]",
+			"[+1] Unit Supply",
 			"Consumes [1] [Power]",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
 			"[+10]% Production when constructing [Military] units [in this city]",
@@ -2845,6 +2882,18 @@
 			"Gain a free [Armory] [in this city]"
 		],
 		"requiredTech": "Munitions"
+	},
+	{
+		"name": "Armor Production Line",
+		"percentStatBonus": { "production": -10 },
+		"production": -3,
+		"uniques": [
+			"Free [Tank] appears",
+			"[+66]% Production when constructing [Armor] units [in this city]",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Combined Arms"
 	},
 	{
 		"name": "Ground Control Center",
@@ -2890,6 +2939,7 @@
 		"replaces": "Ground Control Center",
 		"uniqueTo": "The Patriots",
 		"isNationalWonder": true,
+		"cost": 315,
 		"cityStrength": 5,
 		"happiness": 3,
 		"uniques": [
@@ -2905,7 +2955,7 @@
 		"production": -3,
 		"uniques": [
 			"Allows production of advanced aircraft",
-			"[Air] units gain the [Advanced Weapons] promotion",
+			"[Aircraft] units gain the [Advanced Weapons] promotion",
 			"[+15]% Production when constructing [Air] units [in this city]",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]"

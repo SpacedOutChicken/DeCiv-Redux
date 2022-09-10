@@ -156,7 +156,7 @@
 		"name": "Hymns of Praise",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Happiness] from every [Shrine] <in cities where this religion has at least [3] followers>"
+			"[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"
 		]
 	},
 	{
@@ -171,7 +171,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Production] <if this city has at least [1] specialists>"
+			"[+2 Production] <in cities with at least [1] [Specialists]>"
 		]
 	},
 	{
@@ -230,7 +230,7 @@
 		"name": "Happiness in Faith",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Happiness] from every [Monastery] <in cities where this religion has at least [5] followers>"
+			"[+2 Happiness] from every [Monastery] <in cities with at least [5] [Followers of this Religion]>"
 		]
 	},
 	{

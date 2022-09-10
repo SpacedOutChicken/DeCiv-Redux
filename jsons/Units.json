@@ -135,7 +135,6 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 		    "[-100]% maintenance costs",
-			"[+4] Range <after discovering [Satellites]>",
 		    "[+40]% Strength <after discovering [Energy Weapons]>"
 		],
 		"attackSound": "missile"
@@ -152,9 +151,8 @@
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"[+4] Range <after discovering [Satellites]>",
 			"Only available <if [Manhattan Project] is constructed>",
-			"Consumes [1] [Uranium]"
+			"Consumes [2] [Uranium]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
@@ -334,7 +332,7 @@
 		"strength": 18,
 		"cost": 20,
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Militia",
+		"upgradesTo": "Conscript",
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
@@ -342,8 +340,7 @@
 			"Can build [Fort] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]",
-			"Only available <with [Slaves]>",
-			"Never appears as a Barbarian unit"
+			"Only available <with [Slaves]>"
 		],
 		"attackSound": "metalhit"
 	},
@@ -356,7 +353,7 @@
 		"strength": 18,
 		"cost": 15,
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rubble Militia",
+		"upgradesTo": "Conscript",
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
@@ -404,7 +401,7 @@
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rubble Gunman",
+		"upgradesTo": "Gunman",
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
@@ -448,7 +445,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
@@ -469,7 +466,7 @@
 			"Low Tech",
 			"Clansman",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <if [Clubhouse] is constructed>",
 			"Only available <in cities with a [Stable]>"
 		],
@@ -494,7 +491,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
@@ -519,7 +516,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <if [Stable] is constructed>",
 			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Slaves]"
@@ -633,7 +630,7 @@
 		"strength": 36,
 		"interceptRange": 1,
 		"cost": 60,
-		"upgradesTo": "Infantry",
+		"upgradesTo": "NBC Conscript",
 		"hurryCostModifier": 20,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
@@ -657,7 +654,11 @@
 		"cost": 55,
 		"hurryCostModifier": 20,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Personnel", "[+1] Sight"],
+		"uniques": [
+			"Personnel",
+			"[+1] Sight",
+			"Can move after attacking"
+		],
 		"promotions": ["Reconnaissance I", "Skirmish"]
 	},
 	{
@@ -668,7 +669,7 @@
 		"movement": 2,
 		"strength": 36,
 		"cost": 60,
-		"upgradesTo": "Henchman",
+		"upgradesTo": "NBC Conscript",
 		"hurryCostModifier": 20,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
@@ -703,6 +704,7 @@
 		"uniqueTo": "Hexlock",
 		"movement": 2,
 		"strength": 50,
+		"interceptRange": 1,
 		"cost": 150,
 		"requiredTech": "Machinery",
 		"uniques": [
@@ -763,6 +765,7 @@
 		"interceptRange": 1,
 		"cost": 225,
 		"requiredTech": "Currency",
+		"upgradesTo": "NBC Infantry",
 		"uniques": [
 			"Personnel",
 			"Only available <if [Grand Clan Manor] is constructed>",
@@ -780,6 +783,7 @@
 		"interceptRange": 1,
 		"cost": 230,
 		"requiredTech": "Plastics",
+		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
@@ -826,8 +830,11 @@
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Weapons]"
 		],
-		"promotions": ["Powered Armor"],
-		"attackSound": "energygun"
+		"promotions": [
+			"Powered Armor",
+			"Gas Mask"
+		],
+		"attackSound": "phasers"
 	},
 	{
 		"name": "Henchman",
@@ -872,42 +879,6 @@
 		],
 		"attackSound": "metalhit"
 	},
-	/*
-	{
-		"name": "Exo-Suit",
-		"unitType": "Armor",
-		"movement": 2,
-		"strength": 60,
-		"interceptRange": 1,
-		"cost": 460,
-		"requiredTech": "Future Materials",
-		"requiredResource": "Aluminum",
-		"hurryCostModifier": 50,
-		"uniques": [
-			"Personnel",
-			"Only available <if [Factory] is constructed>"
-		],
-		"attackSound": "machinegun"
-	},
-	*/
-	/*
-	{
-		"name": "Combat Suit",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 45,
-		"interceptRange": 1,
-		"cost": 230,
-		"requiredTech": "Combined Arms",
-		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
-			"Requires [Suit Factory]",
-			"No defensive terrain bonus"
-		],
-		"attackSound": "machinegun"
-	},
-	*/
 
 	//// Ranged (Shooter)
 	{
@@ -981,7 +952,6 @@
 		"interceptRange": 1,
 		"cost": 120,
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Marksman",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel"],
@@ -992,7 +962,7 @@
 		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
-		"strength": 30,
+		"strength": 40,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 125,
@@ -1003,37 +973,15 @@
 		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},
-	/*
-	{
-		"name": "Sniper",
-		"unitType": "Shooter",
-		"uniqueTo": "The Patriots",
-		"replaces": "Marksman",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 35,
-		"interceptRange": 1,
-		"cost": 175,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "NBC Marksman",
-		"hurryCostModifier": 20,		
-		"uniques": [
-			"Personnel",
-			"Consumes [1] [Weapons]"
-		],
-		"promotions": ["Reconnaissance I", "Extended Range"],
-		"attackSound": "shot"
-	},
-	*/
 	{
 		"name": "Spec Ops",
 		"unitType": "Shooter",
 		"uniqueTo": "The Patriots",
 		"replaces": "Marksman",
+		"upgradesTo": "Black Ops",
 		"range": 1,
 		"movement": 2,
-		"strength": 35,
+		"strength": 40,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 300,
@@ -1053,9 +1001,10 @@
 		"unitType": "Shooter",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Marksman",
+		"upgradesTo": "Black Ops",
 		"range": 1,
 		"movement": 2,
-		"strength": 30,
+		"strength": 40,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 200,
@@ -1070,9 +1019,10 @@
 		"unitType": "Shooter",
 		"uniqueTo": "Commonwealth",
 		"replaces": "Great General",
+		"upgradesTo": "Black Ops",
 		"range": 1,
 		"movement": 2,
-		"strength": 35,
+		"strength": 40,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"uniques": [
@@ -1089,11 +1039,12 @@
 		"unitType": "Shooter",
 		"range": 1,
 		"movement": 2,
-		"strength": 30,
+		"strength": 40,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 225,
 		"requiredTech": "Plastics",
+		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
@@ -1103,26 +1054,32 @@
 		"promotions": ["Reconnaissance I", "Gas Mask"],
 		"attackSound": "shot"
 	},
-	/*
 	{
-		"name": "Stealth Suit",
+		"name": "Black Ops",
 		"unitType": "Shooter",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 35,
+		"strength": 50,
+		"rangedStrength": 45,
 		"interceptRange": 1,
-		"cost": 225,
-		"requiredTech": "Combined Arms",
+		"cost": 300,
+		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 20,		
 		"uniques": [
 			"Personnel",
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]",
+			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Reconnaissance I", "Gas Mask", "Extended Range"],
+		"promotions": [
+			"Drone Recon",
+			"Reconnaissance I",
+			"Gas Mask",
+			"Thermoptic Camouflage",
+			"Advanced Weapons"
+		],
 		"attackSound": "shot"
 	},
-	*/
 
 	//// Mounted
 	{
@@ -1139,7 +1096,7 @@
 			"Personnel",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-50]% Strength <vs cities>",
+			"[-50]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"
 		],
@@ -1159,7 +1116,7 @@
 			"Personnel",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-50]% Strength <vs cities>",
+			"[-50]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
@@ -1182,7 +1139,7 @@
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Weapons]"
 		],
@@ -1205,7 +1162,7 @@
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
@@ -1282,7 +1239,7 @@
 		"obsoleteTech": "Munitions",
 		"uniques": [
 			"[+20]% Strength <vs [Low Tech] units>",
-			"[+100]% Strength <vs cities>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
@@ -1304,7 +1261,7 @@
 		"obsoleteTech": "Munitions",
 		"uniques": [
 			"[+33]% Strength <vs [Low Tech] units>",
-			"[+100]% Strength <vs cities>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight"
@@ -1339,7 +1296,7 @@
 		"requiredTech": "Munitions",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": [
-			"[+100]% Strength <vs cities>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
@@ -1362,7 +1319,7 @@
 		"uniques": [
 			"Must set up to ranged attack",
 			"[-33]% Strength <vs [Armor] units>",
-			"[-50]% Strength <vs cities>",
+			"[-50]% Strength <vs cities> <when attacking>",
 			"Only available <if [Factory] is constructed>"
 		],
 		"hurryCostModifier": 20,
@@ -1383,7 +1340,7 @@
 			"[+50]% Strength <vs [Air] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
 			"[-33]% Strength <vs [Armor] units>",
-			"[-50]% Strength <vs cities>",
+			"[-50]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack",
 			"Only available <if [Factory] is constructed>"
 		],
@@ -1403,7 +1360,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
 			"[+20]% Strength <vs [Low Tech] units>",
-			"[-66]% Strength <vs cities>",
+			"[-66]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"
@@ -1424,7 +1381,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
 			"[+20]% Strength <vs [Low Tech] units>",
-			"[-66]% Strength <vs cities>",
+			"[-66]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"
@@ -1446,7 +1403,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
 			"[+20]% Strength <vs [Low Tech] units>",
-			"[-66]% Strength <vs cities>",
+			"[-66]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"
@@ -1466,7 +1423,7 @@
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
 			"[-33]% Strength <vs [Armor] units>",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
@@ -1528,7 +1485,7 @@
 		"obsoleteTech": "Advanced Materials",
 		"uniques": [
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
@@ -1541,6 +1498,7 @@
 		"unitType": "Armor",
 		"movement": 3,
 		"strength": 62,
+		"interceptRange": 1,
 		"cost": 450,
 		"upgradesTo": "Purge Robot",
 		"uniques": [
@@ -1556,7 +1514,7 @@
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
-				"text": "This Purge Robot is estimated to have served during the Old World era. And altough decayed, it's still extremely combat-effective."
+				"text": "This Purge Robot is estimated to have served during the Old World era. Although decayed, it's still extremely combat-effective."
 			}
 		]
 	},
@@ -1574,7 +1532,7 @@
 		"uniques": [
 			"Only available <if [Factory] is constructed>",
 			"[+25]% Strength <vs [Air] units>",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain penalty",
 			"Consumes [1] [Oil]"
@@ -1597,7 +1555,7 @@
 		    "[+15]% Strength <when attacking>",
 			"[-15]% Strength <when defending>",
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
@@ -1613,10 +1571,9 @@
 		"cost": 375,
 		"requiredTech": "Advanced Materials",
 		"upgradesTo": "Advanced Armor",
-		"obsoleteTech": "Energy Weapons",
 		"uniques": [
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
@@ -1657,7 +1614,7 @@
 		"requiredTech": "Energy Weapons",
 		"uniques": [
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Oil]"
@@ -1682,7 +1639,8 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <if [Automated Factory] is constructed>",
-			"Consumes [2] [Uranium]"
+			"Consumes [2] [Uranium]",
+			"Can carry [1] [Automated] units"
 		],
 		"promotions": ["Powered Armor","Amphibious","Sortie","Promotion Nullifier"],
 		"attackSound": "gdrAttack"
@@ -1704,7 +1662,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs [Armor] units>",
-			"[-50]% Strength <vs cities>",
+			"[-50]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([75]%)",
 			"Consumes [1] [Oil]"
 		],
@@ -1728,7 +1686,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs [Armor] units>",
-			"[-50]% Strength <vs cities>",
+			"[-50]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([75]%)",
 			"Consumes [1] [Oil]"
 		],
@@ -1746,7 +1704,7 @@
 		"cost": 350,
 		"requiredTech": "Rocketry",
 		"uniques": [
-			"[+100]% Strength <vs cities>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
@@ -1772,7 +1730,7 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 		    "Promotion Nullifier",
-			"[+100]% Strength <vs cities>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
@@ -1808,16 +1766,16 @@
 		"name": "Mobile SAM",
 		"unitType": "Siege",
 		"movement": 3,
-		"strength": 25,
-		"rangedStrength": 25,
+		"strength": 35,
+		"rangedStrength": 40,
 		"range": 2,
 		"interceptRange": 3,
 		"cost": 375,
 		"requiredTech": "Lasers",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
-			"[+300]% Strength <vs [Air] units>",
-			"[+300]% Strength <vs [Helicopter] units>",
+			"[+200]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Helicopter] units>",
 			"No defensive terrain bonus",
 			"May withdraw before melee ([50]%)",
 			"Only available <if [Factory] is constructed>",
@@ -1833,7 +1791,7 @@
 		"uniqueTo": "Hexlock",
 		"movement": 3,
 		"strength": 40,
-		"rangedStrength": 25,
+		"rangedStrength": 40,
 		"range": 2,
 		"interceptRange": 3,
 		"cost": 410,
@@ -1841,7 +1799,8 @@
 		"uniques": [
 		    "Promotion Nullifier",
 			"[100]% chance to intercept air attacks",
-			"[+300]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Air] units>",
+			"[+200]% Strength <vs [Helicopter] units>",
 			"[+25]% Strength <when defending>",
 			"All adjacent units heal [+15] HP when healing",
 			"No defensive terrain bonus",
@@ -1869,7 +1828,7 @@
 		"uniques": [
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([75]%)"
 		],
 		"hurryCostModifier": 20,
@@ -1890,7 +1849,7 @@
 		"uniques": [
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([100]%)",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
@@ -1903,11 +1862,12 @@
 		"unitType": "Helicopter",
 		"movement": 7,
 		"strength": 45,
-		"rangedStrength": 50,
+		"rangedStrength": 60,
 		"range": 2,
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Lasers",
+		"upgradesTo": "Hovercraft",
 		"uniques": [
 			"[33]% chance to intercept air attacks",
 			"[+1] Sight",
@@ -1915,12 +1875,60 @@
 			"Ranged attacks may be performed over obstacles",
 			"May withdraw before melee ([100]%)",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"[-25]% Strength <vs cities>",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]"
 		],
-		"promotions": ["Advanced Weapons", "Antitank Missile"],
+		"promotions": ["Advanced Weapons", "Antitank Missile","Artillery"],
 		"hurryCostModifier": 20,
-		"attackSound": "shot"
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Hovercraft",
+		"unitType": "Helicopter",
+		"movement": 8,
+		"strength": 60,
+		"rangedStrength": 80,
+		"range": 2,
+		"interceptRange": 3,
+		"cost": 500,
+		"requiredTech": "Future Materials",
+		"uniques": [
+			"[50]% chance to intercept air attacks",
+			"[+1] Sight",
+			"Can move after attacking",
+			"Ranged attacks may be performed over obstacles",
+			"May withdraw before melee ([100]%)",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Aluminum]"
+		],
+		"promotions": ["Advanced Weapons", "Antitank Missile","Artillery"],
+		"hurryCostModifier": 20,
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Quadcopter Drone",
+		"unitType": "Helicopter",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 7,
+		"strength": 45,
+		"rangedStrength": 60,
+		"cost": 300,
+		"requiredTech": "Robotics",
+		"uniques": [
+			"Automated",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([100]%)",
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Consumes [1] [Aluminum]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun",
+		"promotions": ["Automated"]
 	},
 
 	// Air
@@ -1957,7 +1965,7 @@
 		"interceptRange": 10,
 		"cost": 400,
 		"requiredTech": "Avionics",
-		"upgradesTo": "Fighter Drone",
+		"upgradesTo": "Stealth Fighter",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -1965,6 +1973,28 @@
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Stealth Fighter",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 65,
+		"rangedStrength": 75,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 500,
+		"requiredTech": "Future Materials",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+100]% Strength <vs [Bomber] units>",
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Damage taken from interception reduced by [100]%",
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Aluminum]"
 		],
 		"attackSound": "jetgun"
 	},
@@ -1980,6 +2010,7 @@
 		"requiredTech": "Robotics",
 		"hurryCostModifier": 20,
 		"uniques": [
+			"Automated",
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
@@ -2000,13 +2031,50 @@
 		"range": 10,
 		"cost": 185,
 		"requiredTech": "Flight",
-		"upgradesTo": "Strike Drone",
+		"upgradesTo": "Heavy Bomber",
 		"uniques": [
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"obsoleteTech": "Lasers",
 		"hurryCostModifier": 20,
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Heavy Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 65,
+		"range": 15,
+		"cost": 400,
+		"requiredTech": "Avionics",
+		"upgradesTo": "Stealth Bomber",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Consumes [1] [Oil]"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Stealth Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 500,
+		"requiredTech": "Future Materials",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Only available <if [Aerospace Facility] is constructed>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Damage taken from interception reduced by [100]%",
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [Oil]"
+		],
 		"attackSound": "bombing"
 	},
 	{
@@ -2020,6 +2088,7 @@
 		"requiredTech": "Avionics",
 		"hurryCostModifier": 20,
 		"uniques": [
+			"Automated",
 			"[+4] Sight",
 			"Can see over obstacles",
 			"Only available <if [Factory] is constructed>",
@@ -2042,6 +2111,7 @@
 		"requiredTech": "Avionics",
 		"hurryCostModifier": 20,
 		"uniques": [
+			"Automated",
 			"[+4] Sight",
 			"Promotion Nullifier",
 			"Can see over obstacles",
@@ -2622,6 +2692,41 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Swarm",
+		"unitType": "Helicopter",
+		"uniqueTo": "Barbarians",
+		"replaces": "Crossbowman",
+		"range": 1,
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 35,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"Uncapturable",
+			"[+33]% Strength <vs [Low Tech] units>"
+		],
+		"attackSound": "swarm"
+	},
+	{
+		"name": "Wild Dog",
+		"unitType": "Scrapper",
+		"uniqueTo": "Barbarians",
+		"replaces": "Auxiliary",
+		"movement": 3,
+		"strength": 18,
+		"cost": 15,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"Uncapturable"
+		],
+		"promotions": ["Forage", "Urban Warfare I"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Bandit",
 		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
@@ -2699,7 +2804,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Infantry",
-		"uniques": ["Personnel", "[+100]% Strength <vs cities>"],
+		"uniques": ["Personnel"],
 		"promotions": [
 			"Forage",
 			"Raider",
@@ -2725,7 +2830,7 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "NBC Marksman",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "[+100]% Strength <vs cities>"],
+		"uniques": ["Personnel"],
 		"promotions": [
 			"Skirmish",
 			"Raider",
@@ -2740,13 +2845,14 @@
 		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
 		"replaces": "NBC Infantry",
+		"upgradesTo": "Exo-Trooper",
 		"movement": 2,
 		"strength": 45,
 		"interceptRange": 1,
 		"cost": 225,
 		"requiredTech": "Combined Arms",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "[+100]% Strength <vs cities>"],
+		"uniques": ["Personnel"],
 		"promotions": [
 			"Skirmish",
 			"Raider",
@@ -2763,6 +2869,7 @@
 		"unitType": "Shooter",
 		"uniqueTo": "Barbarians",
 		"replaces": "NBC Marksman",
+		"upgradesTo": "Black Ops",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -2773,7 +2880,6 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"[+100]% Strength <vs cities>",
 			"[-20]% Strength <vs [Armor] units>"
 		],
 		"promotions": [
@@ -2786,6 +2892,170 @@
 			"Precision"
 		],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Outlaw",
+		"uniqueTo": "Barbarians",
+		"replaces": "Hussar",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 75,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Forage",
+			"Raider",
+			"Entrench",
+			"Guerilla Warfare I",
+			"Urban Warfare I",
+			"Ambush"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Charro",
+		"uniqueTo": "Barbarians",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Forage",
+			"Raider",
+			"Entrench",
+			"Guerilla Warfare I",
+			"Urban Warfare I",
+			"Ambush"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Highwayman",
+		"uniqueTo": "Barbarians",
+		"replaces": "Dragoon",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 80,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Skirmish",
+			"Raider",
+			"Entrench",
+			"Guerilla Warfare I",
+			"Urban Warfare I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Robber",
+		"uniqueTo": "Barbarians",
+		"replaces": "Light Cavalry",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 115,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": [
+			"Skirmish",
+			"Raider",
+			"Entrench",
+			"Guerilla Warfare I",
+			"Urban Warfare I"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sandrail",
+		"uniqueTo": "Barbarians",
+		"replaces": "Attack Vehicle",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[-66]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Raider",
+			"Shock"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Junker",
+		"uniqueTo": "Barbarians",
+		"replaces": "Armored Car",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 45,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"[-33]% Strength <vs [Armor] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
 	},
 
 	// City-states
@@ -2802,7 +3072,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Rocket Artillery",
 		"uniques": [
-			"[+100]% Strength <vs cities>",
+			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
