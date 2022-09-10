@@ -83,7 +83,7 @@
 			"Consumes [1] [Oil]",
 			"Only available <if [Factory] is constructed>",
 			"Can build [Land] improvements on tiles",
-			"[25]% tile improvement construction time"
+			"[-25]% tile improvement construction time"
 		]
 	},
 
