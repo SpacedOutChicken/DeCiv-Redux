@@ -1076,7 +1076,7 @@
 			"Reconnaissance I",
 			"Gas Mask",
 			"Thermoptic Camouflage",
-			"Advanced Weapons"
+			"Infantry Weapons"
 		],
 		"attackSound": "shot"
 	},
@@ -1219,8 +1219,7 @@
 			"No movement cost to pillage",
 			"May Paradrop up to [8] tiles from inside friendly territory",
 			"Consumes [1] [Weapons]",
-			"Only available <if [Factory] is constructed>",
-			"Never appears as a Barbarian unit"
+			"Only available <if [Factory] is constructed>"
 			],
 		"promotions": ["Smokescreen","Gas Mask","Reconnaissance I","Reconnaissance II"],
 		"attackSound": "shot"
@@ -1243,7 +1242,8 @@
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Only available <if [Blast Furnace] is constructed>"
+			"Only available <if [Blast Furnace] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "cannon"
 	},
@@ -1280,7 +1280,8 @@
 		"upgradesTo": "Missile Vehicle",
 		"uniques": [
 			"[+200]% Strength <vs [Armor] units>",
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -1301,7 +1302,8 @@
 			"[-50]% Strength <vs [Helicopter] units>",
 			"Must set up to ranged attack",
 			"[-1] Sight",
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -1320,7 +1322,8 @@
 			"Must set up to ranged attack",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -1342,7 +1345,8 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
 			"Must set up to ranged attack",
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -1488,7 +1492,8 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1508,7 +1513,8 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Unbuildable",
-			"Only available <if [Reactivate AI] is constructed>"
+			"Only available <if [Reactivate AI] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Amphibious","Promotion Nullifier"],
 		"attackSound": "tankshot",
@@ -1576,7 +1582,8 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
@@ -1617,7 +1624,8 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Only available <if [Automated Factory] is constructed>",
-			"Consumes [2] [Oil]"
+			"Consumes [2] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Powered Armor", "Drone Recon"],
 		"hurryCostModifier": 20,
@@ -1640,7 +1648,8 @@
 			"No defensive terrain bonus",
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Uranium]",
-			"Can carry [1] [Automated] units"
+			"Can carry [1] [Automated] units",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Powered Armor","Amphibious","Sortie","Promotion Nullifier"],
 		"attackSound": "gdrAttack"
@@ -1711,7 +1720,8 @@
 			"May withdraw before melee ([50]%)",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [1] [Missile] units",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -1757,7 +1767,8 @@
 			"[+150]% Strength <vs [Armor] units>",
 			"May withdraw before melee ([75]%)",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "missile"
@@ -1779,7 +1790,8 @@
 			"No defensive terrain bonus",
 			"May withdraw before melee ([50]%)",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "missile"
@@ -1829,7 +1841,8 @@
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([75]%)"
+			"May withdraw before melee ([75]%)",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -1852,7 +1865,8 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([100]%)",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -1876,7 +1890,8 @@
 			"May withdraw before melee ([100]%)",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Advanced Weapons", "Antitank Missile","Artillery"],
 		"hurryCostModifier": 20,
@@ -1924,7 +1939,8 @@
 			"May withdraw before melee ([100]%)",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Consumes [1] [Aluminum]"
+			"Consumes [1] [Aluminum]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun",
@@ -2246,7 +2262,8 @@
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",
-			"Only available <if [Factory] is constructed>"
+			"Only available <if [Factory] is constructed>",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -2310,7 +2327,8 @@
 			"[+100]% Strength <vs [Helicopter] units>",
 			"May withdraw before melee ([66]%)",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -2327,7 +2345,8 @@
 		"uniques": [
 			"[+25]% Strength <vs cities>",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Artillery"],
 		"hurryCostModifier": 20,
@@ -2380,7 +2399,6 @@
 			"May withdraw before melee ([66]%)",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
-			"Never appears as a Barbarian unit",
 			"Consumes [1] [Oil]"
 		],
 		"promotions": ["Artillery","Promotion Nullifier"],
@@ -2398,10 +2416,31 @@
 		"interceptRange": 2,
 		"cost": 400,
 		"requiredTech": "Radar",
+		"upgradesTo": "Heavy Carrier",
 		"uniques": [
 			"Can carry [2] [Aircraft] units",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Heavy Carrier",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 50,
+		"rangedStrength": 60,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 500,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"Can carry [3] [Air] units",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Uranium]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shipguns"
@@ -2420,7 +2459,8 @@
 			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
 			"Can only attack [Water] tiles",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "torpedo"
@@ -2442,7 +2482,8 @@
 			"[+1] Sight",
 			"Can carry [2] [Missile] units",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Uranium]"
+			"Consumes [1] [Uranium]",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "torpedo"
 	},
@@ -3045,14 +3086,41 @@
 		"cost": 150,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Tank",
-		"obsoleteTech": "Combined Arms",
 		"uniques": [
 			"[-33]% Strength <vs [Armor] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"Raider",
+			"Shock"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Jalopy",
+		"uniqueTo": "Barbarians",
+		"replaces": "Technical",
+		"unitType": "Siege",
+		"range": 1,
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 50,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Missile Vehicle",
+		"uniques": [
+			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"[-33]% Strength <vs [Armor] units>",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([75]%)"
+		],
+		"promotions": [
+			"Raider",
+			"Accuracy"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"

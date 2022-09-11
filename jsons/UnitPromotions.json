@@ -750,13 +750,14 @@
 		"name": "Advanced Sensors",
 		"prerequisites": ["Drone Recon"],
 		"uniques": ["Can see invisible [Land] units"],
-		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
-	}
+		"unitTypes": ["Scrapper", "Shooter"]
+	},
 	{
 		"name": "Infantry Mortar",
 		"prerequisites": ["Infantry Weapons"],
 		"uniques": ["[+10]% Strength <when attacking>",
-		"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
+		"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>",
+		"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
 	{
