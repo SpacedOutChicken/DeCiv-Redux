@@ -456,6 +456,10 @@
 		"resourceType": "Luxury"
 	},
 	{
+		"name": "Tea Leaves",
+		"resourceType": "Luxury"
+	},
+	{
 		"name": "Medicine",
 		"resourceType": "Luxury",
 		"food": 2,

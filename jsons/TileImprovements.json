@@ -109,7 +109,12 @@
 		"gold": 1,
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"terrainsCanBeBuiltOn": ["Badlands"],
 		"shortcutKey": "N"
 	},
@@ -119,7 +124,12 @@
 		"techRequired": "Geo Engineering",
 		"food": 3,
 		"gold": 1,
-		"uniques": ["Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"terrainsCanBeBuiltOn": ["Desert"],
 		"shortcutKey": "A"
 	},
@@ -133,6 +143,9 @@
 		"techRequired": "Geo Engineering",
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "G"

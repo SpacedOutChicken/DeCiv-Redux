@@ -94,14 +94,14 @@
 		"movement": 1,
 		"strength": 300,
 		"rangedStrength": 300,
-		"range": 8,
+		"range": 16,
 		"cost": 1600,
+		"obsoleteTech": "The Wheel",
 		"uniques": [
-			"Only available <if [Faust Project] is constructed>",
+			"Only available <if [Manhattan Project] is constructed>",
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"Unbuildable",
-			"Consumes [1] [Uranium]"
+			"Unbuildable"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"

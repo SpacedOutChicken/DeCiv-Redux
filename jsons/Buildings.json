@@ -1129,17 +1129,37 @@
 		"isWonder": true,
 		"cost": 125,
 		"uniques": [
-			"Must have an owned [Missile Complex] within [4] tiles",
+			"Must have an owned [Missile Complex] within [3] tiles",
 			"[+20]% Production when constructing [Manhattan Project] wonders [in all cities]",
 			"[+20]% Production when constructing [Missile] units [in all cities]",
-			"Free [Divine Spear] appears",
-			"Provides [1] [Uranium]"
+			"Free Technology",
+			"[+1 Production, +1 Science] from [Missile Complex] tiles [in all cities]",
+			"Provides [1] [Uranium]",
+			"Only available <in cities without a [Fist of God]>"
 		],
-		"requiredTech": "Secrets of the Past",
+		"requiredTech": "Writing",
 		"quote": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold...",
 		"civilopediaText": [
 			{
 				"text": "Our legends tell of weapons, wielded by kings of old; crafted by evil wizards, unholy to behold..."
+			}
+		]
+	},
+	{
+		"name": "Fist of God",
+		"isWonder": true,
+		"cost": 125,
+		"uniques": [
+			"Must have an owned [Missile Complex] within [3] tiles",
+			"[-1 Science] from [Missile Complex] tiles [in all cities]",
+			"Free [Divine Spear] appears",
+			"Only available <in cities without a [Faust Project]>"
+		],
+		"requiredTech": "Machinery",
+		"quote": "Now I am become Death, the destroyer of worlds.",
+		"civilopediaText": [
+			{
+				"text": "Now I am become Death, the destroyer of worlds."
 			}
 		]
 	},
@@ -1287,6 +1307,7 @@
 			"Free [Great Sage] appears",
 			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in all cities]",
 			"Must have an owned [Vault of Records] within [3] tiles",
+			"Provides [2] [Books]",
 			"Hidden when religion is disabled"
 		],
 		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
@@ -1360,6 +1381,21 @@
 		"civilopediaText": [
 			{
 				"text": "Although no longer powerful enough to truly automate robots, by being operational, this AI provides notable combat Intel that can help across all fronts."
+			}
+		]
+	},
+	{
+		"name": "The Last Paradise",
+		"isWonder": true,
+		"cost": 125,
+		"uniques": [
+			"[+1 Culture, +1 Happiness] from [Oasis] tiles [in all cities]",
+			"Must have an owned [Oasis] within [3] tiles"
+		],
+		"quote": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food.",
+		"civilopediaText": [
+			{
+				"text": "The Lord God made all kinds of trees grow out of the ground - trees that were pleasing to the eye and good for food."
 			}
 		]
 	},
@@ -1452,6 +1488,18 @@
 			"Only available <in cities with a [Factory]>"
 		],
 		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Publishing House",
+		"percentStatBonus": { "production": -5 },
+		"production": -1,
+		"uniques": [
+			"Provides [1] [Books]",
+			"Consumes [1] [Power]",
+			"Only available <after adopting [Monopoly]>",
+			"Only available <in cities with a [Factory]>"
+		],
+		"requiredTech": "Manufacturing"
 	},
 	
 	{
@@ -3275,7 +3323,7 @@
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
-		"science": 2,
+		"science": 3,
 		"specialistSlots": { "Scientist": 1 },
 		"uniques": [
 			"Unbuildable",
@@ -3392,7 +3440,11 @@
 		"science": 1,
 		"happiness": 1,
 		"greatPersonPoints": { "Great Administrator": 2 },
-		"uniques": ["[+50]% Golden Age length", "Provides [1] [Power]"]
+		"uniques": [
+			"[+50]% Golden Age length",
+			"Provides [1] [Power]",
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Encyclopedia",
@@ -3435,7 +3487,10 @@
 		"name": "Nuclear Storage",
 		"uniqueTo": "Devil's Canyon",
 		"cost": 1,
-		"uniques": ["Provides [2] [Uranium]"]
+		"uniques": [
+			"Provides [2] [Uranium]",
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Devil's Nuclear Plant",
@@ -3446,7 +3501,8 @@
 			"Will not be displayed in Civilopedia",
 			"Provides [8] [Power]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>"
+			"Only available <in cities without a [Coal Plant]>",
+			"Never destroyed when the city is captured"
 		]
 	},
 	{
@@ -3467,7 +3523,10 @@
 		"uniqueTo": "Bartertown",
 		"cost": 1,
 		"culture": 1,
-		"uniques": ["Provides [2] [Soft Drinks]"]
+		"uniques": [
+			"Provides [2] [Soft Drinks]",
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "The Abbey",
@@ -3477,7 +3536,10 @@
 		"culture": 1,
 		"science": 3,
 		"happiness": 2,
-		"greatPersonPoints": { "Great Scientist": 2 }
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"uniques": [
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Divine Knowledge",
@@ -3551,7 +3613,8 @@
 		"uniques": [
 			"Provides [2] [Weapons]",
 			"Must not be on [Hill]",
-			"Only available <in cities without a [Alma Tank Depot]>"
+			"Only available <in cities without a [Alma Tank Depot]>",
+			"Never destroyed when the city is captured"
 		]
 	},
 	{
@@ -3564,7 +3627,8 @@
 		"production": 3,
 		"uniques": [
 			"Provides [2] [Weapons]",
-			"Only available <in cities without a [Alma Air Base]>"
+			"Only available <in cities without a [Alma Air Base]>",
+			"Never destroyed when the city is captured"
 		]
 	},
 	{
@@ -3614,7 +3678,8 @@
 		"uniques": [
 			"Provides [2] [Oil]",
 			"Provides [2] [Weapons]",
-			"Provides [2] [Slaves]"
+			"Provides [2] [Slaves]",
+			"Never destroyed when the city is captured"
 		]
 	},
 	{
@@ -3650,7 +3715,10 @@
 		"faith": 5,
 		"culture": 1,
 		"happiness": 1,
-		"uniques": ["Provides [1] [Weapons]"]
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Iron Rod Monument",
@@ -3668,7 +3736,10 @@
 		"uniqueTo": "Church of the Iron Rod",
 		"production": 1,
 		"cost": 1,
-		"uniques": ["Provides [4] [Weapons]"]
+		"uniques": [
+			"Provides [4] [Weapons]",
+			"Never destroyed when the city is captured"
+		]
 	},
 	{
 		"name": "Land Value Tax",
@@ -3705,6 +3776,16 @@
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Unbuildable"
+		]
+	},
+	{
+		"name": "Tea Room",
+		"uniqueTo": "Fo Guang",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Provides [2] [Tea Leaves]",
+			"Never destroyed when the city is captured"
 		]
 	}
 ]

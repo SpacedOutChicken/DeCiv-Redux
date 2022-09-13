@@ -750,7 +750,7 @@
 		"name": "Advanced Sensors",
 		"prerequisites": ["Drone Recon"],
 		"uniques": ["Can see invisible [Land] units"],
-		"unitTypes": ["Scrapper", "Shooter"]
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
 	},
 	{
 		"name": "Infantry Mortar",
