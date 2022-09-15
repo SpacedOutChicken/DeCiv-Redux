@@ -1389,6 +1389,7 @@
 		"name": "The Last Paradise",
 		"isWonder": true,
 		"cost": 125,
+		"greatPersonPoints": {"Great Merchant": 2},
 		"uniques": [
 			"[+1 Culture, +1 Happiness] from [Oasis] tiles [in all cities]",
 			"Must have an owned [Oasis] within [3] tiles"
