@@ -135,7 +135,8 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 		    "[-100]% maintenance costs",
-		    "[+40]% Strength <after discovering [Energy Weapons]>"
+		    "[+40]% Strength <after discovering [Energy Weapons]>",
+			"Only available <if [Factory] is constructed>"
 		],
 		"attackSound": "missile"
 	},
@@ -1474,6 +1475,29 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "4x4",
+		"unitType": "Armor",
+		"uniqueTo": "Enclavers",
+		"replaces": "Armored Car",
+		"movement": 4,
+		"strength": 45,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"[-25]% Strength <vs [Armor] units>",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Double movement in [Hill]"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"

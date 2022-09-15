@@ -257,7 +257,8 @@
 			"Can only be built [in capital]",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
-			"Gain a free [Mosque] [in this city]"
+			"Gain a free [Mosque] [in this city]",
+			"May choose [1] additional belief(s) of any type when [enhancing] a religion"
 		],
 		"quote": "We declare our right on this earth to be a human being, to be respected as a human being, to be given the rights of a human being in this society, on this earth, in this day, which we intend to bring into existence by any means necessary.",
 		"civilopediaText": [
@@ -704,7 +705,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+25]% [Science] from every [College of Mystics]",
-			"[+20]% Production when constructing [Science] buildings [in this city]",
+			"[+20]% Production when constructing [Science] buildings [in all cities]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [War Council]>",
 			"Destroyed when the city is captured"
@@ -1915,6 +1916,18 @@
 		"requiredTech": "Chemistry"
 	},
 	{
+		"name": "Moonshinery",
+		"uniqueTo": "Enclavers",
+		"replaces": "Distillery",
+		"culture": 1,
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Alcohol]"],
+		"requiredNearbyImprovedResources": ["Grain", "Tubers"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
+	{
 		"name": "Chemical Extractor",
 		"replaces": "Distillery",
 		"uniqueTo": "Hexlock",
@@ -2689,6 +2702,20 @@
 		"uniques": [
 			"[+3 Production] from [Scrap] tiles [in this city]",
 			"[+25]% Production when constructing [Armor] units [in this city]",
+			"[+1 Production] [in this city] <with [Machine Parts]>"
+		]
+	},
+	{
+		"name": "Scrounged Armory",
+		"replaces": "Forge",
+		"uniqueTo": "Enclavers",
+		"cityStrength": 5,
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
+		"requiredTech": "Iron Working",
+		"uniques": [
+			"Provides [1] [Weapons]",
+			"[+1 Production] [in this city] <with [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
