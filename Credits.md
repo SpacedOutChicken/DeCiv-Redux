@@ -10,7 +10,7 @@ Base terrains by [AdityaMH](https://github.com/AdityaMH)<br>
 May contain art by [LynxRo](https://github.com/lynxro)<br>
 Some minor edits made by me
 
-Space Station Wreckage pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
+Space Station Wreckage, Quadcopter Drone, and Artificial Glacier pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
 
 
 ## From the Noun Project
