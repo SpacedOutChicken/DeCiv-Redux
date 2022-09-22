@@ -739,7 +739,7 @@
 		"uniqueName": "Community Watch",
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>",
-			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
+			"Enemy [Land] units must spend [1] extra movement point when inside your territory <before discovering [Dynamite]>",
 			"Starts with [Secrets of the Past]"
 		],
 		"cities": [
