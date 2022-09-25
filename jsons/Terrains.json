@@ -258,6 +258,9 @@
 	{
 		"name": "Toxic Waste",
 		"type": "TerrainFeature",
+		"gold": -2,
+		"production": -2,
+		"food": -2,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.4,
@@ -269,7 +272,6 @@
 			"Permafrost"
 		],
 		"uniques": [
-			"Nullifies all other stats this tile provides",
 			"Rare feature",
 			"Rough terrain",
 			"[-2] to Fertility for Map Generation",
@@ -292,11 +294,13 @@
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
+		"gold": -2,
+		"production": -2,
+		"food": -2,
 		"movementCost": 2,
 		"defenceBonus": -0.4,
 		"unbuildable": true,
 		"uniques": [
-			"Nullifies all other stats this tile provides",
 			"Rare feature",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."
