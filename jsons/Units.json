@@ -279,7 +279,6 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
-			"Can build [Land] improvements on tiles",
 			"[+50]% Strength <when defending>"
 		],
 		"promotions": ["Medic I"],
