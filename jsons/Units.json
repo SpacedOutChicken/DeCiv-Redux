@@ -289,9 +289,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
-			"Can build [Land] improvements on tiles",
 			"[+50]% Strength <when defending>",
-			"Limited to [4] per Civilization",
 		],
 		"promotions": ["Medic I"],
 		"attackSound": "nonmetalhit"
