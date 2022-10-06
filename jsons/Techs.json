@@ -364,9 +364,9 @@
 				"name": "Radar",
 				"row": 10,
 				"prerequisites": ["Radio"],
-				"quote": "Vision is the art of seeing things invisible."
+				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
 			}
-		]
+		]	
 	},
 	{
 		"columnNumber": 10,
@@ -406,7 +406,7 @@
 				"name": "Decryption",
 				"row": 4,
 				"prerequisites": ["Networking"],
-				"quote": "The accounts are encrypted with a 1024-bit cipher. Even I can't break through the firewall."
+				"quote": "The accounts are encrypted with a 1024-bit cipher. Even I can't break through the firewall without a power glove."
 			},
 			{
 				"name": "Rocketry",
@@ -506,7 +506,7 @@
 				"name": "Particle Physics",
 				"row": 4,
 				"prerequisites": ["Lasers", "Nuclear Fission"],
-				"quote": "Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances."
+				"quote": "'Every man takes the limits of his own field of vision and confuses them for the limits of the world.'"
 			},
 			{
 				"name": "Energy Weapons",
@@ -518,7 +518,7 @@
 				"name": "Robotics",
 				"row": 7,
 				"prerequisites": ["Lasers", "Satellites"],
-				"quote": "1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law."
+				"quote": "'Governor, our first generation of Operational Robots are active, their efficiency rate is 125%.'"
 			}
 		]
 	},
@@ -575,7 +575,7 @@
 				"row": 10,
 				"prerequisites": ["Incentivization"],
 				"uniques": ["Unlocks the final Diplomatic wonder if you have constructed all Diplomatic Transmissions"],
-				"quote": "The new electronic interdependence recreates the world in the image of a global village."
+				"quote": "'All truth passes through three stages. First, it is ridiculed. Second, it is violently opposed. Third, it is accepted as being self-evident.'"
 			}
 		]
 	},

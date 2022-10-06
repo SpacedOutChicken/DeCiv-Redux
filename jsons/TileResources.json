@@ -57,7 +57,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvement": "Salvage site",
+		"improvedBy": ["Salvage site", "Borough"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
@@ -132,7 +132,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvement": "Salvage site",
+		"improvedBy": ["Salvage site", "Borough"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Coast] tiles>",
@@ -342,7 +342,7 @@
 			"Forest",
 			"Wasteland"
 		],
-		"improvement": "Salvage site",
+		"improvedBy": ["Salvage site", "Borough"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -366,7 +366,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"science": 1,
-		"improvement": "Research site",
+		"improvedBy": ["Research site", "Borough"],
 		"improvementStats": { "science": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -378,7 +378,7 @@
 		"resourceType": "Luxury",
 		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvement": "Research site",
+		"improvedBy": ["Research site", "Borough"],
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -391,8 +391,8 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvement": "Hacking site",
-		"improvementStats": { "science": 4 },
+		"improvedBy": ["Hacking site", "Borough"],
+		"improvementStats": { "science": 2 },
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
@@ -411,7 +411,7 @@
 		"name": "Machine Parts",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvement": "Salvage site",
+		"improvedBy": ["Salvage site", "Borough"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -423,7 +423,7 @@
 		"name": "Electronics",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvement": "Salvage site",
+		"improvedBy": ["Salvage site", "Borough"],
 		"improvementStats": { "science": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -597,7 +597,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
-		"improvement": "Research site",
+		"improvedBy": ["Research site", "Borough"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Jungle] Regions>",

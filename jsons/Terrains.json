@@ -582,5 +582,26 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
+	},
+	{
+		"name": "Underwater City",
+		"type": "NaturalWonder",
+		"science": 2,
+		"culture": 2,
+		"occursOn": ["Coast"],
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [2] [Land] tiles",
+			"Occurs on latitudes from [0] to [100] percent of distance equator to pole",
+			"Occurs in groups of [1] to [3] tiles",
+			"Neighboring tiles will convert to [Coast]"],
+		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 12,
+        "civilopediaText": [
+			{
+				"text": "This completely underwater city must have once been a true marvel of engineering while operational. While the cause of its demise is unknown, it is estimated to have been due to Bioshock."
+			}]			
+	},
 ]

@@ -36,6 +36,16 @@
 		"cost": 70
 	},
 	{
+		"name": "Tree Lover",
+		"replaces": "Worker"
+		"unitType": "Civilian",
+		"uniqueTo": "Tellus"
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build [Tree plantation] improvements on tiles"],
+		"cost": 70
+	},
+	{
 		"name": "Mounted Worker",
 		"unitType": "Civilian",
 		"movement": 4,
@@ -279,7 +289,9 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <when defending>"
+			"Can build [Land] improvements on tiles",
+			"[+50]% Strength <when defending>",
+			"Limited to [4] per Civilization",
 		],
 		"promotions": ["Medic I"],
 		"attackSound": "nonmetalhit"
@@ -289,6 +301,8 @@
 		"unitType": "Scrapper",
 		"replaces": "Spearman",
 		"uniqueTo": "Hexlock",
+		"upgradesTo": "Purge Robot MKI",
+		"obsoleteTech": "Combined Arms",
 		"movement": 2,
 		"strength": 25,
 		"cost": 50,
@@ -301,7 +315,7 @@
 			"No defensive terrain penalty",
 			"Consumes [1] [Encrypted Data]"
 		],
-		"promotions": ["Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier","Portable Power Cell"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -702,11 +716,13 @@
 		"unitType": "Scrapper",
 		"replaces": "Infantry",
 		"uniqueTo": "Hexlock",
+		"upgradesTo": "Purge Robot MKII",
 		"movement": 2,
 		"strength": 50,
 		"interceptRange": 1,
 		"cost": 150,
 		"requiredTech": "Machinery",
+		"obsoleteTech": "Combined Arms",
 		"uniques": [
 		    "Personnel",
 			"Promotion Nullifier",
@@ -716,7 +732,7 @@
 			"Consumes [1] [Weapons]",
 			"Consumes [1] [Encrypted Data]"
 		],
-		"promotions": ["Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier","Portable Power Cell"],
 		"attackSound": "shot"
 	},
 	{
@@ -1338,6 +1354,7 @@
 		"interceptRange": 2,
 		"cost": 185,
 		"requiredTech": "Ballistics",
+		"upgradesTo": "Mobile SAM",
 		"uniques": [
 			"[75]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Air] units>",
@@ -1533,6 +1550,7 @@
 			"Promotion Nullifier",
 			"Purge Robot",
 			"[+25]% Strength <vs [Air] units>",
+			"[70]% chance to intercept air attacks",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Unbuildable",
@@ -1616,11 +1634,13 @@
 		"unitType": "Armor",
 		"replaces": "Modern Armor",
 		"uniqueTo": "Hexlock",
+		"upgradesTo": "Purge Robot",
 		"movement": 5,
 		"strength": 90,
 		"interceptRange": 2,
 		"cost": 400,
 		"requiredTech": "Combined Arms",
+		"obsoleteTech": "Future Tech",
 		"uniques": [
 			"Promotion Nullifier",
 			"Purge Robot",
@@ -1632,7 +1652,7 @@
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Encrypted Data]"
 		],
-		"promotions": ["Amphibious","Promotion Nullifier"],
+		"promotions": ["Amphibious","Promotion Nullifier","Portable Power Cell"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1665,7 +1685,7 @@
 		"uniques": [
 			"Promotion Nullifier",
 			"Purge Robot",
-			"[85]% chance to intercept air attacks",
+			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Air] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -1695,7 +1715,7 @@
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs [Armor] units>",
 			"[-50]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([75]%)",
+			"May withdraw before melee ([50]%)",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -1740,7 +1760,7 @@
 			"No defensive terrain bonus",
 			"[-50]% Strength <vs [Helicopter] units>",
 			"[-1] Sight",
-			"May withdraw before melee ([50]%)",
+			"May withdraw before melee ([25]%)",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [1] [Missile] units",
 			"Consumes [1] [Oil]",
@@ -1788,7 +1808,7 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[+150]% Strength <vs [Armor] units>",
-			"May withdraw before melee ([75]%)",
+			"May withdraw before melee ([50]%)",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1801,7 +1821,7 @@
 		"unitType": "Siege",
 		"movement": 3,
 		"strength": 35,
-		"rangedStrength": 40,
+		"rangedStrength": 50,
 		"range": 2,
 		"interceptRange": 3,
 		"cost": 375,
@@ -1811,7 +1831,7 @@
 			"[+200]% Strength <vs [Air] units>",
 			"[+200]% Strength <vs [Helicopter] units>",
 			"No defensive terrain bonus",
-			"May withdraw before melee ([50]%)",
+			"May withdraw before melee ([25]%)",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1826,7 +1846,7 @@
 		"uniqueTo": "Hexlock",
 		"movement": 3,
 		"strength": 40,
-		"rangedStrength": 40,
+		"rangedStrength": 55,
 		"range": 2,
 		"interceptRange": 3,
 		"cost": 410,
@@ -1864,7 +1884,7 @@
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([75]%)",
+			"May withdraw before melee ([25]%)",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -1886,7 +1906,7 @@
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([100]%)",
+			"May withdraw before melee ([75]%)",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -1910,7 +1930,7 @@
 			"[+1] Sight",
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
-			"May withdraw before melee ([100]%)",
+			"May withdraw before melee ([75]%)",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
@@ -1931,7 +1951,7 @@
 		"cost": 500,
 		"requiredTech": "Future Materials",
 		"uniques": [
-			"[50]% chance to intercept air attacks",
+			"[50]% chance to intercept air attacks",		
 			"[+1] Sight",
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
@@ -1959,7 +1979,7 @@
 			"Automated",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([100]%)",
+			"May withdraw before melee ([75]%)",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]",
@@ -1988,6 +2008,8 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"Cannot intercept [Stealth Fighter] units",
+			"Cannot intercept [Stealth Bomber] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
@@ -2008,6 +2030,8 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
+			"Cannot intercept [Stealth Fighter] units",
+			"Cannot intercept [Stealth Bomber] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -2031,7 +2055,7 @@
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Damage taken from interception reduced by [100]%",
+			"Can only be intercepted by [Stealth Fighter]"
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]"
 		],
@@ -2051,6 +2075,8 @@
 		"uniques": [
 			"Automated",
 			"[100]% chance to intercept air attacks",
+			"Cannot intercept [Stealth Fighter] units",
+			"Cannot intercept [Stealth Bomber] units"
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -2110,9 +2136,10 @@
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Damage taken from interception reduced by [100]%",
+			"Can only be Intercepted by [Stealth Fighter]"
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]"
+			"Cannot be carried by [Carrier] units",
 		],
 		"attackSound": "bombing"
 	},
@@ -2177,7 +2204,7 @@
 		"uniques": [
 			"Low Tech",
 			"Cannot enter ocean tiles",
-			"May withdraw before melee ([66]%)"
+			"May withdraw before melee ([33]%)"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -2207,7 +2234,7 @@
 		"obsoleteTech": "Steam Power",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"May withdraw before melee ([33]%)",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
@@ -2241,12 +2268,12 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech": "Laboratory",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"May withdraw before melee ([33]%)",
 			"Only available <if [Factory] is constructed>"
 		],
 		"hurryCostModifier": 20,
@@ -2261,7 +2288,7 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Steam Power",
-		"obsoleteTech": "Laboratory",
+		"obsoleteTech": "Plastics",
 		"upgradesTo": "Assault Ship",
 		"uniques": [
 			"Consumes [1] [Oil]",
@@ -2277,14 +2304,14 @@
 		"name": "Assault Ship",
 		"unitType": "Melee Water",
 		"movement": 6,
-		"strength": 50,
+		"strength": 60,
 		"cost": 300,
-		"requiredTech": "Laboratory",
+		"requiredTech": "Plastics",
 		"uniques": [
 		    "Can move after attacking",
 			"Consumes [1] [Oil]",
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"May withdraw before melee ([33]%)",
 			"Only available <if [Factory] is constructed>",
 			"Never appears as a Barbarian unit"
 		],
@@ -2302,9 +2329,11 @@
 		"movement": 6,
 		"cost": 100,
 		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Submarine",
+		"obsoleteTech": "Particle Physics",
 		"uniques": [
 			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
+			"May withdraw before melee ([33]%)",
 			"Can only attack [Water] tiles",
 			"Can move after attacking"
 		],
@@ -2334,21 +2363,21 @@
 		"name": "Destroyer",
 		"unitType": "Ranged Water",
 		"movement": 6,
-		"strength": 30,
-		"rangedStrength": 50,
+		"strength": 35,
+		"rangedStrength": 55,
 		"range": 2,
 		"interceptRange": 2,
 		"cost": 300,
 		"requiredTech": "Radar",
 		"upgradesTo": "Missile Cruiser",
-		"obsoleteTech": "Incentivization",
+		"obsoleteTech": "Advanced Materials",
 		"uniques": [
 			"Can see invisible [Submarine] units",
 			"[50]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Air] units>",
 			"[+66]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"May withdraw before melee ([66]%)",
+			"May withdraw before melee ([33]%)",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -2360,8 +2389,8 @@
 		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 40,
-		"rangedStrength": 60,
+		"strength": 45,
+		"rangedStrength": 65,
 		"range": 3,
 		"cost": 400,
 		"requiredTech": "Ballistics",
@@ -2380,7 +2409,7 @@
 		"unitType": "Ranged Water",
 		"movement": 6,
 		"strength": 45,
-		"rangedStrength": 75,
+		"rangedStrength": 80,
 		"range": 3,
 		"interceptRange": 3,
 		"cost": 425,
@@ -2391,7 +2420,7 @@
 			"[+100]% Strength <vs [Air] units>",
 			"[+75]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
-			"May withdraw before melee ([66]%)",
+			"May withdraw before melee ([33]%)",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
 			"Never appears as a Barbarian unit",
@@ -2406,8 +2435,8 @@
 		"replaces": "Missile Cruiser",
 		"uniqueTo": "Hexlock",
 		"movement": 5,
-		"strength": 55,
-		"rangedStrength": 80,
+		"strength": 60,
+		"rangedStrength": 85,
 		"range": 3,
 		"interceptRange": 3,
 		"cost": 450,
@@ -3208,7 +3237,7 @@
 		"uniques": [
 			"[-25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
-			"May withdraw before melee ([100]%)",
+			"May withdraw before melee ([75]%)",
 			"Only available <if [Alma Air Base] is constructed>",
 			"Consumes [1] [Oil]"
 		],

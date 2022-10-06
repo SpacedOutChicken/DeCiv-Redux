@@ -322,8 +322,8 @@
 		"requiredTech": "Trade",
 		"uniques": [
 			"Victory Transmission",
-			"[5]% Production when constructing [Victory Transmission] wonders [in all cities]",
-			"[5]% Production when constructing [Great Arc] wonders [in all cities]",
+			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
+			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
 			"Hidden when [Transmission] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -339,8 +339,8 @@
 		"requiredTech": "Oceanography",
 		"uniques": [
 			"Victory Transmission",
-			"[5]% Production when constructing [Victory Transmission] wonders [in all cities]",
-			"[5]% Production when constructing [Great Arc] wonders [in all cities]",
+			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
+			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
 			"Hidden when [Transmission] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -356,8 +356,8 @@
 		"requiredTech": "Hydroponics",
 		"uniques": [
 			"Victory Transmission",
-			"[5]% Production when constructing [Victory Transmission] wonders [in all cities]",
-			"[5]% Production when constructing [Great Arc] wonders [in all cities]",
+			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
+			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
 			"Hidden when [Transmission] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -373,8 +373,8 @@
 		"requiredTech": "Networking",
 		"uniques": [
 			"Victory Transmission",
-			"[5]% Production when constructing [Victory Transmission] wonders [in all cities]",
-			"[5]% Production when constructing [Great Arc] wonders [in all cities]",
+			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
+			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
 			"Hidden when [Transmission] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -390,8 +390,8 @@
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
 			"Victory Transmission",
-			"[5]% Production when constructing [Victory Transmission] wonders [in all cities]",
-			"[5]% Production when constructing [Great Arc] wonders [in all cities]",
+			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
+			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
 			"Hidden when [Transmission] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -407,7 +407,7 @@
 		"requiredTech": "Incentivization",
 		"uniques": [
 			"Victory Transmission",
-			"[5]% Production when constructing [Great Arc] wonders [in all cities]",
+			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
 			"Hidden when [Transmission] Victory is disabled",
 			"Triggers a global alert upon completion"
@@ -419,7 +419,7 @@
 		"isWonder": true,
 		"science": 1,
 		"culture": 1,
-		"cost": 3000,
+		"cost": 6000,
 		"requiredTech": "Globalization",
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
@@ -1401,7 +1401,25 @@
 			}
 		]
 	},
-
+	{
+		"name": "Explore Underwater City",
+		"cost": 5,
+		"uniques": [
+			"Must have an owned [Underwater City] within [3] tiles",
+			"[+4 Food, -1 Science, -1 Culture] from [Underwater City] tiles [in all cities]",
+			"Only available <in cities without a [Research Underwater City]>"
+		]
+	},
+	{
+		"name": "Research Underwater City",
+		"cost": 200,
+		"uniques": [
+			"Must have an owned [Underwater City] within [3] tiles",
+			"[+3 Science, +3 Culture] from [Underwater City] tiles [in all cities]",
+			"Only available <in cities without a [Explore Underwater City]>"
+		]
+	},
+	
 	// Policy unique buildings
 	{
 		"name": "Chemical Weapons Laboratory",
@@ -1419,7 +1437,6 @@
 			"Consumes [1] [Power]"
 		]
 	},
-
 	{
 		"name": "Content Farm",
 		"percentStatBonus": { "production": -5 },
@@ -1884,10 +1901,9 @@
 	{
 		"name": "Protected Area",
 		"food": 1,
-		"culture": 1,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+2 Culture, +1 Food, -1 Gold] from [Tree plantation] tiles [in this city]"],
+		"uniques": ["[+1 Culture, +1 Food, -1 Gold] from [Tree plantation] tiles [in this city]"],
 		"requiredTech": "Hydroponics"
 	},
 	{
@@ -3121,6 +3137,20 @@
 		]
 	},
 	{
+		"name": "Composite Foil Factory",
+		"replaces": "Metal Reprocessor",
+		"uniqueTo": "Hexlock",
+		"maintenance": 3,
+		"requiredTech": "Advanced Materials",
+		"uniques": [
+			"Provides [1] [Aluminum]",
+			"[+25]% Production when constructing [Promotion Nullifier] units [in this city]",
+			"All newly-trained [Promotion Nullifier] units [in all cities] receive the [Thermoptic Camouflage] promotion",
+			"Consumes [1] [Power]",
+			"Limited to [5] per Civilization"
+		]
+	},
+	{
 		"name": "Uranium Centrifuge",
 		"maintenance": 3,
 		"requiredTech": "Particle Physics",
@@ -3135,11 +3165,12 @@
 		"food": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
+		"uniques": ["[+1 Food, +1 Happiness] from [Grassland] tiles [in all cities]"]
 		"requiredTech": "Atmosphere Remediation"
 	},
 	{
 		"name": "Bio Synthetizer",
-		"food": 2,
+		"cost": 1000,
 		"maintenance": 3,
 		"requiredTech": "Atmosphere Remediation",
 		"uniques": [
@@ -3197,7 +3228,16 @@
 	// water purifier
 	// desalination plants -coal or nuke
 	// computer centre
-
+    {
+		"name": "Transport Network",
+		"maintenance": 3,
+		"requiredTech": "Incentivization",
+		"uniques": [
+			"[+1 Food, +1 Production] from [Forest] tiles [in this city]",
+			"[+1 Food, +1 Production] from [Jungle] tiles [in this city]",
+			"[+2 Food, +2 Production] from [Borough] tiles [in this city]",
+		]
+	},
 	// Coastal buildings
 	{
 		"name": "Fish Farm",
@@ -3302,6 +3342,7 @@
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
 			"Hidden when religion is disabled",
+			"[+50]% Natural religion spread [in this city]",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -3815,5 +3856,20 @@
 			"Provides [2] [Tea Leaves]",
 			"Never destroyed when the city is captured"
 		]
-	}
+	},
+	{
+		"name": "Tellus Forest",
+		"uniqueTo": "Tellus",
+		"replaces": "Monument",
+		"cost": 1,
+		"cityHealth": 50,
+		"food": 2,
+		"gold": 20,
+		"happiness": 2,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+			"Free [Tree Lover] appears"
+		]
+	},
 ]
