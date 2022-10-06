@@ -400,11 +400,11 @@
 		"Permafrost+Hill+Jungle+Scrap+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Scrap+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Scrap+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Scrap+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Scrap+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Scrap+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Scrap+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Scrap+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Scrap+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Scrap+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Scrap+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Scrap+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Scrap+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -416,11 +416,11 @@
 		"Permafrost+Hill+Jungle+Furs+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Furs+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Furs+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Furs+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Furs+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Furs+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Furs+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Furs+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Furs+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Furs+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Furs+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Furs+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Furs+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -432,11 +432,11 @@
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Insects+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Insects+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Insects+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Insects+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Insects+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Insects+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Insects+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Insects+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Insects+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -448,11 +448,11 @@
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Insects+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Plastics+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Plastics+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Plastics+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Insects+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Plastics+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Plastics+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Plastics+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Insects+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Insects+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -464,11 +464,11 @@
 		"Permafrost+Hill+Jungle+Weapons+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Weapons+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Weapons+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Weapons+Forest+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Weapons+Forest+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Weapons+Forest+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Weapons+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Weapons+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Weapons+Forest+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Weapons+Forest+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Weapons+Forest+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Weapons+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Weapons+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -480,11 +480,11 @@
 		"Permafrost+Hill+Jungle+Machine Parts+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Machine Parts+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Machine Parts+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Machine Parts+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Machine Parts+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Machine Parts+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Machine Parts+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Machine Parts+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Machine Parts+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Machine Parts+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Machine Parts+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Machine Parts+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Machine Parts+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -496,11 +496,11 @@
 		"Permafrost+Hill+Jungle+Electronics+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Electronics+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Electronics+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Electronics+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Electronics+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Electronics+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Electronics+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Electronics+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Electronics+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Electronics+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Electronics+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Electronics+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Electronics+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -512,11 +512,11 @@
 		"Permafrost+Hill+Jungle+Fungus+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
 		"Permafrost+Jungle+Fungus+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Fungus+Borough": ["Permafrost", "Hill", "Borough+Jungle"],
-		"Permafrost+Forest+Fungus+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Fungus+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Fungus+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Fungus+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Fungus+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
-		"Permafrost+Forest+Fungus+Borough": ["Permafrost", "BoroughData"],
+		"Permafrost+Forest+Fungus+Borough": ["Permafrost", "Borough"],
 		"Permafrost+Hill+Forest+Fungus+Borough": ["Permafrost", "Hill", "Borough"]
 		"Permafrost+Jungle+Fungus+Borough": ["Permafrost", "Borough+Jungle"],
 		"Permafrost+Hill+Jungle+Fungus+Borough": ["Permafrost", "Hill", "Borough+Jungle"]
@@ -528,11 +528,11 @@
 		"Tundra+Hill+Jungle+Scrap+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Scrap+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Scrap+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Scrap+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Scrap+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Scrap+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Scrap+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Scrap+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Scrap+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Scrap+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Scrap+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Scrap+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Scrap+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -544,11 +544,11 @@
 		"Tundra+Hill+Jungle+Furs+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Furs+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Furs+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Furs+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Furs+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Furs+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Furs+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Furs+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Furs+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Furs+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Furs+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Furs+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Furs+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -560,11 +560,11 @@
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Insects+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Insects+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Insects+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Insects+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Insects+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Insects+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Insects+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Insects+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Insects+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -576,11 +576,11 @@
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Insects+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Plastics+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Plastics+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Plastics+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Insects+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Plastics+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Plastics+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Plastics+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Insects+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Insects+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -592,11 +592,11 @@
 		"Tundra+Hill+Jungle+Weapons+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Weapons+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Weapons+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Weapons+Forest+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Weapons+Forest+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Weapons+Forest+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Weapons+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Weapons+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Weapons+Forest+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Weapons+Forest+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Weapons+Forest+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Weapons+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Weapons+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -608,11 +608,11 @@
 		"Tundra+Hill+Jungle+Machine Parts+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Machine Parts+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Machine Parts+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Machine Parts+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Machine Parts+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Machine Parts+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Machine Parts+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Machine Parts+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Machine Parts+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Machine Parts+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Machine Parts+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Machine Parts+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Machine Parts+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -624,11 +624,11 @@
 		"Tundra+Hill+Jungle+Electronics+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Electronics+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Electronics+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Electronics+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Electronics+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Electronics+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Electronics+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Electronics+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Electronics+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Electronics+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Electronics+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Electronics+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Electronics+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -640,11 +640,11 @@
 		"Tundra+Hill+Jungle+Fungus+Borough": ["Tundra", "Hill", "Borough+Jungle"],
 		"Tundra+Jungle+Fungus+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Fungus+Borough": ["Tundra", "Hill", "Borough+Jungle"],
-		"Tundra+Forest+Fungus+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Fungus+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Fungus+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Fungus+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Fungus+Borough": ["Tundra", "Hill", "Borough+Jungle"]
-		"Tundra+Forest+Fungus+Borough": ["Tundra", "BoroughData"],
+		"Tundra+Forest+Fungus+Borough": ["Tundra", "Borough"],
 		"Tundra+Hill+Forest+Fungus+Borough": ["Tundra", "Hill", "Borough"]
 		"Tundra+Jungle+Fungus+Borough": ["Tundra", "Borough+Jungle"],
 		"Tundra+Hill+Jungle+Fungus+Borough": ["Tundra", "Hill", "Borough+Jungle"]
@@ -656,11 +656,11 @@
 		"Desert+Hill+Jungle+Scrap+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Scrap+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Scrap+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Scrap+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Scrap+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Scrap+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Scrap+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Scrap+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Scrap+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Scrap+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Scrap+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Scrap+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Scrap+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -672,11 +672,11 @@
 		"Desert+Hill+Jungle+Furs+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Furs+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Furs+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Furs+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Furs+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Furs+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Furs+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Furs+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Furs+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Furs+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Furs+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Furs+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Furs+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -688,11 +688,11 @@
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Insects+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Insects+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Insects+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Insects+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Insects+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Insects+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Insects+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Insects+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Insects+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -704,11 +704,11 @@
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Insects+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Plastics+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Plastics+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Plastics+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Insects+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Plastics+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Plastics+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Plastics+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Insects+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Insects+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -720,11 +720,11 @@
 		"Desert+Hill+Jungle+Weapons+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Weapons+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Weapons+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Weapons+Forest+Borough": ["Desert", "BoroughData"],
+		"Desert+Weapons+Forest+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Weapons+Forest+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Weapons+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Weapons+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Weapons+Forest+Borough": ["Desert", "BoroughData"],
+		"Desert+Weapons+Forest+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Weapons+Forest+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Weapons+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Weapons+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -736,11 +736,11 @@
 		"Desert+Hill+Jungle+Machine Parts+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Machine Parts+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Machine Parts+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Machine Parts+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Machine Parts+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Machine Parts+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Machine Parts+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Machine Parts+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Machine Parts+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Machine Parts+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Machine Parts+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Machine Parts+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Machine Parts+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -752,11 +752,11 @@
 		"Desert+Hill+Jungle+Electronics+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Electronics+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Electronics+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Electronics+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Electronics+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Electronics+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Electronics+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Electronics+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Electronics+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Electronics+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Electronics+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Electronics+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Electronics+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -768,11 +768,11 @@
 		"Desert+Hill+Jungle+Fungus+Borough": ["Desert", "Hill", "Borough+Jungle"],
 		"Desert+Jungle+Fungus+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Fungus+Borough": ["Desert", "Hill", "Borough+Jungle"],
-		"Desert+Forest+Fungus+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Fungus+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Fungus+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Fungus+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Fungus+Borough": ["Desert", "Hill", "Borough+Jungle"]
-		"Desert+Forest+Fungus+Borough": ["Desert", "BoroughData"],
+		"Desert+Forest+Fungus+Borough": ["Desert", "Borough"],
 		"Desert+Hill+Forest+Fungus+Borough": ["Desert", "Hill", "Borough"]
 		"Desert+Jungle+Fungus+Borough": ["Desert", "Borough+Jungle"],
 		"Desert+Hill+Jungle+Fungus+Borough": ["Desert", "Hill", "Borough+Jungle"]
@@ -784,11 +784,11 @@
 		"Wasteland+Hill+Jungle+Scrap+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Scrap+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Scrap+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Scrap+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Scrap+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Scrap+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Scrap+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Scrap+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Scrap+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Scrap+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Scrap+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Scrap+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Scrap+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -800,11 +800,11 @@
 		"Wasteland+Hill+Jungle+Furs+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Furs+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Furs+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Furs+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Furs+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Furs+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Furs+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Furs+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Furs+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Furs+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Furs+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Furs+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Furs+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -816,11 +816,11 @@
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Insects+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Insects+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Insects+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Insects+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Insects+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Insects+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Insects+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Insects+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Insects+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -832,11 +832,11 @@
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Insects+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Plastics+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Plastics+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Plastics+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Insects+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Plastics+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Plastics+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Plastics+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Insects+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Insects+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -848,11 +848,11 @@
 		"Wasteland+Hill+Jungle+Weapons+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Weapons+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Weapons+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Weapons+Forest+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Weapons+Forest+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Weapons+Forest+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Weapons+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Weapons+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Weapons+Forest+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Weapons+Forest+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Weapons+Forest+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Weapons+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Weapons+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -864,11 +864,11 @@
 		"Wasteland+Hill+Jungle+Machine Parts+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Machine Parts+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Machine Parts+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Machine Parts+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Machine Parts+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Machine Parts+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Machine Parts+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Machine Parts+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Machine Parts+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Machine Parts+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Machine Parts+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Machine Parts+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Machine Parts+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -880,11 +880,11 @@
 		"Wasteland+Hill+Jungle+Electronics+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Electronics+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Electronics+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Electronics+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Electronics+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Electronics+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Electronics+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Electronics+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Electronics+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Electronics+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Electronics+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Electronics+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Electronics+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -896,11 +896,11 @@
 		"Wasteland+Hill+Jungle+Fungus+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
 		"Wasteland+Jungle+Fungus+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Fungus+Borough": ["Wasteland", "Hill", "Borough+Jungle"],
-		"Wasteland+Forest+Fungus+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Fungus+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Fungus+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Fungus+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Fungus+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
-		"Wasteland+Forest+Fungus+Borough": ["Wasteland", "BoroughData"],
+		"Wasteland+Forest+Fungus+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Fungus+Borough": ["Wasteland", "Hill", "Borough"]
 		"Wasteland+Jungle+Fungus+Borough": ["Wasteland", "Borough+Jungle"],
 		"Wasteland+Hill+Jungle+Fungus+Borough": ["Wasteland", "Hill", "Borough+Jungle"]
@@ -912,11 +912,11 @@
 		"Badlands+Hill+Jungle+Scrap+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Scrap+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Scrap+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Scrap+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Scrap+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Scrap+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Scrap+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Scrap+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Scrap+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Scrap+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Scrap+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Scrap+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Scrap+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -928,11 +928,11 @@
 		"Badlands+Hill+Jungle+Furs+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Furs+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Furs+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Furs+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Furs+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Furs+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Furs+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Furs+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Furs+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Furs+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Furs+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Furs+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Furs+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -944,11 +944,11 @@
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Insects+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Insects+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Insects+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Insects+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Insects+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Insects+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Insects+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Insects+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Insects+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -960,11 +960,11 @@
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Insects+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Plastics+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Plastics+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Plastics+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Insects+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Plastics+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Plastics+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Plastics+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Insects+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Insects+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -976,11 +976,11 @@
 		"Badlands+Hill+Jungle+Weapons+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Weapons+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Weapons+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Weapons+Forest+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Weapons+Forest+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Weapons+Forest+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Weapons+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Weapons+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Weapons+Forest+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Weapons+Forest+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Weapons+Forest+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Weapons+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Weapons+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -992,11 +992,11 @@
 		"Badlands+Hill+Jungle+Machine Parts+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Machine Parts+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Machine Parts+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Machine Parts+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Machine Parts+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Machine Parts+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Machine Parts+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Machine Parts+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Machine Parts+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Machine Parts+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Machine Parts+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Machine Parts+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Machine Parts+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -1008,11 +1008,11 @@
 		"Badlands+Hill+Jungle+Electronics+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Electronics+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Electronics+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Electronics+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Electronics+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Electronics+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Electronics+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Electronics+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Electronics+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Electronics+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Electronics+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Electronics+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Electronics+Borough": ["Badlands", "Hill", "Borough+Jungle"]
@@ -1024,11 +1024,11 @@
 		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"],
 		"Badlands+Jungle+Fungus+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"],
-		"Badlands+Forest+Fungus+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Fungus+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Fungus+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Fungus+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"]
-		"Badlands+Forest+Fungus+Borough": ["Badlands", "BoroughData"],
+		"Badlands+Forest+Fungus+Borough": ["Badlands", "Borough"],
 		"Badlands+Hill+Forest+Fungus+Borough": ["Badlands", "Hill", "Borough"]
 		"Badlands+Jungle+Fungus+Borough": ["Badlands", "Borough+Jungle"],
 		"Badlands+Hill+Jungle+Fungus+Borough": ["Badlands", "Hill", "Borough+Jungle"]
