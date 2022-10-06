@@ -72,12 +72,12 @@
 		"neutralHello": "Yeah?",
 		"hateHello": "Quite an interesting person...",
 		"tradeRequest": "This Shipment was brought to you by Hexlock Technologies.",
-
+		
 		"outerColor": [64, 8, 114],
 		"innerColor": [255, 40, 255],
 		"style": "Hexlock",
 		"uniqueName": "Adaptive Systems",
-		"uniques": [
+		"uniques": ["[Purge Robot] units gain the [Portable Power Cell] promotion",
 		    "Can Mix Unique Strategic Resources to Generate a Great Person",
 			"[-99]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
@@ -133,7 +133,8 @@
 			"[Civilian] units gain the [Urban Warfare I] promotion",
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
-			"[-15]% [Science] [in all cities] <before discovering [Education]>",
+			"[-20]% [Science] [in all cities] <before discovering [Education]>",
+			"[-10]% [Culture] [in all cities] <before discovering [Civil Service]>",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
@@ -966,7 +967,24 @@
 		"innerColor": [250,128,114],
 		"cities": ["Fo Guang Shan"]
 	},
-
+    {
+		"name": "Tellus",
+		"adjective": ["Tellus"],
+		"cityStateType": "Cultured",
+		"style": "",
+		"uniques": [
+			"Starts with [Land Remediation]",
+			"[+1 Food, +2 Production, +1 Gold] from every [Tree Plantation]",
+			"[+100]% Strength <for [All] units> <within [2] tiles of a [Tree plantation]>",
+			"[25] HP when healing <within [2] tiles of a [Tree plantation]>",
+		],
+		"declaringWar": "The plant has spoken, you must be defeated!",
+		"attacked": "We will not let you destroy our sacred Trees!",
+		"defeated": "The plants must surive... no matter what.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,205,102],
+		"cities": ["Tellus"]
+	},
 	// Barbarian
 	{
 		"name": "Barbarians",

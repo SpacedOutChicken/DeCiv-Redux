@@ -15,12 +15,13 @@
 	},
 	{
 		"name": "Tree plantation",
-		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra"],
+		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands"],
 		"production": 1,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
+			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
@@ -150,6 +151,35 @@
 		],
 		"shortcutKey": "G"
 	},
+	{
+		"name": "Grassland",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert"],
+		"turnsToBuild": 10,
+		"food": 1,
+		"techRequired": "Land Remediation",
+		"uniques": [
+		    "Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>"
+			"[+1 Food, +1 Happiness] for each adjacent [Tree plantation]",
+			"[+3 Culture] for each adjacent [Nature preserve]"
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "G"
+	},
+	{
+		"name": "Borough",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"turnsToBuild": 15,
+		"techRequired": "Computers",
+		"production": 1,
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+2 Food]"
+			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "H"
+	},
 
 	// Resource-specific
 	{
@@ -165,19 +195,19 @@
 		],
 		"shortcutKey": "H"
 	},
+	//Soon to be removed
 	{
 		"name": "Hacking site",
-		"turnsToBuild": 7,
-		"techRequired": "Decryption",
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+3 Science] <after discovering [Artificial Intelligence]>",
+			"Unbuildable",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "H"
 	},
+	//
 	{
 		"name": "Salvage site",
 		"turnsToBuild": 5,
