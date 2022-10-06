@@ -226,8 +226,7 @@
 			"Scientific": 0
 		},
 		"uniques": [
-			"[+100]% Production when constructing [Shrine] buildings [in all cities]",
-			"[+100]% Production when constructing [Monastery] buildings [in all cities]",
+			"[+100]% Production when constructing [Faith] buildings [in all cities]",
 			"Only available <before adopting [Rationalism]>"
 		],
 		"policies": [
@@ -235,7 +234,8 @@
 				"name": "Organized Religion",
 				"uniques": [
 					"[+1 Faith, -1 Science] from every [Shrine]",
-					"[+1 Faith, -1 Science] from every [Monastery]"
+					"[+1 Faith, -1 Science] from every [Monastery]",
+					"[+1 Faith, -1 Science] from every [Megachurch]"
 				],
 				"row": 1,
 				"column": 2
@@ -280,7 +280,8 @@
 				"name": "Theocracy Complete",
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [-20]%",
-					"[+2 Gold, +2 Culture, +1 Faith] from every [Seminary]"
+					"[+2 Gold, +2 Culture, +1 Faith] from every [Seminary]",
+					"[+2 Gold, +2 Culture, +1 Faith] from every [Oracle]"
 				]
 			}
 		]
@@ -325,7 +326,8 @@
 				"name": "Equipment Upgrades",
 				"uniques": [
 					"[-33]% Gold cost of upgrading <for [Military] units>",
-					"[+1 Science] from every [Barracks]"
+					"[+1 Science] from every [Barracks]",
+					"[+10]% [Science] from every [Armory]"
 				],
 				"row": 1,
 				"column": 3
@@ -535,7 +537,7 @@
 				"uniques": [
 					"[+50]% Happiness from luxury resources gifted by City-States",
 					"[+1] Happiness from each type of luxury resource",
-					"[+3 Gold, -1 Production, -1 Food] from every [Factory]"
+					"[+3 Gold, -1 Production] from every [Factory]"
 				],
 				"row": 1,
 				"column": 1
@@ -543,7 +545,7 @@
 			{
 				"name": "Venture Capital",
 				"uniques": [
-					"[Great Merchant] is earned [20]% faster",
+					"Gifts of Gold to City-States generate [25]% more Influence",
 					"[Gold] cost of purchasing items in cities [-20]%",
 					"[+100]% Gold from Great Merchant trade missions"
 				],
@@ -579,7 +581,7 @@
 				"uniques": [
 					"[-33]% maintenance costs <for [All] units>",
 					"[+1 Gold] from every [Strategic Resource]",
-					"[+2 Gold, -1 Food] from every [Factory]"
+					"[+2 Gold] from every [Factory]"
 				],
 				"requires": ["Venture Capital", "Privatization"],
 				"row": 3,
@@ -590,7 +592,7 @@
 				"uniques": [
 					"[-50]% Gold cost of acquiring tiles [in all cities]",
 					"[-15]% maintenance cost for buildings [in all cities]",
-					"[+2 Gold, -1 Production, -1 Food] from every [Work Camp]",
+					"[+2 Gold, -1 Production] from every [Work Camp]",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}

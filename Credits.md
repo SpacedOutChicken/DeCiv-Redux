@@ -10,7 +10,7 @@ Base terrains by [AdityaMH](https://github.com/AdityaMH)<br>
 May contain art by [LynxRo](https://github.com/lynxro)<br>
 Some minor edits made by me
 
-Space Station Wreckage pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
+Space Station Wreckage, Quadcopter Drone, and Artificial Glacier pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
 
 
 ## From the Noun Project
@@ -26,12 +26,18 @@ Buildings:
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
 * Greywater Treatment Plant: [Water Filter](https://thenounproject.com/icon/water-filter-1929073/) by Vectors Market
 * Listening Post: [peeping tom](https://thenounproject.com/term/peeping-tom/38344/) by Luis Prado, US
+* Moonshinery: [Moonshine](https://thenounproject.com/icon/moonshine-1923/) by Andrew Nielsen, AU
 * Open the Vault: [Cave](https://thenounproject.com/icon/cave-1842205/) by Bakunetsu Kaito
+* Publishing House: [Bookstore](https://thenounproject.com/icon/bookstore-3658621/) by AmruID, ID
 * Rainwater Purifier [Filter Water](https://thenounproject.com/icon/filter-water-3923269/) by denimao, ID
 * Reclamation Vats: [compostable](https://thenounproject.com/icon/compostable-107010/) by Luca Reghellin, IT
+* Refugee Center: [Refugee Camp](https://thenounproject.com/icon/refugee-camp-2120771/) by OCHA Visual, US
+* Resource Management Server: [servers](https://thenounproject.com/icon/servers-4668166/) by Jack Bloomfield, GB
 * Salvage Space Station: [space station](https://thenounproject.com/icon/space-station-3572432/) by Hey Rabbit, TH
 * Search Shelters: [Shelter](https://thenounproject.com/icon/shelter-934966/) by Manuel Dixken, DE
-* Seastead: [Oil Platform](https://thenounproject.com/term/oil-platform/175820/) by Creative Stall, PK 
+* Seastead: [Oil Platform](https://thenounproject.com/term/oil-platform/175820/) by Creative Stall, PK
+* Software Lab: [Software](https://thenounproject.com/icon/software-2882603/) by Aficons, ID
+* The Last Paradise: [Bird of Paradise](https://thenounproject.com/icon/bird-of-paradise-3890707/) by Kevin, US
 * Uranium Centrifuge: [centrifuge](https://thenounproject.com/icon/centrifuge-3771162/) by Carl Holderness, GB
 * Urine Recycler: [urine](https://thenounproject.com/term/urine/3650621/) by Llisole 
 
@@ -53,11 +59,20 @@ Technologies:
 * Hydroponics: [Hydroponics](https://thenounproject.com/icon/hydroponics-83408/) by Krisada, TH
 
 Units:
+* 4x4: [Jeep](https://thenounproject.com/icon/jeep-2648/) by Luis Prado, US
+* Black Ops: [cloth](https://thenounproject.com/icon/cloth-1948963/) by Eucalyp
 * Censor: [Blind](https://thenounproject.com/icon/blind-2139794/) by Nubaia Karim Barsha
 * Corvette: [warship](https://thenounproject.com/term/warship/1806952/) by Abdul Wahhab 
-* Forward Observer: [Road Bike](https://thenounproject.com/icon/road-bike-1155041/) by Liv Iko
+* Forward Observer: [Motorcycle](https://thenounproject.com/icon/motorcycle-1578797/) by Abdul Wahhab
+* Gravity Turret: [Tank](https://thenounproject.com/icon/tank-3679624/) by Vectorstall, PK
+* Heavy Carrier: [Aircraft Carrier](https://thenounproject.com/icon/aircraft-carrier-9271/) by Luke Anthony Firth, GB
+* Hovercraft: [Hovercraft](https://thenounproject.com/icon/hovercraft-30739/) by Theresa Stoodley, US
 * Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
+* Quadcopter Drone: [Quadcopter](https://thenounproject.com/icon/quadcopter-2003189/) by kareemov1000, ID
 * Torpedo Boat: [speedboat](https://thenounproject.com/icon/speedboat-2713601/) by Silviu Ojog, RO
+* Stasis Cruiser: [warship](https://thenounproject.com/icon/warship-3863470/) by Andrejs Kirma, LV
+* Stealth Fighter: [F-22](https://thenounproject.com/icon/f-22-751638/) by RomanP, US
+* Wild Dog: [Dog](https://thenounproject.com/icon/dog-180819/) by Dennis Nicolai Andersen, DK
 
 Icons:
 * Faith icon: [Thought](https://thenounproject.com/term/thought/608383/) by Hea Poh Lin, MY 

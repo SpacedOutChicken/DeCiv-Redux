@@ -31,9 +31,9 @@
 		"uniqueName": "Determination",
 		"uniques": [
 			"[+50]% Great Person generation [in all cities]",
-			"[+15]% Strength <for [Ranged] units> <when attacking> <when adjacent to a [Great General] unit>",
-			"[+15]% Strength <for [Melee] units> <when defending> <when adjacent to a [Great General] unit>",
-			"[+1] Sight <for [Military] units> <when adjacent to a [Great General] unit>",
+			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
+			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
+			"[+1] Sight <for [{Wounded} {Scout}] units> ",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": [
@@ -59,7 +59,7 @@
 		"name": "Hexlock",
 		"leaderName": "Aura",
 		"adjective": ["Hexlock"],
-		"startBias": ["Molten"],
+		"startBias": ["Fissure"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Objectivism",
 
@@ -79,14 +79,13 @@
 		"uniqueName": "Adaptive Systems",
 		"uniques": [
 		    "Can Mix Unique Strategic Resources to Generate a Great Person",
-			"[-99]% Great Person generation [in all cities]"
-		    "[Purge Robot] units gain the [Promotion Nullifier] promotion",
+			"[-99]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Engineering]",
 			"Starts with [Electronics]",
-			"[-2 Happiness] [in all cities]"
+			"Unhappiness from number of Cities doubled"
 		],
 		"cities": [
 			"Halimax",
@@ -135,6 +134,8 @@
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
 			"[-15]% [Science] [in all cities] <before discovering [Education]>",
+			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
+			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 			"Starts with [Redomestication]"
 		],
@@ -194,7 +195,8 @@
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
-			"[-2 Science] [in all cities] <before discovering [Education]>"
+			"[-2 Science] [in all cities] <before discovering [Education]>",
+			"Starts with [Monopoly] adopted"
 		],
 		"cities": [
 			"Ark One",
@@ -253,7 +255,8 @@
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
-			"[-2 Science] [in all cities] <before discovering [Education]>"
+			"[-2 Science] [in all cities] <before discovering [Education]>",
+			"Starts with [Rationalism] adopted"
 		],
 		"cities": [
 			"Atlas Canyon",
@@ -312,7 +315,9 @@
 			"[+50]% [Faith] from City-States",
 			"Military Units gifted from City-States start with [+10] XP",
 			"[Great General] is earned [33]% faster",
-			"Starts with [Redomestication]"
+			"Starts with [Redomestication]",
+			"Cannot build [Enslaved] units",
+			"Starts with [Constitution] adopted"
 		],
 		"cities": [
 			"Union City",
@@ -372,15 +377,11 @@
 		"uniques": [
 			"Double quantity of [Encrypted Data] produced",
 			"Double quantity of [Weapons] produced",
-			"[+300]% Production when constructing [Ground Control Center] wonders [in all cities]",
 			"Cannot build [Low Tech] units",
-			"May not generate great prophet equivalents naturally",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
-			"Starts with [Avionics]",
-			"[-25]% Strength <for [Spec Ops] units> <before discovering [Replaceable Parts]>",
 			"[-2 Science] [in all cities] <before discovering [Education]>"
 		],
 		"cities": [
@@ -446,6 +447,8 @@
 		"uniques": [
 			"Units ignore terrain costs when moving into any tile with Hills",
 			"No Maintenance costs for improvements in [Hill] tiles",
+			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"Units ending their turn on [Mountain] tiles take [50] damage",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"Starts with [Redomestication]"
@@ -622,7 +625,8 @@
 		"uniques": [
 			"[-33]% maintenance costs <for [Armor] units>",
 			"Starts with [Machinery]",
-			"[+2 Culture] from every [Strategic resource]",
+			"Starts with [Theocracy] adopted",
+			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"[+10]% [Culture] from every [Coal Plant]",
 			"[-1 Science] [in all cities] <before discovering [Writing]>"
 		],
@@ -735,7 +739,7 @@
 		"uniqueName": "Community Watch",
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>",
-			"Enemy land units must spend 1 extra movement point when inside your territory (obsolete upon Dynamite)",
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
 			"Starts with [Secrets of the Past]"
 		],
 		"cities": [
@@ -838,11 +842,8 @@
 		"style": "Tribal",
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
-			/*"Gain a free [Atavism] [in all cities]",*/
 			"Cannot build [Armor] units",
-			"Cannot build [Siege] units",
-			"Cannot build [Cavalry] units",
-			"Cannot build [Light Cavalry] units"
+			"Cannot build [Siege] units"
 		],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -861,9 +862,6 @@
 			"Damage is ignored when determining unit Strength <for [All] units>",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
-			"Cannot build [Cavalry] units",
-			"Cannot build [Light Cavalry] units",
-			/*"Gain a free [Atavism] [in all cities]",*/
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare II] promotion",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
@@ -951,10 +949,28 @@
 		"innerColor": [211, 180, 113],
 		"cities": ["Ardentown"]
 	},
+	{
+		"name": "Fo Guang",
+		"adjective": ["Fo Guang"],
+		"cityStateType": "Religious",
+		"style": "",
+		"uniques": [
+			"Damage is ignored when determining unit Strength <for [All] units>",
+			"Cannot build [Armor] units",
+			"Cannot build [Siege] units"
+		],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Your desire for power will only bring you suffering.",
+		"defeated": "Weep not for us, for we shall be reborn.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Fo Guang Shan"]
+	},
 
 	// Barbarian
 	{
 		"name": "Barbarians",
+		"style": "Barbarians",
 		"outerColor": [0, 0, 0],
 		"innerColor": [182, 0, 0]
 	}

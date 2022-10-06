@@ -100,14 +100,14 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Astronomy",
+				"name": "Navigation",
 				"row": 1,
 				"prerequisites": ["Writing", "Sailing"],
 				"uniques": [
 					"[+1] Movement <for [Embarked] units>",
 					"Enables [Embarked] units to enter ocean tiles"
 				],
-				"quote": "He made an instrument to know if the moon shine at full or no."
+				"quote": "The winds and waves are always on the side of the ablest navigators."
 			},
 			{
 				"name": "Botany",
@@ -121,7 +121,7 @@
 				"row": 6,
 				"prerequisites": ["Writing"],
 				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire.",
-				"uniques": ["Enables conversion of city production to gold"]
+				"uniques": ["Enables conversion of city production to [Gold]"]
 			},
 
 			{
@@ -172,7 +172,7 @@
 			{
 				"name": "Oceanography",
 				"row": 1,
-				"prerequisites": ["Astronomy", "Education"],
+				"prerequisites": ["Navigation", "Education"],
 				"quote": "Why did the old Persians hold the sea holy? Why did the Greeks give it a separate deity, and own brother of Jove? Surely all this is not without meaning."
 			},
 			{
@@ -259,7 +259,7 @@
 			{
 				"name": "Laboratory",
 				"row": 3,
-				"uniques": ["Enables conversion of city production to science"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 				"prerequisites": ["Decontamination", "Refrigeration"],
 				"quote": "There is a plague on Man: his opinion that he knows something."
 			},
@@ -535,13 +535,6 @@
 				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
 				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
 			},
-
-			/*{
-				"name": "Nanotechnology",
-				"row": 5,
-				"prerequisites": ["Robotics"],
-				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
-			},*/
 			{
 				"name": "Artificial Intelligence",
 				"row": 6,
@@ -581,7 +574,7 @@
 				"name": "Globalization",
 				"row": 10,
 				"prerequisites": ["Incentivization"],
-				"uniques": ["Unlocks the final Diplomatic wonder if you have constructed all Diplomatic Transmissions"]
+				"uniques": ["Unlocks the final Diplomatic wonder if you have constructed all Diplomatic Transmissions"],
 				"quote": "The new electronic interdependence recreates the world in the image of a global village."
 			}
 		]

@@ -24,7 +24,10 @@
 			"Armor",
 			"Melee Water",
 			"Ranged Water",
-			"Submarine"
+			"Submarine",
+			"Aircraft Carrier",
+			"Fighter",
+			"Bomber"
 		]
 	},
 
@@ -67,7 +70,7 @@
 	{
 		"name": "Shock",
 		"uniques": [
-		"[+25]% Strength <when fighting in [Open terrain] tiles>"
+		"[+25]% Strength <when fighting in [Open terrain] tiles>",
 		"[-25]% Strength <when fighting in [Open terrain] tiles> <vs [Promotion Nullifier] units>"
 		],
 		"unitTypes": ["Mounted", "Armor"]
@@ -152,7 +155,7 @@
 	//// Water (+ Air)
 	{
 		"name": "Evasion",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>",
 		"[-33]% Strength <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>"],
 		"unitTypes": ["Melee Water"]
 	},
@@ -257,6 +260,23 @@
 		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
 	},
+	{
+		"name": "Dogfighting I",
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Dogfighting II",
+		"prerequisites": ["Dogfighting I"],
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"]
+	},
+	{
+		"name": "Dogfighting III",
+		"prerequisites": ["Dogfighting II"],
+		"uniques": ["[+34]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"]
+	},
 
 	// With Prerequisites
 	{
@@ -309,7 +329,7 @@
 		"prerequisites": ["Loose Formation", "Shock"],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-	        "[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"
+	        "[-25]% Strength <vs [{Wounded} {Promotion Nullifier}] units>",
 			"Heals [25] damage if it kills a unit"
 		],
 		"unitTypes": ["Mounted"]
@@ -619,7 +639,10 @@
 			"Operational Range",
 			"Evasive Maneuvers"
 		],
-		"uniques": ["[1] additional attacks per turn"],
+		"uniques": [
+			"[1] additional attacks per turn",
+			"Can move after attacking"
+		],
 		"unitTypes": [
 			"Shooter",
 			"Siege",
@@ -683,7 +706,7 @@
 		"uniques": [
 			"[+25]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs cities>",
-	        "[-25]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>"
+	        "[-25]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>",
 			"Only available <if [Armaments Production Line] is constructed>"
 		],
 		"unitTypes": ["Scrapper", "Mounted", "Shooter", "Scout"]
@@ -712,7 +735,7 @@
 		"name": "Drone Support",
 		"prerequisites": ["Drone Recon"],
 		"uniques": [
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"[+10]% Strength for enemy [Promotion Nullifier] units in adjacent [All] tiles"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Armor"]
@@ -724,10 +747,17 @@
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
 	},
 	{
+		"name": "Advanced Sensors",
+		"prerequisites": ["Drone Recon"],
+		"uniques": ["Can see invisible [Land] units"],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"]
+	},
+	{
 		"name": "Infantry Mortar",
 		"prerequisites": ["Infantry Weapons"],
 		"uniques": ["[+10]% Strength <when attacking>",
-		"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>"],
+		"[-10]% Strength <when attacking> <vs [Promotion Nullifier] units>",
+		"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Scrapper", "Shooter"]
 	},
 	{
@@ -769,7 +799,7 @@
 		"uniques": [
 			"[33]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Air] units>",
-			"[+100]% Strength <vs [Helicopter] units>"
+			"[+100]% Strength <vs [Helicopter] units>",
 			"[-50]% Strength <vs [{Air} {Promotion Nullifier}] units>",
 			"[-100]% Strength <vs [{Helicopter} {Promotion Nullifier}] units>"
 		],
@@ -811,8 +841,12 @@
 	{
 		"name": "Air-to-Air Missile",
 		"prerequisites": ["Advanced Weapons"],
-		"uniques": ["[+33]% Strength <vs [Air] units>",
-		"[-33]% Strength <vs [{Air} {Promotion Nullifier}] units>"],
+		"uniques": [
+			"[+33]% Strength <vs [Air] units>",
+			"[-33]% Strength <vs [{Air} {Promotion Nullifier}] units>",
+			"[+33]% Strength <vs [Helicopter] units>",
+			"[-33]% Strength <vs [{Helicopter} {Promotion Nullifier}] units>"
+		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
@@ -822,7 +856,7 @@
 		"uniques": [
 			"Automated",
 			"[+20]% Strength <vs [Wounded] units>",
-			"[-20]% Strength <vs [{Wounded} {Promotion Nullifier}] units>"
+			"[-20]% Strength <vs [{Wounded} {Promotion Nullifier}] units>",
 			"[+20]% Strength <vs cities>"
 		]
 	},
@@ -834,7 +868,7 @@
 		"name": "Tear Gas",
 		"uniques": [
 			"[+33]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>"
+			"[-33]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>",
 			"[+10]% Strength <vs cities>"
 		]
 	},
@@ -845,7 +879,7 @@
 			"[+100]% Strength <vs [Low Tech] units>",
 			"[+100]% Strength <vs [Personnel] units>",
 			"[-100]% Strength <vs [{Low Tech} {Promotion Nullifier}] units>",
-			"[-100]% Strength <vs [{Personnel} {Promotion Nullifier}] units>"
+			"[-100]% Strength <vs [{Personnel} {Promotion Nullifier}] units>",
 			"[-50]% Strength <vs [Gas Mask] units>",
 			"[+50]% Strength <vs cities>",
 			"Only available <if [Chemical Weapons Laboratory] is constructed>"
@@ -905,15 +939,23 @@
 		]
 	},
 	{
+		"name": "Pride",
+		"uniques": [
+			"[Great General] is earned [25]% faster",
+			"[+15]% Strength decreasing with distance from the capital"
+		]
+	},
+	{
 		"name": "Stormfront",
 		"uniques": [
 			"No defensive terrain penalty",
 			"Ignores terrain cost"
-		],
+		]
 	},
 	{
 		"name": "Promotion Nullifier",
 		"uniques": [
+			"Promotion Nullifier",
 			"Negates the combat bonus effect of Enemy Promotions",
 			 "[-100]% XP gained from combat",
 			 "[-25]% XP gained from combat <for units with [Drone Recon]>",
@@ -922,7 +964,7 @@
 			 "[-25]% XP gained from combat <for units with [Reconnaissance I]>",
 			 "[-50]% XP gained from combat <after adopting [Military Tradition]>"
 			 
-		],
+		]
 	},
 
 	// 'ability' promotions
@@ -932,7 +974,7 @@
 		"uniques": [
 			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"[-20]% Strength <when fighting in [Friendly Land] tiles> <vs [Promotion Nullifier] units>"
+			"[-20]% Strength <when fighting in [Friendly Land] tiles> <vs [Promotion Nullifier] units>",
 			"[50]% XP gained from combat",
 			"Can construct [Citadel]",
 			"Uncapturable"

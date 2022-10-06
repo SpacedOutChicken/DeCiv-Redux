@@ -3,14 +3,17 @@
 	{
 		"name": "Ancestor Worship",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Shrine]"]
+		"uniques": [
+			"[+1 Faith] from every [Monument]",
+			"[+1 Culture] from every [Shrine]"
+		]
 	},
 	{
 		"name": "God of Winter",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from every [Tundra]",
-			"[+1 Faith] from every [Permafrost]"
+			"[+1 Faith] from [Tundra] tiles without [Jungle] [in this city]",
+			"[+1 Faith] from [Permafrost] tiles without [Jungle] [in this city]"
 		]
 	},
 	{
@@ -50,7 +53,7 @@
 	{
 		"name": "God of the Sea",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production] from every [Fishing Boats]"]
+		"uniques": ["[+1 Production, +1 Faith] from every [Fishing Boats]"]
 	},
 	{
 		"name": "Sacrificial Fire",
@@ -70,12 +73,15 @@
 	{
 		"name": "God of Love",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
+		"uniques": ["[+1 Happiness, +1 Faith] <in cities with at least [6] [Population]>"]
 	},
 	{
 		"name": "God of Walls",
 		"type": "Pantheon",
-		"uniques": ["[+30]% Strength for cities <when attacking>"]
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [Walls]",
+			"[+30]% Strength for cities <when attacking>"
+		]
 	},
 	{
 		"name": "Lord of the Hunt",
@@ -85,12 +91,12 @@
 	{
 		"name": "God of Commerce",
 		"type": "Pantheon",
-		"uniques": ["[+2 Science] from each Trade Route"]
+		"uniques": ["[+2 Science, +1 Faith] from each Trade Route"]
 	},
 	{
 		"name": "Ancient Wonders",
 		"type": "Pantheon",
-		"uniques": ["[+4 Faith] from every [Natural Wonder]"]
+		"uniques": ["[+5 Faith] from every [Natural Wonder]"]
 	},
 	{
 		"name": "Blessed Green",
@@ -105,7 +111,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Culture, +1 Faith] from every [Metal]",
-			"[+1 Culture, +1 Faith] from every [Silver]"
+			"[+1 Culture, +1 Faith] from every [Scrap]"
 		]
 	},
 	{
@@ -120,26 +126,37 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Culture] from every [Jungle]",
-			"[+1 Culture] from every [Forest]"
+			"[+1 Culture] from every [Forest]",
+			"[+1 Culture] from every [Sunken Ruins]"
 		]
 	},
 	{
 		"name": "Sacred Waters",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness] in cities on [River] tiles"]
+		"uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
 	},
 	{
 		"name": "Strength of the Earth",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Mine]"]
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [Mine]",
+			"[+1 Production, +1 Faith] from every [Manufactory]"
+		]
 	},
+	{
+        "name": "Home and Hearth",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]"
+        ]
+    },
 
 	// Follower beliefs
 	{
 		"name": "Hymns of Praise",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Happiness] from every [Shrine] <in cities where this religion has at least [3] followers>"
+			"[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"
 		]
 	},
 	{
@@ -154,7 +171,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Production] <if this city has at least [1] specialists>"
+			"[+2 Production] <in cities with at least [1] [Specialists]>"
 		]
 	},
 	{
@@ -196,10 +213,24 @@
 		]
 	},
 	{
+		"name": "Dojos",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Dojo] buildings for [200] [Faith] [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Divinity Schools",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Divinity School] buildings for [200] [Faith] [in cities following this religion]"
+		]
+	},
+	{
 		"name": "Happiness in Faith",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Happiness] from every [Monastery] <in cities where this religion has at least [5] followers>"
+			"[+2 Happiness] from every [Monastery] <in cities with at least [5] [Followers of this Religion]>"
 		]
 	},
 	{
