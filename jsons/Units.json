@@ -1037,6 +1037,7 @@
 		"range": 1,
 		"movement": 2,
 		"strength": 40,
+		"cost": 500,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"uniques": [
