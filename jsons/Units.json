@@ -42,7 +42,7 @@
 		"uniqueTo": "Tellus"
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Tree plantation] improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
 	},
 	{
@@ -1037,6 +1037,7 @@
 		"range": 1,
 		"movement": 2,
 		"strength": 40,
+		"cost": 500,
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"uniques": [

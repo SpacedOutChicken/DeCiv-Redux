@@ -974,7 +974,8 @@
 		"style": "",
 		"uniques": [
 			"Starts with [Land Remediation]",
-			"[+1 Food, +2 Production, +1 Gold] from every [Tree Plantation]",
+			"Starts with [Ecology]",
+			"[+2 Food, +2 Production, +1 Gold] from every [Tree plantation]",
 			"[+100]% Strength <for [All] units> <within [2] tiles of a [Tree plantation]>",
 			"[25] HP when healing <within [2] tiles of a [Tree plantation]>",
 		],
