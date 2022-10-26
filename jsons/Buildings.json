@@ -1406,7 +1406,7 @@
 		"cost": 5,
 		"uniques": [
 			"Must have an owned [Underwater City] within [3] tiles",
-			"[+4 Food, -1 Science, -1 Culture] from [Underwater City] tiles [in all cities]",
+			"[+4 Food, -1 Science, -1 Culture] from [Underwater City] tiles [in this city]",
 			"Only available <in cities without a [Research Underwater City]>"
 		]
 	},
@@ -1415,7 +1415,7 @@
 		"cost": 200,
 		"uniques": [
 			"Must have an owned [Underwater City] within [3] tiles",
-			"[+3 Science, +3 Culture] from [Underwater City] tiles [in all cities]",
+			"[+3 Science, +3 Culture] from [Underwater City] tiles [in this city]",
 			"Only available <in cities without a [Explore Underwater City]>"
 		]
 	},
