@@ -3165,7 +3165,7 @@
 		"food": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Food, +1 Happiness] from [Grassland] tiles [in all cities]"]
+		"uniques": ["[+1 Food, +1 Happiness] from [Grassland] tiles [in this city]"]
 		"requiredTech": "Atmosphere Remediation"
 	},
 	{
