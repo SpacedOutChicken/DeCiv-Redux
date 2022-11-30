@@ -1882,7 +1882,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
-			"Provides 1 happiness per 2 additional social policies adopted",
+			"Provides [+1 Happiness] per [2] social policies adopted",
 			"Only available <in cities with a [Television Studio]>"
 		],
 		"isNationalWonder": true,
