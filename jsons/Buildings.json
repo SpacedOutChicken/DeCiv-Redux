@@ -1031,7 +1031,7 @@
 			"[+15]% Strength <for [Automated] units>",
 			"Free [Great Scientist] appears",
 			"Empire enters golden age",
-			"[+15]% Production when constructing [Spaceship part] buildings [in this city]",
+			"[+15]% Production when constructing [Terraformer Part] units [in this city]",
 			"Consumes [2] [Power]"
 		],
 		"percentStatBonus": { "science": 50 },
