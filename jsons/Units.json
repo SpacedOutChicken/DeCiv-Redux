@@ -3430,6 +3430,7 @@
 		"cost": 750,
 		"requiredTech": "Future Materials",
 		"uniques": [
+			"Terraformer Part",
 			"Consumes [1] [Aluminum]",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Only available <if [Biosphere Project] is constructed>",
@@ -3447,6 +3448,7 @@
 		"cost": 750,
 		"requiredTech": "Artificial Intelligence",
 		"uniques": [
+			"Terraformer Part",
 			"Consumes [1] [Aluminum]",
 			"Only available <if [Biosphere Project] is constructed>",
 			"Can be added to [The Terraformer] in the Capital",
@@ -3463,6 +3465,7 @@
 		"cost": 750,
 		"requiredTech": "Future Power",
 		"uniques": [
+			"Terraformer Part",
 			"Consumes [1] [Uranium]",
 			"Only available <if [Biosphere Project] is constructed>",
 			"Only available <in cities with a [Harbor]>",
@@ -3480,6 +3483,7 @@
 		"cost": 750,
 		"requiredTech": "Geo Engineering",
 		"uniques": [
+			"Terraformer Part",
 			"Consumes [1] [Uranium]",
 			"Only available <if [Biosphere Project] is constructed>",
 			"Can be added to [The Terraformer] in the Capital",
