@@ -580,7 +580,7 @@
 				"name": "Corporate Personhood",
 				"uniques": [
 					"[-33]% maintenance costs <for [All] units>",
-					"[+1 Gold] from every [Strategic Resource]",
+					"[+1 Gold] from every [Strategic resource]",
 					"[+2 Gold] from every [Factory]"
 				],
 				"requires": ["Venture Capital", "Privatization"],
