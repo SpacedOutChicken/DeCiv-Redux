@@ -115,7 +115,7 @@
 		"prerequisites": ["Guerilla Warfare I"],
 		"uniques": [
 			"[+30]% Strength <when fighting in [Hill] tiles>",
-			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Scout"]
 	},
@@ -842,7 +842,7 @@
 		"name": "Headhunter",
 		"uniques": [
 			"Earn [-10]% of [military] opponent's [Cost] as [Gold] for kills",
-			"[+25]% Strength <vs [Wounded] units>",
+			"[+25]% Strength <vs [Wounded] units>"
 		]
 	},
 	{
@@ -907,8 +907,7 @@
 			"[+50] HP when healing <within [1] tiles of a [SbF5 Refinery]>",
 			"[+50] HP when healing <within [1] tiles of a [VX Refinery]>",
 			"[+50] HP when healing <within [1] tiles of a [Solar collector]>",
-			"[+50] HP when healing <within [1] tiles of a [Wind farm]>",
-			 
+			"[+50] HP when healing <within [1] tiles of a [Wind farm]>"
 		]
 	},
 	// 'ability' promotions
@@ -921,6 +920,12 @@
 			"[50]% XP gained from combat",
 			"Can construct [Citadel]",
 			"Uncapturable"
+		]
+	},
+	{
+		"name": "[Surveyor] ability",
+		"uniques": [
+			"Can build [Land] improvements on tiles"
 		]
 	}
 ]

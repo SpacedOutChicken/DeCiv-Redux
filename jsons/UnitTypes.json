@@ -5,32 +5,32 @@
 	},
 	{
 		"name": "Scrapper", // Melee
-        "uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]		
+        "uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Land"
 	},
 	{
 		"name": "Shooter", // Ranged
-		 "uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]	
+		 "uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Land"
 	},
 	{
 		"name": "Scout",
-		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]		
+		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Land"
 	},
 	{
 		"name": "Mounted",
-		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]		
+		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Land"
 	},
 	{
 		"name": "Armor",
-		 "uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]		
+		 "uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Land"
 	},
 	{
 		"name": "Siege",
-		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]		
+		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Land"
 	},
 	{
@@ -40,7 +40,7 @@
 	{
 		"name": "Melee Water",
 		"movementType": "Water",
-		"uniques": ["Can move after attacking","Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]		
+		"uniques": ["Can move after attacking","Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]
 	},
 	{
 		"name": "Ranged Water",
@@ -51,7 +51,7 @@
 		"name": "Submarine",
 		"movementType": "Water",
 		"uniques": [
-			"Can pass through impassable tiles",
+			"Can enter ice tiles",
 			"Invisible to non-adjacent units",
 			"Can see invisible [Submarine] units",
 			"Cannot intercept [Stealth Fighter] units",
@@ -60,7 +60,7 @@
 	},
 	{
 		"name": "Aircraft Carrier",
-		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"]
+		"uniques": ["Cannot intercept [Stealth Fighter] units","Cannot intercept [Stealth Bomber] units"],
 		"movementType": "Water"
 	},
 	{

@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Culture",
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Neofeudal era]>",
+            "[+6 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Neofeudal era]>",
+            "[+12 Culture] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Farming",
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Trading",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Neofeudal era]>",
+            "[+3 Happiness] <starting from the [Neofeudal era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Neofeudal era]>",
+            "[+3 Happiness] <starting from the [Neofeudal era]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Weapons",
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Prayer",
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Neofeudal era]>",
+            "[+6 Faith] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+13 Faith] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Neofeudal era]>",
+            "[+12 Faith] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+26 Faith] <starting from the [Industrial era]>"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Research",
+        "friendBonusUniques":  [
+            "[+5 Science] <before the [Neofeudal era]>",
+            "[+10 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+21 Science] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+10 Science] <before the [Neofeudal era]>",
+            "[+20 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+42 Science] <starting from the [Industrial era]>"
+        ],
+        "color": [55, 55, 255]
+    },
+    {
+        "name": "Labor",
+        "friendBonusUniques": ["[+2 Production] [in capital]"],
+        "allyBonusUniques": ["[+2 Production] [in capital]", "[+1 Production] [in all cities]"],
+        "color": [220, 100, 15]
+    }
+]

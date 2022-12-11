@@ -158,9 +158,9 @@
 		"food": 1,
 		"techRequired": "Land Remediation",
 		"uniques": [
-		    "Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>"
+		    "Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Food, +1 Happiness] for each adjacent [Tree plantation]",
-			"[+3 Culture] for each adjacent [Nature preserve]"
+			"[+3 Culture] for each adjacent [Nature preserve]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "G"
@@ -171,10 +171,10 @@
 		"turnsToBuild": 15,
 		"techRequired": "Computers",
 		"production": 1,
+		"food": 2,
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+2 Food]"
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -195,19 +195,6 @@
 		],
 		"shortcutKey": "H"
 	},
-	//Soon to be removed
-	{
-		"name": "Hacking site",
-		"uniques": [
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]",
-			"Unbuildable",
-			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "H"
-	},
-	//
 	{
 		"name": "Salvage site",
 		"turnsToBuild": 5,

@@ -37,9 +37,9 @@
 	},
 	{
 		"name": "Tree Lover",
-		"replaces": "Worker"
+		"replaces": "Worker",
 		"unitType": "Civilian",
-		"uniqueTo": "Tellus"
+		"uniqueTo": "Tellus",
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles"],
@@ -289,9 +289,9 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <when defending>",
+			"[+50]% Strength <when defending>"
 		],
-		"promotions": ["Medic I"],
+		"promotions": ["Medic I", "[Surveyor] ability"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -2054,7 +2054,7 @@
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Can only be intercepted by [Stealth Fighter]"
+			"Can only be intercepted by [Stealth Fighter]",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]"
 		],
@@ -2075,7 +2075,7 @@
 			"Automated",
 			"[100]% chance to intercept air attacks",
 			"Cannot intercept [Stealth Fighter] units",
-			"Cannot intercept [Stealth Bomber] units"
+			"Cannot intercept [Stealth Bomber] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -2135,10 +2135,10 @@
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Can only be Intercepted by [Stealth Fighter]"
+			"Can only be Intercepted by [Stealth Fighter]",
 			"Consumes [1] [Aluminum]",
-			"Consumes [1] [Oil]"
-			"Cannot be carried by [Carrier] units",
+			"Consumes [1] [Oil]",
+			"Cannot be carried by [Carrier] units"
 		],
 		"attackSound": "bombing"
 	},
@@ -2350,6 +2350,7 @@
 		"movement": 6,
 		"cost": 100,
 		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Submarine",
 		"uniques": [
 			"Double movement in [Coast]",
 			"May withdraw before melee ([66]%)",

@@ -13,7 +13,8 @@
 		"RGB": [107, 167, 193],
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"A Region is formed with at least [25]% [Fissure] tiles, with priority [2]"
 		]
 	},
 	{
@@ -603,5 +604,5 @@
 			{
 				"text": "This completely underwater city must have once been a true marvel of engineering while operational. While the cause of its demise is unknown, it is estimated to have been due to Bioshock."
 			}]			
-	},
+	}
 ]

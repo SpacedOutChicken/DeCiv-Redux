@@ -85,7 +85,7 @@
 			"Starts with [Machinery]",
 			"Starts with [Engineering]",
 			"Starts with [Electronics]",
-			"Unhappiness from number of Cities doubled"
+			"[-2 Happiness] [in all cities]"
 		],
 		"cities": [
 			"Halimax",
@@ -314,6 +314,9 @@
 			"[+50]% [Food] from City-States",
 			"[+50]% [Culture] from City-States",
 			"[+50]% [Faith] from City-States",
+			"[+50]% [Science] from City-States",
+			"[+50]% [Happiness] from City-States",
+			"[+50]% [Production] from City-States",
 			"Military Units gifted from City-States start with [+10] XP",
 			"[Great General] is earned [33]% faster",
 			"Starts with [Redomestication]",
@@ -787,7 +790,7 @@
 	{
 		"name": "The Archive",
 		"adjective": ["Archive"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Research",
 		"style": "Corporate",
 		"uniques": ["Starts with [Writing]", "Starts with [Electronics]"],
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -800,7 +803,7 @@
 	{
 		"name": "Order of Jerome",
 		"adjective": ["Order"],
-		"cityStateType": "Religious",
+		"cityStateType": "Prayer",
 		"style": "",
 		"uniques": ["Starts with [Writing]", "Starts with [Electronics]"],
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -813,7 +816,7 @@
 	{
 		"name": "Bartertown",
 		"adjective": ["Bartertown"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Trading",
 		"style": "Gang",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Two men enter, one man leaves!",
@@ -825,7 +828,7 @@
 	{
 		"name": "Devil's Canyon",
 		"adjective": ["Devil's Canyon"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Research",
 		"style": "Corporate",
 		"uniques": ["Starts with [Writing]", "Starts with [Rifling]"],
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -838,7 +841,7 @@
 	{
 		"name": "Arroyo",
 		"adjective": ["Arroyoan"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Farming",
 		"startBias": ["Hill"],
 		"style": "Tribal",
 		"uniques": [
@@ -856,7 +859,7 @@
 	{
 		"name": "Ghost Mountain",
 		"adjective": ["Ghost Mountain"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Farming",
 		"startBias": ["Hill"],
 		"style": "Ghost",
 		"uniques": [
@@ -879,7 +882,7 @@
 	{
 		"name": "Almaty",
 		"adjective": ["Almaty"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Weapons",
 		"startBias": ["Hills"],
 		"style": "Military",
 		"uniques": ["Double quantity of [Weapons] produced"],
@@ -893,7 +896,7 @@
 	{
 		"name": "Jericho",
 		"adjective": ["Jericho"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Farming",
 		"style": "",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -905,7 +908,7 @@
 	{
 		"name": "The Hub",
 		"adjective": ["Hub"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Trading",
 		"style": "",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Have you ever danced with the devil in the pale moonlight?",
@@ -917,7 +920,7 @@
 	{
 		"name": "Deseret Nation",
 		"adjective": ["Deseret"],
-		"cityStateType": "Religious",
+		"cityStateType": "Prayer",
 		"style": "Corporate",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Do you think that your unhallowed hands can stop us?",
@@ -929,7 +932,7 @@
 	{
 		"name": "Church of the Iron Rod",
 		"adjective": ["Iron Rod"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Weapons",
 		"style": "Military",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "The rod of iron will strike you down!",
@@ -941,7 +944,7 @@
 	{
 		"name": "Arden Club",
 		"adjective": ["Arden"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Culture",
 		"style": "",
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Why can't we find a mutually beneficial relationship?",
@@ -953,7 +956,7 @@
 	{
 		"name": "Fo Guang",
 		"adjective": ["Fo Guang"],
-		"cityStateType": "Religious",
+		"cityStateType": "Prayer",
 		"style": "",
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
@@ -970,14 +973,14 @@
     {
 		"name": "Tellus",
 		"adjective": ["Tellus"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Culture",
 		"style": "",
 		"uniques": [
 			"Starts with [Land Remediation]",
 			"Starts with [Ecology]",
-			"[+2 Food, +2 Production, +1 Gold] from every [Tree plantation]",
+			"[+1 Food, +2 Production, +1 Gold] from every [Tree plantation]",
 			"[+100]% Strength <for [All] units> <within [2] tiles of a [Tree plantation]>",
-			"[25] HP when healing <within [2] tiles of a [Tree plantation]>",
+			"[25] HP when healing <within [2] tiles of a [Tree plantation]>"
 		],
 		"declaringWar": "The plant has spoken, you must be defeated!",
 		"attacked": "We will not let you destroy our sacred Trees!",
@@ -986,6 +989,22 @@
 		"innerColor": [0,205,102],
 		"cities": ["Tellus"]
 	},
+	{
+		"name": "Dahomey",
+		"adjective": ["Dahomey"],
+		"cityStateType": "Labor",
+		"style": "",
+		"uniques": [
+			"Double quantity of [Slaves] produced"
+		],
+		"declaringWar": "It's about time you came to work for us.",
+		"attacked": "Hands off the merchandise!",
+		"defeated": "I suppose we work for you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,128,0],
+		"cities": ["Dahomeyville"]
+	},
+
 	// Barbarian
 	{
 		"name": "Barbarians",

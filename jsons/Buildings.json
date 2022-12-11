@@ -3165,7 +3165,7 @@
 		"food": 2,
 		"maintenance": 2,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Food, +1 Happiness] from [Grassland] tiles [in this city]"]
+		"uniques": ["[+1 Food, +1 Happiness] from [Grassland] tiles [in this city]"],
 		"requiredTech": "Atmosphere Remediation"
 	},
 	{
@@ -3235,7 +3235,7 @@
 		"uniques": [
 			"[+1 Food, +1 Production] from [Forest] tiles [in this city]",
 			"[+1 Food, +1 Production] from [Jungle] tiles [in this city]",
-			"[+2 Food, +2 Production] from [Borough] tiles [in this city]",
+			"[+2 Food, +2 Production] from [Borough] tiles [in this city]"
 		]
 	},
 	// Coastal buildings
@@ -3872,4 +3872,27 @@
 			"Free [Tree Lover] appears"
 		]
 	},
+	{
+		"name": "Royal Court",
+		"uniqueTo": "Dahomey",
+		"replaces": "Monument",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map"
+		]
+	},
+	{
+		"name": "Slave House",
+		"uniqueTo": "Dahomey",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Provides [2] [Slaves]",
+			"Never destroyed when the city is captured"
+		]
+	}
 ]

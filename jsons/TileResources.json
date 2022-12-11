@@ -203,7 +203,7 @@
 			"Generated with weight [40] <in [Featureless] [Badlands] tiles>",
 			"Generated with weight [39] <in [Hill] tiles>",
 			"Generated with weight [40] <in [Featureless] [Coast] tiles>",
-			"Generated with weight [10] <in [Featureless] [Ocean] tiles> <within [1] tiles of a [Coast]>"
+			"Generated with weight [10] <in [Featureless] [Ocean] tiles>"
 		]
 	},
 
@@ -232,7 +232,7 @@
 			"Generated with weight [60] <in [Featureless] [Permafrost] tiles>",
 			"Generated with weight [65] <in [Featureless] [Desert] tiles>",
 			"Generated with weight [100] <in [Featureless] [Coast] tiles>",
-			"Generated with weight [10] <in [Featureless] [Ocean] tiles> <within [1] tiles of a [Coast]>",
+			"Generated with weight [10] <in [Featureless] [Ocean] tiles>",
 			"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 			"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
 			"Minor deposits generated with weight [20] <in [Featureless] [Permafrost] tiles>"
@@ -391,7 +391,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Electronics",
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvedBy": ["Hacking site", "Borough"],
+		"improvedBy": ["Borough"],
 		"improvementStats": { "science": 2 },
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
@@ -600,6 +600,7 @@
 		"improvedBy": ["Research site", "Borough"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
+			"Generated on every [15] tiles <in [Coast] tiles>",
 			"Generated with weight [30] <in [Jungle] Regions>",
 			"Generated with weight [20] <in [Hybrid] Regions>",
 			"Generated with weight [10] <in [Desert] Regions>",
