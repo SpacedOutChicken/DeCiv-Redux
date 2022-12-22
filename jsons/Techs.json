@@ -266,7 +266,7 @@
 
 			{
 				"name": "Electronics",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Manufacturing"],
 				"quote": "LIST COG SITES\nContacting nodes:\nARCHANGEL... OFFLINE;\nMAYFLOWER... OFFLINE;\nELYSIUM... OFFLINE;\nOLYMPUS... ONLINE;\n\n\nCONNECTING...\n\nUNAUTHORISED ACCESS LOGGED\n\nCONNECTION TERMINATED"
 			},

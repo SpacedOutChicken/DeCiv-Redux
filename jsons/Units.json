@@ -1958,7 +1958,8 @@
 			"Only available <in cities with a [Aerospace Facility]>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
-			"Consumes [1] [Aluminum]"
+			"Consumes [1] [Aluminum]",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Advanced Weapons", "Antitank Missile","Artillery"],
 		"hurryCostModifier": 20,
