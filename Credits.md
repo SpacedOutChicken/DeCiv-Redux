@@ -68,6 +68,7 @@ Units:
 * Heavy Carrier: [Aircraft Carrier](https://thenounproject.com/icon/aircraft-carrier-9271/) by Luke Anthony Firth, GB
 * Hovercraft: [Hovercraft](https://thenounproject.com/icon/hovercraft-30739/) by Theresa Stoodley, US
 * Jet Boat: [Jet Ski](https://thenounproject.com/term/jet-ski/1676951/) by Mello
+* Missile Defense System: [Air Defense Missile Launcher](https://thenounproject.com/icon/air-defense-missile-launcher-1189656/) by usubaliev, TR
 * Quadcopter Drone: [Quadcopter](https://thenounproject.com/icon/quadcopter-2003189/) by kareemov1000, ID
 * Torpedo Boat: [speedboat](https://thenounproject.com/icon/speedboat-2713601/) by Silviu Ojog, RO
 * Stasis Cruiser: [warship](https://thenounproject.com/icon/warship-3863470/) by Andrejs Kirma, LV
