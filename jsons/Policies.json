@@ -66,7 +66,8 @@
 				"uniques": [
 					"[+10]% growth [in all cities]",
 					"[+2 Food] [in all cities]",
-					"Provides a [Walls] in your first [4] cities for free"
+					"Provides a [Walls] in your first [4] cities for free",
+					"Provides a [Defensive Emplacements] in your first [4] cities for free"
 				]
 			}
 		]
@@ -100,7 +101,7 @@
 					"[+5 Happiness] from every [Congress]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Courier Service",
@@ -132,7 +133,7 @@
 				],
 				"requires": ["Representation", "Courier Service"],
 				"row": 2,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Expansionism Complete",
@@ -162,7 +163,8 @@
 			{
 				"name": "Discipline",
 				"uniques": [
-					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+					"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>",
+					"Free [Great General] appears"
 				],
 				"row": 1,
 				"column": 1
@@ -174,7 +176,7 @@
 					"Earn [25]% of killed [Military] unit's [Strength] as [Culture]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Autocracy",
@@ -183,7 +185,7 @@
 					"Double quantity of [Slaves] produced"
 				],
 				"row": 1,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Military Tradition",
@@ -320,7 +322,7 @@
 					"[+1 Happiness, -1 Faith] from every [Public School]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Equipment Upgrades",
@@ -330,7 +332,7 @@
 					"[+10]% [Science] from every [Armory]"
 				],
 				"row": 1,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Sample Analysis",
@@ -350,7 +352,7 @@
 				],
 				"requires": ["Skepticism"],
 				"row": 2,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Rationalism Complete",
@@ -385,7 +387,7 @@
 					"[+10]% growth [in all cities]"
 				],
 				"row": 1,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Protected Speech",
@@ -395,7 +397,7 @@
 					"[+10]% growth [in all cities]"
 				],
 				"row": 1,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Public Good",
@@ -417,7 +419,7 @@
 				],
 				"requires": ["Civil Society", "Protected Speech"],
 				"row": 2,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Voting Rights",
@@ -427,7 +429,7 @@
 				],
 				"requires": ["Protected Speech"],
 				"row": 2,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Constitution Complete",
@@ -574,7 +576,7 @@
 				],
 				"requires": ["Venture Capital"],
 				"row": 2,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Corporate Personhood",
@@ -583,9 +585,9 @@
 					"[+1 Gold] from every [Strategic resource]",
 					"[+2 Gold] from every [Factory]"
 				],
-				"requires": ["Venture Capital", "Privatization"],
+				"requires": ["Privatization"],
 				"row": 3,
-				"column": 3
+				"column": 2
 			},
 			{
 				"name": "Monopoly Complete",
@@ -669,6 +671,98 @@
 				"uniques": [
 					"[+2 Food, +2 Production, +1 Gold] [in all cities]",
 					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Singularity",
+		"era": "New Future era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 20
+		},
+		"uniques": [
+			"[100]% Golden Age length",
+			"[20]% of excess happiness converted to [Faith]",
+			"Only available <after adopting [Adaptation Complete]>",
+			"Only available <after adopting [Expansionism Complete]>",
+			"Only available <after adopting [Sovereignty Complete]>",
+			"Only available <if [AI Project] is constructed>"
+		],
+		"policies": [
+			{
+				"name": "Automation",
+				"uniques": [
+					"[-25]% tile improvement construction time",
+					"[+2 Production, +1 Science] [in all cities]",
+					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Logistics",
+				"uniques": [
+					"[+1] Movement <for [All] units>",
+					"[+5] HP when healing <for [All] units>",
+					"[+10]% Strength <for [All] units> <when defending>",
+					"[Great General] is earned [50]% faster"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Cybernetics",
+				"uniques": [
+					"[Faith] cost of purchasing items in cities [-20]%",
+					"[Gold] cost of purchasing items in cities [-20]%",
+					"[10]% Production towards any buildings that already exist in the Capital"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Remediation",
+				"requires": ["Automation","Logistics"],
+				"uniques": [
+					"[+2 Food] [in all cities]",
+					"[+10]% Production when constructing [Terraformer Part] units [in all cities]",
+					"[+1 Gold, +1 Happiness] per [10] population [in all cities]"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Statecraft",
+				"requires": ["Cybernetics","Logistics"],
+				"uniques": [
+					"Resting point for Influence with City-States is increased by [20]",
+					"[-25]% City-State Influence degradation"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Enlightenment",
+				"requires": ["Remediation", "Statecraft"],
+				"uniques": [
+					"[+1 Faith, +1 Science, +1 Culture] from all [Faith] buildings",
+					"[+1 Faith, +1 Science, +1 Culture] from all [Science] buildings"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Singularity Complete",
+				"uniques": [
+					"Free Great Person",
+					"Free Technology",
+					"Influence of all other civilizations with all city-states degrades [33]% faster",
+					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
 				]
 			}
 		]

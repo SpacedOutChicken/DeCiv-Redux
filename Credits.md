@@ -36,10 +36,12 @@ Buildings:
 * Salvage Space Station: [space station](https://thenounproject.com/icon/space-station-3572432/) by Hey Rabbit, TH
 * Search Shelters: [Shelter](https://thenounproject.com/icon/shelter-934966/) by Manuel Dixken, DE
 * Seastead: [Oil Platform](https://thenounproject.com/term/oil-platform/175820/) by Creative Stall, PK
+* Smart Grid: [power line](https://thenounproject.com/icon/power-line-1832965/) by Pause08, TH
 * Software Lab: [Software](https://thenounproject.com/icon/software-2882603/) by Aficons, ID
 * The Last Paradise: [Bird of Paradise](https://thenounproject.com/icon/bird-of-paradise-3890707/) by Kevin, US
 * Uranium Centrifuge: [centrifuge](https://thenounproject.com/icon/centrifuge-3771162/) by Carl Holderness, GB
 * Urine Recycler: [urine](https://thenounproject.com/term/urine/3650621/) by Llisole 
+* Virtual Tabernacle: [virtual space](https://thenounproject.com/icon/virtual-space-4718206/) by Rolas Design, ID
 
 Policies:
 * Entrepreneurship: [Entrepreneur](https://thenounproject.com/term/entrepreneur/2338644/) by Kiran Shastry, IN

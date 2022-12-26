@@ -805,7 +805,7 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of Terraformer parts",
+			"Enables construction of [Terraformer Part] units",
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
 		],
@@ -1026,17 +1026,18 @@
 		"name": "AI Project",
 		"cost": 2000,
 		"science": 5,
-		"isWonder": true,
+		"isNationalWonder": true,
 		"uniques": [
 			"[+15]% Strength <for [Automated] units>",
 			"Free [Great Scientist] appears",
 			"Empire enters golden age",
 			"[+15]% Production when constructing [Terraformer Part] units [in this city]",
-			"Consumes [2] [Power]"
+			"Consumes [2] [Power]",
+			"Provides [2] [Encrypted Data]",
+			"Triggers a global alert upon completion"
 		],
 		"percentStatBonus": { "science": 50 },
 		"requiredTech": "Artificial Intelligence",
-		"quote": "Let there be light.",
 		"civilopediaText": [{ "text": "Let there be light." }]
 	},
 
@@ -1538,6 +1539,30 @@
 		]
 	},
 
+	{
+		"name": "Smart Grid",
+		"production": 1,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Can only be built [in all cities connected to capital]",
+			"Only available <after adopting [Singularity]>",
+			"Provides [2] [Power]"
+		]
+	},
+	{
+		"name": "Virtual Tabernacle",
+		"isNationalWonder": true,
+		"culture": 1,
+		"faith": 8,
+		"requiredTech": "Artificial Intelligence",
+		"uniques": [
+			"Can only be built [in holy cities]",
+			"Hidden when religion is disabled",
+			"Only available <after adopting [Singularity]>",
+			"Gain a free [Founder] belief"
+		]
+	},
+
 	// Food buildings
 	{
 		"name": "Food Store",
@@ -1783,7 +1808,8 @@
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>",
-			"[+1] population [in this city]"
+			"[+1] population [in this city]",
+			"Unsellable"
 		],
 		"hurryCostModifier": 40
 	},
@@ -3097,7 +3123,8 @@
 			"Consumes [1] [Slaves]",
 			"[+1] population [in this city]",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"Only available <with [Slaves]>"
+			"Only available <with [Slaves]>",
+			"Unsellable"
 		],
 		"requiredTech": "Construction"
 	},
@@ -3106,7 +3133,6 @@
 		"food": -1,
 		"production": 2,
 		"specialistSlots": { "Engineer": 1 },
-		// "requiredBuilding": "Workshop",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredNearbyImprovedResources": ["Oil"],
@@ -3115,7 +3141,6 @@
 	},
 	{
 		"name": "Plastics Reprocessor",
-		// "production": 4,
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": { "Engineer": 1 },
 		"maintenance": 1,
@@ -3199,7 +3224,7 @@
 		"name": "Arcology Project",
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of Arcologies",
+			"Enables construction of [Arcology Dome] buildings",
 			"Empire enters golden age",
 			"Gain a free [Arcology Dome] [in this city]",
 			"[+10]% Production when constructing [Utopia Project] wonders [in all cities]"
@@ -3237,7 +3262,8 @@
 		"uniques": [
 			"[+1 Food, +1 Production] from [Forest] tiles [in this city]",
 			"[+1 Food, +1 Production] from [Jungle] tiles [in this city]",
-			"[+2 Food, +2 Production] from [Borough] tiles [in this city]"
+			"[+2 Food, +2 Production] from [Borough] tiles [in this city]",
+			"Consumes [1] [Power]"
 		]
 	},
 	// Coastal buildings
