@@ -7,7 +7,6 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				//Survivalism  - salvage, weapons, make farm
 				"name": "The Wheel",
 				"row": 5,
 				"quote": "",
@@ -57,7 +56,6 @@
 		]
 	},
 	{
-		// level 2 -
 		"columnNumber": 2,
 		"era": "Decivilized era",
 		"techCost": 120,
@@ -189,7 +187,7 @@
 				"quote": "If the brain were so simple we could understand it, we would be so simple we couldn't."
 			},
 			{
-				"name": "Steam Power", //steam power
+				"name": "Steam Power",
 				"row": 7,
 				"prerequisites": ["Steel"],
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
@@ -379,7 +377,7 @@
 				"name": "Networking",
 				"row": 4,
 				"prerequisites": ["Computers"],
-				"quote": "In a real sense, the empires of old collapsed under their own weight; vast hierarchies of bureacrats, functionaries with no function, leaders without legitimacy. They could not adapt, not even to save themselves. From their ashes, we are building a new State; lean, strong, and vital." //
+				"quote": "In a real sense, the empires of old collapsed under their own weight; vast hierarchies of bureacrats, functionaries with no function, leaders without legitimacy. They could not adapt, not even to save themselves. From their ashes, we are building a new State; lean, strong, and vital."
 			},
 			{
 				"name": "Avionics",
@@ -458,6 +456,7 @@
 				"name": "Satellites",
 				"row": 7,
 				"prerequisites": ["Rocketry"],
+				"uniques": ["[+4] Range <for [Missile] units>"],
 				"quote": "And for the first time, I opened my eyes. And saw the entire world before me."
 			}
 		]
@@ -574,7 +573,6 @@
 				"name": "Globalization",
 				"row": 10,
 				"prerequisites": ["Incentivization"],
-				"uniques": ["Unlocks the final Diplomatic wonder if you have constructed all Diplomatic Transmissions"],
 				"quote": "'All truth passes through three stages. First, it is ridiculed. Second, it is violently opposed. Third, it is accepted as being self-evident.'"
 			}
 		]
