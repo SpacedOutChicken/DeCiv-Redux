@@ -176,9 +176,21 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Cannot be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "H"
+	},
+	{
+		"name": "Modular island",
+		"techRequired": "Computers",
+		"production": 1,
+		"food": 2,
+		"uniques": [
+			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
 	},
 
 	// Resource-specific
@@ -189,7 +201,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
-			"[+1 Science] <after discovering [Computers]>",
+			"Obsolete with [Computers]",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -201,6 +213,7 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"Obsolete with [Computers]",
 			"[+1 Production] <after discovering [Manufacturing]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"

@@ -261,8 +261,10 @@
 		"Desert+Hill+Jungle+Salvage site+Weapons": ["Desert", "Hill", "DesertJungle", "Salvage site+Weapons"],
 		"Coast+Plastics": ["Coast", "Marine Plastics"],
 		"Coast+Plastics+Salvage site": ["Coast", "Marine Plastics", "Salvage site"],
+		"Coast+Plastics+Modular island": ["Coast", "Marine Plastics", "Modular island"],
 		"Ocean+Plastics": ["Ocean", "Marine Plastics"],
 		"Ocean+Plastics+Salvage site": ["Ocean", "Marine Plastics", "Salvage site"],
+		"Ocean+Plastics+Modular island": ["Ocean", "Marine Plastics", "Modular island"],
 		"Coast+Sunken Ruins+Research site+Artifacts": ["Coast+Sunken Ruins", "Research site+Artifacts"],
 		//Research site
 		"Wasteland+Jungle+Research site+Artifacts": ["Wasteland", "Jungle", "Research site+Artifacts"],
