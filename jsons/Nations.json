@@ -197,7 +197,8 @@
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Starts with [Monopoly] adopted"
+			"Starts with [Monopoly] adopted",
+			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
 		],
 		"cities": [
 			"Ark One",
@@ -257,7 +258,8 @@
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Starts with [Rationalism] adopted"
+			"Starts with [Rationalism] adopted",
+			"[100]% Production when constructing [Electrostatic Generator] buildings [in all cities] <after adopting [Rationalism Complete]>"
 		],
 		"cities": [
 			"Atlas Canyon",
@@ -632,7 +634,8 @@
 			"Starts with [Theocracy] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"[+10]% [Culture] from every [Coal Plant]",
-			"[-1 Science] [in all cities] <before discovering [Writing]>"
+			"[-1 Science] [in all cities] <before discovering [Writing]>",
+			"[100]% Production when constructing [Grand Temple of Ignis] wonders [in all cities] <after adopting [Theocracy Complete]>"
 		],
 		"cities": [
 			"Gastown",

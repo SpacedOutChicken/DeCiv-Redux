@@ -188,6 +188,7 @@
 		"food": 2,
 		"uniques": [
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
+			"Can only be built to improve a resource",
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
@@ -273,8 +274,8 @@
 	},
 	{
 		"name": "Fishing Boats",
-		"turnsToBuild": 7,
 		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
 		"uniques": [
 			"[+1 Food] <after discovering [Ocean Remediation]>",
 			"Can only be built to improve a resource",
@@ -283,6 +284,23 @@
 	},
 
 	// Military improvement
+	{
+		"name": "Trench",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost"
+		],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "D"
+	},
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": [
@@ -310,7 +328,7 @@
 		"techRequired": "Construction",
 		"uniques": [
 			"Can be built outside your borders",
-			"Costs [1] gold per turn when in your territory"
+			"Costs [1] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
 	},
@@ -321,7 +339,7 @@
 		"techRequired": "Railroads",
 		"uniques": [
 			"Can be built outside your borders",
-			"Costs [2] gold per turn when in your territory"
+			"Costs [2] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
 	},
@@ -407,6 +425,7 @@
 			"[+1 Science] for each adjacent [Forest]",
 			"[+1 Science] for each adjacent [Jungle]",
 			"[+1 Food] for each adjacent [Farm]",
+			"[+1 Food] for each adjacent [Borough]",
 			"[+1 Gold] <after discovering [Currency]>",
 			"[+1 Culture] <after discovering [Civil Service]>",
 			"Removes removable features when built",

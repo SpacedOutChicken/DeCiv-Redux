@@ -189,7 +189,7 @@
 			"Consumes [1] [Power]",
 			"Only available <in cities with a [Active Denial System]>"
 		]
-	}
+	},
 
 	// Low Tech
 
@@ -372,6 +372,7 @@
 			"Enslaved",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
@@ -416,6 +417,7 @@
 			"Enslaved",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
@@ -467,7 +469,7 @@
 	//// Mounted
 	{
 		"name": "Horseman",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 20,
 		"cost": 70,
@@ -476,6 +478,7 @@
 		"upgradesTo": "Hussar",
 		"uniques": [
 			"Low Tech",
+			"Mounted",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"No defensive terrain bonus",
 			"Can move after attacking",
@@ -489,7 +492,7 @@
 		"name": "Clan Horseman",
 		"uniqueTo": "Deadrock Clan",
 		"replaces": "Horseman",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 20,
 		"cost": 70,
@@ -498,6 +501,7 @@
 		"upgradesTo": "Hussar",
 		"uniques": [
 			"Low Tech",
+			"Mounted",
 			"Clansman",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities> <when attacking>",
@@ -671,17 +675,19 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"[25]% tile improvement construction time",
+			"[-25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]"
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "machinegun"
 	},
 	{
 		"name": "Forward Observer",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 20,
 		"interceptRange": 1,
@@ -710,9 +716,10 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"[25]% tile improvement construction time",
+			"[-25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
 		],
@@ -843,11 +850,13 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"[25]% tile improvement construction time",
+			"[-25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
-			"Consumes [1] [Slaves]"
+			"Consumes [1] [Slaves]",
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Gas Mask"],
 		"attackSound": "machinegun"
@@ -863,6 +872,8 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
+			"Never appears as a Barbarian unit",
+			"May Paradrop up to [4] tiles from inside friendly territory",
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Weapons]"
 		],
@@ -887,9 +898,10 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"[25]% tile improvement construction time",
+			"[-25]% tile improvement construction time",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
 		],
@@ -972,6 +984,7 @@
 			"Enslaved",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
 		],
@@ -1105,6 +1118,7 @@
 		"uniques": [
 			"Personnel",
 			"Only available <if [Automated Factory] is constructed>",
+			"May Paradrop up to [4] tiles from inside friendly territory",
 			"Consumes [2] [Weapons]",
 			"Never appears as a Barbarian unit"
 		],
@@ -1121,7 +1135,7 @@
 	//// Mounted
 	{
 		"name": "Hussar",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
@@ -1131,6 +1145,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities> <when attacking>",
@@ -1142,7 +1157,7 @@
 	},
 	{
 		"name": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
@@ -1151,6 +1166,7 @@
 		"upgradesTo": "Tank",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities> <when attacking>",
@@ -2787,7 +2803,7 @@
 	// Barbarians
 	{
 		"name": "Biker",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"uniqueTo": "Barbarians",
 		"replaces": "Scout",
 		"movement": 5,
@@ -2799,6 +2815,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities>",
 			"No defensive terrain bonus",
@@ -3012,7 +3029,7 @@
 		"name": "Outlaw",
 		"uniqueTo": "Barbarians",
 		"replaces": "Hussar",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
@@ -3022,6 +3039,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities> <when attacking>"
@@ -3041,7 +3059,7 @@
 		"name": "Charro",
 		"uniqueTo": "Barbarians",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
@@ -3050,6 +3068,7 @@
 		"upgradesTo": "Tank",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities> <when attacking>"
@@ -3325,7 +3344,7 @@
 		"name": "Arroyo Cavalry",
 		"uniqueTo": "Arroyo",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
@@ -3333,6 +3352,7 @@
 		"requiredTech": "Rifling",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities>",
@@ -3403,7 +3423,7 @@
 		"name": "Ghost Cavalry",
 		"uniqueTo": "Ghost Mountain",
 		"replaces": "Cavalry",
-		"unitType": "Mounted",
+		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
 		"interceptRange": 1,
@@ -3411,6 +3431,7 @@
 		"requiredTech": "Rifling",
 		"uniques": [
 			"Personnel",
+			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities>",

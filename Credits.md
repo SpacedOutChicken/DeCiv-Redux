@@ -8,9 +8,10 @@ Lots of art, including unit icons and Natural (Ancient) Wonder pixel art, believ
 Lots and lots of pixel art, including Rubble, Ruins, tile improvements, and unit sprites, by [GeneralWadaling](https://github.com/GeneralWadaling), AKA The Bucketeer<br>
 Base terrains by [AdityaMH](https://github.com/AdityaMH)<br>
 May contain art by [LynxRo](https://github.com/lynxro)<br>
+Borough and Hexlock art by [Sullien](https://github.com/Sullien)<br>
 Some minor edits made by me
 
-Space Station Wreckage, Quadcopter Drone, and Artificial Glacier pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
+Space Station Wreckage, Quadcopter Drone, Modular island, and Artificial Glacier pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
 
 
 ## From the Noun Project
@@ -23,6 +24,7 @@ Buildings:
 * Bunker: [Bunker](https://thenounproject.com/icon/bunker-1189654/) by Salaidinovich, TR
 * Clan Hideout: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 * Cryo Sanctum: [Cryogenic Vault](https://thenounproject.com/icon/cryogenic-vault-115036/) by Brandon Gamm, US
+* Electrostatic Generator: [generator](https://thenounproject.com/icon/generator-4308223/) by WiStudio, TH
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
 * Greywater Treatment Plant: [Water Filter](https://thenounproject.com/icon/water-filter-1929073/) by Vectors Market
 * Listening Post: [peeping tom](https://thenounproject.com/term/peeping-tom/38344/) by Luis Prado, US
@@ -76,6 +78,9 @@ Units:
 * Stasis Cruiser: [warship](https://thenounproject.com/icon/warship-3863470/) by Andrejs Kirma, LV
 * Stealth Fighter: [F-22](https://thenounproject.com/icon/f-22-751638/) by RomanP, US
 * Wild Dog: [Dog](https://thenounproject.com/icon/dog-180819/) by Dennis Nicolai Andersen, DK
+
+Tile improvements:
+* Trench: [dent](https://thenounproject.com/icon/dent-3355848/) by Andrejs Kirma, LV
 
 Icons:
 * Faith icon: [Thought](https://thenounproject.com/term/thought/608383/) by Hea Poh Lin, MY 
