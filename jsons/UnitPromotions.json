@@ -26,7 +26,8 @@
 			"Submarine",
 			"Aircraft Carrier",
 			"Fighter",
-			"Bomber"
+			"Bomber",
+			"Mounted"
 		],
 		"row": 0,
         "column": 0
@@ -74,14 +75,14 @@
 	{
 		"name": "Shock",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Scrapper", "Armor"],
+		"unitTypes": ["Scrapper", "Armor", "Mounted"],
 		"column": 1,
         "row": 4
 	},
 	{
 		"name": "Loose Formation",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Scrapper"],
+		"unitTypes": ["Scrapper", "Mounted"],
 		"column": 1,
         "row": 5
 	},
@@ -103,7 +104,7 @@
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
 			"[+10]% Strength <vs cities>"
 		],
-		"unitTypes": ["Scrapper", "Shooter"],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
 		"column": 2,
         "row": 1
 	},
@@ -115,7 +116,7 @@
 			"[+30]% Strength <when fighting in [Jungle] tiles>",
 			"[+30]% Strength <vs cities>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 2,
         "row": 2
 	},
@@ -125,7 +126,7 @@
 			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
 			"Can move after attacking"
 		],
-		"unitTypes": ["Scrapper", "Shooter"],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
 		"column": 2,
         "row": 3
 	},
@@ -136,7 +137,7 @@
 			"[+30]% Strength <when fighting in [Hill] tiles>",
 			"[+10]% Strength <when attacking>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 2,
         "row": 4
 	},
@@ -327,7 +328,7 @@
 			"Urban Warfare II"
 		],
 		"uniques": ["Ignores terrain cost", "[25]% XP gained from combat"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 5,
 		"row": 1
 	},
@@ -335,7 +336,7 @@
 		"name": "Reconnaissance II",
 		"prerequisites": ["Reconnaissance I"],
 		"uniques": ["[+1] Movement", "No movement cost to pillage"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 5,
 		"row": 2
 	},
@@ -343,7 +344,7 @@
 		"name": "Reconnaissance III",
 		"prerequisites": ["Reconnaissance II"],
 		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 5,
 		"row": 3
 	},
@@ -363,7 +364,7 @@
 		"name": "Assault",
 		"prerequisites": ["Entrench", "Forage", "Loose Formation", "Shock"],
 		"uniques": ["[+10]% Strength <when attacking>"],
-		"unitTypes": ["Scrapper"],
+		"unitTypes": ["Scrapper", "Mounted"],
 		"column": 5,
 		"row": 5
 	},
@@ -374,7 +375,7 @@
 			"[+25]% Strength <vs [Wounded] units>",
 			"Heals [25] damage if it kills a unit"
 		],
-		"unitTypes": ["Scrapper"],
+		"unitTypes": ["Scrapper", "Mounted"],
 		"column": 5,
 		"row": 6
 	},
@@ -424,7 +425,7 @@
 			"Urban Warfare I"
 		],
 		"uniques": ["[+33]% Strength <vs [Armor] units>"],
-		"unitTypes": ["Scrapper", "Armor"],
+		"unitTypes": ["Scrapper", "Armor", "Mounted"],
 		"column": 6,
 		"row": 4
 	},
@@ -591,7 +592,8 @@
 			"Scout",
 			"Ranged Water",
 			"Melee Water",
-			"Helicopter"
+			"Helicopter",
+			"Mounted"
 		],
 		"column": 8,
 		"row": 1
@@ -609,7 +611,7 @@
 			"Sentry"
 		],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Scrapper", "Armor"],
+		"unitTypes": ["Scrapper", "Armor", "Mounted"],
 		"column": 8,
 		"row": 2
 	},
@@ -628,7 +630,7 @@
 			"Medic II"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 8,
 		"row": 3
 	},
@@ -656,7 +658,7 @@
 			"Eliminates combat penalty for attacking across a coast",
 			"Defense bonus when embarked"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 8,
 		"row": 5
 	},
@@ -666,7 +668,7 @@
 		"uniques": [
 			"May attack when embarked"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 8,
 		"row": 6
 	},
@@ -764,7 +766,7 @@
 			"[+5] HP when healing",
 			"All adjacent units heal [+5] HP when healing"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 10,
 		"row": 1
 	},
@@ -776,7 +778,7 @@
 			"All adjacent units heal [+5] HP when healing",
 			"[+5] HP when healing <in [Foreign Land] tiles>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 10,
 		"row": 2
 	},
