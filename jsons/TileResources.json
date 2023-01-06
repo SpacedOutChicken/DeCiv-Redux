@@ -478,6 +478,12 @@
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 	{
+		"name": "Stimulants",
+		"resourceType": "Luxury",
+		"production": 1,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
 		"name": "Cattle",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Wasteland"],

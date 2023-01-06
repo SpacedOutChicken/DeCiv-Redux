@@ -25,15 +25,19 @@ Buildings:
 * Clan Hideout: [Bunker](https://thenounproject.com/icon/bunker-2972283/) by IcoLabs, BR
 * Cryo Sanctum: [Cryogenic Vault](https://thenounproject.com/icon/cryogenic-vault-115036/) by Brandon Gamm, US
 * Electrostatic Generator: [generator](https://thenounproject.com/icon/generator-4308223/) by WiStudio, TH
+* Explore Underwater City: [sea level rise](https://thenounproject.com/icon/sea-level-rise-200223/) by Luis Prado, US
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
 * Greywater Treatment Plant: [Water Filter](https://thenounproject.com/icon/water-filter-1929073/) by Vectors Market
 * Listening Post: [peeping tom](https://thenounproject.com/term/peeping-tom/38344/) by Luis Prado, US
+* Mining Operation: [canyon](https://thenounproject.com/icon/canyon-3005193/) by iconfield, ID
 * Moonshinery: [Moonshine](https://thenounproject.com/icon/moonshine-1923/) by Andrew Nielsen, AU
 * Open the Vault: [Cave](https://thenounproject.com/icon/cave-1842205/) by Bakunetsu Kaito
+* Pit of Sacrifice: [Mass Grave](https://thenounproject.com/icon/mass-grave-75126/) by Dan Hetteix, US
 * Publishing House: [Bookstore](https://thenounproject.com/icon/bookstore-3658621/) by AmruID, ID
 * Rainwater Purifier [Filter Water](https://thenounproject.com/icon/filter-water-3923269/) by denimao, ID
 * Reclamation Vats: [compostable](https://thenounproject.com/icon/compostable-107010/) by Luca Reghellin, IT
 * Refugee Center: [Refugee Camp](https://thenounproject.com/icon/refugee-camp-2120771/) by OCHA Visual, US
+* Research Underwater City: [Flood](https://thenounproject.com/icon/flood-159584/) by seuk eumeu, FR
 * Resource Management Server: [servers](https://thenounproject.com/icon/servers-4668166/) by Jack Bloomfield, GB
 * Salvage Space Station: [space station](https://thenounproject.com/icon/space-station-3572432/) by Hey Rabbit, TH
 * Search Shelters: [Shelter](https://thenounproject.com/icon/shelter-934966/) by Manuel Dixken, DE
@@ -57,6 +61,7 @@ Resources:
 * Hogs: [Boar](https://thenounproject.com/icon/boar-931007/) by parkjisun
 * Jellyfish: [Jellyfish](https://thenounproject.com/term/jellyfish/53744/) by Eliricon, FI
 * Plankton: [Plankton](https://thenounproject.com/icon/plankton-3926460/) by Lars Meiertoberens, DE
+* Stimulants: [vaccine](https://thenounproject.com/icon/vaccine-5392925/) by Icon Market, PK
 
 Technologies:
 * Geo Engineering: [geological](https://thenounproject.com/term/geological/2631469/) by Nithinan Tatah, TH

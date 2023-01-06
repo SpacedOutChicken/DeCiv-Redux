@@ -15,8 +15,14 @@
     },
     {
         "name": "Farming",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "friendBonusUniques": [
+            "[+2 Food] [in capital] <before the [Industrial era]>",
+            "[+4 Food] [in capital] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Food] [in capital] <before the [Industrial era]>", "[+1 Food] [in all cities] <before the [Industrial era]>",
+            "[+4 Food] [in capital] <starting from the [Industrial era]>", "[+2 Food] [in all cities] <starting from the [Industrial era]>"
+        ],
         "color": [56, 255, 112]
     },
     {
@@ -56,20 +62,26 @@
         "name": "Research",
         "friendBonusUniques":  [
             "[+5 Science] <before the [Neofeudal era]>",
-            "[+10 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-            "[+21 Science] <starting from the [Industrial era]>"
+            "[+15 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+45 Science] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques":  [
             "[+10 Science] <before the [Neofeudal era]>",
-            "[+20 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
-            "[+42 Science] <starting from the [Industrial era]>"
+            "[+30 Science] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+            "[+60 Science] <starting from the [Industrial era]>"
         ],
         "color": [55, 55, 255]
     },
     {
         "name": "Labor",
-        "friendBonusUniques": ["[+2 Production] [in capital]"],
-        "allyBonusUniques": ["[+2 Production] [in capital]", "[+1 Production] [in all cities]"],
+        "friendBonusUniques": [
+            "[+3 Production] [in capital] <before the [Industrial era]>",
+            "[+6 Production] [in capital] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+3 Production] [in capital] <before the [Industrial era]>", "[+2 Production] [in all cities] <before the [Industrial era]>",
+            "[+6 Production] [in capital] <starting from the [Industrial era]>", "[+4 Production] [in all cities] <starting from the [Industrial era]>"
+        ],
         "color": [220, 100, 15]
     }
 ]
