@@ -147,6 +147,7 @@
 		"isWonder": true,
 		"uniqueTo": "Crimson Legion",
 		"cityHealth": 20,
+		"culture": 1,
 		"cost": 1,
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in all cities]",
@@ -189,6 +190,7 @@
 		"isWonder": true,
 		"uniqueTo": "Commonwealth",
 		"cost": 1,
+		"culture": 1,
 		"uniques": [
 			"[25]% Great Person generation [in this city]",
 			"City-State territory always counts as friendly territory",
@@ -208,6 +210,7 @@
 		"isWonder": true,
 		"uniqueTo": "Children of Rust",
 		"cost": 1,
+		"production": 1,
 		"cityStrength": 1,
 		"cityHealth": 10,
 		"uniques": [
@@ -230,6 +233,7 @@
 		"isWonder": true,
 		"uniqueTo": "The Mariners",
 		"cost": 1,
+		"culture": 1,
 		"uniques": [
 			"Can only be built [in capital]",
 			"[2] free [Spearman] units appear",
