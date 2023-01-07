@@ -70,6 +70,7 @@
 		"turnsToBuild": 5,
 		"uniques": [
 			"[+1 Gold] <after discovering [Plastics]>",
+			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "U"
@@ -155,12 +156,13 @@
 		"name": "Grassland",
 		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert"],
 		"turnsToBuild": 10,
-		"food": 1,
+		"food": 2,
 		"techRequired": "Land Remediation",
 		"uniques": [
 		    "Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Food, +1 Happiness] for each adjacent [Tree plantation]",
 			"[+3 Culture] for each adjacent [Nature preserve]",
+			"[+1 Gold] for each adjacent [Artificial oasis]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "G"

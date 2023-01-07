@@ -140,7 +140,8 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Production, +1 Faith] from every [Mine]",
-			"[+1 Production, +1 Faith] from every [Manufactory]"
+			"[+1 Production, +1 Faith] from every [Manufactory]",
+			"[+1 Production, +1 Faith] from every [Mining Pit]"
 		]
 	},
 	{

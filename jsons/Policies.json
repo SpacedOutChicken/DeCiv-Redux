@@ -382,7 +382,7 @@
 			{
 				"name": "Civil Society",
 				"uniques": [
-					"Specialists only produce [50]% of normal unhappiness",
+					"[-50]% Unhappiness from [Specialists] [in all cities]",
 					"[+1 Happiness] from every [Town Hall]",
 					"[+10]% growth [in all cities]"
 				],

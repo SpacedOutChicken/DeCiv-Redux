@@ -9,9 +9,9 @@ Lots and lots of pixel art, including Rubble, Ruins, tile improvements, and unit
 Base terrains by [AdityaMH](https://github.com/AdityaMH)<br>
 May contain art by [LynxRo](https://github.com/lynxro)<br>
 Borough and Hexlock art by [Sullien](https://github.com/Sullien)<br>
+Mining Pit art by ekids789789#4813 on Discord
+Space Station Wreckage, Quadcopter Drone, Modular island, and Artificial glacier pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
 Some minor edits made by me
-
-Space Station Wreckage, Quadcopter Drone, Modular island, and Artificial Glacier pixel art by [Indonesian Gentleman](https://www.instagram.com/indonesian_gentleman_portfolio/), AKA [greensniperhat](https://www.fiverr.com/greensniperhat/draw-science-fiction-and-fantasy-stuff)
 
 
 ## From the Noun Project
