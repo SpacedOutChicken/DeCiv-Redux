@@ -54,6 +54,7 @@ Policies:
 
 Religions:
 * Objectivism: based on [Spray](https://thenounproject.com/icon/spray-2975166/) by Grafix Point, PK
+* Posadism: [ufo](https://thenounproject.com/icon/ufo-1903713/) by merkavah, PL
 
 Resources:
 * Furs: [Rat](https://thenounproject.com/icon/rat-2193355/) by designer468, ID
