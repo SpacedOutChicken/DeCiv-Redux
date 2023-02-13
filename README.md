@@ -1,7 +1,7 @@
 # DeCiv-Redux
 
-DeCiv Redux 6.5<br>
-26 December 2022
+DeCiv Redux 7.0<br>
+12 February 2023
 
 [Join our Discord server!](https://discord.gg/SsWZ3w8UFJ)<br>
 [Visit our wiki!](https://github.com/SpacedOutChicken/DeCiv-Redux/wiki)
