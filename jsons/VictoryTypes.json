@@ -3,7 +3,8 @@
         "name": "Scientific",
         "victoryScreenHeader": "Complete all the terraformer parts\nto win!",
         "milestones": [
-            "Build [Biosphere Project]", "Add all [terraformer parts] in capital"
+            "Build [Biosphere Project]",
+            "Add all [terraformer parts] in capital"
         ],
         "requiredSpaceshipParts": [
             "Solar Shade", "Terraforming Lab", "Ocean Scrubber", "Atmosphere Processor"
@@ -13,8 +14,8 @@
     },
     {
         "name": "Cultural",
-        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
-        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
+        "victoryScreenHeader": "Complete 6 policy branches and\nbuild the Utopia Project to win!",
+        "milestones": ["Complete [6] Policy branches", "Build [Utopia Project]"],
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },

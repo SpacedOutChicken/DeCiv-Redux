@@ -118,7 +118,8 @@
 				"uniques": [
 					"Double quantity of [Coal] produced",
 					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced"
+					"Double quantity of [Aluminum] produced",
+					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
 				],
 				"requires": ["Restorers"],
 				"row": 2,
@@ -173,7 +174,7 @@
 				"name": "Doctrine",
 				"uniques": [
 					"[+15]% Production when constructing [Land] units [in all cities]",
-					"Earn [25]% of killed [Military] unit's [Strength] as [Culture]"
+					"Earn [50]% of killed [Military] unit's [Strength] as [Culture]"
 				],
 				"row": 1,
 				"column": 3
@@ -201,7 +202,7 @@
 				"name": "Triumph",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"Earn [50]% of killed [Military] unit's [Strength] as [Culture]"
+					"When defeating a [Military] unit, earn [25] Gold and recruit it <with [25]% chance>"
 				],
 				"requires": ["Doctrine"],
 				"row": 2,
@@ -272,7 +273,8 @@
 				"name": "Holy Scriptures",
 				"uniques": [
 					"[-10]% Culture cost of adopting new Policies",
-					"[+1 Faith, -1 Science] from every [University]"
+					"[+10]% [Faith] from every [University]",
+					"[-10]% [Science] from every [University]"
 				],
 				"requires": ["Mandate Of Heaven", "God Emperor"],
 				"row": 3,
@@ -283,7 +285,8 @@
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [-20]%",
 					"[+2 Gold, +2 Culture, +1 Faith] from every [Seminary]",
-					"[+2 Gold, +2 Culture, +1 Faith] from every [Oracle]"
+					"[+2 Gold, +2 Culture, +1 Faith] from every [Oracle]",
+					"Gain a free [Enhancer] belief"
 				]
 			}
 		]
@@ -425,7 +428,8 @@
 				"name": "Voting Rights",
 				"uniques": [
 					"[50]% of excess happiness converted to [Culture]",
-					"[-1 Happiness] from every [Work Camp]"
+					"[-1 Happiness] from every [Work Camp]",
+					"[-25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <when below [0] Happiness>"
 				],
 				"requires": ["Protected Speech"],
 				"row": 2,
@@ -480,8 +484,10 @@
 				"name": "Police State",
 				"uniques": [
 					"[+1 Happiness] from every [Town Hall]",
-					"[+3 Happiness] from every [Listening Post]",
-					"[+5 Happiness, -2 Food] from every [Prison Camp]"
+					"[+1 Happiness] from every [Listening Post]",
+					"[+3 Happiness, +3 Production] from every [Prison Camp]",
+					"[-3 Food] [in annexed cities]",
+					"[-3 Food] [in puppeted cities]"
 				],
 				"requires": ["Scorched Earth", "Militarism"],
 				"row": 2,
@@ -501,9 +507,9 @@
 			{
 				"name": "Spoils of War",
 				"uniques": [
-					"Quantity of strategic resources produced by the empire +[100]%",
-					"[-2 Food] from every [Listening Post]",
-					"[-4 Food, +3 Production] from every [Prison Camp]"
+					"Double quantity of [Weapons] produced",
+					"Earn [33]% of the damage done to [City] units as [Gold]",
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
 				],
 				"requires": ["Police State"],
 				"row": 3,
@@ -572,7 +578,8 @@
 				"uniques": [
 					"[Great Merchant] is earned [20]% faster",
 					"[+1 Science] from every [Market]",
-					"[+1 Science] from every [Factory]"
+					"[+1 Science] from every [Factory]",
+					"[+1 Science] from every [Water Storage]"
 				],
 				"requires": ["Venture Capital"],
 				"row": 2,
@@ -650,7 +657,8 @@
 				"requires": ["Nationalization"],
 				"uniques": [
 					"[-15]% maintenance cost for buildings [in all cities]",
-					"[+1 Production] from every specialist [in all cities]"
+					"[+1 Production] from every specialist [in all cities]",
+					"[+10]% [Production] from every [Congress]"
 				],
 				"row": 2,
 				"column": 3
@@ -661,6 +669,7 @@
 				"uniques": [
 					"[+2 Production] [in all cities]",
 					"[+1 Production] from every [Mine]",
+					"[+1 Production] from every [Borehole]",
 					"[+1 Production] from every [Manufactory]"
 				],
 				"row": 3,
@@ -676,8 +685,169 @@
 		]
 	},
 	{
-		"name": "Singularity",
-		"era": "New Future era",
+		"name": "Naturalism",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 30,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 0
+		},
+		"uniques": [
+			"[+1 Food, +1 Culture] [in all cities]",
+			"Only available <before adopting [Mechanization]>",
+			"Only available <before adopting [Bionics]>"
+		],
+		"policies": [
+			{
+				"name": "Emissions Standards",
+				"uniques": [
+					"[+10]% [Food] from every [Coal Plant]",
+					"[-15]% [Production] from every [Coal Plant]",
+					"[+1 Happiness] from every [Recycling Plant]",
+					"[+1 Happiness] from every [Carbon Capture]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Physiolatry",
+				"requires": ["Emissions Standards"],
+				"uniques": [
+					"[+1 Faith, +1 Food, -2 Science] from every [Greenhouse]",
+					"[+1 Faith, +1 Food, -2 Science] from every [Protected Area]",
+					"[+1 Faith, +1 Food, -2 Science] from every [Arcology Dome]"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Ecodefense",
+				"requires": ["Emissions Standards"],
+				"uniques": [
+					"[+10]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Harmony",
+				"requires": ["Physiolatry"],
+				"uniques": [
+					"[+1 Happiness, +1 Food, +1 Faith, +1 Culture, -3 Production] <in cities with at least [7] [Population]>",
+					"Resting point for Influence with City-States is increased by [15]",
+					"[-25]% City-State Influence degradation"
+				],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Conservation",
+				"requires": ["Physiolatry"],
+				"uniques": [
+					"[+1 Gold] from every [Farmer]",
+					"[+1 Gold] from [Fresh water] tiles [in all cities]",
+					"[+1 Gold] from every [Rainwater Purifier]"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Naturalism Complete",
+				"uniques": [
+					"Empire enters golden age",
+					"[50]% Golden Age length",
+					"May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Mechanization",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 30
+		},
+		"uniques": [
+			"[+1 Production, +1 Science, -1 Culture] [in all cities]",
+			"Only available <before adopting [Naturalism]>",
+			"Only available <before adopting [Bionics]>"
+		],
+		"policies": [
+			{
+				"name": "Urbanization",
+				"uniques": [
+					"[+1 Production, +1 Science] per [5] population [in all cities]",
+					"[+1 Production] from every [Borough]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Automation",
+				"uniques": [
+					"[-25]% tile improvement construction time",
+					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]",
+					"[+1 Science, +1 Production, -2 Food] from every [Factory]",
+					"[+1 Science, +1 Production, -2 Food] from every [Automated Factory]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Logistics",
+				"requires": ["Urbanization", "Automation"],
+				"uniques": [
+					"[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
+					"[+5] HP when healing <for [All] units>",
+					"[+1] Unit Supply per [2] population [in all cities]",
+					"[-25]% maintenance costs <for [All] units>"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Digitization",
+				"requires": ["Logistics"],
+				"uniques": [
+					"[+1 Happiness, +1 Culture, +1 Faith] from every [Data Center]",
+					"[+1 Happiness, +1 Culture, +1 Faith] from every [Decryption Center]",
+					"Double quantity of [Encrypted Data] produced"
+				],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Deregulation",
+				"requires": ["Logistics"],
+				"uniques": [
+					"[-2 Food] [in all cities]",
+					"[-15]% growth [in all cities]",
+					"[Gold] cost of purchasing items in cities [-20]%",
+					"[-33]% maintenance on road & railroads"
+				],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Mechanization Complete",
+				"uniques": [
+					"[-1] population [in all cities]",
+					"Quantity of strategic resources produced by the empire +[25]%",
+					"[+10]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
+					"[+10]% Production when constructing [All] units [in all cities] <while the empire is happy>"
+				]
+			}
+		]
+	},
+	{
+		"name": "Bionics",
+		"era": "Industrial era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -686,83 +856,67 @@
 			"Scientific": 20
 		},
 		"uniques": [
-			"[100]% Golden Age length",
-			"[20]% of excess happiness converted to [Faith]",
-			"Only available <after adopting [Adaptation Complete]>",
-			"Only available <after adopting [Expansionism Complete]>",
-			"Only available <after adopting [Sovereignty Complete]>",
-			"Only available <if [AI Project] is constructed>"
+			"[+2 Science] [in all cities]",
+			"Only available <before adopting [Naturalism]>",
+			"Only available <before adopting [Mechanization]>"
 		],
 		"policies": [
 			{
-				"name": "Automation",
+				"name": "Weather Engineering",
 				"uniques": [
-					"[-25]% tile improvement construction time",
-					"[+2 Production, +1 Science] [in all cities]",
-					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]"
+					"[+2 Gold] [in all cities]",
+					"[+10]% growth [in all cities] <during a Golden Age>"
 				],
 				"row": 1,
 				"column": 1
 			},
 			{
-				"name": "Logistics",
+				"name": "Mutagens",
 				"uniques": [
-					"[+1] Movement <for [All] units>",
-					"[+5] HP when healing <for [All] units>",
-					"[+10]% Strength <for [All] units> <when defending>",
-					"[Great General] is earned [50]% faster"
+					"[+1 Culture, +1 Food, +1 Science] from every [Hospital]",
+					"[+1 Culture, +1 Food, +1 Science] from every [Medical Lab]"
 				],
 				"row": 1,
 				"column": 3
 			},
 			{
-				"name": "Cybernetics",
+				"name": "Eugenics",
+				"requires": ["Mutagens"],
 				"uniques": [
-					"[Faith] cost of purchasing items in cities [-20]%",
-					"[Gold] cost of purchasing items in cities [-20]%",
-					"[10]% Production towards any buildings that already exist in the Capital"
-				],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Remediation",
-				"requires": ["Automation","Logistics"],
-				"uniques": [
-					"[+2 Food] [in all cities]",
-					"[+10]% Production when constructing [Terraformer Part] units [in all cities]",
-					"[+1 Gold, +1 Happiness] per [10] population [in all cities]"
+					"[+5]% Strength <for [Personnel] units>",
+					"[-25]% Unhappiness from [Specialists] [in all cities]",
+					"[+2 Faith] <in cities with at least [2] [Specialists]>"
 				],
 				"row": 2,
 				"column": 2
 			},
 			{
-				"name": "Statecraft",
-				"requires": ["Cybernetics","Logistics"],
+				"name": "Cybernetics",
+				"requires": ["Mutagens"],
 				"uniques": [
-					"Resting point for Influence with City-States is increased by [20]",
-					"[-25]% City-State Influence degradation"
+					"Damage is ignored when determining unit Strength <for [Personnel] units>",
+					"[+1 Production] per [10] population [in all cities]"
 				],
 				"row": 2,
 				"column": 4
 			},
 			{
-				"name": "Enlightenment",
-				"requires": ["Remediation", "Statecraft"],
+				"name": "Transhumanism",
+				"requires": ["Eugenics", "Cybernetics"],
 				"uniques": [
-					"[+1 Faith, +1 Science, +1 Culture] from all [Faith] buildings",
-					"[+1 Faith, +1 Science, +1 Culture] from all [Science] buildings"
+					"[+25]% Great Person generation [in all cities]",
+					"[Great General] is earned [25]% faster",
+					"[Faith] cost of purchasing items in cities [-10]%"
 				],
 				"row": 3,
 				"column": 3
 			},
 			{
-				"name": "Singularity Complete",
+				"name": "Bionics Complete",
 				"uniques": [
 					"Free Great Person",
-					"Free Technology",
-					"Influence of all other civilizations with all city-states degrades [33]% faster",
-					"Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]",
+					"[+15]% Production when constructing [Terraformer Part] units [in all cities]"
 				]
 			}
 		]

@@ -213,7 +213,6 @@
 		"Wasteland+Salvage site+Plastics": ["Wasteland", "Plastics", "Salvage site"],
 		"Wasteland+Forest+Salvage site+Plastics": ["Wasteland", "Plastics", "WastelandForest", "Salvage site"],
 		"Wasteland+Jungle+Salvage site+Plastics": ["Wasteland", "Plastics", "Jungle", "Salvage site"],
-		"Wasteland+Forest+Camp+Furs": ["Wasteland", "Furs", "Forest", "Camp"],
 		"Wasteland+Hill+Salvage site+Plastics": ["Wasteland", "Hill", "Plastics", "Salvage site"],
 		"Wasteland+Hill+Forest+Salvage site+Plastics": ["Wasteland", "Hill", "Plastics", "Forest", "Salvage site"],
 		"Wasteland+Hill+Jungle+Salvage site+Plastics": ["Wasteland", "Hill", "Plastics", "Jungle", "Salvage site"],
@@ -301,7 +300,7 @@
 		"Desert+Jungle+Encrypted Data+Hacking site": ["Desert", "DesertJungle", "Hacking site+Encrypted Data"],
 		"Desert+Hill+Jungle+Encrypted Data+Hacking site": ["Desert", "Hill", "DesertJungle", "Hacking site+Encrypted Data"],
 		//Furs
-		"Wasteland+Forest+Furs+Camp": ["Wasteland", "WastelandForest", "Camp+Furs"],
+		"Wasteland+Forest+Furs+Camp": ["Wasteland", "WastelandForest", "Furs+Camp"],
 		//Borough TO DO - Add Unique Versions of these
 		"Wasteland+Forest+Borough": ["Wasteland", "Borough"],
 		"Wasteland+Hill+Forest+Borough": ["Wasteland", "Hill", "Borough"],

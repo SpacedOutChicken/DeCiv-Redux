@@ -81,8 +81,11 @@
 	},
 	{
 		"name": "Loose Formation",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Scrapper", "Mounted"],
+		"uniques": [
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"May withdraw before melee ([25]%)"
+		],
+		"unitTypes": ["Scrapper", "Mounted", "Armor"],
 		"column": 1,
         "row": 5
 	},
@@ -343,7 +346,7 @@
 	{
 		"name": "Reconnaissance III",
 		"prerequisites": ["Reconnaissance II"],
-		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>"],
+		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>", "Ignores Zone of Control"],
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 5,
 		"row": 3
@@ -517,7 +520,8 @@
 		],
 		"uniques": [
 			"[+10]% Strength <when defending>",
-			"[+25]% Strength <vs [Air] units>"
+			"[+25]% Strength <vs [Air] units>",
+			"[25]% chance to intercept air attacks"
 		],
 		"unitTypes": ["Ranged Water", "Aircraft Carrier"],
 		"column": 7,
@@ -781,6 +785,32 @@
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 10,
 		"row": 2
+	},
+	{
+		"name": "Survivalism",
+		"prerequisites": ["Medic I", "Resupply", "Air Repair", "March", "Damage Control", "Convoy"],
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+			"[+25]% Strength <when defending>",
+			"[-50]% maintenance costs"
+		],
+		"unitTypes": [
+			"Scrapper",
+			"Scout",
+			"Siege",
+			"Helicopter",
+			"Shooter",
+			"Armor",
+			"Melee Water",
+			"Ranged Water",
+			"Submarine",
+			"Aircraft Carrier",
+			"Fighter",
+			"Bomber",
+			"Mounted"
+		],
+		"column": 10,
+		"row": 3
 	},
 
 	////////////////////
@@ -1090,7 +1120,7 @@
 		"uniques": [
 			"Promotion Nullifier",
 			"Negates the combat bonus effect of Enemy Promotions",
-			 "[-100]% XP gained from combat"
+			"[-100]% XP gained from combat"
 		],
 		"column": 6,
 		"row": 7
@@ -1099,12 +1129,7 @@
 		"name": "Portable Power Cell",
 		"uniques": [
 			"[+50] HP when healing <within [1] tiles of a [City center]>",
-			"[+50] HP when healing <within [1] tiles of a [Crystal Refinery]>",
-			"[+50] HP when healing <within [1] tiles of a [C1F3 Refinery]>",
-			"[+50] HP when healing <within [1] tiles of a [C2N14 Refinery]>",
-			"[+50] HP when healing <within [1] tiles of a [C8H17 Refinery]>",
-			"[+50] HP when healing <within [1] tiles of a [SbF5 Refinery]>",
-			"[+50] HP when healing <within [1] tiles of a [VX Refinery]>",
+			"[+50] HP when healing <within [1] tiles of a [Refinery]>",
 			"[+50] HP when healing <within [1] tiles of a [Solar collector]>",
 			"[+50] HP when healing <within [1] tiles of a [Wind farm]>"
 		],
@@ -1120,11 +1145,22 @@
 		"column": 6,
 		"row": 9
 	},
+	{
+		"name": "Radioactive",
+		"uniques": [
+			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
+			"Double movement in [Fallout]",
+			"Double movement in [Toxic Waste]"
+		],
+		"column": 6,
+		"row": 13
+	},
 	// 'ability' promotions
 
 	{
 		"name": "[Ranger] ability",
 		"uniques": [
+			"Great General",
 			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[50]% XP gained from combat",
@@ -1141,5 +1177,13 @@
 		],
 		"column": 6,
 		"row": 11
+	},
+	{
+		"name": "[Demolition Track] ability",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles <vs cities>"
+		],
+		"column": 6,
+		"row": 12
 	}
 ]

@@ -5,7 +5,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Badlands", "Swamp", "Desert"],
 		"food": 1,
-		"improvement": "Farm",
+		"improvedBy": ["Farm", "Grassland"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [27] tiles <in [Badlands] tiles>",
@@ -19,7 +19,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>",
@@ -32,7 +32,7 @@
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Badlands", "Tundra", "Wasteland"],
 		"food": 1,
 		"revealedBy": "Botany",
-		"improvement": "Farm",
+		"improvedBy": ["Farm", "Grassland"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
@@ -80,7 +80,7 @@
 			"Swamp"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Wasteland] tiles>",
@@ -103,7 +103,7 @@
 			"Swamp"
 		],
 		"food": 1,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [14] tiles <in [Jungle] tiles>",
@@ -149,7 +149,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Badlands"],
 		"food": 1,
-		"improvement": "Pasture",
+		"improvedBy": ["Pasture", "Bioculture"],
 		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [18] tiles <in [Featureless] [Badlands] tiles>",
@@ -256,7 +256,7 @@
 			"Fissure"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -283,7 +283,7 @@
 			"Fissure"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -313,7 +313,7 @@
 			"Fissure"
 		],
 		"production": 1,
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "food": -1, "production": 2 },
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",
@@ -488,7 +488,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Wasteland"],
 		"food": 1,
-		"improvement": "Pasture",
+		"improvedBy": ["Pasture", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [20] <in [Wasteland] Regions>",
@@ -501,7 +501,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands", "Hill"],
 		"food": 1,
-		"improvement": "Pasture",
+		"improvedBy": ["Pasture", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
@@ -515,7 +515,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra"],
 		"food": 1,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
@@ -527,7 +527,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra", "Wasteland", "Jungle", "Forest"],
 		"food": 1,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
@@ -542,7 +542,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Toxic Waste", "Jungle"],
 		"food": 1,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Jungle] Regions>",
@@ -556,7 +556,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
 		"food": 1,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "food": 2, "culture": 1, "science": 1 },
 		"uniques": [
 			"Generated with weight [25] <in [Tundra] Regions>",
@@ -573,7 +573,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands", "Hill", "Wasteland"],
 		"food": 1,
-		"improvement": "Camp",
+		"improvedBy": ["Camp", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
@@ -587,7 +587,7 @@
 		"name": "Salt",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill", "Badlands", "Desert", "Tundra"],
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated with weight [35] <in [Hill] Regions>",
@@ -621,7 +621,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
@@ -634,7 +634,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Fishing Boats", "Bioculture"],
 		"improvementStats": { "food": 1 },
 		"uniques": [
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>",
@@ -646,7 +646,7 @@
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Generated with weight [15] <in [Hill] Regions>",
@@ -658,7 +658,7 @@
 		"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"improvement": "Mine",
+		"improvedBy": ["Mine", "Borehole"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
 			"Generated with weight [30] <in [Hill] Regions>",

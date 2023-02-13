@@ -26,32 +26,32 @@
 				"row": 1,
 				"prerequisites": ["The Wheel"],
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "He who commands the sea has command of everything."
+				"quote": "'We have command of the sea, my friends, and with that, we have command of everything.' - Deacon Hopper"
 			},
 			{
 				"name": "Redomestication",
 				"row": 3,
 				"prerequisites": ["The Wheel"],
-				"quote": "Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth."
+				"quote": "'Honestly, we're better off using oxen instead of cars.' - Shep Dogskull, Commonwealth rancher"
 			},
 
 			{
 				"name": "Secrets of the Past",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
-				"quote": "And the apostates cried, abandon your works, lest all the world be swallowed by the deluge. And many indeed came to follow them. Fools they were to defy the Spark! For did He not promise to never again drown the land? And, in punishment for their hubris, He sent the great flood of fire; and the unbelievers were turned to dust."
+				"quote": "'And the apostates cried, abandon your works, lest all the world be swallowed by the deluge. And many indeed came to follow them. Fools they were to defy the Spark! For did He not promise to never again drown the land? And, in punishment for their hubris, He sent the great flood of fire; and the unbelievers were turned to dust.' - Nathaneal Getty, priest of Ignis"
 			},
 			{
 				"name": "Iron Working",
 				"row": 7,
 				"prerequisites": ["The Wheel"],
-				"quote": "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones."
+				"quote": "'I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.' - Apocryphal saying"
 			},
 			{
 				"name": "Construction",
 				"row": 9,
 				"prerequisites": ["The Wheel"],
-				"quote": "How happy are those whose walls already rise!"
+				"quote": "'In time, we shall make defenses that surpass even the great Aurelian Walls.' - Servius Tullius, Crimson Legion architect"
 			}
 		]
 	},
@@ -66,27 +66,27 @@
 				"name": "Writing",
 				"row": 5,
 				"prerequisites": ["Secrets of the Past"],
-				"quote": "And the things which shall be written out of the book shall be of great worth unto the children of men..."
+				"quote": "'And the things which shall be written out of the book shall be of great worth unto the children of men...' - Deseret Nation manuscript, undated"
 			},
 			{
 				"name": "Machinery",
 				"row": 7,
 				"prerequisites": ["Iron Working"],
 				"uniques": ["Improves movement speed on roads"],
-				"quote": "The press is the best instrument for enlightening the mind of man, and improving him as a rational, moral and social being."
+				"quote": "'Machines aren't naturally evil. It's humans who make them that way.' - Lucca Horii, child of Rust"
 			},
 			{
 				"name": "Mining",
 				"row": 9,
 				"prerequisites": ["Construction"],
-				"quote": "The meek shall inherit the Earth, but not its mineral rights."
+				"quote": "'Curses on you, cruel uranium! Curses on the power you give!' - Rune IX, Origin of Uranium"
 			},
 			{
 				"name": "Trade",
 				"row": 10,
 				"prerequisites": ["Construction"],
 				"uniques": ["Enables Open Borders agreements"],
-				"quote": "I know that all of us here have earned our places beyond doubt. But we are not safe, even here, and we cannot afford to stand still. I need your support today. I was appointed to this position not to sit behind a desk, but to fix problems, and that is what I intend to do..."
+				"quote": "'I know that all of us here have earned our places beyond doubt. But we are not safe, even here, and we cannot afford to stand still. I need your support today. I was appointed to this position not to sit behind a desk, but to fix problems, and that is what I intend to do...' - John Kruger"
 			}
 		]
 	},
@@ -105,13 +105,13 @@
 					"[+1] Movement <for [Embarked] units>",
 					"Enables [Embarked] units to enter ocean tiles"
 				],
-				"quote": "The winds and waves are always on the side of the ablest navigators."
+				"quote": "'When you have no landmarks to navigate by, you have to get creative.' - Captain Ray Decca"
 			},
 			{
 				"name": "Botany",
 				"row": 3,
 				"prerequisites": ["Redomestication", "Writing"],
-				"quote": "Be at peace in the knowledge that all the neoliberals will die with the biosphere."
+				"quote": "'Be at peace in the knowledge that all the neoliberals will die with the biosphere.' - Eric Price"
 			},
 
 			{
@@ -177,6 +177,10 @@
 				"name": "Ecology",
 				"row": 3,
 				"prerequisites": ["Education", "Botany"],
+				"uniques": [
+					"[+1 Food] from every [Wasteland] <with [1] to [6] neighboring [Lakes] tiles>",
+					"[+1 Food] from every [Badlands] <with [1] to [6] neighboring [Lakes] tiles>"
+				],
 				"quote": "Modern industrial farming is largely a strategy for turning fossil fuels into food."
 			},
 			{
@@ -579,7 +583,7 @@
 	},
 	{
 		"columnNumber": 17,
-		"era": "New Future era",
+		"era": "Singularity era",
 		"techCost": 35000,
 		"buildingCost": 750,
 		"wonderCost": 2000,

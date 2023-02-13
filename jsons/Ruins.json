@@ -1,11 +1,11 @@
 [
 	{
-		"name": "freeCulture",
-		"notification": "We have discovered cultural artifacts in the camp! (+20 culture)",
-		"uniques": ["Gain [20] [Culture]"]
+		"name": "discover cultural artifacts",
+		"notification": "We have discovered cultural artifacts in the camp! (+[cultureAmount] culture)",
+		"uniques": ["Gain [20]-[30] [Culture]"]
 	},
 	{
-		"name": "joinWorker",
+		"name": "squatters willing to work for you",
 		"notification": "A [Worker] has joined us!",
 		"uniques": ["Free [Worker] found in the ruins"],
 		"excludedDifficulties": [
@@ -17,7 +17,7 @@
 		]
 	},
 	{
-		"name": "joinSettler",
+		"name": "squatters wishing to settle under your rule",
 		"notification": "A [Civilian Convoy] has joined us!",
 		"uniques": ["Free [Civilian Convoy] found in the ruins"],
 		"excludedDifficulties": [
@@ -30,59 +30,61 @@
 		]
 	},
 	{
-		"name": "freeXP",
+		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
 		"uniques": ["This Unit gains [10] XP"]
 	},
 	{
-		"name": "freePop",
+		"name": "survivors (adds population to a city)",
 		"notification": "We have found survivors in the camp! Population added to [cityName].",
 		"uniques": ["[+1] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
 	},
 	{
-		"name": "freeGold",
+		"name": "a stash of water",
 		"notification": "We have found a stash of [goldAmount] water in the camp!",
 		"uniques": ["Gain [50]-[100] [Gold]"]
 	},
 	{
-		"name": "freeAncientTech",
+		"name": "discover a lost technology",
 		"notification": "We have discovered the lost technology of [techName] in the camp!",
 		"uniques": [
 			"[1] free random researchable Tech(s) from the [Decivilized era]"
 		]
 	},
 	{
-		"name": "unitUpgrade",
+		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
 		"uniques": ["This Unit upgrades for free including special upgrades"]
 	},
 	{
-		"name": "barbCampsRevealed",
+		"name": "reveal nearby Barbarian camps",
 		"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
 		"uniques": [
 			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
 		]
 	},
 	{
-		"name": "crudelyDrawnMap",
+		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"uniques": [
 			"From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"
 		]
 	},
 	{
-		"name": "holySymbols",
+		"name": "discover religious texts",
 		"notification": "We have found religious texts in the camp, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"uniques": [
 			"Hidden when religion is disabled",
-			"Gain enough Faith for a Pantheon"
+			"Gain enough Faith for a Pantheon",
+			"Only available <before founding a Pantheon>"
 		]
 	},
 	{
-		"name": "prophecy",
+		"name": "an ancient prophecy",
 		"notification": "We have found an ancient prophecy in the camp, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
 		"uniques": [
 			"Hidden when religion is disabled",
+			"Only available <after founding a Pantheon>",
 			"Gain enough Faith for [33]% of a Great Prophet",
 			"Hidden after generating a Great Prophet"
 		]

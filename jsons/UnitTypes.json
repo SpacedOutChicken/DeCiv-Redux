@@ -49,6 +49,15 @@
 		"movementType": "Land"
 	},
 	{
+		"name": "Warhead Truck",
+		 "uniques": [
+			"Cannot intercept [Stealth Fighter] units",
+			"Cannot intercept [Stealth Bomber] units",
+			"Cannot intercept [Missile] units"
+		],
+		"movementType": "Land"
+	},
+	{
 		"name": "Siege",
 		"uniques": [
 			"Cannot intercept [Stealth Fighter] units",

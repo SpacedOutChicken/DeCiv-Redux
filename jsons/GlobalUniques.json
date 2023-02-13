@@ -7,7 +7,8 @@
 		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
 		"Cannot build [Civilian Convoy] units <when below [-10] Happiness>",
 		"Rebel units may spawn <when below [-20] Happiness>",
-        //Combat Nullifier Related Uniques
+        
+		//Combat Nullifier Related Uniques
 		
 	    "[-33]% Strength <for units with [Entrench]> <vs [Ranged] units> <when defending> <vs [Promotion Nullifier] units>",
 		"[-5]% Strength <for units with [Entrench]> <when defending> <vs [Promotion Nullifier] units>",
@@ -73,13 +74,19 @@
 		"[-33]% Strength <for units with [Powered Armor]> <vs [{Ranged} {Promotion Nullifier}] units> <when defending>",
 		"[-25]% Strength <for units with [Headhunter]> <vs [{Wounded} {Promotion Nullifier}] units>",
 		"[-20]% Strength <for units with [[Ranger] ability]> <when fighting in [Friendly Land] tiles> <vs [Promotion Nullifier] units>",
+		"[-25]% Strength <for units with [Survivalism]> <when defending> <vs [Promotion Nullifier] units>",
+		"[-10]% Strength <for units with [Super Alloy]> <when defending> <vs [Promotion Nullifier] units>",
+		"[-33]% Strength <for units with [Super Alloy]> <vs [{Ranged} {Promotion Nullifier}] units> <when defending>",
 		
 		"[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Drone Recon]>",
 		"[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Skirmish]>",
 		"[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Forage]>",
 		"[-25]% XP gained from combat <for units with [Promotion Nullifier]> <for units with [Reconnaissance I]>",
-		"[-50]% XP gained from combat <for units with [Promotion Nullifier]> <after adopting [Military Tradition]>"
+		"[-50]% XP gained from combat <for units with [Promotion Nullifier]> <after adopting [Military Tradition]>",
 		
+		// Factory farm food bonus
+		"[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>"
+
 		// Unimplemented uniques in the base game below
 		// "[+20]% [Culture] [in all cities] <during a golden age>",
 		// "[+20]% [Production] [in all cities] <during a golden age>",

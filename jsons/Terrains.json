@@ -13,8 +13,7 @@
 		"RGB": [107, 167, 193],
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"A Region is formed with at least [25]% [Fissure] tiles, with priority [2]"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -25,21 +24,20 @@
 		"RGB": [97, 171, 58],
 		"uniques": [
 			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Wasteland] tiles, with priority [7]",
 			"A Region can not contain more [Badlands] tiles than [Wasteland] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -49,24 +47,23 @@
 		"defenceBonus": -0.1,
 		"RGB": [168, 185, 102],
 		"uniques": [
-			"Occurs at temperature between [0.1] and [0.4] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
-			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
-			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+            "Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+            "Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
 			"[+4] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Badlands] tiles, with priority [6]",
 			"A Region can not contain more [Wasteland] tiles than [Badlands] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"[+1 Food] <within [1] tiles of a [Lakes]> <after discovering [Ecology]>"
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -77,10 +74,10 @@
 		"RGB": [189, 204, 191],
 		"uniques": [
 			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+            "Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+            "Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
 			"[+2] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
 			"Considered [Desirable] when determining start locations",
@@ -95,10 +92,11 @@
 		"defenceBonus": -0.2,
 		"RGB": [230, 230, 113],
 		"uniques": [
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.2] and [0.8] and humidity between [0.2] and [0.4]",
-			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
 			"Considered [Desirable] when determining start locations",
@@ -109,30 +107,13 @@
 		]
 	},
 	{
-		"name": "Fissure",
-		"type": "Land",
-		"movementCost": 1,
-		"production": 1,
-		"defenceBonus": -0.3,
-		"RGB": [250, 60, 40],
-		"uniques": [
-			"Occurs at temperature between [-0.9] and [0.1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.5] and [0.9] and humidity between [0] and [0.2]",
-			"[+1] to Fertility for Map Generation",
-			"A Region is formed with at least [25]% [Fissure] tiles, with priority [2]",
-			"Considered [Desirable] when determining start locations <in [Fissure] Regions>",
-			"Considered [Food] when determining start locations <in [Fissure] Regions>",
-			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Units ending their turn on this terrain take [5] damage"
-		]
-	},
-	{
 		"name": "Lakes",
 		"type": "Water",
 		"food": 1,
 		"gold": 1,
 		"RGB": [123, 202, 226],
 		"uniques": [
+			"Fresh water",
 			"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
 		]
@@ -155,13 +136,15 @@
 	{
 		"name": "Permafrost",
 		"type": "Land",
+		"defenceBonus": -0.1,
 		"movementCost": 1,
 		"RGB": [231, 242, 249],
 		"uniques": [
 			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
-			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
-			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 			"Considered [Undesirable] when determining start locations",
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -293,6 +276,29 @@
 		]
 	},
 	{
+		"name": "Fissure",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"production": 1,
+		"defenceBonus": -0.3,
+		"overrideStats": true,
+		"unbuildable": true,
+		"occursOn": [
+			"Wasteland",
+			"Badlands",
+			"Desert",
+			"Tundra",
+			"Permafrost"
+		],
+		"uniques": [
+			"Rare feature",
+			"Rough terrain",
+			"Every [7] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Units ending their turn on this terrain take [5] damage",
+			"Only [Borehole] improvements may be built on this tile"
+		]
+	},
+	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
 		"gold": -2,
@@ -316,7 +322,8 @@
 			"Jungle",
 			"Hill",
 			"Swamp",
-			"Toxic Waste"
+			"Toxic Waste",
+			"Fissure"
 		]
 	},
 	{
@@ -432,9 +439,11 @@
 			"Must be adjacent to [0] [Wasteland] tiles",
 			"Must be adjacent to [2] to [6] [Hill] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Fresh water"
+			"Fresh water",
+			"Natural tile"
 		],
 		"unbuildable": true,
+		"impassable": true,
 		"weight": 10
 	},
 	{
@@ -577,7 +586,7 @@
 		"type": "NaturalWonder",
 		"science": 1,
 		"production": 1,
-		"occursOn": ["Badlands", "Wasteland","Tundra","Permafrost"],
+		"occursOn": ["Badlands", "Wasteland", "Tundra", "Permafrost"],
 		"uniques": ["Must be adjacent to [1] to [6] [Mountain] tiles"],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -587,22 +596,20 @@
 	{
 		"name": "Underwater City",
 		"type": "NaturalWonder",
-		"science": 2,
-		"culture": 2,
 		"occursOn": ["Coast"],
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [2] [Land] tiles",
 			"Occurs on latitudes from [0] to [100] percent of distance equator to pole",
-			"Occurs in groups of [1] to [3] tiles",
-			"Neighboring tiles will convert to [Coast]"],
+			"Occurs in groups of [2] to [3] tiles"
+		],
 		"turnsInto": "Coast",
-		"impassable": true,
 		"unbuildable": true,
 		"weight": 12,
         "civilopediaText": [
 			{
-				"text": "This completely underwater city must have once been a true marvel of engineering while operational. While the cause of its demise is unknown, it is estimated to have been due to Bioshock."
-			}]			
+				"text": "This completely underwater city must have once been a true marvel of engineering while operational. While the cause of its demise is unknown, it is estimated to have been due to biological shock."
+			}
+		]			
 	}
 ]

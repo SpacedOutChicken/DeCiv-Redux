@@ -136,5 +136,25 @@
 			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
 			"Starting in this era disables religion"
 		]
+	},
+	{
+		"name": "Singularity era", // mostly for testing far future stuff
+		"researchAgreementCost": 400,
+		"startingSettlerCount": 0,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 0,
+		"startingMilitaryUnit": "Scout",
+		"startingGold": 0,
+		"startingCulture": 0,
+		"settlerPopulation": 1,
+		"startPercent": 80,
+		"citySound": "cityFuture",
+		"embarkDefense": 33,
+		"iconRGB": [76, 176, 81],
+		"uniques": [
+			"May not generate great prophet equivalents naturally",
+			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion"
+		]
 	}
 ]

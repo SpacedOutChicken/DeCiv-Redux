@@ -133,8 +133,7 @@
 			"[Civilian] units gain the [Urban Warfare I] promotion",
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
-			"[-20]% [Science] [in all cities] <before discovering [Education]>",
-			"[-10]% [Culture] [in all cities] <before discovering [Civil Service]>",
+			"Starts with [Collectivism] adopted",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
@@ -320,6 +319,7 @@
 			"[+50]% [Happiness] from City-States",
 			"[+50]% [Production] from City-States",
 			"Military Units gifted from City-States start with [+10] XP",
+			"City-State territory always counts as friendly territory",
 			"[Great General] is earned [33]% faster",
 			"Starts with [Redomestication]",
 			"Cannot build [Enslaved] units",
@@ -566,7 +566,8 @@
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
 			"Starts with [Redomestication]",
-			"[-1 Science] [in all cities] <before discovering [Writing]>"
+			"Starts with [Supremacy] adopted",
+			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>"
 		],
 		"cities": [
 			"Postumus",
@@ -634,8 +635,7 @@
 			"Starts with [Theocracy] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"[+10]% [Culture] from every [Coal Plant]",
-			"[-1 Science] [in all cities] <before discovering [Writing]>",
-			"[100]% Production when constructing [Grand Temple of Ignis] wonders [in all cities] <after adopting [Theocracy Complete]>"
+			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
 		],
 		"cities": [
 			"Gastown",
@@ -678,7 +678,7 @@
 		"adjective": ["Marine"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Humanism",
+		"favoredReligion": "Rongorongo",
 
 		// "startIntroPart1": "",
 		// "startIntroPart2": "",
@@ -699,6 +699,8 @@
 			"Enables [All] units to enter ocean tiles",
 			"[1] Movement point cost to disembark <for [All] units>",
 			"Defense bonus when embarked <for [All] units>",
+			"Normal vision when embarked <for [All] units>",
+			"[+1] Movement <for [Water] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
 			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
 			"Starts with [Sailing]"
@@ -747,7 +749,9 @@
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
-			"Starts with [Secrets of the Past]"
+			"Starts with [Secrets of the Past]",
+			"Starts with [Redomestication]",
+			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>"
 		],
 		"cities": [
 			"Gao",
@@ -788,6 +792,50 @@
 			"Byblos"
 		]
 	},
+	{
+		"name": "Proklyatyye",
+		"leaderName": "Trofim Bugorski",
+		"adjective": ["Proklyatyy"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+	
+		"startIntroPart1": "Perhaps it would have been better if man had never split the atom. If only we could go back and make it so no one could harness nuclear energy... Maybe then, we would never have burned the world to the ground. Maybe then you would not feel the sickness in your bones. But all that is in the past. We have to live with it now, no? But here is our secret: we can live with it, and they cannot. They have no stomach for radiation. And so this curse upon the land is a blessing to us. The sickness goes before us and destroys our enemies, leaving only us alive. That is not so bad now, is it?",
+		"startIntroPart2": "This sick and dying world is our birthright. Let us go and claim it all for ourselves, and see if we cannot make a heaven out of this hell.",
+	
+		"declaringWar": "Your lands look fertile. We'll take them.",
+		"attacked": "So you think you can destroy us? Let us see if our sickness can destroy you first!",
+		"defeated": "Just promise me that you will try to heal this dying world.",
+		"introduction": "Hello, stranger! I would shake your hand, but it is better if you do not touch me.",
+	
+		"neutralHello": "Hello!",
+		"hateHello": "What do you need?!",
+	
+		"tradeRequest": "How would you like it if I propose this kind of exchange?",
+	
+		"outerColor": [34,52,52],
+		"innerColor": [266,225,157],
+		"uniqueName": "Radioactivity",
+		"uniques": [
+			"Starts with [Secrets of the Past]",
+			"Starts with [Writing]",
+			"Starts with [Construction]",
+			"Starts with [Mining]",
+			"[-1 Science] [in all cities] <before discovering [Education]>",
+			"[-10]% growth [in all cities]",
+			"[-1 Food] [in all cities]",
+			"[{non-air} {Military}] units gain the [Radioactive] promotion",
+			"[+10]% Strength <for [All] units> <when fighting in [Fallout] tiles>",
+			"[+10]% Strength <for [All] units> <when fighting in [Toxic Waste] tiles>",
+			"No defensive terrain penalty",
+			"No movement cost to pillage"
+		],
+		"cities": ["Shchyolkovo-14","Kartaly-6","Arzamas-75","Stupino-7","Krasnoyarsk-45","Krasnoyarsk-66","Sverdlovsk-44","Murmansk-150","Bologoe-4","Krasnoyarsk-26",
+		"Beloretsk-15","Zlatoust-20","Chita-46","Zlatoust-36","Perm'-76","Yur'ya-2","Petropavlovsk-Kamchatskiy-35","Semipalatinsk-121","Shkotovo-17","Zagorsk-7",
+		"Kosulino-1","Uzhur-4","Tatishchevo-5","Kapustin Yar-1","Olovyannaya-4","Dombrovskiy-3","Petropavlovsk-Kamchatskiy-50","Nizhny-Tagil-39","Beloretsk-16",
+		"Chelyabinsk-65","Chelyabinsk-115","Alkino-2","Murmansk-60","Svobodnyy-18","Tomsk-7","Murmansk-140","Murmansk-130","Krasnoyarsk-95","Chelyabinsk-40",
+		"Sverdlovsk-45","Chelyabinsk-95","Chelyabinsk-70","Arzamas-60","Shkotovo-26","Krasnoyarsk-35","Naro-Fominsk-5","Kurchatov-21","Penza-19","Novopetrovsk-2",
+		"Arzamas-16","Golitsino-2","Semipalatinsk-16","Krasnoyarsk-25","Shkotovo-22"]
+	},
 
 	// City-States
 	{
@@ -813,7 +861,7 @@
 		"attacked": "May you be forgiven.",
 		"defeated": "There is still time... Brother",
 		"outerColor": [0, 0, 0],
-		"innerColor": [143, 24, 53],
+		"innerColor": [159, 58, 83],
 		"cities": ["Jerome Abbey"]
 	},
 	{
@@ -850,7 +898,8 @@
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
 			"Cannot build [Armor] units",
-			"Cannot build [Siege] units"
+			"Cannot build [Siege] units",
+			"Cannot build [Helicopter] units"
 		],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -869,6 +918,7 @@
 			"Damage is ignored when determining unit Strength <for [All] units>",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
+			"Cannot build [Helicopter] units",
 			"[Personnel] units gain the [Guerilla Warfare I] promotion",
 			"[Personnel] units gain the [Guerilla Warfare II] promotion",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
@@ -964,7 +1014,8 @@
 		"uniques": [
 			"Damage is ignored when determining unit Strength <for [All] units>",
 			"Cannot build [Armor] units",
-			"Cannot build [Siege] units"
+			"Cannot build [Siege] units",
+			"Cannot build [Helicopter] units"
 		],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Your desire for power will only bring you suffering.",
@@ -981,7 +1032,6 @@
 		"uniques": [
 			"Starts with [Land Remediation]",
 			"Starts with [Ecology]",
-			"[+1 Food, +2 Production, +1 Gold] from every [Tree plantation]",
 			"[+100]% Strength <for [All] units> <within [2] tiles of a [Tree plantation]>",
 			"[25] HP when healing <within [2] tiles of a [Tree plantation]>"
 		],
@@ -1013,6 +1063,7 @@
 		"name": "Barbarians",
 		"style": "Barbarians",
 		"outerColor": [0, 0, 0],
-		"innerColor": [182, 0, 0]
+		"innerColor": [185, 12, 12],
+		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>"]
 	}
 ]

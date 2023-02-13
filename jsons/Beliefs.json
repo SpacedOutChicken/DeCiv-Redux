@@ -5,7 +5,8 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Monument]",
-			"[+1 Culture] from every [Shrine]"
+			"[+1 Culture] from every [Shrine]",
+			"[+1 Culture, +1 Faith] from every [Vault of Records]"
 		]
 	},
 	{
@@ -13,20 +14,26 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from [Tundra] tiles without [Jungle] [in this city]",
-			"[+1 Faith] from [Permafrost] tiles without [Jungle] [in this city]"
+			"[+1 Faith] from [Permafrost] tiles without [Jungle] [in this city]",
+			"[+1 Happiness] from every [Artificial glacier]"
 		]
 	},
 	{
 		"name": "Pray for Water",
 		"type": "Pantheon",
-		"uniques": ["[+1 Faith] from every [Desert]"]
+		"uniques": [
+			"[+1 Faith] from every [Desert]",
+			"[+1 Happiness] from every [Oasis]",
+			"[+1 Happiness] from every [Artificial oasis]"
+		]
 	},
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
 		"uniques": [
 			// This should be worded better
-			"[All] Units adjacent to this city heal [+30] HP per turn when healing"
+			"[All] Units adjacent to this city heal [+30] HP per turn when healing",
+			"[+1 Faith] from every [Hospital]"
 		]
 	},
 	{
@@ -42,18 +49,24 @@
 		"name": "God of Labor",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Production] <in cities with at least [3] [Population]>"
+			"[+2 Production] <in cities with at least [3] [Population]>",
+			"[+1 Faith, +1 Production] from every [Factory]"
 		]
 	},
 	{
 		"name": "God of Beasts",
 		"type": "Pantheon",
-		"uniques": ["[+1 Culture] from every [Pasture]"]
+		"uniques": [
+			"[+1 Culture] from every [Pasture]",
+			"[+1 Culture] from every [Bioculture]"
+		]
 	},
 	{
 		"name": "God of the Sea",
 		"type": "Pantheon",
-		"uniques": ["[+1 Production, +1 Faith] from every [Fishing Boats]"]
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [Water resource]"
+		]
 	},
 	{
 		"name": "Sacrificial Fire",
@@ -73,7 +86,10 @@
 	{
 		"name": "God of Love",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness, +1 Faith] <in cities with at least [6] [Population]>"]
+		"uniques": [
+			"[+1 Happiness, +1 Faith] <in cities with at least [4] [Population]>",
+			"[+1 Happiness, +1 Faith] <in cities with at least [8] [Population]>"
+		]
 	},
 	{
 		"name": "God of Walls",
@@ -86,7 +102,10 @@
 	{
 		"name": "Lord of the Hunt",
 		"type": "Pantheon",
-		"uniques": ["[+1 Food] from every [Camp]"]
+		"uniques": [
+			"[+1 Food] from every [Camp]",
+			"[+1 Food] from every [Bioculture]"
+		]
 	},
 	{
 		"name": "God of Commerce",
@@ -96,14 +115,18 @@
 	{
 		"name": "Ancient Wonders",
 		"type": "Pantheon",
-		"uniques": ["[+5 Faith] from every [Natural Wonder]"]
+		"uniques": [
+			"[+5 Faith] from every [Natural Wonder]"
+		]
 	},
 	{
 		"name": "Blessed Green",
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Culture] from every [Tree plantation]",
-			"[+1 Culture] from every [Farm]"
+			"[+1 Culture] from every [Farm]",
+			"[+1 Culture] from every [Grassland]",
+			"[+1 Culture] from every [Factory farm]"
 		]
 	},
 	{
@@ -118,7 +141,8 @@
 		"name": "Religious Settlements",
 		"type": "Pantheon",
 		"uniques": [
-			"[-15]% Culture cost of natural border growth [in all cities]"
+			"[-15]% Culture cost of natural border growth [in all cities]",
+			"[-15]% Gold cost of acquiring tiles [in this city]"
 		]
 	},
 	{
@@ -140,6 +164,7 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Production, +1 Faith] from every [Mine]",
+			"[+1 Production, +1 Faith] from every [Borehole]",
 			"[+1 Production, +1 Faith] from every [Manufactory]",
 			"[+1 Production, +1 Faith] from every [Mining Pit]"
 		]
@@ -148,9 +173,17 @@
         "name": "Home and Hearth",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]"
+            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]",
+			"[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter] <in cities with at least [5] [Population]>"
         ]
     },
+	{
+		"name": "Works of Genius",
+		"type": "Pantheon",
+		"uniques": [
+			"[+4 Faith] from every [Great Improvement]"
+		]
+	},
 
 	// Follower beliefs
 	{
@@ -165,7 +198,8 @@
 		"type": "Follower",
 		"uniques": [
 			"[+1 Food] from every [Shrine]",
-			"[+1 Food] from every [Monastery]"
+			"[+1 Food] from every [Monastery]",
+			"[+1 Food] from every [Megachurch]"
 		]
 	},
 	{
@@ -239,6 +273,11 @@
 		"type": "Follower",
 		"uniques": ["[+1]% [Production] from every follower, up to [15]%"]
 	},
+    {
+        "name": "Public Prayer",
+        "type": "Follower",
+        "uniques": ["[+1 Faith, +1 Culture] from every [Town Hall] <in cities with at least [3] [Followers of this Religion]>"]
+    },
 
 	// Founder beliefs
 	{
@@ -252,6 +291,13 @@
 		"name": "Church Property",
 		"type": "Founder",
 		"uniques": ["[+2 Gold] for each global city following this religion"]
+	},
+	{
+		"name": "Great Awakening",
+		"type": "Founder",
+		"uniques": [
+			"[+2 Science, +1 Culture] for each global city following this religion"
+		]
 	},
 	{
 		"name": "Initiation Rites",
@@ -359,6 +405,11 @@
 	{
 		"name": "Funeral Rites",
 		"type": "Enhancer",
-		"uniques": ["[+50 Faith] whenever a Great Person is expended"]
+		"uniques": ["[+100 Faith, +20 Culture] whenever a Great Person is expended"]
+	},
+	{
+		"name": "Thought Control",
+		"type": "Enhancer",
+		"uniques": ["[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
 	}
 ]
