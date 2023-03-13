@@ -80,12 +80,11 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Can instantly construct a [Refinery] improvement <by consuming this unit>"
-			/*"Can instantly construct a [C1F3 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [C1F3 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [C2N14 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [C8H17 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [SbF5 Refinery] improvement <by consuming this unit>",
-			"Can instantly construct a [VX Refinery] improvement <by consuming this unit>"*/
+			"Can instantly construct a [VX Refinery] improvement <by consuming this unit>"
 		]
 	},
 	{

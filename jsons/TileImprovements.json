@@ -733,7 +733,8 @@
 		"uniques": [
 			"Unpillagable",
 			"Irremovable",
-			"Unbuildable"
+			"Unbuildable",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]"
 		],
 		"civilopediaText": [
 			{
