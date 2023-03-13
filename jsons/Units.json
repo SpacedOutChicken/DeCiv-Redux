@@ -17,7 +17,7 @@
 		"movement": 3,
 		"cost": 106,
 		"uniques": [
-			"Founds a new city",
+			"Founds a new city <by consuming this unit>",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
 			"Excess Food converted to Production when under construction",
@@ -32,7 +32,11 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Land] improvements on tiles"],
+		"upgradesTo": "Mechanized Worker",
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action"
+		],
 		"cost": 70
 	},
 	{
@@ -42,9 +46,11 @@
 		"uniqueTo": "Tellus",
 		"movement": 2,
 		"hurryCostModifier": 20,
+		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[-25]% tile improvement construction time"
+			"[-25]% tile improvement construction time",
+			"Automation is a primary action"
 		],
 		"cost": 70
 	},
@@ -54,11 +60,13 @@
 		"movement": 4,
 		"hurryCostModifier": 20,
 		"requiredTech": "Redomestication",
+		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Mounted",
 			"Can build [Land] improvements on tiles",
 			"May withdraw before melee ([50]%)",
-			"Only available <in cities with a [Stable]>"
+			"Only available <in cities with a [Stable]>",
+			"Automation is a primary action"
 		],
 		"cost": 130
 	},
@@ -71,7 +79,14 @@
 		"cost": 70,
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can construct [C1F3 Refinery]","Can construct [C2N14 Refinery]","Can construct [C8H17 Refinery]","Can construct [SbF5 Refinery]","Can construct [VX Refinery]"]
+		"uniques": [
+			"Can instantly construct a [Refinery] improvement <by consuming this unit>"
+			/*"Can instantly construct a [C1F3 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [C2N14 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [C8H17 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [SbF5 Refinery] improvement <by consuming this unit>",
+			"Can instantly construct a [VX Refinery] improvement <by consuming this unit>"*/
+		]
 	},
 	{
 		"name": "Work Boats",
@@ -82,7 +97,8 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Navigation]>",
 			"Uncapturable",
-			"May create improvements on water resources"
+			"May create improvements on water resources",
+			"Automation is a primary action"
 		],
 		"hurryCostModifier": 20
 	},
@@ -98,7 +114,8 @@
 			"Only available <if [Factory] is constructed>",
 			"May withdraw before melee ([50]%)",
 			"Can build [Land] improvements on tiles",
-			"[-25]% tile improvement construction time"
+			"[-25]% tile improvement construction time",
+			"Automation is a primary action"
 		]
 	},
 
