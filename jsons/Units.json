@@ -402,7 +402,7 @@
 		"upgradesTo": "Militia",
 		"uniques": [
 			"Low Tech",
-			"Can construct [Salvage site]"
+			"Can instantly construct a [Salvage site] improvement <by consuming this unit>"
 		],
 		"promotions": ["Forage"],
 		"attackSound": "nonmetalhit"
@@ -2900,8 +2900,8 @@
 		"name": "Great Administrator",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
-			"Can construct [Settlement]",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2912,7 +2912,7 @@
 		"name": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Seminary] <if it hasn't used other actions yet>",
+			"Can instantly construct a [Seminary] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -2935,7 +2935,7 @@
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Oracle] <if it hasn't used other actions yet>",
+			"Can instantly construct a [Oracle] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Can [Spread Religion] [4] times",
 			"Removes other religions when spreading religion",
 			"May found a religion",
@@ -2957,7 +2957,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can hurry technology research",
-			"Can construct [Academy]",
+			"Can instantly construct a [Academy] improvement <by consuming this unit>",
 			"Great Person - [Science]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2969,7 +2969,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Settlement]",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2985,7 +2985,7 @@
 			"Invisible to non-adjacent units",
 			"May enter foreign tiles without open borders",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
-			"Can construct [Narcotics farm]",
+			"Can instantly construct a [Narcotics farm] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -2999,7 +2999,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Prison farm]",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3011,7 +3011,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can speed up construction of a building",
-			"Can construct [Manufactory]",
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
 			"Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3022,9 +3022,9 @@
 		"name": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Can construct [Citadel]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3039,7 +3039,7 @@
 		"uniques": [
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can hurry technology research",
-			"Can construct [Crystal Refinery]",
+			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3053,9 +3053,9 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Can construct [Prison farm]",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -3068,11 +3068,11 @@
 		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing",
 			"[+15] HP when healing",
-			"Can construct [Outpost]",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Uncapturable",
 			"Unbuildable"
@@ -3085,10 +3085,10 @@
 		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Can construct [Citadel]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Uncapturable",
 			"Unbuildable"
@@ -3101,7 +3101,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"[+1] population [in all cities] <by consuming this unit>",
-			"Can construct [Factory farm]",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
 			"Uncapturable",
 			"Unbuildable"
