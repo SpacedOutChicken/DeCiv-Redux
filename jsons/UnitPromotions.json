@@ -822,7 +822,7 @@
 		"name": "Drone Recon",
 		"uniques": [
 			"Can see over obstacles",
-			"Normal vision when embarked",
+			"[+1] Sight <when [Embarked]>",
 			"[25]% XP gained from combat",
 			"Only available <if [Ground Control Center] is constructed>"
 		],

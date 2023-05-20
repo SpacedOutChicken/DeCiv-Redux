@@ -699,7 +699,7 @@
 			"Enables [All] units to enter ocean tiles",
 			"[1] Movement point cost to disembark <for [All] units>",
 			"Defense bonus when embarked <for [All] units>",
-			"Normal vision when embarked <for [All] units>",
+			"[+1] Sight <for [Embarked] units>",
 			"[+1] Movement <for [Water] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",
 			"[{Land} {Personnel}] units gain the [Amphibious] promotion",
