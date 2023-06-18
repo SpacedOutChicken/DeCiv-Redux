@@ -33,6 +33,38 @@
 		"clearBarbarianCampReward": 75
 	},
 	{
+		"name": "Wanderer",
+		"baseHappiness": 15,
+		"extraHappinessPerLuxury": 1,
+		"researchCostModifier": 1.0,
+		"unitCostModifier": 1.0,
+		"unitSupplyBase": 7,
+		"unitSupplyPerCity": 3,
+		"buildingCostModifier": 1,
+		"policyCostModifier": 1,
+		"unhappinessModifier": 1,
+		"barbarianBonus": 0.5,
+		"barbarianSpawnDelay": 4,
+		"playerBonusStartingUnits": ["Civilian Convoy", "Scout"],
+		"aiCityGrowthModifier": 1,
+		"aiUnitCostModifier": 1.25,
+		"aiBuildingCostModifier": 1,
+		"aiWonderCostModifier": 1.5,
+		"aiBuildingMaintenanceModifier": 0.75,
+		"aiUnitMaintenanceModifier": 0.75,
+		"aiFreeTechs": [],
+		"aiMajorCivBonusStartingUnits": ["Civilian Convoy", "Scout"],
+		"aiCityStateBonusStartingUnits": [
+			"Civilian Convoy",
+			"Scout",
+			"Spearman"
+		],
+		"aiUnhappinessModifier": 1,
+		"aisExchangeTechs": true,
+		"turnBarbariansCanEnterPlayerTiles": 10000,
+		"clearBarbarianCampReward": 75
+	},
+	{
 		"name": "Settler",
 		"baseHappiness": 9,
 		"extraHappinessPerLuxury": 0,

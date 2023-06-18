@@ -229,7 +229,7 @@
 	},
 	{
 		"name": "Atlas",
-		"leaderName": "John Kruger",
+		"leaderName": "John Galt",
 		"adjective": ["Corporate"],
 		// "startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
@@ -240,8 +240,8 @@
 		"declaringWar": "All that is required for the triumph of evil is for good men to do nothing.",
 		"attacked": "You're breaking the non-aggression principle!",
 		"defeated": "It is our wealth that you use while destroying us.",
-		"introduction": "I'm John Kruger, CEO of the Atlas Corporation. I thought we were the sole outpost of civilization in a world ruled by barbarism.",
-		"neutralHello": "This is John Kruger speaking.",
+		"introduction": "I'm John Galt, CEO of the Atlas Corporation. I thought we were the sole outpost of civilization in a world ruled by barbarism.",
+		"neutralHello": "This is John Galt speaking.",
 		"hateHello": "I do not share your evil or sink to your concept of morality.",
 		"tradeRequest": "Free trade is the only fair trade.",
 

@@ -6,7 +6,7 @@
 		"terrainsCanBeFoundOn": ["Badlands", "Swamp", "Desert"],
 		"food": 1,
 		"improvedBy": ["Farm", "Grassland"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [27] tiles <in [Badlands] tiles>",
 			"Generated on every [10] tiles <in [Desert] tiles> <in tiles without [Hill]>",
@@ -20,7 +20,7 @@
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
 		"improvedBy": ["Fishing Boats", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>",
 			"Generated on every [33] tiles <in [Featureless] [Ocean] tiles> <with [1] to [6] neighboring [Coast] tiles>"
@@ -33,7 +33,7 @@
 		"food": 1,
 		"revealedBy": "Botany",
 		"improvedBy": ["Farm", "Grassland"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [25] tiles <in [Featureless] [Badlands] tiles> <in tiles without [Hill]>",
@@ -58,7 +58,7 @@
 		],
 		"production": 1,
 		"improvedBy": ["Salvage site", "Borough"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [12] tiles <in [Featureless] [Tundra] tiles>",
 			"Generated on every [25] tiles <in [Badlands] tiles> <in tiles without [Hill]>",
@@ -81,7 +81,7 @@
 		],
 		"production": 1,
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "production": 1 },
+		"improvementStats": { "production": 2 },
 		"uniques": [
 			"Generated on every [20] tiles <in [Featureless] [Wasteland] tiles>",
 			"Generated on every [20] tiles <in [Featureless] [Badlands] tiles>",
@@ -170,7 +170,7 @@
 			"Swamp"
 		],
 		"improvement": "Water pump",
-		"improvementStats": { "gold": 3 },
+		"improvementStats": { "gold": 5 },
 		"uniques": [
 			"Generated on every [40] tiles <in [Wasteland] tiles>",
 			"Generated on every [40] tiles <in [Badlands] tiles>",
@@ -194,7 +194,7 @@
 			"Coast",
 			"Ocean"
 		],
-		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
+		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 5 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 },
 		"uniques": [
 			"Deposits in [Coast] tiles always provide [2] resources",
@@ -489,10 +489,10 @@
 		"terrainsCanBeFoundOn": ["Wasteland"],
 		"food": 1,
 		"improvedBy": ["Pasture", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 3 },
 		"uniques": [
-			"Generated with weight [20] <in [Wasteland] Regions>",
-			"Generated with weight [20] <in [Hybrid] Regions>",
+			"Generated with weight [40] <in [Wasteland] Regions>",
+			"Generated with weight [40] <in [Hybrid] Regions>",
 			"Generated near City States with weight [10]"
 		]
 	},
@@ -502,11 +502,11 @@
 		"terrainsCanBeFoundOn": ["Badlands", "Hill"],
 		"food": 1,
 		"improvedBy": ["Pasture", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 2 },
 		"uniques": [
-			"Generated with weight [5] <in [Badlands] Regions>",
-			"Generated with weight [5] <in [Hill] Regions>",
-			"Generated with weight [10] <in [Hybrid] Regions>",
+			"Generated with weight [20] <in [Badlands] Regions>",
+			"Generated with weight [20] <in [Hill] Regions>",
+			"Generated with weight [40] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
 		]
 	},
@@ -516,7 +516,7 @@
 		"terrainsCanBeFoundOn": ["Tundra"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 2 },
 		"uniques": [
 			"Generated with weight [40] <in [Tundra] Regions>",
 			"Generated near City States with weight [15]"
@@ -543,11 +543,11 @@
 		"terrainsCanBeFoundOn": ["Hill", "Toxic Waste", "Jungle"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "food": 1, "culture": 1 },
 		"uniques": [
-			"Generated with weight [5] <in [Jungle] Regions>",
+			"Generated with weight [15] <in [Jungle] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
-			"Generated with weight [5] <in [Hybrid] Regions>",
+			"Generated with weight [15] <in [Hybrid] Regions>",
 			"Generated near City States with weight [15]"
 		]
 	},
@@ -557,7 +557,7 @@
 		"terrainsCanBeFoundOn": ["Toxic Waste", "Fallout"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 2, "culture": 1, "science": 1 },
+		"improvementStats": { "food": 2, "culture": 2, "science": 2 },
 		"uniques": [
 			"Generated with weight [25] <in [Tundra] Regions>",
 			"Generated with weight [30] <in [Hill] Regions>",
@@ -574,7 +574,7 @@
 		"terrainsCanBeFoundOn": ["Badlands", "Hill", "Wasteland"],
 		"food": 1,
 		"improvedBy": ["Camp", "Bioculture"],
-		"improvementStats": { "food": 1 },
+		"improvementStats": { "food": 3 },
 		"uniques": [
 			"Generated with weight [5] <in [Badlands] Regions>",
 			"Generated with weight [5] <in [Wasteland] Regions>",
@@ -604,7 +604,7 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Sunken Ruins"],
 		"culture": 1,
 		"improvedBy": ["Research site", "Borough", "Modular island"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "culture": 2 },
 		"uniques": [
 			"Generated on every [15] tiles <in [Coast] tiles>",
 			"Generated with weight [30] <in [Jungle] Regions>",
@@ -647,7 +647,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "culture": 2 },
 		"uniques": [
 			"Generated with weight [15] <in [Hill] Regions>",
 			"Generated with weight [5] <in [Hybrid] Regions>",
@@ -659,7 +659,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"improvedBy": ["Mine", "Borehole"],
-		"improvementStats": { "culture": 1 },
+		"improvementStats": { "culture": 2 },
 		"uniques": [
 			"Generated with weight [30] <in [Hill] Regions>",
 			"Generated with weight [10] <in [Hybrid] Regions>",

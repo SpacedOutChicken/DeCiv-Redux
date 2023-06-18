@@ -229,8 +229,7 @@
 			"Scientific": 0
 		},
 		"uniques": [
-			"[+100]% Production when constructing [Faith] buildings [in all cities]",
-			"Only available <before adopting [Rationalism]>"
+			"[+100]% Production when constructing [Faith] buildings [in all cities]"
 		],
 		"policies": [
 			{
@@ -303,8 +302,7 @@
 		},
 		"uniques": [
 			"[Great Scientist] is earned [20]% faster",
-			"Science gained from research agreements [+50]%",
-			"Only available <before adopting [Theocracy]>"
+			"Science gained from research agreements [+50]%"
 		],
 		"policies": [
 			{

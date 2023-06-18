@@ -3,11 +3,11 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Badlands", "Desert", "Swamp"],
 		"food": 1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"uniques": [
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+2 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -18,14 +18,14 @@
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands"],
 		"production": 1,
-		"turnsToBuild": 8,
+		"turnsToBuild": 5,
 		"techRequired": "Ecology",
 		"uniques": [
 			"Food source",
 			"Natural tile",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+2 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -36,7 +36,7 @@
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
-		"turnsToBuild": 9,
+		"turnsToBuild": 5,
 		"techRequired": "Mining",
 		"uniques": [
 			"[+1 Production] <after discovering [Steam Power]>",
@@ -48,7 +48,7 @@
 	},
 	{
 		"name": "Pasture",
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"techRequired": "Redomestication",
 		"uniques": [
 			"Food source",
@@ -71,8 +71,8 @@
 			"Tundra",
 			"Permafrost"
 		],
-		"gold": 1,
-		"turnsToBuild": 5,
+		"gold": 2,
+		"turnsToBuild": 4,
 		"uniques": [
 			"[+1 Gold] <after discovering [Plastics]>",
 			"Cannot be built on [Fissure] tiles",
@@ -87,8 +87,8 @@
 			"Wasteland",
 			"Desert"
 		],
-		"production": 1,
-		"turnsToBuild": 14,
+		"production": 2,
+		"turnsToBuild": 7,
 		"techRequired": "Electronics",
 		"uniques": [
 			"Provides [1] [Power]",
@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Wind farm",
-		"turnsToBuild": 10,
+		"turnsToBuild": 5,
 		"techRequired": "Steel",
 		"uniques": [
 			"Provides [1] [Power]",
@@ -110,7 +110,7 @@
 	},
 	{
 		"name": "Nature preserve",
-		"turnsToBuild": 10,
+		"turnsToBuild": 7,
 		"techRequired": "Atmosphere Remediation",
 		"food": 2,
 		"gold": 1,
@@ -130,7 +130,7 @@
 	},
 	{
 		"name": "Artificial oasis",
-		"turnsToBuild": 10,
+		"turnsToBuild": 8,
 		"techRequired": "Geo Engineering",
 		"food": 3,
 		"gold": 1,
@@ -151,7 +151,7 @@
 		"gold": 3,
 		"production": 1,
 		"food": 1,
-		"turnsToBuild": 10,
+		"turnsToBuild": 8,
 		"techRequired": "Geo Engineering",
 		"uniques": [
 			"Food source",
@@ -167,7 +167,7 @@
 	{
 		"name": "Grassland",
 		"terrainsCanBeBuiltOn": ["Badlands","Swamp"],
-		"turnsToBuild": 10,
+		"turnsToBuild": 8,
 		"food": 3,
 		"techRequired": "Land Remediation",
 		"uniques": [
@@ -188,7 +188,7 @@
 	{
 		"name": "Terrace farm",
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"turnsToBuild": 10,
+		"turnsToBuild": 5,
 		"food": 1,
 		"production": 1,
 		"techRequired": "Land Remediation",
@@ -197,7 +197,7 @@
 			"Cannot be built on [Fissure] tiles",
 			"Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"[+2 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -206,7 +206,7 @@
 	{
 		"name": "Borough",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
-		"turnsToBuild": 15,
+		"turnsToBuild": 8,
 		"techRequired": "Computers",
 		"production": 1,
 		"food": 2,
@@ -237,7 +237,7 @@
 		"name": "Borehole",
 		"techRequired": "Advanced Materials",
 		"terrainsCanBeBuiltOn": ["Hill", "Fissure"],
-		"turnsToBuild": 10,
+		"turnsToBuild": 7,
 		"production": 4,
 		"science": 1,
 		"uniques": [
@@ -257,7 +257,7 @@
 	// Resource-specific
 	{
 		"name": "Research site",
-		"turnsToBuild": 7,
+		"turnsToBuild": 4,
 		"techRequired": "Secrets of the Past",
 		"uniques": [
 			"Does not need removal of [Forest]",
@@ -270,7 +270,7 @@
 	},
 	{
 		"name": "Salvage site",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -285,7 +285,7 @@
 		"name": "Water pump",
 		"terrainsCanBeBuiltOn": ["Spring"],
 		"gold": 3,
-		"turnsToBuild": 7,
+		"turnsToBuild": 3,
 		"techRequired": "Iron Working",
 		"uniques": [
 			"[+1 Gold] <after discovering [Decontamination]>",
@@ -295,7 +295,7 @@
 	},
 	{
 		"name": "Camp",
-		"turnsToBuild": 5,
+		"turnsToBuild": 2,
 		"uniques": [
 			"Food source",
 			"Does not need removal of [Forest]",
@@ -309,7 +309,7 @@
 	},
 	{
 		"name": "Oil well",
-		"turnsToBuild": 9,
+		"turnsToBuild": 5,
 		"techRequired": "Machinery",
 		"uniques": [
 			"Provides [1] [Oil]",
@@ -322,9 +322,9 @@
 	{
 		"name": "Energy farm",
 		"terrainsCanBeBuiltOn": ["Swamp"],
-		"production": 1,
-		"gold": -1,
-		"turnsToBuild": 7,
+		"production": 2,
+		"gold": 0,
+		"turnsToBuild": 4,
 		"techRequired": "Biology",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
@@ -337,6 +337,7 @@
 		"name": "Fishing Boats",
 		"techRequired": "Sailing",
 		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"food": 2,
 		"uniques": [
 			"Food source",
 			"Obsolete with [Genetics]",
@@ -348,7 +349,7 @@
 	{
 		"name": "Bioculture",
 		"techRequired": "Genetics",
-		"food": 2,
+		"food": 4,
 		"turnsToBuild": 10,
 		"uniques": [
 			"Food source",
@@ -374,7 +375,7 @@
 		],
 		"turnsToBuild": 4,
 		"uniques": [
-			"Gives a defensive bonus of [25]%",
+			"Gives a defensive bonus of [50]%",
 			"Can be built outside your borders"
 		],
 		"shortcutKey": "D"
@@ -393,7 +394,7 @@
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": [
-			"Gives a defensive bonus of [50]%",
+			"Gives a defensive bonus of [100]%",
 			"Can be built outside your borders"
 		],
 		"shortcutKey": "O"
@@ -407,7 +408,7 @@
 		"food": 3,
 		"gold": 2,
 		"production": 2,
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"uniques": [
 			"[+1 Production] <after discovering [Chemistry]>",
 			"[+1 Food, +1 Gold] <after discovering [Decontamination]>",
@@ -420,37 +421,36 @@
 	// Transportation
 	{
 		"name": "Road",
-		"turnsToBuild": 4,
+		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Construction",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "R"
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Railroads",
 		"uniques": [
 			"Can be built outside your borders",
 			"Costs [1] [Gold] per turn when in your territory"
 		],
 		"shortcutKey": "R"
 	},
-	{
-		"name": "Railroad",
-		"turnsToBuild": 10,
-		"terrainsCanBeBuiltOn": ["Land"],
-		"techRequired": "Railroads",
-		"uniques": [
-			"Can be built outside your borders",
-			"Costs [2] [Gold] per turn when in your territory"
-		],
-		"shortcutKey": "R"
-	},
 	// Removals
 	{
 		"name": "Remove Forest", // Remove Rubble
-		"turnsToBuild": 4,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Jungle", // Remove Ruins
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Jungle"],
 		"techRequired": "Construction",
 		"uniques": ["Can be built outside your borders"],
@@ -458,7 +458,7 @@
 	},
 	{
 		"name": "Remove Fallout",
-		"turnsToBuild": 12,
+		"turnsToBuild": 6,
 		"terrainsCanBeBuiltOn": ["Fallout"],
 		"techRequired": "Decontamination",
 		"uniques": ["Can be built outside your borders"],
@@ -466,7 +466,7 @@
 	},
 	{
 		"name": "Remove Toxic Waste",
-		"turnsToBuild": 15,
+		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Toxic Waste"],
 		"techRequired": "Decontamination",
 		"uniques": ["Can be built outside your borders"],
@@ -492,7 +492,7 @@
         {
                 "name": "Repair",
                 "terrainsCanBeBuiltOn": ["Land"],
-                "turnsToBuild": 2,
+                "turnsToBuild": 1,
                 "shortcutKey": "E",
                 "uniques": ["Unbuildable"],
                 "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
@@ -500,7 +500,7 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
-		"science": 4,
+		"science": 8,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -513,8 +513,8 @@
 	},
 	{
 		"name": "Settlement",
-		"gold": 1,
-		"culture": 1,
+		"gold": 3,
+		"culture": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -532,7 +532,7 @@
 	},
 	{
 		"name": "Outpost",
-		"production": 2,
+		"production": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -547,7 +547,7 @@
 	},
 	{
 		"name": "Narcotics farm",
-		"culture": 2,
+		"culture": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -561,7 +561,7 @@
 	},
 	{
 		"name": "Prison farm",
-		"production": 2,
+		"production": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -575,9 +575,9 @@
 	},
 	{
 		"name": "Oracle",
-		"faith": 4,
-		"culture": 1,
-		"happiness": 1,
+		"faith": 6,
+		"culture": 3,
+		"happiness": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -591,7 +591,7 @@
 	},
 	{
 		"name": "Manufactory",
-		"production": 3,
+		"production": 8,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -606,8 +606,8 @@
 	},
 	{
 		"name": "Citadel",
-		"science": 2,
-		"gold": 2,
+		"science": 4,
+		"gold": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Gives a defensive bonus of [100]%",
@@ -620,7 +620,7 @@
 	},
 	{
 		"name": "Seminary",
-		"faith": 3,
+		"faith": 6,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -632,8 +632,8 @@
 	},
 	{
 		"name": "Crystal Refinery",
-		"science": 2,
-		"gold": 1,
+		"science": 4,
+		"gold": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Refinery",
@@ -649,16 +649,16 @@
 	},
 	{
 		"name": "Factory farm",
-		"food": 4,
+		"food": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Food source",
 			"Gives a defensive bonus of [10]%",
-			"[+1 Food] <after discovering [Botany]>",
-			"[+1 Food] <after discovering [Ecology]>",
-			"[+1 Food] <after discovering [Hydroponics]>",
-			"[+1 Production, +1 Food] <after discovering [Genetics]>",
+			"[+2 Food] <after discovering [Botany]>",
+			"[+2 Food] <after discovering [Ecology]>",
+			"[+2 Food] <after discovering [Hydroponics]>",
+			"[+3 Production, +2 Food] <after discovering [Genetics]>",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
@@ -768,7 +768,7 @@
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Gives a defensive bonus of [25]%",
+			"Gives a defensive bonus of [10]%",
 			"Unpillagable",
 			"Unbuildable"
 		]
