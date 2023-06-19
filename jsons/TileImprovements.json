@@ -7,8 +7,7 @@
 		"uniques": [
 			"Food source",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+2 Food, -1 Gold] from [Fresh water] tiles",
-			"[+1 Food] <after discovering [Land Remediation]>",
+			"[+2 Food] from [Fresh water] tiles",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -17,7 +16,7 @@
 	{
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands"],
-		"production": 1,
+		"production": 2,
 		"turnsToBuild": 5,
 		"techRequired": "Ecology",
 		"uniques": [
@@ -25,7 +24,7 @@
 			"Natural tile",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
-			"[+2 Food, -1 Gold] from [Fresh water] tiles",
+			"[+2 Food] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Land Remediation]>",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -49,10 +48,10 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 4,
+		"food": 1,
 		"techRequired": "Redomestication",
 		"uniques": [
 			"Food source",
-			"[+1 Food] <after discovering [Genetics]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -71,7 +70,7 @@
 			"Tundra",
 			"Permafrost"
 		],
-		"gold": 2,
+		"gold": 3,
 		"turnsToBuild": 4,
 		"uniques": [
 			"[+1 Gold] <after discovering [Plastics]>",
@@ -92,6 +91,8 @@
 		"techRequired": "Electronics",
 		"uniques": [
 			"Provides [1] [Power]",
+			"Provides [1] [Power] <after discovering [Manufacturing]>",
+			"Provides [1] [Power] <after discovering [Computers]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "L"
@@ -101,7 +102,7 @@
 		"turnsToBuild": 5,
 		"techRequired": "Steel",
 		"uniques": [
-			"Provides [1] [Power]",
+			"Provides [2] [Power]",
 			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -111,15 +112,12 @@
 	{
 		"name": "Nature preserve",
 		"turnsToBuild": 7,
-		"techRequired": "Atmosphere Remediation",
-		"food": 2,
-		"gold": 1,
-		"culture": 1,
-		"happiness": 1,
+		"techRequired": "Land Remediation",
+		"culture": 2,
+		"happiness": 3,
 		"uniques": [
 			"Food source",
 			"Natural tile",
-			"[+1 Food] <with [Exotic Seeds]>",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -132,8 +130,10 @@
 		"name": "Artificial oasis",
 		"turnsToBuild": 8,
 		"techRequired": "Geo Engineering",
-		"food": 3,
-		"gold": 1,
+		"food": 2,
+		"gold": 2,
+		"culture": 1,
+		"happiness": 2,
 		"uniques": [
 			"Food source",
 			"Natural tile",
@@ -148,9 +148,9 @@
 	{
 		"name": "Artificial glacier",
 		"terrainsCanBeBuiltOn": ["Permafrost"],
-		"gold": 3,
-		"production": 1,
-		"food": 1,
+		"gold": 1,
+		"culture": 2,
+		"happiness": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Geo Engineering",
 		"uniques": [
@@ -174,12 +174,12 @@
 			"Food source",
 			"Natural tile",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food, -1 Gold] from [Fresh water] tiles",
-			"Cannot be built on [Permafrost] tiles",
+			"[+2 Food] from [Fresh water] tiles",
+			"Cannot be built on [Permafrost] tiles <before discovering [Geo Engineering]>",
 			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Food, +1 Happiness] for each adjacent [Tree plantation]",
 			"[+3 Culture] for each adjacent [Nature preserve]",
-			"[+1 Gold] for each adjacent [Artificial oasis]",
+			"[+2 Gold] for each adjacent [Artificial oasis]",
 			"[+1 Production] for each adjacent [Terrace farm]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -195,9 +195,8 @@
 		"uniques": [
 			"Food source",
 			"Cannot be built on [Fissure] tiles",
-			"Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
-			"[+2 Food, -1 Gold] from [Fresh water] tiles",
+			"[+2 Food] from [Fresh water] tiles",
 			"[+1 Food, +1 Production] <after discovering [Geo Engineering]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -209,7 +208,10 @@
 		"turnsToBuild": 8,
 		"techRequired": "Computers",
 		"production": 1,
-		"food": 2,
+		"culture": 1,
+		"food": 1,
+		"science": 1,
+		"happiness": 1,
 		"uniques": [
 			"Food source",
 			"Does not need removal of [Forest]",
@@ -237,19 +239,19 @@
 		"name": "Borehole",
 		"techRequired": "Advanced Materials",
 		"terrainsCanBeBuiltOn": ["Hill", "Fissure"],
-		"turnsToBuild": 7,
-		"production": 4,
-		"science": 1,
+		"turnsToBuild": 15,
+		"production": 5,
+		"science": 3,
 		"uniques": [
 			"[+1 Science, +1 Production] <after discovering [Geo Engineering]>",
-			"Provides [1] [Uranium] <in [Uranium] tiles>",
-			"Provides [1] [Coal] <in [Coal] tiles>",
-			"Provides [1] [Aluminum] <in [Aluminum] tiles>",
-			"Provides [1] [Silver] <in [Silver] tiles>",
-			"Provides [1] [Gems] <in [Gems] tiles>",
-			"Provides [1] [Salt] <in [Salt] tiles>",
-			"Provides [1] [Metal] <in [Metal] tiles>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Provides [3] [Uranium] <in [Uranium] tiles>",
+			"Provides [3] [Coal] <in [Coal] tiles>",
+			"Provides [3] [Aluminum] <in [Aluminum] tiles>",
+			"Provides [3] [Silver] <in [Silver] tiles>",
+			"Provides [3] [Gems] <in [Gems] tiles>",
+			"Provides [3] [Salt] <in [Salt] tiles>",
+			"Provides [3] [Metal] <in [Metal] tiles>",
+			"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "B"
 	},
@@ -258,6 +260,7 @@
 	{
 		"name": "Research site",
 		"turnsToBuild": 4,
+		"science": 1,
 		"techRequired": "Secrets of the Past",
 		"uniques": [
 			"Does not need removal of [Forest]",
@@ -271,6 +274,7 @@
 	{
 		"name": "Salvage site",
 		"turnsToBuild": 3,
+		"production": 1,
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
@@ -284,8 +288,8 @@
 	{
 		"name": "Water pump",
 		"terrainsCanBeBuiltOn": ["Spring"],
-		"gold": 3,
-		"turnsToBuild": 3,
+		"gold": 5,
+		"turnsToBuild": 5,
 		"techRequired": "Iron Working",
 		"uniques": [
 			"[+1 Gold] <after discovering [Decontamination]>",
@@ -322,14 +326,14 @@
 	{
 		"name": "Energy farm",
 		"terrainsCanBeBuiltOn": ["Swamp"],
-		"production": 2,
+		"production": 0,
 		"gold": 0,
-		"turnsToBuild": 4,
+		"turnsToBuild": 8,
 		"techRequired": "Biology",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
-			"Provides [1] [Oil]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Provides [3] [Oil]",
+			"Pillaging this improvement yields approximately [+25 Gold]"
 		],
 		"shortcutKey": "Y"
 	},
@@ -349,14 +353,14 @@
 	{
 		"name": "Bioculture",
 		"techRequired": "Genetics",
-		"food": 4,
+		"food": 5,
 		"turnsToBuild": 10,
 		"uniques": [
 			"Food source",
 			"Can only be built to improve a resource",
 			"Cannot be built on [Water] tiles <before discovering [Ocean Remediation]>",
 			"[+1 Food] <after discovering [Atmosphere Remediation]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "C"
 	},
@@ -373,7 +377,7 @@
 			"Permafrost",
 			"Swamp"
 		],
-		"turnsToBuild": 4,
+		"turnsToBuild": 3,
 		"uniques": [
 			"Gives a defensive bonus of [50]%",
 			"Can be built outside your borders"
@@ -391,7 +395,7 @@
 			"Permafrost",
 			"Swamp"
 		],
-		"turnsToBuild": 6,
+		"turnsToBuild": 10,
 		"techRequired": "Engineering",
 		"uniques": [
 			"Gives a defensive bonus of [100]%",
@@ -421,7 +425,7 @@
 	// Transportation
 	{
 		"name": "Road",
-		"turnsToBuild": 2,
+		"turnsToBuild": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Construction",
 		"uniques": [
@@ -475,7 +479,7 @@
 	// These are unique and have unique in-game checks related to them
 	{
 		"name": "Remove Road",
-		"turnsToBuild": 2,
+		"turnsToBuild": 1,
 		"uniques": ["Can be built outside your borders"]
 	},
 	{
@@ -508,13 +512,13 @@
 			"[+2 Science] <after discovering [Electronics]>",
 			"[+2 Science] <after discovering [Decryption]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
 		"name": "Settlement",
-		"gold": 3,
-		"culture": 3,
+		"gold": 4,
+		"culture": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -527,12 +531,12 @@
 			"Removes removable features when built",
 			"Can be built just outside your borders",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
 		"name": "Outpost",
-		"production": 4,
+		"production": 6,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -542,7 +546,7 @@
 			"Removes removable features when built",
 			"Can be built just outside your borders",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
@@ -556,12 +560,12 @@
 			"[+1 Culture, +1 Food] <after discovering [Hydroponics]>",
 			"Provides [1] [Narcotics]",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
 		"name": "Prison farm",
-		"production": 4,
+		"production": 8,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -570,7 +574,7 @@
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
@@ -586,7 +590,7 @@
 			"Provides [1] [Oil] <after discovering [Biology]>",
 			"Removes removable features when built",
 			"[+1 Culture, +1 Faith] <after discovering [Chemistry]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
@@ -620,20 +624,20 @@
 	},
 	{
 		"name": "Seminary",
-		"faith": 6,
+		"faith": 8,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Culture, +1 Faith] <after discovering [Education]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
 		"name": "Crystal Refinery",
-		"science": 4,
-		"gold": 2,
+		"science": 6,
+		"gold": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Refinery",
@@ -644,12 +648,12 @@
 			"Can be built just outside your borders",
 			"Constructing it will take over the tiles around it and assign them to your closest city",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{
 		"name": "Factory farm",
-		"food": 10,
+		"food": 8,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
@@ -660,7 +664,7 @@
 			"[+2 Food] <after discovering [Hydroponics]>",
 			"[+3 Production, +2 Food] <after discovering [Genetics]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 
@@ -734,7 +738,7 @@
 			"Unpillagable",
 			"Irremovable",
 			"Unbuildable",
-			"Ensures a minimum tile yield of [+2 Food, +1 Production]"
+			"Ensures a minimum tile yield of [+3 Food, +2 Production, +1 Culture]"
 		],
 		"civilopediaText": [
 			{

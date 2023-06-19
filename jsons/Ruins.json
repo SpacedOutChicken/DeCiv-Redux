@@ -60,14 +60,14 @@
 		"name": "reveal nearby Barbarian camps",
 		"notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
 		"uniques": [
-			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
+			"Reveal up to [All] [Barbarian encampment] within a [20] tile radius"
 		]
 	},
 	{
 		"name": "find a crudely-drawn map",
 		"notification": "The camp contains maps of the nearby area!",
 		"uniques": [
-			"From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"
+			"From a randomly chosen tile [5] tiles away, reveal tiles up to [10] tiles away with [80]% chance"
 		]
 	},
 	{

@@ -15,7 +15,7 @@
 		"uniques": [
 			"[+1 Faith] from [Tundra] tiles without [Jungle] [in this city]",
 			"[+1 Faith] from [Permafrost] tiles without [Jungle] [in this city]",
-			"[+1 Happiness] from every [Artificial glacier]"
+			"[+1 Faith, +1 Happiness] from every [Artificial glacier]"
 		]
 	},
 	{
@@ -23,8 +23,8 @@
 		"type": "Pantheon",
 		"uniques": [
 			"[+1 Faith] from every [Desert]",
-			"[+1 Happiness] from every [Oasis]",
-			"[+1 Happiness] from every [Artificial oasis]"
+			"[+1 Faith, +1 Happiness] from every [Oasis]",
+			"[+1 Faith, +1 Happiness] from every [Artificial oasis]"
 		]
 	},
 	{
@@ -33,7 +33,7 @@
 		"uniques": [
 			// This should be worded better
 			"[All] Units adjacent to this city heal [+30] HP per turn when healing",
-			"[+1 Faith] from every [Hospital]"
+			"[+2 Faith] from every [Hospital]"
 		]
 	},
 	{
@@ -123,18 +123,18 @@
 		"name": "Blessed Green",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture] from every [Tree plantation]",
-			"[+1 Culture] from every [Farm]",
-			"[+1 Culture] from every [Grassland]",
-			"[+1 Culture] from every [Factory farm]"
+			"[+1 Culture, +1 Food] from every [Tree plantation]",
+			"[+1 Culture, +1 Food] from every [Farm]",
+			"[+1 Culture, +1 Food] from every [Grassland]",
+			"[+2 Culture, +2 Food] from every [Factory farm]"
 		]
 	},
 	{
 		"name": "Blessed Steel",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture, +1 Faith] from every [Metal]",
-			"[+1 Culture, +1 Faith] from every [Scrap]"
+			"[+1 Culture, +1 Faith, +1 Production] from every [Metal]",
+			"[+1 Culture, +1 Faith, +1 Production] from every [Scrap]"
 		]
 	},
 	{
@@ -149,15 +149,15 @@
 		"name": "Sacred Ruins",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Culture] from every [Jungle]",
-			"[+1 Culture] from every [Forest]",
-			"[+1 Culture] from every [Sunken Ruins]"
+			"[+2 Culture] from every [Jungle]",
+			"[+2 Culture] from every [Forest]",
+			"[+2 Culture] from every [Sunken Ruins]"
 		]
 	},
 	{
 		"name": "Sacred Waters",
 		"type": "Pantheon",
-		"uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
+		"uniques": ["[+3 Happiness, +3 Faith] in cities on [River] tiles"]
 	},
 	{
 		"name": "Strength of the Earth",
@@ -173,8 +173,8 @@
         "name": "Home and Hearth",
         "type": "Pantheon",
         "uniques": [
-            "[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter]",
-			"[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Bomb Shelter] <in cities with at least [5] [Population]>"
+            "[+2 Food, +2 Production, +2 Gold, +2 Happiness, +2 Faith, +2 Science, +2 Culture] from every [Bomb Shelter]",
+			"[+2 Food, +2 Production, +2 Gold, +2 Happiness, +2 Faith, +2 Science, +2 Culture] from every [Bomb Shelter] <in cities with at least [5] [Population]>"
         ]
     },
 	{
@@ -190,7 +190,9 @@
 		"name": "Hymns of Praise",
 		"type": "Follower",
 		"uniques": [
-			"[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"
+			"[+1 Happiness] from every [Shrine]",
+			"[+2 Happiness] from every [Monastery]",
+			"[+3 Happiness] from every [Megachurch]"
 		]
 	},
 	{
@@ -206,7 +208,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Production] <in cities with at least [1] [Specialists]>"
+			"[+1 Production] from every [Specialist]"
 		]
 	},
 	{
@@ -217,13 +219,13 @@
 	{
 		"name": "Blessing of Peace",
 		"type": "Follower",
-		"uniques": ["[+15]% growth [in this city] <when not at war>"]
+		"uniques": ["[+25]% growth [in this city] <when not at war>"]
 	},
 	{
 		"name": "Art of War",
 		"type": "Follower",
 		"uniques": [
-			"May buy [Military] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"
+			"May buy [Military] units with [Faith] for [1.5] times their normal Production cost"
 		]
 	},
 	{
@@ -261,14 +263,7 @@
 			"May buy [Divinity School] buildings for [200] [Faith] [in cities following this religion]"
 		]
 	},
-	{
-		"name": "Happiness in Faith",
-		"type": "Follower",
-		"uniques": [
-			"[+2 Happiness] from every [Monastery] <in cities with at least [5] [Followers of this Religion]>"
-		]
-	},
-	{
+		{
 		"name": "Labor of Love",
 		"type": "Follower",
 		"uniques": ["[+1]% [Production] from every follower, up to [15]%"]
@@ -341,7 +336,7 @@
 		"name": "World Church",
 		"type": "Founder",
 		"uniques": [
-			"[+1 Culture] from every [5] global followers [in foreign cities]"
+			"[+1 Culture] from every [5] global followers [in all cities]"
 		]
 	},
 
@@ -358,14 +353,14 @@
 		"name": "Illuminated Order",
 		"type": "Enhancer",
 		"uniques": [
-			"[Faith] cost of purchasing [Philosopher] units [-30]%",
-			"[Faith] cost of purchasing [Censor] units [-30]%"
+			"[Faith] cost of purchasing [Philosopher] units [-50]%",
+			"[Faith] cost of purchasing [Censor] units [-50]%"
 		]
 	},
 	{
 		"name": "Itinerant Preachers",
 		"type": "Enhancer",
-		"uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+		"uniques": ["Religion naturally spreads to cities [+10] tiles away"]
 	},
 	{
 		"name": "Just War",
@@ -380,14 +375,14 @@
 		"type": "Enhancer",
 		"uniques": [
 			"[+25]% Spread Religion Strength <for [Great Sage] units>",
-			"[-25]% Faith cost of generating Great Prophet equivalents",
-			"[Faith] cost for [Great Sage] units [-25]%"
+			"[-50]% Faith cost of generating Great Prophet equivalents",
+			"[Faith] cost for [Great Sage] units [-50]%"
 		]
 	},
 	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[+25]% Spread Religion Strength <for [Philosopher] units>"]
+		"uniques": ["[+50]% Spread Religion Strength"]
 	},
 	{
 		"name": "Religious Texts",

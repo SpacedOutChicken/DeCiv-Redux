@@ -39,6 +39,7 @@
 				"name": "Secrets of the Past",
 				"row": 5,
 				"prerequisites": ["The Wheel"],
+				"uniques": ["[+10]% [Faith] [in all cities]"],
 				"quote": "'And the apostates cried, abandon your works, lest all the world be swallowed by the deluge. And many indeed came to follow them. Fools they were to defy the Spark! For did He not promise to never again drown the land? And, in punishment for their hubris, He sent the great flood of fire; and the unbelievers were turned to dust.' - Nathaneal Getty, priest of Ignis"
 			},
 			{
@@ -66,6 +67,7 @@
 				"name": "Writing",
 				"row": 5,
 				"prerequisites": ["Secrets of the Past"],
+				"uniques": ["[+10]% [Science] [in all cities]"],
 				"quote": "'And the things which shall be written out of the book shall be of great worth unto the children of men...' - Deseret Nation manuscript, undated"
 			},
 			{
@@ -85,8 +87,8 @@
 				"name": "Trade",
 				"row": 10,
 				"prerequisites": ["Construction"],
-				"uniques": ["Enables Open Borders agreements"],
-				"quote": "'I know that all of us here have earned our places beyond doubt. But we are not safe, even here, and we cannot afford to stand still. I need your support today. I was appointed to this position not to sit behind a desk, but to fix problems, and that is what I intend to do...' - John Kruger"
+				"uniques": ["Enables Open Borders agreements", "[+10]% [Culture] [in all cities]"],
+				"quote": "'I know that all of us here have earned our places beyond doubt. But we are not safe, even here, and we cannot afford to stand still. I need your support today. I was appointed to this position not to sit behind a desk, but to fix problems, and that is what I intend to do...' - John Galt"
 			}
 		]
 	},
@@ -111,6 +113,7 @@
 				"name": "Botany",
 				"row": 3,
 				"prerequisites": ["Redomestication", "Writing"],
+				"uniques": ["[+10]% [Food] [in all cities]"],
 				"quote": "'Be at peace in the knowledge that all the neoliberals will die with the biosphere.' - Eric Price"
 			},
 
@@ -119,14 +122,14 @@
 				"row": 6,
 				"prerequisites": ["Writing"],
 				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire.",
-				"uniques": ["Enables conversion of city production to [Gold]"]
+				"uniques": ["Enables conversion of city production to [Gold]" , "[+10]% [Gold] [in all cities]"]
 			},
 
 			{
 				"name": "Engineering",
 				"row": 8,
 				"prerequisites": ["Mining", "Machinery"],
-				"uniques": ["Roads connect tiles across rivers"],
+				"uniques": ["Roads connect tiles across rivers", "[+10]% [Production] [in all cities]"],
 				"quote": "History doesn't repeat itself but it often rhymes."
 			}
 		]
@@ -155,7 +158,7 @@
 			{
 				"name": "Currency",
 				"row": 10,
-				"prerequisites": ["Chemistry", "Trade", "Engineering"],
+				"prerequisites": ["Chemistry", "Trade"],
 				"quote": "The ancient emporer Covfefe had such a fortune of pure water, he would wash his toilet with it."
 			}
 		]
@@ -178,8 +181,8 @@
 				"row": 3,
 				"prerequisites": ["Education", "Botany"],
 				"uniques": [
-					"[+1 Food] from every [Wasteland] <with [1] to [6] neighboring [Lakes] tiles>",
-					"[+1 Food] from every [Badlands] <with [1] to [6] neighboring [Lakes] tiles>"
+					"[+1 Food] from every [Wasteland]",
+					"[+1 Food] from every [Badlands]"
 				],
 				"quote": "Modern industrial farming is largely a strategy for turning fossil fuels into food."
 			},
