@@ -9,6 +9,7 @@
         "maxXPfromBarbarians":1500,
         "cityStrengthBase":20,
         "cityStrengthPerPop":0.5,
-        "unitUpgradeCost": {}
+        "unitUpgradeCost": {},
+        "ancientRuinCountMultiplier": 0.20
     }
 }
