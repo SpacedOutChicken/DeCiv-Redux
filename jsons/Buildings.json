@@ -3530,7 +3530,7 @@
 		"uniques": [
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"Connects trade routes over water",
-			"Must be less than [3] tiles from [Coast]"
+			"Must have an owned [Coast] within [3] tiles"
 		],
 		"requiredTech": "Navigation"
 	},
@@ -3543,7 +3543,7 @@
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"New [Water] units start with [15] Experience [in this city]",
 			"Connects trade routes over water",
-			"Must be less than [3] tiles from [Coast]"
+			"Must have an owned [Coast] within [3] tiles"
 		],
 		"requiredTech": "Navigation"
 	},

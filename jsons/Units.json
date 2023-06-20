@@ -15,7 +15,7 @@
 		"name": "Civilian Convoy",
 		"unitType": "Civilian",
 		"movement": 3,
-		"cost": 106,
+		"cost": 100,
 		"uniques": [
 			"Founds a new city <by consuming this unit>",
 			"[+15] HP when healing",
@@ -23,7 +23,7 @@
 			"Excess Food converted to Production when under construction",
 			"Requires at least [2] population"
 		],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 0
 	},
 
 	//// Worker
@@ -31,13 +31,13 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": -50,
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action"
 		],
-		"cost": 70
+		"cost": 50
 	},
 	{
 		"name": "Tree Lover",
@@ -45,30 +45,30 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Tellus",
 		"movement": 2,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": -50,
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
 			"[-25]% tile improvement construction time",
 			"Automation is a primary action"
 		],
-		"cost": 70
+		"cost": 50
 	},
 	{
 		"name": "Mounted Worker",
 		"unitType": "Civilian",
 		"movement": 4,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": -50,
 		"requiredTech": "Redomestication",
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Mounted",
 			"Can build [Land] improvements on tiles",
-			"May withdraw before melee ([50]%)",
+			"May withdraw before melee ([75]%)",
 			"Only available <in cities with a [Stable]>",
 			"Automation is a primary action"
 		],
-		"cost": 130
+		"cost": 100
 	},
 	{
 		"name": "Field Scientist",
@@ -76,9 +76,9 @@
 		"replaces": "Mounted Worker",
 		"uniqueTo": "Hexlock",
 		"requiredTech": "Writing",
-		"cost": 70,
+		"cost": 50,
 		"movement": 2,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"uniques": [
 			"Can instantly construct a [C1F3 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [C2N14 Refinery] improvement <by consuming this unit>",
@@ -91,15 +91,15 @@
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 30,
+		"cost": 25,
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Navigation]>",
 			"Uncapturable",
-			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
 			"Automation is a primary action"
 		],
-		"hurryCostModifier": 20
+		"hurryCostModifier": -50
 	},
 	{
 		"name": "Mechanized Worker",
@@ -107,11 +107,11 @@
 		"requiredTech": "Replaceable Parts",
 		"movement": 4,
 		"cost": 200,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 0,
 		"uniques": [
 			"Consumes [1] [Oil]",
 			"Only available <if [Factory] is constructed>",
-			"May withdraw before melee ([50]%)",
+			"May withdraw before melee ([75]%)",
 			"Can build [Land] improvements on tiles",
 			"[-25]% tile improvement construction time",
 			"Automation is a primary action"

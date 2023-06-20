@@ -226,6 +226,7 @@
 	{
 		"name": "Modular island",
 		"techRequired": "Computers",
+		"terrainsCanBeBuiltOn": ["Ocean", "Coast", "Lakes"],
 		"production": 1,
 		"food": 2,
 		"uniques": [
@@ -288,7 +289,7 @@
 	},
 	{
 		"name": "Water pump",
-		"terrainsCanBeBuiltOn": ["Spring"],
+		"terrainsCanBeBuiltOn": ["Spring", "Lakes"],
 		"gold": 5,
 		"turnsToBuild": 5,
 		"techRequired": "Iron Working",
@@ -326,7 +327,7 @@
 	},
 	{
 		"name": "Energy farm",
-		"terrainsCanBeBuiltOn": ["Swamp"],
+		"terrainsCanBeBuiltOn": ["Swamp","Desert"],
 		"production": 0,
 		"gold": 0,
 		"turnsToBuild": 8,
@@ -341,7 +342,7 @@
 	{
 		"name": "Fishing Boats",
 		"techRequired": "Sailing",
-		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"terrainsCanBeBuiltOn": ["Ocean", "Coast", "Lakes"],
 		"food": 2,
 		"uniques": [
 			"Food source",
