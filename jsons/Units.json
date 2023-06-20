@@ -96,7 +96,8 @@
 		"uniques": [
 			"Cannot enter ocean tiles <before discovering [Navigation]>",
 			"Uncapturable",
-			"Can build [Water] improvements on tiles",
+			"May create improvements on water resources",
+			"Can build [All] improvements on tiles",
 			"Automation is a primary action"
 		],
 		"hurryCostModifier": -50
@@ -435,7 +436,7 @@
 		"cost": 50,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
-		"hurryCostModifier": 20,
+		"hurryCostModifier": -25,
 		"uniques": [
 			"Low Tech",
 			"[+50]% Strength <when defending>"

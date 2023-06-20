@@ -32,7 +32,7 @@
 	{
 		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
-		"uniques": ["This Unit gains [10] XP"]
+		"uniques": ["This Unit gains [25] XP"]
 	},
 	{
 		"name": "survivors (adds population to a city)",
@@ -86,7 +86,6 @@
 			"Hidden when religion is disabled",
 			"Only available <after founding a Pantheon>",
 			"Gain enough Faith for [33]% of a Great Prophet",
-			"Hidden after generating a Great Prophet"
 		]
 	}
 ]
