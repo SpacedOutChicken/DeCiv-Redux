@@ -13,7 +13,7 @@
 		"RGB": [107, 167, 193],
 		"uniques": [
 			"[+2] to Fertility for Map Generation",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -63,7 +63,7 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
 			"Becomes [Swamp] when adjacent to [River]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{
@@ -82,7 +82,7 @@
 			"A Region is formed with at least [30]% [Tundra] tiles and [Permafrost] tiles, with priority [1]",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Food] when determining start locations",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	},
 	{

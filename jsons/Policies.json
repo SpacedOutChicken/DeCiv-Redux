@@ -10,7 +10,7 @@
 			"Scientific": 30
 		},
 		"uniques": [
-			"[+3 Culture] [in capital]",
+			"[+3 Culture]  [in all cities connected to capital]",
 			"[-25]% Culture cost of natural border growth [in all cities]"
 		],
 		"policies": [
@@ -27,8 +27,8 @@
 			{
 				"name": "Centralization",
 				"uniques": [
-					"[+10]% growth [in capital]",
-					"[+2 Food] [in capital]"
+					"[+10]% growth [in all cities connected to capital]",
+					"[+2 Food]  [in all cities connected to capital]"
 				],
 				"row": 1,
 				"column": 3
