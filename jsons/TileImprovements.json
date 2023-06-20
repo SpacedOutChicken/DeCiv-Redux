@@ -17,6 +17,7 @@
 		"name": "Tree plantation",
 		"terrainsCanBeBuiltOn": ["Wasteland", "Tundra", "Badlands"],
 		"production": 2,
+		"food": 1,
 		"turnsToBuild": 5,
 		"techRequired": "Ecology",
 		"uniques": [
@@ -48,7 +49,7 @@
 	{
 		"name": "Pasture",
 		"turnsToBuild": 4,
-		"food": 1,
+		"food": 2,
 		"techRequired": "Redomestication",
 		"uniques": [
 			"Food source",
@@ -86,7 +87,7 @@
 			"Wasteland",
 			"Desert"
 		],
-		"production": 2,
+		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Electronics",
 		"uniques": [
@@ -166,22 +167,22 @@
 	},
 	{
 		"name": "Grassland",
-		"terrainsCanBeBuiltOn": ["Badlands","Swamp"],
+		"terrainsCanBeBuiltOn": ["Badlands","Desert","Swamp"],
 		"turnsToBuild": 8,
-		"food": 3,
+		"food": 2,
 		"techRequired": "Land Remediation",
 		"uniques": [
 			"Food source",
 			"Natural tile",
 			"Can also be built on tiles adjacent to fresh water",
-			"[+2 Food] from [Fresh water] tiles",
+			"[+3 Food] from [Fresh water] tiles",
 			"Cannot be built on [Permafrost] tiles <before discovering [Geo Engineering]>",
 			"Cannot be built on [Desert] tiles <before discovering [Geo Engineering]>",
 			"[+1 Food, +1 Happiness] for each adjacent [Tree plantation]",
-			"[+3 Culture] for each adjacent [Nature preserve]",
+			"[+2 Culture] for each adjacent [Nature preserve]",
 			"[+2 Gold] for each adjacent [Artificial oasis]",
-			"[+1 Production] for each adjacent [Terrace farm]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"[+2 Production] for each adjacent [Terrace farm]",
+			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "G"
 	},
@@ -346,7 +347,6 @@
 			"Food source",
 			"Obsolete with [Genetics]",
 			"[+1 Food] <after discovering [Oceanography]>",
-			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
 	},
@@ -418,7 +418,7 @@
 			"[+1 Food, +1 Gold] <after discovering [Decontamination]>",
 			"Provides [1] [Uranium] <in [Fallout] tiles> <after discovering [Decontamination]>",
 			"Provides [1] [Oil] <in [Toxic Waste] tiles> <after discovering [Decontamination]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"],
+			"Pillaging this improvement yields approximately [+30 Gold]"],
 		"shortcutKey": "I"
 	},
 
@@ -605,7 +605,7 @@
 			"[+1 Production] <after discovering [Electronics]>",
 			"[+1 Production, +1 Science] <after discovering [Robotics]>",
 			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+50 Gold]"
 		]
 	},
 	{

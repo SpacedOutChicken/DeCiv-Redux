@@ -268,7 +268,12 @@
 				"prerequisites": ["Decontamination", "Refrigeration"],
 				"quote": "There is a plague on Man: his opinion that he knows something."
 			},
-
+			{
+				"name": "Land Remediation",
+				"row": 4,
+				"prerequisites": ["Decontamination"],
+				"quote": "The nation that destroys its soil destroys itself."
+			},
 			{
 				"name": "Electronics",
 				"row": 6,
@@ -308,6 +313,7 @@
 				"prerequisites": ["Laboratory"],
 				"quote": "Thank you. I assure you, I am well aware of the contents of the latest report.\n\nWhat choice is it you think we have? The time for caution is long past. We can only work with the greatest urgency in the hope that we may realize a technological solution. Anything less can lead only to failure, my friends."
 			},
+			
 			{
 				"name": "Plastics",
 				"row": 5,
@@ -336,10 +342,10 @@
 		"wonderCost": 920,
 		"techs": [
 			{
-				"name": "Land Remediation",
-				"row": 2,
-				"prerequisites": ["Hydroponics"],
-				"quote": "The nation that destroys its soil destroys itself."
+				"name": "Ocean Remediation",
+				"row": 1,
+				"prerequisites": ["Plastics", "Land Remediation"],
+				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
 			},
 			{
 				"name": "Computers",
@@ -351,7 +357,12 @@
 				],
 				"quote": "This has been a challenging quarter with falls in demand from states and agencies. Blackwarden Associates has recalibrated its operations across geographies, moving away from security and relief operations in Asia and divesting from the radiological remediation sector. By focusing on core domestic operations for private sector clients, we have successfully generated free cashflows despite adverse market conditions."
 			},
-
+			{
+				"name": "Plastics Recycling",
+				"row": 5,
+				"prerequisites": ["Plastics"],
+				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
+			},
 			{
 				"name": "Gyroscopes",
 				"row": 7,
@@ -401,12 +412,7 @@
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
-			{
-				"name": "Ocean Remediation",
-				"row": 1,
-				"prerequisites": ["Desalination", "Land Remediation"],
-				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
-			},
+			
 			{
 				"name": "Decryption",
 				"row": 4,
@@ -481,12 +487,7 @@
 				"prerequisites": ["Genetics", "Pharmaceuticals"],
 				"quote": "Humanity should study the foundations of heredity. But this will be possible only when science is liberated from superstition and limitation."
 			},
-			{
-				"name": "Plastics Recycling",
-				"row": 3,
-				"prerequisites": ["Lasers"],
-				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
-			},
+			
 			{
 				"name": "Advanced Materials",
 				"row": 8,
