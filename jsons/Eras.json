@@ -72,7 +72,7 @@
 		"embarkDefense": 20,
 		"iconRGB": [63, 81, 182],
 		"uniques": [
-			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			"May buy [Great Sage] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250])"
 		]
 	},
 	{
@@ -90,7 +90,7 @@
 		"embarkDefense": 24,
 		"iconRGB": [33, 150, 243],
 		"uniques": [
-			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			"May buy [Great Sage] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250])"
 		]
 	},
 	{
@@ -108,7 +108,7 @@
 		"embarkDefense": 29,
 		"iconRGB": [0, 150, 136],
 		"uniques": [
-			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			"May buy [Great Sage] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250])"
 		]
 	},
 	{
@@ -126,7 +126,7 @@
 		"embarkDefense": 33,
 		"iconRGB": [76, 176, 81],
 		"uniques": [
-			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			"May buy [Great Sage] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250])"
 		]
 	},
 	{
@@ -144,7 +144,7 @@
 		"embarkDefense": 33,
 		"iconRGB": [76, 176, 81],
 		"uniques": [
-			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			"May buy [Great Sage] units for [500] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250])"
 		]
 	}
 ]

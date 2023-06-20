@@ -71,10 +71,13 @@
 			"Tundra",
 			"Permafrost"
 		],
-		"gold": 3,
+		"gold": 2,
 		"turnsToBuild": 4,
 		"uniques": [
 			"[+1 Gold] <after discovering [Plastics]>",
+			"[+1 Gold] <after discovering [Chemistry]>",
+			"[+1 Gold] <after discovering [Decontamination]>",
+			"[+1 Gold] from [Fresh water] tiles",
 			"Cannot be built on [Fissure] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -103,9 +106,8 @@
 		"turnsToBuild": 5,
 		"techRequired": "Steel",
 		"uniques": [
-			"Provides [2] [Power]",
+			"Provides [1] [Power]",
 			"Cannot be built on [Water] tiles <before discovering [Oceanography]>",
-			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "W"
@@ -232,7 +234,6 @@
 		"uniques": [
 			"Food source",
 			"[+1 Science] <after discovering [Artificial Intelligence]>",
-			"Can only be built to improve a resource",
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
@@ -256,6 +257,32 @@
 			"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "B"
+	},
+
+	{
+		"name": "Water pump",
+		"terrainsCanBeBuiltOn": ["Spring", "Lakes"],
+		"gold": 5,
+		"turnsToBuild": 5,
+		"techRequired": "Iron Working",
+		"uniques": [
+			"[+1 Gold] <after discovering [Decontamination]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Desalinization pump",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"gold": 3,
+		"turnsToBuild": 7,
+		"techRequired": "Desalination",
+		"uniques": [
+			"[+1 Gold] <after discovering [Decontamination]>",
+			"Provides [2] [Salt]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "W"
 	},
 
 	// Resource-specific
@@ -287,18 +314,7 @@
 		],
 		"shortcutKey": "S"
 	},
-	{
-		"name": "Water pump",
-		"terrainsCanBeBuiltOn": ["Spring", "Lakes"],
-		"gold": 5,
-		"turnsToBuild": 5,
-		"techRequired": "Iron Working",
-		"uniques": [
-			"[+1 Gold] <after discovering [Decontamination]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "W"
-	},
+	
 	{
 		"name": "Camp",
 		"turnsToBuild": 2,
@@ -333,7 +349,6 @@
 		"turnsToBuild": 8,
 		"techRequired": "Biology",
 		"uniques": [
-			"Can also be built on tiles adjacent to fresh water",
 			"Provides [3] [Oil]",
 			"Pillaging this improvement yields approximately [+25 Gold]"
 		],
@@ -342,7 +357,7 @@
 	{
 		"name": "Fishing Boats",
 		"techRequired": "Sailing",
-		"terrainsCanBeBuiltOn": ["Ocean", "Coast", "Lakes"],
+		"terrainsCanBeBuiltOn": ["Water"],
 		"food": 2,
 		"uniques": [
 			"Food source",
