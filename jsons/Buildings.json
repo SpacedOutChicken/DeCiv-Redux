@@ -249,7 +249,7 @@
 		"cost": 1,
 		"uniques": [
 			"Can only be built [in capital]",
-			"[+1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
+			"[+2 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
 			"Gain a free [Lighthouse] [in this city]"
 		],
@@ -329,7 +329,7 @@
 	// Cultural victory
 	{
 		"name": "Utopia Project",
-		"cost": 1500,
+		"cost": 5000,
 		"isNationalWonder": true,
 		"uniques": [
 			"Hidden until [6] social policy branches have been completed",
@@ -458,7 +458,7 @@
 		"isWonder": true,
 		"science": 1,
 		"culture": 1,
-		"cost": 6000,
+		"cost": 15000,
 		"requiredTech": "Globalization",
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
@@ -546,7 +546,7 @@
 		"uniques": [
 		    "[Land] units gain the [Stormfront] promotion",
 			"[+100]% City Strength from defensive buildings",
-			"[+1 Culture] per [4] population [in all cities]",
+			"[+1 Culture] per [5] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
@@ -943,8 +943,8 @@
 		"cost": 30,
 		"isNationalWonder": true,
 		"uniques": [
-			"[+1] population [in all cities]",
-			"Free [Great Scientist] appears"
+			"Free [Great Scientist] appears",
+			"Free [Civilian Convoy] appears"
 		]
 	},
 	{
@@ -953,7 +953,7 @@
 		"isNationalWonder": true,
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Deadrock Clan",
-		"uniques": ["Provides [2] [Slaves]"]
+		"uniques": ["Provides [5] [Slaves]"]
 	},
 	{
 		"name": "Slaver Guild",
@@ -975,7 +975,7 @@
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Cult of Ignis",
 		"isNationalWonder": true,
-		"uniques": ["Provides [3] [Slaves]", "Free [Warrior] appears"]
+		"uniques": ["Provides [5] [Slaves]", "Free [Warrior] appears"]
 	},
 	{
 		"name": "Heavy Equipment",
@@ -1106,8 +1106,8 @@
 		],
 		"percentStatBonus": { "science": 50 },
 		"requiredTech": "Particle Physics",
-		"quote": "God does not play dice.",
-		"civilopediaText": [{ "text": "God does not play dice." }]
+		"quote": "God does not play dice with the universe. Tetris, maybe, but not dice.",
+		"civilopediaText": [{ "text": "God does not play dice with the universe. Tetris, maybe, but not dice." }]
 	},
 	{
 		"name": "AI Project",
@@ -1136,7 +1136,7 @@
 		"isWonder": true,
 		"cost": 75,
 		"science": 1,
-		"production": -3,
+		"production": -1,
 		"uniques": [
 			"Free [Modern Armor] appears",
 			"Only available <in cities with a [Alma Tank Depot]>"
@@ -1152,7 +1152,7 @@
 		"isWonder": true,
 		"cost": 60,
 		"science": 1,
-		"production": -3,
+		"production": -1,
 		"uniques": [
 			"Free [Bomber] appears",
 			"Only available <in cities with a [Alma Air Base]>",
@@ -1171,7 +1171,7 @@
 		"isWonder": true,
 		"cost": 75,
 		"science": 1,
-		"production": -3,
+		"production": -1,
 		"uniques": [
 			"Free [Helicopter] appears",
 			"Only available <in cities with a [Alma Air Base]>",
@@ -1190,7 +1190,6 @@
 		"name": "Ally with Isolationists",
 		"cost": 5,
 		"uniques": [
-			"Limited to [1] per Civilization",
 			"Must have an owned [Isolated Island] within [3] tiles",
 			"[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]",
 			"Only available <in cities without a [Annex Isolationists]>"
@@ -1324,7 +1323,7 @@
 			"Must have an owned [Soft Drinks Factory] within [3] tiles",
 			"Provides [3] [Soft Drinks]",
 			"Empire enters golden age",
-			"[+1 Culture, +1 Happiness, +1 Gold] from [Soft Drinks Factory] tiles [in all cities]",
+			"[+2 Culture, +1 Happiness, +3 Gold] from [Soft Drinks Factory] tiles [in all cities]",
 			"Consumes [1] [Power]",
 			"Unbuildable <if [Distribute Soft Drinks] is constructed>"
 		]
@@ -1448,7 +1447,7 @@
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
 			"Gain a free [Pantheon] belief",
-			"[+1 Food, +3 Faith] from [Mining Pit] tiles [in all cities]",
+			"[+1 Food, +5 Faith] from [Mining Pit] tiles [in all cities]",
 			"Must have an owned [Mining Pit] within [3] tiles",
 			"Unbuildable <if [Mining Operation] is constructed>"
 		],
@@ -1584,7 +1583,6 @@
 
 	{
 		"name": "Content Farm",
-		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"culture": 1,
 		"uniques": [
@@ -1599,7 +1597,6 @@
 		"name": "Software Lab",
 		"uniqueTo": "Hexlock",
 		"replaces": "Content Farm",
-		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"culture": 1,
 		"uniques": [
@@ -1615,7 +1612,6 @@
 		"name": "Resource Management Server",
 		"uniqueTo": "Blackwarden",
 		"replaces": "Content Farm",
-		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"culture": 1,
 		"uniques": [
@@ -1706,10 +1702,10 @@
 		"uniques": [
 			"Requires a [Hospital] in at least [4] cities",
 			"Only available <after adopting [Rationalism]>",
-			"[5]% Food is carried over after population increases [in all cities]",
+			"[10]% Food is carried over after population increases [in all cities]",
 			"[+5]% growth [in all cities] <after adopting [Rationalism Complete]>",
 			"[All] Units adjacent to this city heal [30] HP per turn when healing",
-			"This affect applies to all cities"
+			"This effect applies to all cities"
 		]
 	},
 
@@ -1805,7 +1801,7 @@
 		"name": "Hydroponic Farming",
 		"food": 5,
 		"specialistSlots": { "Farmer": 3 },
-		"maintenance": 1,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"Consumes [1] [Power]",
@@ -1828,7 +1824,7 @@
 	{
 		"name": "Reclamation Vats",
 		"percentStatBonus": { "food": 25 },
-		"maintenance": 4,
+		"maintenance": 3,
 		"hurryCostModifier": 25,
 		"requiredTech": "Human Genome"
 	},
@@ -3068,7 +3064,7 @@
 		"name": "Tidal Plant",
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Must be next to [Coast]",
+			"Must have an owned [Coast] within [3] tiles",
 			"Provides [3] [Power]",
 			"Only available <in cities with a [Library]>"
 		],
@@ -3164,7 +3160,7 @@
 		"gold": 5,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Must be next to [Coast]",
+			"Must have an owned [Coast] within [3] tiles",
 			"[+1 Gold] from [Coast] tiles [in this city]",
 			"[+1 Gold] [in this city] <with [Power]>",
 			"Provides [1] [Salt]",
@@ -3552,9 +3548,9 @@
 		"hurryCostModifier": 25,
 		// "maintenance": 2,
 		"uniques": [
-			// "[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"[+1 Production] from [Water resource] tiles [in this city]",
-			"Must be less than [3] tiles from [Coast]",
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			//"[+1 Production] from [Water resource] tiles [in this city]",
+			"Must have an owned [Coast] within [3] tiles",
 			"[+15]% Production when constructing [Water] units [in this city]",
 			"Only available <in cities with a [Harbor]>"
 		],
@@ -3565,7 +3561,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must be less than [3] tiles from [Coast]",
+			"Must have an owned [Coast] within [3] tiles",
 			"[+1 Food] from [Coast] tiles [in this city]",
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"Consumes [1] [Power]"

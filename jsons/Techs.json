@@ -17,8 +17,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Decivilized era",
-		"techCost": 60,
-		"buildingCost": 60,
+		"techCost": 30,
+		"buildingCost": 40,
 		"wonderCost": 125,
 		"techs": [
 			{
@@ -59,8 +59,8 @@
 	{
 		"columnNumber": 2,
 		"era": "Decivilized era",
-		"techCost": 120,
-		"buildingCost": 75,
+		"techCost": 80,
+		"buildingCost": 50,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -95,7 +95,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Rediscovering era",
-		"techCost": 250,
+		"techCost": 150,
 		"buildingCost": 100,
 		"wonderCost": 250,
 		"techs": [
@@ -137,7 +137,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Rediscovering era",
-		"techCost": 425,
+		"techCost": 300,
 		"buildingCost": 120,
 		"wonderCost": 300,
 		"techs": [
@@ -166,7 +166,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Neofeudal era",
-		"techCost": 650,
+		"techCost": 500,
 		"buildingCost": 160,
 		"wonderCost": 400,
 		"techs": [
@@ -211,7 +211,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Neofeudal era",
-		"techCost": 1000,
+		"techCost": 800,
 		"buildingCost": 200,
 		"wonderCost": 500,
 		"techs": [
@@ -251,7 +251,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Rebuilding era",
-		"techCost": 1300,
+		"techCost": 1200,
 		"buildingCost": 250,
 		"wonderCost": 625,
 		"techs": [
@@ -267,12 +267,6 @@
 				"uniques": ["Enables conversion of city production to [Science]"],
 				"prerequisites": ["Decontamination", "Refrigeration"],
 				"quote": "There is a plague on Man: his opinion that he knows something."
-			},
-			{
-				"name": "Land Remediation",
-				"row": 4,
-				"prerequisites": ["Decontamination"],
-				"quote": "The nation that destroys its soil destroys itself."
 			},
 			{
 				"name": "Electronics",
@@ -303,7 +297,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Rebuilding era",
-		"techCost": 2000,
+		"techCost": 1750,
 		"buildingCost": 300,
 		"wonderCost": 750,
 		"techs": [
@@ -337,16 +331,30 @@
 	{
 		"columnNumber": 9,
 		"era": "Industrial era",
-		"techCost": 2750,
+		"techCost": 2500,
 		"buildingCost": 360,
 		"wonderCost": 920,
 		"techs": [
 			{
 				"name": "Ocean Remediation",
 				"row": 1,
-				"prerequisites": ["Plastics", "Land Remediation"],
+				"prerequisites": ["Plastics", "Desalination"],
 				"quote": "Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world."
 			},
+			{
+				"name": "Land Remediation",
+				"row": 2,
+				"prerequisites": ["Hydroponics"],
+				"quote": "The nation that destroys its soil destroys itself."
+			},
+			
+			{
+				"name": "Plastics Recycling",
+				"row": 3,
+				"prerequisites": ["Plastics"],
+				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
+			},
+
 			{
 				"name": "Computers",
 				"row": 4,
@@ -357,12 +365,7 @@
 				],
 				"quote": "This has been a challenging quarter with falls in demand from states and agencies. Blackwarden Associates has recalibrated its operations across geographies, moving away from security and relief operations in Asia and divesting from the radiological remediation sector. By focusing on core domestic operations for private sector clients, we have successfully generated free cashflows despite adverse market conditions."
 			},
-			{
-				"name": "Plastics Recycling",
-				"row": 5,
-				"prerequisites": ["Plastics"],
-				"quote": "... Could be the only reason the earth allowed us to be spawned from it in the first place. It wanted plastic for itself. Didn't know how to make it. Needed us."
-			},
+
 			{
 				"name": "Gyroscopes",
 				"row": 7,
@@ -376,6 +379,7 @@
 				"prerequisites": ["Ballistics", "Railroads"],
 				"quote": "The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest."
 			},
+
 			{
 				"name": "Radar",
 				"row": 10,
@@ -408,11 +412,17 @@
 	{
 		"columnNumber": 11,
 		"era": "Postmodern era",
-		"techCost": 4750,
+		"techCost": 5000,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
-			
+			{
+				"name": "Atmosphere Remediation",
+				"row": 1,
+				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
+				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
+			},
+
 			{
 				"name": "Decryption",
 				"row": 4,
@@ -436,7 +446,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Postmodern era",
-		"techCost": 5750,
+		"techCost": 6500,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -477,13 +487,13 @@
 	{
 		"columnNumber": 13,
 		"era": "Information era",
-		"techCost": 7250,
+		"techCost": 8500,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Human Genome",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Genetics", "Pharmaceuticals"],
 				"quote": "Humanity should study the foundations of heredity. But this will be possible only when science is liberated from superstition and limitation."
 			},
@@ -505,10 +515,16 @@
 	{
 		"columnNumber": 14,
 		"era": "Information era",
-		"techCost": 10000,
+		"techCost": 12500,
 		"buildingCost": 750,
 		"wonderCost": 2000,
 		"techs": [
+			{
+				"name": "Geo Engineering",
+				"row": 2,
+				"prerequisites": ["Atmosphere Remediation"],
+				"quote": "It always seems impossible until it's done."
+			},
 			{
 				"name": "Particle Physics",
 				"row": 4,
@@ -532,16 +548,11 @@
 	{
 		"columnNumber": 15,
 		"era": "New Future era",
-		"techCost": 17500,
+		"techCost": 20000,
 		"buildingCost": 750,
 		"wonderCost": 2000,
 		"techs": [
-			{
-				"name": "Atmosphere Remediation",
-				"row": 1,
-				"prerequisites": ["Plastics Recycling", "Ocean Remediation"],
-				"quote": "All analysed pathways limiting warming to 1.5°C with no or limited overshoot use CO2 removal to some extent to neutralize emissions."
-			},
+			
 			{
 				"name": "Artificial Intelligence",
 				"row": 6,
@@ -561,16 +572,10 @@
 	{
 		"columnNumber": 16,
 		"era": "New Future era",
-		"techCost": 25000,
+		"techCost": 35000,
 		"buildingCost": 750,
 		"wonderCost": 2000,
 		"techs": [
-			{
-				"name": "Geo Engineering",
-				"row": 2,
-				"prerequisites": ["Atmosphere Remediation"],
-				"quote": "It always seems impossible until it's done."
-			},
 			{
 				"name": "Future Power",
 				"row": 4,
@@ -588,7 +593,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Singularity era",
-		"techCost": 35000,
+		"techCost": 50000,
 		"buildingCost": 750,
 		"wonderCost": 2000,
 		"techs": [
