@@ -388,7 +388,7 @@
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Electronics]",
-			"[-2 Science] [in all cities] <before discovering [Education]>"
+			"[-1 Science] [in all cities] <before discovering [Education]>"
 		],
 		"cities": [
 			"Eagle Rock",

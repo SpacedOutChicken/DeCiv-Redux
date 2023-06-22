@@ -343,7 +343,7 @@
 		"uniqueTo": "The Patriots",
 		"replaces": "Scout",
 		"movement": 2,
-		"strength": 10,
+		"strength": 15,
 		"interceptRange": 1,
 		"cost": 25,
 		"upgradesTo": "Militia",
@@ -351,7 +351,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Personnel",
-			"[-50]% Strength <vs cities>"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -1189,12 +1188,12 @@
 		"uniqueTo": "The Patriots",
 		"replaces": "Marksman",
 		"upgradesTo": "Black Ops",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
-		"strength": 40,
-		"rangedStrength": 35,
+		"strength": 50,
+		"rangedStrength": 50,
 		"interceptRange": 1,
-		"cost": 300,
+		"cost": 250,
 		"hurryCostModifier": 20,
 		"requiredTech": "The Wheel",
 		"uniques": [
