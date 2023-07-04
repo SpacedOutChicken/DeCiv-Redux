@@ -322,14 +322,6 @@
 	// With Prerequisites
 	{
 		"name": "Reconnaissance I",
-		"prerequisites": [
-			"March",
-			"Blitz",
-			"Extended Range",
-			"Medic II",
-			"Guerilla Warfare II",
-			"Urban Warfare II"
-		],
 		"uniques": ["Ignores terrain cost", "[25]% XP gained from combat"],
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 5,
