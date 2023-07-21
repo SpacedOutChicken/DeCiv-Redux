@@ -49,7 +49,7 @@
 		"name": "God of Labor",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Production] <in cities with at least [3] [Population]>",
+			"[+2 Production] [in cities following this religion] <in cities with at least [3] [Population]>",
 			"[+1 Faith, +1 Production] from every [Factory]"
 		]
 	},
@@ -87,8 +87,8 @@
 		"name": "God of Love",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Happiness, +1 Faith] <in cities with at least [4] [Population]>",
-			"[+1 Happiness, +1 Faith] <in cities with at least [8] [Population]>"
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [4] [Population]>",
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [8] [Population]>"
 		]
 	},
 	{
@@ -206,7 +206,7 @@
 		"name": "Obey the Elders",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Production] <in cities with at least [1] [Specialists]>"
+			"[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"
 		]
 	},
 	{
