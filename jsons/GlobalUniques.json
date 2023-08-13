@@ -75,7 +75,7 @@
 		"[-50]% Strength <for units with [Chemical Weapons]> <vs [Gas Mask] units>",
 		"[-33]% Strength <for units with [Powered Armor]> <vs [{Ranged} {Promotion Nullifier}] units> <when defending>",
 		"[-25]% Strength <for units with [Headhunter]> <vs [{Wounded} {Promotion Nullifier}] units>",
-		"[-20]% Strength <for units with [[Ranger] ability]> <when fighting in [Friendly Land] tiles> <vs [Promotion Nullifier] units>",
+		//"[-20]% Strength <for units with [[Ranger] ability]> <when fighting in [Friendly Land] tiles> <vs [Promotion Nullifier] units>",
 		"[-25]% Strength <for units with [Survivalism]> <when defending> <vs [Promotion Nullifier] units>",
 		"[-10]% Strength <for units with [Super Alloy]> <when defending> <vs [Promotion Nullifier] units>",
 		"[-33]% Strength <for units with [Super Alloy]> <vs [{Ranged} {Promotion Nullifier}] units> <when defending>",
@@ -87,7 +87,10 @@
 		"[-50]% XP gained from combat <for units with [Promotion Nullifier]> <after adopting [Military Tradition]>",
 		
 		// Factory farm food bonus
-		"[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>"
+		"[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>",
+
+		// Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
+        "Aircraft"
 
 		// Unimplemented uniques in the base game below
 		// "[+20]% [Culture] [in all cities] <during a golden age>",
