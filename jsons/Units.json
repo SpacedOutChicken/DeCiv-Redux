@@ -2215,7 +2215,6 @@
 		"requiredTech": "Lasers",
 		"upgradesTo": "Hovercraft",
 		"uniques": [
-			"[+3] Movement <in [Water] tiles>",
 			"[33]% chance to intercept air attacks",
 			"[+1] Sight",
 			"Can move after attacking",
@@ -2241,7 +2240,6 @@
 		"cost": 500,
 		"requiredTech": "Future Materials",
 		"uniques": [
-			"[+4] Movement <in [Water] tiles>",
 			"[50]% chance to intercept air attacks",		
 			"[+1] Sight",
 			"Can move after attacking",
@@ -2269,7 +2267,6 @@
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Automated",
-			"[+3] Movement <in [Water] tiles>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([75]%)",
