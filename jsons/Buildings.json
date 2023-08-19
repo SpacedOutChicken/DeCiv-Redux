@@ -1082,7 +1082,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Consumes [1] [Encrypted Data]",
-			"[+3 Science] [in this city] <with [Power]>",
+			"[+3 Science] [in this city] <when above [1] [Power]>",
 			"Only available <in cities with a [Data Center]>",
 			"Free Technology"
 		],
@@ -1193,7 +1193,7 @@
 			"Limited to [1] per Civilization",
 			"Must have an owned [Isolated Island] within [3] tiles",
 			"[+2 Science, +2 Gold] from [Isolated Island] tiles [in this city]",
-			"Only available <in cities without a [Annex Isolationists]>"
+			"Unbuildable <if [Annex Isolationists] is constructed>"
 		]
 	},
 	{
@@ -1208,7 +1208,7 @@
 			"[+2 Food, +5 Gold, -1 Culture] from [Isolated Island] tiles [in all cities]",
 			"Provides [1] [Weapons]",
 			"Provides [1] [Slaves]",
-			"Only available <in cities without a [Ally with Isolationists]>"
+			"Unbuildable <if [Ally with Isolationists] is constructed>"
 		],
 		"civilopediaText": [
 			{
@@ -1340,7 +1340,7 @@
 			"[+1 Science, +1 Production] from [Army Depot] tiles [in all cities]",
 			"Provides [2] [Weapons]",
 			"Provides [1] [Oil]",
-			"Free [Modern Armor] appears"
+			"Free [Tank] appears"
 		],
 		"quote": "Oh, see the fire is sweepin, our very street today; burns like a red coat carpet, mad bull lost your way... War, children! It's just a shot away!",
 		"civilopediaText": [
@@ -1733,7 +1733,7 @@
 			"Only available <after adopting [Rationalism Complete]>",
 			"Destroyed when the city is captured",
 			"Provides [2] [Power]",
-			"[+1 Happiness, +1 Production] [in this city] <with [Power]>",
+			"[+1 Happiness, +1 Production] [in this city] <when above [1] [Power]>",
 			"All newly-trained [non-air] units [in this city] receive the [Super Alloy] promotion"
 		]
 	},
@@ -1972,7 +1972,7 @@
 		"name": "Domestic Electrification",
 		"isNationalWonder": true,
 		"uniques": [
-			"[+2 Happiness, +2 Culture] [in this city] <with [Power]>",
+			"[+2 Happiness, +2 Culture] [in this city] <when above [1] [Power]>",
 			"[+2 Happiness] [in this city] <with [Data]>",
 			"[+2 Happiness] [in this city] <with [Electronics]>",
 			"[+2 Happiness] [in this city] <with [Machine Parts]>",
@@ -1990,7 +1990,7 @@
 		"uniques": [
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>"
+			"[+1 Happiness, +1 Culture] [in this city] <when above [1] [Power]>"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
@@ -2006,7 +2006,7 @@
 		"uniques": [
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [1] [Power]>",
 			"[+1] population [in this city]",
 			"Unsellable"
 		],
@@ -2020,8 +2020,8 @@
 		"maintenance": 1,
 		"uniques": [
 			"[+33]% Production when constructing [Worker] units [in this city]",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>",
-			"[+1 Food, +3 Production] [in this city] <with [Slaves]>"
+			"[+1 Happiness, +1 Culture] [in this city] <when above [1] [Power]>",
+			"[+1 Food, +3 Production] [in this city] <when above [1] [Slaves]>"
 		],
 		"cost": 40,
 		"hurryCostModifier": -25
@@ -2034,8 +2034,8 @@
 		"happiness": 1,
 		"uniques": [
 			"[+1 Gold] per [3] population [in this city]",
-			"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <with [Power]>",
-			"[+1 Gold] [in this city] <with [Slaves]>",
+			"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <when above [1] [Power]>",
+			"[+1 Gold] [in this city] <when above [1] [Slaves]>",
 			"[+1 Gold] [in this city] <with [Alcohol]>",
 			"[+1 Gold] [in this city] <with [Narcotics]>",
 			"[+1 Gold] [in this city] <with [Refined Narcotics]>"
@@ -2052,7 +2052,7 @@
 		"happiness": 1,
 		"uniques": [
 			"[+50]% Production when constructing [Worker] units [in this city]",
-			"[+1 Gold, +1 Production] [in this city] <with [Slaves]>",
+			"[+1 Gold, +1 Production] [in this city] <when above [1] [Slaves]>",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
 		],
@@ -2065,7 +2065,7 @@
 		"percentStatBonus": { "food": 20 },
 		"uniques": [
 			"[+75]% Production when constructing [Worker] units [in this city]",
-			"[+2 Food] [in this city] <with [Slaves]>",
+			"[+2 Food] [in this city] <when above [1] [Slaves]>",
 			"Only available <with [Slaves]>",
 			"Consumes [1] [Slaves]"
 		],
@@ -2254,7 +2254,7 @@
 		"percentStatBonus": { "production": -5, "gold": 10 },
 		"specialistSlots": { "Merchant": 1 },
 		"uniques": [
-			"[+1 Gold] [in this city] <with [Power]>",
+			"[+1 Gold] [in this city] <when above [1] [Power]>",
 			"[+1 Gold, -1 Production] from [River] tiles [in this city]",
 			"Consumes [1] [Power]",
 			"Only available <in cities with a [Factory]>"
@@ -2274,7 +2274,7 @@
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
 			"Enables construction of [Power] buildings"
@@ -2288,7 +2288,7 @@
 		"hurryCostModifier": 25,
 		"cost": 110,
 		"uniques": [
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"[+1 Science] per [3] population [in this city]",
 			"Free [Field Scientist] appears",
 			"Enables construction of [Power] buildings"
@@ -2303,7 +2303,7 @@
 		"science": 1,
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"[+1 Science] per [4] population [in this city]",
 			"Enables construction of [Power] buildings"
 		],
@@ -2316,7 +2316,7 @@
 		"science": 1,
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"[+1 Science] per [4] population [in this city]",
 			"Enables construction of [Power] buildings"
 		],
@@ -2330,7 +2330,7 @@
 		"culture": 1,
 		"science": 1,
 		"uniques": [
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
 			"[+1 Science] per [4] population [in this city]",
 			"Enables construction of [Power] buildings"
@@ -2360,7 +2360,7 @@
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Education"
@@ -2381,7 +2381,7 @@
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
-			"[+1 Science] [in this city] <with [Power]>",
+			"[+1 Science] [in this city] <when above [1] [Power]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Education"
@@ -2401,7 +2401,7 @@
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
 			"Only available <in cities with a [Library]>",
-			"[+1 Culture] [in this city] <with [Power]>"
+			"[+1 Culture] [in this city] <when above [1] [Power]>"
 		],
 		"requiredTech": "Education"
 	},
@@ -2420,7 +2420,7 @@
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
 			"Only available <in cities with a [Library]>",
-			"[+1 Culture, +1 Science] [in this city] <with [Power]>"
+			"[+1 Culture, +1 Science] [in this city] <when above [1] [Power]>"
 		],
 		"requiredTech": "Education"
 	},
@@ -2431,7 +2431,7 @@
 		"uniques": [
 			"[+1 Science, +1 Culture] per [3] population [in this city]",
 			"Only available <in cities with a [Library]>",
-			"[+1 Culture] [in this city] <with [Power]>"
+			"[+1 Culture] [in this city] <when above [1] [Power]>"
 		],
 		"requiredTech": "Civil Service"
 	},
@@ -2445,7 +2445,7 @@
 		"uniques": [
 			"Enables construction of [Clansman] units",
 			"[+1 Culture] per [3] population [in this city]",
-			"[+1 Gold] [in this city] <with [Slaves]>",
+			"[+1 Gold] [in this city] <when above [1] [Slaves]>",
 			"[+20]% Production when constructing [Military] units [in this city]"
 		],
 		"maintenance": 1,
@@ -2568,7 +2568,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
 			"Consumes [1] [Encrypted Data]",
-			"[+2 Science] [in this city] <with [Power]>",
+			"[+2 Science] [in this city] <when above [1] [Power]>",
 			"Only available <in cities with a [Data Center]>"
 		],
 		"percentStatBonus": { "science": 25 },
@@ -2662,6 +2662,7 @@
 		"requiredTech": "Munitions",
 		"uniques": [
 			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -2717,7 +2718,7 @@
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [1] [Slaves]>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
@@ -2733,7 +2734,7 @@
 		"uniques": [
 			"New [Military] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Slaves]>",
+			"[+1 Happiness, +1 Culture] [in this city] <when above [1] [Slaves]>",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
@@ -2894,7 +2895,7 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <when above [1] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
@@ -2951,7 +2952,7 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"Provides [1] [Weapons]",
-			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <when above [1] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
@@ -2965,7 +2966,7 @@
 		"uniques": [
 			"Provides [1] [Uranium]",
 			"[+1 Production, +1 Culture, -1 Gold] from [Uranium] tiles [in this city]",
-			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <when above [1] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
@@ -3006,7 +3007,7 @@
 		"uniques": [
 			"[+1 Production, +2 Culture, -1 Gold] from [Oil] tiles [in this city]",
 			"Provides [1] [Oil]",
-			"[+2 Production, -1 Food] [in this city] <with [Power]>",
+			"[+2 Production, -1 Food] [in this city] <when above [1] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"Only available <in cities without a [Oil Plant]>"
 		]
@@ -3180,7 +3181,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Coast] tiles [in this city]",
-			"[+1 Gold] [in this city] <with [Power]>",
+			"[+1 Gold] [in this city] <when above [1] [Power]>",
 			"Provides [1] [Salt]",
 			"Consumes [1] [Power]"
 		],
@@ -3196,7 +3197,7 @@
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Coast] tiles [in this city]",
 			"[+1 Gold] per [5] population [in this city]",
-			"[+1 Gold] [in this city] <with [Power]>",
+			"[+1 Gold] [in this city] <when above [1] [Power]>",
 			"Provides [1] [Salt]",
 			"Consumes [1] [Power]"
 		],
@@ -3212,7 +3213,7 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"Enables construction of [advanced] units",
-			"[+3 Production] [in this city] <with [Power]>",
+			"[+3 Production] [in this city] <when above [1] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]"
@@ -3230,7 +3231,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Enables construction of [advanced] units",
-			"[+3 Production] [in this city] <with [Power]>",
+			"[+3 Production] [in this city] <when above [1] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Provides [1] [Encrypted Data]",
@@ -3341,7 +3342,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
 			"Enables construction of [advanced energy] units",
-			"[+1 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <when above [1] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]",
 			"Consumes [1] [Aluminum]"
@@ -3356,8 +3357,8 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[+1 Production] [in this city] <with [Power]>",
-			"[+2 Production] [in this city] <with [Slaves]>",
+			"[+1 Production] [in this city] <when above [1] [Power]>",
+			"[+2 Production] [in this city] <when above [1] [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
 		],

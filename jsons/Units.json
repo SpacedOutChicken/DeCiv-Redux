@@ -84,7 +84,8 @@
 			"Can instantly construct a [C2N14 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [C8H17 Refinery] improvement <by consuming this unit>",
 			"Can instantly construct a [SbF5 Refinery] improvement <by consuming this unit>",
-			"Can instantly construct a [VX Refinery] improvement <by consuming this unit>"
+			"Can instantly construct a [VX Refinery] improvement <by consuming this unit>",
+			"Automation is a primary action"
 		]
 	},
 	{
@@ -1217,7 +1218,7 @@
 		"rangedStrength": 35,
 		"interceptRange": 1,
 		"cost": 200,
-		"requiredTech": "Currency",
+		"requiredTech": "Replaceable Parts",
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"promotions": ["Headhunter", "Skirmish", "Reconnaissance I"],
@@ -2298,8 +2299,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
-			"Cannot intercept [Stealth Fighter] units",
-			"Cannot intercept [Stealth Bomber] units",
+			"Cannot intercept [Stealth] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Factory] is constructed>",
 			"Consumes [1] [Oil]"
@@ -2320,8 +2320,7 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"[100]% chance to intercept air attacks",
-			"Cannot intercept [Stealth Fighter] units",
-			"Cannot intercept [Stealth Bomber] units",
+			"Cannot intercept [Stealth] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -2345,7 +2344,7 @@
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Can only be intercepted by [Stealth Fighter]",
+			"Slealth",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]"
 		],
@@ -2365,8 +2364,7 @@
 		"uniques": [
 			"Automated",
 			"[100]% chance to intercept air attacks",
-			"Cannot intercept [Stealth Fighter] units",
-			"Cannot intercept [Stealth Bomber] units",
+			"Cannot intercept [Stealth] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
@@ -2426,9 +2424,9 @@
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Can only be Intercepted by [Stealth Fighter]",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
+			"Stealth",
 			"Cannot be carried by [Carrier] units"
 		],
 		"attackSound": "bombing"

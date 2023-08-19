@@ -90,7 +90,8 @@
 		"[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>",
 
 		// Filtering uniques must be listed here to tell RulesetValidator they're OK despite untyped
-        "Aircraft"
+        "Aircraft",
+		"Stealth"
 
 		// Unimplemented uniques in the base game below
 		// "[+20]% [Culture] [in all cities] <during a golden age>",

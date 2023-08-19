@@ -691,7 +691,12 @@
 	},
 	{
 		"name": "Evasive Maneuvers",
-		"prerequisites": ["Interception II", "Siege II", "Operational Range"],
+		"prerequisites": [
+			"Interception I",
+			"Siege I",
+			"Bombardment",
+			"Targeting"
+		],
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Fighter", "Bomber"],
 		"column": 9,
@@ -700,11 +705,12 @@
 	{
 		"name": "Air Repair",
 		"prerequisites": [
-			"Interception III",
-			"Siege III",
+			"Interception II",
+			"Siege II",
 			"Sortie",
 			"Evasive Maneuvers",
-			"Logistics"
+			"Logistics",
+			"Operational Range"
 		],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
@@ -722,6 +728,7 @@
 			"Wolfpack III",
 			"Interception III",
 			"Siege III",
+			"Dogfighting III",
 			"Sortie",
 			"Operational Range",
 			"Evasive Maneuvers"
