@@ -1589,7 +1589,7 @@
 		"production": -1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Data]",
+			"Provides [1] [Data] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Broadcast Tower]>"
@@ -1604,7 +1604,7 @@
 		"production": -1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Data]",
+			"Provides [1] [Data] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Broadcast Tower]>",
@@ -1620,7 +1620,7 @@
 		"production": -1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Data]",
+			"Provides [1] [Data] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Broadcast Tower]>",
@@ -1635,7 +1635,7 @@
 		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"uniques": [
-			"Provides [1] [Electronics]",
+			"Provides [1] [Electronics] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Factory]>"
@@ -1647,7 +1647,7 @@
 		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"uniques": [
-			"Provides [1] [Machine Parts]",
+			"Provides [1] [Machine Parts] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Factory]>"
@@ -1659,7 +1659,7 @@
 		"percentStatBonus": { "production": -5 },
 		"production": -1,
 		"uniques": [
-			"Provides [1] [Books]",
+			"Provides [1] [Books] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Only available <after adopting [Monopoly]>",
 			"Only available <in cities with a [Factory]>"
@@ -1846,7 +1846,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[30]% Food is carried over after population increases [in this city]",
+			"[30]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] [in this city] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
@@ -1860,7 +1860,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[15]% Food is carried over after population increases [in this city]",
+			"[15]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+5]% [Food] [in this city] <with [Harvested Organs]>",
@@ -1906,8 +1906,9 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[10]% Food is carried over after population increases [in this city]",
+			"[10]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
 			"Population loss from nuclear attacks [-25]% [in this city]",
+			"Damage to garrison from nuclear attacks [-25]% [in this city]",
 			"All newly-trained [Personnel] units [in this city] receive the [Gas Mask] promotion",
 			"All newly-trained [{Land} {Low Tech}] units [in this city] receive the [Gas Mask] promotion",
 			"[+1 Food] [in this city] <with [Harvested Organs]>",
@@ -1933,7 +1934,7 @@
 		"maintenance": 2,
 		"requiredTech": "Human Genome", // cloning?
 		"uniques": [
-			"Provides [2] [Harvested Organs]",
+			"Provides [2] [Harvested Organs] <when above [-2] [Power]>",
 			"Only available <in cities with a [Medical Lab]>",
 			"Consumes [1] [Power]"
 		]
@@ -2548,7 +2549,7 @@
 		"uniques": [
 			"[+1 Science, +1 Culture] from [Data] tiles [in this city]",
 			"[+1 Science, +1 Culture] from [Encrypted Data] tiles [in this city]",
-			"Provides [1] [Encrypted Data]",
+			"Provides [1] [Encrypted Data] <when above [-2] [Power]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -2809,7 +2810,7 @@
 		"requiredTech": "Chemistry",
 		"uniques": [
 			"Must have an owned [Narcotics farm] within [3] tiles",
-			"Provides [1] [Refined Narcotics]",
+			"Provides [1] [Refined Narcotics] <when above [-2] [Power]>",
 			"Only available <with [Narcotics]>",
 			"Consumes [1] [Power]"
 		]
@@ -3035,7 +3036,7 @@
 		"food": -1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Oil]",
+			"Provides [1] [Oil] <when above [-2] [Power]>",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Biology"
@@ -3046,7 +3047,7 @@
 		"food": -1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Provides [1] [Oil]",
+			"Provides [1] [Oil] <when above [-2] [Coal]>",
 			"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steam Power"
@@ -3092,7 +3093,8 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "food": -20 },
 		"uniques": [
-			"Provides [8] [Power]",
+			"Provides [6] [Power]",
+			"Provides [2] [Power] <when above [-2] [Coal]>",
 			"Consumes [1] [Coal]",
 			"Only available <in cities without a [Nuclear Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
@@ -3106,7 +3108,8 @@
 		"hurryCostModifier": 33,
 		"uniques": [
 			"Consumes [1] [Uranium]",
-			"Provides [8] [Power]",
+			"Provides [6] [Power]",
+			"Provides [2] [Power] <when above [-2] [Uranium]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
@@ -3127,7 +3130,7 @@
 		"uniques": [
 			"Consumes [1] [Uranium]",
 			"Provides [6] [Power]",
-			"Provides [2] [Power] <after discovering [Laboratory]>",
+			"Provides [2] [Power] <after discovering [Laboratory]> <when above [-2] [Uranium]>",
 			"[-10]% [Food] [in this city] <before discovering [Nuclear Fission]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
@@ -3249,7 +3252,7 @@
 			"[+1] Unit Supply",
 			"Consumes [1] [Power]",
 			"[Personnel] units gain the [Infantry Weapons] promotion",
-			"[+10]% Production when constructing [Military] units [in this city]",
+			"[+10]% Production when constructing [Military] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Gain a free [Armory] [in this city]"
 		],
@@ -3261,7 +3264,8 @@
 		"production": -3,
 		"uniques": [
 			"Free [Tank] appears",
-			"[+66]% Production when constructing [Armor] units [in this city]",
+			"[+33]% Production when constructing [Armor] units [in this city]",
+			"[+33]% Production when constructing [Armor] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]"
 		],
@@ -3328,7 +3332,7 @@
 		"uniques": [
 			"Enables construction of [advanced aircraft] units",
 			"[Aircraft] units gain the [Advanced Weapons] promotion",
-			"[+15]% Production when constructing [Air] units [in this city]",
+			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]"
 		],
@@ -3411,7 +3415,7 @@
 		"maintenance": 3,
 		"requiredTech": "Advanced Materials",
 		"uniques": [
-			"Provides [1] [Aluminum]",
+			"Provides [1] [Aluminum] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Limited to [5] per Civilization"
 		]
@@ -3424,7 +3428,7 @@
 		"requiredTech": "Advanced Materials",
 		"uniques": [
 			"Provides [1] [Aluminum]",
-			"[+25]% Production when constructing [Promotion Nullifier] units [in this city]",
+			"[+25]% Production when constructing [Promotion Nullifier] units [in this city] <when above [-2] [Power]>",
 			"All newly-trained [Promotion Nullifier] units [in all cities] receive the [Thermoptic Camouflage] promotion",
 			"Consumes [1] [Power]",
 			"Limited to [5] per Civilization"
@@ -3435,7 +3439,7 @@
 		"maintenance": 3,
 		"requiredTech": "Particle Physics",
 		"uniques": [
-			"Provides [1] [Uranium]",
+			"Provides [1] [Uranium] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Limited to [5] per Civilization"
 		]
@@ -3454,9 +3458,9 @@
 		"maintenance": 3,
 		"requiredTech": "Atmosphere Remediation",
 		"uniques": [
-		    "Provides [1] [Oil]",
-			"Provides [1] [Aluminum]",
-			"Provides [1] [Uranium]",
+		    "Provides [1] [Oil] <when above [-2] [Power]>",
+			"Provides [1] [Aluminum] <when above [-2] [Power]>",
+			"Provides [1] [Uranium] <when above [-2] [Power]>",
 			"Consumes [1] [Power]",
 			"Limited to [3] per Civilization"
 		]
@@ -3496,10 +3500,10 @@
 		"cityHealth": 25,
 		"requiredTech": "Future Materials",
 		"uniques": [
-			"[+5]% growth [in this city]",
+			"[+5]% growth [in this city] <when above [-2] [Power]>",
 			"[5]% Food is carried over after population increases [in this city]",
 			"[10]% Great Person generation [in this city]",
-			"[-5]% Unhappiness from [Population] [in this city]",
+			"[-5]% Unhappiness from [Population] [in this city] <when above [-2] [Power]>",
 			"Only available <if [Arcology Project] is constructed>",
 			"Requires at least [2] population",
 			"Destroyed when the city is captured",
@@ -3637,7 +3641,7 @@
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
 			"Hidden when religion is disabled",
-			"[+50]% Natural religion spread [in this city]",
+			"[+50]% Natural religion spread [in this city] <when above [-2] [Power]>",
 			"Consumes [1] [Power]"
 		]
 	},
