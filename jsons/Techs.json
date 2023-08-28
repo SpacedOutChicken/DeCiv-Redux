@@ -201,6 +201,7 @@
 				"name": "Civil Service",
 				"row": 10,
 				"prerequisites": ["Currency"],
+				"uniques": ["Enables Defensive Pacts"],
 				"quote": "They are casting their problems on society. And, you know, there is no such thing as society."
 			}
 		]
