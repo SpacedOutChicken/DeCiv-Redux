@@ -1797,9 +1797,12 @@
 			"No defensive terrain bonus",
 			"Unbuildable",
 			"Only available <if [Reactivate AI] is constructed>",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Amphibious","Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier"],
 		"attackSound": "tankshot",
 		"civilopediaText": [
 			{
@@ -1891,10 +1894,13 @@
 			"[+25]% Strength <vs [Air] units>",
 			"Can move after attacking",
 			"No defensive terrain penalty",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Encrypted Data]"
 		],
-		"promotions": ["Amphibious","Promotion Nullifier","Portable Power Cell"],
+		"promotions": ["Promotion Nullifier","Portable Power Cell"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1928,15 +1934,19 @@
 			"Promotion Nullifier",
 			"Purge Robot",
 			"[100]% chance to intercept air attacks",
+			"[1] extra interceptions may be made per turn",
 			"[+50]% Strength <vs [Air] units>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Uranium]",
 			"Can carry [1] [Automated] units",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Powered Armor","Amphibious","Sortie","Promotion Nullifier"],
+		"promotions": ["Powered Armor","Promotion Nullifier"],
 		"attackSound": "gdrAttack"
 	},
 
@@ -2053,9 +2063,10 @@
 			"[-1] Sight",
 			"May withdraw before melee ([50]%)",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Oil]"
+			"Consumes [1] [Oil]",
+			"Ranged attacks may be performed over obstacles"
 		],
-		"promotions": ["Artillery","Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier"],
 		"hurryCostModifier": 20,
 		"attackSound": "artillery"
 	},
@@ -2766,11 +2777,12 @@
 			"[+75]% Strength <vs [Submarine] units>",
 			"[+100]% Strength <vs [Helicopter] units>",
 			"May withdraw before melee ([66]%)",
+			"Ranged attacks may be performed over obstacles",
 			"Only available <if [Factory] is constructed>",
 			"Can carry [2] [Missile] units",
 			"Consumes [1] [Oil]"
 		],
-		"promotions": ["Artillery","Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier"],
 		"attackSound": "shipguns"
 	},
 

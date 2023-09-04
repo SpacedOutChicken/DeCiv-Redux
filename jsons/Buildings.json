@@ -3823,9 +3823,14 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"culture": 3,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -3834,12 +3839,17 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"culture": 5,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
 			"Provides [1] [Oil]",
 			"Provides [1] [Power]",
-			"Provides [1] [Weapons]"
+			"Provides [1] [Weapons]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -3848,10 +3858,15 @@
 		"replaces": "Monument",
 		"gold": 5,
 		"culture": 1,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"cost": 1,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -3882,11 +3897,16 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"culture": 1,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
 			"Provides [1] [Oil]",
-			"Provides [1] [Weapons]"
+			"Provides [1] [Weapons]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -3917,12 +3937,16 @@
 		"uniqueTo": "Order of Jerome",
 		"replaces": "Monument",
 		"cost": 1,
-		"cityHealth": 25,
 		"culture": 3,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
-			"Provides [1] [Power]"
+			"Provides [1] [Power]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -3931,12 +3955,15 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"cityHealth": 50,
+		"cityStrength": 10,
 		"food": 2,
 		"culture": 10,
 		"happiness": 2,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -3955,12 +3982,15 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"cityHealth": 100,
+		"cityStrength": 10,
 		"food": 2,
 		"culture": 10,
 		"happiness": 2,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4008,11 +4038,14 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"cityHealth": 100,
+		"food": 2,
+		"cityStrength": 10,
 		"culture": 5,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
-			"Free [Howitzer] appears"
+			"Free [Howitzer] appears",
+			"[+1] population [in this city]"
 		]
 	},
 	{
@@ -4037,9 +4070,14 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"culture": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4074,9 +4112,14 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"culture": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4097,9 +4140,14 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"culture": 2,
+		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4120,10 +4168,14 @@
 		"culture": 2,
 		"gold": 2,
 		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
-			"[+1 Gold] from [Land] tiles [in this city]"
+			"[+1 Gold] from [Land] tiles [in this city]",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4134,9 +4186,13 @@
 		"culture": 2,
 		"gold": 2,
 		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4165,13 +4221,16 @@
 		"replaces": "Monument",
 		"cost": 1,
 		"cityHealth": 50,
+		"cityStrength": 10,
 		"food": 2,
 		"gold": 20,
 		"happiness": 2,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
-			"Free [Tree Lover] appears"
+			"Free [Tree Lover] appears",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
@@ -4191,9 +4250,13 @@
 		"culture": 2,
 		"gold": 2,
 		"food": 2,
+		"cityHealth": 50,
+		"cityStrength": 10,
 		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Reveals the entire map"
+			"Reveals the entire map",
+			"[+1] population [in this city]",
+			"Free [Spearman] appears"
 		]
 	},
 	{
