@@ -148,4 +148,6 @@ Technologies:
 * Decontamination: [Biohazard symbol](https://commons.wikimedia.org/wiki/File:Biohazard_symbol.svg)
 * Energy Weapons: [Laser-symbol](https://commons.wikimedia.org/wiki/File:Laser-symbol.svg)
 
-Preview image: [Wasteland Main Gate](https://commons.wikimedia.org/wiki/File:Wasteland_Main_Gate.jpg) by Toglenn/Glenn Franciss
+Banner image: [Wasteland Main Gate](https://commons.wikimedia.org/wiki/File:Wasteland_Main_Gate.jpg) by Toglenn/Glenn Franciss
+
+Preview image: [US Navy gas mask exercise 021015-N-6996M-589](https://commons.wikimedia.org/wiki/File:US_Navy_gas_mask_exercise_021015-N-6996M-589.jpg)
