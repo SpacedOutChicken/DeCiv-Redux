@@ -826,8 +826,9 @@
 				"name": "Deregulation",
 				"requires": ["Logistics"],
 				"uniques": [
-					"[-2 Food] [in all cities]",
-					"[-15]% growth [in all cities]",
+					"[-1] population in a random city",
+					"[-1 Food] [in all cities]",
+					"[-10]% growth [in all cities]",
 					"[Gold] cost of purchasing items in cities [-20]%",
 					"[-33]% maintenance on road & railroads"
 				],
@@ -837,8 +838,8 @@
 			{
 				"name": "Mechanization Complete",
 				"uniques": [
-					"[-1] population [in all cities]",
-					"Quantity of strategic resources produced by the empire +[25]%",
+					"[-1] population in a random city",
+					"Quantity of strategic resources produced by the empire +[50]%",
 					"[+10]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+10]% Production when constructing [All] units [in all cities] <while the empire is happy>"
 				]

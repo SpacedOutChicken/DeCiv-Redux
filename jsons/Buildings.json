@@ -188,7 +188,7 @@
 		"uniques": [
 			"[+2 Culture] [in this city] <after discovering [Iron Working]>",
 			"Provides [2] [Oil]",
-			"Free [Great Prophet] appears",
+			"Gain enough Faith for a Pantheon",
 			"Free [War Buggy] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Fuel Depot] [in this city]"
@@ -1561,8 +1561,8 @@
 			"Requires a [Town Hall] in all cities",
 			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
-			"[+50]% Golden Age length",
-			"Empire enters golden age <upon declaring friendship>"
+			"Gain [20] [Culture] <upon declaring friendship>",
+			"Gain [20] [Culture] <upon declaring a defensive pact>"
 		]
 	},
 
@@ -3111,7 +3111,7 @@
 			"Provides [6] [Power]",
 			"Provides [2] [Power] <when above [-2] [Uranium]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
-			"[+33]% Production when constructing [Missile] units [in this city]",
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
 		],
@@ -3133,7 +3133,7 @@
 			"Provides [2] [Power] <after discovering [Laboratory]> <when above [-2] [Uranium]>",
 			"[-10]% [Food] [in this city] <before discovering [Nuclear Fission]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
-			"[+33]% Production when constructing [Missile] units [in this city]",
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>","Only available <in cities without a [Recycling Plant]>",
 			"Only available <in cities with a [Library]>"
 		],

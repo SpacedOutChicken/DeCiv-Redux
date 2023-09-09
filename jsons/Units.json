@@ -65,7 +65,7 @@
 			"Mounted",
 			"Can build [Land] improvements on tiles",
 			"May withdraw before melee ([50]%)",
-			"Only available <in cities with a [Stable]>",
+			"Only available <if [Stable] is constructed>",
 			"Automation is a primary action"
 		],
 		"cost": 130
@@ -606,7 +606,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"
+			"Only available <if [Stable] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -631,7 +631,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Only available <if [Clubhouse] is constructed>",
-			"Only available <in cities with a [Stable]>"
+			"Only available <if [Stable] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse",
@@ -655,7 +655,7 @@
 			"Can move after attacking",
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"
+			"Only available <if [Stable] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -681,7 +681,6 @@
 			"[+33]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Only available <if [Stable] is constructed>",
-			"Only available <in cities with a [Stable]>",
 			"Consumes [1] [Slaves]"
 		],
 		"hurryCostModifier": 20,
@@ -1310,7 +1309,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>",
+			"Only available <if [Stable] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
 		"hurryCostModifier": 20,
@@ -1331,7 +1330,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"
+			"Only available <if [Stable] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -1353,7 +1352,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"
+			"Only available <if [Stable] is constructed>"
 			],
 		"promotions": ["Pursuit"],
 		"hurryCostModifier": 20,
@@ -1377,7 +1376,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>",
+			"Only available <if [Stable] is constructed>",
 			"Consumes [1] [Weapons]"
 		],
 		"hurryCostModifier": 20,
@@ -1400,7 +1399,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Only available <in cities with a [Stable]>"
+			"Only available <if [Stable] is constructed>"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -2232,7 +2231,7 @@
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
 			"May withdraw before melee ([75]%)",
-			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Aerospace Facility] is constructed>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
@@ -2257,7 +2256,7 @@
 			"Can move after attacking",
 			"Ranged attacks may be performed over obstacles",
 			"May withdraw before melee ([100]%)",
-			"Only available <in cities with a [Aerospace Facility]>",
+			"Only available <if [Aerospace Facility] is constructed>",
 			"[-25]% Strength <vs cities> <when attacking>",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]",
@@ -2283,7 +2282,6 @@
 			"[-25]% Strength <vs cities> <when attacking>",
 			"May withdraw before melee ([75]%)",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]",
 			"Never appears as a Barbarian unit"
 		],
@@ -2334,7 +2332,6 @@
 			"Cannot intercept [Stealth] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "jetgun"
@@ -2354,7 +2351,6 @@
 			"[100]% chance to intercept air attacks",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Slealth",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Aluminum]"
@@ -2378,7 +2374,6 @@
 			"Cannot intercept [Stealth] units",
 			"[+100]% Strength <vs [Bomber] units>",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated"],
@@ -2417,7 +2412,6 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "bombing"
@@ -2434,7 +2428,6 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Only available <if [Aerospace Facility] is constructed>",
-			"Only available <in cities with a [Aerospace Facility]>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Oil]",
 			"Stealth",
@@ -2479,7 +2472,6 @@
 			"[+4] Sight",
 			"Can see over obstacles",
 			"Only available <if [Factory] is constructed>",
-			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated"],
@@ -2503,7 +2495,6 @@
 			"Promotion Nullifier",
 			"Can see over obstacles",
 			"Only available <if [Factory] is constructed>",
-			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Aluminum]"
 		],
 		"promotions": ["Automated","Promotion Nullifier"],
@@ -3661,10 +3652,10 @@
 		"promotions": ["Skirmish"],
 		"attackSound": "arrow"
 	},
+	// will be phased out
 	{
 		"name": "Arroyo Cavalry",
 		"uniqueTo": "Arroyo",
-		"replaces": "Cavalry",
 		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
@@ -3677,7 +3668,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>"
+			"Unbuildable"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -3685,7 +3676,6 @@
 	{
 		"name": "Arroyo Light Cavalry",
 		"uniqueTo": "Arroyo",
-		"replaces": "Light Cavalry",
 		"unitType": "Shooter",
 		"range": 1,
 		"movement": 4,
@@ -3700,7 +3690,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>"
+			"Unbuildable"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -3740,10 +3730,10 @@
 		"promotions": ["Skirmish"],
 		"attackSound": "arrow"
 	},
+	// will be phased out
 	{
 		"name": "Ghost Cavalry",
 		"uniqueTo": "Ghost Mountain",
-		"replaces": "Cavalry",
 		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
@@ -3756,7 +3746,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-50]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>"
+			"Unbuildable"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -3764,7 +3754,6 @@
 	{
 		"name": "Ghost Light Cavalry",
 		"uniqueTo": "Ghost Mountain",
-		"replaces": "Light Cavalry",
 		"unitType": "Shooter",
 		"range": 1,
 		"movement": 4,
@@ -3779,7 +3768,7 @@
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
-			"Only available <in cities with a [Stable]>"
+			"Unbuildable"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
