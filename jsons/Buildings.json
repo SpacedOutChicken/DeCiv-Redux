@@ -628,7 +628,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Gold] from every [Town Hall]",
-			"Cost of purchasing items in cities reduced by [20]%",
+			"[Gold] cost of purchasing items in cities [-20]%",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Shareholders' Fund]>",

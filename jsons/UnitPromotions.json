@@ -1253,7 +1253,7 @@
 	{
 		"name": "Headhunter",
 		"uniques": [
-			"Earn [10]% of [military] opponent's [Cost] as [Gold] for kills",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 			"[+25]% Strength <vs [Wounded] units>"
 		],
 		"column": 4,
@@ -1272,7 +1272,7 @@
 		"name": "Clansman",
 		"uniques": [
 			"Clansman",
-			"Earn [10]% of [military] opponent's [Cost] as [Gold] for kills",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 			"[-50]% XP gained from combat",
 			"[Great General] is earned [250]% faster"
 		],
@@ -1282,7 +1282,7 @@
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [10]% of [military] opponent's [Strength] as [Gold] for kills",
+			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
 			"Can move immediately once bought"
 		],
 		"column": 5,
