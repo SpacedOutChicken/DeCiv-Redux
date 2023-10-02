@@ -381,7 +381,7 @@
 		"uniques": [
 			"[+25]% Spread Religion Strength <for [Great Sage] units>",
 			"[-25]% Faith cost of generating Great Prophet equivalents",
-			"[Faith] cost for [Great Sage] units [-25]%"
+			"[Faith] cost of purchasing [Great Sage] units [-25]%"
 		]
 	},
 	{

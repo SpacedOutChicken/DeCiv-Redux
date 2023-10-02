@@ -90,7 +90,19 @@
 		"Personnel",
 		"Mounted",
 		"Promotion Nullifier",
-		"Purge Robot"
+		"Purge Robot",
+		"Enslaved",
+		"Clansman",
+		"Automated",
+		"Terraformer Part",
+		"Victory Transmission",
+		"Gas Mask",
+		"Chemical Weapons",
+		"Great General",
+		"Food source",
+		"Natural tile",
+		"Refinery",
+		"Can Mix Unique Strategic Resources to Generate a Great Person"
 
 		// Unimplemented uniques in the base game below
 		// "[+20]% [Culture] [in all cities] <during a golden age>",

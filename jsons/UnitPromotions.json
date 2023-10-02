@@ -1309,8 +1309,7 @@
 	{
 		"name": "Promotion Nullifier",
 		"uniques": [
-			"Promotion Nullifier",
-			"Negates the combat bonus effect of Enemy Promotions"
+			"Promotion Nullifier"
 		],
 		"column": 6,
 		"row": 7

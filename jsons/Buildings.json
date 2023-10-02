@@ -348,8 +348,12 @@
 		"cost": 65,
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Enables reception of Victory Transmissions",
 			"Hidden when [Transmission] Victory is disabled"
+		],
+		"civilopediaText": [
+			{
+				"text": "This building enables the reception of transmissions from the past."
+			}
 		]
 	},
 	{
@@ -686,12 +690,16 @@
 		"cost": 200,
 		"requiredTech": "Currency",
 		"uniques": [
-			"Enables construction of [Black Hand] units",
 			"[Great General] is earned [50]% faster",
 			"New [Personnel] units start with [30] Experience [in all cities]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Smugglers' Guild]>",
 			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "Enables the construction of Black Hand units.","link":"Unit/Black Hand"
+			}
 		]
 	},
 	{
@@ -878,11 +886,15 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of [Terraformer Part] units",
 			"Triggers a global alert upon completion",
 			"Hidden when [Scientific] Victory is disabled"
 		],
-		"requiredTech": "Plastics Recycling"
+		"requiredTech": "Plastics Recycling",
+		"civilopediaText": [
+			{
+				"text": "Enables the construction of Terraformer Parts."
+			}
+		]
 	},
 
 	// Diplomatic victory
@@ -1715,8 +1727,12 @@
 			"Only available <after adopting [Rationalism]>",
 			"[5]% Food is carried over after population increases [in all cities]",
 			"[+5]% growth [in all cities] <after adopting [Rationalism Complete]>",
-			"[All] Units adjacent to this city heal [30] HP per turn when healing",
-			"This affect applies to all cities"
+			"[All] Units adjacent to this city heal [30] HP per turn when healing"
+		],
+		"civilopediaText": [
+			{
+				"text": "The Medical Network applies a healing effect across all cities."
+			}
 		]
 	},
 
@@ -2110,7 +2126,7 @@
 		"happiness": 2,
 		"culture": 2,
 		"uniques": [
-			"Provides [+1 Happiness] per [2] social policies adopted",
+			"[+1 Happiness] per [2] social policies adopted",
 			"Only available <in cities with a [Television Studio]>"
 		],
 		"isNationalWonder": true,
@@ -2277,10 +2293,14 @@
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]"
 		],
-		"requiredTech": "Writing"
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
+			}
+		]
 	},
 	{
 		"name": "Record Grid",
@@ -2291,8 +2311,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [3] population [in this city]",
-			"Free [Field Scientist] appears",
-			"Enables construction of [Power] buildings"
+			"Free [Field Scientist] appears"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2305,8 +2324,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
-			"[+1 Science] per [4] population [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+1 Science] per [4] population [in this city]"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2318,8 +2336,7 @@
 		"greatPersonPoints": { "Great Scientist": 1 },
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
-			"[+1 Science] per [4] population [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+1 Science] per [4] population [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -2333,8 +2350,7 @@
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
-			"[+1 Science] per [4] population [in this city]",
-			"Enables construction of [Power] buildings"
+			"[+1 Science] per [4] population [in this city]"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing"
@@ -2444,14 +2460,18 @@
 		"science": 1,
 		// "greatPersonPoints": { "Great General": 1 },
 		"uniques": [
-			"Enables construction of [Clansman] units",
 			"[+1 Culture] per [3] population [in this city]",
 			"[+1 Gold] [in this city] <when above [0] [Slaves]>",
 			"[+20]% Production when constructing [Military] units [in this city]"
 		],
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"requiredTech": "Secrets of the Past"
+		"requiredTech": "Secrets of the Past",
+		"civilopediaText": [
+			{
+				"text": "After building the Clubhouse, you will be able to recruit Clansman units."
+			}
+		]
 	},
 	{
 		"name": "Military School",
@@ -2883,10 +2903,14 @@
 		"cost": 50,
 		"hurryCostModifier": -25,
 		"uniques": [
-			"Enables construction of [Mounted] units",
 			"[+2 Production, -1 Food] from [Horses] tiles [in this city]"
 		],
-		"requiredTech": "Redomestication"
+		"requiredTech": "Redomestication",
+		"civilopediaText": [
+			{
+				"text": "You can construct Mounted units after constructing this building."
+			}
+		]
 	},
 	{
 		"name": "Forge",
@@ -3215,13 +3239,17 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Only available <in cities with a [Library]>",
-			"Enables construction of [advanced] units",
 			"[+3 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]"
 		],
-		"requiredTech": "Manufacturing"
+		"requiredTech": "Manufacturing",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
 	},
 	{
 		"name": "Hex Assembly",
@@ -3233,7 +3261,6 @@
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"Enables construction of [advanced] units",
 			"[+3 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] from [Machine Parts] tiles [in this city]",
@@ -3330,13 +3357,17 @@
 		"cityStrength": 10,
 		"production": -3,
 		"uniques": [
-			"Enables construction of [advanced aircraft] units",
 			"[Aircraft] units gain the [Advanced Weapons] promotion",
 			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]"
 		],
-		"requiredTech": "Rocketry"
+		"requiredTech": "Rocketry",
+		"civilopediaText": [
+			{
+				"text": "You can construct advanced aircraft units after constructing this building."
+			}
+		]
 	},
 	{
 		"name": "Automated Factory",
@@ -3345,13 +3376,17 @@
 		"maintenance": 3,
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"Enables construction of [advanced energy] units",
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]",
 			"Consumes [1] [Aluminum]"
 		],
-		"requiredTech": "Robotics"
+		"requiredTech": "Robotics",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of advanced energy units."
+			}
+		]
 	},
 	{
 		"name": "Work Camp",
@@ -3481,12 +3516,16 @@
 		"name": "Arcology Project",
 		"isNationalWonder": true,
 		"uniques": [
-			"Enables construction of [Arcology Dome] buildings",
 			"Empire enters golden age",
 			"Gain a free [Arcology Dome] [in this city]",
 			"[+10]% Production when constructing [Utopia Project] wonders [in all cities]"
 		],
-		"requiredTech": "Future Materials"
+		"requiredTech": "Future Materials",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of Arcology Dome buildings.","link":"Building/Arcology Dome"
+			}
+		]
 	},
 	{
 		"name": "Arcology Dome",
@@ -3707,8 +3746,10 @@
 		"cost": 120,
 		"hurryCostModifier": 25,
 		"happiness": 2,
-		"uniques": [
-			"Enables construction of [Compound Mix] buildings"
+		"civilopediaText": [
+			{
+				"text": "Enables the construction of Compound Mix buildings."
+			}
 		]
 	},
 	{
