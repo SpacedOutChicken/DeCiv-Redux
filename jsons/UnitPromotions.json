@@ -1344,6 +1344,14 @@
 		"column": 6,
 		"row": 13
 	},
+	{
+        "name": "Devout",
+        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
+    },
+	{
+		"name": "Control",
+		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)>"]
+	},
 	// 'ability' promotions
 
 	{

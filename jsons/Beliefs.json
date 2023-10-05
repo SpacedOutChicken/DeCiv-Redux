@@ -410,6 +410,6 @@
 	{
 		"name": "Thought Control",
 		"type": "Enhancer",
-		"uniques": ["[Censor] units built [in all cities] can [Remove Foreign religions from your own cities] [1] extra times"]
+		"uniques": ["[Censor] units gain the [Control] promotion"]
 	}
 ]
