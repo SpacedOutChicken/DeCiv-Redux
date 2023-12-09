@@ -108,7 +108,7 @@
 		"barbarianBonus": 0.35,
 		"playerBonusStartingUnits": ["Civilian Convoy", "Scout"],
 		"aiCityGrowthModifier": 0.5,
-		"aiUnitCostModifier": 0.6,
+		"aiUnitCostModifier": 0.5,
 		"aiBuildingCostModifier": 1,
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 0.35,
