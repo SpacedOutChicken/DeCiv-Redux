@@ -13,9 +13,9 @@
 		"name": "God of Winter",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from [Tundra] tiles without [Jungle] [in this city]",
-			"[+1 Faith] from [Permafrost] tiles without [Jungle] [in this city]",
-			"[+1 Happiness] from every [Artificial glacier]"
+			"[+1 Faith] from every [Tundra]",
+			"[+1 Faith] from every [Permafrost]",
+			"[+1 Faith] from every [Artificial glacier]"
 		]
 	},
 	{
@@ -24,14 +24,14 @@
 		"uniques": [
 			"[+1 Faith] from every [Desert]",
 			"[+1 Happiness] from every [Oasis]",
-			"[+1 Happiness] from every [Artificial oasis]"
+			"[+1 Faith] from every [Artificial oasis]"
 		]
 	},
 	{
 		"name": "Faith Healers",
 		"type": "Pantheon",
 		"uniques": [
-			// This should be worded better
+			// This also heals enemy units, so it should be changed
 			"[All] Units adjacent to this city heal [+30] HP per turn when healing",
 			"[+1 Faith] from every [Hospital]"
 		]
@@ -40,9 +40,7 @@
 		"name": "Fertility Rites",
 		"type": "Pantheon",
 		"uniques": [
-			// Preferably I would not have a cityFilter here
-			// but doing so requires no additional implementation
-			"[+10]% growth [in this city]"
+			"[+15]% growth [in this city]"
 		]
 	},
 	{
@@ -163,10 +161,10 @@
 		"name": "Strength of the Earth",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Production, +1 Faith] from every [Mine]",
-			"[+1 Production, +1 Faith] from every [Borehole]",
-			"[+1 Production, +1 Faith] from every [Manufactory]",
-			"[+1 Production, +1 Faith] from every [Mining Pit]"
+			"[+1 Culture] from every [Mine]",
+			"[+1 Culture] from every [Borehole]",
+			"[+1 Culture] from every [Manufactory]",
+			"[+1 Culture] from every [Mining Pit]"
 		]
 	},
 	{
@@ -184,7 +182,6 @@
 			"[+4 Faith] from every [Great Improvement]"
 		]
 	},
-
 	// Follower beliefs
 	{
 		"name": "Hymns of Praise",
@@ -212,7 +209,7 @@
 	{
 		"name": "Feast of Flesh",
 		"type": "Follower",
-		"uniques": ["[+2 Happiness] from every [Ranch]"]
+		"uniques": ["[+1 Culture, +2 Gold] from every [Ranch]"]
 	},
 	{
 		"name": "Blessing of Peace",
@@ -278,7 +275,6 @@
         "type": "Follower",
         "uniques": ["[+1 Faith, +1 Culture] from every [Town Hall] <in cities with at least [3] [Followers of this Religion]>"]
     },
-
 	// Founder beliefs
 	{
 		"name": "Ceremonial Burial",
@@ -296,7 +292,7 @@
 		"name": "Great Awakening",
 		"type": "Founder",
 		"uniques": [
-			"[+2 Science, +1 Culture] for each global city following this religion"
+			"[+1 Science, +1 Culture] for each global city following this religion"
 		]
 	},
 	{
@@ -344,14 +340,12 @@
 			"[+1 Culture] from every [5] global followers [in foreign cities]"
 		]
 	},
-
 	// Enhancer beliefs
 	{
 		"name": "Defender of the Faith",
 		"type": "Enhancer",
 		"uniques": [
-			// TODO: Should only be friendly territory of cities that follow this religion
-			"[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+			"[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
 		]
 	},
 	{
@@ -371,8 +365,7 @@
 		"name": "Just War",
 		"type": "Enhancer",
 		"uniques": [
-			// TODO: Should only be enemy territory of cities that follow this religion
-			"[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+			"[+10]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
 		]
 	},
 	{
@@ -400,7 +393,7 @@
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+		"uniques": ["[+200]% Natural religion spread [in City-State cities]"]
 	},
 	{
 		"name": "Funeral Rites",
