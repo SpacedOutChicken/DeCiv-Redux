@@ -386,14 +386,14 @@
 		"name": "Religious Texts",
 		"type": "Enhancer",
 		"uniques": [
-			"[+34]% Natural religion spread [in all cities]",
-			"[+34]% Natural religion spread [in all cities] <after discovering [Education]>"
+			"[+25]% Natural religion spread [in all cities]",
+			"[+25]% Natural religion spread [in all cities] <after discovering [Education]>"
 		]
 	},
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+200]% Natural religion spread [in City-State cities]"]
+		"uniques": ["[+100]% Natural religion spread [in City-State cities]"]
 	},
 	{
 		"name": "Funeral Rites",
