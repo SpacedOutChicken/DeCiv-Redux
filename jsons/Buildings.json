@@ -337,7 +337,6 @@
 			"Hidden when [Cultural] Victory is disabled"
 		]
 	},
-
 	// Transmission victory
 	{
 		"name": "Transmissions Center",
@@ -492,7 +491,7 @@
 	},
 	{
 		"name": "Council",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
@@ -523,7 +522,7 @@
 	},
 	{
 		"name": "Rally Station",
-		"cost": 50,
+		"cost": 100,
 		"replaces": "Council",
 		"uniqueTo": "New Star",
 		"requiredTech": "Civil Service",
@@ -560,7 +559,7 @@
 		"name": "Overcouncil",
 		"replaces": "Council",
 		"uniqueTo": "Hexlock",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 		    "Provides [1] [C1F3]",
@@ -581,7 +580,7 @@
 		"name": "Citizens' Assembly",
 		"replaces": "Congress",
 		"uniqueTo": "Children of Rust",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
@@ -596,7 +595,7 @@
 		"name": "Defense Committee",
 		"replaces": "Council",
 		"uniqueTo": "Children of Rust",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
@@ -626,7 +625,7 @@
 		"name": "Board of Directors",
 		"replaces": "Council",
 		"uniqueTo": "Blackwarden",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Gold] from every [Town Hall]",
@@ -656,7 +655,7 @@
 		"name": "Think Tank",
 		"replaces": "Council",
 		"uniqueTo": "Atlas",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Production to [Science] conversion in cities changed by [33]%",
@@ -685,7 +684,7 @@
 		"name": "Grand Clan Manor",
 		"replaces": "Council",
 		"uniqueTo": "Deadrock Clan",
-		"cost": 200,
+		"cost": 100,
 		"requiredTech": "Currency",
 		"uniques": [
 			"[Great General] is earned [50]% faster",
@@ -718,7 +717,7 @@
 		"name": "Consulate",
 		"replaces": "Council",
 		"uniqueTo": "Crimson Legion",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"Great General provides double combat bonus",
@@ -732,7 +731,7 @@
 		"name": "War Council",
 		"replaces": "Congress",
 		"uniqueTo": "Cult of Ignis",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Production] per [4] population [in all cities]",
@@ -774,7 +773,7 @@
 		"name": "Parliament",
 		"replaces": "Congress",
 		"uniqueTo": "Commonwealth",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Science] per [4] population [in all cities]",
@@ -803,7 +802,7 @@
 		"name": "Raider's Council",
 		"uniqueTo": "The Mariners",
 		"replaces": "Council",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"+30% Strength when fighting City-State units and cities",
@@ -833,7 +832,7 @@
 		"name": "Revolutionary Council",
 		"uniqueTo": "New Afrika",
 		"replaces": "Council",
-		"cost": 50,
+		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1] Unit Supply per [2] population [in all cities]",
@@ -863,7 +862,7 @@
 	},
 	{
 		"name": "Gulag",
-		"cost": 50,
+		"cost": 100,
 		"replaces": "Council",
 		"uniqueTo": "Proklyatyye",
 		"requiredTech": "Civil Service",
@@ -936,7 +935,7 @@
 		"name": "Electing Leaders",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "New Star",
-		"cost": 20,
+		"cost": 30,
 		"isNationalWonder": true,
 		"uniques": [
 			"Free [Great General] appears",
@@ -1566,7 +1565,6 @@
 			"Gain [20] [Culture] <upon declaring a defensive pact>"
 		]
 	},
-
 	{
 		"name": "Chemical Weapons Laboratory",
 		"isNationalWonder": true,
@@ -1583,7 +1581,6 @@
 			"Consumes [1] [Power]"
 		]
 	},
-
 	{
 		"name": "Content Farm",
 		"percentStatBonus": { "production": -5 },
@@ -1722,9 +1719,7 @@
 			}
 		]
 	},
-
 	// policy unlock buildings
-
 	// unique to Atlas
 	{
 		"name": "Electrostatic Generator",
@@ -1740,14 +1735,13 @@
 			"All newly-trained [non-air] units [in this city] receive the [Super Alloy] promotion"
 		]
 	},
-
 	// Food buildings
 	{
 		"name": "Food Store",
 		"cost": 10,
 		"hurryCostModifier": -25,
 		"uniques": [
-			"[20]% Food is carried over after population increases [in this city]",
+			"[10]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
@@ -1761,7 +1755,7 @@
 		"cost": 10,
 		"hurryCostModifier": -25,
 		"uniques": [
-			"[30]% Food is carried over after population increases [in this city]",
+			"[20]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Salt]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
 			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
@@ -1844,12 +1838,11 @@
 	},
 	{
 		"name": "Hospital",
-		"science": -1,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[30]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
+			"[20]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"[+1 Food] [in this city] <with [Harvested Organs]>",
 			"Consumes [1] [Power]"
@@ -1857,17 +1850,17 @@
 	},
 	{
 		"name": "Pre-Med Lab",
+		"science": 1,
 		"replaces": "Hospital",
 		"uniqueTo": "Hexlock",
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[15]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
+			"[20]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
 			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
 			"All newly-trained [Promotion Nullifier] units [in this city] receive the [Medic I] promotion",
 			"[+5]% [Food] [in this city] <with [Harvested Organs]>",
-			"[+5]% [Science] [in this city] <with [Machine Parts]>",
 			"Consumes [1] [Power]"
 		]
 	},
@@ -1876,7 +1869,8 @@
 		"replaces": "Hospital",
 		"uniqueTo": "Deadrock Clan",
 		"science": -1,
-		"maintenance": 2,
+		"gold": 3,
+		"maintenance": 0,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
@@ -1894,7 +1888,7 @@
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
 		"uniques": [
-			"[10]% Food is carried over after population increases [in this city]",
+			"[15]% Food is carried over after population increases [in this city]",
 			"[+1 Food] [in this city] <with [Harvested Organs]>",
 			"[Armor] units gain the [Resupply] promotion",
 			"Consumes [1] [Slaves]"
@@ -1904,7 +1898,6 @@
 		"name": "Decontamination Center",
 		"replaces": "Hospital",
 		"uniqueTo": "Proklyatyye",
-		"science": -1,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology",
@@ -1920,7 +1913,6 @@
 	},
 	{
 		"name": "Medical Lab",
-		"science": -1,
 		"food": 2,
 		"maintenance": 2,
 		"requiredTech": "Pharmaceuticals",
@@ -1942,7 +1934,6 @@
 			"Consumes [1] [Power]"
 		]
 	},
-
 	// Culture and Hapiness buildings
 	{
 		"name": "Monument",
