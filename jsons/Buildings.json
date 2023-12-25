@@ -325,7 +325,6 @@
 			}
 		]
 	},
-
 	// Cultural victory
 	{
 		"name": "Utopia Project",
@@ -477,7 +476,6 @@
 			}
 		]
 	},
-
 	// Government buildings
 	{
 		"name": "Congress",
@@ -896,9 +894,7 @@
 			}
 		]
 	},
-
 	// Diplomatic victory
-
 	{
 		"name": "Global Alliance",
 		"isWonder": true,
@@ -926,7 +922,6 @@
 		],
 		"quote": "By pursuing our own interest we frequently promote that of the society more effectually than when we really intend to promote it."
 	},
-
 	// Projects
 	{
 		"name": "Search for Survivors",
@@ -1051,7 +1046,6 @@
 			}
 		]
 	},
-
 	// Normal wonders
 	{
 		"name": "Search Shelters",
@@ -1140,7 +1134,6 @@
 		"quote": "Let there be light.",
 		"civilopediaText": [{ "text": "Let there be light." }]
 	},
-
 	// Domination wonders
 	{
 		"name": "Salvage Tank Depot",
@@ -1196,7 +1189,6 @@
 			}
 		]
 	},
-
 	// Natural Wonder uniques
 	{
 		"name": "Ally with Isolationists",
@@ -1507,7 +1499,6 @@
 			}
 		]
 	},
-
 	{
 		"name": "Research Underwater City",
 		"requiredTech": "Sailing",
@@ -1559,9 +1550,7 @@
 			}
 		]
 	},
-	
 	// Policy unique buildings
-
 	{
 		"name": "Public Works Administration",
 		"isNationalWonder": true,
@@ -1678,7 +1667,6 @@
 		],
 		"requiredTech": "Manufacturing"
 	},
-	
 	{
 		"name": "Grand Monastery",
 		"isNationalWonder": true,
@@ -1716,7 +1704,6 @@
 			"[-1] population [in this city]"
 		]
 	},
-
 	{
 		"name": "Medical Network",
 		"isNationalWonder": true,
