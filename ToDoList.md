@@ -1,27 +1,15 @@
-# TODO
+# TODO:
 
-## Erase grassland, bioculture, artificial oasis, artificial glacier.
+## Erase grassland, bioculture, artificial oasis, artificial glacier and borehole.
 
-* Plains to Badlands, Grassland to Wasteland, Snow to Permafrost
-* update terrain file
-* update resource file
-* update improvements file
-* check all other files for necessary updates
+## Rework Borough, Crystal refinary, nature preserve, settlement and terrace farm.
 
-## Resources
-* reduce resources to restore game balance
-* convert groundwater to bonus resource
+## Rework all policies.
 
-## Units
-* power armor: infantry and armor units to add
-* mechanized worker
-* naval units
-* hover drone
+## Rework beliefs that need tiles that are going to be erased.
 
-## Translation files
-* update template
-* update existing files to match template
+## Balance tech tree and make it have more sense.
 
-## Natural (Ancient) Wonders
-* crashed ISS?
-* need pixel art
+## Nerf CS.
+
+## Lastly check for civs that need to be nerfed or buffed.
