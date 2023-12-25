@@ -6,6 +6,8 @@
 
 ## Rework all policies.
 
+## Check and rework most wonders and buildings.
+
 ## Rework beliefs that need tiles that are going to be erased.
 
 ## Balance tech tree and make it have more sense.
