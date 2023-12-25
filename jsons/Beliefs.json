@@ -252,7 +252,7 @@
 		"name": "Happiness in Faith",
 		"type": "Follower",
 		"uniques": [
-			"[+2 Happiness] from every [Monastery] <in cities with at least [5] [Followers of this Religion]>"
+			"[+2 Happiness] from every [Monastery] <in cities with at least [7] [Followers of this Religion]>"
 		]
 	},
 	{
@@ -343,7 +343,8 @@
 		"type": "Enhancer",
 		"uniques": [
 			"[Faith] cost of purchasing [Philosopher] units [-30]%",
-			"[Faith] cost of purchasing [Censor] units [-30]%"
+			"[Faith] cost of purchasing [Censor] units [-30]%",
+			"[+30]% Spread Religion Strength <for [Philosopher] units>"
 		]
 	},
 	{
@@ -362,28 +363,32 @@
 		"name": "Path of the Sage",
 		"type": "Enhancer",
 		"uniques": [
-			"[+25]% Spread Religion Strength <for [Great Sage] units>",
-			"[-25]% Faith cost of generating Great Prophet equivalents",
-			"[Faith] cost of purchasing [Great Sage] units [-25]%"
+			"[+30]% Spread Religion Strength <for [Great Sage] units>",
+			"[-30]% Faith cost of generating Great Prophet equivalents",
+			"[Faith] cost of purchasing [Great Sage] units [-30]%"
 		]
 	},
 	{
 		"name": "Missionary Zeal",
 		"type": "Enhancer",
-		"uniques": ["[+25]% Spread Religion Strength <for [Philosopher] units>"]
+		"uniques": ["[+1] Movement <for [Philosopher] units>",
+			"[-100]% maintenance costs <for [Philosopher] units>",
+			"[+1] Movement <for [Censor] units>",
+			"[-100]% maintenance costs <for [Censor] units>",
+			"[+50]% Gold from Great Merchant trade missions"]
 	},
 	{
 		"name": "Religious Texts",
 		"type": "Enhancer",
 		"uniques": [
-			"[+25]% Natural religion spread [in all cities]",
-			"[+25]% Natural religion spread [in all cities] <after discovering [Education]>"
+			"[+15]% Natural religion spread [in all cities]",
+			"[+15]% Natural religion spread [in all cities] <after discovering [Education]>"
 		]
 	},
 	{
 		"name": "Religious Unity",
 		"type": "Enhancer",
-		"uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+		"uniques": ["[+200]% Natural religion spread [in City-State cities]"]
 	},
 	{
 		"name": "Funeral Rites",
