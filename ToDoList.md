@@ -1,6 +1,7 @@
 # TODO
 
-## Big one: convert terrain types!
+## Erase grassland, bioculture, artificial oasis, artificial glacier.
+
 * Plains to Badlands, Grassland to Wasteland, Snow to Permafrost
 * update terrain file
 * update resource file
