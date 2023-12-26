@@ -191,7 +191,7 @@
 				"name": "Military Tradition",
 				"uniques": [
 					"[50]% XP gained from combat <for [Military] units>",
-					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+					"Militaristic City-States grant units [3] times as fast when you are at war with a common nation"
 				],
 				"requires": ["Doctrine", "Discipline"],
 				"row": 2,
@@ -201,7 +201,7 @@
 				"name": "Triumph",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"When defeating a [Barbarian] unit, earn [25] Gold and recruit it <with [25]% chance>"
+					"When defeating a [Barbarian] unit, earn [10] Gold and recruit it <with [25]% chance>"
 				],
 				"requires": ["Doctrine"],
 				"row": 2,
@@ -220,7 +220,7 @@
 	},
 	{
 		"name": "Theocracy",
-		"era": "Neofeudal era",
+		"era": "Decivilized era",
 		"priorities": {
 			"Neutral": 20,
 			"Cultural": 20,
@@ -230,7 +230,9 @@
 		},
 		"uniques": [
 			"[+100]% Production when constructing [Faith] buildings [in all cities]",
-			"Only available <before adopting [Rationalism]>"
+			"[+1 Culture] from every [Shrine]",
+                        "[+1 Culture] from every [Monastery]",
+			"[+1 Culture] from every [Megachurch]"
 		],
 		"policies": [
 			{
@@ -246,8 +248,10 @@
 			{
 				"name": "Mandate Of Heaven",
 				"uniques": [
-					"[+25]% Strength <for [Wounded] units>",
-					"[+10]% Strength <for [All] units> <during a Golden Age>"
+					"[+1 Happiness] [in capital]",
+                    "[+1 Happiness] [in holy cities]",
+                    "[+2 Happiness] [in capital] <after enhancing a religion>",
+                    "[+2 Happiness] [in holy cities] <after enhancing a religion>"
 				],
 				"row": 1,
 				"column": 5
@@ -262,8 +266,8 @@
 			{
 				"name": "God Emperor",
 				"uniques": [
-					"[+1 Happiness, +1 Culture] from every [Monument]",
-					"Empire enters golden age"
+					"Empire enters golden age",
+					"Gain a free [Pantheon] belief", "(if you founded a religion)"
 				],
 				"requires": ["Organized Religion"],
 				"row": 2,
