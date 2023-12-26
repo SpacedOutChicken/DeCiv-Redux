@@ -5,7 +5,6 @@
 		"outerColor": [255, 255, 255]
 		// "innerColor": [255, 255, 255]
 	},
-
 	// Nations
 	{
 		"name": "New Star",
@@ -78,13 +77,11 @@
 		"style": "Hexlock",
 		"uniqueName": "Adaptive Systems",
 		"uniques": ["[Purge Robot] units gain the [Portable Power Cell] promotion",
-		    "Can Mix Unique Strategic Resources to Generate a Great Person",
+		        "Can Mix Unique Strategic Resources to Generate a Great Person",
 			"[-99]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Engineering]",
-			"Starts with [Electronics]",
 			"[-2 Happiness] [in all cities]"
 		],
 		"cities": [
@@ -194,9 +191,7 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Starts with [Monopoly] adopted",
 			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
 		],
 		"cities": [
@@ -255,9 +250,7 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
-			"Starts with [Rationalism] adopted",
 			"[100]% Production when constructing [Electrostatic Generator] buildings [in all cities] <after adopting [Rationalism Complete]>"
 		],
 		"cities": [
@@ -322,8 +315,7 @@
 			"City-State territory always counts as friendly territory",
 			"[Great General] is earned [33]% faster",
 			"Starts with [Redomestication]",
-			"Cannot build [Enslaved] units",
-			"Starts with [Constitution] adopted"
+			"Cannot build [Enslaved] units"
 		],
 		"cities": [
 			"Union City",
@@ -387,7 +379,6 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>"
 		],
 		"cities": [
@@ -565,7 +556,6 @@
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
 			"Starts with [Redomestication]",
-			"Starts with [Supremacy] adopted",
 			"Empire enters golden age <upon conquering a city> <after adopting [Supremacy Complete]>"
 		],
 		"cities": [
@@ -631,7 +621,6 @@
 		"uniques": [
 			"[-33]% maintenance costs <for [Armor] units>",
 			"Starts with [Machinery]",
-			"Starts with [Theocracy] adopted",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"[+10]% [Culture] from every [Coal Plant]",
 			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
@@ -749,8 +738,7 @@
 			"[+10]% Strength <within [2] tiles of a [City center]>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
 			"Starts with [Secrets of the Past]",
-			"Starts with [Redomestication]",
-			"[+20]% Strength <when fighting units from a Civilization with more Cities than you> <after adopting [Sovereignty Complete]>"
+			"Starts with [Redomestication]"
 		],
 		"cities": [
 			"Gao",
@@ -835,7 +823,6 @@
 		"Sverdlovsk-45","Chelyabinsk-95","Chelyabinsk-70","Arzamas-60","Shkotovo-26","Krasnoyarsk-35","Naro-Fominsk-5","Kurchatov-21","Penza-19","Novopetrovsk-2",
 		"Arzamas-16","Golitsino-2","Semipalatinsk-16","Krasnoyarsk-25","Shkotovo-22"]
 	},
-
 	// City-States
 	{
 		"name": "The Archive",
