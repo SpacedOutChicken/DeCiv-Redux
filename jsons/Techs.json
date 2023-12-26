@@ -281,12 +281,6 @@
 				"prerequisites": ["Rifling", "Manufacturing"],
 				"quote": "As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy."
 			},
-			{
-				"name": "Railroads",
-				"row": 9,
-				"prerequisites": ["Manufacturing"],
-				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
-			}
 		]
 	},
 	{
@@ -319,6 +313,12 @@
 				"row": 8,
 				"prerequisites": ["Munitions", "Replaceable Parts"],
 				"quote": "Our goal is not the victory of might, but the vindication of right; not peace at the expense of freedom, but both peace and freedom, here in this hemisphere, and, we hope, around the world.\n\nGod willing, that goal will be achieved."
+			}
+			{
+				"name": "Railroads",
+				"row": 9,
+				"prerequisites": ["Manufacturing"],
+				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
 			}
 		]
 	},
