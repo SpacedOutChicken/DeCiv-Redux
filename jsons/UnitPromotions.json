@@ -2,7 +2,6 @@
 # Notes
 - A set of promotions (I, II, III) should always stay together
 *******************/
-
 [
 	////////////////////
 	// Instant effects
@@ -43,7 +42,7 @@
 	{
 		"name": "Entrench",
 		"uniques": [
-			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+15% Strength <vs [Ranged] units> <when defending>",
 			"[+5]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"],
 		"unitTypes": ["Scrapper", "Shooter"],
@@ -54,8 +53,6 @@
 		"name": "Forage",
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
-			"[25]% XP gained from combat",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper"],
@@ -65,7 +62,7 @@
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"May withdraw before melee ([75]%)",
+			"May withdraw before melee ([25]%)",
 			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -73,12 +70,11 @@
 		"column": 1,
         "row": 3
 	},
-
 	//// Armor, formerly mounted
 	{
 		"name": "Shock",
 		"uniques": [
-			"[+25]% Strength <when fighting in [Open terrain] tiles>",
+			"[+15]% Strength <when fighting in [Open terrain] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Armor", "Mounted"],
@@ -88,7 +84,7 @@
 	{
 		"name": "Loose Formation",
 		"uniques": [
-			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+15]% Strength <vs [Ranged] units> <when defending>",
 			"May withdraw before melee ([25]%)",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -106,16 +102,12 @@
 		"column": 1,
         "row": 6
 	},
-
 	//// Traditional terrain bonus
 	{
 		"name": "Urban Warfare I",
 		"uniques": [
-			"Double movement in [Forest]",
-			"Double movement in [Jungle]",
-			"[+10]% Strength <when fighting in [Forest] tiles>",
-			"[+10]% Strength <when fighting in [Jungle] tiles>",
-			"[+10]% Strength <vs cities>",
+			"[+15]% Strength <when fighting in [Forest] tiles>",
+			"[+15]% Strength <when fighting in [Jungle] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
@@ -126,9 +118,8 @@
 		"name": "Urban Warfare II",
 		"prerequisites": ["Urban Warfare I"],
 		"uniques": [
-			"[+30]% Strength <when fighting in [Forest] tiles>",
-			"[+30]% Strength <when fighting in [Jungle] tiles>",
-			"[+30]% Strength <vs cities>",
+			"[+15]% Strength <when fighting in [Forest] tiles>",
+			"[+15]% Strength <when fighting in [Jungle] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
@@ -138,7 +129,7 @@
 	{
 		"name": "Guerilla Warfare I",
 		"uniques": [
-			"[+10]% Strength <when fighting in [Rough terrain] tiles>",
+			"[+15]% Strength <when fighting in [Hill] tiles>",
 			"Can move after attacking",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -150,20 +141,18 @@
 		"name": "Guerilla Warfare II",
 		"prerequisites": ["Guerilla Warfare I"],
 		"uniques": [
-			"[+30]% Strength <when fighting in [Hill] tiles>",
-			"[+10]% Strength <when attacking>",
+			"[+15]% Strength <when fighting in [Hill] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
 		"column": 2,
         "row": 4
 	},
-
 	//// Siege, Helicopter
 	{
 		"name": "Accuracy",
 		"uniques": [
-			"[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Siege", "Helicopter"],
@@ -173,19 +162,18 @@
 	{
 		"name": "Combat Drill",
 		"uniques": [
-			"[+20]% Strength <when defending>",
+			"[+15]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Siege", "Helicopter"],
 		"column": 3,
         "row": 2
 	},
-
 	//// Water (+ Air)
 	{
 		"name": "Evasion",
 		"uniques": [
-			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+25]% Strength <vs [Ranged] units> <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Melee Water"],
@@ -195,7 +183,7 @@
 	{
 		"name": "Strike",
 		"uniques": [
-			"[+33]% Strength <when attacking>",
+			"[+25]% Strength <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Melee Water"],
@@ -205,7 +193,7 @@
 	{
 		"name": "Bombardment",
 		"uniques": [
-			"[+33]% Strength <vs [Land] units>",
+			"[+15]% Strength <vs [Land] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
@@ -215,7 +203,7 @@
 	{
 		"name": "Targeting",
 		"uniques": [
-			"[+25]% Strength <vs [Water] units>",
+			"[+15]% Strength <vs [Water] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Ranged Water", "Fighter", "Bomber"],
@@ -225,7 +213,7 @@
 	{
 		"name": "Armor Plating",
 		"uniques": [
-			"[+20]% Strength <when defending>",
+			"[+15]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Aircraft Carrier"],
@@ -300,12 +288,11 @@
 		"column": 3,
         "row": 5
 	},
-
 	//// Air
 	{
 		"name": "Siege I",
 		"uniques": [
-			"[+33]% Strength <vs cities>",
+			"[+25]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Bomber"],
@@ -316,7 +303,7 @@
 		"name": "Siege II",
 		"prerequisites": ["Siege I", "Bombardment", "Targeting"],
 		"uniques": [
-			"[+33]% Strength <vs cities>",
+			"[+25]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Bomber"],
@@ -327,7 +314,7 @@
 		"name": "Siege III",
 		"prerequisites": ["Siege II", "Operational Range"],
 		"uniques": [
-			"[+34]% Strength <vs cities>",
+			"[+25]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Bomber"],
@@ -398,16 +385,14 @@
 		"column": 4,
 		"row": 9
 	},
-
 	// With Prerequisites
 	{
 		"name": "Reconnaissance I",
 		"uniques": [
 			"Ignores terrain cost",
-			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scout"],
 		"column": 5,
 		"row": 1
 	},
@@ -419,7 +404,7 @@
 			"No movement cost to pillage",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scout"],
 		"column": 5,
 		"row": 2
 	},
@@ -432,7 +417,7 @@
 			"Ignores Zone of Control",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scout"],
 		"column": 5,
 		"row": 3
 	},
@@ -440,9 +425,8 @@
 		"name": "Smokescreen",
 		"prerequisites": ["Entrench", "Forage"],
 		"uniques": [
-			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+10]% Strength <vs [Low Tech] units>",
-			"[+10]% Strength <vs cities>",
+			"[+10]% Strength <vs [Ranged] units> <when defending>",
+			"[+10]% Strength <vs [Low Tech] units>"
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper"],
@@ -464,7 +448,7 @@
 		"name": "Pursuit",
 		"prerequisites": ["Loose Formation", "Shock"],
 		"uniques": [
-			"[+25]% Strength <vs [Wounded] units>",
+			"[+15]% Strength <vs [Wounded] units>",
 			"Heals [25] damage if it kills a unit",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -477,7 +461,6 @@
 		"prerequisites": ["Hull Down", "Shock"],
 		"uniques": [
 			"[+25]% Strength <vs [Wounded] units>",
-			"[+10]% Strength <when attacking>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Armor"],
@@ -536,7 +519,7 @@
 		"name": "Precision",
 		"prerequisites": ["Entrench", "Skirmish"],
 		"uniques": [
-			"[+25]% Strength <vs [Wounded] units>",
+			"[+15]% Strength <vs [Wounded] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Shooter"],
@@ -547,7 +530,7 @@
 		"name": "Suppression",
 		"prerequisites": ["Entrench", "Skirmish"],
 		"uniques": [
-			"[+33]% Strength <vs [Melee] units>",
+			"[+15]% Strength <vs [Melee] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Shooter"],
@@ -592,7 +575,6 @@
 		"uniques": [
 			"[+10]% Strength <when fighting in [Coast] tiles>",
 			"[+10]% Strength <when fighting in [Land] tiles>",
-			"[+10]% Strength <vs cities>",
 			"Eliminates combat penalty for attacking across a coast",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -954,40 +936,23 @@
 		"prerequisites": ["Medic I", "Resupply", "Air Repair", "March", "Damage Control", "Convoy"],
 		"uniques": [
 			"[+5] HP when healing <in [Foreign Land] tiles>",
-			"[+25]% Strength <when defending>",
+			"[+15]% Strength <when defending>",
 			"[-50]% maintenance costs",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": [
-			"Scrapper",
-			"Scout",
-			"Siege",
-			"Helicopter",
-			"Shooter",
-			"Armor",
-			"Melee Water",
-			"Ranged Water",
-			"Submarine",
-			"Aircraft Carrier",
-			"Fighter",
-			"Bomber",
-			"Mounted"
-		],
+		"unitTypes": ["Scout"],
 		"column": 10,
 		"row": 3
 	},
-
 	////////////////////
 	// Special and unique promotions
 	////////////////////
-
 	// Prerequisite promotions
 	{
 		"name": "Drone Recon",
 		"uniques": [
 			"Can see over obstacles",
 			"[+1] Sight <when [Embarked]>",
-			"[25]% XP gained from combat",
 			"Only available <if [Ground Control Center] is constructed>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -998,8 +963,7 @@
 	{
 		"name": "Infantry Weapons",
 		"uniques": [
-			"[+25]% Strength <vs [Low Tech] units>",
-			"[+50]% Strength <vs cities>",
+			"[+15]% Strength <vs [Low Tech] units>",
 			"Only available <if [Armaments Production Line] is constructed>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -1030,7 +994,6 @@
         "column": 0,
 		"row": 7
 	},
-
 	// Land-ish
 	{
 		"name": "Drone Support",
@@ -1048,7 +1011,7 @@
 		"name": "Care Package",
 		"prerequisites": ["Drone Recon"],
 		"uniques": [
-			"[+10] HP when healing",
+			"[+5] HP when healing",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter"],
@@ -1084,7 +1047,7 @@
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[+25]% Strength <vs [Personnel] units>",
-			"[+50]% Strength <vs cities>",
+			"[+25]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Siege", "Ranged Water"],
@@ -1106,7 +1069,7 @@
 		"name": "Antitank Missile",
 		"prerequisites": ["Advanced Weapons", "Infantry Weapons"],
 		"uniques": [
-			"[+66]% Strength <vs [Armor] units>",
+			"[+50]% Strength <vs [Armor] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": [
@@ -1139,8 +1102,8 @@
 		"prerequisites": ["Advanced Weapons"],
 		"uniques": [
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[+50]% Strength <vs [Personnel] units>",
-			"[+50]% Strength <vs cities>",
+			"[+15]% Strength <vs [Personnel] units>",
+			"[+15]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
@@ -1151,9 +1114,9 @@
 		"name": "Napalm",
 		"prerequisites": ["Advanced Weapons"],
 		"uniques": [
-			"[+33]% Strength <when fighting in [Forest] tiles>",
-			"[+33]% Strength <when fighting in [Jungle] tiles>",
-			"[+50]% Strength <vs cities>",
+			"[+25]% Strength <when fighting in [Forest] tiles>",
+			"[+25]% Strength <when fighting in [Jungle] tiles>",
+			"[+15]% Strength <vs cities>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
@@ -1164,7 +1127,7 @@
 		"name": "Antiship Missile",
 		"prerequisites": ["Advanced Weapons"],
 		"uniques": [
-			"[+33]% Strength <vs [Water] units>",
+			"[+25]% Strength <vs [Water] units>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
@@ -1183,14 +1146,12 @@
 		"column": 2,
         "row": 12
 	},
-
 	// 'Given' promotions
 	{
 		"name": "Automated",
 		"uniques": [
 			"Automated",
-			"[+20]% Strength <vs [Wounded] units>",
-			"[+20]% Strength <vs cities>"
+			"[+10]% Strength <vs [Wounded] units>"
 		],
 		"column": 3,
         "row": 6
@@ -1204,8 +1165,7 @@
 	{
 		"name": "Tear Gas",
 		"uniques": [
-			"[+33]% Strength <vs [Low Tech] units>",
-			"[+10]% Strength <vs cities>"
+			"[+25]% Strength <vs [Low Tech] units>"
 		],
 		"column": 3,
         "row": 8
@@ -1214,9 +1174,9 @@
 		"name": "Chemical Weapons",
 		"uniques": [
 			"Chemical Weapons",
-			"[+100]% Strength <vs [Low Tech] units>",
-			"[+100]% Strength <vs [Personnel] units>",
-			"[+50]% Strength <vs cities>",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Personnel] units>",
+			"[+15]% Strength <vs cities>",
 			"Only available <if [Chemical Weapons Laboratory] is constructed>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -1254,7 +1214,7 @@
 		"name": "Headhunter",
 		"uniques": [
 			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-			"[+25]% Strength <vs [Wounded] units>"
+			"[+15]% Strength <vs [Wounded] units>"
 		],
 		"column": 4,
 		"row": 12
@@ -1281,19 +1241,13 @@
 	},
 	{
 		"name": "Hazard Pay",
-		"uniques": [
-			"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-			"Can move immediately once bought"
-		],
+		"uniques": ["Can move immediately once bought"],
 		"column": 5,
 		"row": 9
 	},
 	{
 		"name": "Pride",
-		"uniques": [
-			"[Great General] is earned [25]% faster",
-			"[+15]% Strength decreasing with distance from the capital"
-		],
+		"uniques": ["[+15]% Strength decreasing with distance from the capital"],
 		"column": 5,
 		"row": 10
 	},
@@ -1329,7 +1283,7 @@
 		"name": "Super Alloy",
 		"uniques": [
 			"[+10]% Strength <when defending>",
-			"[+33]% Strength <vs [Ranged] units> <when defending>"
+			"[+15]% Strength <vs [Ranged] units> <when defending>"
 		],
 		"column": 6,
 		"row": 9
@@ -1353,7 +1307,6 @@
 		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[1] additional time(s)>"]
 	},
 	// 'ability' promotions
-
 	{
 		"name": "[Ranger] ability",
 		"uniques": [
