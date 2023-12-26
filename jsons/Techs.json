@@ -113,7 +113,6 @@
 				"prerequisites": ["Redomestication", "Writing"],
 				"quote": "'Be at peace in the knowledge that all the neoliberals will die with the biosphere.' - Eric Price"
 			},
-
 			{
 				"name": "Chemistry",
 				"row": 6,
@@ -121,7 +120,6 @@
 				"quote": "For the days of my life have vanished like smoke, and my bones are grown dry like fuel for the fire.",
 				"uniques": ["Enables conversion of city production to [Gold]"]
 			},
-
 			{
 				"name": "Engineering",
 				"row": 8,
@@ -145,7 +143,6 @@
 				"uniques": ["Enables Research agreements"],
 				"quote": "Hereby it is manifest that during the time men live without a common Power to keep them all in awe, they are in that condition which is called War; and such a war as is of every man against every man."
 			},
-
 			{
 				"name": "Steel",
 				"row": 8,
@@ -193,7 +190,7 @@
 			{
 				"name": "Steam Power",
 				"row": 7,
-				"prerequisites": ["Steel"],
+				"prerequisites": ["Steel", "Education"],
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
 				"quote": "Is it a fact - or have I dreamt it - that, by means of electricity, the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?"
 			},
@@ -225,7 +222,6 @@
 				"prerequisites": ["Biology", "Steam Power"],
 				"quote": "And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food."
 			},
-
 			{
 				"name": "Manufacturing",
 				"row": 7,
@@ -282,7 +278,7 @@
 			{
 				"name": "Munitions",
 				"row": 8,
-				"prerequisites": ["Rifling"],
+				"prerequisites": ["Rifling", "Manufacturing"],
 				"quote": "As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy."
 			},
 			{
