@@ -284,7 +284,7 @@
 			{
 				"name": "Radar",
 				"row": 10,
-				"prerequisites": ["Radio"],
+				"prerequisites": ["Radio", "Manufacturing"],
 				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
 			}
 		]
@@ -299,31 +299,31 @@
 			{
 				"name": "Hydroponics",
 				"row": 2,
-				"prerequisites": ["Laboratory"],
+				"prerequisites": ["Laboratory", "Electronics"],
 				"quote": "Thank you. I assure you, I am well aware of the contents of the latest report.\n\nWhat choice is it you think we have? The time for caution is long past. We can only work with the greatest urgency in the hope that we may realize a technological solution. Anything less can lead only to failure, my friends."
 			},
 			{
 				"name": "Plastics",
 				"row": 5,
-				"prerequisites": ["Replaceable Parts", "Laboratory"],
+				"prerequisites": ["Replaceable Parts", "Laboratory", "Electronics"],
 				"quote": "Ben, I want to say one word to you, just one word: plastics."
 			},
 			{
 				"name": "Flight",
 				"row": 7,
-				"prerequisites": ["Electronics", "Replaceable Parts"],
+				"prerequisites": ["Electronics", "Replaceable Parts", "Radar"],
 				"quote": "Aeronautics was neither an industry nor a science. It was a miracle."
 			},
 			{
 				"name": "Ballistics",
 				"row": 8,
-				"prerequisites": ["Munitions", "Replaceable Parts"],
+				"prerequisites": ["Munitions", "Replaceable Parts", "Radar"],
 				"quote": "Our goal is not the victory of might, but the vindication of right; not peace at the expense of freedom, but both peace and freedom, here in this hemisphere, and, we hope, around the world.\n\nGod willing, that goal will be achieved."
 			}
 			{
 				"name": "Railroads",
 				"row": 9,
-				"prerequisites": ["Replaceable Parts"],
+				"prerequisites": ["Replaceable Parts", "Electronics"],
 				"quote": "Iron and heat are, as we know, the supporters, the bases, of the mechanic arts."
 			}
 		]
