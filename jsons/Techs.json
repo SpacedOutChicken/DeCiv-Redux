@@ -225,13 +225,13 @@
 			{
 				"name": "Manufacturing",
 				"row": 7,
-				"prerequisites": ["Steam Power"],
+				"prerequisites": ["Steam Power", "Civil Service"],
 				"quote": "Manufacturing based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology."
 			},
 			{
 				"name": "Rifling",
 				"row": 8,
-				"prerequisites": ["Steel"],
+				"prerequisites": ["Steel", "Civil Service"],
 				"quote": "There is no struggle for life but, rather, life is lived for struggle. Thus, pacifism is trafficking with the enemy."
 			},
 			{
@@ -281,6 +281,12 @@
 				"prerequisites": ["Rifling", "Manufacturing"],
 				"quote": "As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy."
 			},
+			{
+				"name": "Radar",
+				"row": 10,
+				"prerequisites": ["Radio"],
+				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
+			}
 		]
 	},
 	{
@@ -345,26 +351,18 @@
 				],
 				"quote": "This has been a challenging quarter with falls in demand from states and agencies. Blackwarden Associates has recalibrated its operations across geographies, moving away from security and relief operations in Asia and divesting from the radiological remediation sector. By focusing on core domestic operations for private sector clients, we have successfully generated free cashflows despite adverse market conditions."
 			},
-
 			{
 				"name": "Gyroscopes",
 				"row": 7,
 				"prerequisites": ["Flight", "Ballistics"],
 				"quote": "Things may be the same again; and we must fight\nNot in the hope of winning but rather of keeping\nSomething alive: so that when we meet our end,\nIt may be said that we tackled wherever we could,\nThat battle-fit we lived, and though defeated,\nNot without glory fought."
 			},
-
 			{
 				"name": "Combined Arms",
 				"row": 8,
 				"prerequisites": ["Ballistics", "Railroads"],
 				"quote": "The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest."
 			},
-			{
-				"name": "Radar",
-				"row": 10,
-				"prerequisites": ["Radio"],
-				"quote": "'Talent hits a target no one else can hit; Genius hits a target no one else can see.'"
-			}
 		]	
 	},
 	{
