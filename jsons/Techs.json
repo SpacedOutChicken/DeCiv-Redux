@@ -381,7 +381,7 @@
 			{
 				"name": "Avionics",
 				"row": 6,
-				"prerequisites": ["Radar", "Gyroscopes", "Computers"],
+				"prerequisites": ["Gyroscopes", "Computers"],
 				"quote": "In the end, that's what this election is about. Do we participate in a politics of cynicism, or do we participate in a politics of hope?"
 			}
 		]
