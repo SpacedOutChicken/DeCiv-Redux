@@ -78,11 +78,7 @@
 		"uniqueName": "Adaptive Systems",
 		"uniques": ["[Purge Robot] units gain the [Portable Power Cell] promotion",
 		        "Can Mix Unique Strategic Resources to Generate a Great Person",
-			"[-99]% Great Person generation [in all cities]",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
-			"[-2 Happiness] [in all cities]"
+			"[-99]% Great Person generation [in all cities]"
 		],
 		"cities": [
 			"Halimax",
@@ -130,11 +126,9 @@
 			"[Civilian] units gain the [Urban Warfare I] promotion",
 			"[Low Tech] units gain the [Urban Warfare I] promotion",
 			"[Personnel] units gain the [Urban Warfare I] promotion",
-			"Starts with [Collectivism] adopted",
 			"[+1 Faith] [in all cities] <with [1] to [2] neighboring [Jungle] tiles>",
 			"[+2 Faith] [in all cities] <with [3] to [6] neighboring [Jungle] tiles>",
-			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Starts with [Redomestication]"
+			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
 		],
 		"cities": [
 			"Phoenix",
@@ -188,10 +182,6 @@
 		"uniques": [
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
 			"City-State Influence recovers at twice the normal rate",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
-			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
 		],
 		"cities": [
@@ -226,7 +216,7 @@
 		"name": "Atlas",
 		"leaderName": "John Kruger",
 		"adjective": ["Corporate"],
-		// "startBias": ["Avoid [Desert]"],
+		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Objectivism",
 
@@ -247,10 +237,6 @@
 		"uniques": [
 			"Free [Great Scientist] appears <upon discovering [Secrets of the Past]>",
 			"[+33]% Great Person generation [in all cities]",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
-			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"[100]% Production when constructing [Electrostatic Generator] buildings [in all cities] <after adopting [Rationalism Complete]>"
 		],
 		"cities": [
@@ -314,7 +300,6 @@
 			"Military Units gifted from City-States start with [+10] XP",
 			"City-State territory always counts as friendly territory",
 			"[Great General] is earned [33]% faster",
-			"Starts with [Redomestication]",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": [
@@ -375,11 +360,7 @@
 		"uniques": [
 			"Double quantity of [Encrypted Data] produced",
 			"Double quantity of [Weapons] produced",
-			"Cannot build [Low Tech] units",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Machinery]",
-			"[-2 Science] [in all cities] <before discovering [Education]>"
+			"Cannot build [Low Tech] units"
 		],
 		"cities": [
 			"Eagle Rock",
@@ -446,8 +427,7 @@
 			"No Maintenance costs for improvements in [Hill] tiles",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"[{Land} {Low Tech}] units gain the [Guerilla Warfare I] promotion",
-			"[Personnel] units gain the [Guerilla Warfare I] promotion",
-			"Starts with [Redomestication]"
+			"[Personnel] units gain the [Guerilla Warfare I] promotion"
 		],
 		"cities": [
 			"The Enclave",
@@ -619,8 +599,7 @@
 		"style": "Ignis",
 		"uniqueName": "Road Warriors",
 		"uniques": [
-			"[-33]% maintenance costs <for [Armor] units>",
-			"Starts with [Machinery]",
+			"[-25]% maintenance costs <for [Armor] units>",
 			"[+1 Culture, +1 Faith] from every [Strategic resource]",
 			"[+10]% [Culture] from every [Coal Plant]",
 			"Gain a free [Founder] belief <upon adopting [Theocracy Complete]>"
@@ -735,10 +714,9 @@
 		"style": "",
 		"uniqueName": "Community Watch",
 		"uniques": [
-			"[+10]% Strength <within [2] tiles of a [City center]>",
+			"[+15]% Strength <within [2] tiles of a [City center]>",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory",
-			"Starts with [Secrets of the Past]",
-			"Starts with [Redomestication]"
+			"Starts with [Secrets of the Past]"
 		],
 		"cities": [
 			"Gao",
@@ -803,16 +781,11 @@
 		"innerColor": [266,225,157],
 		"uniqueName": "Radioactivity",
 		"uniques": [
-			"Starts with [Secrets of the Past]",
-			"Starts with [Writing]",
-			"Starts with [Construction]",
-			"Starts with [Mining]",
-			"[-1 Science] [in all cities] <before discovering [Education]>",
 			"[-10]% growth [in all cities]",
 			"[-1 Food] [in all cities]",
 			"[{non-air} {Military}] units gain the [Radioactive] promotion",
-			"[+10]% Strength <for [All] units> <when fighting in [Fallout] tiles>",
-			"[+10]% Strength <for [All] units> <when fighting in [Toxic Waste] tiles>",
+			"[+25]% Strength <for [All] units> <when fighting in [Fallout] tiles>",
+			"[+25]% Strength <for [All] units> <when fighting in [Toxic Waste] tiles>",
 			"No defensive terrain penalty",
 			"No movement cost to pillage"
 		],
