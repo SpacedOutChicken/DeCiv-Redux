@@ -1,5 +1,4 @@
 [
-	// Instant effects
 	{
 		"name": "Heal Instantly",
 		"uniques": [
@@ -30,7 +29,7 @@
 	{
 		"name": "Entrench",
 		"uniques": [
-			"[+15% Strength <vs [Ranged] units> <when defending>",
+			"[+15]% Strength <vs [Ranged] units> <when defending>",
 			"[+5]% Strength <when defending>",
 			"Only available <for units without [Promotion Nullifier]>"],
 		"unitTypes": ["Scrapper", "Shooter"],
