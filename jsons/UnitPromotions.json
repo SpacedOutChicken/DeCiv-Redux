@@ -1,12 +1,5 @@
-/*******************
-# Notes
-- A set of promotions (I, II, III) should always stay together
-*******************/
 [
-	////////////////////
 	// Instant effects
-	////////////////////
-
 	{
 		"name": "Heal Instantly",
 		"uniques": [
@@ -31,13 +24,8 @@
 		"row": 0,
         "column": 0
 	},
-
-	////////////////////
 	// Generic promotions
-	////////////////////
-
 	// Without Prerequisites
-
 	//// Scrapper, Shooter
 	{
 		"name": "Entrench",
@@ -122,7 +110,7 @@
 			"[+15]% Strength <when fighting in [Jungle] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
 		"column": 2,
         "row": 2
 	},
@@ -144,7 +132,7 @@
 			"[+15]% Strength <when fighting in [Hill] tiles>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
-		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted"],
 		"column": 2,
         "row": 4
 	},
