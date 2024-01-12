@@ -791,7 +791,7 @@
 			{
 				"name": "Automation",
 				"uniques": [
-					"[-25]% tile improvement construction time",
+					"[-25]% construction time for [All] improvements",
 					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]",
 					"[+1 Science, +1 Production, -2 Food] from every [Factory]",
 					"[+1 Science, +1 Production, -2 Food] from every [Automated Factory]"
