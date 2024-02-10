@@ -22,7 +22,6 @@
 		"techRequired": "Ecology",
 		"uniques": [
 			"Food source",
-			"Natural tile",
 			"Gives a defensive bonus of [10]%",
 			"Cannot be built on [Badlands] tiles <before discovering [Hydroponics]>",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
@@ -118,7 +117,6 @@
 		"happiness": 1,
 		"uniques": [
 			"Food source",
-			"Natural tile",
 			"[+1 Food] <with [Exotic Seeds]>",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
@@ -136,7 +134,6 @@
 		"gold": 1,
 		"uniques": [
 			"Food source",
-			"Natural tile",
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
@@ -155,11 +152,8 @@
 		"techRequired": "Geo Engineering",
 		"uniques": [
 			"Food source",
-			"Natural tile",
 			"Gives a defensive bonus of [10]%",
-			"Cannot be built on [Bonus resource] tiles",
-			"Cannot be built on [Strategic resource] tiles",
-			"Cannot be built on [Luxury resource] tiles",
+			"Cannot be built on [resource] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "G"
@@ -172,7 +166,6 @@
 		"techRequired": "Land Remediation",
 		"uniques": [
 			"Food source",
-			"Natural tile",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food, -1 Gold] from [Fresh water] tiles",
 			"Cannot be built on [Permafrost] tiles",

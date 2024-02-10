@@ -808,7 +808,7 @@
 		"cost": 50,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"+30% Strength when fighting City-State units and cities",
+			"[+30]% Strength <vs [City-States]>",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",

@@ -86,7 +86,7 @@
 			"Hidden when religion is disabled",
 			"Only available <after founding a Pantheon>",
 			"Gain enough Faith for [33]% of a Great Prophet",
-			"Hidden after generating a Great Prophet"
+			"Unavailable <after generating a Great Prophet>"
 		]
 	}
 ]

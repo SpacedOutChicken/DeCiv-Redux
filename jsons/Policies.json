@@ -726,7 +726,11 @@
 				"name": "Ecodefense",
 				"requires": ["Emissions Standards"],
 				"uniques": [
-					"[+10]% Strength <for [All] units> <within [2] tiles of a [Natural tile]>"
+					"[+15]% Strength <for [All] units> <when fighting in [Tree plantation] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Nature preserve] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Artificial oasis] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Artificial glacier] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>"
 				],
 				"row": 2,
 				"column": 4

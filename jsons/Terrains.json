@@ -439,8 +439,7 @@
 			"Must be adjacent to [0] [Wasteland] tiles",
 			"Must be adjacent to [2] to [6] [Hill] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Fresh water",
-			"Natural tile"
+			"Fresh water"
 		],
 		"unbuildable": true,
 		"impassable": true,
