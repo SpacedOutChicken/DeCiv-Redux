@@ -49,7 +49,7 @@
 		"upgradesTo": "Mechanized Worker",
 		"uniques": [
 			"Can build [Land] improvements on tiles",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
 		],
 		"cost": 70
@@ -114,7 +114,7 @@
 			"Only available <if [Factory] is constructed>",
 			"May withdraw before melee ([50]%)",
 			"Can build [Land] improvements on tiles",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Automation is a primary action"
 		]
 	},
@@ -854,7 +854,7 @@
 		"uniques": [
 			"Personnel",
 			"Enslaved",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -895,7 +895,7 @@
 		"uniques": [
 			"Low Tech",
 			"Enslaved",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -1029,7 +1029,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
@@ -1077,7 +1077,7 @@
 			"Personnel",
 			"Enslaved",
 			"Only available <if [Factory] is constructed>",
-			"[-25]% tile improvement construction time",
+			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
