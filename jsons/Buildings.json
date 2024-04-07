@@ -42,7 +42,7 @@
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [2] [Weapons]",
 			"Free [Guerilla] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Deep Larder] [in this city]"
 		],
 		"quote": "An armed society is a polite society.",
@@ -56,7 +56,7 @@
 		"cost": 1,
 		"uniques": [
 			"Free [Militia] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "I look around and see that others have begun to build bases. Operation centers made of steel. But not us. Because the true home is not some building made of lead, but rather the people around you. Surround yourself with them. And you'l be home forever.",
@@ -78,7 +78,7 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"[2] free [Purge Robot Proto] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Compound Mixer] [in this city]"
 		],
 		"quote": "'I will tell you a secret. Truth is, I'm not human. Not fully, at least. For some reason, Hexlock decided that it would be best having a computer lead them, instead of a person. And so their president decided to alter the head of his own daugther. Maybe the fact that I killed him as soon as I came out meant that I was now different. But to be honest? I feel the same. Just get bored of things much faster.'",
@@ -102,7 +102,7 @@
 			"Provides [1] [Power]",
 			"Provides [1] [Weapons]",
 			"Free [Security] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "While your deposit clears, you may want to read through this guide for potential residents. The Ark One shelter comprises a unique set of secure luxury accomodation based within a former military facility. In addition to their private living space, residents will have access to a complete set of facilities including two restaurants, a cinema, a bowling alley, and a fitness area with gym, spa, sauna and pool. The Ark One shelter is protected by a world-class professional security company, and is hardened to resist a nuclear strike and any armed attack.",
@@ -123,7 +123,7 @@
 		"uniques": [
 			"Provides [1] [Power]",
 			"[2] free [Surveyor] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "At the Refuge, I am creating more than a town, more even than a polity; it is a new world, where individuals will be free to act without the burden of taxation or the specter of injustice. Here, I have created a truly voluntary society, where the citizens associate in rational self interest; from love, not from fear of punishment. I have sent you this invitation because you have greatness within you; think of all you have achieved in your life, and how much more you could do, if you were not held back. Choose something different. Choose Atlas.",
@@ -147,7 +147,7 @@
 			"Provides [1] [Power]",
 			"Provides [2] [Weapons]",
 			"Free [Spec Ops] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "We are here to protect the people, and we will do it here. Here we make our stand against anarchy and tyranny. Here, we will once again establish freedom and order. This is the oath we have taken, and we will keep that oath.",
@@ -167,7 +167,7 @@
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Free [Swordsman] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "Whatsoever any man either doth or saith, thou must be good; not for any man's sake, but for thine own nature's sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.",
@@ -190,7 +190,7 @@
 			"Provides [2] [Oil]",
 			"Gain enough Faith for a Pantheon",
 			"Free [War Buggy] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Fuel Depot] [in this city]"
 		],
 		"quote": "Be thy hands, anointed, with holy oil.\nBe thy breast, anointed, with holy oil.\nBe thy head, anointed, with holy oil.\nAs kings, priests, and prophets were anointed.\nAnd as Solomon was anointed king by Zadok the priest and Nathan the prophet, so be thee anointed.",
@@ -210,7 +210,7 @@
 			"[25]% Great Person generation [in this city]",
 			"[+1 Faith, +1 Happiness] [in this city] <when not at war>",
 			"Free [Ranger] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Monument] [in this city]"
 		],
 		"quote": "Lasting peace is sought, it is essential to adopt international measures to improve the lot of the masses. The welfare of the entire human race must replace hunger and oppression. People of the world must be taught to give up envy, avarice and rancour.",
@@ -231,7 +231,7 @@
 		"cityHealth": 10,
 		"uniques": [
 			"[2] free [Scavenger] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Salvage Yard] [in this city]"
 		],
 		"quote": "Now there are no doors left in the houses for they have all been kicked off. So, also, there are no fires in the village and have not been for many days. Now the men full of strong drink have trodden in the fireplaces. They alone track there and there are no fires and their footprints are in all the fireplaces.",
@@ -248,7 +248,7 @@
 		"culture": 1,
 		"cost": 1,
 		"uniques": [
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"[+1 Faith] [in this city] <with [1] to [6] neighboring [Coast] tiles>",
 			"[2] free [Sharkman] units appear",
 			"Gain a free [Lighthouse] [in this city]"
@@ -270,7 +270,7 @@
 		"cityStrength": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Provides [1] [Weapons]",
 			"Free [Panther] appears",
 			"Gain a free [Mosque] [in this city]",
@@ -291,7 +291,7 @@
 		"gold": 1,
 		"cityHealth": 10,
 		"uniques": [
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Provides [1] [Weapons]",
 			"[2] free [Clansman] units appear",
 			"Gain a free [Food Store] [in this city]"
@@ -315,7 +315,7 @@
 			"Provides [1] [Power]",
 			"[+2 Culture, +1 Happiness] [in this city] <after discovering [Decontamination]>",
 			"Free [Mutant] appears",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]"
 		],
 		"quote": "There is a sickness in the earth. You can feel it in the air we breathe and the water we drink. We have poisoned our mother. All we can do now is try to make things right.",
@@ -487,7 +487,7 @@
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -500,7 +500,7 @@
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Congress]>",
 			"Destroyed when the city is captured"
 		]
@@ -517,7 +517,7 @@
 		    "[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Rally Station]>",
 			"Destroyed when the city is captured"
 		   
@@ -535,7 +535,7 @@
 		    "[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Gideon Scanner]>",
 			"Destroyed when the city is captured"
 			
@@ -553,7 +553,7 @@
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Overcouncil]>",
 			"Destroyed when the city is captured"
 		]
@@ -574,7 +574,7 @@
 			"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Stormfront Center]>",
 			"Destroyed when the city is captured"
 		]
@@ -589,7 +589,7 @@
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Defense Committee]>",
 			"Destroyed when the city is captured"
 		]
@@ -604,7 +604,7 @@
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"[+20]% Production when constructing [Military] units [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Citizens' Assembly]>",
 			"Destroyed when the city is captured"
 		]
@@ -619,7 +619,7 @@
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Board of Directors]>",
 			"Destroyed when the city is captured"
 		]
@@ -634,7 +634,7 @@
 			"[+1 Gold] from every [Town Hall]",
 			"[Gold] cost of purchasing items in cities [-20]%",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Shareholders' Fund]>",
 			"Destroyed when the city is captured"
 		]
@@ -649,7 +649,7 @@
 			"[+1 Science, +1 Gold] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Think Tank]>",
 			"Destroyed when the city is captured"
 		]
@@ -664,7 +664,7 @@
 			"Production to [Science] conversion in cities changed by [33]%",
 			"[+10]% Production when constructing [Science] buildings [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Freedom Foundation]>",
 			"Destroyed when the city is captured"
 		]
@@ -678,7 +678,7 @@
 		"uniques": [
 			"Provides a sum of gold each time you spend a Great Person",
 			"[Great Merchant] is earned [25]% faster",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Grand Clan Manor]>",
 			"Destroyed when the city is captured"
 		]
@@ -692,7 +692,7 @@
 		"uniques": [
 			"[Great General] is earned [50]% faster",
 			"New [Personnel] units start with [30] Experience [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Smugglers' Guild]>",
 			"Destroyed when the city is captured"
 		],
@@ -711,7 +711,7 @@
 		"uniques": [
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Consulate]>",
 			"Destroyed when the city is captured"
 		]
@@ -725,7 +725,7 @@
 		"uniques": [
 			"Great General provides double combat bonus",
 			"[+20]% Production when constructing [Military] units [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Senate]>",
 			"Destroyed when the city is captured"
 		]
@@ -739,7 +739,7 @@
 		"uniques": [
 			"[+1 Production] per [4] population [in all cities]",
 			"[+20]% Production when constructing [Military] units [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Seer Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -753,7 +753,7 @@
 		"uniques": [
 			"[+25]% [Science] from every [College of Mystics]",
 			"[+20]% Production when constructing [Science] buildings [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [War Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -767,7 +767,7 @@
 		"uniques": [
 			"When declaring friendship, both parties gain a [10]% boost to great person generation",
 			"Gain [30] Influence with a [Military] gift to a City-State",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Parliament]>",
 			"Destroyed when the city is captured"
 		]
@@ -781,7 +781,7 @@
 		"uniques": [
 			"[+1 Culture, +1 Science] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Embassy]>",
 			"Destroyed when the city is captured"
 		]
@@ -796,7 +796,7 @@
 			"Resting point for Influence with City-States is increased by [20]",
 			"Gifts of Gold to City-States generate [25]% more Influence",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Raider's Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -811,7 +811,7 @@
 			"[+30]% Strength <vs [City-States]>",
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Trader's Congress]>",
 			"Destroyed when the city is captured"
 		]
@@ -826,7 +826,7 @@
 			"[+10]% growth [in all cities]",
 			"[+2 Food, +2 Culture] [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Revolutionary Council]>",
 			"Destroyed when the city is captured"
 		]
@@ -841,7 +841,7 @@
 			"[+1] Unit Supply per [2] population [in all cities]",
 			"[-25]% maintenance costs <for [Military] units>",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Survival Program]>",
 			"Destroyed when the city is captured"
 		]
@@ -858,7 +858,7 @@
 			"[25]% Great Person generation [in all cities connected to capital]",
 			"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Gulag]>",
 			"Destroyed when the city is captured"
 		]
@@ -875,7 +875,7 @@
 			"[+1 Production] from every [Listening Post]",
 			"[+1 Happiness, +1 Culture] from every [Work Camp]",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Five-Year Plan]>",
 			"Destroyed when the city is captured"
 		]
@@ -1570,7 +1570,7 @@
 		"greatPersonPoints": { "Great Administrator": 2 },
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Town Hall] in all cities",
+			"Only available <if [Town Hall] is constructed in all [non-[Puppeted]] cities>",
 			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
 			"Gain [20] [Culture] <upon declaring friendship>",
@@ -1686,9 +1686,9 @@
 		"faith": 8,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Monastery] in all cities",
+			"Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Can only be built [in holy cities]",
+			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
@@ -1705,9 +1705,9 @@
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Grand Monastery",
 		"uniques": [
-			"Requires a [Altar of Ignis] in all cities",
+			"Only available <if [Altar of Ignis] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Can only be built [in holy cities]",
+			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
@@ -1723,7 +1723,7 @@
 		"science": 1,
 		"requiredTech": "Biology",
 		"uniques": [
-			"Requires a [Hospital] in at least [4] cities",
+			"Only available <if [Hospital] is constructed in at least [4] of [Your] cities>",
 			"Only available <after adopting [Rationalism]>",
 			"[5]% Food is carried over after population increases [in all cities]",
 			"[+5]% growth [in all cities] <after adopting [Rationalism Complete]>",
@@ -1994,7 +1994,7 @@
 			"[+2 Happiness] [in this city] <with [Electronics]>",
 			"[+2 Happiness] [in this city] <with [Machine Parts]>",
 			"Cost increases by [50] per owned city",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"Consumes [1] [Power]"
 		],
 		"hurryCostModifier": 25,
@@ -2362,7 +2362,7 @@
 		"isNationalWonder": true,
 		"percentStatBonus": { "science": 33 },
 		"uniques": [
-			"Requires a [Library] in all cities",
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Education"
@@ -2768,7 +2768,7 @@
 		"cost": 20,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Can only be built <in [Annexed] cities>",
 			"Provides [1] [Slaves]",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
@@ -2784,7 +2784,7 @@
 		"cost": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
 		],
@@ -2799,7 +2799,7 @@
 		"cost": 15,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Can only be built <in [Annexed] cities>",
 			"Provides [4] [Slaves]",
 			"Only available <in cities without a [Arena]>",
 			"Destroyed when the city is captured"
@@ -2817,7 +2817,7 @@
 		"uniques": [
 			"[+15]% Production when constructing [Melee] units [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built [in annexed cities]",
+			"Can only be built <in [Annexed] cities>",
 			"Provides [3] [Slaves]",
 			"Free [Auxiliary] appears",
 			"Only available <in cities without a [Colosseum]>",
@@ -3181,7 +3181,7 @@
 		"production": 1,
 		"requiredTech": "Computers",
 		"uniques": [
-			"Can only be built [in all cities connected to capital]",
+			"Can only be built <in [in all cities connected to capital] cities>",
 			"Only available <if [Domestic Electrification] is constructed>",
 			"Provides [2] [Power]"
 		],
@@ -3507,7 +3507,7 @@
 		"uniques": [
 			"Provides [8] [Power]",
 			"Provides [2] [Uranium]",
-			"Can only be built [in capital]",
+			"Can only be built <in [Capital] cities>",
 			"[+1 Production] [in all cities connected to capital]"
 		],
 		"requiredTech": "Future Power"
