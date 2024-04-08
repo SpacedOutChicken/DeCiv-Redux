@@ -266,8 +266,8 @@
 			"Generated with weight [30] <in [Badlands] tiles> <in tiles without [Hill]>",
 			"Minor deposits generated with weight [10] <in [Wasteland] tiles>",
 			"Minor deposits generated with weight [10] <in [Badlands] tiles>",
-			"Minor deposits generated with weight [20] <in [Wasteland] [Hill] tiles>",
-			"Minor deposits generated with weight [20] <in [Badlands] [Hill] tiles>"
+			"Minor deposits generated with weight [20] <in [{Wasteland} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Badlands} {Hill}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 2, "default": 3, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
@@ -353,8 +353,8 @@
 			"Generated with weight [30] <in [{Featureless} {Wasteland}] tiles>",
 			"Minor deposits generated with weight [10] <in [Jungle] tiles>",
 			"Minor deposits generated with weight [10] <in [Forest] tiles>",
-			"Minor deposits generated with weight [20] <in [Wasteland] [Hill] tiles>",
-			"Minor deposits generated with weight [20] <in [Badlands] [Hill] tiles>"
+			"Minor deposits generated with weight [20] <in [{Wasteland} {Hill}] tiles>",
+			"Minor deposits generated with weight [20] <in [{Badlands} {Hill}] tiles>"
 		],
 		"majorDepositAmount": { "sparse": 2, "default": 4, "abundant": 4 },
 		"minorDepositAmount": { "sparse": 1, "default": 2, "abundant": 3 }
