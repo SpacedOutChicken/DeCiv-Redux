@@ -32,8 +32,8 @@
 		"uniques": [
 			"[+50]% Great Person generation [in all cities]",
 			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
-			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
-			"[+1] Sight <for [{Wounded} {Scout}] units> ",
+			"[+15]% Strength <for [{Wounded} {Melee}] units> <when defending>",
+			"[+1] Sight <for [{Wounded} {Scout}] units>",
 			"Cannot build [Enslaved] units"
 		],
 		"cities": [
@@ -250,7 +250,7 @@
 		"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": [
-			"Free [Great Scientist] appears <upon discovering [Secrets of the Past]>",
+			"Free [Great Scientist] appears <upon discovering [Secrets of the Past] technology>",
 			"[+33]% Great Person generation [in all cities]",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
