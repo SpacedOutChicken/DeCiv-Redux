@@ -895,7 +895,7 @@
 		"startBias": ["Hill"],
 		"style": "Tribal",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units <for [All] units>",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units"
@@ -914,7 +914,7 @@
 		"startBias": ["Hill"],
 		"style": "Ghost",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units <for [All] units>",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units",
@@ -1011,7 +1011,7 @@
 		"cityStateType": "Prayer",
 		"style": "",
 		"uniques": [
-			"Damage is ignored when determining unit Strength <for [All] units>",
+			"No damage penalty for wounded units <for [All] units>",
 			"Cannot build [Armor] units",
 			"Cannot build [Siege] units",
 			"Cannot build [Helicopter] units"

@@ -3,7 +3,17 @@
     "uniques": [
         "Can convert gold to science with sliders",
         "Allow City States to spawn with additional units",
-        "Can trade civilization introductions for [100] Gold"
+        "Can trade civilization introductions for [100] Gold",
+        "Suppress warning [Horseman is supposed to automatically upgrade at tech Rifling, and therefore Redomestication for its upgrade Hussar may not yet be researched!]",
+        "Suppress warning [Clan Horseman is supposed to automatically upgrade at tech Rifling, and therefore Redomestication for its upgrade Hussar may not yet be researched!]",
+        "Suppress warning [Skirmisher is supposed to automatically upgrade at tech Rifling, and therefore Redomestication for its upgrade Dragoon may not yet be researched!]",
+        "Suppress warning [Rubble Rider is supposed to automatically upgrade at tech Rifling, and therefore Redomestication for its upgrade Dragoon may not yet be researched!]",
+        "Suppress warning [Conscript is supposed to automatically upgrade at tech Combined Arms, and therefore Plastics for its upgrade NBC Conscript may not yet be researched!]",
+        "Suppress warning [Rubble Militia is supposed to automatically upgrade at tech Combined Arms, and therefore Plastics for its upgrade NBC Conscript may not yet be researched!]",
+        "Suppress warning [Dinghy is supposed to automatically upgrade at tech Steam Power, and therefore Navigation for its upgrade Patrol Boat may not yet be researched!]",
+        "Suppress warning [Trimaran is supposed to automatically upgrade at tech Steam Power, and therefore Navigation for its upgrade Patrol Boat may not yet be researched!]",
+        "Suppress warning [Bandit is supposed to automatically upgrade at tech Engineering, and therefore Rifling for its upgrade Soldier may not yet be researched!]",
+        "Suppress warning [Irregular is supposed to automatically upgrade at tech Combined Arms, and therefore Plastics for its upgrade NBC Marksman may not yet be researched!]"
     ],
     "constants": {
         "maxXPfromBarbarians":150,

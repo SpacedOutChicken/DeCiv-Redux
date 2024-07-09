@@ -899,7 +899,7 @@
 				"name": "Cybernetics",
 				"requires": ["Mutagens"],
 				"uniques": [
-					"Damage is ignored when determining unit Strength <for [Personnel] units>",
+					"No damage penalty for wounded units <for [Personnel] units>",
 					"[+1 Production] per [10] population [in all cities]"
 				],
 				"row": 2,

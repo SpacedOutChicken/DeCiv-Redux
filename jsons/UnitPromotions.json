@@ -65,7 +65,7 @@
 	{
 		"name": "Skirmish",
 		"uniques": [
-			"May withdraw before melee ([75]%)",
+			"Withdraws before melee combat <with [75]% chance>",
 			"[25]% XP gained from combat",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
@@ -89,7 +89,7 @@
 		"name": "Loose Formation",
 		"uniques": [
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"May withdraw before melee ([25]%)",
+			"Withdraws before melee combat <with [25]% chance>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Mounted", "Armor"],

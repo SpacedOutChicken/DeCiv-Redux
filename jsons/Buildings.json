@@ -676,7 +676,7 @@
 		"cost": 100,
 		"requiredTech": "Currency",
 		"uniques": [
-			"Provides a sum of gold each time you spend a Great Person",
+			"Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[Great Merchant] is earned [25]% faster",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Grand Clan Manor]>",
