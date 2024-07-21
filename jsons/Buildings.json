@@ -1009,6 +1009,17 @@
 		]
 	},
 	{
+		"name": "Virtual Panopticon",
+		"isWonder": true,
+		"uniques": [
+			"[-99]% enemy spy effectiveness [in this city]",
+			"[-25]% enemy spy effectiveness [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]"
+		],
+		"requiredTech": "Social Engineering",
+		"quote": "In our ardour for reform, we prepared the way for what we feared most."
+	},
+	{
 		"name": "Satnav Network",
 		"science": 1,
 		"greatPersonPoints": { "Great Engineer": 2 },
@@ -3637,6 +3648,31 @@
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Ocean Remediation"
+	},
+
+	// espionage stuff
+
+	{
+		"name": "Field Office",
+		"maintenanceCost": 1,
+		"hurryCostModifier": 10,
+		"uniques": ["[-25]% enemy spy effectiveness [in this city]",
+			"Hidden when espionage is disabled"],
+		"requiredTech": "Combined Arms"
+	},
+	{
+		"name": "Information Awareness Office",
+		"isNationalWonder": true,
+		"culture": 1,
+		"cost": 150,
+		"uniques": ["[-15]% enemy spy effectiveness [in all cities]",
+			"New spies start with [1] level(s)",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"Only available <if [Field Office] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Hidden when espionage is disabled"],
+		"requiredTech": "Networking"
 	},
 
 	// Religion buildings
