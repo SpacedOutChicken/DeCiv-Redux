@@ -55,7 +55,10 @@
 		"startPercent": 37,
 		"citySound": "cityRenaissance",
 		"embarkDefense": 16,
-		"iconRGB": [104, 58, 183]
+		"iconRGB": [104, 58, 183],
+		"uniques": [
+			"Every major Civilization gains a spy once a civilization enters this era"
+		]
 	},
 	{
 		"name": "Industrial era",
@@ -74,7 +77,8 @@
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
 			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	},
 	{
@@ -94,7 +98,8 @@
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
 			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	},
 	{
@@ -114,7 +119,8 @@
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
 			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	},
 	{
@@ -134,7 +140,8 @@
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
 			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	},
 	{
@@ -154,7 +161,8 @@
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
 			"May buy [Great Sage] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	}
 ]
