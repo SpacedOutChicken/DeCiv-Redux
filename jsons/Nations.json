@@ -98,7 +98,6 @@
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
 			"Starts with [Engineering]",
-			"Starts with [Electronics]",
 			"[-2 Happiness] [in all cities]"
 		],
 		"cities": [
@@ -234,7 +233,6 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Monopoly] adopted",
 			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
@@ -308,7 +306,6 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Rationalism] adopted",
 			"[100]% Production when constructing [Electrostatic Generator] buildings [in all cities] <after adopting [Rationalism Complete]>"
@@ -466,7 +463,6 @@
 			"Starts with [Writing]",
 			"Starts with [Construction]",
 			"Starts with [Machinery]",
-			"Starts with [Electronics]",
 			"[-2 Science] [in all cities] <before discovering [Education]>"
 		],
 		"cities": [
