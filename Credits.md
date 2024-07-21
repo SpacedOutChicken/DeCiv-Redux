@@ -31,6 +31,7 @@ Buildings:
 * Cryo Sanctum: [Cryogenic Vault](https://thenounproject.com/icon/cryogenic-vault-115036/) by Brandon Gamm, US
 * Electrostatic Generator: [generator](https://thenounproject.com/icon/generator-4308223/) by WiStudio, TH
 * Explore Underwater City: [sea level rise](https://thenounproject.com/icon/sea-level-rise-200223/) by Luis Prado, US
+* Field Office: [agency](https://thenounproject.com/icon/agency-984400/) by Tomasz Pasternak, PL
 * Fusion Reactor: [Nuclear Reactor](https://thenounproject.com/term/nuclear-reactor/4110972/) by Robert Bjurshagen, SE
 * Greywater Treatment Plant: [Water Filter](https://thenounproject.com/icon/water-filter-1929073/) by Vectors Market
 * Listening Post: [peeping tom](https://thenounproject.com/term/peeping-tom/38344/) by Luis Prado, US
@@ -57,6 +58,7 @@ Buildings:
 * The Last Paradise: [Bird of Paradise](https://thenounproject.com/icon/bird-of-paradise-3890707/) by Kevin, US
 * Uranium Centrifuge: [centrifuge](https://thenounproject.com/icon/centrifuge-3771162/) by Carl Holderness, GB
 * Urine Recycler: [urine](https://thenounproject.com/term/urine/3650621/) by Llisole 
+* Virtual Panopticon: [panopticon](https://thenounproject.com/icon/panopticon-176669/) by Gregor Cresnar
 
 Nations:
 * Proklyatyye: [skeleton hand](https://thenounproject.com/icon/skeleton-hand-2108458/) by Vectors Market
