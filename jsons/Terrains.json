@@ -266,6 +266,7 @@
 		"name": "Spring",
 		"type": "TerrainFeature",
 		"gold": 1,
+		"unbuildable": true,
 		"occursOn": ["Tundra", "Badlands", "Wasteland"],
 		"uniques": [
 			"Rare feature",
