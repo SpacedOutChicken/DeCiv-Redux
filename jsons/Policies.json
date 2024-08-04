@@ -202,7 +202,7 @@
 				"name": "Triumph",
 				"uniques": [
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
-					"When defeating a [Military] unit, earn [25] Gold and recruit it <with [25]% chance>"
+					"When defeating a [Military] unit, earn [10] Gold and recruit it <with [10]% chance>"
 				],
 				"requires": ["Doctrine"],
 				"row": 2,
