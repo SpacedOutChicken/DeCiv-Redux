@@ -2873,7 +2873,7 @@
 			"[-1] Sight",
 			"Unbuildable",
 			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 		"movement": 4,
 		"religiousStrength": 1000
@@ -2886,7 +2886,7 @@
 			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
 			"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 			"[+1] Sight",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Unbuildable",
 			"Religious Unit"
 		],
@@ -2921,7 +2921,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -2944,7 +2944,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"
 		],
 		"movement": 2,
@@ -3792,7 +3792,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3809,7 +3809,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3827,7 +3827,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{
@@ -3844,7 +3844,7 @@
 			"Limited to [1] per Civilization",
 			"Cannot be purchased",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	}
 ]

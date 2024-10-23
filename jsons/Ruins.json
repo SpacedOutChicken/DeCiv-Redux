@@ -32,7 +32,7 @@
 	{
 		"name": "your exploring unit receives training",
 		"notification": "The survivors trained us in their ways of combat!",
-		"uniques": ["This Unit gains [10] XP"]
+		"uniques": ["[This Unit] gains [10] XP"]
 	},
 	{
 		"name": "survivors (adds population to a city)",
@@ -54,7 +54,7 @@
 	{
 		"name": "advanced weaponry for your explorer",
 		"notification": "Our unit finds advanced weaponry hidden in the camp!",
-		"uniques": ["This Unit upgrades for free including special upgrades"]
+		"uniques": ["[This Unit] upgrades for free including special upgrades"]
 	},
 	{
 		"name": "reveal nearby Barbarian camps",
@@ -74,7 +74,7 @@
 		"name": "discover religious texts",
 		"notification": "We have found religious texts in the camp, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Gain enough Faith for a Pantheon",
 			"Only available <before founding a Pantheon>"
 		]
@@ -83,7 +83,7 @@
 		"name": "an ancient prophecy",
 		"notification": "We have found an ancient prophecy in the camp, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Only available <after founding a Pantheon>",
 			"Gain enough Faith for [33]% of a Great Prophet",
 			"Unavailable <after generating a Great Prophet>"

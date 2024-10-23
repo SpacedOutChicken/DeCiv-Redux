@@ -335,7 +335,7 @@
 			"Hidden until [6] social policy branches have been completed",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
-			"Hidden when [Cultural] Victory is disabled"
+			"Only available <when [Cultural] Victory is enabled>"
 		]
 	},
 
@@ -348,7 +348,7 @@
 		"cost": 65,
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Hidden when [Transmission] Victory is disabled"
+			"Only available <when [Transmission] Victory is enabled>"
 		],
 		"civilopediaText": [
 			{
@@ -368,7 +368,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "By 2040, the world was tense but still bright. There were lows, but we all had hope. That's why we never imagined it... That first strike."
@@ -385,7 +385,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "We never knew who it was that launched the first bombs... Or perhaps we did. It didn't matter. The gates to hell were open... And we all walked through the front door."
@@ -402,7 +402,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "After the bombs came the robots, bathed in metal. They did more damage to the great nations of old than the bombs ever did. They were ruthless. Killed anything that lived, it didn't matter who, or where. Not even the bunkers were safe."
@@ -419,7 +419,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "In a time when perhaps we all had lost hope, a sliver of hope appeared. We never knew where the robots came from. But there were rumors of a guy that went around fearlessly destroying them. And just as they came, one day they were all gone. Some of us didn't believe it. But we knew. The Hero was real. We've seen him."
@@ -436,7 +436,7 @@
 			"[15]% Production when constructing [Victory Transmission] wonders [in all cities]",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "Just as if he existed solely for his mission, the Hero vanished. But some of us will remember him forever. Down 2/3 of our people. Supplies had run out. The atmosphere was toxic, but survivable. It was time to head out."
@@ -452,7 +452,7 @@
 			"Victory Transmission",
 			"[15]% Production when constructing [Great Arc] wonders [in all cities]",
 			"Only available <if [Transmissions Center] is constructed>",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": "When we came out, we saw many trying to remake their own societies, making the same mistakes of old. This might be my last entry. But we found it. The last wonder of the old world, Blueprints of the Arc. Meant to turn back the clock, bring us together once more. My life might be too short, but don't let this go to waste. Do better."
@@ -467,7 +467,7 @@
 		"uniques": [
 			"Only available <if [Transmissions Center] is constructed>",
 			"Triggers a global alert upon build start",
-			"Hidden when [Transmission] Victory is disabled",
+			"Only available <when [Transmission] Victory is enabled>",
 			"Cannot be hurried"
 		],
 		"quote": "This is it. Our second chance.",
@@ -887,7 +887,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		],
 		"requiredTech": "Plastics Recycling",
 		"civilopediaText": [
@@ -907,7 +907,7 @@
 		"requiredTech": "Globalization",
 		"uniques": [
 			"Triggers voting for the Diplomatic Victory",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Only available <when [Diplomatic] Victory is enabled>",
 			"Triggers a global alert upon build start"
 		],
 		"quote": "We must all hang together, or surely we will all hang separately."
@@ -1425,7 +1425,7 @@
 			"[+1 Culture, +1 Faith] from [Vault of Records] tiles [in all cities]",
 			"Must have an owned [Vault of Records] within [3] tiles",
 			"Provides [2] [Books]",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 		"quote": "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
 		"civilopediaText": [
@@ -1701,7 +1701,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
             "All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
 		]
@@ -1720,7 +1720,7 @@
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
             "All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"Free Social Policy",
@@ -3657,7 +3657,7 @@
 		"maintenanceCost": 1,
 		"hurryCostModifier": 10,
 		"uniques": ["[-25]% enemy spy effectiveness [in this city]",
-			"Hidden when espionage is disabled"],
+			"Only available <when espionage is enabled>"],
 		"requiredTech": "Combined Arms"
 	},
 	{
@@ -3671,7 +3671,7 @@
 			"Gain an extra spy",
 			"Only available <if [Field Office] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Hidden when espionage is disabled"],
+			"Only available <when espionage is enabled>"],
 		"requiredTech": "Networking"
 	},
 
@@ -3681,7 +3681,7 @@
 		"faith": 1,
 		"cost": 40,
 		"requiredTech": "Secrets of the Past",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Altar of Ignis",
@@ -3691,7 +3691,7 @@
 		"cost": 40,
 		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+1 Faith] from [Oil] tiles [in this city]"
 		]
 	},
@@ -3703,7 +3703,7 @@
 		"requiredTech": "Education",
 		"uniques": [
 			"Only available <in cities with a [Shrine]>",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
 	{
@@ -3715,7 +3715,7 @@
 		"requiredTech": "Social Engineering",
 		"uniques": [
 			"Only available <in cities with a [Monastery]>",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+50]% Natural religion spread [in this city] <when above [-2] [Power]>",
 			"Consumes [1] [Power]"
 		]
@@ -3726,7 +3726,7 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Garden",
@@ -3736,7 +3736,7 @@
 		"happiness": 1,
 		"food": 3,
 		"specialistSlots": { "Farmer": 1 },
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Holy Fortress",
@@ -3746,7 +3746,7 @@
 		"happiness": 1,
 		"cityStrength": 6,
 		"cityHealth": 25,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Dojo",
@@ -3756,7 +3756,7 @@
 		"happiness": 1,
 		"uniques": [
 			"Unbuildable",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"New [Military] units start with [15] Experience [in this city]"
 		]
 	},
@@ -3771,7 +3771,7 @@
 		"specialistSlots": { "Scientist": 1 },
 		"uniques": [
 			"Unbuildable",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		]
 	},
     // Civilization Unique
@@ -3815,7 +3815,7 @@
 			"Consumes [1] [C2N14]",
 			"Unsellable",
 			"Never destroyed when the city is captured",
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Limited to [3] per Civilization"
 		]
 	},
