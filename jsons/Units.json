@@ -1239,6 +1239,7 @@
 			"Personnel",
 			"Great Person - [War]",
 			"Unbuildable",
+			"Can be earned through combat",
 			"Consumes [1] [Weapons]"
 		],
 		"promotions": ["Reconnaissance I", "Gas Mask", "[Ranger] ability"],
@@ -3024,6 +3025,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3039,6 +3041,7 @@
 			"Can hurry technology research",
 			"Can instantly construct a [Crystal Refinery] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3055,6 +3058,7 @@
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
@@ -3072,6 +3076,7 @@
 			"[+15] HP when healing",
 			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Uncapturable",
 			"Unbuildable"
 		],
@@ -3088,6 +3093,7 @@
 			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Uncapturable",
 			"Unbuildable"
 		],
