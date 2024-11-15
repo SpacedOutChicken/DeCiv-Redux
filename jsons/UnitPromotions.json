@@ -799,7 +799,7 @@
 		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Only available <for units without [Promotion Nullifier]>"
 		],
 		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted"],

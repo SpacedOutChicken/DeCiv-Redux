@@ -837,7 +837,7 @@
 			"Enables embarkation for land units",
 			"Enables [All] units to enter ocean tiles",
 			"[1] Movement point cost to disembark <for [All] units>",
-			"Defense bonus when embarked <for [All] units>",
+			"[+100]% Strength <when defending> <for [Embarked] units>",
 			"[+1] Sight <for [Embarked] units>",
 			"[+1] Movement <for [Water] units>",
 			"[{Land} {Low Tech}] units gain the [Amphibious] promotion",

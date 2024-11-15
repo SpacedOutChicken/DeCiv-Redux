@@ -81,7 +81,7 @@
 		"[-33]% Strength <for units with [Super Alloy]> <vs [{Ranged} {Promotion Nullifier}] units> <when defending>",
 		
 		// Factory farm food bonus
-		"[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>",
+		"[+1 Food] from every [Food source] <with [1] to [6] neighboring [Factory farm] tiles>"
 
 		// Unimplemented uniques in the base game below
 		// "[+20]% [Culture] [in all cities] <during a golden age>",

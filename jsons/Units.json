@@ -1799,7 +1799,7 @@
 			"Only available <if [Reactivate AI] is constructed>",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Promotion Nullifier"],
@@ -1896,7 +1896,7 @@
 			"No defensive terrain penalty",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Consumes [1] [Oil]",
 			"Consumes [1] [Encrypted Data]"
 		],
@@ -1943,7 +1943,7 @@
 			"Can carry [1] [Automated] units",
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Powered Armor","Promotion Nullifier"],
