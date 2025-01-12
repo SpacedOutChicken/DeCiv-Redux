@@ -235,7 +235,7 @@
 			"Starts with [Machinery]",
 			"[-2 Science] [in all cities] <before discovering [Education]>",
 			"Starts with [Monopoly] adopted",
-			"Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns. <after adopting [Monopoly Complete]>"
+			"Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns <after adopting [Monopoly Complete]>"
 		],
 		"cities": [
 			"Ark One",
@@ -1230,6 +1230,6 @@
 		"style": "Barbarians",
 		"outerColor": [0, 0, 0],
 		"innerColor": [185, 12, 12],
-		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>"]
+		"uniques": ["[-33]% Strength <vs cities> <before discovering [Steam Power]>", "Excluded from map editor"]
 	}
 ]
