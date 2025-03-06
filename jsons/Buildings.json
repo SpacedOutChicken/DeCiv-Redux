@@ -691,7 +691,7 @@
 		"requiredTech": "Currency",
 		"uniques": [
 			"[Great General] is earned [50]% faster",
-			"New [Personnel] units start with [30] Experience [in all cities]",
+			"New [Personnel] units start with [30] XP [in all cities]",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Smugglers' Guild]>",
 			"Destroyed when the city is captured"
@@ -2492,7 +2492,7 @@
 		"science": 1,
 		"uniques": [
 			"[+15]% Production when constructing [Military] units [in this city]",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Only available <in cities with a [Barracks]>"
 		],
 		// "greatPersonPoints": { "Great General": 1 },
@@ -2509,7 +2509,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
@@ -2748,7 +2748,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Slaves]>",
 			"Only available <in cities without a [Prison Camp]>",
@@ -2764,7 +2764,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Slaves]>",
 			"Only available <in cities without a [Prison Camp]>",
@@ -2852,7 +2852,7 @@
 		"cost": 50,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -2864,7 +2864,7 @@
 		"cost": 60,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [Military] units [in this city] receive the [Sentry] promotion",
 			"Destroyed when the city is captured"
 		]
@@ -2876,7 +2876,7 @@
 		"requiredTech": "Construction",
 		"requiredNearbyImprovedResources": ["Weapons"],
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Production] from [Weapons] tiles [in this city]",
 			"Destroyed when the city is captured"
 		]
@@ -2887,7 +2887,7 @@
 		"isNationalWonder": true,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [30] Experience [in this city]",
+			"New [Military] units start with [30] XP [in this city]",
 			"Only available <in cities with a [Barracks]>",
 			"Free [Great General] appears"
 		],
@@ -2899,7 +2899,7 @@
 		"uniqueTo": "Enclavers",
 		"cityStrength": 10,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"All newly-trained [relevant] units [in this city] receive the [Guerilla Warfare II] promotion",
 			"Destroyed when the city is captured"
 		],
@@ -3618,7 +3618,7 @@
 		"gold": 1,
 		"uniques": [
 			"[+10]% Production when constructing [Water] units [in this city]",
-			"New [Water] units start with [15] Experience [in this city]",
+			"New [Water] units start with [15] XP [in this city]",
 			"Connects trade routes over water",
 			"Must be next to [Coast]"
 		],
@@ -3757,7 +3757,7 @@
 		"uniques": [
 			"Unbuildable",
 			"Only available <when religion is enabled>",
-			"New [Military] units start with [15] Experience [in this city]"
+			"New [Military] units start with [15] XP [in this city]"
 		]
 	},
 	{
