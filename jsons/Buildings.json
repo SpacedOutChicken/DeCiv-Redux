@@ -332,7 +332,7 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": [
-			"Hidden until [6] social policy branches have been completed",
+			"Unavailable <when number of [Completed Policy branches] is less than [6]>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
 			"Only available <when [Cultural] Victory is enabled>"
