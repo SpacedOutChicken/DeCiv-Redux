@@ -600,7 +600,7 @@
 				"name": "Monopoly Complete",
 				"uniques": [
 					"[-50]% Gold cost of acquiring tiles [in all cities]",
-					"[-15]% maintenance cost for buildings [in all cities]",
+					"[-15]% maintenance cost for [all] buildings [in all cities]",
 					"[+2 Gold, -1 Production] from every [Work Camp]",
 					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
@@ -656,7 +656,7 @@
 				"name": "Shared Vision",
 				"requires": ["Nationalization"],
 				"uniques": [
-					"[-15]% maintenance cost for buildings [in all cities]",
+					"[-15]% maintenance cost for [all] buildings [in all cities]",
 					"[+1 Production] from every specialist [in all cities]",
 					"[+10]% [Production] from every [Congress]"
 				],
