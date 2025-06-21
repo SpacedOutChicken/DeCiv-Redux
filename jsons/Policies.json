@@ -116,9 +116,9 @@
 			{
 				"name": "Reclaimers",
 				"uniques": [
-					"Double quantity of [Coal] produced",
-					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced",
+					"[+100]% [Coal] resource production",
+					"[+100]% [Oil] resource production",
+					"[+100]% [Aluminum] resource production",
 					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
 				],
 				"requires": ["Restorers"],
@@ -183,7 +183,7 @@
 				"name": "Autocracy",
 				"uniques": [
 					"[+2 Happiness, +1 Culture] [in all cities with a garrison]",
-					"Double quantity of [Slaves] produced"
+					"[+100]% [Slaves] resource production"
 				],
 				"row": 1,
 				"column": 5
@@ -507,7 +507,7 @@
 			{
 				"name": "Spoils of War",
 				"uniques": [
-					"Double quantity of [Weapons] produced",
+					"[+100]% [Weapons] resource production",
 					"Earn [33]% of the damage done to [City] units as [Gold]",
 					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
 				],
@@ -821,7 +821,7 @@
 				"uniques": [
 					"[+1 Happiness, +1 Culture, +1 Faith] from every [Data Center]",
 					"[+1 Happiness, +1 Culture, +1 Faith] from every [Decryption Center]",
-					"Double quantity of [Encrypted Data] produced"
+					"[+100]% [Encrypted Data] resource production"
 				],
 				"row": 3,
 				"column": 2
@@ -843,7 +843,7 @@
 				"name": "Mechanization Complete",
 				"uniques": [
 					"[-1] population in a random city",
-					"Quantity of strategic resources produced by the empire +[50]%",
+					"[50]% [Strategic] resource production",
 					"[+10]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
 					"[+10]% Production when constructing [All] units [in all cities] <while the empire is happy>"
 				]
