@@ -429,7 +429,7 @@
 				"uniques": [
 					"[50]% of excess happiness converted to [Culture]",
 					"[-1 Happiness] from every [Work Camp]",
-					"[-25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <when below [0] Happiness>"
+					"[-25]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <when below [0] [Happiness]>"
 				],
 				"requires": ["Protected Speech"],
 				"row": 2,
