@@ -457,8 +457,8 @@
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": [
-			"Double quantity of [Encrypted Data] produced",
-			"Double quantity of [Weapons] produced",
+			"[+100]% [Encrypted Data] resource production",
+			"[+100]% [Weapons] resource production",
 			"Cannot build [Low Tech] units",
 			"Starts with [Writing]",
 			"Starts with [Construction]",
@@ -1104,7 +1104,7 @@
 		"cityStateType": "Weapons",
 		"startBias": ["Hills"],
 		"style": "Military",
-		"uniques": ["Double quantity of [Weapons] produced"],
+		"uniques": ["[+100]% [Weapons] resource production"],
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How could we fall to the likes of you?!",
@@ -1214,7 +1214,7 @@
 		"cityStateType": "Labor",
 		"style": "",
 		"uniques": [
-			"Double quantity of [Slaves] produced"
+			"[+100]% [Slaves] resource production"
 		],
 		"declaringWar": "It's about time you came to work for us.",
 		"attacked": "Hands off the merchandise!",

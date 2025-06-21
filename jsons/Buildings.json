@@ -870,7 +870,7 @@
 		"uniqueTo": "Proklyatyye",
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Double quantity of [Slaves] produced",
+			"[+100]% [Slaves] resource production",
 			"[+1 Food, +1 Production] from every [Prison Camp]",
 			"[+1 Production] from every [Listening Post]",
 			"[+1 Happiness, +1 Culture] from every [Work Camp]",
