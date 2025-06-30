@@ -48,7 +48,7 @@ CityStateIcons/Trading
   index: -1
 CityStateIcons/Weapons
   rotate: false
-  xy: 1192, 370
+  xy: 1084, 262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -135,6 +135,27 @@ ImprovementIcons/VX Refinery
   xy: 1154, 910
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 212, 832
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 212, 832
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+StatIcons/Circle
+  rotate: false
+  xy: 212, 832
+  size: 178, 178
+  orig: 178, 178
   offset: 0, 0
   index: -1
 ImprovementIcons/Crystal Refinery
@@ -564,27 +585,6 @@ ResourceIcons/C8H17
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Circle
-  rotate: false
-  xy: 212, 832
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Circle
-  rotate: false
-  xy: 212, 832
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-StatIcons/Circle
-  rotate: false
-  xy: 212, 832
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
 ResourceIcons/Data
   rotate: false
   xy: 112, 170
@@ -811,7 +811,7 @@ ResourceIcons/VX
   index: -1
 ResourceIcons/Weapons
   rotate: false
-  xy: 1084, 262
+  xy: 1192, 370
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
