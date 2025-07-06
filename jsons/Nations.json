@@ -978,7 +978,7 @@
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 	
 		"outerColor": [34,52,52],
-		"innerColor": [266,225,157],
+		"innerColor": [255,225,157],
 		"uniqueName": "Radioactivity",
 		"uniques": [
 			"Starts with [Secrets of the Past]",
