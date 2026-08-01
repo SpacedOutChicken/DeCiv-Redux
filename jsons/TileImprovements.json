@@ -773,7 +773,8 @@
 		"uniques": [
 			"Gives a defensive bonus of [25]%",
 			"Unpillagable",
-			"Unbuildable"
+			"Unbuildable",
+			"Marks a barbarian camp"
 		]
 	}
 ]
